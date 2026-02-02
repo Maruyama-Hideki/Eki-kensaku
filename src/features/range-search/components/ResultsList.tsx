@@ -10,6 +10,8 @@ interface ResultsListProps {
   isLoading: boolean;
   error: string | null;
   originStations?: Station[];
+  timeMinutes?: number;
+  mode?: 'or' | 'and';
 }
 
 export function ResultsList({
@@ -18,6 +20,8 @@ export function ResultsList({
   isLoading,
   error,
   originStations = [],
+  timeMinutes,
+  mode,
 }: ResultsListProps) {
   if (isLoading) {
     return (

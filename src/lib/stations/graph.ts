@@ -5,6 +5,7 @@ let graphCache: StationGraph | null = null;
 
 /**
  * 2点間の距離を計算（ハバースイン公式）
+ * TODO: 距離計算ではなく駅間の所要時間を判定して計算する
  * @returns 距離（km）
  */
 function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: number): number {
