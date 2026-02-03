@@ -170,7 +170,7 @@ function StationCard({ result, originCodesMap, isSelected, onStationClick }: Sta
       </div>
 
       {/* 各起点からの時間 */}
-      {Object.keys(timesFromOrigins).length > 1 && (
+      {Object.keys(timesFromOrigins).length >= 1 && (
         <div className="mt-3 pt-3 border-t">
           <p className="text-xs text-muted-foreground mb-1">各起点からの時間:</p>
           <div className="flex flex-wrap gap-2">
