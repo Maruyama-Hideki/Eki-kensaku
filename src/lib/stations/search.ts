@@ -1,10 +1,13 @@
 import type { Station, StationGraph, SearchResult } from '@/types/station';
+import { estimateTransferTime } from './transfer';
 
 /**
  * 優先度付きキューのエントリ
+ * 状態: (駅コード, 現在の路線コード)
  */
 interface QueueEntry {
   stationCode: string;
+  lineCode: string | null; // 現在乗っている路線（起点ではnull）
   totalTime: number;
 }
 
@@ -38,7 +41,10 @@ class PriorityQueue {
     while (index > 0) {
       const parentIndex = Math.floor((index - 1) / 2);
       if (this.heap[parentIndex].totalTime <= this.heap[index].totalTime) break;
-      [this.heap[parentIndex], this.heap[index]] = [this.heap[index], this.heap[parentIndex]];
+      [this.heap[parentIndex], this.heap[index]] = [
+        this.heap[index],
+        this.heap[parentIndex],
+      ];
       index = parentIndex;
     }
   }
@@ -50,22 +56,31 @@ class PriorityQueue {
       const rightChild = 2 * index + 2;
       let smallest = index;
 
-      if (leftChild < length && this.heap[leftChild].totalTime < this.heap[smallest].totalTime) {
+      if (
+        leftChild < length &&
+        this.heap[leftChild].totalTime < this.heap[smallest].totalTime
+      ) {
         smallest = leftChild;
       }
-      if (rightChild < length && this.heap[rightChild].totalTime < this.heap[smallest].totalTime) {
+      if (
+        rightChild < length &&
+        this.heap[rightChild].totalTime < this.heap[smallest].totalTime
+      ) {
         smallest = rightChild;
       }
 
       if (smallest === index) break;
-      [this.heap[smallest], this.heap[index]] = [this.heap[index], this.heap[smallest]];
+      [this.heap[smallest], this.heap[index]] = [
+        this.heap[index],
+        this.heap[smallest],
+      ];
       index = smallest;
     }
   }
 }
 
 /**
- * ダイクストラ法による最短経路探索
+ * ダイクストラ法による最短経路探索（乗り換え時間考慮版）
  * 指定した起点から指定時間内に到達可能な駅を探索
  *
  * @param graph グラフ構造
@@ -80,44 +95,77 @@ export function searchReachableStations(
   originCode: string,
   maxTime: number
 ): SearchResult[] {
-  const distances = new Map<string, number>();
-  const visited = new Set<string>();
+  // 状態: "駅コード_路線コード" -> 最短時間
+  const stateDistances = new Map<string, number>();
+  // 駅ごとの最短時間（結果用）
+  const stationDistances = new Map<string, number>();
   const queue = new PriorityQueue();
 
-  // 起点を初期化
-  distances.set(originCode, 0);
-  queue.push({ stationCode: originCode, totalTime: 0 });
+  // 起点を初期化（どの路線にも乗っていない状態）
+  const initialState = `${originCode}_null`;
+  stateDistances.set(initialState, 0);
+  stationDistances.set(originCode, 0);
+  queue.push({ stationCode: originCode, lineCode: null, totalTime: 0 });
 
   while (!queue.isEmpty()) {
     const current = queue.pop()!;
+    const currentState = `${current.stationCode}_${current.lineCode}`;
 
-    // 既に訪問済みならスキップ
-    if (visited.has(current.stationCode)) continue;
-    visited.add(current.stationCode);
+    // この状態での最短時間より長ければスキップ
+    const bestTime = stateDistances.get(currentState);
+    if (bestTime !== undefined && current.totalTime > bestTime) continue;
 
     // 最大時間を超えたらスキップ
     if (current.totalTime > maxTime) continue;
 
+    // 現在の駅の情報を取得
+    const currentStation = stationMap.get(current.stationCode);
+    if (!currentStation) continue;
+
     // 隣接駅を探索
     const edges = graph.get(current.stationCode) || [];
     for (const edge of edges) {
-      const newTime = current.totalTime + edge.time;
+      let newTime = current.totalTime + edge.time;
+
+      // 乗り換えが必要かチェック
+      const needsTransfer =
+        current.lineCode !== null && current.lineCode !== edge.line;
+
+      if (needsTransfer) {
+        // 乗り換え時間を加算（現在の駅での乗り換え）
+        const transferTime = estimateTransferTime(currentStation);
+        newTime += transferTime;
+      }
 
       // 最大時間を超えるならスキップ
       if (newTime > maxTime) continue;
 
+      // 新しい状態
+      const newState = `${edge.station}_${edge.line}`;
+
       // より短い経路が見つかった場合のみ更新
-      const existingTime = distances.get(edge.station);
-      if (existingTime === undefined || newTime < existingTime) {
-        distances.set(edge.station, newTime);
-        queue.push({ stationCode: edge.station, totalTime: newTime });
+      const existingStateTime = stateDistances.get(newState);
+      if (existingStateTime === undefined || newTime < existingStateTime) {
+        stateDistances.set(newState, newTime);
+
+        // 駅ごとの最短時間も更新
+        const existingStationTime = stationDistances.get(edge.station);
+        if (existingStationTime === undefined || newTime < existingStationTime) {
+          stationDistances.set(edge.station, newTime);
+        }
+
+        queue.push({
+          stationCode: edge.station,
+          lineCode: edge.line,
+          totalTime: newTime,
+        });
       }
     }
   }
 
   // 結果を構築
   const results: SearchResult[] = [];
-  for (const [stationCode, totalTime] of distances) {
+  for (const [stationCode, totalTime] of stationDistances) {
     const station = stationMap.get(stationCode);
     if (station) {
       results.push({

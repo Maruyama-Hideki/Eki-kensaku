@@ -46,7 +46,8 @@ export function ResultsList({
     );
   }
 
-  if (count === 0 && results.length === 0) {
+  // 検索前（起点駅が未選択）
+  if (originStations.length === 0) {
     return (
       <Card>
         <CardContent className="p-6">
@@ -58,13 +59,41 @@ export function ResultsList({
     );
   }
 
+  // 検索後だが結果が0件
+  if (count === 0 && results.length === 0) {
+    return (
+      <Card>
+        <CardContent className="p-6">
+          <p className="text-muted-foreground text-center">
+            条件にあう駅が見つかりませんでした
+          </p>
+        </CardContent>
+      </Card>
+    );
+  }
+
   // 起点駅のコードマップを作成
   const originCodesMap = new Map(originStations.map((s) => [s.code, s.name]));
+
+  // 検索条件の表示テキスト
+  const originNames = originStations.map((s) => s.name).join('、');
+  const modeText = mode === 'and' ? 'すべてから' : 'いずれかから';
 
   return (
     <Card>
       <CardHeader>
         <CardTitle>検索結果 ({count}件)</CardTitle>
+        {originStations.length > 0 && timeMinutes && (
+          <p className="text-sm text-muted-foreground mt-1">
+            <span className="font-medium text-foreground">{originNames}</span>
+            {originStations.length > 1 && (
+              <span className="mx-1">の{modeText}</span>
+            )}
+            から
+            <span className="font-medium text-foreground mx-1">{timeMinutes}分</span>
+            以内
+          </p>
+        )}
       </CardHeader>
       <CardContent>
         {results.length === 0 ? (

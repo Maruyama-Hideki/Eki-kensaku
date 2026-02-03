@@ -1,54 +1,24 @@
-import type { Station, Connection, StationGraph, GraphEdge } from '@/types/station';
+import type { Station, ConnectionWithTime, StationGraph } from '@/types/station';
 
 // グラフのキャッシュ
 let graphCache: StationGraph | null = null;
 
 /**
- * 2点間の距離を計算（ハバースイン公式）
- * TODO: 距離計算ではなく駅間の所要時間を判定して計算する
- * @returns 距離（km）
- */
-function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: number): number {
-  const R = 6371; // 地球の半径（km）
-  const dLat = toRad(lat2 - lat1);
-  const dLon = toRad(lon2 - lon1);
-  const a =
-    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-    Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) * Math.sin(dLon / 2);
-  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-  return R * c;
-}
-
-function toRad(deg: number): number {
-  return deg * (Math.PI / 180);
-}
-
-/**
- * 駅間の所要時間を計算
- * 距離に基づいて計算（平均時速 30km/h = 0.5km/分 として計算）
- * 最小2分、最大10分
- */
-function calculateTravelTime(station1: Station, station2: Station): number {
-  const distance = calculateDistance(station1.lat, station1.lon, station2.lat, station2.lon);
-  // 平均時速 30km/h（都市部の電車）
-  const time = distance / 0.5;
-  // 最小2分、最大10分に制限
-  return Math.max(2, Math.min(10, Math.round(time)));
-}
-
-/**
- * 接続情報からグラフを構築
+ * 所要時間付き接続情報からグラフを構築
  * @param stations 駅リスト
- * @param connections 接続情報リスト
+ * @param connections 所要時間付き接続情報リスト
  * @returns グラフ構造
  */
-export function buildGraph(stations: Station[], connections: Connection[]): StationGraph {
+export function buildGraph(
+  stations: Station[],
+  connections: ConnectionWithTime[]
+): StationGraph {
   if (graphCache) {
     return graphCache;
   }
 
   // 駅コード -> 駅情報のマップを作成
-  const stationMap = new Map<string, Station>(stations.map(s => [s.code, s]));
+  const stationMap = new Map<string, Station>(stations.map((s) => [s.code, s]));
 
   // グラフを初期化
   const graph: StationGraph = new Map();
@@ -67,12 +37,13 @@ export function buildGraph(stations: Station[], connections: Connection[]): Stat
       continue;
     }
 
-    const travelTime = calculateTravelTime(station1, station2);
+    // YAMLから生成された所要時間を使用
+    const travelTime = conn.time;
 
     // station1 -> station2
     const edges1 = graph.get(conn.from) || [];
     // 重複チェック
-    if (!edges1.some(e => e.station === conn.to && e.line === conn.line)) {
+    if (!edges1.some((e) => e.station === conn.to && e.line === conn.line)) {
       edges1.push({
         station: conn.to,
         time: travelTime,
@@ -83,7 +54,7 @@ export function buildGraph(stations: Station[], connections: Connection[]): Stat
 
     // station2 -> station1（双方向）
     const edges2 = graph.get(conn.to) || [];
-    if (!edges2.some(e => e.station === conn.from && e.line === conn.line)) {
+    if (!edges2.some((e) => e.station === conn.from && e.line === conn.line)) {
       edges2.push({
         station: conn.from,
         time: travelTime,
@@ -130,7 +101,7 @@ export function getGraphStats(graph: StationGraph): {
   return {
     nodeCount,
     edgeCount,
-    avgDegree: edgeCount * 2 / nodeCount,
+    avgDegree: (edgeCount * 2) / nodeCount,
     isolatedNodes,
   };
 }

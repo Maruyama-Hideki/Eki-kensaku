@@ -9,7 +9,8 @@
     "lint": "eslint",
     "generate:times": "tsx data/scripts/generate-initial-times.ts",
     "build:connections": "tsx data/scripts/build-connections.ts",
-    "prebuild": "npm run build:connections"
+    "build:graph": "tsx data/scripts/build-graph.ts",
+    "prebuild": "npm run build:connections && npm run build:graph"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",

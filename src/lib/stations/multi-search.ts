@@ -77,6 +77,12 @@ export async function searchMultipleOriginsParallel(
     filteredResults = Array.from(mergedResults.values());
   }
 
+  // 起点駅を除外
+  const originSet = new Set(origins);
+  filteredResults = filteredResults.filter(
+    (result) => !originSet.has(result.station.code)
+  );
+
   // 所要時間でソート
   filteredResults.sort((a, b) => a.totalTime - b.totalTime);
 

@@ -8,6 +8,10 @@ export default function Home() {
   const { data: stationsData } = useStations();
   const { results, count, isLoading, error, search } = useRangeSearch();
   const [selectedOrigins, setSelectedOrigins] = useState<Station[]>([]);
+  const [searchParams, setSearchParams] = useState<{
+    timeMinutes: number;
+    mode: 'or' | 'and';
+  } | null>(null);
 
   const handleSearch = (origins: string[], timeMinutes: number, mode: 'or' | 'and') => {
     // 選択された起点駅を保存（結果表示用）
@@ -16,6 +20,9 @@ export default function Home() {
       .map((code) => stations.find((s) => s.code === code))
       .filter((s): s is Station => s !== undefined);
     setSelectedOrigins(originStations);
+
+    // 検索条件を保存
+    setSearchParams({ timeMinutes, mode });
 
     search(origins, timeMinutes, mode);
   };
@@ -46,6 +53,8 @@ export default function Home() {
               isLoading={isLoading}
               error={error}
               originStations={selectedOrigins}
+              timeMinutes={searchParams?.timeMinutes}
+              mode={searchParams?.mode}
             />
           </div>
         </div>

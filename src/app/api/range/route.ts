@@ -1,9 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
-import { loadStations, loadConnections } from '@/lib/stations/loader';
-import { buildGraph } from '@/lib/stations/graph';
+import { loadGraphAndStationMap } from '@/lib/stations/loader';
 import { searchMultipleOriginsParallel } from '@/lib/stations/multi-search';
-import type { Station, StationGraph } from '@/types/station';
 
 // リクエストスキーマ
 const RangeSearchSchema = z.object({
@@ -11,32 +9,6 @@ const RangeSearchSchema = z.object({
   timeMinutes: z.number().min(1).max(180, '最大180分まで指定可能です'),
   mode: z.enum(['or', 'and']).default('or'),
 });
-
-// グラフと駅マップのキャッシュ
-let cachedGraph: StationGraph | null = null;
-let cachedStationMap: Map<string, Station> | null = null;
-
-async function getGraphAndStationMap(): Promise<{
-  graph: StationGraph;
-  stationMap: Map<string, Station>;
-}> {
-  if (cachedGraph && cachedStationMap) {
-    return { graph: cachedGraph, stationMap: cachedStationMap };
-  }
-
-  const [stations, connections] = await Promise.all([
-    loadStations(),
-    loadConnections(),
-  ]);
-
-  const graph = buildGraph(stations, connections);
-  const stationMap = new Map(stations.map(s => [s.code, s]));
-
-  cachedGraph = graph;
-  cachedStationMap = stationMap;
-
-  return { graph, stationMap };
-}
 
 /**
  * POST /api/range
@@ -60,11 +32,11 @@ export async function POST(request: NextRequest) {
 
     const { origins, timeMinutes, mode } = parseResult.data;
 
-    // グラフと駅マップを取得
-    const { graph, stationMap } = await getGraphAndStationMap();
+    // ビルド済みグラフと駅マップを取得
+    const { graph, stationMap } = await loadGraphAndStationMap();
 
     // 存在しない駅コードをチェック
-    const invalidOrigins = origins.filter(code => !stationMap.has(code));
+    const invalidOrigins = origins.filter((code) => !stationMap.has(code));
     if (invalidOrigins.length > 0) {
       return NextResponse.json(
         {
