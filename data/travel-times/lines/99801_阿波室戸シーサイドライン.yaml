@@ -1,0 +1,24 @@
+line_code: '99801'
+line_name: 阿波室戸シーサイドライン
+company: 阿佐海岸鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1180430'
+    from_name: 海部
+    to: '9980102'
+    to_name: 宍喰
+    time: 9
+    distance: 5.59
+  - from: '9980102'
+    from_name: 宍喰
+    to: '9980103'
+    to_name: 甲浦
+    time: 4
+    distance: 2.48
+  - from: '1180429'
+    from_name: 阿波海南
+    to: '1180430'
+    to_name: 海部
+    time: 3
+    distance: 1.44

@@ -1,0 +1,246 @@
+line_code: '99711'
+line_name: 広電２号線(宮島線)
+company: 広島電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1161115'
+    from_name: 広島
+    to: '9971002'
+    to_name: 猿猴橋町
+    time: 2
+    distance: 0.27
+  - from: '9971002'
+    from_name: 猿猴橋町
+    to: '9971003'
+    to_name: 的場町
+    time: 2
+    distance: 0.21
+  - from: '9971003'
+    from_name: 的場町
+    to: '9971004'
+    to_name: 稲荷町
+    time: 2
+    distance: 0.32
+  - from: '9971004'
+    from_name: 稲荷町
+    to: '9971005'
+    to_name: 銀山町
+    time: 2
+    distance: 0.36
+  - from: '9971005'
+    from_name: 銀山町
+    to: '9971006'
+    to_name: 胡町
+    time: 2
+    distance: 0.26
+  - from: '9971006'
+    from_name: 胡町
+    to: '9971007'
+    to_name: 八丁堀
+    time: 2
+    distance: 0.16
+  - from: '9971007'
+    from_name: 八丁堀
+    to: '9971008'
+    to_name: 立町
+    time: 2
+    distance: 0.24
+  - from: '9971008'
+    from_name: 立町
+    to: '9971009'
+    to_name: 紙屋町東
+    time: 2
+    distance: 0.26
+  - from: '9971009'
+    from_name: 紙屋町東
+    to: '9971110'
+    to_name: 紙屋町西
+    time: 2
+    distance: 0.12
+  - from: '9971110'
+    from_name: 紙屋町西
+    to: '9971111'
+    to_name: 原爆ドーム前
+    time: 2
+    distance: 0.29
+  - from: '9971111'
+    from_name: 原爆ドーム前
+    to: '9971112'
+    to_name: 本川町
+    time: 2
+    distance: 0.33
+  - from: '9971112'
+    from_name: 本川町
+    to: '9971113'
+    to_name: 十日市町
+    time: 2
+    distance: 0.31
+  - from: '9971113'
+    from_name: 十日市町
+    to: '9971114'
+    to_name: 土橋
+    time: 2
+    distance: 0.3
+  - from: '9971114'
+    from_name: 土橋
+    to: '9971115'
+    to_name: 小網町
+    time: 2
+    distance: 0.19
+  - from: '9971115'
+    from_name: 小網町
+    to: '9971116'
+    to_name: 天満町
+    time: 2
+    distance: 0.34
+  - from: '9971116'
+    from_name: 天満町
+    to: '9971117'
+    to_name: 観音町
+    time: 2
+    distance: 0.2
+  - from: '9971117'
+    from_name: 観音町
+    to: '9971118'
+    to_name: 西観音町
+    time: 2
+    distance: 0.22
+  - from: '9971118'
+    from_name: 西観音町
+    to: '9971119'
+    to_name: 福島町
+    time: 2
+    distance: 0.29
+  - from: '9971119'
+    from_name: 福島町
+    to: '1161117'
+    to_name: 西広島
+    time: 2
+    distance: 0.63
+  - from: '1161117'
+    from_name: 西広島
+    to: '9971121'
+    to_name: 東高須
+    time: 2
+    distance: 0.97
+  - from: '9971121'
+    from_name: 東高須
+    to: '9971122'
+    to_name: 高須
+    time: 2
+    distance: 0.37
+  - from: '9971122'
+    from_name: 高須
+    to: '9971123'
+    to_name: 古江
+    time: 2
+    distance: 0.65
+  - from: '9971123'
+    from_name: 古江
+    to: '9971124'
+    to_name: 草津
+    time: 2
+    distance: 0.86
+  - from: '9971124'
+    from_name: 草津
+    to: '9971125'
+    to_name: 草津南
+    time: 2
+    distance: 0.63
+  - from: '9971125'
+    from_name: 草津南
+    to: '1161118'
+    to_name: 新井口
+    time: 2
+    distance: 0.66
+  - from: '1161118'
+    from_name: 新井口
+    to: '9971127'
+    to_name: 井口
+    time: 2
+    distance: 0.71
+  - from: '9971127'
+    from_name: 井口
+    to: '9971128'
+    to_name: 修大協創中高前
+    time: 2
+    distance: 1.1
+  - from: '9971128'
+    from_name: 修大協創中高前
+    to: '1161119'
+    to_name: 五日市
+    time: 2
+    distance: 0.65
+  - from: '1161119'
+    from_name: 五日市
+    to: '9971130'
+    to_name: 佐伯区役所前
+    time: 2
+    distance: 0.57
+  - from: '9971130'
+    from_name: 佐伯区役所前
+    to: '9971131'
+    to_name: 楽々園
+    time: 2
+    distance: 0.9
+  - from: '9971131'
+    from_name: 楽々園
+    to: '9971132'
+    to_name: 山陽女学園前
+    time: 2
+    distance: 1.02
+  - from: '9971132'
+    from_name: 山陽女学園前
+    to: '1161120'
+    to_name: 廿日市
+    time: 2
+    distance: 0.69
+  - from: '1161120'
+    from_name: 廿日市
+    to: '9971134'
+    to_name: 廿日市市役所前（平良）
+    time: 2
+    distance: 0.78
+  - from: '9971134'
+    from_name: 廿日市市役所前（平良）
+    to: '1161121'
+    to_name: 宮内串戸
+    time: 2
+    distance: 0.77
+  - from: '1161121'
+    from_name: 宮内串戸
+    to: '9971136'
+    to_name: ＪＡ広島病院前
+    time: 2
+    distance: 0.46
+  - from: '9971136'
+    from_name: ＪＡ広島病院前
+    to: '9971137'
+    to_name: 地御前
+    time: 2
+    distance: 0.4
+  - from: '9971137'
+    from_name: 地御前
+    to: '9971138'
+    to_name: 阿品東
+    time: 3
+    distance: 1.61
+  - from: '9971138'
+    from_name: 阿品東
+    to: '1161122'
+    to_name: 阿品
+    time: 2
+    distance: 0.55
+  - from: '1161122'
+    from_name: 阿品
+    to: '9971140'
+    to_name: 宮島ボートレース場
+    time: 2
+    distance: 1.29
+  - from: '9971140'
+    from_name: 宮島ボートレース場
+    to: '1161123'
+    to_name: 宮島口
+    time: 2
+    distance: 0.34

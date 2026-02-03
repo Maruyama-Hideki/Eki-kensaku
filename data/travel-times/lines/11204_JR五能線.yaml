@@ -1,0 +1,258 @@
+line_code: '11204'
+line_name: JR五能線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1120240'
+    from_name: 東能代
+    to: '1120402'
+    to_name: 能代
+    time: 5
+    distance: 3.24
+  - from: '1120402'
+    from_name: 能代
+    to: '1120403'
+    to_name: 向能代
+    time: 4
+    distance: 2.18
+  - from: '1120403'
+    from_name: 向能代
+    to: '1120404'
+    to_name: 北能代
+    time: 5
+    distance: 3.2
+  - from: '1120404'
+    from_name: 北能代
+    to: '1120405'
+    to_name: 鳥形
+    time: 3
+    distance: 1.94
+  - from: '1120405'
+    from_name: 鳥形
+    to: '1120406'
+    to_name: 沢目
+    time: 5
+    distance: 2.72
+  - from: '1120406'
+    from_name: 沢目
+    to: '1120407'
+    to_name: 東八森
+    time: 7
+    distance: 4.05
+  - from: '1120407'
+    from_name: 東八森
+    to: '1120408'
+    to_name: 八森
+    time: 7
+    distance: 4.54
+  - from: '1120408'
+    from_name: 八森
+    to: '1120409'
+    to_name: 滝ノ間
+    time: 3
+    distance: 1.64
+  - from: '1120409'
+    from_name: 滝ノ間
+    to: '1120410'
+    to_name: あきた白神
+    time: 3
+    distance: 1.43
+  - from: '1120410'
+    from_name: あきた白神
+    to: '1120411'
+    to_name: 岩館
+    time: 5
+    distance: 2.85
+  - from: '1120411'
+    from_name: 岩館
+    to: '1120412'
+    to_name: 大間越
+    time: 15
+    distance: 9.68
+  - from: '1120412'
+    from_name: 大間越
+    to: '1120413'
+    to_name: 白神岳登山口
+    time: 4
+    distance: 2.35
+  - from: '1120413'
+    from_name: 白神岳登山口
+    to: '1120414'
+    to_name: 松神
+    time: 4
+    distance: 2.4
+  - from: '1120414'
+    from_name: 松神
+    to: '1120415'
+    to_name: 十二湖
+    time: 3
+    distance: 1.89
+  - from: '1120415'
+    from_name: 十二湖
+    to: '1120416'
+    to_name: 陸奥岩崎
+    time: 6
+    distance: 3.84
+  - from: '1120416'
+    from_name: 陸奥岩崎
+    to: '1120417'
+    to_name: 陸奥沢辺
+    time: 4
+    distance: 2.49
+  - from: '1120417'
+    from_name: 陸奥沢辺
+    to: '1120418'
+    to_name: ウェスパ椿山
+    time: 4
+    distance: 2.15
+  - from: '1120418'
+    from_name: ウェスパ椿山
+    to: '1120419'
+    to_name: 艫作
+    time: 3
+    distance: 1.82
+  - from: '1120419'
+    from_name: 艫作
+    to: '1120420'
+    to_name: 横磯
+    time: 5
+    distance: 3.24
+  - from: '1120420'
+    from_name: 横磯
+    to: '1120421'
+    to_name: 深浦
+    time: 6
+    distance: 3.96
+  - from: '1120421'
+    from_name: 深浦
+    to: '1120422'
+    to_name: 広戸
+    time: 6
+    distance: 3.47
+  - from: '1120422'
+    from_name: 広戸
+    to: '1120423'
+    to_name: 追良瀬
+    time: 3
+    distance: 1.8
+  - from: '1120423'
+    from_name: 追良瀬
+    to: '1120424'
+    to_name: 驫木
+    time: 4
+    distance: 2.58
+  - from: '1120424'
+    from_name: 驫木
+    to: '1120425'
+    to_name: 風合瀬
+    time: 5
+    distance: 2.9
+  - from: '1120425'
+    from_name: 風合瀬
+    to: '1120426'
+    to_name: 大戸瀬
+    time: 7
+    distance: 4.51
+  - from: '1120426'
+    from_name: 大戸瀬
+    to: '1120427'
+    to_name: 千畳敷
+    time: 4
+    distance: 2.02
+  - from: '1120427'
+    from_name: 千畳敷
+    to: '1120428'
+    to_name: 北金ケ沢
+    time: 7
+    distance: 4.16
+  - from: '1120428'
+    from_name: 北金ケ沢
+    to: '1120429'
+    to_name: 陸奥柳田
+    time: 4
+    distance: 2.45
+  - from: '1120429'
+    from_name: 陸奥柳田
+    to: '1120430'
+    to_name: 陸奥赤石
+    time: 7
+    distance: 4.01
+  - from: '1120430'
+    from_name: 陸奥赤石
+    to: '1120431'
+    to_name: 鰺ケ沢
+    time: 8
+    distance: 5.16
+  - from: '1120431'
+    from_name: 鰺ケ沢
+    to: '1120432'
+    to_name: 鳴沢
+    time: 7
+    distance: 4.03
+  - from: '1120432'
+    from_name: 鳴沢
+    to: '1120433'
+    to_name: 越水
+    time: 5
+    distance: 2.67
+  - from: '1120433'
+    from_name: 越水
+    to: '1120434'
+    to_name: 陸奥森田
+    time: 6
+    distance: 3.46
+  - from: '1120434'
+    from_name: 陸奥森田
+    to: '1120435'
+    to_name: 中田
+    time: 4
+    distance: 2.24
+  - from: '1120435'
+    from_name: 中田
+    to: '1120436'
+    to_name: 木造
+    time: 4
+    distance: 2.58
+  - from: '1120436'
+    from_name: 木造
+    to: '1120437'
+    to_name: 五所川原
+    time: 8
+    distance: 5.1
+  - from: '1120437'
+    from_name: 五所川原
+    to: '1120438'
+    to_name: 陸奥鶴田
+    time: 9
+    distance: 5.83
+  - from: '1120438'
+    from_name: 陸奥鶴田
+    to: '1120439'
+    to_name: 鶴泊
+    time: 4
+    distance: 2.4
+  - from: '1120439'
+    from_name: 鶴泊
+    to: '1120440'
+    to_name: 板柳
+    time: 8
+    distance: 4.77
+  - from: '1120440'
+    from_name: 板柳
+    to: '1120441'
+    to_name: 林崎
+    time: 5
+    distance: 2.9
+  - from: '1120441'
+    from_name: 林崎
+    to: '1120442'
+    to_name: 藤崎
+    time: 5
+    distance: 2.87
+  - from: '1120442'
+    from_name: 藤崎
+    to: '1120259'
+    to_name: 川部
+    time: 4
+    distance: 2.01

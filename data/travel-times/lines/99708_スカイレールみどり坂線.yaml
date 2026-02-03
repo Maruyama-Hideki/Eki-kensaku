@@ -1,0 +1,18 @@
+line_code: '99708'
+line_name: スカイレールみどり坂線
+company: スカイレールサービス
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1161109'
+    from_name: 瀬野
+    to: '9970802'
+    to_name: みどり中街
+    time: 2
+    distance: 0.66
+  - from: '9970802'
+    from_name: みどり中街
+    to: '9970803'
+    to_name: みどり中央
+    time: 2
+    distance: 0.57

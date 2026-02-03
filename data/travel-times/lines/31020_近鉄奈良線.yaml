@@ -1,0 +1,114 @@
+line_code: '31020'
+line_name: 近鉄奈良線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3100106'
+    from_name: 布施
+    to: '1164103'
+    to_name: ＪＲ河内永和
+    time: 2
+    distance: 0.8
+  - from: '1164103'
+    from_name: ＪＲ河内永和
+    to: '3102003'
+    to_name: 河内小阪
+    time: 2
+    distance: 0.85
+  - from: '3102003'
+    from_name: 河内小阪
+    to: '3102004'
+    to_name: 八戸ノ里
+    time: 2
+    distance: 0.73
+  - from: '3102004'
+    from_name: 八戸ノ里
+    to: '3102005'
+    to_name: 若江岩田
+    time: 3
+    distance: 1.72
+  - from: '3102005'
+    from_name: 若江岩田
+    to: '3102006'
+    to_name: 河内花園
+    time: 2
+    distance: 0.92
+  - from: '3102006'
+    from_name: 河内花園
+    to: '3102007'
+    to_name: 東花園
+    time: 2
+    distance: 0.77
+  - from: '3102007'
+    from_name: 東花園
+    to: '3102008'
+    to_name: 瓢箪山
+    time: 2
+    distance: 1.13
+  - from: '3102008'
+    from_name: 瓢箪山
+    to: '3102009'
+    to_name: 枚岡
+    time: 2
+    distance: 1.18
+  - from: '3102009'
+    from_name: 枚岡
+    to: '3102010'
+    to_name: 額田
+    time: 2
+    distance: 0.68
+  - from: '3102010'
+    from_name: 額田
+    to: '3102011'
+    to_name: 石切
+    time: 2
+    distance: 1.12
+  - from: '3102011'
+    from_name: 石切
+    to: '3101601'
+    to_name: 生駒
+    time: 7
+    distance: 4.04
+  - from: '3101601'
+    from_name: 生駒
+    to: '3102013'
+    to_name: 東生駒
+    time: 2
+    distance: 1.15
+  - from: '3102013'
+    from_name: 東生駒
+    to: '3102014'
+    to_name: 富雄
+    time: 4
+    distance: 2.24
+  - from: '3102014'
+    from_name: 富雄
+    to: '3102015'
+    to_name: 学園前
+    time: 3
+    distance: 1.4
+  - from: '3102015'
+    from_name: 学園前
+    to: '3102016'
+    to_name: 菖蒲池
+    time: 2
+    distance: 1.07
+  - from: '3102016'
+    from_name: 菖蒲池
+    to: '3100201'
+    to_name: 大和西大寺
+    time: 4
+    distance: 2.06
+  - from: '3100201'
+    from_name: 大和西大寺
+    to: '3102018'
+    to_name: 新大宮
+    time: 5
+    distance: 2.68
+  - from: '3102018'
+    from_name: 新大宮
+    to: '3102019'
+    to_name: 近鉄奈良
+    time: 3
+    distance: 1.53

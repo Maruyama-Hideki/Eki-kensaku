@@ -1,0 +1,108 @@
+line_code: '30016'
+line_name: 名鉄各務原線
+company: 名古屋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1141606'
+    from_name: 鵜沼
+    to: '3001602'
+    to_name: 鵜沼宿
+    time: 2
+    distance: 1.16
+  - from: '3001602'
+    from_name: 鵜沼宿
+    to: '3001603'
+    to_name: 羽場
+    time: 2
+    distance: 1.01
+  - from: '3001603'
+    from_name: 羽場
+    to: '3001604'
+    to_name: 苧ヶ瀬
+    time: 2
+    distance: 0.87
+  - from: '3001604'
+    from_name: 苧ヶ瀬
+    to: '1141605'
+    to_name: 各務ケ原
+    time: 2
+    distance: 1.01
+  - from: '1141605'
+    from_name: 各務ケ原
+    to: '3001606'
+    to_name: 二十軒
+    time: 2
+    distance: 1.15
+  - from: '3001606'
+    from_name: 二十軒
+    to: '3001607'
+    to_name: 三柿野
+    time: 2
+    distance: 1.2
+  - from: '3001607'
+    from_name: 三柿野
+    to: '3001608'
+    to_name: 六軒
+    time: 2
+    distance: 1.32
+  - from: '3001608'
+    from_name: 六軒
+    to: '3001609'
+    to_name: 各務原市役所前
+    time: 2
+    distance: 1.31
+  - from: '3001609'
+    from_name: 各務原市役所前
+    to: '3001610'
+    to_name: 市民公園前
+    time: 2
+    distance: 0.48
+  - from: '3001610'
+    from_name: 市民公園前
+    to: '1141603'
+    to_name: 那加
+    time: 2
+    distance: 0.58
+  - from: '1141603'
+    from_name: 那加
+    to: '3001612'
+    to_name: 新加納
+    time: 2
+    distance: 1.01
+  - from: '3001612'
+    from_name: 新加納
+    to: '3001613'
+    to_name: 高田橋
+    time: 2
+    distance: 1.18
+  - from: '3001613'
+    from_name: 高田橋
+    to: '3001614'
+    to_name: 手力
+    time: 2
+    distance: 0.64
+  - from: '3001614'
+    from_name: 手力
+    to: '3001615'
+    to_name: 切通
+    time: 2
+    distance: 0.83
+  - from: '3001615'
+    from_name: 切通
+    to: '3001616'
+    to_name: 細畑
+    time: 2
+    distance: 0.96
+  - from: '3001616'
+    from_name: 細畑
+    to: '3001617'
+    to_name: 田神
+    time: 3
+    distance: 1.59
+  - from: '3001617'
+    from_name: 田神
+    to: '3000160'
+    to_name: 名鉄岐阜
+    time: 2
+    distance: 1.1

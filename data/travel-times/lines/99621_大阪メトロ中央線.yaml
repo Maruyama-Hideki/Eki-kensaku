@@ -1,0 +1,84 @@
+line_code: '99621'
+line_name: 大阪メトロ中央線
+company: Osaka Metro
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9962101'
+    from_name: コスモスクエア
+    to: '9962102'
+    to_name: 大阪港
+    time: 4
+    distance: 2.34
+  - from: '9962102'
+    from_name: 大阪港
+    to: '9962103'
+    to_name: 朝潮橋
+    time: 3
+    distance: 1.55
+  - from: '9962103'
+    from_name: 朝潮橋
+    to: '1162306'
+    to_name: 弁天町
+    time: 3
+    distance: 1.54
+  - from: '1162306'
+    from_name: 弁天町
+    to: '3500208'
+    to_name: 九条
+    time: 2
+    distance: 1.2
+  - from: '3500208'
+    from_name: 九条
+    to: '9962106'
+    to_name: 阿波座
+    time: 3
+    distance: 1.4
+  - from: '9962106'
+    from_name: 阿波座
+    to: '9961808'
+    to_name: 本町
+    time: 2
+    distance: 1.16
+  - from: '9961808'
+    from_name: 本町
+    to: '9962108'
+    to_name: 堺筋本町
+    time: 2
+    distance: 0.73
+  - from: '9962108'
+    from_name: 堺筋本町
+    to: '9961913'
+    to_name: 谷町四丁目
+    time: 2
+    distance: 0.95
+  - from: '9961913'
+    from_name: 谷町四丁目
+    to: '1162315'
+    to_name: 森ノ宮
+    time: 3
+    distance: 1.54
+  - from: '1162315'
+    from_name: 森ノ宮
+    to: '9962111'
+    to_name: 緑橋
+    time: 2
+    distance: 1.03
+  - from: '9962111'
+    from_name: 緑橋
+    to: '9962112'
+    to_name: 深江橋
+    time: 2
+    distance: 1.11
+  - from: '9962112'
+    from_name: 深江橋
+    to: '1164102'
+    to_name: 高井田中央
+    time: 3
+    distance: 1.39
+  - from: '1164102'
+    from_name: 高井田中央
+    to: '3102301'
+    to_name: 長田
+    time: 3
+    distance: 1.79

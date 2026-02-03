@@ -1,0 +1,246 @@
+line_code: '11103'
+line_name: JR函館本線(小樽～旭川)
+company: JR北海道
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1110219'
+    from_name: 小樽
+    to: '1110302'
+    to_name: 南小樽
+    time: 3
+    distance: 1.65
+  - from: '1110302'
+    from_name: 南小樽
+    to: '1110303'
+    to_name: 小樽築港
+    time: 3
+    distance: 1.83
+  - from: '1110303'
+    from_name: 小樽築港
+    to: '1110304'
+    to_name: 朝里
+    time: 5
+    distance: 2.86
+  - from: '1110304'
+    from_name: 朝里
+    to: '1110305'
+    to_name: 銭函
+    time: 13
+    distance: 8.63
+  - from: '1110305'
+    from_name: 銭函
+    to: '1110306'
+    to_name: ほしみ
+    time: 5
+    distance: 2.78
+  - from: '1110306'
+    from_name: ほしみ
+    to: '1110307'
+    to_name: 星置
+    time: 3
+    distance: 1.59
+  - from: '1110307'
+    from_name: 星置
+    to: '1110308'
+    to_name: 稲穂
+    time: 2
+    distance: 1.09
+  - from: '1110308'
+    from_name: 稲穂
+    to: '1110309'
+    to_name: 手稲
+    time: 3
+    distance: 1.91
+  - from: '1110309'
+    from_name: 手稲
+    to: '1110310'
+    to_name: 稲積公園
+    time: 3
+    distance: 1.42
+  - from: '1110310'
+    from_name: 稲積公園
+    to: '1110311'
+    to_name: 発寒
+    time: 4
+    distance: 2.13
+  - from: '1110311'
+    from_name: 発寒
+    to: '1110312'
+    to_name: 発寒中央
+    time: 3
+    distance: 1.83
+  - from: '1110312'
+    from_name: 発寒中央
+    to: '1110313'
+    to_name: 琴似
+    time: 3
+    distance: 1.35
+  - from: '1110313'
+    from_name: 琴似
+    to: '1110314'
+    to_name: 桑園
+    time: 4
+    distance: 2.34
+  - from: '1110314'
+    from_name: 桑園
+    to: '1110315'
+    to_name: 札幌
+    time: 3
+    distance: 1.54
+  - from: '1110315'
+    from_name: 札幌
+    to: '1110316'
+    to_name: 苗穂
+    time: 4
+    distance: 2.17
+  - from: '1110316'
+    from_name: 苗穂
+    to: '1110317'
+    to_name: 白石
+    time: 5
+    distance: 3.31
+  - from: '1110317'
+    from_name: 白石
+    to: '1110318'
+    to_name: 厚別
+    time: 7
+    distance: 4.21
+  - from: '1110318'
+    from_name: 厚別
+    to: '1110319'
+    to_name: 森林公園
+    time: 3
+    distance: 1.91
+  - from: '1110319'
+    from_name: 森林公園
+    to: '1110320'
+    to_name: 大麻
+    time: 4
+    distance: 2.18
+  - from: '1110320'
+    from_name: 大麻
+    to: '1110321'
+    to_name: 野幌
+    time: 6
+    distance: 3.49
+  - from: '1110321'
+    from_name: 野幌
+    to: '1110322'
+    to_name: 高砂
+    time: 2
+    distance: 1.22
+  - from: '1110322'
+    from_name: 高砂
+    to: '1110323'
+    to_name: 江別
+    time: 3
+    distance: 1.72
+  - from: '1110323'
+    from_name: 江別
+    to: '1110324'
+    to_name: 豊幌
+    time: 10
+    distance: 6.23
+  - from: '1110324'
+    from_name: 豊幌
+    to: '1110325'
+    to_name: 幌向
+    time: 5
+    distance: 3.02
+  - from: '1110325'
+    from_name: 幌向
+    to: '1110326'
+    to_name: 上幌向
+    time: 9
+    distance: 5.9
+  - from: '1110326'
+    from_name: 上幌向
+    to: '1110327'
+    to_name: 岩見沢
+    time: 7
+    distance: 4.35
+  - from: '1110327'
+    from_name: 岩見沢
+    to: '1110328'
+    to_name: 峰延
+    time: 13
+    distance: 8.08
+  - from: '1110328'
+    from_name: 峰延
+    to: '1110329'
+    to_name: 光珠内
+    time: 6
+    distance: 3.94
+  - from: '1110329'
+    from_name: 光珠内
+    to: '1110330'
+    to_name: 美唄
+    time: 7
+    distance: 4.47
+  - from: '1110330'
+    from_name: 美唄
+    to: '1110331'
+    to_name: 茶志内
+    time: 7
+    distance: 4.44
+  - from: '1110331'
+    from_name: 茶志内
+    to: '1110332'
+    to_name: 奈井江
+    time: 10
+    distance: 6.12
+  - from: '1110332'
+    from_name: 奈井江
+    to: '1110333'
+    to_name: 豊沼
+    time: 7
+    distance: 4.61
+  - from: '1110333'
+    from_name: 豊沼
+    to: '1110334'
+    to_name: 砂川
+    time: 5
+    distance: 3.33
+  - from: '1110334'
+    from_name: 砂川
+    to: '1110335'
+    to_name: 滝川
+    time: 11
+    distance: 6.91
+  - from: '1110335'
+    from_name: 滝川
+    to: '1110336'
+    to_name: 江部乙
+    time: 13
+    distance: 8.52
+  - from: '1110336'
+    from_name: 江部乙
+    to: '1110337'
+    to_name: 妹背牛
+    time: 12
+    distance: 7.46
+  - from: '1110337'
+    from_name: 妹背牛
+    to: '1110338'
+    to_name: 深川
+    time: 11
+    distance: 6.9
+  - from: '1110338'
+    from_name: 深川
+    to: '1110339'
+    to_name: 納内
+    time: 11
+    distance: 7.22
+  - from: '1110339'
+    from_name: 納内
+    to: '1110341'
+    to_name: 近文
+    time: 26
+    distance: 16.9
+  - from: '1110341'
+    from_name: 近文
+    to: '1110342'
+    to_name: 旭川
+    time: 6
+    distance: 3.87

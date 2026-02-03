@@ -1,0 +1,126 @@
+line_code: '99425'
+line_name: あいの風とやま鉄道線
+company: あいの風とやま鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1140502'
+    from_name: 東富山
+    to: '1140503'
+    to_name: 水橋
+    time: 7
+    distance: 4.41
+  - from: '1140503'
+    from_name: 水橋
+    to: '1140504'
+    to_name: 滑川
+    time: 8
+    distance: 5.3
+  - from: '1140504'
+    from_name: 滑川
+    to: '1140505'
+    to_name: 東滑川
+    time: 6
+    distance: 3.36
+  - from: '1140505'
+    from_name: 東滑川
+    to: '1140506'
+    to_name: 新魚津
+    time: 8
+    distance: 4.94
+  - from: '1140506'
+    from_name: 新魚津
+    to: '1140507'
+    to_name: 黒部
+    time: 9
+    distance: 5.41
+  - from: '1140507'
+    from_name: 黒部
+    to: '1140508'
+    to_name: 生地
+    time: 7
+    distance: 4.14
+  - from: '1140508'
+    from_name: 生地
+    to: '1140509'
+    to_name: 西入善
+    time: 6
+    distance: 3.96
+  - from: '1140510'
+    from_name: 入善
+    to: '1140511'
+    to_name: 泊
+    time: 8
+    distance: 5.22
+  - from: '1140511'
+    from_name: 泊
+    to: '1140512'
+    to_name: 越中宮崎
+    time: 7
+    distance: 4.55
+  - from: '1140512'
+    from_name: 越中宮崎
+    to: '1140513'
+    to_name: 市振
+    time: 7
+    distance: 4.58
+  - from: '1141548'
+    from_name: 石動
+    to: '1141549'
+    to_name: 福岡
+    time: 11
+    distance: 7.12
+  - from: '1141549'
+    from_name: 福岡
+    to: '1141550'
+    to_name: 西高岡
+    time: 6
+    distance: 3.46
+  - from: '1141550'
+    from_name: 西高岡
+    to: '1141556'
+    to_name: 高岡やぶなみ
+    time: 4
+    distance: 2.57
+  - from: '1141551'
+    from_name: 高岡
+    to: '1141552'
+    to_name: 越中大門
+    time: 6
+    distance: 3.71
+  - from: '1141552'
+    from_name: 越中大門
+    to: '1141553'
+    to_name: 小杉
+    time: 6
+    distance: 3.58
+  - from: '1141553'
+    from_name: 小杉
+    to: '1141554'
+    to_name: 呉羽
+    time: 10
+    distance: 6.43
+  - from: '1141554'
+    from_name: 呉羽
+    to: '1140501'
+    to_name: 富山
+    time: 8
+    distance: 4.72
+  - from: '1140501'
+    from_name: 富山
+    to: '1140502'
+    to_name: 東富山
+    time: 9
+    distance: 5.5
+  - from: '1141556'
+    from_name: 高岡やぶなみ
+    to: '1141551'
+    to_name: 高岡
+    time: 4
+    distance: 2.38
+  - from: '1141547'
+    from_name: 倶利伽羅
+    to: '1141548'
+    to_name: 石動
+    time: 10
+    distance: 6.62

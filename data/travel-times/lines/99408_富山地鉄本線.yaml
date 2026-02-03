@@ -1,0 +1,246 @@
+line_code: '99408'
+line_name: 富山地鉄本線
+company: 富山地方鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1140501'
+    from_name: 富山
+    to: '9940802'
+    to_name: 稲荷町
+    time: 3
+    distance: 1.7
+  - from: '9940802'
+    from_name: 稲荷町
+    to: '9940839'
+    to_name: 新庄田中
+    time: 2
+    distance: 0.92
+  - from: '9940803'
+    from_name: 東新庄
+    to: '9940804'
+    to_name: 越中荏原
+    time: 2
+    distance: 1.18
+  - from: '9940804'
+    from_name: 越中荏原
+    to: '9940805'
+    to_name: 越中三郷
+    time: 4
+    distance: 2.24
+  - from: '9940805'
+    from_name: 越中三郷
+    to: '9940806'
+    to_name: 越中舟橋
+    time: 3
+    distance: 1.44
+  - from: '9940806'
+    from_name: 越中舟橋
+    to: '9940807'
+    to_name: 寺田
+    time: 3
+    distance: 1.35
+  - from: '9940807'
+    from_name: 寺田
+    to: '9940808'
+    to_name: 越中泉
+    time: 2
+    distance: 0.73
+  - from: '9940808'
+    from_name: 越中泉
+    to: '9940809'
+    to_name: 相ノ木
+    time: 2
+    distance: 0.77
+  - from: '9940809'
+    from_name: 相ノ木
+    to: '9940840'
+    to_name: 新相ノ木
+    time: 2
+    distance: 0.62
+  - from: '9940810'
+    from_name: 上市
+    to: '9940811'
+    to_name: 新宮川
+    time: 3
+    distance: 1.54
+  - from: '9940811'
+    from_name: 新宮川
+    to: '9940812'
+    to_name: 中加積
+    time: 4
+    distance: 2
+  - from: '9940812'
+    from_name: 中加積
+    to: '9940813'
+    to_name: 西加積
+    time: 3
+    distance: 1.57
+  - from: '9940813'
+    from_name: 西加積
+    to: '9940814'
+    to_name: 西滑川
+    time: 2
+    distance: 1.13
+  - from: '9940814'
+    from_name: 西滑川
+    to: '9940815'
+    to_name: 中滑川
+    time: 2
+    distance: 0.86
+  - from: '9940815'
+    from_name: 中滑川
+    to: '1140504'
+    to_name: 滑川
+    time: 2
+    distance: 1.1
+  - from: '1140504'
+    from_name: 滑川
+    to: '9940817'
+    to_name: 浜加積
+    time: 3
+    distance: 1.47
+  - from: '9940817'
+    from_name: 浜加積
+    to: '9940818'
+    to_name: 早月加積
+    time: 2
+    distance: 1.2
+  - from: '9940818'
+    from_name: 早月加積
+    to: '9940819'
+    to_name: 越中中村
+    time: 2
+    distance: 1.2
+  - from: '9940819'
+    from_name: 越中中村
+    to: '9940820'
+    to_name: 西魚津
+    time: 3
+    distance: 1.8
+  - from: '9940820'
+    from_name: 西魚津
+    to: '9940821'
+    to_name: 電鉄魚津
+    time: 3
+    distance: 1.36
+  - from: '9940821'
+    from_name: 電鉄魚津
+    to: '1140506'
+    to_name: 新魚津
+    time: 3
+    distance: 1.35
+  - from: '1140506'
+    from_name: 新魚津
+    to: '9940823'
+    to_name: 経田
+    time: 4
+    distance: 2.66
+  - from: '9940823'
+    from_name: 経田
+    to: '9940824'
+    to_name: 電鉄石田
+    time: 3
+    distance: 2
+  - from: '9940824'
+    from_name: 電鉄石田
+    to: '9940825'
+    to_name: 電鉄黒部
+    time: 4
+    distance: 2.07
+  - from: '9940825'
+    from_name: 電鉄黒部
+    to: '9940826'
+    to_name: 東三日市
+    time: 2
+    distance: 0.61
+  - from: '9940826'
+    from_name: 東三日市
+    to: '9940827'
+    to_name: 荻生
+    time: 2
+    distance: 0.74
+  - from: '9940827'
+    from_name: 荻生
+    to: '9940828'
+    to_name: 長屋
+    time: 2
+    distance: 1.04
+  - from: '9940828'
+    from_name: 長屋
+    to: '100915'
+    to_name: 新黒部
+    time: 2
+    distance: 0.84
+  - from: '9940829'
+    from_name: 舌山
+    to: '9940830'
+    to_name: 若栗
+    time: 2
+    distance: 0.65
+  - from: '9940830'
+    from_name: 若栗
+    to: '9940831'
+    to_name: 栃屋
+    time: 2
+    distance: 1.14
+  - from: '9940831'
+    from_name: 栃屋
+    to: '9940832'
+    to_name: 浦山
+    time: 3
+    distance: 1.4
+  - from: '9940832'
+    from_name: 浦山
+    to: '9940833'
+    to_name: 下立口
+    time: 2
+    distance: 1.27
+  - from: '9940833'
+    from_name: 下立口
+    to: '9940834'
+    to_name: 下立
+    time: 2
+    distance: 0.78
+  - from: '9940834'
+    from_name: 下立
+    to: '9940835'
+    to_name: 愛本
+    time: 2
+    distance: 1.12
+  - from: '9940835'
+    from_name: 愛本
+    to: '9940836'
+    to_name: 内山
+    time: 2
+    distance: 1.05
+  - from: '9940836'
+    from_name: 内山
+    to: '9940837'
+    to_name: 音沢
+    time: 2
+    distance: 0.73
+  - from: '9940837'
+    from_name: 音沢
+    to: '9940838'
+    to_name: 宇奈月温泉
+    time: 6
+    distance: 3.49
+  - from: '9940839'
+    from_name: 新庄田中
+    to: '9940803'
+    to_name: 東新庄
+    time: 2
+    distance: 1.04
+  - from: '9940840'
+    from_name: 新相ノ木
+    to: '9940810'
+    to_name: 上市
+    time: 3
+    distance: 1.37
+  - from: '100915'
+    from_name: 新黒部
+    to: '9940829'
+    to_name: 舌山
+    time: 2
+    distance: 0.53

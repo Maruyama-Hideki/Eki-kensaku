@@ -1,0 +1,54 @@
+line_code: '32005'
+line_name: 南海加太線
+company: 南海電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1164003'
+    from_name: 和歌山市
+    to: '3200139'
+    to_name: 紀ノ川
+    time: 4
+    distance: 2.03
+  - from: '3200139'
+    from_name: 紀ノ川
+    to: '3200503'
+    to_name: 東松江
+    time: 4
+    distance: 2.41
+  - from: '3200503'
+    from_name: 東松江
+    to: '3200504'
+    to_name: 中松江
+    time: 2
+    distance: 0.76
+  - from: '3200504'
+    from_name: 中松江
+    to: '3200505'
+    to_name: 八幡前
+    time: 2
+    distance: 1.11
+  - from: '3200505'
+    from_name: 八幡前
+    to: '3200506'
+    to_name: 西ノ庄
+    time: 2
+    distance: 1.06
+  - from: '3200506'
+    from_name: 西ノ庄
+    to: '3200507'
+    to_name: 二里ヶ浜
+    time: 2
+    distance: 0.67
+  - from: '3200507'
+    from_name: 二里ヶ浜
+    to: '3200508'
+    to_name: 磯ノ浦
+    time: 2
+    distance: 0.93
+  - from: '3200508'
+    from_name: 磯ノ浦
+    to: '3200509'
+    to_name: 加太
+    time: 4
+    distance: 2.07

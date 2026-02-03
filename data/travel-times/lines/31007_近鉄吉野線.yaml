@@ -1,0 +1,96 @@
+line_code: '31007'
+line_name: 近鉄吉野線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3100217'
+    from_name: 橿原神宮前
+    to: '3100702'
+    to_name: 岡寺
+    time: 2
+    distance: 1.13
+  - from: '3100702'
+    from_name: 岡寺
+    to: '3100703'
+    to_name: 飛鳥
+    time: 2
+    distance: 1.02
+  - from: '3100703'
+    from_name: 飛鳥
+    to: '3100704'
+    to_name: 壺阪山
+    time: 3
+    distance: 1.74
+  - from: '3100704'
+    from_name: 壺阪山
+    to: '3100705'
+    to_name: 市尾
+    time: 3
+    distance: 1.89
+  - from: '3100705'
+    from_name: 市尾
+    to: '3100706'
+    to_name: 葛
+    time: 3
+    distance: 1.9
+  - from: '3100706'
+    from_name: 葛
+    to: '1163611'
+    to_name: 吉野口
+    time: 3
+    distance: 1.48
+  - from: '1163611'
+    from_name: 吉野口
+    to: '3100708'
+    to_name: 薬水
+    time: 3
+    distance: 1.58
+  - from: '3100708'
+    from_name: 薬水
+    to: '3100709'
+    to_name: 福神
+    time: 3
+    distance: 1.51
+  - from: '3100709'
+    from_name: 福神
+    to: '3100710'
+    to_name: 大阿太
+    time: 3
+    distance: 1.69
+  - from: '3100710'
+    from_name: 大阿太
+    to: '3100711'
+    to_name: 下市口
+    time: 3
+    distance: 1.94
+  - from: '3100711'
+    from_name: 下市口
+    to: '3100712'
+    to_name: 越部
+    time: 3
+    distance: 1.46
+  - from: '3100712'
+    from_name: 越部
+    to: '3100713'
+    to_name: 六田
+    time: 3
+    distance: 1.91
+  - from: '3100713'
+    from_name: 六田
+    to: '3100714'
+    to_name: 大和上市
+    time: 4
+    distance: 2.18
+  - from: '3100714'
+    from_name: 大和上市
+    to: '3100715'
+    to_name: 吉野神宮
+    time: 2
+    distance: 0.66
+  - from: '3100715'
+    from_name: 吉野神宮
+    to: '3100716'
+    to_name: 吉野
+    time: 3
+    distance: 1.56

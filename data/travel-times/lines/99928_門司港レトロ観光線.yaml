@@ -1,0 +1,24 @@
+line_code: '99928'
+line_name: 門司港レトロ観光線
+company: 平成筑豊鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1190202'
+    from_name: 門司港
+    to: '9992802'
+    to_name: 出光美術館
+    time: 2
+    distance: 0.45
+  - from: '9992802'
+    from_name: 出光美術館
+    to: '9992803'
+    to_name: ノーフォーク広場
+    time: 2
+    distance: 0.91
+  - from: '9992803'
+    from_name: ノーフォーク広場
+    to: '9992804'
+    to_name: 関門海峡めかり
+    time: 2
+    distance: 0.59

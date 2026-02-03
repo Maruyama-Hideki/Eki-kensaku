@@ -1,0 +1,138 @@
+line_code: '99802'
+line_name: 琴電琴平線
+company: 高松琴平電気鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1180201'
+    from_name: 高松
+    to: '9980202'
+    to_name: 片原町
+    time: 2
+    distance: 0.86
+  - from: '9980202'
+    from_name: 片原町
+    to: '9980203'
+    to_name: 瓦町
+    time: 2
+    distance: 0.83
+  - from: '9980203'
+    from_name: 瓦町
+    to: '9980204'
+    to_name: 栗林公園
+    time: 2
+    distance: 1.15
+  - from: '9980204'
+    from_name: 栗林公園
+    to: '9980205'
+    to_name: 三条
+    time: 2
+    distance: 1
+  - from: '9980205'
+    from_name: 三条
+    to: '9980223'
+    to_name: 伏石
+    time: 2
+    distance: 1.11
+  - from: '9980206'
+    from_name: 太田
+    to: '9980207'
+    to_name: 仏生山
+    time: 3
+    distance: 1.78
+  - from: '9980207'
+    from_name: 仏生山
+    to: '9980208'
+    to_name: 空港通り
+    time: 2
+    distance: 0.9
+  - from: '9980208'
+    from_name: 空港通り
+    to: '9980209'
+    to_name: 一宮
+    time: 2
+    distance: 0.99
+  - from: '9980209'
+    from_name: 一宮
+    to: '9980210'
+    to_name: 円座
+    time: 2
+    distance: 1.23
+  - from: '9980210'
+    from_name: 円座
+    to: '9980211'
+    to_name: 岡本
+    time: 4
+    distance: 2.43
+  - from: '9980211'
+    from_name: 岡本
+    to: '9980212'
+    to_name: 挿頭丘
+    time: 2
+    distance: 1.29
+  - from: '9980212'
+    from_name: 挿頭丘
+    to: '9980213'
+    to_name: 畑田
+    time: 2
+    distance: 0.79
+  - from: '9980213'
+    from_name: 畑田
+    to: '9980214'
+    to_name: 陶
+    time: 4
+    distance: 2.39
+  - from: '9980214'
+    from_name: 陶
+    to: '9980222'
+    to_name: 綾川（イオンモール綾川）
+    time: 3
+    distance: 1.48
+  - from: '9980215'
+    from_name: 滝宮
+    to: '9980216'
+    to_name: 羽床
+    time: 4
+    distance: 2.04
+  - from: '9980216'
+    from_name: 羽床
+    to: '9980217'
+    to_name: 栗熊
+    time: 3
+    distance: 1.81
+  - from: '9980217'
+    from_name: 栗熊
+    to: '9980218'
+    to_name: 岡田
+    time: 4
+    distance: 2.58
+  - from: '9980218'
+    from_name: 岡田
+    to: '9980219'
+    to_name: 羽間
+    time: 3
+    distance: 1.77
+  - from: '9980219'
+    from_name: 羽間
+    to: '9980220'
+    to_name: 榎井
+    time: 4
+    distance: 2.36
+  - from: '9980220'
+    from_name: 榎井
+    to: '1180104'
+    to_name: 琴平
+    time: 2
+    distance: 0.79
+  - from: '9980222'
+    from_name: 綾川（イオンモール綾川）
+    to: '9980215'
+    to_name: 滝宮
+    time: 2
+    distance: 0.87
+  - from: '9980223'
+    from_name: 伏石
+    to: '9980206'
+    to_name: 太田
+    time: 2
+    distance: 1.22

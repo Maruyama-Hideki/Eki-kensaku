@@ -1,0 +1,60 @@
+line_code: '99503'
+line_name: 岳南鉄道線
+company: 岳南鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1150108'
+    from_name: 吉原
+    to: '9950302'
+    to_name: ジヤトコ前（ジヤトコ１地区前）
+    time: 3
+    distance: 1.93
+  - from: '9950302'
+    from_name: ジヤトコ前（ジヤトコ１地区前）
+    to: '9950303'
+    to_name: 吉原本町
+    time: 2
+    distance: 0.34
+  - from: '9950303'
+    from_name: 吉原本町
+    to: '9950304'
+    to_name: 本吉原
+    time: 2
+    distance: 0.3
+  - from: '9950304'
+    from_name: 本吉原
+    to: '9950305'
+    to_name: 岳南原田
+    time: 2
+    distance: 1.17
+  - from: '9950305'
+    from_name: 岳南原田
+    to: '9950306'
+    to_name: 比奈
+    time: 2
+    distance: 0.97
+  - from: '9950306'
+    from_name: 比奈
+    to: '9950307'
+    to_name: 岳南富士岡
+    time: 2
+    distance: 0.89
+  - from: '9950307'
+    from_name: 岳南富士岡
+    to: '9950308'
+    to_name: 須津
+    time: 2
+    distance: 0.96
+  - from: '9950308'
+    from_name: 須津
+    to: '9950309'
+    to_name: 神谷
+    time: 2
+    distance: 0.83
+  - from: '9950309'
+    from_name: 神谷
+    to: '9950310'
+    to_name: 岳南江尾
+    time: 2
+    distance: 1.02

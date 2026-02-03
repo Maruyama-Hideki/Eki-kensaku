@@ -1,0 +1,18 @@
+line_code: '26008'
+line_name: 東急こどもの国線
+company: 東急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130609'
+    from_name: 長津田
+    to: '2600802'
+    to_name: 恩田
+    time: 3
+    distance: 1.56
+  - from: '2600802'
+    from_name: 恩田
+    to: '2600803'
+    to_name: こどもの国
+    time: 3
+    distance: 1.48

@@ -1,0 +1,156 @@
+line_code: '21003'
+line_name: 東武日光線
+company: 東武鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2100230'
+    from_name: 東武動物公園
+    to: '2100302'
+    to_name: 杉戸高野台
+    time: 5
+    distance: 3.19
+  - from: '2100302'
+    from_name: 杉戸高野台
+    to: '2100303'
+    to_name: 幸手
+    time: 4
+    distance: 2.53
+  - from: '2100303'
+    from_name: 幸手
+    to: '2100304'
+    to_name: 南栗橋
+    time: 7
+    distance: 4.32
+  - from: '2100304'
+    from_name: 南栗橋
+    to: '1131914'
+    to_name: 栗橋
+    time: 5
+    distance: 3.13
+  - from: '1131914'
+    from_name: 栗橋
+    to: '2100306'
+    to_name: 新古河
+    time: 10
+    distance: 6.24
+  - from: '2100306'
+    from_name: 新古河
+    to: '2100307'
+    to_name: 柳生
+    time: 5
+    distance: 2.9
+  - from: '2100307'
+    from_name: 柳生
+    to: '2100308'
+    to_name: 板倉東洋大前
+    time: 4
+    distance: 2.01
+  - from: '2100308'
+    from_name: 板倉東洋大前
+    to: '2100309'
+    to_name: 藤岡
+    time: 6
+    distance: 3.7
+  - from: '2100309'
+    from_name: 藤岡
+    to: '2100310'
+    to_name: 静和
+    time: 12
+    distance: 7.63
+  - from: '2100310'
+    from_name: 静和
+    to: '2100311'
+    to_name: 新大平下
+    time: 5
+    distance: 2.93
+  - from: '2100311'
+    from_name: 新大平下
+    to: '1134119'
+    to_name: 栃木
+    time: 7
+    distance: 4.49
+  - from: '1134119'
+    from_name: 栃木
+    to: '2100313'
+    to_name: 新栃木
+    time: 4
+    distance: 2.27
+  - from: '2100313'
+    from_name: 新栃木
+    to: '2100314'
+    to_name: 合戦場
+    time: 3
+    distance: 1.95
+  - from: '2100314'
+    from_name: 合戦場
+    to: '2100315'
+    to_name: 家中
+    time: 4
+    distance: 2.52
+  - from: '2100315'
+    from_name: 家中
+    to: '2100316'
+    to_name: 東武金崎
+    time: 7
+    distance: 4.06
+  - from: '2100316'
+    from_name: 東武金崎
+    to: '2100317'
+    to_name: 楡木
+    time: 7
+    distance: 4.6
+  - from: '2100317'
+    from_name: 楡木
+    to: '2100318'
+    to_name: 樅山
+    time: 5
+    distance: 2.81
+  - from: '2100318'
+    from_name: 樅山
+    to: '2100319'
+    to_name: 新鹿沼
+    time: 5
+    distance: 2.72
+  - from: '2100319'
+    from_name: 新鹿沼
+    to: '2100320'
+    to_name: 北鹿沼
+    time: 5
+    distance: 2.72
+  - from: '2100320'
+    from_name: 北鹿沼
+    to: '2100321'
+    to_name: 板荷
+    time: 8
+    distance: 5.06
+  - from: '2100321'
+    from_name: 板荷
+    to: '2100322'
+    to_name: 下小代
+    time: 6
+    distance: 3.58
+  - from: '2100322'
+    from_name: 下小代
+    to: '2100323'
+    to_name: 明神
+    time: 5
+    distance: 2.81
+  - from: '2100323'
+    from_name: 明神
+    to: '2100324'
+    to_name: 下今市
+    time: 9
+    distance: 5.73
+  - from: '2100324'
+    from_name: 下今市
+    to: '2100325'
+    to_name: 上今市
+    time: 2
+    distance: 1.07
+  - from: '2100325'
+    from_name: 上今市
+    to: '1134007'
+    to_name: 日光
+    time: 9
+    distance: 5.67

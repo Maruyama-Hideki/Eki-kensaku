@@ -1,0 +1,168 @@
+line_code: '99923'
+line_name: 熊本市電Ｂ系統
+company: 熊本市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '1190340'
+    from_name: 上熊本
+    to: '9992302'
+    to_name: 県立体育館前
+    time: 2
+    distance: 0.25
+  - from: '9992302'
+    from_name: 県立体育館前
+    to: '9992303'
+    to_name: 本妙寺入口
+    time: 2
+    distance: 0.16
+  - from: '9992303'
+    from_name: 本妙寺入口
+    to: '9992304'
+    to_name: 杉塘
+    time: 2
+    distance: 0.39
+  - from: '9992304'
+    from_name: 杉塘
+    to: '9992305'
+    to_name: 段山町
+    time: 2
+    distance: 0.42
+  - from: '9992305'
+    from_name: 段山町
+    to: '9992306'
+    to_name: 蔚山町
+    time: 2
+    distance: 0.33
+  - from: '9992306'
+    from_name: 蔚山町
+    to: '9992307'
+    to_name: 新町
+    time: 2
+    distance: 0.47
+  - from: '9992307'
+    from_name: 新町
+    to: '9992308'
+    to_name: 洗馬橋
+    time: 2
+    distance: 0.17
+  - from: '9992308'
+    from_name: 洗馬橋
+    to: '9992309'
+    to_name: 西辛島町
+    time: 2
+    distance: 0.32
+  - from: '9992309'
+    from_name: 西辛島町
+    to: '9992208'
+    to_name: 辛島町
+    time: 2
+    distance: 0.26
+  - from: '9992208'
+    from_name: 辛島町
+    to: '9992209'
+    to_name: 花畑町
+    time: 2
+    distance: 0.25
+  - from: '9992209'
+    from_name: 花畑町
+    to: '9992210'
+    to_name: 熊本城・市役所前
+    time: 2
+    distance: 0.25
+  - from: '9992210'
+    from_name: 熊本城・市役所前
+    to: '9992211'
+    to_name: 通町筋
+    time: 2
+    distance: 0.26
+  - from: '9992211'
+    from_name: 通町筋
+    to: '9992212'
+    to_name: 水道町
+    time: 2
+    distance: 0.28
+  - from: '9992212'
+    from_name: 水道町
+    to: '9992213'
+    to_name: 九品寺交差点
+    time: 2
+    distance: 0.58
+  - from: '9992213'
+    from_name: 九品寺交差点
+    to: '9992214'
+    to_name: 交通局前
+    time: 2
+    distance: 0.29
+  - from: '9992214'
+    from_name: 交通局前
+    to: '9992215'
+    to_name: 味噌天神前
+    time: 2
+    distance: 0.42
+  - from: '9992215'
+    from_name: 味噌天神前
+    to: '1192304'
+    to_name: 新水前寺
+    time: 2
+    distance: 0.33
+  - from: '1192304'
+    from_name: 新水前寺
+    to: '9992217'
+    to_name: 国府
+    time: 2
+    distance: 0.33
+  - from: '9992217'
+    from_name: 国府
+    to: '9992218'
+    to_name: 水前寺公園
+    time: 2
+    distance: 0.4
+  - from: '9992218'
+    from_name: 水前寺公園
+    to: '9992219'
+    to_name: 市立体育館前
+    time: 2
+    distance: 0.27
+  - from: '9992219'
+    from_name: 市立体育館前
+    to: '9992220'
+    to_name: 商業高校前
+    time: 2
+    distance: 0.53
+  - from: '9992220'
+    from_name: 商業高校前
+    to: '9992221'
+    to_name: 八丁馬場
+    time: 2
+    distance: 0.31
+  - from: '9992221'
+    from_name: 八丁馬場
+    to: '9992222'
+    to_name: 神水交差点
+    time: 2
+    distance: 0.32
+  - from: '9992222'
+    from_name: 神水交差点
+    to: '9992223'
+    to_name: 健軍校前
+    time: 2
+    distance: 0.57
+  - from: '9992223'
+    from_name: 健軍校前
+    to: '9992224'
+    to_name: 動植物園入口
+    time: 2
+    distance: 0.38
+  - from: '9992224'
+    from_name: 動植物園入口
+    to: '9992225'
+    to_name: 健軍交番前
+    time: 2
+    distance: 0.3
+  - from: '9992225'
+    from_name: 健軍交番前
+    to: '9992226'
+    to_name: 健軍町
+    time: 2
+    distance: 0.35

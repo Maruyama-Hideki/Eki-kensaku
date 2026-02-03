@@ -1,0 +1,30 @@
+line_code: '99717'
+line_name: 広電９号線(白島線)
+company: 広島電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9971007'
+    from_name: 八丁堀
+    to: '9971702'
+    to_name: 女学院前
+    time: 2
+    distance: 0.45
+  - from: '9971702'
+    from_name: 女学院前
+    to: '9971703'
+    to_name: 縮景園前
+    time: 2
+    distance: 0.23
+  - from: '9971703'
+    from_name: 縮景園前
+    to: '9971704'
+    to_name: 家庭裁判所前
+    time: 2
+    distance: 0.28
+  - from: '9971704'
+    from_name: 家庭裁判所前
+    to: '9971705'
+    to_name: 白島
+    time: 2
+    distance: 0.25

@@ -1,0 +1,114 @@
+line_code: '11320'
+line_name: JR常磐線(上野～取手)
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130220'
+    from_name: 上野
+    to: '1130218'
+    to_name: 日暮里
+    time: 3
+    distance: 1.65
+  - from: '1130218'
+    from_name: 日暮里
+    to: '1132003'
+    to_name: 三河島
+    time: 2
+    distance: 0.81
+  - from: '1132003'
+    from_name: 三河島
+    to: '1132004'
+    to_name: 南千住
+    time: 4
+    distance: 2.01
+  - from: '1132004'
+    from_name: 南千住
+    to: '1132005'
+    to_name: 北千住
+    time: 3
+    distance: 1.81
+  - from: '1132005'
+    from_name: 北千住
+    to: '1132006'
+    to_name: 綾瀬
+    time: 4
+    distance: 2.29
+  - from: '1132006'
+    from_name: 綾瀬
+    to: '1132007'
+    to_name: 亀有
+    time: 4
+    distance: 2.09
+  - from: '1132007'
+    from_name: 亀有
+    to: '1132008'
+    to_name: 金町
+    time: 4
+    distance: 2.09
+  - from: '1132008'
+    from_name: 金町
+    to: '1132009'
+    to_name: 松戸
+    time: 5
+    distance: 3.2
+  - from: '1132009'
+    from_name: 松戸
+    to: '1132010'
+    to_name: 北松戸
+    time: 4
+    distance: 2.02
+  - from: '1132010'
+    from_name: 北松戸
+    to: '1132011'
+    to_name: 馬橋
+    time: 3
+    distance: 1.35
+  - from: '1132011'
+    from_name: 馬橋
+    to: '1130519'
+    to_name: 新松戸
+    time: 3
+    distance: 1.57
+  - from: '1130519'
+    from_name: 新松戸
+    to: '1132013'
+    to_name: 北小金
+    time: 2
+    distance: 1.28
+  - from: '1132013'
+    from_name: 北小金
+    to: '1132014'
+    to_name: 南柏
+    time: 4
+    distance: 2.4
+  - from: '1132014'
+    from_name: 南柏
+    to: '1132015'
+    to_name: 柏
+    time: 4
+    distance: 2.49
+  - from: '1132015'
+    from_name: 柏
+    to: '1132016'
+    to_name: 北柏
+    time: 4
+    distance: 2.12
+  - from: '1132016'
+    from_name: 北柏
+    to: '1132017'
+    to_name: 我孫子
+    time: 4
+    distance: 2.05
+  - from: '1132017'
+    from_name: 我孫子
+    to: '1132018'
+    to_name: 天王台
+    time: 5
+    distance: 2.77
+  - from: '1132018'
+    from_name: 天王台
+    to: '1122901'
+    to_name: 取手
+    time: 5
+    distance: 3.22

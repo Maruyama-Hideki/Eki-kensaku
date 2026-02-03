@@ -1,0 +1,108 @@
+line_code: '29001'
+line_name: 相鉄本線
+company: 相模鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130105'
+    from_name: 横浜
+    to: '2900102'
+    to_name: 平沼橋
+    time: 2
+    distance: 0.84
+  - from: '2900102'
+    from_name: 平沼橋
+    to: '2900103'
+    to_name: 西横浜
+    time: 2
+    distance: 1.07
+  - from: '2900103'
+    from_name: 西横浜
+    to: '2900104'
+    to_name: 天王町
+    time: 2
+    distance: 0.56
+  - from: '2900104'
+    from_name: 天王町
+    to: '2900105'
+    to_name: 星川
+    time: 2
+    distance: 0.87
+  - from: '2900105'
+    from_name: 星川
+    to: '2900106'
+    to_name: 和田町
+    time: 2
+    distance: 0.91
+  - from: '2900106'
+    from_name: 和田町
+    to: '2900107'
+    to_name: 上星川
+    time: 2
+    distance: 0.76
+  - from: '2900107'
+    from_name: 上星川
+    to: '2900108'
+    to_name: 西谷
+    time: 3
+    distance: 1.74
+  - from: '2900108'
+    from_name: 西谷
+    to: '2900109'
+    to_name: 鶴ヶ峰
+    time: 3
+    distance: 1.5
+  - from: '2900109'
+    from_name: 鶴ヶ峰
+    to: '2900110'
+    to_name: 二俣川
+    time: 4
+    distance: 2.04
+  - from: '2900110'
+    from_name: 二俣川
+    to: '2900111'
+    to_name: 希望ヶ丘
+    time: 3
+    distance: 1.65
+  - from: '2900111'
+    from_name: 希望ヶ丘
+    to: '2900112'
+    to_name: 三ツ境
+    time: 3
+    distance: 1.34
+  - from: '2900112'
+    from_name: 三ツ境
+    to: '2900113'
+    to_name: 瀬谷
+    time: 3
+    distance: 1.84
+  - from: '2900113'
+    from_name: 瀬谷
+    to: '2500206'
+    to_name: 大和
+    time: 3
+    distance: 1.91
+  - from: '2500206'
+    from_name: 大和
+    to: '2900115'
+    to_name: 相模大塚
+    time: 3
+    distance: 1.84
+  - from: '2900115'
+    from_name: 相模大塚
+    to: '2900116'
+    to_name: さがみ野
+    time: 2
+    distance: 1.11
+  - from: '2900116'
+    from_name: さがみ野
+    to: '2900117'
+    to_name: かしわ台
+    time: 2
+    distance: 1.31
+  - from: '2900117'
+    from_name: かしわ台
+    to: '1130910'
+    to_name: 海老名
+    time: 5
+    distance: 2.77

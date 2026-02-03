@@ -1,0 +1,60 @@
+line_code: '99335'
+line_name: 銚子電鉄線
+company: 銚子電気鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1131431'
+    from_name: 銚子
+    to: '9933502'
+    to_name: 仲ノ町
+    time: 2
+    distance: 0.57
+  - from: '9933502'
+    from_name: 仲ノ町
+    to: '9933503'
+    to_name: 観音
+    time: 2
+    distance: 0.56
+  - from: '9933503'
+    from_name: 観音
+    to: '9933504'
+    to_name: 本銚子
+    time: 2
+    distance: 0.74
+  - from: '9933504'
+    from_name: 本銚子
+    to: '9933505'
+    to_name: 笠上黒生
+    time: 2
+    distance: 0.87
+  - from: '9933505'
+    from_name: 笠上黒生
+    to: '9933506'
+    to_name: 西海鹿島
+    time: 2
+    distance: 0.47
+  - from: '9933506'
+    from_name: 西海鹿島
+    to: '9933507'
+    to_name: 海鹿島
+    time: 2
+    distance: 0.43
+  - from: '9933507'
+    from_name: 海鹿島
+    to: '9933508'
+    to_name: 君ヶ浜
+    time: 2
+    distance: 0.92
+  - from: '9933508'
+    from_name: 君ヶ浜
+    to: '9933509'
+    to_name: 犬吠
+    time: 2
+    distance: 0.87
+  - from: '9933509'
+    from_name: 犬吠
+    to: '9933510'
+    to_name: 外川
+    time: 2
+    distance: 0.84

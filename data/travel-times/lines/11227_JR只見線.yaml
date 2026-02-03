@@ -1,0 +1,210 @@
+line_code: '11227'
+line_name: JR只見線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1122515'
+    from_name: 会津若松
+    to: '1122702'
+    to_name: 七日町
+    time: 2
+    distance: 1.3
+  - from: '1122702'
+    from_name: 七日町
+    to: '1122703'
+    to_name: 西若松
+    time: 3
+    distance: 1.74
+  - from: '1122703'
+    from_name: 西若松
+    to: '1122704'
+    to_name: 会津本郷
+    time: 5
+    distance: 3.13
+  - from: '1122704'
+    from_name: 会津本郷
+    to: '1122705'
+    to_name: 会津高田
+    time: 7
+    distance: 4.64
+  - from: '1122705'
+    from_name: 会津高田
+    to: '1122706'
+    to_name: 根岸
+    time: 6
+    distance: 3.63
+  - from: '1122706'
+    from_name: 根岸
+    to: '1122707'
+    to_name: 新鶴
+    time: 3
+    distance: 1.7
+  - from: '1122707'
+    from_name: 新鶴
+    to: '1122708'
+    to_name: 若宮
+    time: 4
+    distance: 2.01
+  - from: '1122708'
+    from_name: 若宮
+    to: '1122709'
+    to_name: 会津坂下
+    time: 4
+    distance: 2.46
+  - from: '1122709'
+    from_name: 会津坂下
+    to: '1122710'
+    to_name: 塔寺
+    time: 6
+    distance: 3.49
+  - from: '1122710'
+    from_name: 塔寺
+    to: '1122711'
+    to_name: 会津坂本
+    time: 5
+    distance: 3.08
+  - from: '1122711'
+    from_name: 会津坂本
+    to: '1122712'
+    to_name: 会津柳津
+    time: 5
+    distance: 3.33
+  - from: '1122712'
+    from_name: 会津柳津
+    to: '1122713'
+    to_name: 郷戸
+    time: 5
+    distance: 2.77
+  - from: '1122713'
+    from_name: 郷戸
+    to: '1122714'
+    to_name: 滝谷
+    time: 5
+    distance: 2.67
+  - from: '1122714'
+    from_name: 滝谷
+    to: '1122715'
+    to_name: 会津桧原
+    time: 3
+    distance: 1.67
+  - from: '1122715'
+    from_name: 会津桧原
+    to: '1122716'
+    to_name: 会津西方
+    time: 3
+    distance: 1.98
+  - from: '1122716'
+    from_name: 会津西方
+    to: '1122717'
+    to_name: 会津宮下
+    time: 3
+    distance: 1.67
+  - from: '1122717'
+    from_name: 会津宮下
+    to: '1122718'
+    to_name: 早戸
+    time: 8
+    distance: 4.72
+  - from: '1122718'
+    from_name: 早戸
+    to: '1122719'
+    to_name: 会津水沼
+    time: 5
+    distance: 3.24
+  - from: '1122719'
+    from_name: 会津水沼
+    to: '1122720'
+    to_name: 会津中川
+    time: 5
+    distance: 2.72
+  - from: '1122720'
+    from_name: 会津中川
+    to: '1122721'
+    to_name: 会津川口
+    time: 4
+    distance: 2.21
+  - from: '1122721'
+    from_name: 会津川口
+    to: '1122722'
+    to_name: 本名
+    time: 4
+    distance: 2.49
+  - from: '1122722'
+    from_name: 本名
+    to: '1122723'
+    to_name: 会津越川
+    time: 9
+    distance: 5.74
+  - from: '1122723'
+    from_name: 会津越川
+    to: '1122724'
+    to_name: 会津横田
+    time: 5
+    distance: 3.05
+  - from: '1122724'
+    from_name: 会津横田
+    to: '1122725'
+    to_name: 会津大塩
+    time: 4
+    distance: 2.02
+  - from: '1122725'
+    from_name: 会津大塩
+    to: '1122726'
+    to_name: 会津塩沢
+    time: 8
+    distance: 5.12
+  - from: '1122726'
+    from_name: 会津塩沢
+    to: '1122727'
+    to_name: 会津蒲生
+    time: 4
+    distance: 2.34
+  - from: '1122727'
+    from_name: 会津蒲生
+    to: '1122728'
+    to_name: 只見
+    time: 6
+    distance: 3.87
+  - from: '1122728'
+    from_name: 只見
+    to: '1122730'
+    to_name: 大白川
+    time: 26
+    distance: 17.12
+  - from: '1122732'
+    from_name: 入広瀬
+    to: '1122733'
+    to_name: 上条
+    time: 3
+    distance: 1.9
+  - from: '1122733'
+    from_name: 上条
+    to: '1122734'
+    to_name: 越後須原
+    time: 7
+    distance: 4.14
+  - from: '1122734'
+    from_name: 越後須原
+    to: '1122735'
+    to_name: 魚沼田中
+    time: 6
+    distance: 3.65
+  - from: '1122735'
+    from_name: 魚沼田中
+    to: '1122736'
+    to_name: 越後広瀬
+    time: 4
+    distance: 2.45
+  - from: '1122736'
+    from_name: 越後広瀬
+    to: '1122737'
+    to_name: 藪神
+    time: 4
+    distance: 2.02
+  - from: '1122737'
+    from_name: 藪神
+    to: '1122738'
+    to_name: 小出
+    time: 5
+    distance: 3.24

@@ -1,0 +1,48 @@
+line_code: '99815'
+line_name: 宿毛線
+company: 土佐くろしお鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9981415'
+    from_name: 中村
+    to: '9981502'
+    to_name: 具同
+    time: 5
+    distance: 2.72
+  - from: '9981502'
+    from_name: 具同
+    to: '9981503'
+    to_name: 国見
+    time: 5
+    distance: 2.96
+  - from: '9981503'
+    from_name: 国見
+    to: '9981504'
+    to_name: 有岡
+    time: 8
+    distance: 5.12
+  - from: '9981504'
+    from_name: 有岡
+    to: '9981505'
+    to_name: 工業団地
+    time: 5
+    distance: 2.96
+  - from: '9981505'
+    from_name: 工業団地
+    to: '9981506'
+    to_name: 平田
+    time: 2
+    distance: 0.65
+  - from: '9981506'
+    from_name: 平田
+    to: '9981507'
+    to_name: 東宿毛
+    time: 10
+    distance: 6.65
+  - from: '9981507'
+    from_name: 東宿毛
+    to: '9981508'
+    to_name: 宿毛
+    time: 3
+    distance: 1.41

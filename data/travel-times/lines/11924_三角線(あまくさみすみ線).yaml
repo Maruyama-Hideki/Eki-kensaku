@@ -1,0 +1,72 @@
+line_code: '11924'
+line_name: 三角線（あまくさみすみ線）
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1190341'
+    from_name: 熊本
+    to: '1190342'
+    to_name: 川尻
+    time: 8
+    distance: 5.12
+  - from: '1190342'
+    from_name: 川尻
+    to: '1190350'
+    to_name: 富合
+    time: 6
+    distance: 3.41
+  - from: '1190343'
+    from_name: 宇土
+    to: '1192404'
+    to_name: 緑川
+    time: 6
+    distance: 3.54
+  - from: '1192404'
+    from_name: 緑川
+    to: '1192405'
+    to_name: 住吉
+    time: 5
+    distance: 3.25
+  - from: '1192405'
+    from_name: 住吉
+    to: '1192406'
+    to_name: 肥後長浜
+    time: 6
+    distance: 3.74
+  - from: '1192406'
+    from_name: 肥後長浜
+    to: '1192407'
+    to_name: 網田
+    time: 5
+    distance: 2.86
+  - from: '1192407'
+    from_name: 網田
+    to: '1192408'
+    to_name: 赤瀬
+    time: 6
+    distance: 3.79
+  - from: '1192408'
+    from_name: 赤瀬
+    to: '1192409'
+    to_name: 石打ダム
+    time: 2
+    distance: 1.21
+  - from: '1192409'
+    from_name: 石打ダム
+    to: '1192410'
+    to_name: 波多浦
+    time: 6
+    distance: 3.5
+  - from: '1192410'
+    from_name: 波多浦
+    to: '1192411'
+    to_name: 三角
+    time: 3
+    distance: 1.92
+  - from: '1190350'
+    from_name: 富合
+    to: '1190343'
+    to_name: 宇土
+    time: 4
+    distance: 2.19

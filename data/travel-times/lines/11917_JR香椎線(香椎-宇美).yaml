@@ -1,0 +1,66 @@
+line_code: '11917'
+line_name: JR香椎線(香椎～宇美)
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1190227'
+    from_name: 香椎
+    to: '1191702'
+    to_name: 香椎神宮
+    time: 3
+    distance: 1.34
+  - from: '1191702'
+    from_name: 香椎神宮
+    to: '1191703'
+    to_name: 舞松原
+    time: 2
+    distance: 0.51
+  - from: '1191703'
+    from_name: 舞松原
+    to: '1191704'
+    to_name: 土井
+    time: 3
+    distance: 1.54
+  - from: '1191704'
+    from_name: 土井
+    to: '1191705'
+    to_name: 伊賀
+    time: 3
+    distance: 1.72
+  - from: '1191705'
+    from_name: 伊賀
+    to: '1190808'
+    to_name: 長者原
+    time: 2
+    distance: 0.9
+  - from: '1190808'
+    from_name: 長者原
+    to: '1191707'
+    to_name: 酒殿
+    time: 3
+    distance: 1.45
+  - from: '1191707'
+    from_name: 酒殿
+    to: '1191708'
+    to_name: 須恵
+    time: 2
+    distance: 1.27
+  - from: '1191708'
+    from_name: 須恵
+    to: '1191709'
+    to_name: 須恵中央
+    time: 2
+    distance: 1.24
+  - from: '1191709'
+    from_name: 須恵中央
+    to: '1191710'
+    to_name: 新原
+    time: 2
+    distance: 0.98
+  - from: '1191710'
+    from_name: 新原
+    to: '1191711'
+    to_name: 宇美
+    time: 2
+    distance: 1.17

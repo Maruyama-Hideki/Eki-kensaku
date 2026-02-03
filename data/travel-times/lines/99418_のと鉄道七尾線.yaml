@@ -1,0 +1,48 @@
+line_code: '99418'
+line_name: のと鉄道七尾線
+company: のと鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1141920'
+    from_name: 和倉温泉
+    to: '9941802'
+    to_name: 田鶴浜
+    time: 5
+    distance: 3.23
+  - from: '9941802'
+    from_name: 田鶴浜
+    to: '9941803'
+    to_name: 笠師保
+    time: 6
+    distance: 3.34
+  - from: '9941803'
+    from_name: 笠師保
+    to: '9941804'
+    to_name: 能登中島
+    time: 6
+    distance: 3.34
+  - from: '9941804'
+    from_name: 能登中島
+    to: '9941805'
+    to_name: 西岸
+    time: 7
+    distance: 4.66
+  - from: '9941805'
+    from_name: 西岸
+    to: '9941806'
+    to_name: 能登鹿島
+    time: 7
+    distance: 4.13
+  - from: '9941806'
+    from_name: 能登鹿島
+    to: '9941807'
+    to_name: 穴水
+    time: 9
+    distance: 5.4
+  - from: '1141919'
+    from_name: 七尾
+    to: '1141920'
+    to_name: 和倉温泉
+    time: 8
+    distance: 5.02

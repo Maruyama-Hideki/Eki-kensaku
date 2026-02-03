@@ -1,0 +1,66 @@
+line_code: '99524'
+line_name: 明知鉄道明知線
+company: 明知鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1141118'
+    from_name: 恵那
+    to: '9952402'
+    to_name: 東野
+    time: 4
+    distance: 2.14
+  - from: '9952402'
+    from_name: 東野
+    to: '9952403'
+    to_name: 飯沼
+    time: 7
+    distance: 4.27
+  - from: '9952403'
+    from_name: 飯沼
+    to: '9952404'
+    to_name: 阿木
+    time: 4
+    distance: 2.1
+  - from: '9952404'
+    from_name: 阿木
+    to: '9952405'
+    to_name: 飯羽間
+    time: 4
+    distance: 2.4
+  - from: '9952405'
+    from_name: 飯羽間
+    to: '9952411'
+    to_name: 極楽
+    time: 2
+    distance: 0.92
+  - from: '9952406'
+    from_name: 岩村
+    to: '9952407'
+    to_name: 花白温泉
+    time: 5
+    distance: 2.9
+  - from: '9952407'
+    from_name: 花白温泉
+    to: '9952408'
+    to_name: 山岡
+    time: 2
+    distance: 1.18
+  - from: '9952408'
+    from_name: 山岡
+    to: '9952409'
+    to_name: 野志
+    time: 5
+    distance: 3.18
+  - from: '9952409'
+    from_name: 野志
+    to: '9952410'
+    to_name: 明智
+    time: 3
+    distance: 1.77
+  - from: '9952411'
+    from_name: 極楽
+    to: '9952406'
+    to_name: 岩村
+    time: 2
+    distance: 1.24

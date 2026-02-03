@@ -1,0 +1,366 @@
+line_code: '11801'
+line_name: JR土讃線
+company: JR四国
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1180101'
+    from_name: 多度津
+    to: '1180102'
+    to_name: 金蔵寺
+    time: 5
+    distance: 3.17
+  - from: '1180102'
+    from_name: 金蔵寺
+    to: '1180103'
+    to_name: 善通寺
+    time: 4
+    distance: 2.29
+  - from: '1180103'
+    from_name: 善通寺
+    to: '1180104'
+    to_name: 琴平
+    time: 8
+    distance: 5.14
+  - from: '1180104'
+    from_name: 琴平
+    to: '1180105'
+    to_name: 塩入
+    time: 8
+    distance: 4.79
+  - from: '1180105'
+    from_name: 塩入
+    to: '1180106'
+    to_name: 黒川
+    time: 6
+    distance: 3.75
+  - from: '1180106'
+    from_name: 黒川
+    to: '1180107'
+    to_name: 讃岐財田
+    time: 3
+    distance: 1.81
+  - from: '1180107'
+    from_name: 讃岐財田
+    to: '1180108'
+    to_name: 坪尻
+    time: 11
+    distance: 7.11
+  - from: '1180108'
+    from_name: 坪尻
+    to: '1180109'
+    to_name: 箸蔵
+    time: 5
+    distance: 2.73
+  - from: '1180109'
+    from_name: 箸蔵
+    to: '1180110'
+    to_name: 佃
+    time: 2
+    distance: 1.22
+  - from: '1180110'
+    from_name: 佃
+    to: '1180111'
+    to_name: 阿波池田
+    time: 8
+    distance: 4.92
+  - from: '1180111'
+    from_name: 阿波池田
+    to: '1180112'
+    to_name: 三縄
+    time: 5
+    distance: 2.74
+  - from: '1180112'
+    from_name: 三縄
+    to: '1180113'
+    to_name: 祖谷口
+    time: 6
+    distance: 3.85
+  - from: '1180113'
+    from_name: 祖谷口
+    to: '1180114'
+    to_name: 阿波川口
+    time: 4
+    distance: 2.58
+  - from: '1180114'
+    from_name: 阿波川口
+    to: '1180115'
+    to_name: 小歩危
+    time: 7
+    distance: 4.5
+  - from: '1180115'
+    from_name: 小歩危
+    to: '1180116'
+    to_name: 大歩危
+    time: 8
+    distance: 5.27
+  - from: '1180116'
+    from_name: 大歩危
+    to: '1180117'
+    to_name: 土佐岩原
+    time: 10
+    distance: 6.3
+  - from: '1180117'
+    from_name: 土佐岩原
+    to: '1180118'
+    to_name: 豊永
+    time: 6
+    distance: 3.89
+  - from: '1180118'
+    from_name: 豊永
+    to: '1180119'
+    to_name: 大田口
+    time: 5
+    distance: 3.3
+  - from: '1180119'
+    from_name: 大田口
+    to: '1180120'
+    to_name: 土佐穴内
+    time: 5
+    distance: 2.9
+  - from: '1180120'
+    from_name: 土佐穴内
+    to: '1180121'
+    to_name: 大杉
+    time: 6
+    distance: 3.55
+  - from: '1180121'
+    from_name: 大杉
+    to: '1180122'
+    to_name: 土佐北川
+    time: 9
+    distance: 5.53
+  - from: '1180122'
+    from_name: 土佐北川
+    to: '1180123'
+    to_name: 角茂谷
+    time: 4
+    distance: 2.2
+  - from: '1180123'
+    from_name: 角茂谷
+    to: '1180124'
+    to_name: 繁藤
+    time: 3
+    distance: 1.72
+  - from: '1180124'
+    from_name: 繁藤
+    to: '1180125'
+    to_name: 新改
+    time: 6
+    distance: 3.46
+  - from: '1180125'
+    from_name: 新改
+    to: '1180126'
+    to_name: 土佐山田
+    time: 8
+    distance: 4.84
+  - from: '1180126'
+    from_name: 土佐山田
+    to: '1180127'
+    to_name: 山田西町
+    time: 2
+    distance: 0.74
+  - from: '1180127'
+    from_name: 山田西町
+    to: '1180128'
+    to_name: 土佐長岡
+    time: 3
+    distance: 1.99
+  - from: '1180128'
+    from_name: 土佐長岡
+    to: '1180129'
+    to_name: 後免
+    time: 4
+    distance: 2.08
+  - from: '1180129'
+    from_name: 後免
+    to: '1180130'
+    to_name: 土佐大津
+    time: 5
+    distance: 3.11
+  - from: '1180130'
+    from_name: 土佐大津
+    to: '1180131'
+    to_name: 布師田
+    time: 4
+    distance: 2.01
+  - from: '1180131'
+    from_name: 布師田
+    to: '1180132'
+    to_name: 土佐一宮
+    time: 2
+    distance: 1.27
+  - from: '1180132'
+    from_name: 土佐一宮
+    to: '1180133'
+    to_name: 薊野
+    time: 3
+    distance: 1.6
+  - from: '1180133'
+    from_name: 薊野
+    to: '1180134'
+    to_name: 高知
+    time: 3
+    distance: 1.99
+  - from: '1180134'
+    from_name: 高知
+    to: '1180135'
+    to_name: 入明
+    time: 2
+    distance: 1.23
+  - from: '1180135'
+    from_name: 入明
+    to: '1180136'
+    to_name: 円行寺口
+    time: 2
+    distance: 0.9
+  - from: '1180136'
+    from_name: 円行寺口
+    to: '1180137'
+    to_name: 旭
+    time: 3
+    distance: 1.38
+  - from: '1180137'
+    from_name: 旭
+    to: '1180138'
+    to_name: 高知商業前
+    time: 2
+    distance: 1.03
+  - from: '1180138'
+    from_name: 高知商業前
+    to: '1180139'
+    to_name: 朝倉
+    time: 3
+    distance: 1.35
+  - from: '1180139'
+    from_name: 朝倉
+    to: '1180140'
+    to_name: 枝川
+    time: 6
+    distance: 3.43
+  - from: '1180140'
+    from_name: 枝川
+    to: '1180141'
+    to_name: 伊野
+    time: 3
+    distance: 1.74
+  - from: '1180141'
+    from_name: 伊野
+    to: '1180142'
+    to_name: 波川
+    time: 3
+    distance: 1.54
+  - from: '1180142'
+    from_name: 波川
+    to: '1180161'
+    to_name: 小村神社前
+    time: 3
+    distance: 2
+  - from: '1180143'
+    from_name: 日下
+    to: '1180144'
+    to_name: 岡花
+    time: 3
+    distance: 1.92
+  - from: '1180144'
+    from_name: 岡花
+    to: '1180145'
+    to_name: 土佐加茂
+    time: 5
+    distance: 2.87
+  - from: '1180145'
+    from_name: 土佐加茂
+    to: '1180146'
+    to_name: 西佐川
+    time: 6
+    distance: 3.43
+  - from: '1180146'
+    from_name: 西佐川
+    to: '1180147'
+    to_name: 佐川
+    time: 3
+    distance: 1.49
+  - from: '1180147'
+    from_name: 佐川
+    to: '1180148'
+    to_name: 襟野々
+    time: 3
+    distance: 1.48
+  - from: '1180148'
+    from_name: 襟野々
+    to: '1180149'
+    to_name: 斗賀野
+    time: 3
+    distance: 1.95
+  - from: '1180149'
+    from_name: 斗賀野
+    to: '1180150'
+    to_name: 吾桑
+    time: 8
+    distance: 5.1
+  - from: '1180150'
+    from_name: 吾桑
+    to: '1180151'
+    to_name: 多ノ郷
+    time: 4
+    distance: 2.18
+  - from: '1180151'
+    from_name: 多ノ郷
+    to: '1180152'
+    to_name: 大間
+    time: 2
+    distance: 0.77
+  - from: '1180152'
+    from_name: 大間
+    to: '1180153'
+    to_name: 須崎
+    time: 3
+    distance: 1.66
+  - from: '1180153'
+    from_name: 須崎
+    to: '1180154'
+    to_name: 土佐新荘
+    time: 3
+    distance: 1.57
+  - from: '1180154'
+    from_name: 土佐新荘
+    to: '1180155'
+    to_name: 安和
+    time: 5
+    distance: 2.8
+  - from: '1180155'
+    from_name: 安和
+    to: '1180156'
+    to_name: 土佐久礼
+    time: 8
+    distance: 5.18
+  - from: '1180156'
+    from_name: 土佐久礼
+    to: '1180157'
+    to_name: 影野
+    time: 12
+    distance: 7.69
+  - from: '1180157'
+    from_name: 影野
+    to: '1180158'
+    to_name: 六反地
+    time: 3
+    distance: 1.59
+  - from: '1180158'
+    from_name: 六反地
+    to: '1180159'
+    to_name: 仁井田
+    time: 4
+    distance: 2.03
+  - from: '1180159'
+    from_name: 仁井田
+    to: '1180160'
+    to_name: 窪川
+    time: 7
+    distance: 4.24
+  - from: '1180161'
+    from_name: 小村神社前
+    to: '1180143'
+    to_name: 日下
+    time: 4
+    distance: 2.13

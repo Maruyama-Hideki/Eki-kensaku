@@ -1,0 +1,36 @@
+line_code: '11504'
+line_name: JR伊東線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130121'
+    from_name: 熱海
+    to: '1150402'
+    to_name: 来宮
+    time: 2
+    distance: 1.23
+  - from: '1150402'
+    from_name: 来宮
+    to: '1150403'
+    to_name: 伊豆多賀
+    time: 7
+    distance: 4.37
+  - from: '1150403'
+    from_name: 伊豆多賀
+    to: '1150404'
+    to_name: 網代
+    time: 4
+    distance: 2.2
+  - from: '1150404'
+    from_name: 網代
+    to: '1150405'
+    to_name: 宇佐美
+    time: 7
+    distance: 4.22
+  - from: '1150405'
+    from_name: 宇佐美
+    to: '1150406'
+    to_name: 伊東
+    time: 6
+    distance: 3.62

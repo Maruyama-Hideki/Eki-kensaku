@@ -1,0 +1,36 @@
+line_code: '99510'
+line_name: 東海交通事業城北線
+company: 東海交通事業
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1150234'
+    from_name: 枇杷島
+    to: '9951002'
+    to_name: 尾張星の宮
+    time: 3
+    distance: 1.71
+  - from: '9951002'
+    from_name: 尾張星の宮
+    to: '9951003'
+    to_name: 小田井
+    time: 4
+    distance: 2.48
+  - from: '9951003'
+    from_name: 小田井
+    to: '9951004'
+    to_name: 比良
+    time: 4
+    distance: 2.11
+  - from: '9951004'
+    from_name: 比良
+    to: '9951005'
+    to_name: 味美
+    time: 5
+    distance: 2.77
+  - from: '9951005'
+    from_name: 味美
+    to: '1141107'
+    to_name: 勝川
+    time: 4
+    distance: 2.18

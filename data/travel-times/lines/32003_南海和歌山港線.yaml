@@ -1,0 +1,12 @@
+line_code: '32003'
+line_name: 南海和歌山港線
+company: 南海電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1164003'
+    from_name: 和歌山市
+    to: '3200302'
+    to_name: 和歌山港
+    time: 5
+    distance: 2.85

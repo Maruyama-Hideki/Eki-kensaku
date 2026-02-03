@@ -1,0 +1,24 @@
+line_code: '11927'
+line_name: JR宮崎空港線
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1190729'
+    from_name: 宮崎
+    to: '1190730'
+    to_name: 南宮崎
+    time: 4
+    distance: 2.47
+  - from: '1190730'
+    from_name: 南宮崎
+    to: '1192703'
+    to_name: 田吉
+    time: 4
+    distance: 2.04
+  - from: '1192703'
+    from_name: 田吉
+    to: '1192704'
+    to_name: 宮崎空港
+    time: 2
+    distance: 1.13

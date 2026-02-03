@@ -1,0 +1,36 @@
+line_code: '99344'
+line_name: 箱根登山ケーブルカー
+company: 箱根登山鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9933911'
+    from_name: 強羅
+    to: '9934402'
+    to_name: 公園下
+    time: 2
+    distance: 0.25
+  - from: '9934402'
+    from_name: 公園下
+    to: '9934403'
+    to_name: 公園上
+    time: 2
+    distance: 0.24
+  - from: '9934403'
+    from_name: 公園上
+    to: '9934404'
+    to_name: 中強羅
+    time: 2
+    distance: 0.26
+  - from: '9934404'
+    from_name: 中強羅
+    to: '9934405'
+    to_name: 上強羅
+    time: 2
+    distance: 0.25
+  - from: '9934405'
+    from_name: 上強羅
+    to: '9934406'
+    to_name: 早雲山
+    time: 2
+    distance: 0.24

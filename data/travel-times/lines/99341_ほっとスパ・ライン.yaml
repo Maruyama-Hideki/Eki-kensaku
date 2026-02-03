@@ -1,0 +1,54 @@
+line_code: '99341'
+line_name: ほっとスパ・ライン
+company: 野岩鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2100908'
+    from_name: 新藤原
+    to: '9934102'
+    to_name: 龍王峡
+    time: 3
+    distance: 1.59
+  - from: '9934102'
+    from_name: 龍王峡
+    to: '9934103'
+    to_name: 川治温泉
+    time: 5
+    distance: 2.89
+  - from: '9934103'
+    from_name: 川治温泉
+    to: '9934104'
+    to_name: 川治湯元
+    time: 2
+    distance: 1.24
+  - from: '9934104'
+    from_name: 川治湯元
+    to: '9934105'
+    to_name: 湯西川温泉
+    time: 7
+    distance: 4.03
+  - from: '9934105'
+    from_name: 湯西川温泉
+    to: '9934106'
+    to_name: 中三依温泉
+    time: 10
+    distance: 6.31
+  - from: '9934106'
+    from_name: 中三依温泉
+    to: '9934107'
+    to_name: 上三依塩原温泉口
+    time: 7
+    distance: 4.21
+  - from: '9934107'
+    from_name: 上三依塩原温泉口
+    to: '9934108'
+    to_name: 男鹿高原
+    time: 6
+    distance: 3.72
+  - from: '9934108'
+    from_name: 男鹿高原
+    to: '9921621'
+    to_name: 会津高原尾瀬口
+    time: 8
+    distance: 4.98

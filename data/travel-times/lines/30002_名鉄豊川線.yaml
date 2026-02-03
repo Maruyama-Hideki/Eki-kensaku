@@ -1,0 +1,30 @@
+line_code: '30002'
+line_name: 名鉄豊川線
+company: 名古屋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3000104'
+    from_name: 国府
+    to: '3000202'
+    to_name: 八幡
+    time: 4
+    distance: 2.38
+  - from: '3000202'
+    from_name: 八幡
+    to: '3000203'
+    to_name: 諏訪町
+    time: 3
+    distance: 1.79
+  - from: '3000203'
+    from_name: 諏訪町
+    to: '3000204'
+    to_name: 稲荷口
+    time: 3
+    distance: 1.67
+  - from: '3000204'
+    from_name: 稲荷口
+    to: '1141306'
+    to_name: 豊川
+    time: 2
+    distance: 0.98

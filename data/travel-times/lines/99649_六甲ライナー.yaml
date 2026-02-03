@@ -1,0 +1,36 @@
+line_code: '99649'
+line_name: 六甲ライナー
+company: 神戸新交通
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1160310'
+    from_name: 住吉
+    to: '3500123'
+    to_name: 魚崎
+    time: 2
+    distance: 1.03
+  - from: '3500123'
+    from_name: 魚崎
+    to: '9964903'
+    to_name: 南魚崎
+    time: 2
+    distance: 0.67
+  - from: '9964903'
+    from_name: 南魚崎
+    to: '9964904'
+    to_name: アイランド北口
+    time: 3
+    distance: 1.55
+  - from: '9964904'
+    from_name: アイランド北口
+    to: '9964905'
+    to_name: アイランドセンター
+    time: 2
+    distance: 0.42
+  - from: '9964905'
+    from_name: アイランドセンター
+    to: '9964906'
+    to_name: マリンパーク
+    time: 2
+    distance: 0.55

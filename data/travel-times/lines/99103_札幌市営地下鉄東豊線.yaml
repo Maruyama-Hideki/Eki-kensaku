@@ -1,0 +1,84 @@
+line_code: '99103'
+line_name: 札幌市営地下鉄東豊線
+company: 札幌市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '9910301'
+    from_name: 栄町
+    to: '9910302'
+    to_name: 新道東
+    time: 2
+    distance: 0.94
+  - from: '9910302'
+    from_name: 新道東
+    to: '9910303'
+    to_name: 元町
+    time: 2
+    distance: 1.16
+  - from: '9910303'
+    from_name: 元町
+    to: '9910304'
+    to_name: 環状通東
+    time: 3
+    distance: 1.38
+  - from: '9910304'
+    from_name: 環状通東
+    to: '9910305'
+    to_name: 東区役所前
+    time: 2
+    distance: 0.92
+  - from: '9910305'
+    from_name: 東区役所前
+    to: '9910306'
+    to_name: 北１３条東
+    time: 2
+    distance: 0.82
+  - from: '9910306'
+    from_name: 北１３条東
+    to: '1110315'
+    to_name: 札幌
+    time: 2
+    distance: 0.98
+  - from: '1110315'
+    from_name: 札幌
+    to: '9910109'
+    to_name: 大通
+    time: 2
+    distance: 0.95
+  - from: '9910109'
+    from_name: 大通
+    to: '9910309'
+    to_name: 豊水すすきの
+    time: 2
+    distance: 0.64
+  - from: '9910309'
+    from_name: 豊水すすきの
+    to: '9910310'
+    to_name: 学園前
+    time: 3
+    distance: 1.3
+  - from: '9910310'
+    from_name: 学園前
+    to: '9910311'
+    to_name: 豊平公園
+    time: 2
+    distance: 0.86
+  - from: '9910311'
+    from_name: 豊平公園
+    to: '9910312'
+    to_name: 美園
+    time: 2
+    distance: 0.97
+  - from: '9910312'
+    from_name: 美園
+    to: '9910313'
+    to_name: 月寒中央
+    time: 2
+    distance: 1.07
+  - from: '9910313'
+    from_name: 月寒中央
+    to: '9910314'
+    to_name: 福住
+    time: 2
+    distance: 1.14

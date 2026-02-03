@@ -1,0 +1,60 @@
+line_code: '99625'
+line_name: 大阪メトロ南港ポートタウン線
+company: Osaka Metro
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9962101'
+    from_name: コスモスクエア
+    to: '9962502'
+    to_name: トレードセンター前
+    time: 2
+    distance: 0.47
+  - from: '9962502'
+    from_name: トレードセンター前
+    to: '9962503'
+    to_name: 中ふ頭
+    time: 2
+    distance: 0.69
+  - from: '9962503'
+    from_name: 中ふ頭
+    to: '9962504'
+    to_name: ポートタウン西
+    time: 2
+    distance: 0.61
+  - from: '9962504'
+    from_name: ポートタウン西
+    to: '9962505'
+    to_name: ポートタウン東
+    time: 2
+    distance: 0.58
+  - from: '9962505'
+    from_name: ポートタウン東
+    to: '9962506'
+    to_name: フェリーターミナル
+    time: 3
+    distance: 1.4
+  - from: '9962506'
+    from_name: フェリーターミナル
+    to: '9962507'
+    to_name: 南港東
+    time: 2
+    distance: 0.69
+  - from: '9962507'
+    from_name: 南港東
+    to: '9962508'
+    to_name: 南港口
+    time: 2
+    distance: 0.67
+  - from: '9962508'
+    from_name: 南港口
+    to: '9962509'
+    to_name: 平林
+    time: 2
+    distance: 1.21
+  - from: '9962509'
+    from_name: 平林
+    to: '9962011'
+    to_name: 住之江公園
+    time: 2
+    distance: 1.23

@@ -1,0 +1,84 @@
+line_code: '11920'
+line_name: JR筑肥線(西唐津～伊万里)
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1190920'
+    from_name: 西唐津
+    to: '1190919'
+    to_name: 唐津
+    time: 3
+    distance: 1.97
+  - from: '1190919'
+    from_name: 唐津
+    to: '1192003'
+    to_name: 鬼塚
+    time: 5
+    distance: 3.27
+  - from: '1192003'
+    from_name: 鬼塚
+    to: '1192004'
+    to_name: 山本
+    time: 5
+    distance: 3.13
+  - from: '1192004'
+    from_name: 山本
+    to: '1192005'
+    to_name: 肥前久保
+    time: 7
+    distance: 4.55
+  - from: '1192005'
+    from_name: 肥前久保
+    to: '1192006'
+    to_name: 西相知
+    time: 2
+    distance: 1.26
+  - from: '1192006'
+    from_name: 西相知
+    to: '1192007'
+    to_name: 佐里
+    time: 3
+    distance: 1.59
+  - from: '1192007'
+    from_name: 佐里
+    to: '1192008'
+    to_name: 駒鳴
+    time: 4
+    distance: 2.08
+  - from: '1192008'
+    from_name: 駒鳴
+    to: '1192009'
+    to_name: 大川野
+    time: 3
+    distance: 1.41
+  - from: '1192009'
+    from_name: 大川野
+    to: '1192010'
+    to_name: 肥前長野
+    time: 3
+    distance: 1.39
+  - from: '1192010'
+    from_name: 肥前長野
+    to: '1192011'
+    to_name: 桃川
+    time: 5
+    distance: 2.97
+  - from: '1192011'
+    from_name: 桃川
+    to: '1192012'
+    to_name: 金石原
+    time: 4
+    distance: 2.14
+  - from: '1192012'
+    from_name: 金石原
+    to: '1192013'
+    to_name: 上伊万里
+    time: 6
+    distance: 3.99
+  - from: '1192013'
+    from_name: 上伊万里
+    to: '1192014'
+    to_name: 伊万里
+    time: 3
+    distance: 1.48

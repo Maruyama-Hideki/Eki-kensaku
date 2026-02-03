@@ -1,0 +1,66 @@
+line_code: '22002'
+line_name: 西武秩父線
+company: 西武鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2200125'
+    from_name: 飯能
+    to: '1131708'
+    to_name: 東飯能
+    time: 2
+    distance: 0.67
+  - from: '1131708'
+    from_name: 東飯能
+    to: '2200127'
+    to_name: 高麗
+    time: 6
+    distance: 3.77
+  - from: '2200127'
+    from_name: 高麗
+    to: '2200128'
+    to_name: 武蔵横手
+    time: 4
+    distance: 2.17
+  - from: '2200128'
+    from_name: 武蔵横手
+    to: '2200129'
+    to_name: 東吾野
+    time: 4
+    distance: 2
+  - from: '2200129'
+    from_name: 東吾野
+    to: '2200130'
+    to_name: 吾野
+    time: 6
+    distance: 3.51
+  - from: '2200130'
+    from_name: 吾野
+    to: '2200207'
+    to_name: 西吾野
+    time: 5
+    distance: 3.01
+  - from: '2200207'
+    from_name: 西吾野
+    to: '2200208'
+    to_name: 正丸
+    time: 4
+    distance: 2.26
+  - from: '2200208'
+    from_name: 正丸
+    to: '2200209'
+    to_name: 芦ヶ久保
+    time: 9
+    distance: 5.9
+  - from: '2200209'
+    from_name: 芦ヶ久保
+    to: '2200210'
+    to_name: 横瀬
+    time: 6
+    distance: 3.58
+  - from: '2200210'
+    from_name: 横瀬
+    to: '2200212'
+    to_name: 西武秩父
+    time: 3
+    distance: 1.38

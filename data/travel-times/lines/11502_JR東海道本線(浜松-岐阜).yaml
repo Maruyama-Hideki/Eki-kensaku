@@ -1,0 +1,246 @@
+line_code: '11502'
+line_name: JR東海道本線(浜松～岐阜)
+company: JR東海
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1150201'
+    from_name: 浜松
+    to: '1150203'
+    to_name: 高塚
+    time: 8
+    distance: 5.11
+  - from: '1150203'
+    from_name: 高塚
+    to: '1150204'
+    to_name: 舞阪
+    time: 8
+    distance: 5.05
+  - from: '1150204'
+    from_name: 舞阪
+    to: '1150205'
+    to_name: 弁天島
+    time: 4
+    distance: 2.19
+  - from: '1150205'
+    from_name: 弁天島
+    to: '1150206'
+    to_name: 新居町
+    time: 5
+    distance: 3.15
+  - from: '1150206'
+    from_name: 新居町
+    to: '1150207'
+    to_name: 鷲津
+    time: 5
+    distance: 3.26
+  - from: '1150207'
+    from_name: 鷲津
+    to: '1150208'
+    to_name: 新所原
+    time: 9
+    distance: 5.69
+  - from: '1150208'
+    from_name: 新所原
+    to: '1150209'
+    to_name: 二川
+    time: 7
+    distance: 4.16
+  - from: '1150209'
+    from_name: 二川
+    to: '1141301'
+    to_name: 豊橋
+    time: 10
+    distance: 6.62
+  - from: '1141301'
+    from_name: 豊橋
+    to: '1150211'
+    to_name: 西小坂井
+    time: 8
+    distance: 4.68
+  - from: '1150211'
+    from_name: 西小坂井
+    to: '1150212'
+    to_name: 愛知御津
+    time: 6
+    distance: 3.71
+  - from: '1150212'
+    from_name: 愛知御津
+    to: '1150213'
+    to_name: 三河大塚
+    time: 5
+    distance: 3.09
+  - from: '1150213'
+    from_name: 三河大塚
+    to: '1150214'
+    to_name: 三河三谷
+    time: 5
+    distance: 3.22
+  - from: '1150214'
+    from_name: 三河三谷
+    to: '1150215'
+    to_name: 蒲郡
+    time: 4
+    distance: 2.01
+  - from: '1150215'
+    from_name: 蒲郡
+    to: '1150216'
+    to_name: 三河塩津
+    time: 4
+    distance: 2.31
+  - from: '1150216'
+    from_name: 三河塩津
+    to: '1150217'
+    to_name: 三ケ根
+    time: 4
+    distance: 2.59
+  - from: '1150217'
+    from_name: 三ケ根
+    to: '1150218'
+    to_name: 幸田
+    time: 5
+    distance: 2.83
+  - from: '1150218'
+    from_name: 幸田
+    to: '1150242'
+    to_name: 相見
+    time: 5
+    distance: 3.01
+  - from: '1150219'
+    from_name: 岡崎
+    to: '1150220'
+    to_name: 西岡崎
+    time: 6
+    distance: 3.89
+  - from: '1150220'
+    from_name: 西岡崎
+    to: '1150221'
+    to_name: 安城
+    time: 6
+    distance: 3.61
+  - from: '1150221'
+    from_name: 安城
+    to: '1150222'
+    to_name: 三河安城
+    time: 4
+    distance: 2.62
+  - from: '1150222'
+    from_name: 三河安城
+    to: '1150223'
+    to_name: 東刈谷
+    time: 3
+    distance: 1.8
+  - from: '1150223'
+    from_name: 東刈谷
+    to: '1150240'
+    to_name: 野田新町
+    time: 3
+    distance: 1.74
+  - from: '1150224'
+    from_name: 刈谷
+    to: '1150225'
+    to_name: 逢妻
+    time: 3
+    distance: 1.85
+  - from: '1150225'
+    from_name: 逢妻
+    to: '1150226'
+    to_name: 大府
+    time: 5
+    distance: 2.87
+  - from: '1150226'
+    from_name: 大府
+    to: '1150227'
+    to_name: 共和
+    time: 5
+    distance: 3.03
+  - from: '1150227'
+    from_name: 共和
+    to: '1150241'
+    to_name: 南大高
+    time: 4
+    distance: 2.31
+  - from: '1150228'
+    from_name: 大高
+    to: '1150229'
+    to_name: 笠寺
+    time: 5
+    distance: 3.14
+  - from: '1150229'
+    from_name: 笠寺
+    to: '1150230'
+    to_name: 熱田
+    time: 7
+    distance: 4.14
+  - from: '1150230'
+    from_name: 熱田
+    to: '1141102'
+    to_name: 金山
+    time: 3
+    distance: 1.7
+  - from: '1141102'
+    from_name: 金山
+    to: '1150232'
+    to_name: 尾頭橋
+    time: 2
+    distance: 0.97
+  - from: '1150232'
+    from_name: 尾頭橋
+    to: '1141101'
+    to_name: 名古屋
+    time: 5
+    distance: 2.77
+  - from: '1141101'
+    from_name: 名古屋
+    to: '1150234'
+    to_name: 枇杷島
+    time: 6
+    distance: 3.6
+  - from: '1150234'
+    from_name: 枇杷島
+    to: '1150235'
+    to_name: 清洲
+    time: 6
+    distance: 3.87
+  - from: '1150235'
+    from_name: 清洲
+    to: '1150236'
+    to_name: 稲沢
+    time: 5
+    distance: 3.31
+  - from: '1150236'
+    from_name: 稲沢
+    to: '1150237'
+    to_name: 尾張一宮
+    time: 9
+    distance: 5.82
+  - from: '1150237'
+    from_name: 尾張一宮
+    to: '1150238'
+    to_name: 木曽川
+    time: 9
+    distance: 5.5
+  - from: '1150238'
+    from_name: 木曽川
+    to: '1141601'
+    to_name: 岐阜
+    time: 11
+    distance: 7.05
+  - from: '1150240'
+    from_name: 野田新町
+    to: '1150224'
+    to_name: 刈谷
+    time: 3
+    distance: 1.77
+  - from: '1150241'
+    from_name: 南大高
+    to: '1150228'
+    to_name: 大高
+    time: 3
+    distance: 1.7
+  - from: '1150242'
+    from_name: 相見
+    to: '1150219'
+    to_name: 岡崎
+    time: 7
+    distance: 4.3

@@ -1,0 +1,54 @@
+line_code: '11625'
+line_name: JR東西線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1161724'
+    from_name: 京橋
+    to: '1162502'
+    to_name: 大阪城北詰
+    time: 2
+    distance: 0.82
+  - from: '1162502'
+    from_name: 大阪城北詰
+    to: '1162503'
+    to_name: 大阪天満宮
+    time: 2
+    distance: 1.16
+  - from: '1162503'
+    from_name: 大阪天満宮
+    to: '1160214'
+    to_name: 大阪
+    time: 3
+    distance: 1.76
+  - from: '1160214'
+    from_name: 大阪
+    to: '1162309'
+    to_name: 福島
+    time: 2
+    distance: 0.98
+  - from: '1162309'
+    from_name: 福島
+    to: '1162506'
+    to_name: 海老江
+    time: 2
+    distance: 1.23
+  - from: '1162506'
+    from_name: 海老江
+    to: '1162507'
+    to_name: 御幣島
+    time: 4
+    distance: 2.49
+  - from: '1162507'
+    from_name: 御幣島
+    to: '1162508'
+    to_name: 加島
+    time: 3
+    distance: 1.66
+  - from: '1162508'
+    from_name: 加島
+    to: '1160303'
+    to_name: 尼崎
+    time: 4
+    distance: 2.11

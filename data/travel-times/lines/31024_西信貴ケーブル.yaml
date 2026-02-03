@@ -1,0 +1,12 @@
+line_code: '31024'
+line_name: 西信貴ケーブル
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3102103'
+    from_name: 信貴山口
+    to: '3102402'
+    to_name: 高安山
+    time: 2
+    distance: 1.28

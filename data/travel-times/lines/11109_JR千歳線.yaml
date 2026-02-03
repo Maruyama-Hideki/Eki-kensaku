@@ -1,0 +1,108 @@
+line_code: '11109'
+line_name: JR千歳線
+company: JR北海道
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1110434'
+    from_name: 苫小牧
+    to: '1110502'
+    to_name: 沼ノ端
+    time: 13
+    distance: 8.66
+  - from: '1110502'
+    from_name: 沼ノ端
+    to: '1110903'
+    to_name: 植苗
+    time: 9
+    distance: 5.77
+  - from: '1110903'
+    from_name: 植苗
+    to: '1110906'
+    to_name: 南千歳
+    time: 18
+    distance: 11.58
+  - from: '1110905'
+    from_name: 新千歳空港
+    to: '1110906'
+    to_name: 南千歳
+    time: 4
+    distance: 2.32
+  - from: '1110906'
+    from_name: 南千歳
+    to: '1110907'
+    to_name: 千歳
+    time: 5
+    distance: 2.94
+  - from: '1110907'
+    from_name: 千歳
+    to: '1110908'
+    to_name: 長都
+    time: 6
+    distance: 3.57
+  - from: '1110908'
+    from_name: 長都
+    to: '1110909'
+    to_name: サッポロビール庭園
+    time: 4
+    distance: 2.16
+  - from: '1110909'
+    from_name: サッポロビール庭園
+    to: '1110910'
+    to_name: 恵庭
+    time: 4
+    distance: 2.4
+  - from: '1110910'
+    from_name: 恵庭
+    to: '1110911'
+    to_name: 恵み野
+    time: 4
+    distance: 2.39
+  - from: '1110911'
+    from_name: 恵み野
+    to: '1110912'
+    to_name: 島松
+    time: 4
+    distance: 2.2
+  - from: '1110912'
+    from_name: 島松
+    to: '1110913'
+    to_name: 北広島
+    time: 10
+    distance: 6.36
+  - from: '1110913'
+    from_name: 北広島
+    to: '1110914'
+    to_name: 上野幌
+    time: 12
+    distance: 7.41
+  - from: '1110914'
+    from_name: 上野幌
+    to: '1110915'
+    to_name: 新札幌
+    time: 5
+    distance: 2.79
+  - from: '1110915'
+    from_name: 新札幌
+    to: '1110916'
+    to_name: 平和
+    time: 5
+    distance: 2.94
+  - from: '1110916'
+    from_name: 平和
+    to: '1110317'
+    to_name: 白石
+    time: 4
+    distance: 2.16
+  - from: '1110317'
+    from_name: 白石
+    to: '1110316'
+    to_name: 苗穂
+    time: 5
+    distance: 3.31
+  - from: '1110316'
+    from_name: 苗穂
+    to: '1110315'
+    to_name: 札幌
+    time: 4
+    distance: 2.17

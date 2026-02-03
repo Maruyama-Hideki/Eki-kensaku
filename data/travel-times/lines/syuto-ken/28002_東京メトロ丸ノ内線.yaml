@@ -1,0 +1,162 @@
+line_code: '28002'
+line_name: 東京メトロ丸ノ内線
+company: 東京メトロ
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '1130212'
+    from_name: 池袋
+    to: '2800202'
+    to_name: 新大塚
+    time: 4
+    distance: 1.78
+  - from: '2800202'
+    from_name: 新大塚
+    to: '2800203'
+    to_name: 茗荷谷
+    time: 2
+    distance: 1.17
+  - from: '2800203'
+    from_name: 茗荷谷
+    to: '2800204'
+    to_name: 後楽園
+    time: 3
+    distance: 1.67
+  - from: '2800204'
+    from_name: 後楽園
+    to: '2800205'
+    to_name: 本郷三丁目
+    time: 2
+    distance: 0.74
+  - from: '2800205'
+    from_name: 本郷三丁目
+    to: '1131203'
+    to_name: 御茶ノ水
+    time: 2
+    distance: 0.91
+  - from: '1131203'
+    from_name: 御茶ノ水
+    to: '2800208'
+    to_name: 大手町
+    time: 3
+    distance: 1.45
+  - from: '2800208'
+    from_name: 大手町
+    to: '1130101'
+    to_name: 東京
+    time: 2
+    distance: 0.58
+  - from: '1130101'
+    from_name: 東京
+    to: '2800111'
+    to_name: 銀座
+    time: 2
+    distance: 1.06
+  - from: '2800111'
+    from_name: 銀座
+    to: '2800211'
+    to_name: 霞ケ関
+    time: 3
+    distance: 1.2
+  - from: '2800211'
+    from_name: 霞ケ関
+    to: '2800212'
+    to_name: 国会議事堂前
+    time: 2
+    distance: 0.51
+  - from: '2800212'
+    from_name: 国会議事堂前
+    to: '2800115'
+    to_name: 赤坂見附
+    time: 2
+    distance: 0.81
+  - from: '2800115'
+    from_name: 赤坂見附
+    to: '1131102'
+    to_name: 四ツ谷
+    time: 2
+    distance: 1.16
+  - from: '1131102'
+    from_name: 四ツ谷
+    to: '2800215'
+    to_name: 四谷三丁目
+    time: 2
+    distance: 0.98
+  - from: '2800215'
+    from_name: 四谷三丁目
+    to: '2800216'
+    to_name: 新宿御苑前
+    time: 2
+    distance: 0.85
+  - from: '2800216'
+    from_name: 新宿御苑前
+    to: '2800217'
+    to_name: 新宿三丁目
+    time: 2
+    distance: 0.58
+  - from: '2800217'
+    from_name: 新宿三丁目
+    to: '1130208'
+    to_name: 新宿
+    time: 2
+    distance: 0.42
+  - from: '1130208'
+    from_name: 新宿
+    to: '2800219'
+    to_name: 西新宿
+    time: 2
+    distance: 0.86
+  - from: '2800219'
+    from_name: 西新宿
+    to: '2800220'
+    to_name: 中野坂上
+    time: 2
+    distance: 0.98
+  - from: '2800220'
+    from_name: 中野坂上
+    to: '2800221'
+    to_name: 新中野
+    time: 3
+    distance: 1.25
+  - from: '2800220'
+    from_name: 中野坂上
+    to: '2800226'
+    to_name: 中野新橋
+    time: 2
+    distance: 1.03
+  - from: '2800221'
+    from_name: 新中野
+    to: '2800222'
+    to_name: 東高円寺
+    time: 2
+    distance: 1.01
+  - from: '2800222'
+    from_name: 東高円寺
+    to: '2800223'
+    to_name: 新高円寺
+    time: 2
+    distance: 0.88
+  - from: '2800223'
+    from_name: 新高円寺
+    to: '2800224'
+    to_name: 南阿佐ケ谷
+    time: 2
+    distance: 1.13
+  - from: '2800224'
+    from_name: 南阿佐ケ谷
+    to: '1131217'
+    to_name: 荻窪
+    time: 3
+    distance: 1.51
+  - from: '2800226'
+    from_name: 中野新橋
+    to: '2800227'
+    to_name: 中野富士見町
+    time: 2
+    distance: 0.66
+  - from: '2800227'
+    from_name: 中野富士見町
+    to: '2800228'
+    to_name: 方南町
+    time: 3
+    distance: 1.22

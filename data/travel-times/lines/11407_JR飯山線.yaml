@@ -1,0 +1,204 @@
+line_code: '11407'
+line_name: JR飯山線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1140305'
+    from_name: 長野
+    to: '1140306'
+    to_name: 北長野
+    time: 6
+    distance: 3.84
+  - from: '1140306'
+    from_name: 北長野
+    to: '1140307'
+    to_name: 三才
+    time: 5
+    distance: 3.07
+  - from: '1140307'
+    from_name: 三才
+    to: '1140308'
+    to_name: 豊野
+    time: 6
+    distance: 3.8
+  - from: '1140308'
+    from_name: 豊野
+    to: '1140705'
+    to_name: 信濃浅野
+    time: 4
+    distance: 2.21
+  - from: '1140705'
+    from_name: 信濃浅野
+    to: '1140706'
+    to_name: 立ケ花
+    time: 3
+    distance: 1.5
+  - from: '1140706'
+    from_name: 立ケ花
+    to: '1140707'
+    to_name: 上今井
+    time: 5
+    distance: 2.76
+  - from: '1140707'
+    from_name: 上今井
+    to: '1140708'
+    to_name: 替佐
+    time: 3
+    distance: 1.71
+  - from: '1140708'
+    from_name: 替佐
+    to: '1140709'
+    to_name: 蓮
+    time: 8
+    distance: 4.99
+  - from: '1140709'
+    from_name: 蓮
+    to: '1140710'
+    to_name: 飯山
+    time: 7
+    distance: 4.41
+  - from: '1140710'
+    from_name: 飯山
+    to: '1140711'
+    to_name: 北飯山
+    time: 2
+    distance: 1.3
+  - from: '1140711'
+    from_name: 北飯山
+    to: '1140712'
+    to_name: 信濃平
+    time: 5
+    distance: 3.18
+  - from: '1140712'
+    from_name: 信濃平
+    to: '1140713'
+    to_name: 戸狩野沢温泉
+    time: 6
+    distance: 3.76
+  - from: '1140713'
+    from_name: 戸狩野沢温泉
+    to: '1140714'
+    to_name: 上境
+    time: 5
+    distance: 3.32
+  - from: '1140714'
+    from_name: 上境
+    to: '1140715'
+    to_name: 上桑名川
+    time: 6
+    distance: 3.37
+  - from: '1140715'
+    from_name: 上桑名川
+    to: '1140716'
+    to_name: 桑名川
+    time: 4
+    distance: 2.1
+  - from: '1140716'
+    from_name: 桑名川
+    to: '1140717'
+    to_name: 西大滝
+    time: 4
+    distance: 2.06
+  - from: '1140717'
+    from_name: 西大滝
+    to: '1140718'
+    to_name: 信濃白鳥
+    time: 4
+    distance: 2.03
+  - from: '1140718'
+    from_name: 信濃白鳥
+    to: '1140719'
+    to_name: 平滝
+    time: 5
+    distance: 2.74
+  - from: '1140719'
+    from_name: 平滝
+    to: '1140720'
+    to_name: 横倉
+    time: 3
+    distance: 1.63
+  - from: '1140720'
+    from_name: 横倉
+    to: '1140721'
+    to_name: 森宮野原
+    time: 4
+    distance: 2.63
+  - from: '1140721'
+    from_name: 森宮野原
+    to: '1140722'
+    to_name: 足滝
+    time: 4
+    distance: 2.56
+  - from: '1140722'
+    from_name: 足滝
+    to: '1140723'
+    to_name: 越後田中
+    time: 4
+    distance: 2.2
+  - from: '1140723'
+    from_name: 越後田中
+    to: '1140724'
+    to_name: 津南
+    time: 4
+    distance: 2.3
+  - from: '1140724'
+    from_name: 津南
+    to: '1140725'
+    to_name: 越後鹿渡
+    time: 6
+    distance: 3.96
+  - from: '1140725'
+    from_name: 越後鹿渡
+    to: '1140726'
+    to_name: 越後田沢
+    time: 4
+    distance: 2.21
+  - from: '1140726'
+    from_name: 越後田沢
+    to: '1140727'
+    to_name: 越後水沢
+    time: 5
+    distance: 2.95
+  - from: '1140727'
+    from_name: 越後水沢
+    to: '1140728'
+    to_name: 土市
+    time: 5
+    distance: 2.77
+  - from: '1140728'
+    from_name: 土市
+    to: '1140729'
+    to_name: 十日町
+    time: 8
+    distance: 4.76
+  - from: '1140729'
+    from_name: 十日町
+    to: '1140730'
+    to_name: 魚沼中条
+    time: 5
+    distance: 3.12
+  - from: '1140730'
+    from_name: 魚沼中条
+    to: '1140731'
+    to_name: 下条
+    time: 7
+    distance: 4.37
+  - from: '1140731'
+    from_name: 下条
+    to: '1140732'
+    to_name: 越後岩沢
+    time: 8
+    distance: 4.96
+  - from: '1140732'
+    from_name: 越後岩沢
+    to: '1140733'
+    to_name: 内ケ巻
+    time: 8
+    distance: 4.95
+  - from: '1140733'
+    from_name: 内ケ巻
+    to: '1134232'
+    to_name: 越後川口
+    time: 5
+    distance: 2.69

@@ -1,0 +1,90 @@
+line_code: '99610'
+line_name: 京都市営地下鉄烏丸線
+company: 京都市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '9961001'
+    from_name: 国際会館
+    to: '9961002'
+    to_name: 松ヶ崎
+    time: 3
+    distance: 1.46
+  - from: '9961002'
+    from_name: 松ヶ崎
+    to: '9961003'
+    to_name: 北山
+    time: 2
+    distance: 0.98
+  - from: '9961003'
+    from_name: 北山
+    to: '9961004'
+    to_name: 北大路
+    time: 2
+    distance: 0.99
+  - from: '9961004'
+    from_name: 北大路
+    to: '9961005'
+    to_name: 鞍馬口
+    time: 2
+    distance: 0.85
+  - from: '9961005'
+    from_name: 鞍馬口
+    to: '9961006'
+    to_name: 今出川
+    time: 2
+    distance: 0.8
+  - from: '9961006'
+    from_name: 今出川
+    to: '9961007'
+    to_name: 丸太町
+    time: 3
+    distance: 1.51
+  - from: '9961007'
+    from_name: 丸太町
+    to: '9961008'
+    to_name: 烏丸御池
+    time: 2
+    distance: 0.67
+  - from: '9961008'
+    from_name: 烏丸御池
+    to: '3400302'
+    to_name: 烏丸
+    time: 2
+    distance: 0.76
+  - from: '3400302'
+    from_name: 烏丸
+    to: '9961010'
+    to_name: 五条
+    time: 2
+    distance: 0.94
+  - from: '9961010'
+    from_name: 五条
+    to: '1160120'
+    to_name: 京都
+    time: 2
+    distance: 1.1
+  - from: '1160120'
+    from_name: 京都
+    to: '9961012'
+    to_name: 九条
+    time: 2
+    distance: 0.73
+  - from: '9961012'
+    from_name: 九条
+    to: '9961013'
+    to_name: 十条
+    time: 2
+    distance: 0.77
+  - from: '9961013'
+    from_name: 十条
+    to: '9961014'
+    to_name: くいな橋
+    time: 2
+    distance: 1.07
+  - from: '9961014'
+    from_name: くいな橋
+    to: '3102505'
+    to_name: 竹田
+    time: 2
+    distance: 0.66

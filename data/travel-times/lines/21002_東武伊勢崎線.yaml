@@ -1,0 +1,330 @@
+line_code: '21002'
+line_name: 東武伊勢崎線
+company: 東武鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2100201'
+    from_name: 浅草
+    to: '2100202'
+    to_name: とうきょうスカイツリー
+    time: 2
+    distance: 1.02
+  - from: '2100202'
+    from_name: とうきょうスカイツリー
+    to: '2100203'
+    to_name: 押上〈スカイツリー前〉
+    time: 2
+    distance: 0.33
+  - from: '2100203'
+    from_name: 押上〈スカイツリー前〉
+    to: '2100204'
+    to_name: 曳舟
+    time: 2
+    distance: 0.92
+  - from: '2100204'
+    from_name: 曳舟
+    to: '2100205'
+    to_name: 東向島
+    time: 2
+    distance: 0.7
+  - from: '2100205'
+    from_name: 東向島
+    to: '2100206'
+    to_name: 鐘ヶ淵
+    time: 2
+    distance: 1.05
+  - from: '2100206'
+    from_name: 鐘ヶ淵
+    to: '2100207'
+    to_name: 堀切
+    time: 2
+    distance: 1.06
+  - from: '2100207'
+    from_name: 堀切
+    to: '2100208'
+    to_name: 牛田
+    time: 2
+    distance: 0.56
+  - from: '2100208'
+    from_name: 牛田
+    to: '1132005'
+    to_name: 北千住
+    time: 2
+    distance: 0.85
+  - from: '1132005'
+    from_name: 北千住
+    to: '2100210'
+    to_name: 小菅
+    time: 2
+    distance: 1.27
+  - from: '2100210'
+    from_name: 小菅
+    to: '2100211'
+    to_name: 五反野
+    time: 2
+    distance: 0.81
+  - from: '2100211'
+    from_name: 五反野
+    to: '2100212'
+    to_name: 梅島
+    time: 2
+    distance: 1.29
+  - from: '2100212'
+    from_name: 梅島
+    to: '2100213'
+    to_name: 西新井
+    time: 2
+    distance: 0.87
+  - from: '2100213'
+    from_name: 西新井
+    to: '2100214'
+    to_name: 竹ノ塚
+    time: 3
+    distance: 1.9
+  - from: '2100214'
+    from_name: 竹ノ塚
+    to: '2100215'
+    to_name: 谷塚
+    time: 4
+    distance: 2.48
+  - from: '2100215'
+    from_name: 谷塚
+    to: '2100216'
+    to_name: 草加
+    time: 3
+    distance: 1.52
+  - from: '2100216'
+    from_name: 草加
+    to: '2100217'
+    to_name: 獨協大学前〈草加松原〉
+    time: 3
+    distance: 1.67
+  - from: '2100217'
+    from_name: 獨協大学前〈草加松原〉
+    to: '2100218'
+    to_name: 新田
+    time: 2
+    distance: 1.29
+  - from: '2100218'
+    from_name: 新田
+    to: '2100219'
+    to_name: 蒲生
+    time: 3
+    distance: 1.46
+  - from: '2100219'
+    from_name: 蒲生
+    to: '1130514'
+    to_name: 南越谷
+    time: 2
+    distance: 1.03
+  - from: '1130514'
+    from_name: 南越谷
+    to: '2100221'
+    to_name: 越谷
+    time: 2
+    distance: 1.33
+  - from: '2100221'
+    from_name: 越谷
+    to: '2100222'
+    to_name: 北越谷
+    time: 3
+    distance: 1.67
+  - from: '2100222'
+    from_name: 北越谷
+    to: '2100223'
+    to_name: 大袋
+    time: 4
+    distance: 2.53
+  - from: '2100223'
+    from_name: 大袋
+    to: '2100224'
+    to_name: せんげん台
+    time: 2
+    distance: 1.31
+  - from: '2100224'
+    from_name: せんげん台
+    to: '2100225'
+    to_name: 武里
+    time: 3
+    distance: 1.51
+  - from: '2100225'
+    from_name: 武里
+    to: '2100226'
+    to_name: 一ノ割
+    time: 3
+    distance: 1.72
+  - from: '2100226'
+    from_name: 一ノ割
+    to: '2100227'
+    to_name: 春日部
+    time: 4
+    distance: 2.17
+  - from: '2100227'
+    from_name: 春日部
+    to: '2100228'
+    to_name: 北春日部
+    time: 3
+    distance: 1.39
+  - from: '2100228'
+    from_name: 北春日部
+    to: '2100229'
+    to_name: 姫宮
+    time: 3
+    distance: 1.6
+  - from: '2100229'
+    from_name: 姫宮
+    to: '2100230'
+    to_name: 東武動物公園
+    time: 4
+    distance: 2.49
+  - from: '2100230'
+    from_name: 東武動物公園
+    to: '2100231'
+    to_name: 和戸
+    time: 5
+    distance: 2.85
+  - from: '2100231'
+    from_name: 和戸
+    to: '1131912'
+    to_name: 久喜
+    time: 6
+    distance: 3.61
+  - from: '1131912'
+    from_name: 久喜
+    to: '2100233'
+    to_name: 鷲宮
+    time: 6
+    distance: 3.86
+  - from: '2100233'
+    from_name: 鷲宮
+    to: '2100234'
+    to_name: 花崎
+    time: 4
+    distance: 2.59
+  - from: '2100234'
+    from_name: 花崎
+    to: '2100235'
+    to_name: 加須
+    time: 6
+    distance: 3.71
+  - from: '2100235'
+    from_name: 加須
+    to: '2100236'
+    to_name: 南羽生
+    time: 7
+    distance: 4.56
+  - from: '2100236'
+    from_name: 南羽生
+    to: '2100237'
+    to_name: 羽生
+    time: 5
+    distance: 3.1
+  - from: '2100237'
+    from_name: 羽生
+    to: '2100238'
+    to_name: 川俣
+    time: 7
+    distance: 4.33
+  - from: '2100238'
+    from_name: 川俣
+    to: '2100239'
+    to_name: 茂林寺前
+    time: 3
+    distance: 1.95
+  - from: '2100239'
+    from_name: 茂林寺前
+    to: '2100240'
+    to_name: 館林
+    time: 4
+    distance: 2.26
+  - from: '2100240'
+    from_name: 館林
+    to: '2100241'
+    to_name: 多々良
+    time: 6
+    distance: 3.9
+  - from: '2100241'
+    from_name: 多々良
+    to: '2100242'
+    to_name: 県
+    time: 5
+    distance: 3.12
+  - from: '2100242'
+    from_name: 県
+    to: '2100243'
+    to_name: 福居
+    time: 4
+    distance: 2.03
+  - from: '2100243'
+    from_name: 福居
+    to: '2100244'
+    to_name: 東武和泉
+    time: 2
+    distance: 1.2
+  - from: '2100244'
+    from_name: 東武和泉
+    to: '2100245'
+    to_name: 足利市
+    time: 3
+    distance: 1.67
+  - from: '2100245'
+    from_name: 足利市
+    to: '2100246'
+    to_name: 野州山辺
+    time: 3
+    distance: 1.49
+  - from: '2100246'
+    from_name: 野州山辺
+    to: '2100247'
+    to_name: 韮川
+    time: 6
+    distance: 3.4
+  - from: '2100247'
+    from_name: 韮川
+    to: '2100248'
+    to_name: 太田
+    time: 4
+    distance: 2.56
+  - from: '2100248'
+    from_name: 太田
+    to: '2100249'
+    to_name: 細谷
+    time: 5
+    distance: 3.01
+  - from: '2100249'
+    from_name: 細谷
+    to: '2100250'
+    to_name: 木崎
+    time: 6
+    distance: 3.42
+  - from: '2100250'
+    from_name: 木崎
+    to: '2100251'
+    to_name: 世良田
+    time: 5
+    distance: 2.78
+  - from: '2100251'
+    from_name: 世良田
+    to: '2100252'
+    to_name: 境町
+    time: 4
+    distance: 2.37
+  - from: '2100252'
+    from_name: 境町
+    to: '2100253'
+    to_name: 剛志
+    time: 6
+    distance: 3.54
+  - from: '2100253'
+    from_name: 剛志
+    to: '2100254'
+    to_name: 新伊勢崎
+    time: 5
+    distance: 3.19
+  - from: '2100254'
+    from_name: 新伊勢崎
+    to: '1134108'
+    to_name: 伊勢崎
+    time: 2
+    distance: 1.22

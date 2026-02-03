@@ -1,0 +1,72 @@
+line_code: '99402'
+line_name: 北越急行ほくほく線
+company: 北越急行
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1134225'
+    from_name: 六日町
+    to: '9940202'
+    to_name: 魚沼丘陵
+    time: 5
+    distance: 3.24
+  - from: '9940202'
+    from_name: 魚沼丘陵
+    to: '9940203'
+    to_name: 美佐島
+    time: 14
+    distance: 8.7
+  - from: '9940203'
+    from_name: 美佐島
+    to: '9940204'
+    to_name: しんざ
+    time: 4
+    distance: 2.13
+  - from: '9940204'
+    from_name: しんざ
+    to: '1140729'
+    to_name: 十日町
+    time: 2
+    distance: 1.22
+  - from: '1140729'
+    from_name: 十日町
+    to: '9940206'
+    to_name: まつだい
+    time: 19
+    distance: 12.62
+  - from: '9940206'
+    from_name: まつだい
+    to: '9940207'
+    to_name: ほくほく大島
+    time: 15
+    distance: 9.39
+  - from: '9940207'
+    from_name: ほくほく大島
+    to: '9940208'
+    to_name: 虫川大杉
+    time: 10
+    distance: 6.1
+  - from: '9940208'
+    from_name: 虫川大杉
+    to: '9940209'
+    to_name: うらがわら
+    time: 4
+    distance: 2.04
+  - from: '9940209'
+    from_name: うらがわら
+    to: '9940210'
+    to_name: 大池いこいの森
+    time: 8
+    distance: 4.92
+  - from: '9940210'
+    from_name: 大池いこいの森
+    to: '9940211'
+    to_name: くびき
+    time: 3
+    distance: 1.85
+  - from: '9940211'
+    from_name: くびき
+    to: '1140403'
+    to_name: 犀潟
+    time: 8
+    distance: 5.19

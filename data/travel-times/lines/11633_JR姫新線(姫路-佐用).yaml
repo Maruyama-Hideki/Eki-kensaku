@@ -1,0 +1,72 @@
+line_code: '11633'
+line_name: JR姫新線(姫路～佐用)
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1160821'
+    from_name: 姫路
+    to: '1163302'
+    to_name: 播磨高岡
+    time: 5
+    distance: 3.33
+  - from: '1163302'
+    from_name: 播磨高岡
+    to: '1163303'
+    to_name: 余部
+    time: 4
+    distance: 2.17
+  - from: '1163303'
+    from_name: 余部
+    to: '1163304'
+    to_name: 太市
+    time: 6
+    distance: 3.36
+  - from: '1163304'
+    from_name: 太市
+    to: '1163305'
+    to_name: 本竜野
+    time: 8
+    distance: 4.7
+  - from: '1163305'
+    from_name: 本竜野
+    to: '1163306'
+    to_name: 東觜崎
+    time: 5
+    distance: 2.88
+  - from: '1163306'
+    from_name: 東觜崎
+    to: '1163307'
+    to_name: 播磨新宮
+    time: 6
+    distance: 3.91
+  - from: '1163307'
+    from_name: 播磨新宮
+    to: '1163308'
+    to_name: 千本
+    time: 8
+    distance: 5.24
+  - from: '1163308'
+    from_name: 千本
+    to: '1163309'
+    to_name: 西栗栖
+    time: 4
+    distance: 2.42
+  - from: '1163309'
+    from_name: 西栗栖
+    to: '1163310'
+    to_name: 三日月
+    time: 8
+    distance: 4.84
+  - from: '1163310'
+    from_name: 三日月
+    to: '1163311'
+    to_name: 播磨徳久
+    time: 7
+    distance: 4.56
+  - from: '1163311'
+    from_name: 播磨徳久
+    to: '1163312'
+    to_name: 佐用
+    time: 5
+    distance: 3.03

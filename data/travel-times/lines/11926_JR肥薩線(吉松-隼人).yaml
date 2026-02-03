@@ -1,0 +1,60 @@
+line_code: '11926'
+line_name: JR肥薩線(吉松～隼人)
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1192519'
+    from_name: 吉松
+    to: '1192602'
+    to_name: 栗野
+    time: 11
+    distance: 6.97
+  - from: '1192602'
+    from_name: 栗野
+    to: '1192603'
+    to_name: 大隅横川
+    time: 8
+    distance: 5.28
+  - from: '1192603'
+    from_name: 大隅横川
+    to: '1192604'
+    to_name: 植村
+    time: 5
+    distance: 2.7
+  - from: '1192604'
+    from_name: 植村
+    to: '1192605'
+    to_name: 霧島温泉
+    time: 4
+    distance: 2.63
+  - from: '1192605'
+    from_name: 霧島温泉
+    to: '1192606'
+    to_name: 嘉例川
+    time: 8
+    distance: 4.71
+  - from: '1192606'
+    from_name: 嘉例川
+    to: '1192607'
+    to_name: 中福良
+    time: 3
+    distance: 1.75
+  - from: '1192607'
+    from_name: 中福良
+    to: '1192608'
+    to_name: 表木山
+    time: 4
+    distance: 2.27
+  - from: '1192608'
+    from_name: 表木山
+    to: '1192609'
+    to_name: 日当山
+    time: 6
+    distance: 3.67
+  - from: '1192609'
+    from_name: 日当山
+    to: '1190748'
+    to_name: 隼人
+    time: 4
+    distance: 2.35

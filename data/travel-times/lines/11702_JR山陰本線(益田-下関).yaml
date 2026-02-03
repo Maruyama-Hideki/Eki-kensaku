@@ -1,0 +1,234 @@
+line_code: '11702'
+line_name: JR山陰本線(益田～下関)
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1170145'
+    from_name: 益田
+    to: '1170202'
+    to_name: 戸田小浜
+    time: 14
+    distance: 9.27
+  - from: '1170202'
+    from_name: 戸田小浜
+    to: '1170203'
+    to_name: 飯浦
+    time: 5
+    distance: 3.3
+  - from: '1170203'
+    from_name: 飯浦
+    to: '1170204'
+    to_name: 江崎
+    time: 8
+    distance: 5.01
+  - from: '1170204'
+    from_name: 江崎
+    to: '1170205'
+    to_name: 須佐
+    time: 9
+    distance: 5.47
+  - from: '1170205'
+    from_name: 須佐
+    to: '1170206'
+    to_name: 宇田郷
+    time: 12
+    distance: 7.62
+  - from: '1170206'
+    from_name: 宇田郷
+    to: '1170207'
+    to_name: 木与
+    time: 10
+    distance: 6.01
+  - from: '1170207'
+    from_name: 木与
+    to: '1170208'
+    to_name: 奈古
+    time: 7
+    distance: 4.35
+  - from: '1170208'
+    from_name: 奈古
+    to: '1170209'
+    to_name: 長門大井
+    time: 7
+    distance: 4.11
+  - from: '1170209'
+    from_name: 長門大井
+    to: '1170210'
+    to_name: 越ケ浜
+    time: 7
+    distance: 4.33
+  - from: '1170210'
+    from_name: 越ケ浜
+    to: '1170211'
+    to_name: 東萩
+    time: 5
+    distance: 2.69
+  - from: '1170211'
+    from_name: 東萩
+    to: '1170212'
+    to_name: 萩
+    time: 5
+    distance: 2.73
+  - from: '1170212'
+    from_name: 萩
+    to: '1170213'
+    to_name: 玉江
+    time: 4
+    distance: 2.33
+  - from: '1170213'
+    from_name: 玉江
+    to: '1170214'
+    to_name: 三見
+    time: 7
+    distance: 4.66
+  - from: '1170214'
+    from_name: 三見
+    to: '1170215'
+    to_name: 飯井
+    time: 6
+    distance: 3.82
+  - from: '1170215'
+    from_name: 飯井
+    to: '1170216'
+    to_name: 長門三隅
+    time: 9
+    distance: 5.55
+  - from: '1170216'
+    from_name: 長門三隅
+    to: '1170217'
+    to_name: 長門市
+    time: 8
+    distance: 4.77
+  - from: '1170217'
+    from_name: 長門市
+    to: '1170218'
+    to_name: 黄波戸
+    time: 7
+    distance: 4.36
+  - from: '1170218'
+    from_name: 黄波戸
+    to: '1170219'
+    to_name: 長門古市
+    time: 6
+    distance: 3.52
+  - from: '1170219'
+    from_name: 長門古市
+    to: '1170220'
+    to_name: 人丸
+    time: 7
+    distance: 4.36
+  - from: '1170220'
+    from_name: 人丸
+    to: '1170221'
+    to_name: 伊上
+    time: 7
+    distance: 4.25
+  - from: '1170221'
+    from_name: 伊上
+    to: '1170222'
+    to_name: 長門粟野
+    time: 7
+    distance: 4.04
+  - from: '1170222'
+    from_name: 長門粟野
+    to: '1170223'
+    to_name: 阿川
+    time: 8
+    distance: 4.72
+  - from: '1170223'
+    from_name: 阿川
+    to: '1170224'
+    to_name: 特牛
+    time: 6
+    distance: 3.37
+  - from: '1170224'
+    from_name: 特牛
+    to: '1170225'
+    to_name: 滝部
+    time: 6
+    distance: 3.54
+  - from: '1170225'
+    from_name: 滝部
+    to: '1170226'
+    to_name: 長門二見
+    time: 7
+    distance: 4.62
+  - from: '1170226'
+    from_name: 長門二見
+    to: '1170227'
+    to_name: 宇賀本郷
+    time: 5
+    distance: 2.95
+  - from: '1170227'
+    from_name: 宇賀本郷
+    to: '1170228'
+    to_name: 湯玉
+    time: 4
+    distance: 2.06
+  - from: '1170228'
+    from_name: 湯玉
+    to: '1170229'
+    to_name: 小串
+    time: 7
+    distance: 4.36
+  - from: '1170229'
+    from_name: 小串
+    to: '1170230'
+    to_name: 川棚温泉
+    time: 5
+    distance: 2.76
+  - from: '1170230'
+    from_name: 川棚温泉
+    to: '1170231'
+    to_name: 黒井村
+    time: 4
+    distance: 2.18
+  - from: '1170231'
+    from_name: 黒井村
+    to: '1170232'
+    to_name: 梅ケ峠
+    time: 5
+    distance: 3.15
+  - from: '1170232'
+    from_name: 梅ケ峠
+    to: '1170233'
+    to_name: 吉見
+    time: 6
+    distance: 3.52
+  - from: '1170233'
+    from_name: 吉見
+    to: '1170234'
+    to_name: 福江
+    time: 5
+    distance: 2.77
+  - from: '1170234'
+    from_name: 福江
+    to: '1170235'
+    to_name: 安岡
+    time: 4
+    distance: 2.47
+  - from: '1170235'
+    from_name: 安岡
+    to: '1170240'
+    to_name: 梶栗郷台地
+    time: 3
+    distance: 1.51
+  - from: '1170236'
+    from_name: 綾羅木
+    to: '1161235'
+    to_name: 幡生
+    time: 4
+    distance: 2.48
+  - from: '1161235'
+    from_name: 幡生
+    to: '1161236'
+    to_name: 下関
+    time: 6
+    distance: 3.5
+  - from: '1170240'
+    from_name: 梶栗郷台地
+    to: '1170236'
+    to_name: 綾羅木
+    time: 2
+    distance: 1.01

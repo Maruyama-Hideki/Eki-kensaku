@@ -1,0 +1,72 @@
+line_code: '24002'
+line_name: 京王相模原線
+company: 京王電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2400118'
+    from_name: 調布
+    to: '2400202'
+    to_name: 京王多摩川
+    time: 2
+    distance: 1.08
+  - from: '2400202'
+    from_name: 京王多摩川
+    to: '2400203'
+    to_name: 京王稲田堤
+    time: 2
+    distance: 1.28
+  - from: '2400203'
+    from_name: 京王稲田堤
+    to: '2400204'
+    to_name: 京王よみうりランド
+    time: 2
+    distance: 1.22
+  - from: '2400204'
+    from_name: 京王よみうりランド
+    to: '2400205'
+    to_name: 稲城
+    time: 3
+    distance: 1.6
+  - from: '2400205'
+    from_name: 稲城
+    to: '2400206'
+    to_name: 若葉台
+    time: 5
+    distance: 3.16
+  - from: '2400206'
+    from_name: 若葉台
+    to: '2400207'
+    to_name: 京王永山
+    time: 4
+    distance: 2.48
+  - from: '2400207'
+    from_name: 京王永山
+    to: '2400208'
+    to_name: 京王多摩センター
+    time: 4
+    distance: 2.25
+  - from: '2400208'
+    from_name: 京王多摩センター
+    to: '2400209'
+    to_name: 京王堀之内
+    time: 4
+    distance: 2.14
+  - from: '2400209'
+    from_name: 京王堀之内
+    to: '2400210'
+    to_name: 南大沢
+    time: 4
+    distance: 2.18
+  - from: '2400210'
+    from_name: 南大沢
+    to: '2400211'
+    to_name: 多摩境
+    time: 3
+    distance: 1.79
+  - from: '2400211'
+    from_name: 多摩境
+    to: '1130616'
+    to_name: 橋本
+    time: 4
+    distance: 2.16

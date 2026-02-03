@@ -1,0 +1,42 @@
+line_code: '24003'
+line_name: 京王高尾線
+company: 京王電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2400133'
+    from_name: 北野
+    to: '2400302'
+    to_name: 京王片倉
+    time: 3
+    distance: 1.58
+  - from: '2400302'
+    from_name: 京王片倉
+    to: '2400303'
+    to_name: 山田
+    time: 3
+    distance: 1.44
+  - from: '2400303'
+    from_name: 山田
+    to: '2400304'
+    to_name: めじろ台
+    time: 2
+    distance: 1.15
+  - from: '2400304'
+    from_name: めじろ台
+    to: '2400305'
+    to_name: 狭間
+    time: 3
+    distance: 1.36
+  - from: '2400305'
+    from_name: 狭間
+    to: '1131112'
+    to_name: 高尾
+    time: 2
+    distance: 1.05
+  - from: '1131112'
+    from_name: 高尾
+    to: '2400307'
+    to_name: 高尾山口
+    time: 3
+    distance: 1.55

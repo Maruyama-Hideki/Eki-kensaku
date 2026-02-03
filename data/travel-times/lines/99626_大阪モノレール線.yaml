@@ -1,0 +1,84 @@
+line_code: '99626'
+line_name: 大阪モノレール線
+company: 大阪モノレール株式会社
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9962601'
+    from_name: 大阪空港
+    to: '3400210'
+    to_name: 蛍池
+    time: 2
+    distance: 0.74
+  - from: '3400210'
+    from_name: 蛍池
+    to: '9962603'
+    to_name: 柴原阪大前
+    time: 2
+    distance: 1.09
+  - from: '9962603'
+    from_name: 柴原阪大前
+    to: '9962604'
+    to_name: 少路
+    time: 3
+    distance: 1.59
+  - from: '9962604'
+    from_name: 少路
+    to: '9961401'
+    to_name: 千里中央
+    time: 3
+    distance: 1.85
+  - from: '9961401'
+    from_name: 千里中央
+    to: '3400802'
+    to_name: 山田
+    time: 3
+    distance: 1.95
+  - from: '3400802'
+    from_name: 山田
+    to: '9962607'
+    to_name: 万博記念公園
+    time: 3
+    distance: 1.35
+  - from: '9962607'
+    from_name: 万博記念公園
+    to: '9962608'
+    to_name: 宇野辺
+    time: 4
+    distance: 2.21
+  - from: '9962608'
+    from_name: 宇野辺
+    to: '3400318'
+    to_name: 南茨木
+    time: 2
+    distance: 1.16
+  - from: '3400318'
+    from_name: 南茨木
+    to: '9962610'
+    to_name: 沢良宜
+    time: 2
+    distance: 0.94
+  - from: '9962610'
+    from_name: 沢良宜
+    to: '9962611'
+    to_name: 摂津
+    time: 3
+    distance: 1.62
+  - from: '9962611'
+    from_name: 摂津
+    to: '9962612'
+    to_name: 南摂津
+    time: 3
+    distance: 1.73
+  - from: '9962612'
+    from_name: 南摂津
+    to: '9961901'
+    to_name: 大日
+    time: 3
+    distance: 1.98
+  - from: '9961901'
+    from_name: 大日
+    to: '3300128'
+    to_name: 門真市
+    time: 3
+    distance: 1.35

@@ -1,0 +1,96 @@
+line_code: '11911'
+line_name: 福北ゆたか線(折尾～桂川)
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1190214'
+    from_name: 折尾
+    to: '1191102'
+    to_name: 東水巻
+    time: 4
+    distance: 2.57
+  - from: '1191102'
+    from_name: 東水巻
+    to: '1191103'
+    to_name: 中間
+    time: 3
+    distance: 1.42
+  - from: '1191103'
+    from_name: 中間
+    to: '1191104'
+    to_name: 筑前垣生
+    time: 2
+    distance: 1.26
+  - from: '1191104'
+    from_name: 筑前垣生
+    to: '1191105'
+    to_name: 鞍手
+    time: 4
+    distance: 2.32
+  - from: '1191105'
+    from_name: 鞍手
+    to: '1191106'
+    to_name: 筑前植木
+    time: 4
+    distance: 2.41
+  - from: '1191106'
+    from_name: 筑前植木
+    to: '1191107'
+    to_name: 新入
+    time: 3
+    distance: 1.63
+  - from: '1191107'
+    from_name: 新入
+    to: '1191108'
+    to_name: 直方
+    time: 3
+    distance: 1.9
+  - from: '1191108'
+    from_name: 直方
+    to: '1191109'
+    to_name: 勝野
+    time: 4
+    distance: 2.39
+  - from: '1191109'
+    from_name: 勝野
+    to: '1191110'
+    to_name: 小竹
+    time: 6
+    distance: 3.5
+  - from: '1191110'
+    from_name: 小竹
+    to: '1191111'
+    to_name: 鯰田
+    time: 5
+    distance: 3.17
+  - from: '1191111'
+    from_name: 鯰田
+    to: '1191112'
+    to_name: 浦田
+    time: 3
+    distance: 1.55
+  - from: '1191112'
+    from_name: 浦田
+    to: '1191113'
+    to_name: 新飯塚
+    time: 3
+    distance: 1.36
+  - from: '1191113'
+    from_name: 新飯塚
+    to: '1191114'
+    to_name: 飯塚
+    time: 3
+    distance: 1.81
+  - from: '1191114'
+    from_name: 飯塚
+    to: '1191115'
+    to_name: 天道
+    time: 5
+    distance: 2.79
+  - from: '1191115'
+    from_name: 天道
+    to: '1190801'
+    to_name: 桂川
+    time: 5
+    distance: 2.69

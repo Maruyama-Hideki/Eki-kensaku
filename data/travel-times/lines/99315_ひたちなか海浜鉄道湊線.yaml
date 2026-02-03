@@ -1,0 +1,66 @@
+line_code: '99315'
+line_name: ひたちなか海浜鉄道湊線
+company: ひたちなか海浜鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9931501'
+    from_name: 阿字ヶ浦
+    to: '9931502'
+    to_name: 磯崎
+    time: 2
+    distance: 0.8
+  - from: '9931502'
+    from_name: 磯崎
+    to: '9931511'
+    to_name: 美乃浜学園
+    time: 2
+    distance: 0.58
+  - from: '9931503'
+    from_name: 平磯
+    to: '9931504'
+    to_name: 殿山
+    time: 2
+    distance: 1.07
+  - from: '9931504'
+    from_name: 殿山
+    to: '9931505'
+    to_name: 那珂湊
+    time: 2
+    distance: 1.28
+  - from: '9931505'
+    from_name: 那珂湊
+    to: '9931510'
+    to_name: 高田の鉄橋
+    time: 2
+    distance: 1.05
+  - from: '9931506'
+    from_name: 中根
+    to: '9931507'
+    to_name: 金上
+    time: 5
+    distance: 3
+  - from: '9931507'
+    from_name: 金上
+    to: '9931508'
+    to_name: 工機前
+    time: 2
+    distance: 1.07
+  - from: '9931508'
+    from_name: 工機前
+    to: '1122918'
+    to_name: 勝田
+    time: 2
+    distance: 0.66
+  - from: '9931510'
+    from_name: 高田の鉄橋
+    to: '9931506'
+    to_name: 中根
+    time: 4
+    distance: 2.31
+  - from: '9931511'
+    from_name: 美乃浜学園
+    to: '9931503'
+    to_name: 平磯
+    time: 3
+    distance: 1.87

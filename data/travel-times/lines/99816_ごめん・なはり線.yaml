@@ -1,0 +1,126 @@
+line_code: '99816'
+line_name: ごめん・なはり線
+company: 土佐くろしお鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1180129'
+    from_name: 後免
+    to: '9981602'
+    to_name: 後免町
+    time: 2
+    distance: 0.76
+  - from: '9981602'
+    from_name: 後免町
+    to: '9981603'
+    to_name: 立田
+    time: 3
+    distance: 1.83
+  - from: '9981603'
+    from_name: 立田
+    to: '9981604'
+    to_name: のいち
+    time: 5
+    distance: 2.76
+  - from: '9981604'
+    from_name: のいち
+    to: '9981605'
+    to_name: よしかわ
+    time: 4
+    distance: 2.06
+  - from: '9981605'
+    from_name: よしかわ
+    to: '9981606'
+    to_name: あかおか
+    time: 2
+    distance: 1.27
+  - from: '9981606'
+    from_name: あかおか
+    to: '9981607'
+    to_name: 香我美
+    time: 3
+    distance: 1.43
+  - from: '9981607'
+    from_name: 香我美
+    to: '9981608'
+    to_name: 夜須
+    time: 3
+    distance: 1.69
+  - from: '9981608'
+    from_name: 夜須
+    to: '9981609'
+    to_name: 西分
+    time: 6
+    distance: 3.82
+  - from: '9981609'
+    from_name: 西分
+    to: '9981610'
+    to_name: 和食
+    time: 3
+    distance: 1.76
+  - from: '9981610'
+    from_name: 和食
+    to: '9981611'
+    to_name: 赤野
+    time: 3
+    distance: 1.43
+  - from: '9981611'
+    from_name: 赤野
+    to: '9981612'
+    to_name: 穴内
+    time: 6
+    distance: 3.8
+  - from: '9981612'
+    from_name: 穴内
+    to: '9981613'
+    to_name: 球場前
+    time: 4
+    distance: 2.54
+  - from: '9981613'
+    from_name: 球場前
+    to: '9981621'
+    to_name: あき総合病院前
+    time: 2
+    distance: 0.63
+  - from: '9981614'
+    from_name: 安芸
+    to: '9981615'
+    to_name: 伊尾木
+    time: 4
+    distance: 2.6
+  - from: '9981615'
+    from_name: 伊尾木
+    to: '9981616'
+    to_name: 下山
+    time: 7
+    distance: 4.05
+  - from: '9981616'
+    from_name: 下山
+    to: '9981617'
+    to_name: 唐浜
+    time: 4
+    distance: 2.15
+  - from: '9981617'
+    from_name: 唐浜
+    to: '9981618'
+    to_name: 安田
+    time: 3
+    distance: 1.69
+  - from: '9981618'
+    from_name: 安田
+    to: '9981619'
+    to_name: 田野
+    time: 4
+    distance: 2.66
+  - from: '9981619'
+    from_name: 田野
+    to: '9981620'
+    to_name: 奈半利
+    time: 2
+    distance: 1.09
+  - from: '9981621'
+    from_name: あき総合病院前
+    to: '9981614'
+    to_name: 安芸
+    time: 2
+    distance: 0.82

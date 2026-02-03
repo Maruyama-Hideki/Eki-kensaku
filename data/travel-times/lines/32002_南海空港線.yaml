@@ -1,0 +1,18 @@
+line_code: '32002'
+line_name: 南海空港線
+company: 南海電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3200128'
+    from_name: 泉佐野
+    to: '1162802'
+    to_name: りんくうタウン
+    time: 3
+    distance: 1.53
+  - from: '1162802'
+    from_name: りんくうタウン
+    to: '1162803'
+    to_name: 関西空港
+    time: 9
+    distance: 5.93

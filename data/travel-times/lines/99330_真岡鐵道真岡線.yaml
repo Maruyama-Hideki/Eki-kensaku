@@ -1,0 +1,102 @@
+line_code: '99330'
+line_name: 真岡鐵道真岡線
+company: 真岡鐵道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1133907'
+    from_name: 下館
+    to: '9933002'
+    to_name: 下館二高前
+    time: 3
+    distance: 1.76
+  - from: '9933002'
+    from_name: 下館二高前
+    to: '9933003'
+    to_name: 折本
+    time: 4
+    distance: 2.4
+  - from: '9933003'
+    from_name: 折本
+    to: '9933004'
+    to_name: ひぐち
+    time: 3
+    distance: 1.92
+  - from: '9933004'
+    from_name: ひぐち
+    to: '9933005'
+    to_name: 久下田
+    time: 4
+    distance: 2.03
+  - from: '9933005'
+    from_name: 久下田
+    to: '9933006'
+    to_name: 寺内
+    time: 6
+    distance: 3.94
+  - from: '9933006'
+    from_name: 寺内
+    to: '9933007'
+    to_name: 真岡
+    time: 6
+    distance: 3.74
+  - from: '9933007'
+    from_name: 真岡
+    to: '9933008'
+    to_name: 北真岡
+    time: 3
+    distance: 1.51
+  - from: '9933008'
+    from_name: 北真岡
+    to: '9933009'
+    to_name: 西田井
+    time: 5
+    distance: 3.14
+  - from: '9933009'
+    from_name: 西田井
+    to: '9933010'
+    to_name: 北山
+    time: 3
+    distance: 1.71
+  - from: '9933010'
+    from_name: 北山
+    to: '9933011'
+    to_name: 益子
+    time: 4
+    distance: 2.03
+  - from: '9933011'
+    from_name: 益子
+    to: '9933012'
+    to_name: 七井
+    time: 5
+    distance: 3.25
+  - from: '9933012'
+    from_name: 七井
+    to: '9933013'
+    to_name: 多田羅
+    time: 5
+    distance: 2.71
+  - from: '9933013'
+    from_name: 多田羅
+    to: '9933014'
+    to_name: 市塙
+    time: 5
+    distance: 3.06
+  - from: '9933014'
+    from_name: 市塙
+    to: '9933015'
+    to_name: 笹原田
+    time: 5
+    distance: 3.13
+  - from: '9933015'
+    from_name: 笹原田
+    to: '9933016'
+    to_name: 天矢場
+    time: 2
+    distance: 1.13
+  - from: '9933016'
+    from_name: 天矢場
+    to: '9933017'
+    to_name: 茂木
+    time: 4
+    distance: 2.26

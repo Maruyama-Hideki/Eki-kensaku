@@ -1,0 +1,72 @@
+line_code: '99314'
+line_name: 伊豆箱根鉄道大雄山線
+company: 伊豆箱根鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130116'
+    from_name: 小田原
+    to: '9931402'
+    to_name: 緑町
+    time: 2
+    distance: 0.42
+  - from: '9931402'
+    from_name: 緑町
+    to: '9931403'
+    to_name: 井細田
+    time: 2
+    distance: 1.09
+  - from: '9931403'
+    from_name: 井細田
+    to: '9931404'
+    to_name: 五百羅漢
+    time: 2
+    distance: 0.71
+  - from: '9931404'
+    from_name: 五百羅漢
+    to: '9931405'
+    to_name: 穴部
+    time: 2
+    distance: 0.82
+  - from: '9931405'
+    from_name: 穴部
+    to: '9931406'
+    to_name: 飯田岡
+    time: 2
+    distance: 1.25
+  - from: '9931406'
+    from_name: 飯田岡
+    to: '9931407'
+    to_name: 相模沼田
+    time: 2
+    distance: 0.68
+  - from: '9931407'
+    from_name: 相模沼田
+    to: '9931408'
+    to_name: 岩原
+    time: 2
+    distance: 0.86
+  - from: '9931408'
+    from_name: 岩原
+    to: '9931409'
+    to_name: 塚原
+    time: 2
+    distance: 0.34
+  - from: '9931409'
+    from_name: 塚原
+    to: '9931410'
+    to_name: 和田河原
+    time: 3
+    distance: 1.77
+  - from: '9931410'
+    from_name: 和田河原
+    to: '9931411'
+    to_name: 富士フイルム前
+    time: 2
+    distance: 0.86
+  - from: '9931411'
+    from_name: 富士フイルム前
+    to: '9931412'
+    to_name: 大雄山
+    time: 2
+    distance: 0.55

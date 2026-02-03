@@ -1,0 +1,114 @@
+line_code: '99927'
+line_name: ゆいレール
+company: 沖縄都市モノレール
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9992701'
+    from_name: 那覇空港
+    to: '9992702'
+    to_name: 赤嶺
+    time: 3
+    distance: 1.68
+  - from: '9992702'
+    from_name: 赤嶺
+    to: '9992703'
+    to_name: 小禄
+    time: 2
+    distance: 0.74
+  - from: '9992703'
+    from_name: 小禄
+    to: '9992704'
+    to_name: 奥武山公園
+    time: 2
+    distance: 0.96
+  - from: '9992704'
+    from_name: 奥武山公園
+    to: '9992705'
+    to_name: 壺川
+    time: 2
+    distance: 0.66
+  - from: '9992705'
+    from_name: 壺川
+    to: '9992706'
+    to_name: 旭橋
+    time: 2
+    distance: 0.72
+  - from: '9992706'
+    from_name: 旭橋
+    to: '9992707'
+    to_name: 県庁前
+    time: 2
+    distance: 0.47
+  - from: '9992707'
+    from_name: 県庁前
+    to: '9992708'
+    to_name: 美栄橋
+    time: 2
+    distance: 0.73
+  - from: '9992708'
+    from_name: 美栄橋
+    to: '9992709'
+    to_name: 牧志
+    time: 2
+    distance: 0.85
+  - from: '9992709'
+    from_name: 牧志
+    to: '9992710'
+    to_name: 安里
+    time: 2
+    distance: 0.32
+  - from: '9992710'
+    from_name: 安里
+    to: '9992711'
+    to_name: おもろまち
+    time: 2
+    distance: 0.71
+  - from: '9992711'
+    from_name: おもろまち
+    to: '9992712'
+    to_name: 古島
+    time: 2
+    distance: 1.03
+  - from: '9992712'
+    from_name: 古島
+    to: '9992713'
+    to_name: 市立病院前
+    time: 2
+    distance: 0.79
+  - from: '9992713'
+    from_name: 市立病院前
+    to: '9992714'
+    to_name: 儀保
+    time: 2
+    distance: 0.96
+  - from: '9992714'
+    from_name: 儀保
+    to: '9992715'
+    to_name: 首里
+    time: 2
+    distance: 0.89
+  - from: '9992715'
+    from_name: 首里
+    to: '9992716'
+    to_name: 石嶺
+    time: 2
+    distance: 0.97
+  - from: '9992716'
+    from_name: 石嶺
+    to: '9992717'
+    to_name: 経塚
+    time: 2
+    distance: 1.05
+  - from: '9992717'
+    from_name: 経塚
+    to: '9992718'
+    to_name: 浦添前田
+    time: 2
+    distance: 0.89
+  - from: '9992718'
+    from_name: 浦添前田
+    to: '9992719'
+    to_name: てだこ浦西
+    time: 2
+    distance: 0.98

@@ -1,0 +1,54 @@
+line_code: '99338'
+line_name: 東葉高速線
+company: 東葉高速鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130524'
+    from_name: 西船橋
+    to: '9933802'
+    to_name: 東海神
+    time: 3
+    distance: 1.89
+  - from: '9933802'
+    from_name: 東海神
+    to: '9933803'
+    to_name: 飯山満
+    time: 6
+    distance: 3.9
+  - from: '9933803'
+    from_name: 飯山満
+    to: '9932906'
+    to_name: 北習志野
+    time: 3
+    distance: 1.97
+  - from: '9932906'
+    from_name: 北習志野
+    to: '9933805'
+    to_name: 船橋日大前
+    time: 3
+    distance: 1.64
+  - from: '9933805'
+    from_name: 船橋日大前
+    to: '9933806'
+    to_name: 八千代緑が丘
+    time: 2
+    distance: 1.33
+  - from: '9933806'
+    from_name: 八千代緑が丘
+    to: '9933807'
+    to_name: 八千代中央
+    time: 5
+    distance: 2.73
+  - from: '9933807'
+    from_name: 八千代中央
+    to: '9933808'
+    to_name: 村上
+    time: 3
+    distance: 1.4
+  - from: '9933808'
+    from_name: 村上
+    to: '2300131'
+    to_name: 勝田台
+    time: 2
+    distance: 1.15

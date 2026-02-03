@@ -1,0 +1,18 @@
+line_code: '22003'
+line_name: 西武有楽町線
+company: 西武鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2200301'
+    from_name: 小竹向原
+    to: '2200302'
+    to_name: 新桜台
+    time: 2
+    distance: 0.99
+  - from: '2200302'
+    from_name: 新桜台
+    to: '2200106'
+    to_name: 練馬
+    time: 2
+    distance: 1.3

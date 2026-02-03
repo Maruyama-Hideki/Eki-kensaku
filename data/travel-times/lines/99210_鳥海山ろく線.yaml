@@ -1,0 +1,72 @@
+line_code: '99210'
+line_name: 鳥海山ろく線
+company: 由利高原鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1121450'
+    from_name: 羽後本荘
+    to: '9921002'
+    to_name: 薬師堂
+    time: 4
+    distance: 2.23
+  - from: '9921002'
+    from_name: 薬師堂
+    to: '9921003'
+    to_name: 子吉
+    time: 4
+    distance: 2.18
+  - from: '9921003'
+    from_name: 子吉
+    to: '9921004'
+    to_name: 鮎川
+    time: 4
+    distance: 2.6
+  - from: '9921004'
+    from_name: 鮎川
+    to: '9921005'
+    to_name: 黒沢
+    time: 4
+    distance: 2.11
+  - from: '9921005'
+    from_name: 黒沢
+    to: '9921006'
+    to_name: 曲沢
+    time: 2
+    distance: 0.76
+  - from: '9921006'
+    from_name: 曲沢
+    to: '9921007'
+    to_name: 前郷
+    time: 2
+    distance: 1.3
+  - from: '9921007'
+    from_name: 前郷
+    to: '9921008'
+    to_name: 久保田
+    time: 3
+    distance: 1.83
+  - from: '9921008'
+    from_name: 久保田
+    to: '9921009'
+    to_name: 西滝沢
+    time: 4
+    distance: 2.04
+  - from: '9921009'
+    from_name: 西滝沢
+    to: '9921010'
+    to_name: 吉沢
+    time: 2
+    distance: 1.13
+  - from: '9921010'
+    from_name: 吉沢
+    to: '9921011'
+    to_name: 川辺
+    time: 4
+    distance: 2.17
+  - from: '9921011'
+    from_name: 川辺
+    to: '9921012'
+    to_name: 矢島
+    time: 4
+    distance: 2.61

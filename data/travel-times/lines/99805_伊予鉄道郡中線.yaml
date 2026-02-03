@@ -1,0 +1,72 @@
+line_code: '99805'
+line_name: 伊予鉄道郡中線
+company: 伊予鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9980501'
+    from_name: 松山市
+    to: '9980502'
+    to_name: 土橋
+    time: 2
+    distance: 0.63
+  - from: '9980502'
+    from_name: 土橋
+    to: '9980503'
+    to_name: 土居田
+    time: 3
+    distance: 1.49
+  - from: '9980503'
+    from_name: 土居田
+    to: '9980504'
+    to_name: 余戸
+    time: 2
+    distance: 1.29
+  - from: '9980504'
+    from_name: 余戸
+    to: '9980505'
+    to_name: 鎌田
+    time: 2
+    distance: 0.77
+  - from: '9980505'
+    from_name: 鎌田
+    to: '9980506'
+    to_name: 岡田
+    time: 2
+    distance: 1.33
+  - from: '9980506'
+    from_name: 岡田
+    to: '9980507'
+    to_name: 古泉
+    time: 2
+    distance: 0.98
+  - from: '9980507'
+    from_name: 古泉
+    to: '9980508'
+    to_name: 松前
+    time: 3
+    distance: 1.33
+  - from: '9980508'
+    from_name: 松前
+    to: '9980509'
+    to_name: 地蔵町
+    time: 2
+    distance: 0.68
+  - from: '9980509'
+    from_name: 地蔵町
+    to: '9980510'
+    to_name: 新川
+    time: 2
+    distance: 0.86
+  - from: '9980510'
+    from_name: 新川
+    to: '9980511'
+    to_name: 郡中
+    time: 2
+    distance: 1.27
+  - from: '9980511'
+    from_name: 郡中
+    to: '1180706'
+    to_name: 伊予市
+    time: 2
+    distance: 0.6

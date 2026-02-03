@@ -1,0 +1,48 @@
+line_code: '99427'
+line_name: 北しなの線
+company: しなの鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1140306'
+    from_name: 北長野
+    to: '1140307'
+    to_name: 三才
+    time: 5
+    distance: 3.07
+  - from: '1140307'
+    from_name: 三才
+    to: '1140308'
+    to_name: 豊野
+    time: 6
+    distance: 3.8
+  - from: '1140308'
+    from_name: 豊野
+    to: '1140309'
+    to_name: 牟礼
+    time: 8
+    distance: 5.33
+  - from: '1140309'
+    from_name: 牟礼
+    to: '1140310'
+    to_name: 古間
+    time: 7
+    distance: 4.59
+  - from: '1140310'
+    from_name: 古間
+    to: '1140311'
+    to_name: 黒姫
+    time: 6
+    distance: 3.39
+  - from: '1140311'
+    from_name: 黒姫
+    to: '1140312'
+    to_name: 妙高高原
+    time: 12
+    distance: 7.34
+  - from: '1140305'
+    from_name: 長野
+    to: '1140306'
+    to_name: 北長野
+    time: 6
+    distance: 3.84

@@ -1,0 +1,132 @@
+line_code: '99513'
+line_name: 名古屋市営地下鉄東山線
+company: 名古屋市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '9951301'
+    from_name: 高畑
+    to: '1150802'
+    to_name: 八田
+    time: 2
+    distance: 1.1
+  - from: '1150802'
+    from_name: 八田
+    to: '9951303'
+    to_name: 岩塚
+    time: 2
+    distance: 1.07
+  - from: '9951303'
+    from_name: 岩塚
+    to: '9951304'
+    to_name: 中村公園
+    time: 2
+    distance: 1.04
+  - from: '9951304'
+    from_name: 中村公園
+    to: '9951305'
+    to_name: 中村日赤
+    time: 2
+    distance: 0.79
+  - from: '9951305'
+    from_name: 中村日赤
+    to: '9951306'
+    to_name: 本陣
+    time: 2
+    distance: 0.7
+  - from: '9951306'
+    from_name: 本陣
+    to: '9951307'
+    to_name: 亀島
+    time: 2
+    distance: 0.91
+  - from: '9951307'
+    from_name: 亀島
+    to: '1141101'
+    to_name: 名古屋
+    time: 2
+    distance: 0.88
+  - from: '1141101'
+    from_name: 名古屋
+    to: '9951309'
+    to_name: 伏見
+    time: 3
+    distance: 1.44
+  - from: '9951309'
+    from_name: 伏見
+    to: '3001201'
+    to_name: 栄町
+    time: 2
+    distance: 1.06
+  - from: '3001201'
+    from_name: 栄町
+    to: '9951311'
+    to_name: 新栄町
+    time: 2
+    distance: 1.04
+  - from: '9951311'
+    from_name: 新栄町
+    to: '1141104'
+    to_name: 千種
+    time: 2
+    distance: 0.94
+  - from: '1141104'
+    from_name: 千種
+    to: '9951313'
+    to_name: 今池
+    time: 2
+    distance: 0.61
+  - from: '9951313'
+    from_name: 今池
+    to: '9951314'
+    to_name: 池下
+    time: 2
+    distance: 0.87
+  - from: '9951314'
+    from_name: 池下
+    to: '9951315'
+    to_name: 覚王山
+    time: 2
+    distance: 0.67
+  - from: '9951315'
+    from_name: 覚王山
+    to: '9951316'
+    to_name: 本山
+    time: 2
+    distance: 0.93
+  - from: '9951316'
+    from_name: 本山
+    to: '9951317'
+    to_name: 東山公園
+    time: 2
+    distance: 0.94
+  - from: '9951317'
+    from_name: 東山公園
+    to: '9951318'
+    to_name: 星ヶ丘
+    time: 2
+    distance: 1.13
+  - from: '9951318'
+    from_name: 星ヶ丘
+    to: '9951319'
+    to_name: 一社
+    time: 3
+    distance: 1.18
+  - from: '9951319'
+    from_name: 一社
+    to: '9951320'
+    to_name: 上社
+    time: 3
+    distance: 1.18
+  - from: '9951320'
+    from_name: 上社
+    to: '9951321'
+    to_name: 本郷
+    time: 2
+    distance: 0.61
+  - from: '9951321'
+    from_name: 本郷
+    to: '9951201'
+    to_name: 藤が丘
+    time: 2
+    distance: 1.06

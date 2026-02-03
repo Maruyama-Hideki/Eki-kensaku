@@ -1,0 +1,42 @@
+line_code: '99653'
+line_name: 宮舞線
+company: 京都丹後鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9960902'
+    from_name: 四所
+    to: '1162208'
+    to_name: 西舞鶴
+    time: 6
+    distance: 3.66
+  - from: '9960903'
+    from_name: 東雲
+    to: '9960902'
+    to_name: 四所
+    time: 5
+    distance: 3.25
+  - from: '9960904'
+    from_name: 丹後神崎
+    to: '9960903'
+    to_name: 東雲
+    time: 6
+    distance: 3.58
+  - from: '9960905'
+    from_name: 丹後由良
+    to: '9960904'
+    to_name: 丹後神崎
+    time: 3
+    distance: 1.64
+  - from: '9960906'
+    from_name: 栗田
+    to: '9960905'
+    to_name: 丹後由良
+    time: 8
+    distance: 5.08
+  - from: '9960814'
+    from_name: 宮津
+    to: '9960906'
+    to_name: 栗田
+    time: 6
+    distance: 3.37

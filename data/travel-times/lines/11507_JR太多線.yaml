@@ -1,0 +1,48 @@
+line_code: '11507'
+line_name: JR太多線
+company: JR東海
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1141113'
+    from_name: 多治見
+    to: '1150702'
+    to_name: 小泉
+    time: 4
+    distance: 2.4
+  - from: '1150702'
+    from_name: 小泉
+    to: '1150703'
+    to_name: 根本
+    time: 3
+    distance: 1.68
+  - from: '1150703'
+    from_name: 根本
+    to: '1150704'
+    to_name: 姫
+    time: 5
+    distance: 2.8
+  - from: '1150704'
+    from_name: 姫
+    to: '1150705'
+    to_name: 下切
+    time: 3
+    distance: 1.51
+  - from: '1150705'
+    from_name: 下切
+    to: '1150706'
+    to_name: 可児
+    time: 5
+    distance: 3.32
+  - from: '1150706'
+    from_name: 可児
+    to: '1150707'
+    to_name: 美濃川合
+    time: 4
+    distance: 2.54
+  - from: '1150707'
+    from_name: 美濃川合
+    to: '1141608'
+    to_name: 美濃太田
+    time: 4
+    distance: 2.35

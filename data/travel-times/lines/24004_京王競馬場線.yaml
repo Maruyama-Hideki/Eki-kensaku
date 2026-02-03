@@ -1,0 +1,12 @@
+line_code: '24004'
+line_name: 京王競馬場線
+company: 京王電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2400123'
+    from_name: 東府中
+    to: '2400402'
+    to_name: 府中競馬正門前
+    time: 2
+    distance: 0.93

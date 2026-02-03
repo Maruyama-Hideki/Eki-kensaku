@@ -1,0 +1,96 @@
+line_code: '11724'
+line_name: JR岩徳線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1161128'
+    from_name: 岩国
+    to: '1172402'
+    to_name: 西岩国
+    time: 5
+    distance: 2.92
+  - from: '1172402'
+    from_name: 西岩国
+    to: '1172403'
+    to_name: 川西
+    time: 3
+    distance: 1.84
+  - from: '1172403'
+    from_name: 川西
+    to: '1172404'
+    to_name: 柱野
+    time: 4
+    distance: 2.53
+  - from: '1172404'
+    from_name: 柱野
+    to: '1172405'
+    to_name: 欽明路
+    time: 10
+    distance: 6.55
+  - from: '1172405'
+    from_name: 欽明路
+    to: '1172406'
+    to_name: 玖珂
+    time: 3
+    distance: 2
+  - from: '1172406'
+    from_name: 玖珂
+    to: '1172407'
+    to_name: 周防高森
+    time: 6
+    distance: 3.43
+  - from: '1172407'
+    from_name: 周防高森
+    to: '1172408'
+    to_name: 米川
+    time: 6
+    distance: 3.36
+  - from: '1172408'
+    from_name: 米川
+    to: '1172409'
+    to_name: 高水
+    time: 7
+    distance: 4.39
+  - from: '1172409'
+    from_name: 高水
+    to: '1172410'
+    to_name: 勝間
+    time: 4
+    distance: 2.3
+  - from: '1172410'
+    from_name: 勝間
+    to: '1172411'
+    to_name: 大河内
+    time: 4
+    distance: 2.2
+  - from: '1172411'
+    from_name: 大河内
+    to: '1172412'
+    to_name: 周防久保
+    time: 3
+    distance: 1.39
+  - from: '1172412'
+    from_name: 周防久保
+    to: '1172413'
+    to_name: 生野屋
+    time: 5
+    distance: 3.02
+  - from: '1172413'
+    from_name: 生野屋
+    to: '1172414'
+    to_name: 周防花岡
+    time: 3
+    distance: 1.85
+  - from: '1172414'
+    from_name: 周防花岡
+    to: '1161215'
+    to_name: 櫛ケ浜
+    time: 6
+    distance: 3.57
+  - from: '1161215'
+    from_name: 櫛ケ浜
+    to: '1161216'
+    to_name: 徳山
+    time: 5
+    distance: 3.32

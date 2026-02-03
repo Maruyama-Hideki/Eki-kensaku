@@ -1,0 +1,96 @@
+line_code: '99410'
+line_name: 富山地鉄不二越・上滝線
+company: 富山地方鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1140501'
+    from_name: 富山
+    to: '9940802'
+    to_name: 稲荷町
+    time: 3
+    distance: 1.7
+  - from: '9940802'
+    from_name: 稲荷町
+    to: '9941016'
+    to_name: 栄町
+    time: 2
+    distance: 0.61
+  - from: '9941003'
+    from_name: 不二越
+    to: '9941004'
+    to_name: 大泉
+    time: 2
+    distance: 1.17
+  - from: '9941004'
+    from_name: 大泉
+    to: '9941005'
+    to_name: 南富山
+    time: 2
+    distance: 1.11
+  - from: '9941005'
+    from_name: 南富山
+    to: '9941006'
+    to_name: 朝菜町
+    time: 2
+    distance: 1.16
+  - from: '9941006'
+    from_name: 朝菜町
+    to: '9941007'
+    to_name: 上堀
+    time: 2
+    distance: 0.93
+  - from: '9941007'
+    from_name: 上堀
+    to: '9941008'
+    to_name: 小杉
+    time: 2
+    distance: 0.52
+  - from: '9941008'
+    from_name: 小杉
+    to: '9941009'
+    to_name: 布市
+    time: 2
+    distance: 0.52
+  - from: '9941009'
+    from_name: 布市
+    to: '9941010'
+    to_name: 開発
+    time: 2
+    distance: 1.2
+  - from: '9941010'
+    from_name: 開発
+    to: '9941011'
+    to_name: 月岡
+    time: 4
+    distance: 2.12
+  - from: '9941011'
+    from_name: 月岡
+    to: '9941012'
+    to_name: 大庄
+    time: 3
+    distance: 1.34
+  - from: '9941012'
+    from_name: 大庄
+    to: '9941013'
+    to_name: 上滝
+    time: 4
+    distance: 2.1
+  - from: '9941013'
+    from_name: 上滝
+    to: '9941014'
+    to_name: 大川寺
+    time: 2
+    distance: 1.18
+  - from: '9941014'
+    from_name: 大川寺
+    to: '9940909'
+    to_name: 岩峅寺
+    time: 2
+    distance: 1
+  - from: '9941016'
+    from_name: 栄町
+    to: '9941003'
+    to_name: 不二越
+    time: 2
+    distance: 0.4

@@ -1,0 +1,102 @@
+line_code: '99904'
+line_name: 田川線
+company: 平成筑豊鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1191413'
+    from_name: 田川伊田
+    to: '9990402'
+    to_name: 上伊田
+    time: 3
+    distance: 1.34
+  - from: '9990402'
+    from_name: 上伊田
+    to: '9990403'
+    to_name: 勾金
+    time: 2
+    distance: 1.16
+  - from: '9990403'
+    from_name: 勾金
+    to: '9990404'
+    to_name: 柿下温泉口
+    time: 2
+    distance: 1.13
+  - from: '9990404'
+    from_name: 柿下温泉口
+    to: '9990405'
+    to_name: 内田
+    time: 3
+    distance: 1.84
+  - from: '9990405'
+    from_name: 内田
+    to: '9990406'
+    to_name: 赤
+    time: 4
+    distance: 2.29
+  - from: '9990406'
+    from_name: 赤
+    to: '9990407'
+    to_name: 油須原
+    time: 2
+    distance: 1.29
+  - from: '9990407'
+    from_name: 油須原
+    to: '9990408'
+    to_name: 源じいの森
+    time: 2
+    distance: 1.14
+  - from: '9990408'
+    from_name: 源じいの森
+    to: '9990409'
+    to_name: 崎山
+    time: 5
+    distance: 3.02
+  - from: '9990409'
+    from_name: 崎山
+    to: '9990410'
+    to_name: 犀川
+    time: 4
+    distance: 2.55
+  - from: '9990410'
+    from_name: 犀川
+    to: '9990411'
+    to_name: 東犀川三四郎
+    time: 3
+    distance: 1.49
+  - from: '9990411'
+    from_name: 東犀川三四郎
+    to: '9990412'
+    to_name: 新豊津
+    time: 4
+    distance: 2.47
+  - from: '9990412'
+    from_name: 新豊津
+    to: '9990413'
+    to_name: 豊津
+    time: 2
+    distance: 0.87
+  - from: '9990413'
+    from_name: 豊津
+    to: '9990414'
+    to_name: 今川河童
+    time: 3
+    distance: 1.74
+  - from: '9990414'
+    from_name: 今川河童
+    to: '9990415'
+    to_name: 美夜古泉
+    time: 2
+    distance: 0.76
+  - from: '9990415'
+    from_name: 美夜古泉
+    to: '9990417'
+    to_name: 令和コスタ行橋
+    time: 2
+    distance: 0.9
+  - from: '9990417'
+    from_name: 令和コスタ行橋
+    to: '1190613'
+    to_name: 行橋
+    time: 3
+    distance: 1.36

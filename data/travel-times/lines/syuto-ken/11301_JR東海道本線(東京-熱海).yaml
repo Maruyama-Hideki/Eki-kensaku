@@ -1,0 +1,126 @@
+line_code: '11301'
+line_name: JR東海道本線(東京～熱海)
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130101'
+    from_name: 東京
+    to: '1130102'
+    to_name: 新橋
+    time: 3
+    distance: 1.82
+  - from: '1130102'
+    from_name: 新橋
+    to: '1130103'
+    to_name: 品川
+    time: 7
+    distance: 4.52
+  - from: '1130103'
+    from_name: 品川
+    to: '1130104'
+    to_name: 川崎
+    time: 18
+    distance: 11.47
+  - from: '1130104'
+    from_name: 川崎
+    to: '1130105'
+    to_name: 横浜
+    time: 15
+    distance: 9.91
+  - from: '1130105'
+    from_name: 横浜
+    to: '1130106'
+    to_name: 戸塚
+    time: 17
+    distance: 10.85
+  - from: '1130106'
+    from_name: 戸塚
+    to: '1130107'
+    to_name: 大船
+    time: 8
+    distance: 5.23
+  - from: '1130107'
+    from_name: 大船
+    to: '1130108'
+    to_name: 藤沢
+    time: 7
+    distance: 4.29
+  - from: '1130108'
+    from_name: 藤沢
+    to: '1130109'
+    to_name: 辻堂
+    time: 6
+    distance: 3.65
+  - from: '1130109'
+    from_name: 辻堂
+    to: '1130110'
+    to_name: 茅ケ崎
+    time: 6
+    distance: 3.68
+  - from: '1130110'
+    from_name: 茅ケ崎
+    to: '1130111'
+    to_name: 平塚
+    time: 8
+    distance: 5.28
+  - from: '1130111'
+    from_name: 平塚
+    to: '1130112'
+    to_name: 大磯
+    time: 6
+    distance: 3.71
+  - from: '1130112'
+    from_name: 大磯
+    to: '1130113'
+    to_name: 二宮
+    time: 8
+    distance: 5.31
+  - from: '1130113'
+    from_name: 二宮
+    to: '1130114'
+    to_name: 国府津
+    time: 7
+    distance: 4.46
+  - from: '1130114'
+    from_name: 国府津
+    to: '1130115'
+    to_name: 鴨宮
+    time: 5
+    distance: 3.03
+  - from: '1130115'
+    from_name: 鴨宮
+    to: '1130116'
+    to_name: 小田原
+    time: 5
+    distance: 3.1
+  - from: '1130116'
+    from_name: 小田原
+    to: '1130117'
+    to_name: 早川
+    time: 4
+    distance: 2.16
+  - from: '1130117'
+    from_name: 早川
+    to: '1130118'
+    to_name: 根府川
+    time: 7
+    distance: 4.09
+  - from: '1130118'
+    from_name: 根府川
+    to: '1130119'
+    to_name: 真鶴
+    time: 8
+    distance: 5.11
+  - from: '1130119'
+    from_name: 真鶴
+    to: '1130120'
+    to_name: 湯河原
+    time: 5
+    distance: 2.97
+  - from: '1130120'
+    from_name: 湯河原
+    to: '1130121'
+    to_name: 熱海
+    time: 8
+    distance: 5.23

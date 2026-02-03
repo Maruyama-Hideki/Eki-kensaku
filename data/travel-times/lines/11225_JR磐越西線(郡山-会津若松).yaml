@@ -1,0 +1,96 @@
+line_code: '11225'
+line_name: JR磐越西線(郡山～会津若松)
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1123114'
+    from_name: 郡山
+    to: '1122516'
+    to_name: 郡山富田
+    time: 5
+    distance: 3.03
+  - from: '1122502'
+    from_name: 喜久田
+    to: '1122503'
+    to_name: 安子ケ島
+    time: 6
+    distance: 3.6
+  - from: '1122503'
+    from_name: 安子ケ島
+    to: '1122504'
+    to_name: 磐梯熱海
+    time: 6
+    distance: 3.61
+  - from: '1122504'
+    from_name: 磐梯熱海
+    to: '1122505'
+    to_name: 中山宿
+    time: 8
+    distance: 4.82
+  - from: '1122505'
+    from_name: 中山宿
+    to: '1122506'
+    to_name: 上戸
+    time: 8
+    distance: 5
+  - from: '1122506'
+    from_name: 上戸
+    to: '1122507'
+    to_name: 猪苗代湖畔
+    time: 3
+    distance: 2
+  - from: '1122507'
+    from_name: 猪苗代湖畔
+    to: '1122508'
+    to_name: 関都
+    time: 3
+    distance: 1.71
+  - from: '1122508'
+    from_name: 関都
+    to: '1122509'
+    to_name: 川桁
+    time: 4
+    distance: 2.31
+  - from: '1122509'
+    from_name: 川桁
+    to: '1122510'
+    to_name: 猪苗代
+    time: 5
+    distance: 3.2
+  - from: '1122510'
+    from_name: 猪苗代
+    to: '1122511'
+    to_name: 翁島
+    time: 7
+    distance: 4.38
+  - from: '1122511'
+    from_name: 翁島
+    to: '1122512'
+    to_name: 磐梯町
+    time: 9
+    distance: 5.37
+  - from: '1122512'
+    from_name: 磐梯町
+    to: '1122513'
+    to_name: 東長原
+    time: 7
+    distance: 4.11
+  - from: '1122513'
+    from_name: 東長原
+    to: '1122514'
+    to_name: 広田
+    time: 4
+    distance: 2.32
+  - from: '1122514'
+    from_name: 広田
+    to: '1122515'
+    to_name: 会津若松
+    time: 7
+    distance: 4.5
+  - from: '1122516'
+    from_name: 郡山富田
+    to: '1122502'
+    to_name: 喜久田
+    time: 7
+    distance: 4.26

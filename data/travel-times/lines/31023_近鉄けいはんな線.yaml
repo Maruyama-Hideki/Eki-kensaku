@@ -1,0 +1,48 @@
+line_code: '31023'
+line_name: 近鉄けいはんな線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3102301'
+    from_name: 長田
+    to: '3102302'
+    to_name: 荒本
+    time: 2
+    distance: 1.19
+  - from: '3102302'
+    from_name: 荒本
+    to: '3102303'
+    to_name: 吉田
+    time: 3
+    distance: 1.77
+  - from: '3102303'
+    from_name: 吉田
+    to: '3102304'
+    to_name: 新石切
+    time: 3
+    distance: 1.53
+  - from: '3102304'
+    from_name: 新石切
+    to: '3101601'
+    to_name: 生駒
+    time: 9
+    distance: 5.42
+  - from: '3101601'
+    from_name: 生駒
+    to: '3102306'
+    to_name: 白庭台
+    time: 6
+    distance: 3.48
+  - from: '3102306'
+    from_name: 白庭台
+    to: '3102307'
+    to_name: 学研北生駒
+    time: 2
+    distance: 0.76
+  - from: '3102307'
+    from_name: 学研北生駒
+    to: '3102308'
+    to_name: 学研奈良登美ヶ丘
+    time: 5
+    distance: 2.69

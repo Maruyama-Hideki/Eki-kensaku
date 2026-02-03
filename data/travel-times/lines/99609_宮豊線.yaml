@@ -1,0 +1,78 @@
+line_code: '99609'
+line_name: 宮豊線
+company: 京都丹後鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9960814'
+    from_name: 宮津
+    to: '9960908'
+    to_name: 天橋立
+    time: 5
+    distance: 3.03
+  - from: '9960908'
+    from_name: 天橋立
+    to: '9960909'
+    to_name: 岩滝口
+    time: 5
+    distance: 2.93
+  - from: '9960909'
+    from_name: 岩滝口
+    to: '9960910'
+    to_name: 与謝野
+    time: 4
+    distance: 2.37
+  - from: '9960910'
+    from_name: 与謝野
+    to: '9960911'
+    to_name: 京丹後大宮
+    time: 8
+    distance: 4.95
+  - from: '9960911'
+    from_name: 京丹後大宮
+    to: '9960912'
+    to_name: 峰山
+    time: 9
+    distance: 5.55
+  - from: '9960912'
+    from_name: 峰山
+    to: '9960913'
+    to_name: 網野
+    time: 10
+    distance: 6.24
+  - from: '9960913'
+    from_name: 網野
+    to: '9960914'
+    to_name: 夕日ヶ浦木津温泉
+    time: 8
+    distance: 5.18
+  - from: '9960914'
+    from_name: 夕日ヶ浦木津温泉
+    to: '9960915'
+    to_name: 小天橋
+    time: 7
+    distance: 4.55
+  - from: '9960915'
+    from_name: 小天橋
+    to: '9960916'
+    to_name: かぶと山
+    time: 5
+    distance: 2.7
+  - from: '9960916'
+    from_name: かぶと山
+    to: '9960917'
+    to_name: 久美浜
+    time: 4
+    distance: 2.29
+  - from: '9960917'
+    from_name: 久美浜
+    to: '9960918'
+    to_name: コウノトリの郷
+    time: 12
+    distance: 7.71
+  - from: '9960918'
+    from_name: コウノトリの郷
+    to: '1161524'
+    to_name: 豊岡
+    time: 4
+    distance: 2.2

@@ -1,0 +1,60 @@
+line_code: '99530'
+line_name: 伊勢鉄道伊勢線
+company: 伊勢鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1150814'
+    from_name: 河原田
+    to: '9953002'
+    to_name: 鈴鹿
+    time: 6
+    distance: 3.68
+  - from: '9953002'
+    from_name: 鈴鹿
+    to: '9953003'
+    to_name: 玉垣
+    time: 5
+    distance: 3.13
+  - from: '9953003'
+    from_name: 玉垣
+    to: '9953004'
+    to_name: 鈴鹿サーキット稲生
+    time: 4
+    distance: 2.07
+  - from: '9953004'
+    from_name: 鈴鹿サーキット稲生
+    to: '9953005'
+    to_name: 徳田
+    time: 3
+    distance: 1.93
+  - from: '9953005'
+    from_name: 徳田
+    to: '9953006'
+    to_name: 中瀬古
+    time: 3
+    distance: 1.57
+  - from: '9953006'
+    from_name: 中瀬古
+    to: '9953007'
+    to_name: 伊勢上野
+    time: 2
+    distance: 1.3
+  - from: '9953007'
+    from_name: 伊勢上野
+    to: '9953008'
+    to_name: 河芸
+    time: 4
+    distance: 2.4
+  - from: '9953008'
+    from_name: 河芸
+    to: '9953009'
+    to_name: 東一身田
+    time: 5
+    distance: 3.02
+  - from: '9953009'
+    from_name: 東一身田
+    to: '1151004'
+    to_name: 津
+    time: 5
+    distance: 2.73

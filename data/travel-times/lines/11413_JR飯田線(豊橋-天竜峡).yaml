@@ -1,0 +1,306 @@
+line_code: '11413'
+line_name: JR飯田線(豊橋～天竜峡)
+company: JR東海
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1141301'
+    from_name: 豊橋
+    to: '1141302'
+    to_name: 船町
+    time: 3
+    distance: 1.63
+  - from: '1141302'
+    from_name: 船町
+    to: '1141303'
+    to_name: 下地
+    time: 2
+    distance: 0.65
+  - from: '1141303'
+    from_name: 下地
+    to: '1141304'
+    to_name: 小坂井
+    time: 3
+    distance: 1.97
+  - from: '1141304'
+    from_name: 小坂井
+    to: '1141305'
+    to_name: 牛久保
+    time: 4
+    distance: 2.1
+  - from: '1141305'
+    from_name: 牛久保
+    to: '1141306'
+    to_name: 豊川
+    time: 4
+    distance: 2.1
+  - from: '1141306'
+    from_name: 豊川
+    to: '1141307'
+    to_name: 三河一宮
+    time: 5
+    distance: 3.24
+  - from: '1141307'
+    from_name: 三河一宮
+    to: '1141308'
+    to_name: 長山
+    time: 4
+    distance: 2.4
+  - from: '1141308'
+    from_name: 長山
+    to: '1141309'
+    to_name: 江島
+    time: 2
+    distance: 1
+  - from: '1141309'
+    from_name: 江島
+    to: '1141310'
+    to_name: 東上
+    time: 3
+    distance: 1.55
+  - from: '1141310'
+    from_name: 東上
+    to: '1141311'
+    to_name: 野田城
+    time: 4
+    distance: 2.52
+  - from: '1141311'
+    from_name: 野田城
+    to: '1141312'
+    to_name: 新城
+    time: 3
+    distance: 1.91
+  - from: '1141312'
+    from_name: 新城
+    to: '1141313'
+    to_name: 東新町
+    time: 2
+    distance: 1.06
+  - from: '1141313'
+    from_name: 東新町
+    to: '1141314'
+    to_name: 茶臼山
+    time: 2
+    distance: 1.15
+  - from: '1141314'
+    from_name: 茶臼山
+    to: '1141315'
+    to_name: 三河東郷
+    time: 2
+    distance: 1.19
+  - from: '1141315'
+    from_name: 三河東郷
+    to: '1141316'
+    to_name: 大海
+    time: 5
+    distance: 2.79
+  - from: '1141316'
+    from_name: 大海
+    to: '1141317'
+    to_name: 鳥居
+    time: 2
+    distance: 1.07
+  - from: '1141317'
+    from_name: 鳥居
+    to: '1141318'
+    to_name: 長篠城
+    time: 3
+    distance: 1.35
+  - from: '1141318'
+    from_name: 長篠城
+    to: '1141319'
+    to_name: 本長篠
+    time: 2
+    distance: 1.31
+  - from: '1141319'
+    from_name: 本長篠
+    to: '1141320'
+    to_name: 三河大野
+    time: 5
+    distance: 3.21
+  - from: '1141320'
+    from_name: 三河大野
+    to: '1141321'
+    to_name: 湯谷温泉
+    time: 4
+    distance: 2.25
+  - from: '1141321'
+    from_name: 湯谷温泉
+    to: '1141322'
+    to_name: 三河槙原
+    time: 4
+    distance: 2.14
+  - from: '1141322'
+    from_name: 三河槙原
+    to: '1141323'
+    to_name: 柿平
+    time: 4
+    distance: 2.11
+  - from: '1141323'
+    from_name: 柿平
+    to: '1141324'
+    to_name: 三河川合
+    time: 4
+    distance: 2.2
+  - from: '1141324'
+    from_name: 三河川合
+    to: '1141325'
+    to_name: 池場
+    time: 7
+    distance: 4.44
+  - from: '1141325'
+    from_name: 池場
+    to: '1141326'
+    to_name: 東栄
+    time: 2
+    distance: 1.02
+  - from: '1141326'
+    from_name: 東栄
+    to: '1141327'
+    to_name: 出馬
+    time: 6
+    distance: 3.58
+  - from: '1141327'
+    from_name: 出馬
+    to: '1141328'
+    to_name: 上市場
+    time: 2
+    distance: 0.74
+  - from: '1141328'
+    from_name: 上市場
+    to: '1141329'
+    to_name: 浦川
+    time: 2
+    distance: 1.23
+  - from: '1141329'
+    from_name: 浦川
+    to: '1141330'
+    to_name: 早瀬
+    time: 2
+    distance: 1.15
+  - from: '1141330'
+    from_name: 早瀬
+    to: '1141331'
+    to_name: 下川合
+    time: 3
+    distance: 1.42
+  - from: '1141331'
+    from_name: 下川合
+    to: '1141332'
+    to_name: 中部天竜
+    time: 4
+    distance: 2.32
+  - from: '1141332'
+    from_name: 中部天竜
+    to: '1141333'
+    to_name: 佐久間
+    time: 2
+    distance: 0.96
+  - from: '1141333'
+    from_name: 佐久間
+    to: '1141334'
+    to_name: 相月
+    time: 8
+    distance: 4.8
+  - from: '1141334'
+    from_name: 相月
+    to: '1141335'
+    to_name: 城西
+    time: 3
+    distance: 1.97
+  - from: '1141335'
+    from_name: 城西
+    to: '1141336'
+    to_name: 向市場
+    time: 4
+    distance: 2.59
+  - from: '1141336'
+    from_name: 向市場
+    to: '1141337'
+    to_name: 水窪
+    time: 2
+    distance: 1.04
+  - from: '1141337'
+    from_name: 水窪
+    to: '1141338'
+    to_name: 大嵐
+    time: 9
+    distance: 5.6
+  - from: '1141338'
+    from_name: 大嵐
+    to: '1141339'
+    to_name: 小和田
+    time: 5
+    distance: 2.68
+  - from: '1141339'
+    from_name: 小和田
+    to: '1141340'
+    to_name: 中井侍
+    time: 5
+    distance: 2.9
+  - from: '1141340'
+    from_name: 中井侍
+    to: '1141341'
+    to_name: 伊那小沢
+    time: 4
+    distance: 2.02
+  - from: '1141341'
+    from_name: 伊那小沢
+    to: '1141342'
+    to_name: 鶯巣
+    time: 3
+    distance: 1.48
+  - from: '1141342'
+    from_name: 鶯巣
+    to: '1141343'
+    to_name: 平岡
+    time: 4
+    distance: 2.03
+  - from: '1141343'
+    from_name: 平岡
+    to: '1141344'
+    to_name: 為栗
+    time: 7
+    distance: 4.25
+  - from: '1141344'
+    from_name: 為栗
+    to: '1141345'
+    to_name: 温田
+    time: 5
+    distance: 2.81
+  - from: '1141345'
+    from_name: 温田
+    to: '1141346'
+    to_name: 田本
+    time: 3
+    distance: 1.45
+  - from: '1141346'
+    from_name: 田本
+    to: '1141347'
+    to_name: 門島
+    time: 6
+    distance: 3.63
+  - from: '1141347'
+    from_name: 門島
+    to: '1141348'
+    to_name: 唐笠
+    time: 5
+    distance: 3.03
+  - from: '1141348'
+    from_name: 唐笠
+    to: '1141349'
+    to_name: 金野
+    time: 3
+    distance: 1.97
+  - from: '1141349'
+    from_name: 金野
+    to: '1141350'
+    to_name: 千代
+    time: 2
+    distance: 1.09
+  - from: '1141350'
+    from_name: 千代
+    to: '1141351'
+    to_name: 天竜峡
+    time: 3
+    distance: 1.35

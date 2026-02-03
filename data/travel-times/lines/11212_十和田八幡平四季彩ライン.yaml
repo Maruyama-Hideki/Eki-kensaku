@@ -1,0 +1,162 @@
+line_code: '11212'
+line_name: 十和田八幡平四季彩ライン
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1121201'
+    from_name: 好摩
+    to: '1121202'
+    to_name: 東大更
+    time: 7
+    distance: 4.14
+  - from: '1121202'
+    from_name: 東大更
+    to: '1121203'
+    to_name: 大更
+    time: 6
+    distance: 3.77
+  - from: '1121203'
+    from_name: 大更
+    to: '1121204'
+    to_name: 平館
+    time: 7
+    distance: 4.34
+  - from: '1121204'
+    from_name: 平館
+    to: '1121205'
+    to_name: 北森
+    time: 3
+    distance: 1.85
+  - from: '1121205'
+    from_name: 北森
+    to: '1121206'
+    to_name: 松尾八幡平
+    time: 4
+    distance: 2.22
+  - from: '1121206'
+    from_name: 松尾八幡平
+    to: '1121207'
+    to_name: 安比高原
+    time: 10
+    distance: 6.25
+  - from: '1121207'
+    from_name: 安比高原
+    to: '1121208'
+    to_name: 赤坂田
+    time: 7
+    distance: 4.03
+  - from: '1121208'
+    from_name: 赤坂田
+    to: '1121209'
+    to_name: 小屋の畑
+    time: 6
+    distance: 3.43
+  - from: '1121209'
+    from_name: 小屋の畑
+    to: '1121210'
+    to_name: 荒屋新町
+    time: 6
+    distance: 3.38
+  - from: '1121210'
+    from_name: 荒屋新町
+    to: '1121211'
+    to_name: 横間
+    time: 4
+    distance: 2.17
+  - from: '1121211'
+    from_name: 横間
+    to: '1121212'
+    to_name: 田山
+    time: 12
+    distance: 7.92
+  - from: '1121212'
+    from_name: 田山
+    to: '1121213'
+    to_name: 兄畑
+    time: 9
+    distance: 5.83
+  - from: '1121213'
+    from_name: 兄畑
+    to: '1121214'
+    to_name: 湯瀬温泉
+    time: 6
+    distance: 3.7
+  - from: '1121214'
+    from_name: 湯瀬温泉
+    to: '1121215'
+    to_name: 八幡平
+    time: 6
+    distance: 3.8
+  - from: '1121215'
+    from_name: 八幡平
+    to: '1121216'
+    to_name: 陸中大里
+    time: 3
+    distance: 1.98
+  - from: '1121216'
+    from_name: 陸中大里
+    to: '1121217'
+    to_name: 鹿角花輪
+    time: 6
+    distance: 3.4
+  - from: '1121217'
+    from_name: 鹿角花輪
+    to: '1121218'
+    to_name: 柴平
+    time: 8
+    distance: 4.71
+  - from: '1121218'
+    from_name: 柴平
+    to: '1121219'
+    to_name: 十和田南
+    time: 5
+    distance: 3.17
+  - from: '1121219'
+    from_name: 十和田南
+    to: '1121220'
+    to_name: 末広
+    time: 7
+    distance: 4.08
+  - from: '1121220'
+    from_name: 末広
+    to: '1121221'
+    to_name: 土深井
+    time: 4
+    distance: 2.2
+  - from: '1121221'
+    from_name: 土深井
+    to: '1121222'
+    to_name: 沢尻
+    time: 3
+    distance: 1.9
+  - from: '1121222'
+    from_name: 沢尻
+    to: '1121223'
+    to_name: 十二所
+    time: 5
+    distance: 2.78
+  - from: '1121223'
+    from_name: 十二所
+    to: '1121224'
+    to_name: 大滝温泉
+    time: 4
+    distance: 2.48
+  - from: '1121224'
+    from_name: 大滝温泉
+    to: '1121225'
+    to_name: 扇田
+    time: 10
+    distance: 6.1
+  - from: '1121225'
+    from_name: 扇田
+    to: '1121226'
+    to_name: 東大館
+    time: 7
+    distance: 4.36
+  - from: '1121226'
+    from_name: 東大館
+    to: '1120249'
+    to_name: 大館
+    time: 4
+    distance: 2.46

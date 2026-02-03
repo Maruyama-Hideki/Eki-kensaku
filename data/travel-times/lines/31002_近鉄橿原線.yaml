@@ -1,0 +1,102 @@
+line_code: '31002'
+line_name: 近鉄橿原線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3100201'
+    from_name: 大和西大寺
+    to: '3100202'
+    to_name: 尼ヶ辻
+    time: 3
+    distance: 1.39
+  - from: '3100202'
+    from_name: 尼ヶ辻
+    to: '3100203'
+    to_name: 西ノ京
+    time: 2
+    distance: 1.16
+  - from: '3100203'
+    from_name: 西ノ京
+    to: '3100204'
+    to_name: 九条
+    time: 2
+    distance: 1.24
+  - from: '3100204'
+    from_name: 九条
+    to: '3100205'
+    to_name: 近鉄郡山
+    time: 3
+    distance: 1.51
+  - from: '3100205'
+    from_name: 近鉄郡山
+    to: '3100206'
+    to_name: 筒井
+    time: 5
+    distance: 2.88
+  - from: '3100206'
+    from_name: 筒井
+    to: '3100207'
+    to_name: 平端
+    time: 3
+    distance: 1.51
+  - from: '3100207'
+    from_name: 平端
+    to: '3100208'
+    to_name: ファミリー公園前
+    time: 2
+    distance: 0.99
+  - from: '3100208'
+    from_name: ファミリー公園前
+    to: '3100209'
+    to_name: 結崎
+    time: 3
+    distance: 1.49
+  - from: '3100209'
+    from_name: 結崎
+    to: '3100210'
+    to_name: 石見
+    time: 3
+    distance: 1.46
+  - from: '3100210'
+    from_name: 石見
+    to: '3100211'
+    to_name: 田原本
+    time: 4
+    distance: 2.1
+  - from: '3100211'
+    from_name: 田原本
+    to: '3100212'
+    to_name: 笠縫
+    time: 2
+    distance: 1.33
+  - from: '3100212'
+    from_name: 笠縫
+    to: '3100213'
+    to_name: 新ノ口
+    time: 3
+    distance: 1.79
+  - from: '3100213'
+    from_name: 新ノ口
+    to: '3100214'
+    to_name: 大和八木
+    time: 3
+    distance: 1.38
+  - from: '3100214'
+    from_name: 大和八木
+    to: '3100215'
+    to_name: 八木西口
+    time: 2
+    distance: 0.44
+  - from: '3100215'
+    from_name: 八木西口
+    to: '3100216'
+    to_name: 畝傍御陵前
+    time: 3
+    distance: 1.87
+  - from: '3100216'
+    from_name: 畝傍御陵前
+    to: '3100217'
+    to_name: 橿原神宮前
+    time: 2
+    distance: 0.98

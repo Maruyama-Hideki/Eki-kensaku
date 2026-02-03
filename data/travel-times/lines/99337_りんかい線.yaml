@@ -1,0 +1,48 @@
+line_code: '99337'
+line_name: りんかい線
+company: 東京臨海高速鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1132605'
+    from_name: 新木場
+    to: '9933702'
+    to_name: 東雲
+    time: 4
+    distance: 2.16
+  - from: '9933702'
+    from_name: 東雲
+    to: '9933703'
+    to_name: 国際展示場
+    time: 3
+    distance: 1.37
+  - from: '9933703'
+    from_name: 国際展示場
+    to: '9933704'
+    to_name: 東京テレポート
+    time: 3
+    distance: 1.38
+  - from: '9933704'
+    from_name: 東京テレポート
+    to: '9933602'
+    to_name: 天王洲アイル
+    time: 4
+    distance: 2.6
+  - from: '9933602'
+    from_name: 天王洲アイル
+    to: '9933706'
+    to_name: 品川シーサイド
+    time: 3
+    distance: 1.6
+  - from: '9933706'
+    from_name: 品川シーサイド
+    to: '1133228'
+    to_name: 大井町
+    time: 3
+    distance: 1.35
+  - from: '1133228'
+    from_name: 大井町
+    to: '1130201'
+    to_name: 大崎
+    time: 3
+    distance: 1.61

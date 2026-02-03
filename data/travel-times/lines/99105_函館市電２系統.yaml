@@ -1,0 +1,138 @@
+line_code: '99105'
+line_name: 函館市電２系統
+company: 函館市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '9910501'
+    from_name: 湯の川
+    to: '9910502'
+    to_name: 湯の川温泉
+    time: 2
+    distance: 0.43
+  - from: '9910502'
+    from_name: 湯の川温泉
+    to: '9910503'
+    to_name: 函館アリーナ前
+    time: 2
+    distance: 0.32
+  - from: '9910503'
+    from_name: 函館アリーナ前
+    to: '9910504'
+    to_name: 駒場車庫前
+    time: 2
+    distance: 0.27
+  - from: '9910504'
+    from_name: 駒場車庫前
+    to: '9910505'
+    to_name: 競馬場前
+    time: 2
+    distance: 0.36
+  - from: '9910505'
+    from_name: 競馬場前
+    to: '9910506'
+    to_name: 深堀町
+    time: 2
+    distance: 0.52
+  - from: '9910506'
+    from_name: 深堀町
+    to: '9910507'
+    to_name: 柏木町
+    time: 2
+    distance: 0.4
+  - from: '9910507'
+    from_name: 柏木町
+    to: '9910508'
+    to_name: 杉並町
+    time: 2
+    distance: 0.5
+  - from: '9910508'
+    from_name: 杉並町
+    to: '9910509'
+    to_name: 五稜郭公園前
+    time: 2
+    distance: 0.63
+  - from: '9910509'
+    from_name: 五稜郭公園前
+    to: '9910510'
+    to_name: 中央病院前
+    time: 2
+    distance: 0.25
+  - from: '9910510'
+    from_name: 中央病院前
+    to: '9910511'
+    to_name: 千代台
+    time: 2
+    distance: 0.38
+  - from: '9910511'
+    from_name: 千代台
+    to: '9910512'
+    to_name: 堀川町
+    time: 2
+    distance: 0.57
+  - from: '9910512'
+    from_name: 堀川町
+    to: '9910513'
+    to_name: 昭和橋
+    time: 2
+    distance: 0.37
+  - from: '9910513'
+    from_name: 昭和橋
+    to: '9910514'
+    to_name: 千歳町
+    time: 2
+    distance: 0.28
+  - from: '9910514'
+    from_name: 千歳町
+    to: '9910515'
+    to_name: 新川町
+    time: 2
+    distance: 0.24
+  - from: '9910515'
+    from_name: 新川町
+    to: '9910516'
+    to_name: 松風町
+    time: 2
+    distance: 0.47
+  - from: '9910516'
+    from_name: 松風町
+    to: '1110101'
+    to_name: 函館
+    time: 2
+    distance: 0.61
+  - from: '1110101'
+    from_name: 函館
+    to: '9910518'
+    to_name: 市役所前
+    time: 2
+    distance: 0.54
+  - from: '9910518'
+    from_name: 市役所前
+    to: '9910519'
+    to_name: 魚市場通
+    time: 2
+    distance: 0.44
+  - from: '9910519'
+    from_name: 魚市場通
+    to: '9910520'
+    to_name: 十字街
+    time: 2
+    distance: 0.34
+  - from: '9910520'
+    from_name: 十字街
+    to: '9910521'
+    to_name: 宝来町
+    time: 2
+    distance: 0.34
+  - from: '9910521'
+    from_name: 宝来町
+    to: '9910522'
+    to_name: 青柳町
+    time: 2
+    distance: 0.55
+  - from: '9910522'
+    from_name: 青柳町
+    to: '9910523'
+    to_name: 谷地頭
+    time: 2
+    distance: 0.36

@@ -1,0 +1,102 @@
+line_code: '11211'
+line_name: JR田沢湖線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1123185'
+    from_name: 盛岡
+    to: '1121102'
+    to_name: 大釜
+    time: 9
+    distance: 5.62
+  - from: '1121102'
+    from_name: 大釜
+    to: '1121103'
+    to_name: 小岩井
+    time: 7
+    distance: 4.07
+  - from: '1121103'
+    from_name: 小岩井
+    to: '1121104'
+    to_name: 雫石
+    time: 8
+    distance: 4.84
+  - from: '1121104'
+    from_name: 雫石
+    to: '1121105'
+    to_name: 春木場
+    time: 5
+    distance: 2.68
+  - from: '1121105'
+    from_name: 春木場
+    to: '1121106'
+    to_name: 赤渕
+    time: 5
+    distance: 3.28
+  - from: '1121106'
+    from_name: 赤渕
+    to: '1121107'
+    to_name: 田沢湖
+    time: 24
+    distance: 15.93
+  - from: '1121107'
+    from_name: 田沢湖
+    to: '1121108'
+    to_name: 刺巻
+    time: 7
+    distance: 4.38
+  - from: '1121108'
+    from_name: 刺巻
+    to: '1121109'
+    to_name: 神代
+    time: 12
+    distance: 7.53
+  - from: '1121109'
+    from_name: 神代
+    to: '1121110'
+    to_name: 生田
+    time: 4
+    distance: 2.53
+  - from: '1121110'
+    from_name: 生田
+    to: '1121111'
+    to_name: 角館
+    time: 6
+    distance: 3.44
+  - from: '1121111'
+    from_name: 角館
+    to: '1121112'
+    to_name: 鶯野
+    time: 5
+    distance: 2.81
+  - from: '1121112'
+    from_name: 鶯野
+    to: '1121113'
+    to_name: 羽後長野
+    time: 5
+    distance: 2.92
+  - from: '1121113'
+    from_name: 羽後長野
+    to: '1121114'
+    to_name: 鑓見内
+    time: 5
+    distance: 3.16
+  - from: '1121114'
+    from_name: 鑓見内
+    to: '1121115'
+    to_name: 羽後四ツ屋
+    time: 4
+    distance: 2.4
+  - from: '1121115'
+    from_name: 羽後四ツ屋
+    to: '1121116'
+    to_name: 北大曲
+    time: 3
+    distance: 1.8
+  - from: '1121116'
+    from_name: 北大曲
+    to: '1120220'
+    to_name: 大曲
+    time: 5
+    distance: 3.07

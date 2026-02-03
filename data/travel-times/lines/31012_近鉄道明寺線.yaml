@@ -1,0 +1,18 @@
+line_code: '31012'
+line_name: 近鉄道明寺線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3100315'
+    from_name: 道明寺
+    to: '3101202'
+    to_name: 柏原南口
+    time: 3
+    distance: 1.52
+  - from: '3101202'
+    from_name: 柏原南口
+    to: '1160712'
+    to_name: 柏原
+    time: 2
+    distance: 0.59

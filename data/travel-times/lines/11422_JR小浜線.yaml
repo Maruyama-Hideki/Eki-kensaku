@@ -1,0 +1,144 @@
+line_code: '11422'
+line_name: JR小浜線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1142201'
+    from_name: 東舞鶴
+    to: '1142202'
+    to_name: 松尾寺
+    time: 9
+    distance: 5.37
+  - from: '1142202'
+    from_name: 松尾寺
+    to: '1142203'
+    to_name: 青郷
+    time: 7
+    distance: 4.52
+  - from: '1142203'
+    from_name: 青郷
+    to: '1142204'
+    to_name: 三松
+    time: 4
+    distance: 2.04
+  - from: '1142204'
+    from_name: 三松
+    to: '1142205'
+    to_name: 若狭高浜
+    time: 4
+    distance: 2.46
+  - from: '1142205'
+    from_name: 若狭高浜
+    to: '1142206'
+    to_name: 若狭和田
+    time: 5
+    distance: 3.09
+  - from: '1142206'
+    from_name: 若狭和田
+    to: '1142207'
+    to_name: 若狭本郷
+    time: 6
+    distance: 3.44
+  - from: '1142207'
+    from_name: 若狭本郷
+    to: '1142208'
+    to_name: 加斗
+    time: 7
+    distance: 4.29
+  - from: '1142208'
+    from_name: 加斗
+    to: '1142209'
+    to_name: 勢浜
+    time: 6
+    distance: 3.79
+  - from: '1142209'
+    from_name: 勢浜
+    to: '1142210'
+    to_name: 小浜
+    time: 6
+    distance: 3.6
+  - from: '1142210'
+    from_name: 小浜
+    to: '1142211'
+    to_name: 東小浜
+    time: 5
+    distance: 3.28
+  - from: '1142211'
+    from_name: 東小浜
+    to: '1142212'
+    to_name: 新平野
+    time: 5
+    distance: 2.73
+  - from: '1142212'
+    from_name: 新平野
+    to: '1142213'
+    to_name: 上中
+    time: 7
+    distance: 4.52
+  - from: '1142213'
+    from_name: 上中
+    to: '1142214'
+    to_name: 若狭有田
+    time: 5
+    distance: 2.69
+  - from: '1142214'
+    from_name: 若狭有田
+    to: '1142215'
+    to_name: 大鳥羽
+    time: 4
+    distance: 2.15
+  - from: '1142215'
+    from_name: 大鳥羽
+    to: '1142216'
+    to_name: 十村
+    time: 5
+    distance: 2.96
+  - from: '1142216'
+    from_name: 十村
+    to: '1142217'
+    to_name: 藤井
+    time: 4
+    distance: 2.01
+  - from: '1142217'
+    from_name: 藤井
+    to: '1142218'
+    to_name: 三方
+    time: 4
+    distance: 2.58
+  - from: '1142218'
+    from_name: 三方
+    to: '1142219'
+    to_name: 気山
+    time: 5
+    distance: 3.29
+  - from: '1142219'
+    from_name: 気山
+    to: '1142220'
+    to_name: 美浜
+    time: 5
+    distance: 3.32
+  - from: '1142220'
+    from_name: 美浜
+    to: '1142221'
+    to_name: 東美浜
+    time: 7
+    distance: 4.55
+  - from: '1142221'
+    from_name: 東美浜
+    to: '1142222'
+    to_name: 粟野
+    time: 6
+    distance: 3.78
+  - from: '1142222'
+    from_name: 粟野
+    to: '1142223'
+    to_name: 西敦賀
+    time: 6
+    distance: 3.67
+  - from: '1142223'
+    from_name: 西敦賀
+    to: '1141512'
+    to_name: 敦賀
+    time: 5
+    distance: 3.08

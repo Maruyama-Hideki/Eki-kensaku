@@ -1,0 +1,126 @@
+line_code: '99413'
+line_name: 富山地鉄市内線【１・２系統】
+company: 富山地方鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9941005'
+    from_name: 南富山
+    to: '9941302'
+    to_name: 大町
+    time: 2
+    distance: 0.3
+  - from: '9941302'
+    from_name: 大町
+    to: '9941303'
+    to_name: 堀川小泉
+    time: 2
+    distance: 0.31
+  - from: '9941303'
+    from_name: 堀川小泉
+    to: '9941304'
+    to_name: 小泉町
+    time: 2
+    distance: 0.37
+  - from: '9941304'
+    from_name: 小泉町
+    to: '9941305'
+    to_name: 西中野
+    time: 2
+    distance: 0.25
+  - from: '9941305'
+    from_name: 西中野
+    to: '9941306'
+    to_name: 広貫堂前
+    time: 2
+    distance: 0.29
+  - from: '9941306'
+    from_name: 広貫堂前
+    to: '9941307'
+    to_name: 上本町
+    time: 2
+    distance: 0.33
+  - from: '9941307'
+    from_name: 上本町
+    to: '9941308'
+    to_name: 西町
+    time: 2
+    distance: 0.3
+  - from: '9941308'
+    from_name: 西町
+    to: '9941321'
+    to_name: 中町（西町北）
+    time: 2
+    distance: 0.15
+  - from: '9941309'
+    from_name: 荒町
+    to: '9941310'
+    to_name: 桜橋
+    time: 2
+    distance: 0.34
+  - from: '9941310'
+    from_name: 桜橋
+    to: '9941311'
+    to_name: 電気ビル前
+    time: 2
+    distance: 0.31
+  - from: '9941311'
+    from_name: 電気ビル前
+    to: '9941312'
+    to_name: 地鉄ビル前
+    time: 2
+    distance: 0.13
+  - from: '9941312'
+    from_name: 地鉄ビル前
+    to: '1140501'
+    to_name: 富山
+    time: 2
+    distance: 0.41
+  - from: '9941314'
+    from_name: 新富町
+    to: '9941315'
+    to_name: 県庁前
+    time: 2
+    distance: 0.37
+  - from: '9941315'
+    from_name: 県庁前
+    to: '9941316'
+    to_name: 丸の内
+    time: 2
+    distance: 0.36
+  - from: '9941316'
+    from_name: 丸の内
+    to: '9941317'
+    to_name: 諏訪川原
+    time: 2
+    distance: 0.21
+  - from: '9941317'
+    from_name: 諏訪川原
+    to: '9941318'
+    to_name: 安野屋
+    time: 2
+    distance: 0.43
+  - from: '9941318'
+    from_name: 安野屋
+    to: '9941319'
+    to_name: トヨタモビリティ富山 Gスクエア五福前
+    time: 2
+    distance: 0.61
+  - from: '9941319'
+    from_name: トヨタモビリティ富山 Gスクエア五福前
+    to: '9941320'
+    to_name: 富山大学前
+    time: 2
+    distance: 0.57
+  - from: '9941321'
+    from_name: 中町（西町北）
+    to: '9941309'
+    to_name: 荒町
+    time: 2
+    distance: 0.13
+  - from: '1140501'
+    from_name: 富山
+    to: '9941314'
+    to_name: 新富町
+    time: 2
+    distance: 0.32

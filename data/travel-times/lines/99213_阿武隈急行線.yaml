@@ -1,0 +1,144 @@
+line_code: '99213'
+line_name: 阿武隈急行線
+company: 阿武隈急行
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1123124'
+    from_name: 福島
+    to: '9921302'
+    to_name: 卸町
+    time: 8
+    distance: 4.92
+  - from: '9921302'
+    from_name: 卸町
+    to: '9921303'
+    to_name: 福島学院前
+    time: 2
+    distance: 0.93
+  - from: '9921303'
+    from_name: 福島学院前
+    to: '9921304'
+    to_name: 瀬上
+    time: 2
+    distance: 0.9
+  - from: '9921304'
+    from_name: 瀬上
+    to: '9921305'
+    to_name: 向瀬上
+    time: 2
+    distance: 1.17
+  - from: '9921305'
+    from_name: 向瀬上
+    to: '9921306'
+    to_name: 高子
+    time: 3
+    distance: 1.51
+  - from: '9921306'
+    from_name: 高子
+    to: '9921307'
+    to_name: 上保原
+    time: 3
+    distance: 1.34
+  - from: '9921307'
+    from_name: 上保原
+    to: '9921308'
+    to_name: 保原
+    time: 3
+    distance: 1.34
+  - from: '9921308'
+    from_name: 保原
+    to: '9921309'
+    to_name: 大泉
+    time: 2
+    distance: 1.07
+  - from: '9921309'
+    from_name: 大泉
+    to: '9921310'
+    to_name: 二井田
+    time: 3
+    distance: 1.57
+  - from: '9921310'
+    from_name: 二井田
+    to: '9921311'
+    to_name: 新田
+    time: 3
+    distance: 1.47
+  - from: '9921311'
+    from_name: 新田
+    to: '9921312'
+    to_name: 梁川
+    time: 2
+    distance: 1.27
+  - from: '9921312'
+    from_name: 梁川
+    to: '9921313'
+    to_name: やながわ希望の森公園前
+    time: 3
+    distance: 1.72
+  - from: '9921313'
+    from_name: やながわ希望の森公園前
+    to: '9921314'
+    to_name: 富野
+    time: 4
+    distance: 2.15
+  - from: '9921314'
+    from_name: 富野
+    to: '9921315'
+    to_name: 兜
+    time: 5
+    distance: 2.84
+  - from: '9921315'
+    from_name: 兜
+    to: '9921316'
+    to_name: あぶくま
+    time: 6
+    distance: 3.99
+  - from: '9921316'
+    from_name: あぶくま
+    to: '9921317'
+    to_name: 丸森
+    time: 11
+    distance: 6.92
+  - from: '9921317'
+    from_name: 丸森
+    to: '9921318'
+    to_name: 北丸森
+    time: 3
+    distance: 1.65
+  - from: '9921318'
+    from_name: 北丸森
+    to: '9921319'
+    to_name: 南角田
+    time: 4
+    distance: 2.43
+  - from: '9921319'
+    from_name: 南角田
+    to: '9921320'
+    to_name: 角田
+    time: 3
+    distance: 1.62
+  - from: '9921320'
+    from_name: 角田
+    to: '9921321'
+    to_name: 横倉
+    time: 3
+    distance: 2
+  - from: '9921321'
+    from_name: 横倉
+    to: '9921322'
+    to_name: 岡
+    time: 4
+    distance: 2.54
+  - from: '9921322'
+    from_name: 岡
+    to: '9921323'
+    to_name: 東船岡
+    time: 6
+    distance: 3.49
+  - from: '9921323'
+    from_name: 東船岡
+    to: '1123136'
+    to_name: 槻木
+    time: 6
+    distance: 3.63

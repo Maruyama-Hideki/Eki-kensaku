@@ -1,0 +1,30 @@
+line_code: '99703'
+line_name: 大社線
+company: 一畑電車
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9970205'
+    from_name: 川跡
+    to: '9970302'
+    to_name: 高浜
+    time: 5
+    distance: 2.74
+  - from: '9970302'
+    from_name: 高浜
+    to: '9970303'
+    to_name: 遙堪
+    time: 3
+    distance: 1.91
+  - from: '9970303'
+    from_name: 遙堪
+    to: '9970304'
+    to_name: 浜山公園北口
+    time: 3
+    distance: 1.57
+  - from: '9970304'
+    from_name: 浜山公園北口
+    to: '9970305'
+    to_name: 出雲大社前
+    time: 3
+    distance: 1.93

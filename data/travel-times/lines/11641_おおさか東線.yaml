@@ -1,0 +1,84 @@
+line_code: '11641'
+line_name: おおさか東線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1161722'
+    from_name: 放出
+    to: '1164102'
+    to_name: 高井田中央
+    time: 2
+    distance: 1.33
+  - from: '1164102'
+    from_name: 高井田中央
+    to: '1164103'
+    to_name: ＪＲ河内永和
+    time: 3
+    distance: 1.56
+  - from: '1164103'
+    from_name: ＪＲ河内永和
+    to: '1164104'
+    to_name: ＪＲ俊徳道
+    time: 2
+    distance: 0.71
+  - from: '1164104'
+    from_name: ＪＲ俊徳道
+    to: '1164105'
+    to_name: ＪＲ長瀬
+    time: 2
+    distance: 1.01
+  - from: '1164105'
+    from_name: ＪＲ長瀬
+    to: '1164108'
+    to_name: 衣摺加美北
+    time: 2
+    distance: 1.28
+  - from: '1160716'
+    from_name: 加美
+    to: '1160715'
+    to_name: 久宝寺
+    time: 3
+    distance: 1.63
+  - from: '1164108'
+    from_name: 衣摺加美北
+    to: '1160716'
+    to_name: 加美
+    time: 2
+    distance: 1.27
+  - from: '1160213'
+    from_name: 新大阪
+    to: '1164110'
+    to_name: 南吹田
+    time: 3
+    distance: 1.91
+  - from: '1164110'
+    from_name: 南吹田
+    to: '3400322'
+    to_name: JR淡路
+    time: 2
+    distance: 1.25
+  - from: '3400322'
+    from_name: JR淡路
+    to: '1164112'
+    to_name: 城北公園通
+    time: 4
+    distance: 2.16
+  - from: '1164112'
+    from_name: 城北公園通
+    to: '3300136'
+    to_name: JR野江
+    time: 4
+    distance: 2.08
+  - from: '3300136'
+    from_name: JR野江
+    to: '1161723'
+    to_name: 鴫野
+    time: 3
+    distance: 1.61
+  - from: '1161723'
+    from_name: 鴫野
+    to: '1161722'
+    to_name: 放出
+    time: 3
+    distance: 1.75

@@ -1,0 +1,36 @@
+line_code: '99604'
+line_name: 信楽高原鐵道信楽線
+company: 信楽高原鐵道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1151106'
+    from_name: 貴生川
+    to: '9960402'
+    to_name: 紫香楽宮跡
+    time: 11
+    distance: 7.24
+  - from: '9960402'
+    from_name: 紫香楽宮跡
+    to: '9960403'
+    to_name: 雲井
+    time: 2
+    distance: 0.6
+  - from: '9960403'
+    from_name: 雲井
+    to: '9960404'
+    to_name: 勅旨
+    time: 4
+    distance: 2.21
+  - from: '9960404'
+    from_name: 勅旨
+    to: '9960405'
+    to_name: 玉桂寺前
+    time: 2
+    distance: 1
+  - from: '9960405'
+    from_name: 玉桂寺前
+    to: '9960406'
+    to_name: 信楽
+    time: 2
+    distance: 1.17

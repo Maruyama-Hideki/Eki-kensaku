@@ -1,0 +1,30 @@
+line_code: '22010'
+line_name: 西武国分寺線
+company: 西武鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1131106'
+    from_name: 国分寺
+    to: '2201002'
+    to_name: 恋ヶ窪
+    time: 3
+    distance: 1.97
+  - from: '2201002'
+    from_name: 恋ヶ窪
+    to: '2201003'
+    to_name: 鷹の台
+    time: 2
+    distance: 1.33
+  - from: '2201003'
+    from_name: 鷹の台
+    to: '2200803'
+    to_name: 小川
+    time: 3
+    distance: 1.62
+  - from: '2200803'
+    from_name: 小川
+    to: '2200721'
+    to_name: 東村山
+    time: 4
+    distance: 2.51

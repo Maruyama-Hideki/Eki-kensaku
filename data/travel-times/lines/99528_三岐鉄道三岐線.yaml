@@ -1,0 +1,90 @@
+line_code: '99528'
+line_name: 三岐鉄道三岐線
+company: 三岐鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3102717'
+    from_name: 近鉄富田
+    to: '9952802'
+    to_name: 大矢知
+    time: 4
+    distance: 2.27
+  - from: '9952802'
+    from_name: 大矢知
+    to: '9952803'
+    to_name: 平津
+    time: 3
+    distance: 1.53
+  - from: '9952803'
+    from_name: 平津
+    to: '9952804'
+    to_name: 暁学園前
+    time: 2
+    distance: 1.23
+  - from: '9952804'
+    from_name: 暁学園前
+    to: '9952805'
+    to_name: 山城
+    time: 3
+    distance: 1.63
+  - from: '9952805'
+    from_name: 山城
+    to: '9952806'
+    to_name: 保々
+    time: 4
+    distance: 2.41
+  - from: '9952806'
+    from_name: 保々
+    to: '9952807'
+    to_name: 北勢中央公園口
+    time: 3
+    distance: 1.53
+  - from: '9952807'
+    from_name: 北勢中央公園口
+    to: '9952808'
+    to_name: 梅戸井
+    time: 3
+    distance: 1.84
+  - from: '9952808'
+    from_name: 梅戸井
+    to: '9952809'
+    to_name: 大安
+    time: 4
+    distance: 2.13
+  - from: '9952809'
+    from_name: 大安
+    to: '9952810'
+    to_name: 三里
+    time: 3
+    distance: 1.79
+  - from: '9952810'
+    from_name: 三里
+    to: '9952811'
+    to_name: 丹生川
+    time: 4
+    distance: 2.45
+  - from: '9952811'
+    from_name: 丹生川
+    to: '9952812'
+    to_name: 伊勢治田
+    time: 2
+    distance: 1.25
+  - from: '9952812'
+    from_name: 伊勢治田
+    to: '9952813'
+    to_name: 東藤原
+    time: 4
+    distance: 2.14
+  - from: '9952813'
+    from_name: 東藤原
+    to: '9952814'
+    to_name: 西野尻
+    time: 4
+    distance: 2.05
+  - from: '9952814'
+    from_name: 西野尻
+    to: '9952815'
+    to_name: 西藤原
+    time: 2
+    distance: 1.16

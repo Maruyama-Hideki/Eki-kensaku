@@ -1,0 +1,144 @@
+line_code: '11323'
+line_name: JR高崎線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130220'
+    from_name: 上野
+    to: '1131902'
+    to_name: 尾久
+    time: 7
+    distance: 4.23
+  - from: '1131902'
+    from_name: 尾久
+    to: '1131903'
+    to_name: 赤羽
+    time: 7
+    distance: 4.57
+  - from: '1131903'
+    from_name: 赤羽
+    to: '1131904'
+    to_name: 浦和
+    time: 16
+    distance: 10.64
+  - from: '1131904'
+    from_name: 浦和
+    to: '1131905'
+    to_name: さいたま新都心
+    time: 7
+    distance: 4.47
+  - from: '1131905'
+    from_name: さいたま新都心
+    to: '1131906'
+    to_name: 大宮
+    time: 3
+    distance: 1.64
+  - from: '1131906'
+    from_name: 大宮
+    to: '1132307'
+    to_name: 宮原
+    time: 6
+    distance: 3.98
+  - from: '1132307'
+    from_name: 宮原
+    to: '1132308'
+    to_name: 上尾
+    time: 7
+    distance: 4.15
+  - from: '1132308'
+    from_name: 上尾
+    to: '1132309'
+    to_name: 北上尾
+    time: 3
+    distance: 1.68
+  - from: '1132309'
+    from_name: 北上尾
+    to: '1132310'
+    to_name: 桶川
+    time: 3
+    distance: 1.83
+  - from: '1132310'
+    from_name: 桶川
+    to: '1132311'
+    to_name: 北本
+    time: 7
+    distance: 4.66
+  - from: '1132311'
+    from_name: 北本
+    to: '1132312'
+    to_name: 鴻巣
+    time: 6
+    distance: 3.71
+  - from: '1132312'
+    from_name: 鴻巣
+    to: '1132313'
+    to_name: 北鴻巣
+    time: 7
+    distance: 4.15
+  - from: '1132313'
+    from_name: 北鴻巣
+    to: '1132314'
+    to_name: 吹上
+    time: 5
+    distance: 2.89
+  - from: '1132314'
+    from_name: 吹上
+    to: '1132315'
+    to_name: 行田
+    time: 4
+    distance: 2.24
+  - from: '1132315'
+    from_name: 行田
+    to: '1132316'
+    to_name: 熊谷
+    time: 8
+    distance: 4.78
+  - from: '1132316'
+    from_name: 熊谷
+    to: '1132317'
+    to_name: 籠原
+    time: 10
+    distance: 6.59
+  - from: '1132317'
+    from_name: 籠原
+    to: '1132318'
+    to_name: 深谷
+    time: 8
+    distance: 4.77
+  - from: '1132318'
+    from_name: 深谷
+    to: '1132319'
+    to_name: 岡部
+    time: 7
+    distance: 4.23
+  - from: '1132319'
+    from_name: 岡部
+    to: '1132320'
+    to_name: 本庄
+    time: 9
+    distance: 5.58
+  - from: '1132320'
+    from_name: 本庄
+    to: '1132321'
+    to_name: 神保原
+    time: 7
+    distance: 4
+  - from: '1132321'
+    from_name: 神保原
+    to: '1132322'
+    to_name: 新町
+    time: 7
+    distance: 4.47
+  - from: '1132322'
+    from_name: 新町
+    to: '1131815'
+    to_name: 倉賀野
+    time: 9
+    distance: 5.86
+  - from: '1131815'
+    from_name: 倉賀野
+    to: '1131816'
+    to_name: 高崎
+    time: 7
+    distance: 4.13

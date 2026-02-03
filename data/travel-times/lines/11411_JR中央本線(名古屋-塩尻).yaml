@@ -1,0 +1,240 @@
+line_code: '11411'
+line_name: JR中央本線(名古屋～塩尻)
+company: JR東海
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1141101'
+    from_name: 名古屋
+    to: '1141102'
+    to_name: 金山
+    time: 6
+    distance: 3.53
+  - from: '1141102'
+    from_name: 金山
+    to: '1141103'
+    to_name: 鶴舞
+    time: 4
+    distance: 2.15
+  - from: '1141103'
+    from_name: 鶴舞
+    to: '1141104'
+    to_name: 千種
+    time: 3
+    distance: 1.95
+  - from: '1141104'
+    from_name: 千種
+    to: '1141105'
+    to_name: 大曽根
+    time: 4
+    distance: 2.45
+  - from: '1141105'
+    from_name: 大曽根
+    to: '1141106'
+    to_name: 新守山
+    time: 4
+    distance: 2.17
+  - from: '1141106'
+    from_name: 新守山
+    to: '1141107'
+    to_name: 勝川
+    time: 4
+    distance: 2.55
+  - from: '1141107'
+    from_name: 勝川
+    to: '1141108'
+    to_name: 春日井
+    time: 5
+    distance: 3.02
+  - from: '1141108'
+    from_name: 春日井
+    to: '1141109'
+    to_name: 神領
+    time: 5
+    distance: 2.67
+  - from: '1141109'
+    from_name: 神領
+    to: '1141110'
+    to_name: 高蔵寺
+    time: 5
+    distance: 3.2
+  - from: '1141110'
+    from_name: 高蔵寺
+    to: '1141111'
+    to_name: 定光寺
+    time: 6
+    distance: 3.7
+  - from: '1141111'
+    from_name: 定光寺
+    to: '1141112'
+    to_name: 古虎渓
+    time: 5
+    distance: 3.32
+  - from: '1141112'
+    from_name: 古虎渓
+    to: '1141113'
+    to_name: 多治見
+    time: 6
+    distance: 3.95
+  - from: '1141113'
+    from_name: 多治見
+    to: '1141114'
+    to_name: 土岐市
+    time: 10
+    distance: 6.25
+  - from: '1141114'
+    from_name: 土岐市
+    to: '1141115'
+    to_name: 瑞浪
+    time: 10
+    distance: 6.43
+  - from: '1141115'
+    from_name: 瑞浪
+    to: '1141116'
+    to_name: 釜戸
+    time: 11
+    distance: 6.7
+  - from: '1141116'
+    from_name: 釜戸
+    to: '1141117'
+    to_name: 武並
+    time: 9
+    distance: 5.36
+  - from: '1141117'
+    from_name: 武並
+    to: '1141118'
+    to_name: 恵那
+    time: 8
+    distance: 5.21
+  - from: '1141118'
+    from_name: 恵那
+    to: '1141119'
+    to_name: 美乃坂本
+    time: 8
+    distance: 4.71
+  - from: '1141119'
+    from_name: 美乃坂本
+    to: '1141120'
+    to_name: 中津川
+    time: 8
+    distance: 5.3
+  - from: '1141120'
+    from_name: 中津川
+    to: '1141121'
+    to_name: 落合川
+    time: 6
+    distance: 3.69
+  - from: '1141121'
+    from_name: 落合川
+    to: '1141122'
+    to_name: 坂下
+    time: 9
+    distance: 5.46
+  - from: '1141122'
+    from_name: 坂下
+    to: '1141123'
+    to_name: 田立
+    time: 4
+    distance: 2.25
+  - from: '1141123'
+    from_name: 田立
+    to: '1141124'
+    to_name: 南木曽
+    time: 9
+    distance: 5.53
+  - from: '1141124'
+    from_name: 南木曽
+    to: '1141125'
+    to_name: 十二兼
+    time: 8
+    distance: 5.24
+  - from: '1141125'
+    from_name: 十二兼
+    to: '1141126'
+    to_name: 野尻
+    time: 6
+    distance: 3.5
+  - from: '1141126'
+    from_name: 野尻
+    to: '1141127'
+    to_name: 大桑
+    time: 5
+    distance: 2.84
+  - from: '1141127'
+    from_name: 大桑
+    to: '1141128'
+    to_name: 須原
+    time: 5
+    distance: 3.13
+  - from: '1141128'
+    from_name: 須原
+    to: '1141129'
+    to_name: 倉本
+    time: 7
+    distance: 4.3
+  - from: '1141129'
+    from_name: 倉本
+    to: '1141130'
+    to_name: 上松
+    time: 9
+    distance: 5.99
+  - from: '1141130'
+    from_name: 上松
+    to: '1141131'
+    to_name: 木曽福島
+    time: 10
+    distance: 6.63
+  - from: '1141131'
+    from_name: 木曽福島
+    to: '1141132'
+    to_name: 原野
+    time: 8
+    distance: 5.31
+  - from: '1141132'
+    from_name: 原野
+    to: '1141133'
+    to_name: 宮ノ越
+    time: 5
+    distance: 2.76
+  - from: '1141133'
+    from_name: 宮ノ越
+    to: '1141134'
+    to_name: 藪原
+    time: 8
+    distance: 5.01
+  - from: '1141134'
+    from_name: 藪原
+    to: '1141135'
+    to_name: 奈良井
+    time: 8
+    distance: 5.23
+  - from: '1141135'
+    from_name: 奈良井
+    to: '1141136'
+    to_name: 木曽平沢
+    time: 3
+    distance: 1.82
+  - from: '1141136'
+    from_name: 木曽平沢
+    to: '1141137'
+    to_name: 贄川
+    time: 7
+    distance: 4.64
+  - from: '1141137'
+    from_name: 贄川
+    to: '1141138'
+    to_name: 日出塩
+    time: 8
+    distance: 4.94
+  - from: '1141138'
+    from_name: 日出塩
+    to: '1141139'
+    to_name: 洗馬
+    time: 8
+    distance: 4.68
+  - from: '1141139'
+    from_name: 洗馬
+    to: '1131153'
+    to_name: 塩尻
+    time: 7
+    distance: 4.12

@@ -1,0 +1,252 @@
+line_code: '11404'
+line_name: JR信越本線(直江津～新潟)
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1140321'
+    from_name: 直江津
+    to: '1140402'
+    to_name: 黒井
+    time: 5
+    distance: 2.69
+  - from: '1140402'
+    from_name: 黒井
+    to: '1140403'
+    to_name: 犀潟
+    time: 7
+    distance: 4.46
+  - from: '1140403'
+    from_name: 犀潟
+    to: '1140404'
+    to_name: 土底浜
+    time: 4
+    distance: 2.22
+  - from: '1140404'
+    from_name: 土底浜
+    to: '1140405'
+    to_name: 潟町
+    time: 3
+    distance: 1.85
+  - from: '1140405'
+    from_name: 潟町
+    to: '1140406'
+    to_name: 上下浜
+    time: 5
+    distance: 2.78
+  - from: '1140406'
+    from_name: 上下浜
+    to: '1140407'
+    to_name: 柿崎
+    time: 6
+    distance: 3.57
+  - from: '1140407'
+    from_name: 柿崎
+    to: '1140408'
+    to_name: 米山
+    time: 9
+    distance: 5.91
+  - from: '1140408'
+    from_name: 米山
+    to: '1140409'
+    to_name: 笠島
+    time: 6
+    distance: 3.82
+  - from: '1140409'
+    from_name: 笠島
+    to: '1140410'
+    to_name: 青海川
+    time: 4
+    distance: 2.03
+  - from: '1140410'
+    from_name: 青海川
+    to: '1140411'
+    to_name: 鯨波
+    time: 5
+    distance: 2.95
+  - from: '1140411'
+    from_name: 鯨波
+    to: '1140412'
+    to_name: 柏崎
+    time: 6
+    distance: 3.55
+  - from: '1140412'
+    from_name: 柏崎
+    to: '1140413'
+    to_name: 茨目
+    time: 5
+    distance: 2.78
+  - from: '1140413'
+    from_name: 茨目
+    to: '1140414'
+    to_name: 安田
+    time: 5
+    distance: 2.85
+  - from: '1140414'
+    from_name: 安田
+    to: '1140415'
+    to_name: 北条
+    time: 4
+    distance: 2.22
+  - from: '1140415'
+    from_name: 北条
+    to: '1140416'
+    to_name: 越後広田
+    time: 5
+    distance: 3.02
+  - from: '1140416'
+    from_name: 越後広田
+    to: '1140417'
+    to_name: 長鳥
+    time: 4
+    distance: 2.25
+  - from: '1140417'
+    from_name: 長鳥
+    to: '1140418'
+    to_name: 塚山
+    time: 7
+    distance: 4.24
+  - from: '1140418'
+    from_name: 塚山
+    to: '1140419'
+    to_name: 越後岩塚
+    time: 7
+    distance: 4.19
+  - from: '1140419'
+    from_name: 越後岩塚
+    to: '1140420'
+    to_name: 来迎寺
+    time: 5
+    distance: 2.68
+  - from: '1140420'
+    from_name: 来迎寺
+    to: '1140421'
+    to_name: 前川
+    time: 6
+    distance: 3.6
+  - from: '1140421'
+    from_name: 前川
+    to: '1134235'
+    to_name: 宮内
+    time: 5
+    distance: 2.69
+  - from: '1134235'
+    from_name: 宮内
+    to: '1134236'
+    to_name: 長岡
+    time: 5
+    distance: 3.09
+  - from: '1134236'
+    from_name: 長岡
+    to: '1140424'
+    to_name: 北長岡
+    time: 4
+    distance: 2.45
+  - from: '1140424'
+    from_name: 北長岡
+    to: '1140425'
+    to_name: 押切
+    time: 7
+    distance: 4.31
+  - from: '1140425'
+    from_name: 押切
+    to: '1140426'
+    to_name: 見附
+    time: 7
+    distance: 4.46
+  - from: '1140426'
+    from_name: 見附
+    to: '1140427'
+    to_name: 帯織
+    time: 7
+    distance: 4.21
+  - from: '1140427'
+    from_name: 帯織
+    to: '1140428'
+    to_name: 東光寺
+    time: 4
+    distance: 2.58
+  - from: '1140428'
+    from_name: 東光寺
+    to: '1140429'
+    to_name: 三条
+    time: 6
+    distance: 3.47
+  - from: '1140429'
+    from_name: 三条
+    to: '1140430'
+    to_name: 東三条
+    time: 3
+    distance: 1.43
+  - from: '1140430'
+    from_name: 東三条
+    to: '1140431'
+    to_name: 保内
+    time: 6
+    distance: 3.8
+  - from: '1140431'
+    from_name: 保内
+    to: '1140432'
+    to_name: 加茂
+    time: 6
+    distance: 3.72
+  - from: '1140432'
+    from_name: 加茂
+    to: '1140433'
+    to_name: 羽生田
+    time: 7
+    distance: 4.01
+  - from: '1140433'
+    from_name: 羽生田
+    to: '1140434'
+    to_name: 田上
+    time: 5
+    distance: 3.08
+  - from: '1140434'
+    from_name: 田上
+    to: '1140435'
+    to_name: 矢代田
+    time: 6
+    distance: 3.8
+  - from: '1140435'
+    from_name: 矢代田
+    to: '1140436'
+    to_name: 古津
+    time: 5
+    distance: 3.11
+  - from: '1140436'
+    from_name: 古津
+    to: '1121401'
+    to_name: 新津
+    time: 5
+    distance: 3.14
+  - from: '1121401'
+    from_name: 新津
+    to: '1140438'
+    to_name: さつき野
+    time: 3
+    distance: 1.42
+  - from: '1140438'
+    from_name: さつき野
+    to: '1140439'
+    to_name: 荻川
+    time: 4
+    distance: 2.35
+  - from: '1140439'
+    from_name: 荻川
+    to: '1140440'
+    to_name: 亀田
+    time: 8
+    distance: 4.88
+  - from: '1140440'
+    from_name: 亀田
+    to: '1140441'
+    to_name: 越後石山
+    time: 4
+    distance: 2.41
+  - from: '1140441'
+    from_name: 越後石山
+    to: '1140442'
+    to_name: 新潟
+    time: 6
+    distance: 3.51

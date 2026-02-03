@@ -1,0 +1,90 @@
+line_code: '99632'
+line_name: 有馬線
+company: 神戸電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9963102'
+    from_name: 湊川
+    to: '9963202'
+    to_name: 長田
+    time: 3
+    distance: 1.56
+  - from: '9963202'
+    from_name: 長田
+    to: '9963203'
+    to_name: 丸山
+    time: 2
+    distance: 0.7
+  - from: '9963203'
+    from_name: 丸山
+    to: '9963204'
+    to_name: 鵯越
+    time: 2
+    distance: 0.76
+  - from: '9963204'
+    from_name: 鵯越
+    to: '9963206'
+    to_name: 鈴蘭台
+    time: 6
+    distance: 3.47
+  - from: '9963206'
+    from_name: 鈴蘭台
+    to: '9963207'
+    to_name: 北鈴蘭台
+    time: 3
+    distance: 1.85
+  - from: '9963207'
+    from_name: 北鈴蘭台
+    to: '9963208'
+    to_name: 山の街
+    time: 2
+    distance: 0.75
+  - from: '9963208'
+    from_name: 山の街
+    to: '9963209'
+    to_name: 箕谷
+    time: 2
+    distance: 1.22
+  - from: '9963209'
+    from_name: 箕谷
+    to: '9963210'
+    to_name: 谷上
+    time: 3
+    distance: 1.54
+  - from: '9963210'
+    from_name: 谷上
+    to: '9963211'
+    to_name: 花山
+    time: 3
+    distance: 1.7
+  - from: '9963211'
+    from_name: 花山
+    to: '9963212'
+    to_name: 大池
+    time: 3
+    distance: 1.63
+  - from: '9963212'
+    from_name: 大池
+    to: '9963213'
+    to_name: 神鉄六甲
+    time: 2
+    distance: 0.82
+  - from: '9963213'
+    from_name: 神鉄六甲
+    to: '9963214'
+    to_name: 唐櫃台
+    time: 2
+    distance: 0.75
+  - from: '9963214'
+    from_name: 唐櫃台
+    to: '9963215'
+    to_name: 有馬口
+    time: 2
+    distance: 1.11
+  - from: '9963215'
+    from_name: 有馬口
+    to: '9963217'
+    to_name: 有馬温泉
+    time: 4
+    distance: 2.29

@@ -1,0 +1,90 @@
+line_code: '99340'
+line_name: 北総鉄道北総線
+company: 北総鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2300110'
+    from_name: 京成高砂
+    to: '9934002'
+    to_name: 新柴又
+    time: 2
+    distance: 1.13
+  - from: '9934002'
+    from_name: 新柴又
+    to: '9934003'
+    to_name: 矢切
+    time: 3
+    distance: 1.97
+  - from: '9934003'
+    from_name: 矢切
+    to: '9934004'
+    to_name: 北国分
+    time: 3
+    distance: 1.44
+  - from: '9934004'
+    from_name: 北国分
+    to: '9934005'
+    to_name: 秋山
+    time: 3
+    distance: 1.51
+  - from: '9934005'
+    from_name: 秋山
+    to: '1130521'
+    to_name: 東松戸
+    time: 2
+    distance: 1.32
+  - from: '1130521'
+    from_name: 東松戸
+    to: '9934007'
+    to_name: 松飛台
+    time: 3
+    distance: 1.36
+  - from: '9934007'
+    from_name: 松飛台
+    to: '9934008'
+    to_name: 大町
+    time: 3
+    distance: 1.43
+  - from: '9934008'
+    from_name: 大町
+    to: '2100430'
+    to_name: 新鎌ヶ谷
+    time: 4
+    distance: 2.4
+  - from: '2100430'
+    from_name: 新鎌ヶ谷
+    to: '9934010'
+    to_name: 西白井
+    time: 5
+    distance: 2.93
+  - from: '9934010'
+    from_name: 西白井
+    to: '9934011'
+    to_name: 白井
+    time: 4
+    distance: 2.03
+  - from: '9934011'
+    from_name: 白井
+    to: '9934012'
+    to_name: 小室
+    time: 3
+    distance: 2
+  - from: '9934012'
+    from_name: 小室
+    to: '9934013'
+    to_name: 千葉ニュータウン中央
+    time: 6
+    distance: 3.9
+  - from: '9934013'
+    from_name: 千葉ニュータウン中央
+    to: '9934014'
+    to_name: 印西牧の原
+    time: 7
+    distance: 4.59
+  - from: '9934014'
+    from_name: 印西牧の原
+    to: '9934015'
+    to_name: 印旛日本医大
+    time: 6
+    distance: 3.72

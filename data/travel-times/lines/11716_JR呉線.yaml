@@ -1,0 +1,192 @@
+line_code: '11716'
+line_name: JR呉線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1161019'
+    from_name: 糸崎
+    to: '1161020'
+    to_name: 三原
+    time: 4
+    distance: 2.15
+  - from: '1161020'
+    from_name: 三原
+    to: '1171603'
+    to_name: 須波
+    time: 6
+    distance: 3.38
+  - from: '1171603'
+    from_name: 須波
+    to: '1171604'
+    to_name: 安芸幸崎
+    time: 9
+    distance: 5.35
+  - from: '1171604'
+    from_name: 安芸幸崎
+    to: '1171605'
+    to_name: 忠海
+    time: 7
+    distance: 4.48
+  - from: '1171605'
+    from_name: 忠海
+    to: '1171606'
+    to_name: 安芸長浜
+    time: 4
+    distance: 2.63
+  - from: '1171606'
+    from_name: 安芸長浜
+    to: '1171607'
+    to_name: 大乗
+    time: 3
+    distance: 1.63
+  - from: '1171607'
+    from_name: 大乗
+    to: '1171608'
+    to_name: 竹原
+    time: 5
+    distance: 3.27
+  - from: '1171608'
+    from_name: 竹原
+    to: '1171609'
+    to_name: 吉名
+    time: 7
+    distance: 4.55
+  - from: '1171609'
+    from_name: 吉名
+    to: '1171610'
+    to_name: 安芸津
+    time: 7
+    distance: 4.41
+  - from: '1171610'
+    from_name: 安芸津
+    to: '1171611'
+    to_name: 風早
+    time: 4
+    distance: 2.62
+  - from: '1171611'
+    from_name: 風早
+    to: '1171612'
+    to_name: 安浦
+    time: 8
+    distance: 5.21
+  - from: '1171612'
+    from_name: 安浦
+    to: '1171613'
+    to_name: 安登
+    time: 6
+    distance: 3.83
+  - from: '1171613'
+    from_name: 安登
+    to: '1171614'
+    to_name: 安芸川尻
+    time: 6
+    distance: 3.73
+  - from: '1171614'
+    from_name: 安芸川尻
+    to: '1171615'
+    to_name: 仁方
+    time: 6
+    distance: 3.55
+  - from: '1171615'
+    from_name: 仁方
+    to: '1171616'
+    to_name: 広
+    time: 4
+    distance: 2.59
+  - from: '1171616'
+    from_name: 広
+    to: '1171617'
+    to_name: 新広
+    time: 2
+    distance: 1.33
+  - from: '1171617'
+    from_name: 新広
+    to: '1171618'
+    to_name: 安芸阿賀
+    time: 3
+    distance: 1.42
+  - from: '1171618'
+    from_name: 安芸阿賀
+    to: '1171619'
+    to_name: 呉
+    time: 7
+    distance: 4
+  - from: '1171619'
+    from_name: 呉
+    to: '1171620'
+    to_name: 川原石
+    time: 3
+    distance: 1.58
+  - from: '1171620'
+    from_name: 川原石
+    to: '1171621'
+    to_name: 吉浦
+    time: 3
+    distance: 1.64
+  - from: '1171621'
+    from_name: 吉浦
+    to: '1171622'
+    to_name: かるが浜
+    time: 2
+    distance: 1.11
+  - from: '1171622'
+    from_name: かるが浜
+    to: '1171623'
+    to_name: 天応
+    time: 4
+    distance: 2.05
+  - from: '1171623'
+    from_name: 天応
+    to: '1171624'
+    to_name: 呉ポートピア
+    time: 2
+    distance: 1.24
+  - from: '1171624'
+    from_name: 呉ポートピア
+    to: '1171625'
+    to_name: 小屋浦
+    time: 2
+    distance: 1.31
+  - from: '1171625'
+    from_name: 小屋浦
+    to: '1171626'
+    to_name: 水尻
+    time: 4
+    distance: 2.03
+  - from: '1171626'
+    from_name: 水尻
+    to: '1171627'
+    to_name: 坂
+    time: 4
+    distance: 2.4
+  - from: '1171627'
+    from_name: 坂
+    to: '1171628'
+    to_name: 矢野
+    time: 4
+    distance: 2.45
+  - from: '1171628'
+    from_name: 矢野
+    to: '1161112'
+    to_name: 海田市
+    time: 4
+    distance: 2.23
+  - from: '1161112'
+    from_name: 海田市
+    to: '1161113'
+    to_name: 向洋
+    time: 4
+    distance: 2.29
+  - from: '1161113'
+    from_name: 向洋
+    to: '1161114'
+    to_name: 天神川
+    time: 3
+    distance: 1.65
+  - from: '1161114'
+    from_name: 天神川
+    to: '1161115'
+    to_name: 広島
+    time: 4
+    distance: 2.24

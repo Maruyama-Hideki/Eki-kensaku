@@ -1,0 +1,96 @@
+line_code: '99501'
+line_name: 伊豆急行線
+company: 伊豆急行
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1150406'
+    from_name: 伊東
+    to: '9950102'
+    to_name: 南伊東
+    time: 3
+    distance: 1.94
+  - from: '9950102'
+    from_name: 南伊東
+    to: '9950103'
+    to_name: 川奈
+    time: 6
+    distance: 3.46
+  - from: '9950103'
+    from_name: 川奈
+    to: '9950104'
+    to_name: 富戸
+    time: 7
+    distance: 4.58
+  - from: '9950104'
+    from_name: 富戸
+    to: '9950105'
+    to_name: 城ヶ崎海岸
+    time: 4
+    distance: 2.42
+  - from: '9950105'
+    from_name: 城ヶ崎海岸
+    to: '9950106'
+    to_name: 伊豆高原
+    time: 3
+    distance: 1.88
+  - from: '9950106'
+    from_name: 伊豆高原
+    to: '9950107'
+    to_name: 伊豆大川
+    time: 8
+    distance: 4.9
+  - from: '9950107'
+    from_name: 伊豆大川
+    to: '9950108'
+    to_name: 伊豆北川
+    time: 3
+    distance: 1.79
+  - from: '9950108'
+    from_name: 伊豆北川
+    to: '9950109'
+    to_name: 伊豆熱川
+    time: 2
+    distance: 1.26
+  - from: '9950109'
+    from_name: 伊豆熱川
+    to: '9950110'
+    to_name: 片瀬白田
+    time: 3
+    distance: 1.85
+  - from: '9950110'
+    from_name: 片瀬白田
+    to: '9950111'
+    to_name: 伊豆稲取
+    time: 6
+    distance: 3.74
+  - from: '9950111'
+    from_name: 伊豆稲取
+    to: '9950112'
+    to_name: 今井浜海岸
+    time: 6
+    distance: 3.76
+  - from: '9950112'
+    from_name: 今井浜海岸
+    to: '9950113'
+    to_name: 河津
+    time: 2
+    distance: 1.02
+  - from: '9950113'
+    from_name: 河津
+    to: '9950114'
+    to_name: 稲梓
+    time: 8
+    distance: 5.14
+  - from: '9950114'
+    from_name: 稲梓
+    to: '9950115'
+    to_name: 蓮台寺
+    time: 4
+    distance: 2.6
+  - from: '9950115'
+    from_name: 蓮台寺
+    to: '9950116'
+    to_name: 伊豆急下田
+    time: 4
+    distance: 2.24

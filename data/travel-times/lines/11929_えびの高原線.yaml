@@ -1,0 +1,102 @@
+line_code: '11929'
+line_name: えびの高原線
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1190739'
+    from_name: 都城
+    to: '1192902'
+    to_name: 日向庄内
+    time: 5
+    distance: 3.07
+  - from: '1192902'
+    from_name: 日向庄内
+    to: '1192903'
+    to_name: 谷頭
+    time: 5
+    distance: 3.12
+  - from: '1192903'
+    from_name: 谷頭
+    to: '1192904'
+    to_name: 万ケ塚
+    time: 5
+    distance: 3.24
+  - from: '1192904'
+    from_name: 万ケ塚
+    to: '1192905'
+    to_name: 東高崎
+    time: 4
+    distance: 2.64
+  - from: '1192905'
+    from_name: 東高崎
+    to: '1192906'
+    to_name: 高崎新田
+    time: 6
+    distance: 3.87
+  - from: '1192906'
+    from_name: 高崎新田
+    to: '1192907'
+    to_name: 日向前田
+    time: 7
+    distance: 4.22
+  - from: '1192907'
+    from_name: 日向前田
+    to: '1192908'
+    to_name: 高原
+    time: 7
+    distance: 4.4
+  - from: '1192908'
+    from_name: 高原
+    to: '1192909'
+    to_name: 広原
+    time: 6
+    distance: 3.68
+  - from: '1192909'
+    from_name: 広原
+    to: '1192910'
+    to_name: 小林
+    time: 6
+    distance: 3.76
+  - from: '1192910'
+    from_name: 小林
+    to: '1192911'
+    to_name: 西小林
+    time: 9
+    distance: 5.53
+  - from: '1192911'
+    from_name: 西小林
+    to: '1192912'
+    to_name: えびの飯野
+    time: 8
+    distance: 5.31
+  - from: '1192912'
+    from_name: えびの飯野
+    to: '1192913'
+    to_name: えびの上江
+    time: 4
+    distance: 2.07
+  - from: '1192913'
+    from_name: えびの上江
+    to: '1192914'
+    to_name: えびの
+    time: 5
+    distance: 3.28
+  - from: '1192914'
+    from_name: えびの
+    to: '1192915'
+    to_name: 京町温泉
+    time: 7
+    distance: 4.57
+  - from: '1192915'
+    from_name: 京町温泉
+    to: '1192916'
+    to_name: 鶴丸
+    time: 4
+    distance: 2.47
+  - from: '1192916'
+    from_name: 鶴丸
+    to: '1192519'
+    to_name: 吉松
+    time: 4
+    distance: 2.27

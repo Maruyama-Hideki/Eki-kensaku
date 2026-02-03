@@ -1,0 +1,18 @@
+line_code: '34005'
+line_name: 阪急甲陽線
+company: 阪急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3400109'
+    from_name: 夙川
+    to: '3400502'
+    to_name: 苦楽園口
+    time: 2
+    distance: 0.87
+  - from: '3400502'
+    from_name: 苦楽園口
+    to: '3400503'
+    to_name: 甲陽園
+    time: 2
+    distance: 1.21

@@ -1,0 +1,54 @@
+line_code: '99707'
+line_name: 清輝橋線
+company: 岡山電気軌道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1160917'
+    from_name: 岡山
+    to: '9970602'
+    to_name: 西川緑道公園
+    time: 2
+    distance: 0.42
+  - from: '9970602'
+    from_name: 西川緑道公園
+    to: '9970603'
+    to_name: 柳川
+    time: 2
+    distance: 0.23
+  - from: '9970603'
+    from_name: 柳川
+    to: '9970704'
+    to_name: 郵便局前
+    time: 2
+    distance: 0.34
+  - from: '9970704'
+    from_name: 郵便局前
+    to: '9970705'
+    to_name: 田町
+    time: 2
+    distance: 0.22
+  - from: '9970705'
+    from_name: 田町
+    to: '9970706'
+    to_name: 新西大寺町筋
+    time: 2
+    distance: 0.24
+  - from: '9970706'
+    from_name: 新西大寺町筋
+    to: '9970707'
+    to_name: 大雲寺前
+    time: 2
+    distance: 0.22
+  - from: '9970707'
+    from_name: 大雲寺前
+    to: '9970709'
+    to_name: 東中央町
+    time: 2
+    distance: 0.23
+  - from: '9970709'
+    from_name: 東中央町
+    to: '9970708'
+    to_name: 清輝橋
+    time: 2
+    distance: 0.31

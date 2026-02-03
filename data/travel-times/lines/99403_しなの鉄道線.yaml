@@ -1,0 +1,114 @@
+line_code: '99403'
+line_name: しなの鉄道線
+company: しなの鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9940301'
+    from_name: 軽井沢
+    to: '9940302'
+    to_name: 中軽井沢
+    time: 6
+    distance: 3.79
+  - from: '9940302'
+    from_name: 中軽井沢
+    to: '9940303'
+    to_name: 信濃追分
+    time: 6
+    distance: 3.37
+  - from: '9940303'
+    from_name: 信濃追分
+    to: '9940304'
+    to_name: 御代田
+    time: 8
+    distance: 5.04
+  - from: '9940304'
+    from_name: 御代田
+    to: '9940305'
+    to_name: 平原
+    time: 8
+    distance: 4.82
+  - from: '9940305'
+    from_name: 平原
+    to: '1140131'
+    to_name: 小諸
+    time: 6
+    distance: 3.47
+  - from: '1140131'
+    from_name: 小諸
+    to: '9940307'
+    to_name: 滋野
+    time: 9
+    distance: 5.54
+  - from: '9940307'
+    from_name: 滋野
+    to: '9940308'
+    to_name: 田中
+    time: 5
+    distance: 3.33
+  - from: '9940308'
+    from_name: 田中
+    to: '9940309'
+    to_name: 大屋
+    time: 6
+    distance: 3.35
+  - from: '9940309'
+    from_name: 大屋
+    to: '9940310'
+    to_name: 信濃国分寺
+    time: 4
+    distance: 2.35
+  - from: '9940310'
+    from_name: 信濃国分寺
+    to: '9940311'
+    to_name: 上田
+    time: 5
+    distance: 2.94
+  - from: '9940311'
+    from_name: 上田
+    to: '9940312'
+    to_name: 西上田
+    time: 7
+    distance: 4.31
+  - from: '9940312'
+    from_name: 西上田
+    to: '9940313'
+    to_name: テクノさかき
+    time: 5
+    distance: 3.16
+  - from: '9940313'
+    from_name: テクノさかき
+    to: '9940314'
+    to_name: 坂城
+    time: 4
+    distance: 2.45
+  - from: '9940314'
+    from_name: 坂城
+    to: '9940315'
+    to_name: 戸倉
+    time: 7
+    distance: 4.27
+  - from: '9940315'
+    from_name: 戸倉
+    to: '9940319'
+    to_name: 千曲
+    time: 4
+    distance: 2.06
+  - from: '9940316'
+    from_name: 屋代
+    to: '9940317'
+    to_name: 屋代高校前
+    time: 3
+    distance: 1.8
+  - from: '9940317'
+    from_name: 屋代高校前
+    to: '1140301'
+    to_name: 篠ノ井
+    time: 5
+    distance: 3.29
+  - from: '9940319'
+    from_name: 千曲
+    to: '9940316'
+    to_name: 屋代
+    time: 5
+    distance: 2.83

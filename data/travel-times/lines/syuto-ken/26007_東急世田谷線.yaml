@@ -1,0 +1,60 @@
+line_code: '26007'
+line_name: 東急世田谷線
+company: 東急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2600303'
+    from_name: 三軒茶屋
+    to: '2600702'
+    to_name: 西太子堂
+    time: 2
+    distance: 0.35
+  - from: '2600702'
+    from_name: 西太子堂
+    to: '2600703'
+    to_name: 若林
+    time: 2
+    distance: 0.6
+  - from: '2600703'
+    from_name: 若林
+    to: '2600704'
+    to_name: 松陰神社前
+    time: 2
+    distance: 0.48
+  - from: '2600704'
+    from_name: 松陰神社前
+    to: '2600705'
+    to_name: 世田谷
+    time: 2
+    distance: 0.39
+  - from: '2600705'
+    from_name: 世田谷
+    to: '2600706'
+    to_name: 上町
+    time: 2
+    distance: 0.42
+  - from: '2600706'
+    from_name: 上町
+    to: '2600707'
+    to_name: 宮の坂
+    time: 2
+    distance: 0.45
+  - from: '2600707'
+    from_name: 宮の坂
+    to: '2500110'
+    to_name: 豪徳寺
+    time: 2
+    distance: 0.73
+  - from: '2500110'
+    from_name: 豪徳寺
+    to: '2600709'
+    to_name: 松原
+    time: 2
+    distance: 0.85
+  - from: '2600709'
+    from_name: 松原
+    to: '2400107'
+    to_name: 下高井戸
+    time: 2
+    distance: 0.68

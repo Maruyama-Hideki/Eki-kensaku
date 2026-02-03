@@ -1,0 +1,132 @@
+line_code: '99809'
+line_name: 伊予鉄道環状線
+company: 伊予鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9980501'
+    from_name: 松山市
+    to: '9980802'
+    to_name: 南堀端
+    time: 2
+    distance: 0.4
+  - from: '9980802'
+    from_name: 南堀端
+    to: '9980821'
+    to_name: 市役所前
+    time: 2
+    distance: 0.3
+  - from: '9980821'
+    from_name: 市役所前
+    to: '9980820'
+    to_name: 県庁前
+    time: 2
+    distance: 0.19
+  - from: '9980820'
+    from_name: 県庁前
+    to: '9980819'
+    to_name: 大街道
+    time: 2
+    distance: 0.32
+  - from: '9980819'
+    from_name: 大街道
+    to: '9980818'
+    to_name: 勝山町
+    time: 2
+    distance: 0.46
+  - from: '9980818'
+    from_name: 勝山町
+    to: '9980817'
+    to_name: 警察署前
+    time: 2
+    distance: 0.32
+  - from: '9980817'
+    from_name: 警察署前
+    to: '9980816'
+    to_name: 上一万
+    time: 2
+    distance: 0.24
+  - from: '9980816'
+    from_name: 上一万
+    to: '9980815'
+    to_name: 平和通一丁目
+    time: 2
+    distance: 0.14
+  - from: '9980815'
+    from_name: 平和通一丁目
+    to: '9980814'
+    to_name: 赤十字病院前
+    time: 2
+    distance: 0.2
+  - from: '9980814'
+    from_name: 赤十字病院前
+    to: '9980813'
+    to_name: 鉄砲町
+    time: 2
+    distance: 0.31
+  - from: '9980813'
+    from_name: 鉄砲町
+    to: '9980812'
+    to_name: 清水町
+    time: 2
+    distance: 0.45
+  - from: '9980812'
+    from_name: 清水町
+    to: '9980811'
+    to_name: 高砂町
+    time: 2
+    distance: 0.31
+  - from: '9980811'
+    from_name: 高砂町
+    to: '9980810'
+    to_name: 木屋町
+    time: 2
+    distance: 0.26
+  - from: '9980810'
+    from_name: 木屋町
+    to: '9980809'
+    to_name: 本町六丁目
+    time: 2
+    distance: 0.21
+  - from: '9980809'
+    from_name: 本町六丁目
+    to: '9980808'
+    to_name: 萱町六丁目
+    time: 2
+    distance: 0.28
+  - from: '9980808'
+    from_name: 萱町六丁目
+    to: '9980608'
+    to_name: 古町
+    time: 2
+    distance: 0.54
+  - from: '9980608'
+    from_name: 古町
+    to: '9980806'
+    to_name: 宮田町
+    time: 2
+    distance: 0.4
+  - from: '9980806'
+    from_name: 宮田町
+    to: '1180657'
+    to_name: 松山
+    time: 2
+    distance: 0.46
+  - from: '1180657'
+    from_name: 松山
+    to: '9980609'
+    to_name: 大手町
+    time: 2
+    distance: 0.39
+  - from: '9980609'
+    from_name: 大手町
+    to: '9980803'
+    to_name: 西堀端
+    time: 2
+    distance: 0.31
+  - from: '9980803'
+    from_name: 西堀端
+    to: '9980802'
+    to_name: 南堀端
+    time: 2
+    distance: 0.29

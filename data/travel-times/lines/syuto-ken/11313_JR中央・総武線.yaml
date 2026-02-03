@@ -1,0 +1,234 @@
+line_code: '11313'
+line_name: JR中央・総武線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1131105'
+    from_name: 三鷹
+    to: '1131104'
+    to_name: 吉祥寺
+    time: 3
+    distance: 1.76
+  - from: '1131104'
+    from_name: 吉祥寺
+    to: '1131218'
+    to_name: 西荻窪
+    time: 3
+    distance: 1.77
+  - from: '1131218'
+    from_name: 西荻窪
+    to: '1131217'
+    to_name: 荻窪
+    time: 3
+    distance: 1.87
+  - from: '1131217'
+    from_name: 荻窪
+    to: '1131216'
+    to_name: 阿佐ケ谷
+    time: 3
+    distance: 1.42
+  - from: '1131216'
+    from_name: 阿佐ケ谷
+    to: '1131215'
+    to_name: 高円寺
+    time: 2
+    distance: 1.25
+  - from: '1131215'
+    from_name: 高円寺
+    to: '1131214'
+    to_name: 中野
+    time: 3
+    distance: 1.46
+  - from: '1131214'
+    from_name: 中野
+    to: '1131308'
+    to_name: 東中野
+    time: 3
+    distance: 1.68
+  - from: '1131308'
+    from_name: 東中野
+    to: '1131309'
+    to_name: 大久保
+    time: 2
+    distance: 1.33
+  - from: '1131309'
+    from_name: 大久保
+    to: '1130208'
+    to_name: 新宿
+    time: 2
+    distance: 1.26
+  - from: '1130208'
+    from_name: 新宿
+    to: '1130207'
+    to_name: 代々木
+    time: 2
+    distance: 0.76
+  - from: '1130207'
+    from_name: 代々木
+    to: '1131312'
+    to_name: 千駄ケ谷
+    time: 2
+    distance: 0.89
+  - from: '1131312'
+    from_name: 千駄ケ谷
+    to: '1131313'
+    to_name: 信濃町
+    time: 2
+    distance: 0.83
+  - from: '1131313'
+    from_name: 信濃町
+    to: '1131102'
+    to_name: 四ツ谷
+    time: 2
+    distance: 1.12
+  - from: '1131102'
+    from_name: 四ツ谷
+    to: '1131315'
+    to_name: 市ケ谷
+    time: 2
+    distance: 0.71
+  - from: '1131315'
+    from_name: 市ケ谷
+    to: '1131316'
+    to_name: 飯田橋
+    time: 3
+    distance: 1.48
+  - from: '1131316'
+    from_name: 飯田橋
+    to: '1131317'
+    to_name: 水道橋
+    time: 2
+    distance: 0.83
+  - from: '1131317'
+    from_name: 水道橋
+    to: '1131203'
+    to_name: 御茶ノ水
+    time: 2
+    distance: 1
+  - from: '1131203'
+    from_name: 御茶ノ水
+    to: '1130222'
+    to_name: 秋葉原
+    time: 2
+    distance: 0.76
+  - from: '1130222'
+    from_name: 秋葉原
+    to: '1131320'
+    to_name: 浅草橋
+    time: 2
+    distance: 1.01
+  - from: '1131320'
+    from_name: 浅草橋
+    to: '1131321'
+    to_name: 両国
+    time: 2
+    distance: 0.82
+  - from: '1131321'
+    from_name: 両国
+    to: '1131322'
+    to_name: 錦糸町
+    time: 3
+    distance: 1.88
+  - from: '1131322'
+    from_name: 錦糸町
+    to: '1131323'
+    to_name: 亀戸
+    time: 2
+    distance: 1.1
+  - from: '1131323'
+    from_name: 亀戸
+    to: '1131324'
+    to_name: 平井
+    time: 3
+    distance: 1.76
+  - from: '1131324'
+    from_name: 平井
+    to: '1131325'
+    to_name: 新小岩
+    time: 3
+    distance: 1.83
+  - from: '1131325'
+    from_name: 新小岩
+    to: '1131326'
+    to_name: 小岩
+    time: 5
+    distance: 2.82
+  - from: '1131326'
+    from_name: 小岩
+    to: '1131327'
+    to_name: 市川
+    time: 4
+    distance: 2.43
+  - from: '1131327'
+    from_name: 市川
+    to: '1131328'
+    to_name: 本八幡
+    time: 3
+    distance: 1.95
+  - from: '1131328'
+    from_name: 本八幡
+    to: '1131329'
+    to_name: 下総中山
+    time: 3
+    distance: 1.6
+  - from: '1131329'
+    from_name: 下総中山
+    to: '1130524'
+    to_name: 西船橋
+    time: 3
+    distance: 1.68
+  - from: '1130524'
+    from_name: 西船橋
+    to: '1131331'
+    to_name: 船橋
+    time: 4
+    distance: 2.35
+  - from: '1131331'
+    from_name: 船橋
+    to: '1131332'
+    to_name: 東船橋
+    time: 3
+    distance: 1.75
+  - from: '1131332'
+    from_name: 東船橋
+    to: '1131333'
+    to_name: 津田沼
+    time: 3
+    distance: 1.74
+  - from: '1131333'
+    from_name: 津田沼
+    to: '1131334'
+    to_name: 幕張本郷
+    time: 5
+    distance: 2.88
+  - from: '1131334'
+    from_name: 幕張本郷
+    to: '1131335'
+    to_name: 幕張
+    time: 4
+    distance: 2.04
+  - from: '1131335'
+    from_name: 幕張
+    to: '1131336'
+    to_name: 新検見川
+    time: 3
+    distance: 1.61
+  - from: '1131336'
+    from_name: 新検見川
+    to: '1131337'
+    to_name: 稲毛
+    time: 4
+    distance: 2.39
+  - from: '1131337'
+    from_name: 稲毛
+    to: '1131338'
+    to_name: 西千葉
+    time: 3
+    distance: 1.9
+  - from: '1131338'
+    from_name: 西千葉
+    to: '1131339'
+    to_name: 千葉
+    time: 3
+    distance: 1.34

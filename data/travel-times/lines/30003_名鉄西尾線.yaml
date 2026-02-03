@@ -1,0 +1,84 @@
+line_code: '30003'
+line_name: 名鉄西尾線
+company: 名古屋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3000117'
+    from_name: 新安城
+    to: '3000302'
+    to_name: 北安城
+    time: 4
+    distance: 2.54
+  - from: '3000302'
+    from_name: 北安城
+    to: '3000303'
+    to_name: 南安城
+    time: 3
+    distance: 1.41
+  - from: '3000303'
+    from_name: 南安城
+    to: '3000304'
+    to_name: 碧海古井
+    time: 3
+    distance: 1.65
+  - from: '3000304'
+    from_name: 碧海古井
+    to: '3000305'
+    to_name: 堀内公園
+    time: 2
+    distance: 1.05
+  - from: '3000305'
+    from_name: 堀内公園
+    to: '3000306'
+    to_name: 桜井
+    time: 2
+    distance: 1.16
+  - from: '3000306'
+    from_name: 桜井
+    to: '3000316'
+    to_name: 南桜井
+    time: 3
+    distance: 1.6
+  - from: '3000307'
+    from_name: 米津
+    to: '3000308'
+    to_name: 桜町前
+    time: 3
+    distance: 1.42
+  - from: '3000308'
+    from_name: 桜町前
+    to: '3000309'
+    to_name: 西尾口
+    time: 2
+    distance: 1.05
+  - from: '3000309'
+    from_name: 西尾口
+    to: '3000310'
+    to_name: 西尾
+    time: 2
+    distance: 0.87
+  - from: '3000310'
+    from_name: 西尾
+    to: '3000311'
+    to_name: 福地
+    time: 4
+    distance: 2.3
+  - from: '3000311'
+    from_name: 福地
+    to: '3000313'
+    to_name: 上横須賀
+    time: 5
+    distance: 2.68
+  - from: '3000313'
+    from_name: 上横須賀
+    to: '3000315'
+    to_name: 吉良吉田
+    time: 6
+    distance: 3.99
+  - from: '3000316'
+    from_name: 南桜井
+    to: '3000307'
+    to_name: 米津
+    time: 4
+    distance: 2.11

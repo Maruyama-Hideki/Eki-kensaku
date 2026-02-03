@@ -1,0 +1,324 @@
+line_code: '11311'
+line_name: JR中央本線(東京～塩尻)
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130101'
+    from_name: 東京
+    to: '1131102'
+    to_name: 四ツ谷
+    time: 5
+    distance: 3.24
+  - from: '1131102'
+    from_name: 四ツ谷
+    to: '1130208'
+    to_name: 新宿
+    time: 5
+    distance: 2.76
+  - from: '1130208'
+    from_name: 新宿
+    to: '1131104'
+    to_name: 吉祥寺
+    time: 17
+    distance: 11
+  - from: '1131104'
+    from_name: 吉祥寺
+    to: '1131105'
+    to_name: 三鷹
+    time: 3
+    distance: 1.76
+  - from: '1131105'
+    from_name: 三鷹
+    to: '1131106'
+    to_name: 国分寺
+    time: 11
+    distance: 7.18
+  - from: '1131106'
+    from_name: 国分寺
+    to: '1130325'
+    to_name: 立川
+    time: 10
+    distance: 6.07
+  - from: '1130325'
+    from_name: 立川
+    to: '1131108'
+    to_name: 日野
+    time: 5
+    distance: 2.76
+  - from: '1131108'
+    from_name: 日野
+    to: '1131109'
+    to_name: 豊田
+    time: 4
+    distance: 2.47
+  - from: '1131109'
+    from_name: 豊田
+    to: '1130620'
+    to_name: 八王子
+    time: 6
+    distance: 3.86
+  - from: '1130620'
+    from_name: 八王子
+    to: '1131111'
+    to_name: 西八王子
+    time: 4
+    distance: 2.38
+  - from: '1131111'
+    from_name: 西八王子
+    to: '1131112'
+    to_name: 高尾
+    time: 5
+    distance: 3.19
+  - from: '1131112'
+    from_name: 高尾
+    to: '1131113'
+    to_name: 相模湖
+    time: 14
+    distance: 8.91
+  - from: '1131113'
+    from_name: 相模湖
+    to: '1131114'
+    to_name: 藤野
+    time: 5
+    distance: 3.27
+  - from: '1131114'
+    from_name: 藤野
+    to: '1131115'
+    to_name: 上野原
+    time: 5
+    distance: 3.32
+  - from: '1131115'
+    from_name: 上野原
+    to: '1131116'
+    to_name: 四方津
+    time: 6
+    distance: 3.94
+  - from: '1131116'
+    from_name: 四方津
+    to: '1131117'
+    to_name: 梁川
+    time: 5
+    distance: 3.27
+  - from: '1131117'
+    from_name: 梁川
+    to: '1131118'
+    to_name: 鳥沢
+    time: 5
+    distance: 3.16
+  - from: '1131118'
+    from_name: 鳥沢
+    to: '1131119'
+    to_name: 猿橋
+    time: 5
+    distance: 3.2
+  - from: '1131119'
+    from_name: 猿橋
+    to: '1131120'
+    to_name: 大月
+    time: 4
+    distance: 2.32
+  - from: '1131120'
+    from_name: 大月
+    to: '1131121'
+    to_name: 初狩
+    time: 9
+    distance: 5.72
+  - from: '1131121'
+    from_name: 初狩
+    to: '1131122'
+    to_name: 笹子
+    time: 9
+    distance: 5.42
+  - from: '1131122'
+    from_name: 笹子
+    to: '1131123'
+    to_name: 甲斐大和
+    time: 9
+    distance: 5.57
+  - from: '1131123'
+    from_name: 甲斐大和
+    to: '1131124'
+    to_name: 勝沼ぶどう郷
+    time: 8
+    distance: 5.08
+  - from: '1131124'
+    from_name: 勝沼ぶどう郷
+    to: '1131125'
+    to_name: 塩山
+    time: 6
+    distance: 3.7
+  - from: '1131125'
+    from_name: 塩山
+    to: '1131126'
+    to_name: 東山梨
+    time: 5
+    distance: 3.12
+  - from: '1131126'
+    from_name: 東山梨
+    to: '1131127'
+    to_name: 山梨市
+    time: 4
+    distance: 2.09
+  - from: '1131127'
+    from_name: 山梨市
+    to: '1131128'
+    to_name: 春日居町
+    time: 4
+    distance: 2.52
+  - from: '1131128'
+    from_name: 春日居町
+    to: '1131129'
+    to_name: 石和温泉
+    time: 5
+    distance: 2.83
+  - from: '1131129'
+    from_name: 石和温泉
+    to: '1131130'
+    to_name: 酒折
+    time: 5
+    distance: 3.23
+  - from: '1131130'
+    from_name: 酒折
+    to: '1131131'
+    to_name: 甲府
+    time: 5
+    distance: 2.82
+  - from: '1131131'
+    from_name: 甲府
+    to: '1131132'
+    to_name: 竜王
+    time: 7
+    distance: 4.5
+  - from: '1131132'
+    from_name: 竜王
+    to: '1131133'
+    to_name: 塩崎
+    time: 6
+    distance: 3.56
+  - from: '1131133'
+    from_name: 塩崎
+    to: '1131134'
+    to_name: 韮崎
+    time: 7
+    distance: 4.08
+  - from: '1131134'
+    from_name: 韮崎
+    to: '1131135'
+    to_name: 新府
+    time: 6
+    distance: 3.43
+  - from: '1131135'
+    from_name: 新府
+    to: '1131136'
+    to_name: 穴山
+    time: 4
+    distance: 2.35
+  - from: '1131136'
+    from_name: 穴山
+    to: '1131137'
+    to_name: 日野春
+    time: 8
+    distance: 4.74
+  - from: '1131137'
+    from_name: 日野春
+    to: '1131138'
+    to_name: 長坂
+    time: 8
+    distance: 4.76
+  - from: '1131138'
+    from_name: 長坂
+    to: '1131139'
+    to_name: 小淵沢
+    time: 10
+    distance: 6.09
+  - from: '1131139'
+    from_name: 小淵沢
+    to: '1131140'
+    to_name: 信濃境
+    time: 7
+    distance: 4.37
+  - from: '1131140'
+    from_name: 信濃境
+    to: '1131141'
+    to_name: 富士見
+    time: 7
+    distance: 4.53
+  - from: '1131141'
+    from_name: 富士見
+    to: '1131142'
+    to_name: すずらんの里
+    time: 5
+    distance: 3.11
+  - from: '1131142'
+    from_name: すずらんの里
+    to: '1131143'
+    to_name: 青柳
+    time: 3
+    distance: 1.87
+  - from: '1131143'
+    from_name: 青柳
+    to: '1131144'
+    to_name: 茅野
+    time: 11
+    distance: 7.15
+  - from: '1131144'
+    from_name: 茅野
+    to: '1131145'
+    to_name: 上諏訪
+    time: 10
+    distance: 6.56
+  - from: '1131145'
+    from_name: 上諏訪
+    to: '1131146'
+    to_name: 下諏訪
+    time: 6
+    distance: 3.98
+  - from: '1131146'
+    from_name: 下諏訪
+    to: '1131147'
+    to_name: 岡谷
+    time: 6
+    distance: 3.97
+  - from: '1131147'
+    from_name: 岡谷
+    to: '1131148'
+    to_name: みどり湖
+    time: 11
+    distance: 7.04
+  - from: '1131147'
+    from_name: 岡谷
+    to: '1131149'
+    to_name: 川岸
+    time: 6
+    distance: 3.36
+  - from: '1131148'
+    from_name: みどり湖
+    to: '1131153'
+    to_name: 塩尻
+    time: 6
+    distance: 3.79
+  - from: '1131149'
+    from_name: 川岸
+    to: '1131150'
+    to_name: 辰野
+    time: 9
+    distance: 5.82
+  - from: '1131150'
+    from_name: 辰野
+    to: '1131151'
+    to_name: 信濃川島
+    time: 6
+    distance: 3.96
+  - from: '1131151'
+    from_name: 信濃川島
+    to: '1131152'
+    to_name: 小野
+    time: 6
+    distance: 3.7
+  - from: '1131152'
+    from_name: 小野
+    to: '1131153'
+    to_name: 塩尻
+    time: 12
+    distance: 7.77

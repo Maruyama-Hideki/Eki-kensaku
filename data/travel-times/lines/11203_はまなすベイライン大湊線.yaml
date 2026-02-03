@@ -1,0 +1,66 @@
+line_code: '11203'
+line_name: はまなすベイライン大湊線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1120110'
+    from_name: 野辺地
+    to: '1120302'
+    to_name: 北野辺地
+    time: 4
+    distance: 2.15
+  - from: '1120302'
+    from_name: 北野辺地
+    to: '1120303'
+    to_name: 有戸
+    time: 10
+    distance: 6.65
+  - from: '1120303'
+    from_name: 有戸
+    to: '1120304'
+    to_name: 吹越
+    time: 20
+    distance: 12.95
+  - from: '1120304'
+    from_name: 吹越
+    to: '1120305'
+    to_name: 陸奥横浜
+    time: 11
+    distance: 7.18
+  - from: '1120305'
+    from_name: 陸奥横浜
+    to: '1120306'
+    to_name: 有畑
+    time: 9
+    distance: 5.51
+  - from: '1120306'
+    from_name: 有畑
+    to: '1120307'
+    to_name: 近川
+    time: 10
+    distance: 6.66
+  - from: '1120307'
+    from_name: 近川
+    to: '1120308'
+    to_name: 金谷沢
+    time: 8
+    distance: 4.86
+  - from: '1120308'
+    from_name: 金谷沢
+    to: '1120309'
+    to_name: 赤川
+    time: 9
+    distance: 5.43
+  - from: '1120309'
+    from_name: 赤川
+    to: '1120310'
+    to_name: 下北
+    time: 4
+    distance: 2.33
+  - from: '1120310'
+    from_name: 下北
+    to: '1120311'
+    to_name: 大湊
+    time: 4
+    distance: 2.37

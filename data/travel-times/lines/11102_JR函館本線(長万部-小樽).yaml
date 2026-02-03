@@ -1,0 +1,108 @@
+line_code: '11102'
+line_name: JR函館本線(長万部～小樽)
+company: JR北海道
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1110138'
+    from_name: 長万部
+    to: '1110202'
+    to_name: 二股
+    time: 13
+    distance: 8.33
+  - from: '1110202'
+    from_name: 二股
+    to: '1110204'
+    to_name: 黒松内
+    time: 16
+    distance: 10.5
+  - from: '1110204'
+    from_name: 黒松内
+    to: '1110205'
+    to_name: 熱郛
+    time: 9
+    distance: 5.71
+  - from: '1110205'
+    from_name: 熱郛
+    to: '1110206'
+    to_name: 目名
+    time: 19
+    distance: 12.08
+  - from: '1110206'
+    from_name: 目名
+    to: '1110207'
+    to_name: 蘭越
+    time: 11
+    distance: 7.04
+  - from: '1110207'
+    from_name: 蘭越
+    to: '1110208'
+    to_name: 昆布
+    time: 9
+    distance: 5.53
+  - from: '1110208'
+    from_name: 昆布
+    to: '1110209'
+    to_name: ニセコ
+    time: 11
+    distance: 7.32
+  - from: '1110209'
+    from_name: ニセコ
+    to: '1110210'
+    to_name: 比羅夫
+    time: 9
+    distance: 5.41
+  - from: '1110210'
+    from_name: 比羅夫
+    to: '1110211'
+    to_name: 倶知安
+    time: 10
+    distance: 6.19
+  - from: '1110211'
+    from_name: 倶知安
+    to: '1110212'
+    to_name: 小沢
+    time: 15
+    distance: 9.56
+  - from: '1110212'
+    from_name: 小沢
+    to: '1110213'
+    to_name: 銀山
+    time: 13
+    distance: 8.27
+  - from: '1110213'
+    from_name: 銀山
+    to: '1110214'
+    to_name: 然別
+    time: 15
+    distance: 9.58
+  - from: '1110214'
+    from_name: 然別
+    to: '1110215'
+    to_name: 仁木
+    time: 7
+    distance: 4.17
+  - from: '1110215'
+    from_name: 仁木
+    to: '1110216'
+    to_name: 余市
+    time: 7
+    distance: 4.11
+  - from: '1110216'
+    from_name: 余市
+    to: '1110217'
+    to_name: 蘭島
+    time: 8
+    distance: 4.99
+  - from: '1110217'
+    from_name: 蘭島
+    to: '1110218'
+    to_name: 塩谷
+    time: 9
+    distance: 5.7
+  - from: '1110218'
+    from_name: 塩谷
+    to: '1110219'
+    to_name: 小樽
+    time: 9
+    distance: 5.63

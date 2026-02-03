@@ -1,0 +1,36 @@
+line_code: '32009'
+line_name: 南海汐見橋線
+company: 南海電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3200901'
+    from_name: 汐見橋
+    to: '3200902'
+    to_name: 芦原町
+    time: 2
+    distance: 0.79
+  - from: '3200902'
+    from_name: 芦原町
+    to: '3200903'
+    to_name: 木津川
+    time: 2
+    distance: 0.72
+  - from: '3200903'
+    from_name: 木津川
+    to: '3200904'
+    to_name: 津守
+    time: 2
+    distance: 0.86
+  - from: '3200904'
+    from_name: 津守
+    to: '3200905'
+    to_name: 西天下茶屋
+    time: 2
+    distance: 1.06
+  - from: '3200905'
+    from_name: 西天下茶屋
+    to: '3200104'
+    to_name: 岸里玉出
+    time: 2
+    distance: 1.26

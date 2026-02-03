@@ -1,0 +1,12 @@
+line_code: '99636'
+line_name: 北神線
+company: 神戸市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '9963601'
+    from_name: 新神戸
+    to: '9963210'
+    to_name: 谷上
+    time: 12
+    distance: 6.54

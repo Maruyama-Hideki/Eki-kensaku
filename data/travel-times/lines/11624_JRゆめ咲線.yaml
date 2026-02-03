@@ -1,0 +1,24 @@
+line_code: '11624'
+line_name: JRゆめ咲線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1162307'
+    from_name: 西九条
+    to: '1162402'
+    to_name: 安治川口
+    time: 4
+    distance: 2.33
+  - from: '1162402'
+    from_name: 安治川口
+    to: '1162403'
+    to_name: ユニバーサルシティ
+    time: 2
+    distance: 0.78
+  - from: '1162403'
+    from_name: ユニバーサルシティ
+    to: '1162404'
+    to_name: 桜島
+    time: 2
+    distance: 0.88

@@ -1,0 +1,30 @@
+line_code: '11331'
+line_name: JR東金線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1132407'
+    from_name: 大網
+    to: '1133102'
+    to_name: 福俵
+    time: 6
+    distance: 3.84
+  - from: '1133102'
+    from_name: 福俵
+    to: '1133103'
+    to_name: 東金
+    time: 4
+    distance: 2.52
+  - from: '1133103'
+    from_name: 東金
+    to: '1133104'
+    to_name: 求名
+    time: 6
+    distance: 3.67
+  - from: '1133104'
+    from_name: 求名
+    to: '1131420'
+    to_name: 成東
+    time: 6
+    distance: 3.41

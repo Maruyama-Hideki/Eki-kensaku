@@ -1,0 +1,36 @@
+line_code: '22012'
+line_name: 西武多摩川線
+company: 西武鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1131221'
+    from_name: 武蔵境
+    to: '2201202'
+    to_name: 新小金井
+    time: 3
+    distance: 1.67
+  - from: '2201202'
+    from_name: 新小金井
+    to: '2201203'
+    to_name: 多磨
+    time: 4
+    distance: 2.29
+  - from: '2201203'
+    from_name: 多磨
+    to: '2201204'
+    to_name: 白糸台
+    time: 2
+    distance: 1.32
+  - from: '2201204'
+    from_name: 白糸台
+    to: '2201205'
+    to_name: 競艇場前
+    time: 3
+    distance: 1.47
+  - from: '2201205'
+    from_name: 競艇場前
+    to: '2201206'
+    to_name: 是政
+    time: 2
+    distance: 1.01

@@ -1,0 +1,198 @@
+line_code: '11902'
+line_name: JR鹿児島本線(下関・門司港～博多)
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1161236'
+    from_name: 下関
+    to: '1161237'
+    to_name: 門司
+    time: 8
+    distance: 5.2
+  - from: '1190202'
+    from_name: 門司港
+    to: '1190203'
+    to_name: 小森江
+    time: 6
+    distance: 3.83
+  - from: '1190203'
+    from_name: 小森江
+    to: '1161237'
+    to_name: 門司
+    time: 3
+    distance: 1.42
+  - from: '1161237'
+    from_name: 門司
+    to: '1190205'
+    to_name: 小倉
+    time: 8
+    distance: 5.08
+  - from: '1190205'
+    from_name: 小倉
+    to: '1190206'
+    to_name: 西小倉
+    time: 2
+    distance: 0.84
+  - from: '1190206'
+    from_name: 西小倉
+    to: '1190207'
+    to_name: 九州工大前
+    time: 6
+    distance: 3.38
+  - from: '1190207'
+    from_name: 九州工大前
+    to: '1190208'
+    to_name: 戸畑
+    time: 3
+    distance: 1.83
+  - from: '1190208'
+    from_name: 戸畑
+    to: '1190209'
+    to_name: 枝光
+    time: 4
+    distance: 2.08
+  - from: '1190209'
+    from_name: 枝光
+    to: '1190210'
+    to_name: スペースワールド
+    time: 2
+    distance: 1.12
+  - from: '1190210'
+    from_name: スペースワールド
+    to: '1190211'
+    to_name: 八幡
+    time: 2
+    distance: 1.05
+  - from: '1190211'
+    from_name: 八幡
+    to: '1190212'
+    to_name: 黒崎
+    time: 5
+    distance: 2.69
+  - from: '1190212'
+    from_name: 黒崎
+    to: '1190213'
+    to_name: 陣原
+    time: 4
+    distance: 2.18
+  - from: '1190213'
+    from_name: 陣原
+    to: '1190214'
+    to_name: 折尾
+    time: 5
+    distance: 2.78
+  - from: '1190214'
+    from_name: 折尾
+    to: '1190215'
+    to_name: 水巻
+    time: 4
+    distance: 2.12
+  - from: '1190215'
+    from_name: 水巻
+    to: '1190216'
+    to_name: 遠賀川
+    time: 4
+    distance: 2.05
+  - from: '1190216'
+    from_name: 遠賀川
+    to: '1190217'
+    to_name: 海老津
+    time: 8
+    distance: 4.71
+  - from: '1190217'
+    from_name: 海老津
+    to: '1190218'
+    to_name: 教育大前
+    time: 8
+    distance: 4.68
+  - from: '1190218'
+    from_name: 教育大前
+    to: '1190219'
+    to_name: 赤間
+    time: 3
+    distance: 1.92
+  - from: '1190219'
+    from_name: 赤間
+    to: '1190220'
+    to_name: 東郷
+    time: 7
+    distance: 4.06
+  - from: '1190220'
+    from_name: 東郷
+    to: '1190221'
+    to_name: 東福間
+    time: 5
+    distance: 2.79
+  - from: '1190221'
+    from_name: 東福間
+    to: '1190222'
+    to_name: 福間
+    time: 4
+    distance: 2.61
+  - from: '1190222'
+    from_name: 福間
+    to: '1190223'
+    to_name: 千鳥
+    time: 3
+    distance: 1.82
+  - from: '1190223'
+    from_name: 千鳥
+    to: '1190224'
+    to_name: 古賀
+    time: 4
+    distance: 2.04
+  - from: '1190224'
+    from_name: 古賀
+    to: '1190232'
+    to_name: ししぶ
+    time: 3
+    distance: 1.36
+  - from: '1190225'
+    from_name: 福工大前
+    to: '1190226'
+    to_name: 九産大前
+    time: 5
+    distance: 2.79
+  - from: '1190226'
+    from_name: 九産大前
+    to: '1190227'
+    to_name: 香椎
+    time: 3
+    distance: 1.64
+  - from: '1190227'
+    from_name: 香椎
+    to: '1190228'
+    to_name: 千早
+    time: 2
+    distance: 1.17
+  - from: '1190228'
+    from_name: 千早
+    to: '1190229'
+    to_name: 箱崎
+    time: 6
+    distance: 3.69
+  - from: '1190229'
+    from_name: 箱崎
+    to: '1190230'
+    to_name: 吉塚
+    time: 2
+    distance: 1.24
+  - from: '1190230'
+    from_name: 吉塚
+    to: '1190101'
+    to_name: 博多
+    time: 3
+    distance: 1.93
+  - from: '1190232'
+    from_name: ししぶ
+    to: '1190233'
+    to_name: 新宮中央
+    time: 3
+    distance: 1.49
+  - from: '1190233'
+    from_name: 新宮中央
+    to: '1190225'
+    to_name: 福工大前
+    time: 3
+    distance: 1.64

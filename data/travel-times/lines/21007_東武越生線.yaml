@@ -1,0 +1,48 @@
+line_code: '21007'
+line_name: 東武越生線
+company: 東武鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2100126'
+    from_name: 坂戸
+    to: '2100702'
+    to_name: 一本松
+    time: 5
+    distance: 2.88
+  - from: '2100702'
+    from_name: 一本松
+    to: '2100703'
+    to_name: 西大家
+    time: 3
+    distance: 1.55
+  - from: '2100703'
+    from_name: 西大家
+    to: '2100704'
+    to_name: 川角
+    time: 2
+    distance: 1.1
+  - from: '2100704'
+    from_name: 川角
+    to: '2100705'
+    to_name: 武州長瀬
+    time: 3
+    distance: 1.95
+  - from: '2100705'
+    from_name: 武州長瀬
+    to: '2100706'
+    to_name: 東毛呂
+    time: 2
+    distance: 1.08
+  - from: '2100706'
+    from_name: 東毛呂
+    to: '2100707'
+    to_name: 武州唐沢
+    time: 2
+    distance: 0.79
+  - from: '2100707'
+    from_name: 武州唐沢
+    to: '1131803'
+    to_name: 越生
+    time: 3
+    distance: 1.45

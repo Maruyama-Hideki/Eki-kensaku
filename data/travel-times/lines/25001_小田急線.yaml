@@ -1,0 +1,282 @@
+line_code: '25001'
+line_name: 小田急線
+company: 小田急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130208'
+    from_name: 新宿
+    to: '2500102'
+    to_name: 南新宿
+    time: 2
+    distance: 0.71
+  - from: '2500102'
+    from_name: 南新宿
+    to: '2500103'
+    to_name: 参宮橋
+    time: 2
+    distance: 0.71
+  - from: '2500103'
+    from_name: 参宮橋
+    to: '2500104'
+    to_name: 代々木八幡
+    time: 2
+    distance: 1.07
+  - from: '2500104'
+    from_name: 代々木八幡
+    to: '2500105'
+    to_name: 代々木上原
+    time: 2
+    distance: 0.79
+  - from: '2500105'
+    from_name: 代々木上原
+    to: '2500106'
+    to_name: 東北沢
+    time: 2
+    distance: 0.77
+  - from: '2500106'
+    from_name: 東北沢
+    to: '2400605'
+    to_name: 下北沢
+    time: 2
+    distance: 0.7
+  - from: '2400605'
+    from_name: 下北沢
+    to: '2500108'
+    to_name: 世田谷代田
+    time: 2
+    distance: 0.6
+  - from: '2500108'
+    from_name: 世田谷代田
+    to: '2500109'
+    to_name: 梅ヶ丘
+    time: 2
+    distance: 0.76
+  - from: '2500109'
+    from_name: 梅ヶ丘
+    to: '2500110'
+    to_name: 豪徳寺
+    time: 2
+    distance: 0.62
+  - from: '2500110'
+    from_name: 豪徳寺
+    to: '2500111'
+    to_name: 経堂
+    time: 2
+    distance: 1.08
+  - from: '2500111'
+    from_name: 経堂
+    to: '2500112'
+    to_name: 千歳船橋
+    time: 2
+    distance: 1.1
+  - from: '2500112'
+    from_name: 千歳船橋
+    to: '2500113'
+    to_name: 祖師ヶ谷大蔵
+    time: 3
+    distance: 1.43
+  - from: '2500113'
+    from_name: 祖師ヶ谷大蔵
+    to: '2500114'
+    to_name: 成城学園前
+    time: 2
+    distance: 1.03
+  - from: '2500114'
+    from_name: 成城学園前
+    to: '2500115'
+    to_name: 喜多見
+    time: 2
+    distance: 1.11
+  - from: '2500115'
+    from_name: 喜多見
+    to: '2500116'
+    to_name: 狛江
+    time: 2
+    distance: 1.07
+  - from: '2500116'
+    from_name: 狛江
+    to: '2500117'
+    to_name: 和泉多摩川
+    time: 2
+    distance: 0.6
+  - from: '2500117'
+    from_name: 和泉多摩川
+    to: '1130314'
+    to_name: 登戸
+    time: 2
+    distance: 0.79
+  - from: '1130314'
+    from_name: 登戸
+    to: '2500119'
+    to_name: 向ヶ丘遊園
+    time: 2
+    distance: 0.63
+  - from: '2500119'
+    from_name: 向ヶ丘遊園
+    to: '2500120'
+    to_name: 生田
+    time: 4
+    distance: 2.07
+  - from: '2500120'
+    from_name: 生田
+    to: '2500121'
+    to_name: 読売ランド前
+    time: 2
+    distance: 1.28
+  - from: '2500121'
+    from_name: 読売ランド前
+    to: '2500122'
+    to_name: 百合ヶ丘
+    time: 2
+    distance: 1.24
+  - from: '2500122'
+    from_name: 百合ヶ丘
+    to: '2500123'
+    to_name: 新百合ヶ丘
+    time: 2
+    distance: 0.97
+  - from: '2500123'
+    from_name: 新百合ヶ丘
+    to: '2500124'
+    to_name: 柿生
+    time: 3
+    distance: 1.81
+  - from: '2500124'
+    from_name: 柿生
+    to: '2500125'
+    to_name: 鶴川
+    time: 3
+    distance: 1.61
+  - from: '2500125'
+    from_name: 鶴川
+    to: '2500126'
+    to_name: 玉川学園前
+    time: 5
+    distance: 2.74
+  - from: '2500126'
+    from_name: 玉川学園前
+    to: '1130611'
+    to_name: 町田
+    time: 5
+    distance: 2.88
+  - from: '1130611'
+    from_name: 町田
+    to: '2500128'
+    to_name: 相模大野
+    time: 2
+    distance: 1.3
+  - from: '2500128'
+    from_name: 相模大野
+    to: '2500129'
+    to_name: 小田急相模原
+    time: 4
+    distance: 2.35
+  - from: '2500129'
+    from_name: 小田急相模原
+    to: '2500130'
+    to_name: 相武台前
+    time: 4
+    distance: 2.17
+  - from: '2500130'
+    from_name: 相武台前
+    to: '2500131'
+    to_name: 座間
+    time: 4
+    distance: 2.19
+  - from: '2500131'
+    from_name: 座間
+    to: '1130910'
+    to_name: 海老名
+    time: 5
+    distance: 3.11
+  - from: '1130910'
+    from_name: 海老名
+    to: '1130909'
+    to_name: 厚木
+    time: 3
+    distance: 1.52
+  - from: '1130909'
+    from_name: 厚木
+    to: '2500134'
+    to_name: 本厚木
+    time: 3
+    distance: 1.39
+  - from: '2500134'
+    from_name: 本厚木
+    to: '2500135'
+    to_name: 愛甲石田
+    time: 5
+    distance: 3.03
+  - from: '2500135'
+    from_name: 愛甲石田
+    to: '2500136'
+    to_name: 伊勢原
+    time: 6
+    distance: 3.65
+  - from: '2500136'
+    from_name: 伊勢原
+    to: '2500137'
+    to_name: 鶴巻温泉
+    time: 6
+    distance: 3.66
+  - from: '2500137'
+    from_name: 鶴巻温泉
+    to: '2500138'
+    to_name: 東海大学前
+    time: 2
+    distance: 1.07
+  - from: '2500138'
+    from_name: 東海大学前
+    to: '2500139'
+    to_name: 秦野
+    time: 7
+    distance: 4.11
+  - from: '2500139'
+    from_name: 秦野
+    to: '2500140'
+    to_name: 渋沢
+    time: 6
+    distance: 3.8
+  - from: '2500140'
+    from_name: 渋沢
+    to: '2500141'
+    to_name: 新松田
+    time: 8
+    distance: 5.17
+  - from: '2500141'
+    from_name: 新松田
+    to: '2500142'
+    to_name: 開成
+    time: 4
+    distance: 2.1
+  - from: '2500142'
+    from_name: 開成
+    to: '2500143'
+    to_name: 栢山
+    time: 3
+    distance: 1.87
+  - from: '2500143'
+    from_name: 栢山
+    to: '2500144'
+    to_name: 富水
+    time: 3
+    distance: 1.57
+  - from: '2500144'
+    from_name: 富水
+    to: '2500145'
+    to_name: 螢田
+    time: 3
+    distance: 1.44
+  - from: '2500145'
+    from_name: 螢田
+    to: '2500146'
+    to_name: 足柄
+    time: 3
+    distance: 1.49
+  - from: '2500146'
+    from_name: 足柄
+    to: '1130116'
+    to_name: 小田原
+    time: 3
+    distance: 1.73

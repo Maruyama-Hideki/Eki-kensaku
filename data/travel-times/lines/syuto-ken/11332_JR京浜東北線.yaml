@@ -1,0 +1,210 @@
+line_code: '11332'
+line_name: JR京浜東北線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1131906'
+    from_name: 大宮
+    to: '1131905'
+    to_name: さいたま新都心
+    time: 3
+    distance: 1.64
+  - from: '1131905'
+    from_name: さいたま新都心
+    to: '1133203'
+    to_name: 与野
+    time: 2
+    distance: 1.16
+  - from: '1133203'
+    from_name: 与野
+    to: '1133204'
+    to_name: 北浦和
+    time: 3
+    distance: 1.51
+  - from: '1133204'
+    from_name: 北浦和
+    to: '1131904'
+    to_name: 浦和
+    time: 3
+    distance: 1.81
+  - from: '1131904'
+    from_name: 浦和
+    to: '1130511'
+    to_name: 南浦和
+    time: 3
+    distance: 1.62
+  - from: '1130511'
+    from_name: 南浦和
+    to: '1133207'
+    to_name: 蕨
+    time: 5
+    distance: 2.91
+  - from: '1133207'
+    from_name: 蕨
+    to: '1133208'
+    to_name: 西川口
+    time: 3
+    distance: 1.87
+  - from: '1133208'
+    from_name: 西川口
+    to: '1133209'
+    to_name: 川口
+    time: 3
+    distance: 1.93
+  - from: '1133209'
+    from_name: 川口
+    to: '1131903'
+    to_name: 赤羽
+    time: 5
+    distance: 2.67
+  - from: '1131903'
+    from_name: 赤羽
+    to: '1133211'
+    to_name: 東十条
+    time: 3
+    distance: 1.67
+  - from: '1133211'
+    from_name: 東十条
+    to: '1133212'
+    to_name: 王子
+    time: 3
+    distance: 1.61
+  - from: '1133212'
+    from_name: 王子
+    to: '1133213'
+    to_name: 上中里
+    time: 2
+    distance: 0.91
+  - from: '1133213'
+    from_name: 上中里
+    to: '1130216'
+    to_name: 田端
+    time: 3
+    distance: 1.75
+  - from: '1130216'
+    from_name: 田端
+    to: '1130217'
+    to_name: 西日暮里
+    time: 2
+    distance: 0.82
+  - from: '1130217'
+    from_name: 西日暮里
+    to: '1130218'
+    to_name: 日暮里
+    time: 2
+    distance: 0.6
+  - from: '1130218'
+    from_name: 日暮里
+    to: '1130219'
+    to_name: 鶯谷
+    time: 2
+    distance: 0.94
+  - from: '1130219'
+    from_name: 鶯谷
+    to: '1130220'
+    to_name: 上野
+    time: 2
+    distance: 0.86
+  - from: '1130220'
+    from_name: 上野
+    to: '1130221'
+    to_name: 御徒町
+    time: 2
+    distance: 0.75
+  - from: '1130221'
+    from_name: 御徒町
+    to: '1130222'
+    to_name: 秋葉原
+    time: 2
+    distance: 0.97
+  - from: '1130222'
+    from_name: 秋葉原
+    to: '1130223'
+    to_name: 神田
+    time: 2
+    distance: 0.86
+  - from: '1130223'
+    from_name: 神田
+    to: '1130101'
+    to_name: 東京
+    time: 2
+    distance: 1.16
+  - from: '1130101'
+    from_name: 東京
+    to: '1130225'
+    to_name: 有楽町
+    time: 2
+    distance: 0.69
+  - from: '1130225'
+    from_name: 有楽町
+    to: '1130102'
+    to_name: 新橋
+    time: 2
+    distance: 1.13
+  - from: '1130102'
+    from_name: 新橋
+    to: '1130227'
+    to_name: 浜松町
+    time: 2
+    distance: 1.21
+  - from: '1130227'
+    from_name: 浜松町
+    to: '1130228'
+    to_name: 田町
+    time: 3
+    distance: 1.38
+  - from: '1130228'
+    from_name: 田町
+    to: '1130103'
+    to_name: 品川
+    time: 4
+    distance: 2.04
+  - from: '1130103'
+    from_name: 品川
+    to: '1133228'
+    to_name: 大井町
+    time: 4
+    distance: 2.53
+  - from: '1133228'
+    from_name: 大井町
+    to: '1133229'
+    to_name: 大森
+    time: 4
+    distance: 2.02
+  - from: '1133229'
+    from_name: 大森
+    to: '1133230'
+    to_name: 蒲田
+    time: 5
+    distance: 3.13
+  - from: '1133230'
+    from_name: 蒲田
+    to: '1130104'
+    to_name: 川崎
+    time: 6
+    distance: 3.85
+  - from: '1130104'
+    from_name: 川崎
+    to: '1130401'
+    to_name: 鶴見
+    time: 5
+    distance: 3.2
+  - from: '1130401'
+    from_name: 鶴見
+    to: '1133233'
+    to_name: 新子安
+    time: 5
+    distance: 3.06
+  - from: '1133233'
+    from_name: 新子安
+    to: '1130601'
+    to_name: 東神奈川
+    time: 4
+    distance: 2.17
+  - from: '1130601'
+    from_name: 東神奈川
+    to: '1130105'
+    to_name: 横浜
+    time: 3
+    distance: 1.64

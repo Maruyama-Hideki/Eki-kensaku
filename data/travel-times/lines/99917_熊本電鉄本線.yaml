@@ -1,0 +1,78 @@
+line_code: '99917'
+line_name: 熊本電鉄本線
+company: 熊本電気鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9991701'
+    from_name: 藤崎宮前
+    to: '9991702'
+    to_name: 黒髪町
+    time: 2
+    distance: 1.12
+  - from: '9991702'
+    from_name: 黒髪町
+    to: '9991703'
+    to_name: 北熊本
+    time: 2
+    distance: 1.1
+  - from: '9991703'
+    from_name: 北熊本
+    to: '9991704'
+    to_name: 亀井
+    time: 2
+    distance: 1.1
+  - from: '9991704'
+    from_name: 亀井
+    to: '9991705'
+    to_name: 八景水谷
+    time: 2
+    distance: 0.43
+  - from: '9991705'
+    from_name: 八景水谷
+    to: '9991706'
+    to_name: 堀川
+    time: 2
+    distance: 0.89
+  - from: '9991706'
+    from_name: 堀川
+    to: '9991707'
+    to_name: 新須屋
+    time: 2
+    distance: 0.66
+  - from: '9991707'
+    from_name: 新須屋
+    to: '9991708'
+    to_name: 須屋
+    time: 2
+    distance: 0.83
+  - from: '9991708'
+    from_name: 須屋
+    to: '9991709'
+    to_name: 三ツ石
+    time: 2
+    distance: 0.67
+  - from: '9991709'
+    from_name: 三ツ石
+    to: '9991710'
+    to_name: 黒石
+    time: 2
+    distance: 0.79
+  - from: '9991710'
+    from_name: 黒石
+    to: '9991711'
+    to_name: 熊本高専前
+    time: 2
+    distance: 0.91
+  - from: '9991711'
+    from_name: 熊本高専前
+    to: '9991712'
+    to_name: 再春荘前
+    time: 2
+    distance: 0.35
+  - from: '9991712'
+    from_name: 再春荘前
+    to: '9991713'
+    to_name: 御代志
+    time: 2
+    distance: 0.5

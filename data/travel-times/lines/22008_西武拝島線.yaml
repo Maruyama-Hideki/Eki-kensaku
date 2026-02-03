@@ -1,0 +1,48 @@
+line_code: '22008'
+line_name: 西武拝島線
+company: 西武鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2200719'
+    from_name: 小平
+    to: '2200802'
+    to_name: 萩山
+    time: 2
+    distance: 1.13
+  - from: '2200802'
+    from_name: 萩山
+    to: '2200803'
+    to_name: 小川
+    time: 2
+    distance: 1.26
+  - from: '2200803'
+    from_name: 小川
+    to: '2200804'
+    to_name: 東大和市
+    time: 5
+    distance: 2.69
+  - from: '2200804'
+    from_name: 東大和市
+    to: '2200805'
+    to_name: 玉川上水
+    time: 3
+    distance: 1.43
+  - from: '2200805'
+    from_name: 玉川上水
+    to: '2200806'
+    to_name: 武蔵砂川
+    time: 4
+    distance: 2.38
+  - from: '2200806'
+    from_name: 武蔵砂川
+    to: '2200807'
+    to_name: 西武立川
+    time: 4
+    distance: 2.03
+  - from: '2200807'
+    from_name: 西武立川
+    to: '1131506'
+    to_name: 拝島
+    time: 4
+    distance: 2.47

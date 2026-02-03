@@ -1,0 +1,162 @@
+line_code: '99532'
+line_name: 養老鉄道養老線
+company: 養老鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1150808'
+    from_name: 桑名
+    to: '3100402'
+    to_name: 播磨
+    time: 3
+    distance: 1.46
+  - from: '3100402'
+    from_name: 播磨
+    to: '3100403'
+    to_name: 下深谷
+    time: 4
+    distance: 2.31
+  - from: '3100403'
+    from_name: 下深谷
+    to: '3100404'
+    to_name: 下野代
+    time: 4
+    distance: 2.56
+  - from: '3100404'
+    from_name: 下野代
+    to: '3100405'
+    to_name: 多度
+    time: 4
+    distance: 2.09
+  - from: '3100405'
+    from_name: 多度
+    to: '3100406'
+    to_name: 美濃松山
+    time: 5
+    distance: 3.07
+  - from: '3100406'
+    from_name: 美濃松山
+    to: '3100407'
+    to_name: 石津
+    time: 4
+    distance: 2.3
+  - from: '3100407'
+    from_name: 石津
+    to: '3100408'
+    to_name: 美濃山崎
+    time: 4
+    distance: 2.04
+  - from: '3100408'
+    from_name: 美濃山崎
+    to: '3100409'
+    to_name: 駒野
+    time: 5
+    distance: 3.25
+  - from: '3100409'
+    from_name: 駒野
+    to: '3100410'
+    to_name: 美濃津屋
+    time: 7
+    distance: 4.54
+  - from: '3100410'
+    from_name: 美濃津屋
+    to: '3100411'
+    to_name: 養老
+    time: 7
+    distance: 4.04
+  - from: '3100411'
+    from_name: 養老
+    to: '3100412'
+    to_name: 美濃高田
+    time: 4
+    distance: 2.54
+  - from: '3100412'
+    from_name: 美濃高田
+    to: '3100413'
+    to_name: 烏江
+    time: 4
+    distance: 2.63
+  - from: '3100413'
+    from_name: 烏江
+    to: '3100414'
+    to_name: 大外羽
+    time: 2
+    distance: 1.18
+  - from: '3100414'
+    from_name: 大外羽
+    to: '3100415'
+    to_name: 友江
+    time: 2
+    distance: 1.3
+  - from: '3100415'
+    from_name: 友江
+    to: '3100416'
+    to_name: 美濃青柳
+    time: 3
+    distance: 1.92
+  - from: '3100416'
+    from_name: 美濃青柳
+    to: '3100417'
+    to_name: 西大垣
+    time: 3
+    distance: 1.86
+  - from: '3100417'
+    from_name: 西大垣
+    to: '1150304'
+    to_name: 大垣
+    time: 3
+    distance: 1.55
+  - from: '1150304'
+    from_name: 大垣
+    to: '3100419'
+    to_name: 室
+    time: 2
+    distance: 1.1
+  - from: '3100419'
+    from_name: 室
+    to: '3100420'
+    to_name: 北大垣
+    time: 2
+    distance: 0.98
+  - from: '3100420'
+    from_name: 北大垣
+    to: '3100421'
+    to_name: 東赤坂
+    time: 4
+    distance: 2.09
+  - from: '3100421'
+    from_name: 東赤坂
+    to: '3100422'
+    to_name: 広神戸
+    time: 5
+    distance: 2.84
+  - from: '3100422'
+    from_name: 広神戸
+    to: '3100423'
+    to_name: 北神戸
+    time: 3
+    distance: 1.35
+  - from: '3100423'
+    from_name: 北神戸
+    to: '3100424'
+    to_name: 池野
+    time: 3
+    distance: 1.6
+  - from: '3100424'
+    from_name: 池野
+    to: '3100425'
+    to_name: 北池野
+    time: 2
+    distance: 0.89
+  - from: '3100425'
+    from_name: 北池野
+    to: '3100426'
+    to_name: 美濃本郷
+    time: 2
+    distance: 0.74
+  - from: '3100426'
+    from_name: 美濃本郷
+    to: '3100427'
+    to_name: 揖斐
+    time: 4
+    distance: 2.27

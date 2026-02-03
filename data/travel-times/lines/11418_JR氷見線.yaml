@@ -1,0 +1,48 @@
+line_code: '11418'
+line_name: JR氷見線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1141551'
+    from_name: 高岡
+    to: '1141802'
+    to_name: 越中中川
+    time: 3
+    distance: 1.49
+  - from: '1141802'
+    from_name: 越中中川
+    to: '1141803'
+    to_name: 能町
+    time: 4
+    distance: 2.32
+  - from: '1141803'
+    from_name: 能町
+    to: '1141804'
+    to_name: 伏木
+    time: 5
+    distance: 3.15
+  - from: '1141804'
+    from_name: 伏木
+    to: '1141805'
+    to_name: 越中国分
+    time: 3
+    distance: 1.61
+  - from: '1141805'
+    from_name: 越中国分
+    to: '1141806'
+    to_name: 雨晴
+    time: 3
+    distance: 1.7
+  - from: '1141806'
+    from_name: 雨晴
+    to: '1141807'
+    to_name: 島尾
+    time: 4
+    distance: 2.58
+  - from: '1141807'
+    from_name: 島尾
+    to: '1141808'
+    to_name: 氷見
+    time: 5
+    distance: 3.09

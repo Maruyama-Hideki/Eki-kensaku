@@ -1,0 +1,60 @@
+line_code: '23004'
+line_name: 京成千葉線
+company: 京成電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2300126'
+    from_name: 京成津田沼
+    to: '1131334'
+    to_name: 幕張本郷
+    time: 3
+    distance: 1.99
+  - from: '1131334'
+    from_name: 幕張本郷
+    to: '1131335'
+    to_name: 幕張
+    time: 4
+    distance: 2.04
+  - from: '1131335'
+    from_name: 幕張
+    to: '2300404'
+    to_name: 検見川
+    time: 2
+    distance: 1.1
+  - from: '2300404'
+    from_name: 検見川
+    to: '2300405'
+    to_name: 京成稲毛
+    time: 4
+    distance: 2.36
+  - from: '2300405'
+    from_name: 京成稲毛
+    to: '2300406'
+    to_name: みどり台
+    time: 3
+    distance: 1.78
+  - from: '2300406'
+    from_name: みどり台
+    to: '2300407'
+    to_name: 西登戸
+    time: 2
+    distance: 0.95
+  - from: '2300407'
+    from_name: 西登戸
+    to: '2300408'
+    to_name: 新千葉
+    time: 2
+    distance: 0.77
+  - from: '2300408'
+    from_name: 新千葉
+    to: '1131339'
+    to_name: 千葉
+    time: 2
+    distance: 0.4
+  - from: '1131339'
+    from_name: 千葉
+    to: '2300410'
+    to_name: 千葉中央
+    time: 2
+    distance: 0.81

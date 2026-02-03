@@ -1,0 +1,102 @@
+line_code: '99624'
+line_name: 大阪メトロ長堀鶴見緑地線
+company: Osaka Metro
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1162305'
+    from_name: 大正
+    to: '3500209'
+    to_name: ドーム前
+    time: 2
+    distance: 0.54
+  - from: '3500209'
+    from_name: ドーム前
+    to: '9962204'
+    to_name: 西長堀
+    time: 2
+    distance: 0.99
+  - from: '9962204'
+    from_name: 西長堀
+    to: '9962404'
+    to_name: 西大橋
+    time: 2
+    distance: 0.58
+  - from: '9962404'
+    from_name: 西大橋
+    to: '9961809'
+    to_name: 心斎橋
+    time: 2
+    distance: 0.62
+  - from: '9961809'
+    from_name: 心斎橋
+    to: '9962306'
+    to_name: 長堀橋
+    time: 2
+    distance: 0.55
+  - from: '9962306'
+    from_name: 長堀橋
+    to: '9962407'
+    to_name: 松屋町
+    time: 2
+    distance: 0.57
+  - from: '9962407'
+    from_name: 松屋町
+    to: '9961914'
+    to_name: 谷町六丁目
+    time: 2
+    distance: 0.41
+  - from: '9961914'
+    from_name: 谷町六丁目
+    to: '1162316'
+    to_name: 玉造
+    time: 3
+    distance: 1.47
+  - from: '1162316'
+    from_name: 玉造
+    to: '1162315'
+    to_name: 森ノ宮
+    time: 2
+    distance: 0.77
+  - from: '1162315'
+    from_name: 森ノ宮
+    to: '9962411'
+    to_name: 大阪ビジネスパーク
+    time: 3
+    distance: 1.36
+  - from: '9962411'
+    from_name: 大阪ビジネスパーク
+    to: '1161724'
+    to_name: 京橋
+    time: 2
+    distance: 0.6
+  - from: '1161724'
+    from_name: 京橋
+    to: '9962413'
+    to_name: 蒲生四丁目
+    time: 2
+    distance: 1.32
+  - from: '9962413'
+    from_name: 蒲生四丁目
+    to: '9962414'
+    to_name: 今福鶴見
+    time: 2
+    distance: 1.14
+  - from: '9962414'
+    from_name: 今福鶴見
+    to: '9962415'
+    to_name: 横堤
+    time: 2
+    distance: 1.17
+  - from: '9962415'
+    from_name: 横堤
+    to: '9962416'
+    to_name: 鶴見緑地
+    time: 2
+    distance: 1.06
+  - from: '9962416'
+    from_name: 鶴見緑地
+    to: '9962417'
+    to_name: 門真南
+    time: 2
+    distance: 1.31

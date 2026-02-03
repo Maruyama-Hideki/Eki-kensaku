@@ -1,0 +1,60 @@
+line_code: '99919'
+line_name: 高森線
+company: 南阿蘇鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1192314'
+    from_name: 立野
+    to: '9991902'
+    to_name: 長陽
+    time: 7
+    distance: 4.43
+  - from: '9991902'
+    from_name: 長陽
+    to: '9991903'
+    to_name: 加勢
+    time: 2
+    distance: 0.92
+  - from: '9991903'
+    from_name: 加勢
+    to: '9991904'
+    to_name: 阿蘇下田城ふれあい温泉
+    time: 3
+    distance: 1.41
+  - from: '9991904'
+    from_name: 阿蘇下田城ふれあい温泉
+    to: '9991905'
+    to_name: 南阿蘇水の生まれる里白水高原
+    time: 3
+    distance: 1.86
+  - from: '9991905'
+    from_name: 南阿蘇水の生まれる里白水高原
+    to: '9991906'
+    to_name: 中松
+    time: 3
+    distance: 1.45
+  - from: '9991906'
+    from_name: 中松
+    to: '9991907'
+    to_name: 阿蘇白川
+    time: 5
+    distance: 2.93
+  - from: '9991907'
+    from_name: 阿蘇白川
+    to: '9991910'
+    to_name: 南阿蘇白川水源
+    time: 2
+    distance: 0.68
+  - from: '9991908'
+    from_name: 見晴台
+    to: '9991909'
+    to_name: 高森
+    time: 2
+    distance: 1.23
+  - from: '9991910'
+    from_name: 南阿蘇白川水源
+    to: '9991908'
+    to_name: 見晴台
+    time: 3
+    distance: 1.75

@@ -1,0 +1,42 @@
+line_code: '99638'
+line_name: 山陽電鉄網干線
+company: 山陽電気鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9963740'
+    from_name: 飾磨
+    to: '9963802'
+    to_name: 西飾磨
+    time: 4
+    distance: 2.24
+  - from: '9963802'
+    from_name: 西飾磨
+    to: '9963803'
+    to_name: 夢前川
+    time: 2
+    distance: 1.17
+  - from: '9963803'
+    from_name: 夢前川
+    to: '9963804'
+    to_name: 広畑
+    time: 2
+    distance: 1.04
+  - from: '9963804'
+    from_name: 広畑
+    to: '9963805'
+    to_name: 山陽天満
+    time: 2
+    distance: 0.99
+  - from: '9963805'
+    from_name: 山陽天満
+    to: '9963806'
+    to_name: 平松
+    time: 3
+    distance: 1.62
+  - from: '9963806'
+    from_name: 平松
+    to: '9963807'
+    to_name: 山陽網干
+    time: 2
+    distance: 1.26

@@ -1,0 +1,90 @@
+line_code: '99814'
+line_name: 中村線
+company: 土佐くろしお鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1180160'
+    from_name: 窪川
+    to: '1180802'
+    to_name: 若井
+    time: 6
+    distance: 4
+  - from: '1180802'
+    from_name: 若井
+    to: '9981403'
+    to_name: 荷稲
+    time: 10
+    distance: 6.2
+  - from: '9981403'
+    from_name: 荷稲
+    to: '9981404'
+    to_name: 伊与喜
+    time: 6
+    distance: 3.51
+  - from: '9981404'
+    from_name: 伊与喜
+    to: '9981405'
+    to_name: 土佐佐賀
+    time: 5
+    distance: 2.71
+  - from: '9981405'
+    from_name: 土佐佐賀
+    to: '9981406'
+    to_name: 佐賀公園
+    time: 3
+    distance: 1.87
+  - from: '9981406'
+    from_name: 佐賀公園
+    to: '9981407'
+    to_name: 土佐白浜
+    time: 2
+    distance: 1.25
+  - from: '9981407'
+    from_name: 土佐白浜
+    to: '9981408'
+    to_name: 有井川
+    time: 5
+    distance: 3.12
+  - from: '9981408'
+    from_name: 有井川
+    to: '9981409'
+    to_name: 土佐上川口
+    time: 3
+    distance: 1.48
+  - from: '9981409'
+    from_name: 土佐上川口
+    to: '9981410'
+    to_name: 海の王迎
+    time: 2
+    distance: 0.94
+  - from: '9981410'
+    from_name: 海の王迎
+    to: '9981411'
+    to_name: 浮鞭
+    time: 3
+    distance: 1.55
+  - from: '9981411'
+    from_name: 浮鞭
+    to: '9981412'
+    to_name: 土佐入野
+    time: 4
+    distance: 2.43
+  - from: '9981412'
+    from_name: 土佐入野
+    to: '9981413'
+    to_name: 西大方
+    time: 5
+    distance: 2.84
+  - from: '9981413'
+    from_name: 西大方
+    to: '9981414'
+    to_name: 古津賀
+    time: 6
+    distance: 3.47
+  - from: '9981414'
+    from_name: 古津賀
+    to: '9981415'
+    to_name: 中村
+    time: 3
+    distance: 1.69

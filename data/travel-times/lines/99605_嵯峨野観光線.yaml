@@ -1,0 +1,24 @@
+line_code: '99605'
+line_name: 嵯峨野観光線
+company: 嵯峨野観光鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1161407'
+    from_name: 嵯峨嵐山
+    to: '9960502'
+    to_name: トロッコ嵐山
+    time: 2
+    distance: 1.02
+  - from: '9960502'
+    from_name: トロッコ嵐山
+    to: '9960503'
+    to_name: トロッコ保津峡
+    time: 4
+    distance: 2.4
+  - from: '9960503'
+    from_name: トロッコ保津峡
+    to: '9960504'
+    to_name: トロッコ亀岡
+    time: 6
+    distance: 3.88

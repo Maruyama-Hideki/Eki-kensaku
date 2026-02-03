@@ -1,0 +1,174 @@
+line_code: '11914'
+line_name: JR日田彦山線
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1190205'
+    from_name: 小倉
+    to: '1190206'
+    to_name: 西小倉
+    time: 2
+    distance: 0.84
+  - from: '1190206'
+    from_name: 西小倉
+    to: '1190606'
+    to_name: 南小倉
+    time: 4
+    distance: 2.24
+  - from: '1190606'
+    from_name: 南小倉
+    to: '1190607'
+    to_name: 城野
+    time: 4
+    distance: 2.37
+  - from: '1190607'
+    from_name: 城野
+    to: '1191405'
+    to_name: 石田
+    time: 5
+    distance: 2.93
+  - from: '1191405'
+    from_name: 石田
+    to: '1191406'
+    to_name: 志井公園
+    time: 3
+    distance: 1.7
+  - from: '1191406'
+    from_name: 志井公園
+    to: '1191407'
+    to_name: 志井
+    time: 3
+    distance: 1.74
+  - from: '1191407'
+    from_name: 志井
+    to: '1191408'
+    to_name: 石原町
+    time: 4
+    distance: 2.22
+  - from: '1191408'
+    from_name: 石原町
+    to: '1191409'
+    to_name: 呼野
+    time: 6
+    distance: 3.36
+  - from: '1191409'
+    from_name: 呼野
+    to: '1191410'
+    to_name: 採銅所
+    time: 9
+    distance: 5.34
+  - from: '1191410'
+    from_name: 採銅所
+    to: '1191411'
+    to_name: 香春
+    time: 7
+    distance: 4.65
+  - from: '1191411'
+    from_name: 香春
+    to: '1191412'
+    to_name: 一本松
+    time: 3
+    distance: 1.51
+  - from: '1191412'
+    from_name: 一本松
+    to: '1191413'
+    to_name: 田川伊田
+    time: 4
+    distance: 2.29
+  - from: '1191413'
+    from_name: 田川伊田
+    to: '1191414'
+    to_name: 田川後藤寺
+    time: 4
+    distance: 2.08
+  - from: '1191414'
+    from_name: 田川後藤寺
+    to: '1191415'
+    to_name: 池尻
+    time: 3
+    distance: 1.98
+  - from: '1191415'
+    from_name: 池尻
+    to: '1191416'
+    to_name: 豊前川崎
+    time: 4
+    distance: 2.36
+  - from: '1191416'
+    from_name: 豊前川崎
+    to: '1191417'
+    to_name: 西添田
+    time: 6
+    distance: 3.49
+  - from: '1191417'
+    from_name: 西添田
+    to: '1191418'
+    to_name: 添田
+    time: 2
+    distance: 1.1
+  - from: '1191418'
+    from_name: 添田
+    to: '1191429'
+    to_name: 歓遊舎ひこさん
+    time: 4
+    distance: 2.18
+  - from: '1191419'
+    from_name: 豊前桝田
+    to: '1191420'
+    to_name: 彦山
+    time: 6
+    distance: 3.95
+  - from: '1191420'
+    from_name: 彦山
+    to: '1191421'
+    to_name: 筑前岩屋
+    time: 12
+    distance: 7.89
+  - from: '1191421'
+    from_name: 筑前岩屋
+    to: '1191422'
+    to_name: 大行司
+    time: 6
+    distance: 3.79
+  - from: '1191422'
+    from_name: 大行司
+    to: '1191423'
+    to_name: 宝珠山
+    time: 4
+    distance: 2.06
+  - from: '1191423'
+    from_name: 宝珠山
+    to: '1191424'
+    to_name: 大鶴
+    time: 3
+    distance: 1.44
+  - from: '1191424'
+    from_name: 大鶴
+    to: '1191425'
+    to_name: 今山
+    time: 4
+    distance: 2.53
+  - from: '1191425'
+    from_name: 今山
+    to: '1191311'
+    to_name: 夜明
+    time: 5
+    distance: 3.03
+  - from: '1191311'
+    from_name: 夜明
+    to: '1191312'
+    to_name: 光岡
+    time: 8
+    distance: 5.07
+  - from: '1191312'
+    from_name: 光岡
+    to: '1191313'
+    to_name: 日田
+    time: 4
+    distance: 2.12
+  - from: '1191429'
+    from_name: 歓遊舎ひこさん
+    to: '1191419'
+    to_name: 豊前桝田
+    time: 3
+    distance: 1.37

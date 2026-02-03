@@ -1,0 +1,108 @@
+line_code: '99713'
+line_name: 広電５号線(皆実線)
+company: 広島電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1161115'
+    from_name: 広島
+    to: '9971002'
+    to_name: 猿猴橋町
+    time: 2
+    distance: 0.27
+  - from: '9971002'
+    from_name: 猿猴橋町
+    to: '9971003'
+    to_name: 的場町
+    time: 2
+    distance: 0.21
+  - from: '9971003'
+    from_name: 的場町
+    to: '9971304'
+    to_name: 段原一丁目
+    time: 2
+    distance: 0.27
+  - from: '9971304'
+    from_name: 段原一丁目
+    to: '9971305'
+    to_name: 比治山下
+    time: 2
+    distance: 0.46
+  - from: '9971305'
+    from_name: 比治山下
+    to: '9971306'
+    to_name: 比治山橋
+    time: 2
+    distance: 0.57
+  - from: '9971306'
+    from_name: 比治山橋
+    to: '9971307'
+    to_name: 南区役所前
+    time: 2
+    distance: 0.36
+  - from: '9971307'
+    from_name: 南区役所前
+    to: '9971308'
+    to_name: 皆実町二丁目
+    time: 2
+    distance: 0.34
+  - from: '9971308'
+    from_name: 皆実町二丁目
+    to: '9971018'
+    to_name: 皆実町六丁目
+    time: 2
+    distance: 0.38
+  - from: '9971018'
+    from_name: 皆実町六丁目
+    to: '9971019'
+    to_name: 広大附属学校前
+    time: 2
+    distance: 0.28
+  - from: '9971019'
+    from_name: 広大附属学校前
+    to: '9971020'
+    to_name: 県病院前
+    time: 2
+    distance: 0.32
+  - from: '9971020'
+    from_name: 県病院前
+    to: '9971021'
+    to_name: 宇品二丁目
+    time: 2
+    distance: 0.29
+  - from: '9971021'
+    from_name: 宇品二丁目
+    to: '9971022'
+    to_name: 宇品三丁目
+    time: 2
+    distance: 0.22
+  - from: '9971022'
+    from_name: 宇品三丁目
+    to: '9971023'
+    to_name: 宇品四丁目
+    time: 2
+    distance: 0.56
+  - from: '9971023'
+    from_name: 宇品四丁目
+    to: '9971024'
+    to_name: 宇品五丁目
+    time: 2
+    distance: 0.21
+  - from: '9971024'
+    from_name: 宇品五丁目
+    to: '9971025'
+    to_name: 海岸通
+    time: 2
+    distance: 0.28
+  - from: '9971025'
+    from_name: 海岸通
+    to: '9971026'
+    to_name: 元宇品口
+    time: 2
+    distance: 0.35
+  - from: '9971026'
+    from_name: 元宇品口
+    to: '9971027'
+    to_name: 広島港（宇品）
+    time: 2
+    distance: 0.41

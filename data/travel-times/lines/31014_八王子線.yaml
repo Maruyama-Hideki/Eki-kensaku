@@ -1,0 +1,24 @@
+line_code: '31014'
+line_name: 八王子線
+company: 四日市あすなろう鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3100801'
+    from_name: 近鉄四日市
+    to: '3101302'
+    to_name: 赤堀
+    time: 2
+    distance: 1.09
+  - from: '3101302'
+    from_name: 赤堀
+    to: '3101303'
+    to_name: 日永
+    time: 2
+    distance: 0.65
+  - from: '3101303'
+    from_name: 日永
+    to: '3101404'
+    to_name: 西日野
+    time: 2
+    distance: 1.25

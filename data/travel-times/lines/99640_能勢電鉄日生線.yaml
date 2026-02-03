@@ -1,0 +1,12 @@
+line_code: '99640'
+line_name: 能勢電鉄日生線
+company: 能勢電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9961510'
+    from_name: 山下
+    to: '9964002'
+    to_name: 日生中央
+    time: 4
+    distance: 2.29

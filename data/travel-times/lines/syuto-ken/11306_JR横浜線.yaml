@@ -1,0 +1,120 @@
+line_code: '11306'
+line_name: JR横浜線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130601'
+    from_name: 東神奈川
+    to: '1130602'
+    to_name: 大口
+    time: 3
+    distance: 1.97
+  - from: '1130602'
+    from_name: 大口
+    to: '1130603'
+    to_name: 菊名
+    time: 4
+    distance: 2.42
+  - from: '1130603'
+    from_name: 菊名
+    to: '1130604'
+    to_name: 新横浜
+    time: 2
+    distance: 1.2
+  - from: '1130604'
+    from_name: 新横浜
+    to: '1130605'
+    to_name: 小机
+    time: 3
+    distance: 1.6
+  - from: '1130605'
+    from_name: 小机
+    to: '1130606'
+    to_name: 鴨居
+    time: 5
+    distance: 2.97
+  - from: '1130606'
+    from_name: 鴨居
+    to: '1130607'
+    to_name: 中山
+    time: 4
+    distance: 2.51
+  - from: '1130607'
+    from_name: 中山
+    to: '1130608'
+    to_name: 十日市場
+    time: 4
+    distance: 2.44
+  - from: '1130608'
+    from_name: 十日市場
+    to: '1130609'
+    to_name: 長津田
+    time: 4
+    distance: 2.08
+  - from: '1130609'
+    from_name: 長津田
+    to: '1130610'
+    to_name: 成瀬
+    time: 4
+    distance: 2.02
+  - from: '1130610'
+    from_name: 成瀬
+    to: '1130611'
+    to_name: 町田
+    time: 4
+    distance: 2.58
+  - from: '1130611'
+    from_name: 町田
+    to: '1130612'
+    to_name: 古淵
+    time: 5
+    distance: 2.86
+  - from: '1130612'
+    from_name: 古淵
+    to: '1130613'
+    to_name: 淵野辺
+    time: 4
+    distance: 2.6
+  - from: '1130613'
+    from_name: 淵野辺
+    to: '1130614'
+    to_name: 矢部
+    time: 2
+    distance: 0.93
+  - from: '1130614'
+    from_name: 矢部
+    to: '1130615'
+    to_name: 相模原
+    time: 3
+    distance: 1.64
+  - from: '1130615'
+    from_name: 相模原
+    to: '1130616'
+    to_name: 橋本
+    time: 5
+    distance: 2.84
+  - from: '1130616'
+    from_name: 橋本
+    to: '1130617'
+    to_name: 相原
+    time: 3
+    distance: 1.77
+  - from: '1130617'
+    from_name: 相原
+    to: '1130618'
+    to_name: 八王子みなみ野
+    time: 4
+    distance: 2.64
+  - from: '1130618'
+    from_name: 八王子みなみ野
+    to: '1130619'
+    to_name: 片倉
+    time: 3
+    distance: 1.38
+  - from: '1130619'
+    from_name: 片倉
+    to: '1130620'
+    to_name: 八王子
+    time: 3
+    distance: 1.77

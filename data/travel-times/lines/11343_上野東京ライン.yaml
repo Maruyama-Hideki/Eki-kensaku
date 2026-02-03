@@ -1,0 +1,12 @@
+line_code: '11343'
+line_name: 上野東京ライン
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130101'
+    from_name: 東京
+    to: '1130220'
+    to_name: 上野
+    time: 6
+    distance: 3.74

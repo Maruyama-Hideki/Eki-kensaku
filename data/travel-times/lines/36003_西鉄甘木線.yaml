@@ -1,0 +1,72 @@
+line_code: '36003'
+line_name: 西鉄甘木線
+company: 西日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3600123'
+    from_name: 宮の陣
+    to: '3600302'
+    to_name: 五郎丸
+    time: 2
+    distance: 0.84
+  - from: '3600302'
+    from_name: 五郎丸
+    to: '3600303'
+    to_name: 学校前
+    time: 2
+    distance: 0.96
+  - from: '3600303'
+    from_name: 学校前
+    to: '3600304'
+    to_name: 古賀茶屋
+    time: 3
+    distance: 1.93
+  - from: '3600304'
+    from_name: 古賀茶屋
+    to: '3600305'
+    to_name: 北野
+    time: 3
+    distance: 1.54
+  - from: '3600305'
+    from_name: 北野
+    to: '3600306'
+    to_name: 大城
+    time: 4
+    distance: 2.4
+  - from: '3600306'
+    from_name: 大城
+    to: '3600307'
+    to_name: 金島
+    time: 3
+    distance: 1.44
+  - from: '3600307'
+    from_name: 金島
+    to: '3600308'
+    to_name: 大堰
+    time: 4
+    distance: 2.12
+  - from: '3600308'
+    from_name: 大堰
+    to: '3600309'
+    to_name: 本郷
+    time: 3
+    distance: 1.49
+  - from: '3600309'
+    from_name: 本郷
+    to: '3600310'
+    to_name: 上浦
+    time: 3
+    distance: 1.7
+  - from: '3600310'
+    from_name: 上浦
+    to: '3600311'
+    to_name: 馬田
+    time: 2
+    distance: 1.04
+  - from: '3600311'
+    from_name: 馬田
+    to: '3600312'
+    to_name: 甘木
+    time: 3
+    distance: 1.8

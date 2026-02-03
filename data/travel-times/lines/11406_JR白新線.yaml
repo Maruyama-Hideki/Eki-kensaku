@@ -1,0 +1,60 @@
+line_code: '11406'
+line_name: JR白新線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1140442'
+    from_name: 新潟
+    to: '1140602'
+    to_name: 東新潟
+    time: 7
+    distance: 4.21
+  - from: '1140602'
+    from_name: 東新潟
+    to: '1140603'
+    to_name: 大形
+    time: 3
+    distance: 1.96
+  - from: '1140603'
+    from_name: 大形
+    to: '1140604'
+    to_name: 新崎
+    time: 5
+    distance: 2.68
+  - from: '1140604'
+    from_name: 新崎
+    to: '1140605'
+    to_name: 早通
+    time: 3
+    distance: 1.73
+  - from: '1140605'
+    from_name: 早通
+    to: '1140606'
+    to_name: 豊栄
+    time: 5
+    distance: 3.27
+  - from: '1140606'
+    from_name: 豊栄
+    to: '1140607'
+    to_name: 黒山
+    time: 5
+    distance: 3.01
+  - from: '1140607'
+    from_name: 黒山
+    to: '1140608'
+    to_name: 佐々木
+    time: 5
+    distance: 2.9
+  - from: '1140608'
+    from_name: 佐々木
+    to: '1140609'
+    to_name: 西新発田
+    time: 5
+    distance: 3.05
+  - from: '1140609'
+    from_name: 西新発田
+    to: '1121407'
+    to_name: 新発田
+    time: 5
+    distance: 2.79

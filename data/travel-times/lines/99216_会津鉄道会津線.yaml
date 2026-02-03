@@ -1,0 +1,126 @@
+line_code: '99216'
+line_name: 会津鉄道会津線
+company: 会津鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1122703'
+    from_name: 西若松
+    to: '9921602'
+    to_name: 南若松
+    time: 5
+    distance: 3.02
+  - from: '9921602'
+    from_name: 南若松
+    to: '9921603'
+    to_name: 門田
+    time: 3
+    distance: 1.81
+  - from: '9921603'
+    from_name: 門田
+    to: '9921604'
+    to_name: あまや
+    time: 5
+    distance: 2.9
+  - from: '9921604'
+    from_name: あまや
+    to: '9921605'
+    to_name: 芦ノ牧温泉
+    time: 5
+    distance: 2.7
+  - from: '9921605'
+    from_name: 芦ノ牧温泉
+    to: '9921606'
+    to_name: 大川ダム公園
+    time: 9
+    distance: 5.5
+  - from: '9921606'
+    from_name: 大川ダム公園
+    to: '9921607'
+    to_name: 芦ノ牧温泉南
+    time: 3
+    distance: 1.38
+  - from: '9921607'
+    from_name: 芦ノ牧温泉南
+    to: '9921608'
+    to_name: 湯野上温泉
+    time: 6
+    distance: 3.98
+  - from: '9921608'
+    from_name: 湯野上温泉
+    to: '9921609'
+    to_name: 塔のへつり
+    time: 5
+    distance: 3.31
+  - from: '9921609'
+    from_name: 塔のへつり
+    to: '9921610'
+    to_name: 弥五島
+    time: 3
+    distance: 1.4
+  - from: '9921610'
+    from_name: 弥五島
+    to: '9921611'
+    to_name: 会津下郷
+    time: 4
+    distance: 2.53
+  - from: '9921611'
+    from_name: 会津下郷
+    to: '9921612'
+    to_name: ふるさと公園
+    time: 3
+    distance: 1.45
+  - from: '9921612'
+    from_name: ふるさと公園
+    to: '9921613'
+    to_name: 養鱒公園
+    time: 4
+    distance: 2.56
+  - from: '9921613'
+    from_name: 養鱒公園
+    to: '9921614'
+    to_name: 会津長野
+    time: 3
+    distance: 1.89
+  - from: '9921614'
+    from_name: 会津長野
+    to: '9921615'
+    to_name: 田島高校前
+    time: 4
+    distance: 2.14
+  - from: '9921615'
+    from_name: 田島高校前
+    to: '9921616'
+    to_name: 会津田島
+    time: 4
+    distance: 2.45
+  - from: '9921616'
+    from_name: 会津田島
+    to: '9921617'
+    to_name: 中荒井
+    time: 5
+    distance: 3.29
+  - from: '9921617'
+    from_name: 中荒井
+    to: '9921618'
+    to_name: 会津荒海
+    time: 6
+    distance: 3.37
+  - from: '9921618'
+    from_name: 会津荒海
+    to: '9921619'
+    to_name: 会津山村道場
+    time: 2
+    distance: 0.96
+  - from: '9921619'
+    from_name: 会津山村道場
+    to: '9921620'
+    to_name: 七ヶ岳登山口
+    time: 4
+    distance: 2.64
+  - from: '9921620'
+    from_name: 七ヶ岳登山口
+    to: '9921621'
+    to_name: 会津高原尾瀬口
+    time: 6
+    distance: 3.95

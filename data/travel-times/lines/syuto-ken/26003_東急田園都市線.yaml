@@ -1,0 +1,162 @@
+line_code: '26003'
+line_name: 東急田園都市線
+company: 東急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130205'
+    from_name: 渋谷
+    to: '2600302'
+    to_name: 池尻大橋
+    time: 3
+    distance: 1.78
+  - from: '2600302'
+    from_name: 池尻大橋
+    to: '2600303'
+    to_name: 三軒茶屋
+    time: 3
+    distance: 1.49
+  - from: '2600303'
+    from_name: 三軒茶屋
+    to: '2600304'
+    to_name: 駒沢大学
+    time: 3
+    distance: 1.37
+  - from: '2600304'
+    from_name: 駒沢大学
+    to: '2600305'
+    to_name: 桜新町
+    time: 3
+    distance: 1.54
+  - from: '2600305'
+    from_name: 桜新町
+    to: '2600306'
+    to_name: 用賀
+    time: 2
+    distance: 1.14
+  - from: '2600306'
+    from_name: 用賀
+    to: '2600307'
+    to_name: 二子玉川
+    time: 3
+    distance: 1.76
+  - from: '2600307'
+    from_name: 二子玉川
+    to: '2600308'
+    to_name: 二子新地
+    time: 2
+    distance: 0.66
+  - from: '2600308'
+    from_name: 二子新地
+    to: '2600309'
+    to_name: 高津
+    time: 2
+    distance: 0.64
+  - from: '2600309'
+    from_name: 高津
+    to: '1130310'
+    to_name: 武蔵溝ノ口
+    time: 2
+    distance: 0.69
+  - from: '1130310'
+    from_name: 武蔵溝ノ口
+    to: '2600311'
+    to_name: 梶が谷
+    time: 2
+    distance: 0.74
+  - from: '2600311'
+    from_name: 梶が谷
+    to: '2600312'
+    to_name: 宮崎台
+    time: 3
+    distance: 1.52
+  - from: '2600312'
+    from_name: 宮崎台
+    to: '2600313'
+    to_name: 宮前平
+    time: 2
+    distance: 0.88
+  - from: '2600313'
+    from_name: 宮前平
+    to: '2600314'
+    to_name: 鷺沼
+    time: 2
+    distance: 0.98
+  - from: '2600314'
+    from_name: 鷺沼
+    to: '2600315'
+    to_name: たまプラーザ
+    time: 3
+    distance: 1.37
+  - from: '2600315'
+    from_name: たまプラーザ
+    to: '2600316'
+    to_name: あざみ野
+    time: 2
+    distance: 1.08
+  - from: '2600316'
+    from_name: あざみ野
+    to: '2600317'
+    to_name: 江田
+    time: 2
+    distance: 1.12
+  - from: '2600317'
+    from_name: 江田
+    to: '2600318'
+    to_name: 市が尾
+    time: 2
+    distance: 1.21
+  - from: '2600318'
+    from_name: 市が尾
+    to: '2600319'
+    to_name: 藤が丘
+    time: 3
+    distance: 1.54
+  - from: '2600319'
+    from_name: 藤が丘
+    to: '2600320'
+    to_name: 青葉台
+    time: 2
+    distance: 0.93
+  - from: '2600320'
+    from_name: 青葉台
+    to: '2600321'
+    to_name: 田奈
+    time: 3
+    distance: 1.35
+  - from: '2600321'
+    from_name: 田奈
+    to: '1130609'
+    to_name: 長津田
+    time: 2
+    distance: 1.05
+  - from: '1130609'
+    from_name: 長津田
+    to: '2600323'
+    to_name: つくし野
+    time: 2
+    distance: 0.98
+  - from: '2600323'
+    from_name: つくし野
+    to: '2600324'
+    to_name: すずかけ台
+    time: 2
+    distance: 1.2
+  - from: '2600324'
+    from_name: すずかけ台
+    to: '2600325'
+    to_name: 南町田グランベリーパーク
+    time: 2
+    distance: 1.2
+  - from: '2600325'
+    from_name: 南町田グランベリーパーク
+    to: '2600326'
+    to_name: つきみ野
+    time: 2
+    distance: 1.06
+  - from: '2600326'
+    from_name: つきみ野
+    to: '2500203'
+    to_name: 中央林間
+    time: 3
+    distance: 1.35

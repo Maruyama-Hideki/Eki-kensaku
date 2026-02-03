@@ -1,0 +1,72 @@
+line_code: '11908'
+line_name: 福北ゆたか線
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1190801'
+    from_name: 桂川
+    to: '1190802'
+    to_name: 筑前大分
+    time: 5
+    distance: 3.07
+  - from: '1190802'
+    from_name: 筑前大分
+    to: '1190803'
+    to_name: 九郎原
+    time: 3
+    distance: 1.67
+  - from: '1190803'
+    from_name: 九郎原
+    to: '1190804'
+    to_name: 城戸南蔵院前
+    time: 8
+    distance: 4.71
+  - from: '1190804'
+    from_name: 城戸南蔵院前
+    to: '1190805'
+    to_name: 筑前山手
+    time: 3
+    distance: 1.47
+  - from: '1190805'
+    from_name: 筑前山手
+    to: '1190806'
+    to_name: 篠栗
+    time: 5
+    distance: 3.01
+  - from: '1190806'
+    from_name: 篠栗
+    to: '1190807'
+    to_name: 門松
+    time: 4
+    distance: 2.62
+  - from: '1190807'
+    from_name: 門松
+    to: '1190808'
+    to_name: 長者原
+    time: 3
+    distance: 1.9
+  - from: '1190808'
+    from_name: 長者原
+    to: '1190809'
+    to_name: 原町
+    time: 2
+    distance: 0.67
+  - from: '1190809'
+    from_name: 原町
+    to: '1190810'
+    to_name: 柚須
+    time: 4
+    distance: 2.41
+  - from: '1190810'
+    from_name: 柚須
+    to: '1190230'
+    to_name: 吉塚
+    time: 4
+    distance: 2.09
+  - from: '1190230'
+    from_name: 吉塚
+    to: '1190101'
+    to_name: 博多
+    time: 3
+    distance: 1.93

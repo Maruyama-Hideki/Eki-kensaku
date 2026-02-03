@@ -1,0 +1,222 @@
+line_code: '11612'
+line_name: JR山陽本線(岩国～門司)
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1161128'
+    from_name: 岩国
+    to: '1161202'
+    to_name: 南岩国
+    time: 7
+    distance: 4.45
+  - from: '1161202'
+    from_name: 南岩国
+    to: '1161203'
+    to_name: 藤生
+    time: 4
+    distance: 2.6
+  - from: '1161203'
+    from_name: 藤生
+    to: '1161204'
+    to_name: 通津
+    time: 8
+    distance: 4.98
+  - from: '1161204'
+    from_name: 通津
+    to: '1161205'
+    to_name: 由宇
+    time: 5
+    distance: 2.88
+  - from: '1161205'
+    from_name: 由宇
+    to: '1161206'
+    to_name: 神代
+    time: 8
+    distance: 4.95
+  - from: '1161206'
+    from_name: 神代
+    to: '1161207'
+    to_name: 大畠
+    time: 8
+    distance: 4.75
+  - from: '1161207'
+    from_name: 大畠
+    to: '1161208'
+    to_name: 柳井港
+    time: 7
+    distance: 4.32
+  - from: '1161208'
+    from_name: 柳井港
+    to: '1161209'
+    to_name: 柳井
+    time: 5
+    distance: 2.74
+  - from: '1161209'
+    from_name: 柳井
+    to: '1161210'
+    to_name: 田布施
+    time: 9
+    distance: 5.76
+  - from: '1161210'
+    from_name: 田布施
+    to: '1161211'
+    to_name: 岩田
+    time: 8
+    distance: 5.17
+  - from: '1161211'
+    from_name: 岩田
+    to: '1161212'
+    to_name: 島田
+    time: 5
+    distance: 3.32
+  - from: '1161212'
+    from_name: 島田
+    to: '1161213'
+    to_name: 光
+    time: 7
+    distance: 4.63
+  - from: '1161213'
+    from_name: 光
+    to: '1161214'
+    to_name: 下松
+    time: 9
+    distance: 5.81
+  - from: '1161214'
+    from_name: 下松
+    to: '1161215'
+    to_name: 櫛ケ浜
+    time: 7
+    distance: 4.35
+  - from: '1161215'
+    from_name: 櫛ケ浜
+    to: '1161216'
+    to_name: 徳山
+    time: 5
+    distance: 3.32
+  - from: '1161216'
+    from_name: 徳山
+    to: '1161217'
+    to_name: 新南陽
+    time: 6
+    distance: 3.66
+  - from: '1161217'
+    from_name: 新南陽
+    to: '1161218'
+    to_name: 福川
+    time: 5
+    distance: 2.89
+  - from: '1161218'
+    from_name: 福川
+    to: '1161219'
+    to_name: 戸田
+    time: 5
+    distance: 3.11
+  - from: '1161219'
+    from_name: 戸田
+    to: '1161220'
+    to_name: 富海
+    time: 10
+    distance: 6.61
+  - from: '1161220'
+    from_name: 富海
+    to: '1161221'
+    to_name: 防府
+    time: 10
+    distance: 6.49
+  - from: '1161221'
+    from_name: 防府
+    to: '1161222'
+    to_name: 大道
+    time: 12
+    distance: 7.42
+  - from: '1161222'
+    from_name: 大道
+    to: '1161223'
+    to_name: 四辻
+    time: 8
+    distance: 4.76
+  - from: '1161223'
+    from_name: 四辻
+    to: '1161224'
+    to_name: 新山口
+    time: 8
+    distance: 4.96
+  - from: '1161224'
+    from_name: 新山口
+    to: '1161225'
+    to_name: 嘉川
+    time: 6
+    distance: 3.87
+  - from: '1161225'
+    from_name: 嘉川
+    to: '1161226'
+    to_name: 本由良
+    time: 7
+    distance: 4.52
+  - from: '1161226'
+    from_name: 本由良
+    to: '1161227'
+    to_name: 厚東
+    time: 11
+    distance: 7.03
+  - from: '1161227'
+    from_name: 厚東
+    to: '1161228'
+    to_name: 宇部
+    time: 9
+    distance: 5.82
+  - from: '1161228'
+    from_name: 宇部
+    to: '1161229'
+    to_name: 小野田
+    time: 6
+    distance: 3.37
+  - from: '1161229'
+    from_name: 小野田
+    to: '1161230'
+    to_name: 厚狭
+    time: 9
+    distance: 5.58
+  - from: '1161230'
+    from_name: 厚狭
+    to: '1161231'
+    to_name: 埴生
+    time: 11
+    distance: 6.75
+  - from: '1161231'
+    from_name: 埴生
+    to: '1161232'
+    to_name: 小月
+    time: 9
+    distance: 5.38
+  - from: '1161232'
+    from_name: 小月
+    to: '1161233'
+    to_name: 長府
+    time: 10
+    distance: 6.23
+  - from: '1161233'
+    from_name: 長府
+    to: '1161234'
+    to_name: 新下関
+    time: 8
+    distance: 4.98
+  - from: '1161234'
+    from_name: 新下関
+    to: '1161235'
+    to_name: 幡生
+    time: 5
+    distance: 3.29
+  - from: '1161235'
+    from_name: 幡生
+    to: '1161236'
+    to_name: 下関
+    time: 6
+    distance: 3.5
+  - from: '1161236'
+    from_name: 下関
+    to: '1161237'
+    to_name: 門司
+    time: 8
+    distance: 5.2

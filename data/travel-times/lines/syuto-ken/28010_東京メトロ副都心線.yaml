@@ -1,0 +1,96 @@
+line_code: '28010'
+line_name: 東京メトロ副都心線
+company: 東京メトロ
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '2100111'
+    from_name: 和光市
+    to: '2100110'
+    to_name: 成増
+    time: 4
+    distance: 2.19
+  - from: '2100110'
+    from_name: 成増
+    to: '2100109'
+    to_name: 下赤塚
+    time: 3
+    distance: 1.33
+  - from: '2100109'
+    from_name: 下赤塚
+    to: '2800604'
+    to_name: 平和台
+    time: 3
+    distance: 1.64
+  - from: '2800604'
+    from_name: 平和台
+    to: '2800605'
+    to_name: 氷川台
+    time: 3
+    distance: 1.41
+  - from: '2800605'
+    from_name: 氷川台
+    to: '2200301'
+    to_name: 小竹向原
+    time: 3
+    distance: 1.34
+  - from: '2200301'
+    from_name: 小竹向原
+    to: '2800607'
+    to_name: 千川
+    time: 2
+    distance: 1.15
+  - from: '2800607'
+    from_name: 千川
+    to: '2800608'
+    to_name: 要町
+    time: 2
+    distance: 1.02
+  - from: '2800608'
+    from_name: 要町
+    to: '1130212'
+    to_name: 池袋
+    time: 2
+    distance: 1.16
+  - from: '1130212'
+    from_name: 池袋
+    to: '2801010'
+    to_name: 雑司が谷
+    time: 2
+    distance: 1.16
+  - from: '2801010'
+    from_name: 雑司が谷
+    to: '2801011'
+    to_name: 西早稲田
+    time: 3
+    distance: 1.43
+  - from: '2801011'
+    from_name: 西早稲田
+    to: '2801012'
+    to_name: 東新宿
+    time: 2
+    distance: 1.05
+  - from: '2801012'
+    from_name: 東新宿
+    to: '2800217'
+    to_name: 新宿三丁目
+    time: 2
+    distance: 0.93
+  - from: '2800217'
+    from_name: 新宿三丁目
+    to: '2801014'
+    to_name: 北参道
+    time: 3
+    distance: 1.38
+  - from: '2801014'
+    from_name: 北参道
+    to: '1130206'
+    to_name: 原宿
+    time: 2
+    distance: 0.91
+  - from: '1130206'
+    from_name: 原宿
+    to: '1130205'
+    to_name: 渋谷
+    time: 3
+    distance: 1.32

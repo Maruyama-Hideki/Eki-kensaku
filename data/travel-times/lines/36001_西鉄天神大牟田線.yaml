@@ -1,0 +1,294 @@
+line_code: '36001'
+line_name: 西鉄天神大牟田線
+company: 西日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3600101'
+    from_name: 西鉄福岡（天神）
+    to: '3600102'
+    to_name: 薬院
+    time: 2
+    distance: 0.8
+  - from: '3600102'
+    from_name: 薬院
+    to: '3600103'
+    to_name: 西鉄平尾
+    time: 2
+    distance: 1.02
+  - from: '3600103'
+    from_name: 西鉄平尾
+    to: '3600104'
+    to_name: 高宮
+    time: 2
+    distance: 1.07
+  - from: '3600104'
+    from_name: 高宮
+    to: '3600105'
+    to_name: 大橋
+    time: 3
+    distance: 1.41
+  - from: '3600105'
+    from_name: 大橋
+    to: '3600106'
+    to_name: 井尻
+    time: 3
+    distance: 1.76
+  - from: '3600106'
+    from_name: 井尻
+    to: '3600107'
+    to_name: 雑餉隈
+    time: 3
+    distance: 1.85
+  - from: '3600107'
+    from_name: 雑餉隈
+    to: '3600108'
+    to_name: 春日原
+    time: 3
+    distance: 1.43
+  - from: '3600108'
+    from_name: 春日原
+    to: '3600109'
+    to_name: 白木原
+    time: 3
+    distance: 1.36
+  - from: '3600109'
+    from_name: 白木原
+    to: '3600110'
+    to_name: 下大利
+    time: 2
+    distance: 0.91
+  - from: '3600110'
+    from_name: 下大利
+    to: '3600111'
+    to_name: 都府楼前
+    time: 4
+    distance: 2.11
+  - from: '3600111'
+    from_name: 都府楼前
+    to: '3600112'
+    to_name: 西鉄二日市
+    time: 3
+    distance: 1.4
+  - from: '3600112'
+    from_name: 西鉄二日市
+    to: '3600149'
+    to_name: 紫
+    time: 2
+    distance: 0.81
+  - from: '3600113'
+    from_name: 朝倉街道
+    to: '3600114'
+    to_name: 桜台
+    time: 3
+    distance: 1.67
+  - from: '3600114'
+    from_name: 桜台
+    to: '3600115'
+    to_name: 筑紫
+    time: 3
+    distance: 1.4
+  - from: '3600115'
+    from_name: 筑紫
+    to: '3600116'
+    to_name: 津古
+    time: 4
+    distance: 2.15
+  - from: '3600116'
+    from_name: 津古
+    to: '3600117'
+    to_name: 三国が丘
+    time: 2
+    distance: 1.08
+  - from: '3600117'
+    from_name: 三国が丘
+    to: '3600118'
+    to_name: 三沢
+    time: 3
+    distance: 1.54
+  - from: '3600118'
+    from_name: 三沢
+    to: '3600119'
+    to_name: 大保
+    time: 2
+    distance: 1.32
+  - from: '3600119'
+    from_name: 大保
+    to: '3600120'
+    to_name: 西鉄小郡
+    time: 3
+    distance: 1.74
+  - from: '3600120'
+    from_name: 西鉄小郡
+    to: '3600121'
+    to_name: 端間
+    time: 3
+    distance: 1.95
+  - from: '3600121'
+    from_name: 端間
+    to: '3600122'
+    to_name: 味坂
+    time: 5
+    distance: 3.02
+  - from: '3600122'
+    from_name: 味坂
+    to: '3600123'
+    to_name: 宮の陣
+    time: 5
+    distance: 2.78
+  - from: '3600123'
+    from_name: 宮の陣
+    to: '3600124'
+    to_name: 櫛原
+    time: 2
+    distance: 1.26
+  - from: '3600124'
+    from_name: 櫛原
+    to: '3600125'
+    to_name: 西鉄久留米
+    time: 2
+    distance: 0.87
+  - from: '3600125'
+    from_name: 西鉄久留米
+    to: '3600126'
+    to_name: 花畑
+    time: 2
+    distance: 0.78
+  - from: '3600126'
+    from_name: 花畑
+    to: '3600127'
+    to_name: 試験場前
+    time: 2
+    distance: 0.76
+  - from: '3600127'
+    from_name: 試験場前
+    to: '3600128'
+    to_name: 津福
+    time: 2
+    distance: 1.28
+  - from: '3600128'
+    from_name: 津福
+    to: '3600129'
+    to_name: 安武
+    time: 3
+    distance: 1.39
+  - from: '3600129'
+    from_name: 安武
+    to: '3600130'
+    to_name: 大善寺
+    time: 4
+    distance: 2.26
+  - from: '3600130'
+    from_name: 大善寺
+    to: '3600131'
+    to_name: 三潴
+    time: 3
+    distance: 1.66
+  - from: '3600131'
+    from_name: 三潴
+    to: '3600132'
+    to_name: 犬塚
+    time: 2
+    distance: 1.13
+  - from: '3600132'
+    from_name: 犬塚
+    to: '3600133'
+    to_name: 大溝
+    time: 4
+    distance: 2.58
+  - from: '3600133'
+    from_name: 大溝
+    to: '3600134'
+    to_name: 八丁牟田
+    time: 4
+    distance: 2.29
+  - from: '3600134'
+    from_name: 八丁牟田
+    to: '3600135'
+    to_name: 蒲池
+    time: 4
+    distance: 2.57
+  - from: '3600135'
+    from_name: 蒲池
+    to: '3600136'
+    to_name: 矢加部
+    time: 3
+    distance: 1.84
+  - from: '3600136'
+    from_name: 矢加部
+    to: '3600137'
+    to_name: 西鉄柳川
+    time: 2
+    distance: 1.06
+  - from: '3600137'
+    from_name: 西鉄柳川
+    to: '3600138'
+    to_name: 徳益
+    time: 2
+    distance: 1.28
+  - from: '3600138'
+    from_name: 徳益
+    to: '3600139'
+    to_name: 塩塚
+    time: 3
+    distance: 1.37
+  - from: '3600139'
+    from_name: 塩塚
+    to: '3600140'
+    to_name: 西鉄中島
+    time: 4
+    distance: 2.51
+  - from: '3600140'
+    from_name: 西鉄中島
+    to: '3600141'
+    to_name: 江の浦
+    time: 3
+    distance: 1.62
+  - from: '3600141'
+    from_name: 江の浦
+    to: '3600142'
+    to_name: 開
+    time: 3
+    distance: 1.43
+  - from: '3600142'
+    from_name: 開
+    to: '3600143'
+    to_name: 西鉄渡瀬
+    time: 2
+    distance: 1.27
+  - from: '3600143'
+    from_name: 西鉄渡瀬
+    to: '3600144'
+    to_name: 倉永
+    time: 3
+    distance: 1.7
+  - from: '3600144'
+    from_name: 倉永
+    to: '3600145'
+    to_name: 東甘木
+    time: 2
+    distance: 1.05
+  - from: '3600145'
+    from_name: 東甘木
+    to: '3600146'
+    to_name: 西鉄銀水
+    time: 3
+    distance: 1.44
+  - from: '3600146'
+    from_name: 西鉄銀水
+    to: '3600147'
+    to_name: 新栄町
+    time: 3
+    distance: 1.58
+  - from: '3600147'
+    from_name: 新栄町
+    to: '1190328'
+    to_name: 大牟田
+    time: 2
+    distance: 1.13
+  - from: '3600149'
+    from_name: 紫
+    to: '3600113'
+    to_name: 朝倉街道
+    time: 3
+    distance: 1.61

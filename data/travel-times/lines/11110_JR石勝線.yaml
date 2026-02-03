@@ -1,0 +1,48 @@
+line_code: '11110'
+line_name: JR石勝線
+company: JR北海道
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1110906'
+    from_name: 南千歳
+    to: '1110506'
+    to_name: 追分
+    time: 20
+    distance: 13.2
+  - from: '1110506'
+    from_name: 追分
+    to: '1111004'
+    to_name: 川端
+    time: 13
+    distance: 8.26
+  - from: '1111004'
+    from_name: 川端
+    to: '1111005'
+    to_name: 滝ノ上
+    time: 10
+    distance: 6.65
+  - from: '1111005'
+    from_name: 滝ノ上
+    to: '1111007'
+    to_name: 新夕張
+    time: 9
+    distance: 5.72
+  - from: '1111007'
+    from_name: 新夕張
+    to: '1111013'
+    to_name: 占冠
+    time: 46
+    distance: 30.24
+  - from: '1111013'
+    from_name: 占冠
+    to: '1111014'
+    to_name: トマム
+    time: 28
+    distance: 18.51
+  - from: '1111014'
+    from_name: トマム
+    to: '1110618'
+    to_name: 新得
+    time: 28
+    distance: 18.23

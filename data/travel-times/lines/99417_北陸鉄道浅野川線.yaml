@@ -1,0 +1,72 @@
+line_code: '99417'
+line_name: 北陸鉄道浅野川線
+company: 北陸鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1141543'
+    from_name: 金沢
+    to: '9941702'
+    to_name: 七ツ屋
+    time: 2
+    distance: 0.64
+  - from: '9941702'
+    from_name: 七ツ屋
+    to: '9941703'
+    to_name: 上諸江
+    time: 2
+    distance: 0.9
+  - from: '9941703'
+    from_name: 上諸江
+    to: '9941704'
+    to_name: 磯部
+    time: 2
+    distance: 0.64
+  - from: '9941704'
+    from_name: 磯部
+    to: '9941705'
+    to_name: 割出
+    time: 2
+    distance: 0.67
+  - from: '9941705'
+    from_name: 割出
+    to: '9941706'
+    to_name: 三口
+    time: 2
+    distance: 0.45
+  - from: '9941706'
+    from_name: 三口
+    to: '9941707'
+    to_name: 三ツ屋
+    time: 2
+    distance: 0.62
+  - from: '9941707'
+    from_name: 三ツ屋
+    to: '9941708'
+    to_name: 大河端
+    time: 2
+    distance: 0.56
+  - from: '9941708'
+    from_name: 大河端
+    to: '9941709'
+    to_name: 北間
+    time: 2
+    distance: 0.68
+  - from: '9941709'
+    from_name: 北間
+    to: '9941710'
+    to_name: 蚊爪
+    time: 2
+    distance: 0.4
+  - from: '9941710'
+    from_name: 蚊爪
+    to: '9941711'
+    to_name: 粟ヶ崎
+    time: 2
+    distance: 0.66
+  - from: '9941711'
+    from_name: 粟ヶ崎
+    to: '9941712'
+    to_name: 内灘
+    time: 2
+    distance: 0.5

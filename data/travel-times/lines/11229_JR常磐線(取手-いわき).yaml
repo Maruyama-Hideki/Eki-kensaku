@@ -1,0 +1,210 @@
+line_code: '11229'
+line_name: JR常磐線(取手～いわき)
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1122901'
+    from_name: 取手
+    to: '1122902'
+    to_name: 藤代
+    time: 9
+    distance: 5.7
+  - from: '1122902'
+    from_name: 藤代
+    to: '1122903'
+    to_name: 龍ケ崎市
+    time: 4
+    distance: 2.09
+  - from: '1122903'
+    from_name: 龍ケ崎市
+    to: '1122904'
+    to_name: 牛久
+    time: 8
+    distance: 5.04
+  - from: '1122904'
+    from_name: 牛久
+    to: '1122905'
+    to_name: ひたち野うしく
+    time: 6
+    distance: 3.96
+  - from: '1122905'
+    from_name: ひたち野うしく
+    to: '1122906'
+    to_name: 荒川沖
+    time: 4
+    distance: 2.6
+  - from: '1122906'
+    from_name: 荒川沖
+    to: '1122907'
+    to_name: 土浦
+    time: 10
+    distance: 6.46
+  - from: '1122907'
+    from_name: 土浦
+    to: '1122908'
+    to_name: 神立
+    time: 10
+    distance: 6.01
+  - from: '1122908'
+    from_name: 神立
+    to: '1122909'
+    to_name: 高浜
+    time: 10
+    distance: 6.36
+  - from: '1122909'
+    from_name: 高浜
+    to: '1122910'
+    to_name: 石岡
+    time: 6
+    distance: 3.36
+  - from: '1122910'
+    from_name: 石岡
+    to: '1122911'
+    to_name: 羽鳥
+    time: 10
+    distance: 6.27
+  - from: '1122911'
+    from_name: 羽鳥
+    to: '1122912'
+    to_name: 岩間
+    time: 9
+    distance: 5.4
+  - from: '1122912'
+    from_name: 岩間
+    to: '1122913'
+    to_name: 友部
+    time: 11
+    distance: 6.68
+  - from: '1122913'
+    from_name: 友部
+    to: '1122914'
+    to_name: 内原
+    time: 8
+    distance: 4.7
+  - from: '1122914'
+    from_name: 内原
+    to: '1122915'
+    to_name: 赤塚
+    time: 9
+    distance: 5.74
+  - from: '1122915'
+    from_name: 赤塚
+    to: '1122916'
+    to_name: 偕楽園
+    time: 6
+    distance: 3.8
+  - from: '1122916'
+    from_name: 偕楽園
+    to: '1122917'
+    to_name: 水戸
+    time: 3
+    distance: 1.85
+  - from: '1122917'
+    from_name: 水戸
+    to: '1122918'
+    to_name: 勝田
+    time: 8
+    distance: 4.99
+  - from: '1122918'
+    from_name: 勝田
+    to: '1122919'
+    to_name: 佐和
+    time: 7
+    distance: 4.29
+  - from: '1122919'
+    from_name: 佐和
+    to: '1122920'
+    to_name: 東海
+    time: 7
+    distance: 4.5
+  - from: '1122920'
+    from_name: 東海
+    to: '1122921'
+    to_name: 大甕
+    time: 11
+    distance: 7.14
+  - from: '1122921'
+    from_name: 大甕
+    to: '1122922'
+    to_name: 常陸多賀
+    time: 7
+    distance: 4.51
+  - from: '1122922'
+    from_name: 常陸多賀
+    to: '1122923'
+    to_name: 日立
+    time: 8
+    distance: 4.99
+  - from: '1122923'
+    from_name: 日立
+    to: '1122924'
+    to_name: 小木津
+    time: 8
+    distance: 5.27
+  - from: '1122924'
+    from_name: 小木津
+    to: '1122925'
+    to_name: 十王
+    time: 6
+    distance: 4
+  - from: '1122925'
+    from_name: 十王
+    to: '1122926'
+    to_name: 高萩
+    time: 9
+    distance: 5.55
+  - from: '1122926'
+    from_name: 高萩
+    to: '1122927'
+    to_name: 南中郷
+    time: 7
+    distance: 4.43
+  - from: '1122927'
+    from_name: 南中郷
+    to: '1122928'
+    to_name: 磯原
+    time: 7
+    distance: 4.41
+  - from: '1122928'
+    from_name: 磯原
+    to: '1122929'
+    to_name: 大津港
+    time: 11
+    distance: 6.77
+  - from: '1122929'
+    from_name: 大津港
+    to: '1122930'
+    to_name: 勿来
+    time: 7
+    distance: 4.27
+  - from: '1122930'
+    from_name: 勿来
+    to: '1122931'
+    to_name: 植田
+    time: 7
+    distance: 4.18
+  - from: '1122931'
+    from_name: 植田
+    to: '1122932'
+    to_name: 泉
+    time: 10
+    distance: 6.43
+  - from: '1122932'
+    from_name: 泉
+    to: '1122933'
+    to_name: 湯本
+    time: 9
+    distance: 5.72
+  - from: '1122933'
+    from_name: 湯本
+    to: '1122934'
+    to_name: 内郷
+    time: 5
+    distance: 3.25
+  - from: '1122934'
+    from_name: 内郷
+    to: '1122801'
+    to_name: いわき
+    time: 7
+    distance: 4.14

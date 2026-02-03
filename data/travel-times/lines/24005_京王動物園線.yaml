@@ -1,0 +1,12 @@
+line_code: '24005'
+line_name: 京王動物園線
+company: 京王電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2400129'
+    from_name: 高幡不動
+    to: '2400502'
+    to_name: 多摩動物公園
+    time: 3
+    distance: 1.64

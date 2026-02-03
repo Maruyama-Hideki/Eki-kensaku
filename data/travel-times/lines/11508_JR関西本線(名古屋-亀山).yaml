@@ -1,0 +1,108 @@
+line_code: '11508'
+line_name: JR関西本線(名古屋～亀山)
+company: JR東海
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1141101'
+    from_name: 名古屋
+    to: '1150802'
+    to_name: 八田
+    time: 6
+    distance: 3.6
+  - from: '1150802'
+    from_name: 八田
+    to: '1150803'
+    to_name: 春田
+    time: 6
+    distance: 3.58
+  - from: '1150803'
+    from_name: 春田
+    to: '1150804'
+    to_name: 蟹江
+    time: 3
+    distance: 1.79
+  - from: '1150804'
+    from_name: 蟹江
+    to: '1150805'
+    to_name: 永和
+    time: 5
+    distance: 2.88
+  - from: '1150805'
+    from_name: 永和
+    to: '1150806'
+    to_name: 弥富
+    time: 7
+    distance: 4.09
+  - from: '1150806'
+    from_name: 弥富
+    to: '1150807'
+    to_name: 長島
+    time: 5
+    distance: 3.24
+  - from: '1150807'
+    from_name: 長島
+    to: '1150808'
+    to_name: 桑名
+    time: 6
+    distance: 3.58
+  - from: '1150808'
+    from_name: 桑名
+    to: '1150809'
+    to_name: 朝日
+    time: 7
+    distance: 4.42
+  - from: '1150809'
+    from_name: 朝日
+    to: '1150810'
+    to_name: 富田
+    time: 5
+    distance: 2.89
+  - from: '1150810'
+    from_name: 富田
+    to: '1150811'
+    to_name: 富田浜
+    time: 2
+    distance: 1.32
+  - from: '1150811'
+    from_name: 富田浜
+    to: '1150812'
+    to_name: 四日市
+    time: 7
+    distance: 4.17
+  - from: '1150812'
+    from_name: 四日市
+    to: '1150813'
+    to_name: 南四日市
+    time: 5
+    distance: 3.01
+  - from: '1150813'
+    from_name: 南四日市
+    to: '1150814'
+    to_name: 河原田
+    time: 6
+    distance: 3.58
+  - from: '1150814'
+    from_name: 河原田
+    to: '1150815'
+    to_name: 河曲
+    time: 5
+    distance: 3.13
+  - from: '1150815'
+    from_name: 河曲
+    to: '1150816'
+    to_name: 加佐登
+    time: 6
+    distance: 3.58
+  - from: '1150816'
+    from_name: 加佐登
+    to: '1150817'
+    to_name: 井田川
+    time: 7
+    distance: 4.19
+  - from: '1150817'
+    from_name: 井田川
+    to: '1150818'
+    to_name: 亀山
+    time: 7
+    distance: 4.35

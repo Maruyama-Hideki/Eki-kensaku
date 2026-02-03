@@ -1,0 +1,156 @@
+line_code: '11305'
+line_name: JR武蔵野線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130320'
+    from_name: 府中本町
+    to: '1130502'
+    to_name: 北府中
+    time: 3
+    distance: 1.75
+  - from: '1130502'
+    from_name: 北府中
+    to: '1130503'
+    to_name: 西国分寺
+    time: 4
+    distance: 2.16
+  - from: '1130503'
+    from_name: 西国分寺
+    to: '1130504'
+    to_name: 新小平
+    time: 6
+    distance: 3.53
+  - from: '1130504'
+    from_name: 新小平
+    to: '1130505'
+    to_name: 新秋津
+    time: 9
+    distance: 5.62
+  - from: '1130505'
+    from_name: 新秋津
+    to: '1130506'
+    to_name: 東所沢
+    time: 4
+    distance: 2.57
+  - from: '1130506'
+    from_name: 東所沢
+    to: '1130507'
+    to_name: 新座
+    time: 6
+    distance: 3.96
+  - from: '1130507'
+    from_name: 新座
+    to: '1130508'
+    to_name: 北朝霞
+    time: 5
+    distance: 3.08
+  - from: '1130508'
+    from_name: 北朝霞
+    to: '1130509'
+    to_name: 西浦和
+    time: 8
+    distance: 4.84
+  - from: '1130509'
+    from_name: 西浦和
+    to: '1130510'
+    to_name: 武蔵浦和
+    time: 3
+    distance: 1.84
+  - from: '1130510'
+    from_name: 武蔵浦和
+    to: '1130511'
+    to_name: 南浦和
+    time: 3
+    distance: 1.91
+  - from: '1130511'
+    from_name: 南浦和
+    to: '1130512'
+    to_name: 東浦和
+    time: 6
+    distance: 3.68
+  - from: '1130512'
+    from_name: 東浦和
+    to: '1130513'
+    to_name: 東川口
+    time: 6
+    distance: 3.77
+  - from: '1130513'
+    from_name: 東川口
+    to: '1130514'
+    to_name: 南越谷
+    time: 7
+    distance: 4.18
+  - from: '1130514'
+    from_name: 南越谷
+    to: '1130525'
+    to_name: 越谷レイクタウン
+    time: 5
+    distance: 2.85
+  - from: '1130515'
+    from_name: 吉川
+    to: '1130526'
+    to_name: 吉川美南
+    time: 3
+    distance: 1.65
+  - from: '1130516'
+    from_name: 新三郷
+    to: '1130517'
+    to_name: 三郷
+    time: 4
+    distance: 2.16
+  - from: '1130517'
+    from_name: 三郷
+    to: '1130518'
+    to_name: 南流山
+    time: 3
+    distance: 1.76
+  - from: '1130518'
+    from_name: 南流山
+    to: '1130519'
+    to_name: 新松戸
+    time: 4
+    distance: 2.09
+  - from: '1130519'
+    from_name: 新松戸
+    to: '1130520'
+    to_name: 新八柱
+    time: 7
+    distance: 4.03
+  - from: '1130520'
+    from_name: 新八柱
+    to: '1130521'
+    to_name: 東松戸
+    time: 4
+    distance: 2.43
+  - from: '1130521'
+    from_name: 東松戸
+    to: '1130522'
+    to_name: 市川大野
+    time: 3
+    distance: 1.81
+  - from: '1130522'
+    from_name: 市川大野
+    to: '1130523'
+    to_name: 船橋法典
+    time: 5
+    distance: 3.11
+  - from: '1130523'
+    from_name: 船橋法典
+    to: '1130524'
+    to_name: 西船橋
+    time: 4
+    distance: 2.66
+  - from: '1130525'
+    from_name: 越谷レイクタウン
+    to: '1130515'
+    to_name: 吉川
+    time: 3
+    distance: 1.89
+  - from: '1130526'
+    from_name: 吉川美南
+    to: '1130516'
+    to_name: 新三郷
+    time: 3
+    distance: 1.45

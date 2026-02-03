@@ -1,0 +1,66 @@
+line_code: '34008'
+line_name: 阪急千里線
+company: 阪急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3400801'
+    from_name: 北千里
+    to: '3400802'
+    to_name: 山田
+    time: 3
+    distance: 1.79
+  - from: '3400802'
+    from_name: 山田
+    to: '3400803'
+    to_name: 南千里
+    time: 3
+    distance: 1.46
+  - from: '3400803'
+    from_name: 南千里
+    to: '3400804'
+    to_name: 千里山
+    time: 3
+    distance: 1.53
+  - from: '3400804'
+    from_name: 千里山
+    to: '3400805'
+    to_name: 関大前
+    time: 2
+    distance: 0.88
+  - from: '3400805'
+    from_name: 関大前
+    to: '3400806'
+    to_name: 豊津
+    time: 2
+    distance: 0.76
+  - from: '3400806'
+    from_name: 豊津
+    to: '3400807'
+    to_name: 吹田
+    time: 2
+    distance: 0.94
+  - from: '3400807'
+    from_name: 吹田
+    to: '3400808'
+    to_name: 下新庄
+    time: 3
+    distance: 1.49
+  - from: '3400808'
+    from_name: 下新庄
+    to: '3400322'
+    to_name: JR淡路
+    time: 2
+    distance: 0.64
+  - from: '3400322'
+    from_name: JR淡路
+    to: '3400810'
+    to_name: 柴島
+    time: 3
+    distance: 1.56
+  - from: '3400810'
+    from_name: 柴島
+    to: '3400811'
+    to_name: 天神橋筋六丁目
+    time: 4
+    distance: 2.02

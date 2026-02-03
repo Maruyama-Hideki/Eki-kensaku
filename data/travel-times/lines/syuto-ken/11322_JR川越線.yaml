@@ -1,0 +1,66 @@
+line_code: '11322'
+line_name: JR川越線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1131906'
+    from_name: 大宮
+    to: '1132120'
+    to_name: 日進
+    time: 5
+    distance: 3.23
+  - from: '1132120'
+    from_name: 日進
+    to: '1132211'
+    to_name: 西大宮
+    time: 4
+    distance: 2.58
+  - from: '1132121'
+    from_name: 指扇
+    to: '1132122'
+    to_name: 南古谷
+    time: 7
+    distance: 4.4
+  - from: '1132122'
+    from_name: 南古谷
+    to: '1132123'
+    to_name: 川越
+    time: 5
+    distance: 3.26
+  - from: '1132123'
+    from_name: 川越
+    to: '1132206'
+    to_name: 西川越
+    time: 4
+    distance: 2.51
+  - from: '1132206'
+    from_name: 西川越
+    to: '1132207'
+    to_name: 的場
+    time: 4
+    distance: 2.2
+  - from: '1132207'
+    from_name: 的場
+    to: '1132208'
+    to_name: 笠幡
+    time: 5
+    distance: 2.85
+  - from: '1132208'
+    from_name: 笠幡
+    to: '1132209'
+    to_name: 武蔵高萩
+    time: 5
+    distance: 3.23
+  - from: '1132209'
+    from_name: 武蔵高萩
+    to: '1131709'
+    to_name: 高麗川
+    time: 5
+    distance: 3.04
+  - from: '1132211'
+    from_name: 西大宮
+    to: '1132121'
+    to_name: 指扇
+    time: 3
+    distance: 1.46

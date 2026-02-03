@@ -1,0 +1,96 @@
+line_code: '99311'
+line_name: ゆりかもめ
+company: ゆりかもめ
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130102'
+    from_name: 新橋
+    to: '9930120'
+    to_name: 汐留
+    time: 2
+    distance: 0.33
+  - from: '9930120'
+    from_name: 汐留
+    to: '9931103'
+    to_name: 竹芝
+    time: 2
+    distance: 1.08
+  - from: '9931103'
+    from_name: 竹芝
+    to: '9931104'
+    to_name: 日の出
+    time: 2
+    distance: 0.61
+  - from: '9931104'
+    from_name: 日の出
+    to: '9931105'
+    to_name: 芝浦ふ頭
+    time: 2
+    distance: 0.83
+  - from: '9931105'
+    from_name: 芝浦ふ頭
+    to: '9931106'
+    to_name: お台場海浜公園
+    time: 4
+    distance: 2.3
+  - from: '9931106'
+    from_name: お台場海浜公園
+    to: '9931107'
+    to_name: 台場
+    time: 2
+    distance: 0.78
+  - from: '9931107'
+    from_name: 台場
+    to: '9931108'
+    to_name: 東京国際クルーズターミナル
+    time: 2
+    distance: 0.52
+  - from: '9931108'
+    from_name: 東京国際クルーズターミナル
+    to: '9931109'
+    to_name: テレコムセンター
+    time: 2
+    distance: 0.7
+  - from: '9931109'
+    from_name: テレコムセンター
+    to: '9931110'
+    to_name: 青海
+    time: 2
+    distance: 0.8
+  - from: '9931110'
+    from_name: 青海
+    to: '9931111'
+    to_name: 東京ビッグサイト
+    time: 2
+    distance: 1.1
+  - from: '9931111'
+    from_name: 東京ビッグサイト
+    to: '9931112'
+    to_name: 有明
+    time: 2
+    distance: 0.53
+  - from: '9931112'
+    from_name: 有明
+    to: '9931113'
+    to_name: 有明テニスの森
+    time: 2
+    distance: 0.72
+  - from: '9931113'
+    from_name: 有明テニスの森
+    to: '9931114'
+    to_name: 市場前
+    time: 2
+    distance: 0.7
+  - from: '9931114'
+    from_name: 市場前
+    to: '9931115'
+    to_name: 新豊洲
+    time: 2
+    distance: 0.52
+  - from: '9931115'
+    from_name: 新豊洲
+    to: '2800622'
+    to_name: 豊洲
+    time: 2
+    distance: 0.89

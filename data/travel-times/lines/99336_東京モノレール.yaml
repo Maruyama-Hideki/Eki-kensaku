@@ -1,0 +1,60 @@
+line_code: '99336'
+line_name: 東京モノレール
+company: 東京モノレール
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130227'
+    from_name: 浜松町
+    to: '9933602'
+    to_name: 天王洲アイル
+    time: 6
+    distance: 3.66
+  - from: '9933602'
+    from_name: 天王洲アイル
+    to: '9933603'
+    to_name: 大井競馬場前
+    time: 5
+    distance: 3.12
+  - from: '9933603'
+    from_name: 大井競馬場前
+    to: '9933604'
+    to_name: 流通センター
+    time: 3
+    distance: 1.47
+  - from: '9933604'
+    from_name: 流通センター
+    to: '9933605'
+    to_name: 昭和島
+    time: 2
+    distance: 1.25
+  - from: '9933605'
+    from_name: 昭和島
+    to: '9933606'
+    to_name: 整備場
+    time: 3
+    distance: 1.75
+  - from: '9933606'
+    from_name: 整備場
+    to: '2700205'
+    to_name: 天空橋
+    time: 2
+    distance: 0.7
+  - from: '2700205'
+    from_name: 天空橋
+    to: '2700207'
+    to_name: 羽田空港第3ターミナル
+    time: 3
+    distance: 1.41
+  - from: '9933608'
+    from_name: 新整備場
+    to: '2700206'
+    to_name: 羽田空港第1・第2ターミナル
+    time: 2
+    distance: 0.79
+  - from: '2700207'
+    from_name: 羽田空港第3ターミナル
+    to: '9933608'
+    to_name: 新整備場
+    time: 3
+    distance: 1.63

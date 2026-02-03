@@ -1,0 +1,60 @@
+line_code: '99633'
+line_name: 三田線
+company: 神戸電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9963215'
+    from_name: 有馬口
+    to: '9963302'
+    to_name: 五社
+    time: 2
+    distance: 1.17
+  - from: '9963302'
+    from_name: 五社
+    to: '9963303'
+    to_name: 岡場
+    time: 3
+    distance: 1.81
+  - from: '9963303'
+    from_name: 岡場
+    to: '9963304'
+    to_name: 田尾寺
+    time: 3
+    distance: 1.59
+  - from: '9963304'
+    from_name: 田尾寺
+    to: '9963305'
+    to_name: 二郎
+    time: 3
+    distance: 1.46
+  - from: '9963305'
+    from_name: 二郎
+    to: '9963306'
+    to_name: 道場南口
+    time: 2
+    distance: 0.88
+  - from: '9963306'
+    from_name: 道場南口
+    to: '9963307'
+    to_name: 神鉄道場
+    time: 2
+    distance: 1.23
+  - from: '9963307'
+    from_name: 神鉄道場
+    to: '9963308'
+    to_name: 横山
+    time: 2
+    distance: 1.24
+  - from: '9963308'
+    from_name: 横山
+    to: '9963309'
+    to_name: 三田本町
+    time: 2
+    distance: 1.07
+  - from: '9963309'
+    from_name: 三田本町
+    to: '1162915'
+    to_name: 三田
+    time: 2
+    distance: 0.78

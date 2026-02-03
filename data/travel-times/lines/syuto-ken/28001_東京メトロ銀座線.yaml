@@ -1,0 +1,114 @@
+line_code: '28001'
+line_name: 東京メトロ銀座線
+company: 東京メトロ
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '2100201'
+    from_name: 浅草
+    to: '2800102'
+    to_name: 田原町
+    time: 2
+    distance: 0.7
+  - from: '2800102'
+    from_name: 田原町
+    to: '2800103'
+    to_name: 稲荷町
+    time: 2
+    distance: 0.77
+  - from: '2800103'
+    from_name: 稲荷町
+    to: '1130220'
+    to_name: 上野
+    time: 2
+    distance: 0.57
+  - from: '1130220'
+    from_name: 上野
+    to: '1130221'
+    to_name: 御徒町
+    time: 2
+    distance: 0.75
+  - from: '1130221'
+    from_name: 御徒町
+    to: '2800106'
+    to_name: 末広町
+    time: 2
+    distance: 0.55
+  - from: '2800106'
+    from_name: 末広町
+    to: '1130223'
+    to_name: 神田
+    time: 3
+    distance: 1.32
+  - from: '1130223'
+    from_name: 神田
+    to: '1131402'
+    to_name: 新日本橋
+    time: 2
+    distance: 0.36
+  - from: '1131402'
+    from_name: 新日本橋
+    to: '2800109'
+    to_name: 日本橋
+    time: 2
+    distance: 0.74
+  - from: '2800109'
+    from_name: 日本橋
+    to: '2800110'
+    to_name: 京橋
+    time: 2
+    distance: 0.66
+  - from: '2800110'
+    from_name: 京橋
+    to: '2800111'
+    to_name: 銀座
+    time: 2
+    distance: 0.78
+  - from: '2800111'
+    from_name: 銀座
+    to: '1130102'
+    to_name: 新橋
+    time: 2
+    distance: 0.81
+  - from: '1130102'
+    from_name: 新橋
+    to: '2800113'
+    to_name: 虎ノ門
+    time: 2
+    distance: 0.91
+  - from: '2800113'
+    from_name: 虎ノ門
+    to: '2800114'
+    to_name: 溜池山王
+    time: 2
+    distance: 0.85
+  - from: '2800114'
+    from_name: 溜池山王
+    to: '2800115'
+    to_name: 赤坂見附
+    time: 2
+    distance: 0.55
+  - from: '2800115'
+    from_name: 赤坂見附
+    to: '2800116'
+    to_name: 青山一丁目
+    time: 3
+    distance: 1.26
+  - from: '2800116'
+    from_name: 青山一丁目
+    to: '2800117'
+    to_name: 外苑前
+    time: 2
+    distance: 0.62
+  - from: '2800117'
+    from_name: 外苑前
+    to: '2800118'
+    to_name: 表参道
+    time: 2
+    distance: 0.77
+  - from: '2800118'
+    from_name: 表参道
+    to: '1130205'
+    to_name: 渋谷
+    time: 3
+    distance: 1.23

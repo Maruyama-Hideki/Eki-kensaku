@@ -1,0 +1,204 @@
+line_code: '11116'
+line_name: JR石北本線
+company: JR北海道
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1110342'
+    from_name: 旭川
+    to: '1111502'
+    to_name: 旭川四条
+    time: 3
+    distance: 1.45
+  - from: '1111502'
+    from_name: 旭川四条
+    to: '1111503'
+    to_name: 新旭川
+    time: 3
+    distance: 1.93
+  - from: '1111503'
+    from_name: 新旭川
+    to: '1111604'
+    to_name: 南永山
+    time: 3
+    distance: 1.91
+  - from: '1111604'
+    from_name: 南永山
+    to: '1111605'
+    to_name: 東旭川
+    time: 5
+    distance: 2.69
+  - from: '1111605'
+    from_name: 東旭川
+    to: '1111607'
+    to_name: 桜岡
+    time: 7
+    distance: 4.6
+  - from: '1111607'
+    from_name: 桜岡
+    to: '1111608'
+    to_name: 当麻
+    time: 6
+    distance: 3.57
+  - from: '1111608'
+    from_name: 当麻
+    to: '1111610'
+    to_name: 伊香牛
+    time: 9
+    distance: 5.66
+  - from: '1111610'
+    from_name: 伊香牛
+    to: '1111611'
+    to_name: 愛別
+    time: 8
+    distance: 5.21
+  - from: '1111611'
+    from_name: 愛別
+    to: '1111612'
+    to_name: 中愛別
+    time: 9
+    distance: 5.88
+  - from: '1111612'
+    from_name: 中愛別
+    to: '1111613'
+    to_name: 愛山
+    time: 6
+    distance: 3.88
+  - from: '1111613'
+    from_name: 愛山
+    to: '1111614'
+    to_name: 安足間
+    time: 3
+    distance: 1.92
+  - from: '1111614'
+    from_name: 安足間
+    to: '1111616'
+    to_name: 上川
+    time: 9
+    distance: 5.87
+  - from: '1111616'
+    from_name: 上川
+    to: '1111618'
+    to_name: 白滝
+    time: 51
+    distance: 33.42
+  - from: '1111618'
+    from_name: 白滝
+    to: '1111621'
+    to_name: 丸瀬布
+    time: 28
+    distance: 18.38
+  - from: '1111621'
+    from_name: 丸瀬布
+    to: '1111622'
+    to_name: 瀬戸瀬
+    time: 11
+    distance: 6.81
+  - from: '1111622'
+    from_name: 瀬戸瀬
+    to: '1111623'
+    to_name: 遠軽
+    time: 15
+    distance: 9.82
+  - from: '1111623'
+    from_name: 遠軽
+    to: '1111624'
+    to_name: 安国
+    time: 12
+    distance: 7.54
+  - from: '1111624'
+    from_name: 安国
+    to: '1111626'
+    to_name: 生田原
+    time: 12
+    distance: 7.75
+  - from: '1111626'
+    from_name: 生田原
+    to: '1111628'
+    to_name: 西留辺蘂
+    time: 25
+    distance: 16.34
+  - from: '1111628'
+    from_name: 西留辺蘂
+    to: '1111629'
+    to_name: 留辺蘂
+    time: 3
+    distance: 1.46
+  - from: '1111629'
+    from_name: 留辺蘂
+    to: '1111630'
+    to_name: 相内
+    time: 17
+    distance: 10.9
+  - from: '1111630'
+    from_name: 相内
+    to: '1111631'
+    to_name: 東相内
+    time: 7
+    distance: 4.39
+  - from: '1111631'
+    from_name: 東相内
+    to: '1111632'
+    to_name: 西北見
+    time: 4
+    distance: 2.59
+  - from: '1111632'
+    from_name: 西北見
+    to: '1111633'
+    to_name: 北見
+    time: 7
+    distance: 4.55
+  - from: '1111633'
+    from_name: 北見
+    to: '1111634'
+    to_name: 柏陽
+    time: 4
+    distance: 2.62
+  - from: '1111634'
+    from_name: 柏陽
+    to: '1111635'
+    to_name: 愛し野
+    time: 4
+    distance: 2.25
+  - from: '1111635'
+    from_name: 愛し野
+    to: '1111636'
+    to_name: 端野
+    time: 2
+    distance: 1.32
+  - from: '1111636'
+    from_name: 端野
+    to: '1111637'
+    to_name: 緋牛内
+    time: 9
+    distance: 5.65
+  - from: '1111637'
+    from_name: 緋牛内
+    to: '1111638'
+    to_name: 美幌
+    time: 15
+    distance: 9.76
+  - from: '1111638'
+    from_name: 美幌
+    to: '1111639'
+    to_name: 西女満別
+    time: 9
+    distance: 5.89
+  - from: '1111639'
+    from_name: 西女満別
+    to: '1111640'
+    to_name: 女満別
+    time: 7
+    distance: 4.37
+  - from: '1111640'
+    from_name: 女満別
+    to: '1111641'
+    to_name: 呼人
+    time: 10
+    distance: 6.57
+  - from: '1111641'
+    from_name: 呼人
+    to: '1111642'
+    to_name: 網走
+    time: 11
+    distance: 6.85

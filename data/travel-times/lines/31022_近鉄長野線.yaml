@@ -1,0 +1,48 @@
+line_code: '31022'
+line_name: 近鉄長野線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3100316'
+    from_name: 古市
+    to: '3102202'
+    to_name: 喜志
+    time: 6
+    distance: 3.51
+  - from: '3102202'
+    from_name: 喜志
+    to: '3102203'
+    to_name: 富田林
+    time: 4
+    distance: 2.15
+  - from: '3102203'
+    from_name: 富田林
+    to: '3102204'
+    to_name: 富田林西口
+    time: 2
+    distance: 0.57
+  - from: '3102204'
+    from_name: 富田林西口
+    to: '3102205'
+    to_name: 川西
+    time: 2
+    distance: 1.06
+  - from: '3102205'
+    from_name: 川西
+    to: '3102206'
+    to_name: 滝谷不動
+    time: 2
+    distance: 1.24
+  - from: '3102206'
+    from_name: 滝谷不動
+    to: '3102207'
+    to_name: 汐ノ宮
+    time: 3
+    distance: 1.74
+  - from: '3102207'
+    from_name: 汐ノ宮
+    to: '3102208'
+    to_name: 河内長野
+    time: 3
+    distance: 1.89

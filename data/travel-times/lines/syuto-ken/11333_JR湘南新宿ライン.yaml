@@ -1,0 +1,96 @@
+line_code: '11333'
+line_name: JR湘南新宿ライン
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1131906'
+    from_name: 大宮
+    to: '1131904'
+    to_name: 浦和
+    time: 10
+    distance: 6.11
+  - from: '1131903'
+    from_name: 赤羽
+    to: '1130212'
+    to_name: 池袋
+    time: 9
+    distance: 5.39
+  - from: '1130212'
+    from_name: 池袋
+    to: '1130208'
+    to_name: 新宿
+    time: 7
+    distance: 4.61
+  - from: '1130208'
+    from_name: 新宿
+    to: '1130205'
+    to_name: 渋谷
+    time: 6
+    distance: 3.43
+  - from: '1130205'
+    from_name: 渋谷
+    to: '1130204'
+    to_name: 恵比寿
+    time: 3
+    distance: 1.57
+  - from: '1130204'
+    from_name: 恵比寿
+    to: '1130201'
+    to_name: 大崎
+    time: 6
+    distance: 3.42
+  - from: '1130201'
+    from_name: 大崎
+    to: '1130804'
+    to_name: 西大井
+    time: 4
+    distance: 2.11
+  - from: '1130804'
+    from_name: 西大井
+    to: '1130307'
+    to_name: 武蔵小杉
+    time: 10
+    distance: 6.26
+  - from: '1130805'
+    from_name: 新川崎
+    to: '1130105'
+    to_name: 横浜
+    time: 16
+    distance: 10.49
+  - from: '1130105'
+    from_name: 横浜
+    to: '1130807'
+    to_name: 保土ケ谷
+    time: 5
+    distance: 3
+  - from: '1130807'
+    from_name: 保土ケ谷
+    to: '1130808'
+    to_name: 東戸塚
+    time: 7
+    distance: 4.29
+  - from: '1130808'
+    from_name: 東戸塚
+    to: '1130106'
+    to_name: 戸塚
+    time: 6
+    distance: 3.9
+  - from: '1130106'
+    from_name: 戸塚
+    to: '1130107'
+    to_name: 大船
+    time: 8
+    distance: 5.23
+  - from: '1130307'
+    from_name: 武蔵小杉
+    to: '1130805'
+    to_name: 新川崎
+    time: 5
+    distance: 2.97
+  - from: '1131904'
+    from_name: 浦和
+    to: '1131903'
+    to_name: 赤羽
+    time: 16
+    distance: 10.64

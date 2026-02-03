@@ -1,0 +1,12 @@
+line_code: '29003'
+line_name: 相鉄・JR直通線
+company: 相模鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2900301'
+    from_name: 羽沢横浜国大
+    to: '2900108'
+    to_name: 西谷
+    time: 3
+    distance: 1.91

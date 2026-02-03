@@ -1,0 +1,12 @@
+line_code: '21006'
+line_name: 東武大師線
+company: 東武鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2100213'
+    from_name: 西新井
+    to: '2100602'
+    to_name: 大師前
+    time: 2
+    distance: 0.81

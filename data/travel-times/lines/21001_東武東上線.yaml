@@ -1,0 +1,234 @@
+line_code: '21001'
+line_name: 東武東上線
+company: 東武鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130212'
+    from_name: 池袋
+    to: '2100102'
+    to_name: 北池袋
+    time: 2
+    distance: 1.33
+  - from: '2100102'
+    from_name: 北池袋
+    to: '2100103'
+    to_name: 下板橋
+    time: 2
+    distance: 0.52
+  - from: '2100103'
+    from_name: 下板橋
+    to: '2100104'
+    to_name: 大山
+    time: 2
+    distance: 1.14
+  - from: '2100104'
+    from_name: 大山
+    to: '2100105'
+    to_name: 中板橋
+    time: 2
+    distance: 1.13
+  - from: '2100105'
+    from_name: 中板橋
+    to: '2100106'
+    to_name: ときわ台
+    time: 2
+    distance: 0.58
+  - from: '2100106'
+    from_name: ときわ台
+    to: '2100107'
+    to_name: 上板橋
+    time: 2
+    distance: 1.26
+  - from: '2100107'
+    from_name: 上板橋
+    to: '2100108'
+    to_name: 東武練馬
+    time: 3
+    distance: 1.42
+  - from: '2100108'
+    from_name: 東武練馬
+    to: '2100109'
+    to_name: 下赤塚
+    time: 3
+    distance: 1.59
+  - from: '2100109'
+    from_name: 下赤塚
+    to: '2100110'
+    to_name: 成増
+    time: 2
+    distance: 1.33
+  - from: '2100110'
+    from_name: 成増
+    to: '2100111'
+    to_name: 和光市
+    time: 4
+    distance: 2.19
+  - from: '2100111'
+    from_name: 和光市
+    to: '2100112'
+    to_name: 朝霞
+    time: 3
+    distance: 1.43
+  - from: '2100112'
+    from_name: 朝霞
+    to: '1130508'
+    to_name: 北朝霞
+    time: 4
+    distance: 2.39
+  - from: '1130508'
+    from_name: 北朝霞
+    to: '2100114'
+    to_name: 志木
+    time: 2
+    distance: 1.31
+  - from: '2100114'
+    from_name: 志木
+    to: '2100115'
+    to_name: 柳瀬川
+    time: 3
+    distance: 1.53
+  - from: '2100115'
+    from_name: 柳瀬川
+    to: '2100116'
+    to_name: みずほ台
+    time: 2
+    distance: 1.32
+  - from: '2100116'
+    from_name: みずほ台
+    to: '2100117'
+    to_name: 鶴瀬
+    time: 2
+    distance: 1.33
+  - from: '2100117'
+    from_name: 鶴瀬
+    to: '2100118'
+    to_name: ふじみ野
+    time: 4
+    distance: 2.2
+  - from: '2100118'
+    from_name: ふじみ野
+    to: '2100119'
+    to_name: 上福岡
+    time: 3
+    distance: 1.8
+  - from: '2100119'
+    from_name: 上福岡
+    to: '2100120'
+    to_name: 新河岸
+    time: 4
+    distance: 2.3
+  - from: '2100120'
+    from_name: 新河岸
+    to: '1132123'
+    to_name: 川越
+    time: 4
+    distance: 2.17
+  - from: '1132123'
+    from_name: 川越
+    to: '2100122'
+    to_name: 川越市
+    time: 2
+    distance: 0.99
+  - from: '2100122'
+    from_name: 川越市
+    to: '2100123'
+    to_name: 霞ヶ関
+    time: 5
+    distance: 3.33
+  - from: '2100123'
+    from_name: 霞ヶ関
+    to: '2100124'
+    to_name: 鶴ヶ島
+    time: 4
+    distance: 2.12
+  - from: '2100124'
+    from_name: 鶴ヶ島
+    to: '2100125'
+    to_name: 若葉
+    time: 3
+    distance: 1.91
+  - from: '2100125'
+    from_name: 若葉
+    to: '2100126'
+    to_name: 坂戸
+    time: 3
+    distance: 1.61
+  - from: '2100126'
+    from_name: 坂戸
+    to: '2100127'
+    to_name: 北坂戸
+    time: 3
+    distance: 1.68
+  - from: '2100127'
+    from_name: 北坂戸
+    to: '2100128'
+    to_name: 高坂
+    time: 6
+    distance: 3.39
+  - from: '2100128'
+    from_name: 高坂
+    to: '2100129'
+    to_name: 東松山
+    time: 6
+    distance: 3.58
+  - from: '2100129'
+    from_name: 東松山
+    to: '2100130'
+    to_name: 森林公園
+    time: 5
+    distance: 2.68
+  - from: '2100130'
+    from_name: 森林公園
+    to: '2100131'
+    to_name: つきのわ
+    time: 4
+    distance: 2.65
+  - from: '2100131'
+    from_name: つきのわ
+    to: '2100132'
+    to_name: 武蔵嵐山
+    time: 3
+    distance: 1.55
+  - from: '2100132'
+    from_name: 武蔵嵐山
+    to: '1131805'
+    to_name: 小川町
+    time: 10
+    distance: 6.33
+  - from: '1131805'
+    from_name: 小川町
+    to: '2100134'
+    to_name: 東武竹沢
+    time: 5
+    distance: 2.74
+  - from: '2100134'
+    from_name: 東武竹沢
+    to: '2100139'
+    to_name: みなみ寄居
+    time: 3
+    distance: 1.89
+  - from: '2100135'
+    from_name: 男衾
+    to: '2100136'
+    to_name: 鉢形
+    time: 4
+    distance: 2.42
+  - from: '2100136'
+    from_name: 鉢形
+    to: '2100137'
+    to_name: 玉淀
+    time: 2
+    distance: 0.85
+  - from: '2100137'
+    from_name: 玉淀
+    to: '1131808'
+    to_name: 寄居
+    time: 2
+    distance: 0.53
+  - from: '2100139'
+    from_name: みなみ寄居
+    to: '2100135'
+    to_name: 男衾
+    time: 3
+    distance: 1.68

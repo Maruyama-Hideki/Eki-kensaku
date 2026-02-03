@@ -1,0 +1,282 @@
+line_code: '99911'
+line_name: 西九州線(伊万里～佐世保)
+company: 松浦鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1192014'
+    from_name: 伊万里
+    to: '9991102'
+    to_name: 東山代
+    time: 5
+    distance: 2.93
+  - from: '9991102'
+    from_name: 東山代
+    to: '9991103'
+    to_name: 里
+    time: 2
+    distance: 1.19
+  - from: '9991103'
+    from_name: 里
+    to: '9991104'
+    to_name: 楠久
+    time: 2
+    distance: 1.15
+  - from: '9991104'
+    from_name: 楠久
+    to: '9991105'
+    to_name: 鳴石
+    time: 2
+    distance: 1.29
+  - from: '9991105'
+    from_name: 鳴石
+    to: '9991106'
+    to_name: 久原
+    time: 3
+    distance: 1.68
+  - from: '9991106'
+    from_name: 久原
+    to: '9991107'
+    to_name: 波瀬
+    time: 2
+    distance: 1.09
+  - from: '9991107'
+    from_name: 波瀬
+    to: '9991108'
+    to_name: 浦ノ崎
+    time: 3
+    distance: 1.94
+  - from: '9991108'
+    from_name: 浦ノ崎
+    to: '9991109'
+    to_name: 福島口
+    time: 2
+    distance: 0.37
+  - from: '9991109'
+    from_name: 福島口
+    to: '9991110'
+    to_name: 今福
+    time: 4
+    distance: 2.05
+  - from: '9991110'
+    from_name: 今福
+    to: '9991111'
+    to_name: 鷹島口
+    time: 2
+    distance: 1.13
+  - from: '9991111'
+    from_name: 鷹島口
+    to: '9991112'
+    to_name: 前浜
+    time: 4
+    distance: 2.43
+  - from: '9991112'
+    from_name: 前浜
+    to: '9991113'
+    to_name: 調川
+    time: 2
+    distance: 1.09
+  - from: '9991113'
+    from_name: 調川
+    to: '9991114'
+    to_name: 松浦
+    time: 4
+    distance: 2.02
+  - from: '9991114'
+    from_name: 松浦
+    to: '9991115'
+    to_name: 松浦発電所前
+    time: 4
+    distance: 2.06
+  - from: '9991115'
+    from_name: 松浦発電所前
+    to: '9991116'
+    to_name: 御厨
+    time: 5
+    distance: 3.01
+  - from: '9991116'
+    from_name: 御厨
+    to: '9991117'
+    to_name: 西木場
+    time: 4
+    distance: 2.49
+  - from: '9991117'
+    from_name: 西木場
+    to: '9991118'
+    to_name: 東田平
+    time: 3
+    distance: 1.46
+  - from: '9991118'
+    from_name: 東田平
+    to: '9991119'
+    to_name: 中田平
+    time: 2
+    distance: 1.15
+  - from: '9991119'
+    from_name: 中田平
+    to: '9991120'
+    to_name: たびら平戸口
+    time: 5
+    distance: 2.75
+  - from: '9991120'
+    from_name: たびら平戸口
+    to: '9991121'
+    to_name: 西田平
+    time: 4
+    distance: 2.07
+  - from: '9991121'
+    from_name: 西田平
+    to: '9991122'
+    to_name: すえたちばな
+    time: 6
+    distance: 3.83
+  - from: '9991122'
+    from_name: すえたちばな
+    to: '9991123'
+    to_name: 江迎鹿町
+    time: 3
+    distance: 1.66
+  - from: '9991123'
+    from_name: 江迎鹿町
+    to: '9991124'
+    to_name: 高岩
+    time: 3
+    distance: 1.4
+  - from: '9991124'
+    from_name: 高岩
+    to: '9991125'
+    to_name: いのつき
+    time: 5
+    distance: 3.25
+  - from: '9991125'
+    from_name: いのつき
+    to: '9991126'
+    to_name: 潜竜ヶ滝
+    time: 3
+    distance: 1.52
+  - from: '9991126'
+    from_name: 潜竜ヶ滝
+    to: '9991127'
+    to_name: 吉井
+    time: 3
+    distance: 1.61
+  - from: '9991127'
+    from_name: 吉井
+    to: '9991128'
+    to_name: 神田
+    time: 3
+    distance: 1.44
+  - from: '9991128'
+    from_name: 神田
+    to: '9991129'
+    to_name: 清峰高校前
+    time: 4
+    distance: 2.01
+  - from: '9991129'
+    from_name: 清峰高校前
+    to: '9991130'
+    to_name: 佐々
+    time: 3
+    distance: 1.53
+  - from: '9991130'
+    from_name: 佐々
+    to: '9991131'
+    to_name: 小浦
+    time: 3
+    distance: 1.7
+  - from: '9991131'
+    from_name: 小浦
+    to: '9991132'
+    to_name: 真申
+    time: 3
+    distance: 1.95
+  - from: '9991132'
+    from_name: 真申
+    to: '9991133'
+    to_name: 棚方
+    time: 2
+    distance: 0.55
+  - from: '9991133'
+    from_name: 棚方
+    to: '9991134'
+    to_name: 相浦
+    time: 2
+    distance: 1.12
+  - from: '9991134'
+    from_name: 相浦
+    to: '9991135'
+    to_name: 大学
+    time: 2
+    distance: 1
+  - from: '9991135'
+    from_name: 大学
+    to: '9991136'
+    to_name: 上相浦
+    time: 2
+    distance: 0.71
+  - from: '9991136'
+    from_name: 上相浦
+    to: '9991137'
+    to_name: 本山
+    time: 3
+    distance: 1.7
+  - from: '9991137'
+    from_name: 本山
+    to: '9991138'
+    to_name: 中里
+    time: 2
+    distance: 0.51
+  - from: '9991138'
+    from_name: 中里
+    to: '9991139'
+    to_name: 皆瀬
+    time: 3
+    distance: 1.45
+  - from: '9991139'
+    from_name: 皆瀬
+    to: '9991140'
+    to_name: 野中
+    time: 2
+    distance: 0.66
+  - from: '9991140'
+    from_name: 野中
+    to: '9991141'
+    to_name: 左石
+    time: 2
+    distance: 1.29
+  - from: '9991141'
+    from_name: 左石
+    to: '9991142'
+    to_name: 泉福寺
+    time: 2
+    distance: 0.58
+  - from: '9991142'
+    from_name: 泉福寺
+    to: '9991143'
+    to_name: 山の田
+    time: 2
+    distance: 1.1
+  - from: '9991143'
+    from_name: 山の田
+    to: '9991144'
+    to_name: 北佐世保
+    time: 2
+    distance: 1.07
+  - from: '9991144'
+    from_name: 北佐世保
+    to: '9991145'
+    to_name: 中佐世保
+    time: 3
+    distance: 1.67
+  - from: '9991145'
+    from_name: 中佐世保
+    to: '9991146'
+    to_name: 佐世保中央
+    time: 2
+    distance: 0.25
+  - from: '9991146'
+    from_name: 佐世保中央
+    to: '1191814'
+    to_name: 佐世保
+    time: 2
+    distance: 0.91

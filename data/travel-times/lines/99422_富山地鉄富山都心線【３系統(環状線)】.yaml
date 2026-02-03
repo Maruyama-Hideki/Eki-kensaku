@@ -1,0 +1,78 @@
+line_code: '99422'
+line_name: 富山地鉄富山都心線【３系統(環状線)】
+company: 富山地方鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9941316'
+    from_name: 丸の内
+    to: '9942202'
+    to_name: 国際会議場前
+    time: 2
+    distance: 0.24
+  - from: '9942202'
+    from_name: 国際会議場前
+    to: '9942203'
+    to_name: 大手モール
+    time: 2
+    distance: 0.25
+  - from: '9942203'
+    from_name: 大手モール
+    to: '9942204'
+    to_name: グランドプラザ前
+    time: 2
+    distance: 0.19
+  - from: '9942204'
+    from_name: グランドプラザ前
+    to: '9941321'
+    to_name: 中町（西町北）
+    time: 2
+    distance: 0.26
+  - from: '9941321'
+    from_name: 中町（西町北）
+    to: '9941309'
+    to_name: 荒町
+    time: 2
+    distance: 0.13
+  - from: '9941309'
+    from_name: 荒町
+    to: '9941310'
+    to_name: 桜橋
+    time: 2
+    distance: 0.34
+  - from: '9941310'
+    from_name: 桜橋
+    to: '9941311'
+    to_name: 電気ビル前
+    time: 2
+    distance: 0.31
+  - from: '9941311'
+    from_name: 電気ビル前
+    to: '9941312'
+    to_name: 地鉄ビル前
+    time: 2
+    distance: 0.13
+  - from: '9941312'
+    from_name: 地鉄ビル前
+    to: '1140501'
+    to_name: 富山
+    time: 2
+    distance: 0.41
+  - from: '9941314'
+    from_name: 新富町
+    to: '9941315'
+    to_name: 県庁前
+    time: 2
+    distance: 0.37
+  - from: '9941315'
+    from_name: 県庁前
+    to: '9941316'
+    to_name: 丸の内
+    time: 2
+    distance: 0.36
+  - from: '1140501'
+    from_name: 富山
+    to: '9941314'
+    to_name: 新富町
+    time: 2
+    distance: 0.32

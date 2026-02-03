@@ -1,0 +1,36 @@
+line_code: '99310'
+line_name: みなとみらい線
+company: 横浜高速鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130105'
+    from_name: 横浜
+    to: '9931002'
+    to_name: 新高島
+    time: 2
+    distance: 0.59
+  - from: '9931002'
+    from_name: 新高島
+    to: '9931003'
+    to_name: みなとみらい
+    time: 2
+    distance: 0.69
+  - from: '9931003'
+    from_name: みなとみらい
+    to: '9931004'
+    to_name: 馬車道
+    time: 2
+    distance: 0.94
+  - from: '9931004'
+    from_name: 馬車道
+    to: '9931005'
+    to_name: 日本大通り
+    time: 2
+    distance: 0.69
+  - from: '9931005'
+    from_name: 日本大通り
+    to: '9931006'
+    to_name: 元町・中華街
+    time: 2
+    distance: 0.86

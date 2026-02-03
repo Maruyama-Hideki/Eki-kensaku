@@ -1,0 +1,66 @@
+line_code: '23006'
+line_name: 成田スカイアクセス
+company: 京成電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2300101'
+    from_name: 京成上野
+    to: '1130218'
+    to_name: 日暮里
+    time: 3
+    distance: 1.87
+  - from: '1130218'
+    from_name: 日暮里
+    to: '2300109'
+    to_name: 青砥
+    time: 12
+    distance: 7.93
+  - from: '2300109'
+    from_name: 青砥
+    to: '2300110'
+    to_name: 京成高砂
+    time: 2
+    distance: 1.11
+  - from: '2300110'
+    from_name: 京成高砂
+    to: '1130521'
+    to_name: 東松戸
+    time: 11
+    distance: 7.28
+  - from: '1130521'
+    from_name: 東松戸
+    to: '2100430'
+    to_name: 新鎌ヶ谷
+    time: 8
+    distance: 5.13
+  - from: '2100430'
+    from_name: 新鎌ヶ谷
+    to: '9934013'
+    to_name: 千葉ニュータウン中央
+    time: 17
+    distance: 10.76
+  - from: '9934013'
+    from_name: 千葉ニュータウン中央
+    to: '9934015'
+    to_name: 印旛日本医大
+    time: 12
+    distance: 7.97
+  - from: '9934015'
+    from_name: 印旛日本医大
+    to: '2300609'
+    to_name: 成田湯川
+    time: 13
+    distance: 8.08
+  - from: '2300609'
+    from_name: 成田湯川
+    to: '1132813'
+    to_name: 空港第２ビル（第２旅客ターミナル）
+    time: 14
+    distance: 9.15
+  - from: '1132813'
+    from_name: 空港第２ビル（第２旅客ターミナル）
+    to: '1132705'
+    to_name: 成田空港（第１旅客ターミナル）
+    time: 2
+    distance: 1.08

@@ -1,0 +1,168 @@
+line_code: '31025'
+line_name: 近鉄京都線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1160120'
+    from_name: 京都
+    to: '3102502'
+    to_name: 東寺
+    time: 2
+    distance: 0.77
+  - from: '3102502'
+    from_name: 東寺
+    to: '3102503'
+    to_name: 十条
+    time: 2
+    distance: 0.67
+  - from: '3102503'
+    from_name: 十条
+    to: '3102504'
+    to_name: 上鳥羽口
+    time: 2
+    distance: 0.98
+  - from: '3102504'
+    from_name: 上鳥羽口
+    to: '3102505'
+    to_name: 竹田
+    time: 2
+    distance: 0.98
+  - from: '3102505'
+    from_name: 竹田
+    to: '3102506'
+    to_name: 伏見
+    time: 2
+    distance: 1.29
+  - from: '3102506'
+    from_name: 伏見
+    to: '3102507'
+    to_name: 近鉄丹波橋
+    time: 2
+    distance: 0.97
+  - from: '3102507'
+    from_name: 近鉄丹波橋
+    to: '3102508'
+    to_name: 桃山御陵前
+    time: 2
+    distance: 0.55
+  - from: '3102508'
+    from_name: 桃山御陵前
+    to: '3102509'
+    to_name: 向島
+    time: 4
+    distance: 2.08
+  - from: '3102509'
+    from_name: 向島
+    to: '3102510'
+    to_name: 小倉
+    time: 5
+    distance: 2.68
+  - from: '3102510'
+    from_name: 小倉
+    to: '3102511'
+    to_name: 伊勢田
+    time: 2
+    distance: 1.23
+  - from: '3102511'
+    from_name: 伊勢田
+    to: '3102512'
+    to_name: 大久保
+    time: 2
+    distance: 0.89
+  - from: '3102512'
+    from_name: 大久保
+    to: '3102513'
+    to_name: 久津川
+    time: 2
+    distance: 1.06
+  - from: '3102513'
+    from_name: 久津川
+    to: '3102514'
+    to_name: 寺田
+    time: 2
+    distance: 1.32
+  - from: '3102514'
+    from_name: 寺田
+    to: '3102515'
+    to_name: 富野荘
+    time: 3
+    distance: 1.46
+  - from: '3102515'
+    from_name: 富野荘
+    to: '3102516'
+    to_name: 新田辺
+    time: 4
+    distance: 2.19
+  - from: '3102516'
+    from_name: 新田辺
+    to: '3102517'
+    to_name: 興戸
+    time: 3
+    distance: 1.46
+  - from: '3102517'
+    from_name: 興戸
+    to: '1161705'
+    to_name: ＪＲ三山木
+    time: 2
+    distance: 1.23
+  - from: '1161705'
+    from_name: ＪＲ三山木
+    to: '3102519'
+    to_name: 近鉄宮津
+    time: 2
+    distance: 0.81
+  - from: '3102519'
+    from_name: 近鉄宮津
+    to: '1161704'
+    to_name: 下狛
+    time: 2
+    distance: 1.21
+  - from: '1161704'
+    from_name: 下狛
+    to: '1161703'
+    to_name: 祝園
+    time: 4
+    distance: 2.29
+  - from: '1161703'
+    from_name: 祝園
+    to: '3102522'
+    to_name: 木津川台
+    time: 3
+    distance: 1.55
+  - from: '3102522'
+    from_name: 木津川台
+    to: '3102523'
+    to_name: 山田川
+    time: 2
+    distance: 1.02
+  - from: '3102523'
+    from_name: 山田川
+    to: '3102524'
+    to_name: 高の原
+    time: 3
+    distance: 1.59
+  - from: '3102524'
+    from_name: 高の原
+    to: '3102525'
+    to_name: 平城
+    time: 4
+    distance: 2.54
+  - from: '3102525'
+    from_name: 平城
+    to: '3100201'
+    to_name: 大和西大寺
+    time: 2
+    distance: 0.89
+  - from: '3100201'
+    from_name: 大和西大寺
+    to: '3102018'
+    to_name: 新大宮
+    time: 5
+    distance: 2.68
+  - from: '3102018'
+    from_name: 新大宮
+    to: '3102019'
+    to_name: 近鉄奈良
+    time: 3
+    distance: 1.53

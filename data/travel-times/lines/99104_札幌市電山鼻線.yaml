@@ -1,0 +1,150 @@
+line_code: '99104'
+line_name: 札幌市電山鼻線
+company: 札幌市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '9910401'
+    from_name: 西４丁目
+    to: '9910402'
+    to_name: 西８丁目
+    time: 2
+    distance: 0.56
+  - from: '9910402'
+    from_name: 西８丁目
+    to: '9910108'
+    to_name: 西１１丁目
+    time: 2
+    distance: 0.36
+  - from: '9910108'
+    from_name: 西１１丁目
+    to: '9910404'
+    to_name: 西１５丁目
+    time: 2
+    distance: 0.44
+  - from: '9910404'
+    from_name: 西１５丁目
+    to: '9910405'
+    to_name: 西線６条
+    time: 2
+    distance: 0.63
+  - from: '9910405'
+    from_name: 西線６条
+    to: '9910406'
+    to_name: 西線９条旭山公園通
+    time: 2
+    distance: 0.47
+  - from: '9910406'
+    from_name: 西線９条旭山公園通
+    to: '9910407'
+    to_name: 西線１１条
+    time: 2
+    distance: 0.29
+  - from: '9910407'
+    from_name: 西線１１条
+    to: '9910408'
+    to_name: 西線１４条
+    time: 2
+    distance: 0.43
+  - from: '9910408'
+    from_name: 西線１４条
+    to: '9910409'
+    to_name: 西線１６条
+    time: 2
+    distance: 0.34
+  - from: '9910409'
+    from_name: 西線１６条
+    to: '9910410'
+    to_name: ロープウェイ入口
+    time: 2
+    distance: 0.45
+  - from: '9910410'
+    from_name: ロープウェイ入口
+    to: '9910411'
+    to_name: 電車事業所前
+    time: 2
+    distance: 0.27
+  - from: '9910411'
+    from_name: 電車事業所前
+    to: '9910412'
+    to_name: 中央図書館前
+    time: 2
+    distance: 0.23
+  - from: '9910412'
+    from_name: 中央図書館前
+    to: '9910413'
+    to_name: 石山通
+    time: 2
+    distance: 0.32
+  - from: '9910413'
+    from_name: 石山通
+    to: '9910414'
+    to_name: 東屯田通
+    time: 2
+    distance: 0.27
+  - from: '9910414'
+    from_name: 東屯田通
+    to: '9910415'
+    to_name: 幌南小学校前
+    time: 2
+    distance: 0.37
+  - from: '9910415'
+    from_name: 幌南小学校前
+    to: '9910416'
+    to_name: 山鼻１９条
+    time: 2
+    distance: 0.28
+  - from: '9910416'
+    from_name: 山鼻１９条
+    to: '9910417'
+    to_name: 静修学園前
+    time: 2
+    distance: 0.4
+  - from: '9910417'
+    from_name: 静修学園前
+    to: '9910418'
+    to_name: 行啓通
+    time: 2
+    distance: 0.36
+  - from: '9910418'
+    from_name: 行啓通
+    to: '9910419'
+    to_name: 中島公園通
+    time: 2
+    distance: 0.46
+  - from: '9910419'
+    from_name: 中島公園通
+    to: '9910420'
+    to_name: 山鼻９条
+    time: 2
+    distance: 0.27
+  - from: '9910420'
+    from_name: 山鼻９条
+    to: '9910421'
+    to_name: 東本願寺前
+    time: 2
+    distance: 0.41
+  - from: '9910421'
+    from_name: 東本願寺前
+    to: '9910422'
+    to_name: 資生館小学校前
+    time: 2
+    distance: 0.38
+  - from: '9910422'
+    from_name: 資生館小学校前
+    to: '9910208'
+    to_name: すすきの
+    time: 2
+    distance: 0.3
+  - from: '9910208'
+    from_name: すすきの
+    to: '9910424'
+    to_name: 狸小路
+    time: 2
+    distance: 0.17
+  - from: '9910424'
+    from_name: 狸小路
+    to: '9910401'
+    to_name: 西４丁目
+    time: 2
+    distance: 0.19

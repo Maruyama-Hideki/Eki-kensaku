@@ -1,0 +1,48 @@
+line_code: '99307'
+line_name: 埼玉高速鉄道線
+company: 埼玉高速鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2800901'
+    from_name: 赤羽岩淵
+    to: '9930702'
+    to_name: 川口元郷
+    time: 3
+    distance: 2
+  - from: '9930702'
+    from_name: 川口元郷
+    to: '9930703'
+    to_name: 南鳩ヶ谷
+    time: 3
+    distance: 1.93
+  - from: '9930703'
+    from_name: 南鳩ヶ谷
+    to: '9930704'
+    to_name: 鳩ヶ谷
+    time: 3
+    distance: 1.56
+  - from: '9930704'
+    from_name: 鳩ヶ谷
+    to: '9930705'
+    to_name: 新井宿
+    time: 3
+    distance: 1.36
+  - from: '9930705'
+    from_name: 新井宿
+    to: '9930706'
+    to_name: 戸塚安行
+    time: 4
+    distance: 2.27
+  - from: '9930706'
+    from_name: 戸塚安行
+    to: '1130513'
+    to_name: 東川口
+    time: 4
+    distance: 2.02
+  - from: '1130513'
+    from_name: 東川口
+    to: '9930708'
+    to_name: 浦和美園
+    time: 4
+    distance: 2.52

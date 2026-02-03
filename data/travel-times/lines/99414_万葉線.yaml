@@ -1,0 +1,150 @@
+line_code: '99414'
+line_name: 万葉線
+company: 万葉線
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1141551'
+    from_name: 高岡
+    to: '9941425'
+    to_name: 末広町
+    time: 2
+    distance: 0.47
+  - from: '9941402'
+    from_name: 片原町
+    to: '9941403'
+    to_name: 坂下町
+    time: 2
+    distance: 0.19
+  - from: '9941403'
+    from_name: 坂下町
+    to: '9941404'
+    to_name: 急患医療センター前
+    time: 2
+    distance: 0.39
+  - from: '9941404'
+    from_name: 急患医療センター前
+    to: '9941405'
+    to_name: 広小路
+    time: 2
+    distance: 0.4
+  - from: '9941405'
+    from_name: 広小路
+    to: '9941406'
+    to_name: 志貴野中学校前
+    time: 2
+    distance: 0.44
+  - from: '9941406'
+    from_name: 志貴野中学校前
+    to: '9941407'
+    to_name: 市民病院前
+    time: 2
+    distance: 0.35
+  - from: '9941407'
+    from_name: 市民病院前
+    to: '9941408'
+    to_name: 江尻
+    time: 2
+    distance: 0.49
+  - from: '9941408'
+    from_name: 江尻
+    to: '9941409'
+    to_name: 旭ヶ丘
+    time: 2
+    distance: 0.37
+  - from: '9941409'
+    from_name: 旭ヶ丘
+    to: '9941410'
+    to_name: 荻布
+    time: 2
+    distance: 0.42
+  - from: '9941410'
+    from_name: 荻布
+    to: '9941411'
+    to_name: 新能町
+    time: 2
+    distance: 0.43
+  - from: '9941411'
+    from_name: 新能町
+    to: '9941412'
+    to_name: 米島口
+    time: 2
+    distance: 0.32
+  - from: '9941412'
+    from_name: 米島口
+    to: '9941413'
+    to_name: 能町口
+    time: 2
+    distance: 0.92
+  - from: '9941413'
+    from_name: 能町口
+    to: '9941414'
+    to_name: 新吉久
+    time: 2
+    distance: 0.46
+  - from: '9941414'
+    from_name: 新吉久
+    to: '9941415'
+    to_name: 吉久
+    time: 2
+    distance: 0.73
+  - from: '9941415'
+    from_name: 吉久
+    to: '9941416'
+    to_name: 中伏木
+    time: 2
+    distance: 0.84
+  - from: '9941416'
+    from_name: 中伏木
+    to: '9941417'
+    to_name: 六渡寺
+    time: 2
+    distance: 0.43
+  - from: '9941417'
+    from_name: 六渡寺
+    to: '9941418'
+    to_name: 庄川口
+    time: 2
+    distance: 0.63
+  - from: '9941418'
+    from_name: 庄川口
+    to: '9941419'
+    to_name: 西新湊
+    time: 2
+    distance: 0.63
+  - from: '9941419'
+    from_name: 西新湊
+    to: '9941420'
+    to_name: 新町口
+    time: 2
+    distance: 0.81
+  - from: '9941420'
+    from_name: 新町口
+    to: '9941421'
+    to_name: 中新湊
+    time: 2
+    distance: 0.58
+  - from: '9941421'
+    from_name: 中新湊
+    to: '9941422'
+    to_name: 東新湊
+    time: 2
+    distance: 1
+  - from: '9941422'
+    from_name: 東新湊
+    to: '9941423'
+    to_name: 海王丸
+    time: 2
+    distance: 0.54
+  - from: '9941423'
+    from_name: 海王丸
+    to: '9941424'
+    to_name: 越ノ潟
+    time: 2
+    distance: 0.62
+  - from: '9941425'
+    from_name: 末広町
+    to: '9941402'
+    to_name: 片原町
+    time: 2
+    distance: 0.18

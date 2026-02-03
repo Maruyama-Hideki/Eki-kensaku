@@ -1,0 +1,84 @@
+line_code: '11208'
+line_name: ドラゴンレール大船渡線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1123166'
+    from_name: 一ノ関
+    to: '1120802'
+    to_name: 真滝
+    time: 6
+    distance: 3.99
+  - from: '1120802'
+    from_name: 真滝
+    to: '1120803'
+    to_name: 陸中門崎
+    time: 10
+    distance: 6.41
+  - from: '1120803'
+    from_name: 陸中門崎
+    to: '1120804'
+    to_name: 岩ノ下
+    time: 6
+    distance: 3.46
+  - from: '1120804'
+    from_name: 岩ノ下
+    to: '1120805'
+    to_name: 陸中松川
+    time: 6
+    distance: 3.34
+  - from: '1120805'
+    from_name: 陸中松川
+    to: '1120806'
+    to_name: 猊鼻渓
+    time: 3
+    distance: 1.85
+  - from: '1120806'
+    from_name: 猊鼻渓
+    to: '1120807'
+    to_name: 柴宿
+    time: 3
+    distance: 1.86
+  - from: '1120807'
+    from_name: 柴宿
+    to: '1120808'
+    to_name: 摺沢
+    time: 7
+    distance: 4.25
+  - from: '1120808'
+    from_name: 摺沢
+    to: '1120809'
+    to_name: 千厩
+    time: 13
+    distance: 8.17
+  - from: '1120809'
+    from_name: 千厩
+    to: '1120810'
+    to_name: 小梨
+    time: 6
+    distance: 3.44
+  - from: '1120810'
+    from_name: 小梨
+    to: '1120811'
+    to_name: 矢越
+    time: 6
+    distance: 3.89
+  - from: '1120811'
+    from_name: 矢越
+    to: '1120812'
+    to_name: 折壁
+    time: 4
+    distance: 2.07
+  - from: '1120812'
+    from_name: 折壁
+    to: '1120813'
+    to_name: 新月
+    time: 7
+    distance: 4.12
+  - from: '1120813'
+    from_name: 新月
+    to: '1120814'
+    to_name: 気仙沼
+    time: 10
+    distance: 6.1

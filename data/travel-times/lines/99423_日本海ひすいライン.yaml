@@ -1,0 +1,78 @@
+line_code: '99423'
+line_name: 日本海ひすいライン
+company: えちごトキめき鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1140514'
+    from_name: 親不知
+    to: '1140513'
+    to_name: 市振
+    time: 13
+    distance: 8.33
+  - from: '1140515'
+    from_name: 青海
+    to: '1140514'
+    to_name: 親不知
+    time: 9
+    distance: 5.4
+  - from: '1140516'
+    from_name: 糸魚川
+    to: '1140515'
+    to_name: 青海
+    time: 10
+    distance: 6.29
+  - from: '1140517'
+    from_name: 梶屋敷
+    to: '9942302'
+    to_name: えちご押上ひすい海岸
+    time: 4
+    distance: 2.6
+  - from: '1140518'
+    from_name: 浦本
+    to: '1140517'
+    to_name: 梶屋敷
+    time: 6
+    distance: 3.58
+  - from: '1140519'
+    from_name: 能生
+    to: '1140518'
+    to_name: 浦本
+    time: 8
+    distance: 4.97
+  - from: '1140520'
+    from_name: 筒石
+    to: '1140519'
+    to_name: 能生
+    time: 11
+    distance: 7.31
+  - from: '1140521'
+    from_name: 名立
+    to: '1140520'
+    to_name: 筒石
+    time: 7
+    distance: 4.23
+  - from: '1140522'
+    from_name: 有間川
+    to: '1140521'
+    to_name: 名立
+    time: 6
+    distance: 3.98
+  - from: '1140523'
+    from_name: 谷浜
+    to: '1140522'
+    to_name: 有間川
+    time: 5
+    distance: 3.31
+  - from: '1140321'
+    from_name: 直江津
+    to: '1140523'
+    to_name: 谷浜
+    time: 10
+    distance: 6.12
+  - from: '9942302'
+    from_name: えちご押上ひすい海岸
+    to: '1140516'
+    to_name: 糸魚川
+    time: 3
+    distance: 1.6

@@ -1,0 +1,60 @@
+line_code: '11630'
+line_name: 福知山線(篠山口～福知山)
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1162923'
+    from_name: 篠山口
+    to: '1163002'
+    to_name: 丹波大山
+    time: 3
+    distance: 1.97
+  - from: '1163002'
+    from_name: 丹波大山
+    to: '1163003'
+    to_name: 下滝
+    time: 11
+    distance: 6.98
+  - from: '1163003'
+    from_name: 下滝
+    to: '1163004'
+    to_name: 谷川
+    time: 7
+    distance: 4.1
+  - from: '1163004'
+    from_name: 谷川
+    to: '1163005'
+    to_name: 柏原
+    time: 9
+    distance: 5.54
+  - from: '1163005'
+    from_name: 柏原
+    to: '1163006'
+    to_name: 石生
+    time: 5
+    distance: 3.08
+  - from: '1163006'
+    from_name: 石生
+    to: '1163007'
+    to_name: 黒井
+    time: 6
+    distance: 3.52
+  - from: '1163007'
+    from_name: 黒井
+    to: '1163008'
+    to_name: 市島
+    time: 8
+    distance: 5.3
+  - from: '1163008'
+    from_name: 市島
+    to: '1163009'
+    to_name: 丹波竹田
+    time: 7
+    distance: 4
+  - from: '1163009'
+    from_name: 丹波竹田
+    to: '1161514'
+    to_name: 福知山
+    time: 9
+    distance: 5.99

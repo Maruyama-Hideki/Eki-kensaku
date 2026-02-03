@@ -1,0 +1,84 @@
+line_code: '99651'
+line_name: 貴志川線
+company: 和歌山電鐵
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1162635'
+    from_name: 和歌山
+    to: '9965102'
+    to_name: 田中口
+    time: 2
+    distance: 0.59
+  - from: '9965102'
+    from_name: 田中口
+    to: '9965103'
+    to_name: 日前宮
+    time: 2
+    distance: 0.82
+  - from: '9965103'
+    from_name: 日前宮
+    to: '9965104'
+    to_name: 神前
+    time: 3
+    distance: 1.55
+  - from: '9965104'
+    from_name: 神前
+    to: '9965105'
+    to_name: 竈山
+    time: 2
+    distance: 0.65
+  - from: '9965105'
+    from_name: 竈山
+    to: '9965106'
+    to_name: 交通センター前
+    time: 2
+    distance: 1.05
+  - from: '9965106'
+    from_name: 交通センター前
+    to: '9965107'
+    to_name: 岡崎前
+    time: 2
+    distance: 0.65
+  - from: '9965107'
+    from_name: 岡崎前
+    to: '9965108'
+    to_name: 吉礼
+    time: 2
+    distance: 0.99
+  - from: '9965108'
+    from_name: 吉礼
+    to: '9965109'
+    to_name: 伊太祈曽
+    time: 3
+    distance: 1.45
+  - from: '9965109'
+    from_name: 伊太祈曽
+    to: '9965110'
+    to_name: 山東
+    time: 2
+    distance: 0.98
+  - from: '9965110'
+    from_name: 山東
+    to: '9965111'
+    to_name: 大池遊園
+    time: 4
+    distance: 2.13
+  - from: '9965111'
+    from_name: 大池遊園
+    to: '9965112'
+    to_name: 西山口
+    time: 2
+    distance: 0.74
+  - from: '9965112'
+    from_name: 西山口
+    to: '9965113'
+    to_name: 甘露寺前
+    time: 2
+    distance: 1.05
+  - from: '9965113'
+    from_name: 甘露寺前
+    to: '9965114'
+    to_name: 貴志
+    time: 2
+    distance: 1.06

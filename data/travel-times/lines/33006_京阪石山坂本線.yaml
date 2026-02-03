@@ -1,0 +1,126 @@
+line_code: '33006'
+line_name: 京阪石山坂本線
+company: 京阪電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3300601'
+    from_name: 石山寺
+    to: '3300602'
+    to_name: 唐橋前
+    time: 2
+    distance: 0.69
+  - from: '3300602'
+    from_name: 唐橋前
+    to: '1160116'
+    to_name: 石山
+    time: 2
+    distance: 0.77
+  - from: '1160116'
+    from_name: 石山
+    to: '3300604'
+    to_name: 粟津
+    time: 2
+    distance: 0.69
+  - from: '3300604'
+    from_name: 粟津
+    to: '3300605'
+    to_name: 瓦ヶ浜
+    time: 2
+    distance: 0.4
+  - from: '3300605'
+    from_name: 瓦ヶ浜
+    to: '3300606'
+    to_name: 中ノ庄
+    time: 2
+    distance: 0.41
+  - from: '3300606'
+    from_name: 中ノ庄
+    to: '3300607'
+    to_name: 膳所本町
+    time: 2
+    distance: 0.54
+  - from: '3300607'
+    from_name: 膳所本町
+    to: '3300608'
+    to_name: 錦
+    time: 2
+    distance: 0.41
+  - from: '3300608'
+    from_name: 錦
+    to: '1160117'
+    to_name: 膳所
+    time: 2
+    distance: 0.51
+  - from: '1160117'
+    from_name: 膳所
+    to: '3300610'
+    to_name: 石場
+    time: 2
+    distance: 0.75
+  - from: '3300610'
+    from_name: 石場
+    to: '3300611'
+    to_name: 島ノ関
+    time: 2
+    distance: 0.54
+  - from: '3300611'
+    from_name: 島ノ関
+    to: '3300612'
+    to_name: びわ湖浜大津
+    time: 2
+    distance: 0.75
+  - from: '3300612'
+    from_name: びわ湖浜大津
+    to: '3300613'
+    to_name: 三井寺
+    time: 2
+    distance: 0.42
+  - from: '3300613'
+    from_name: 三井寺
+    to: '3300614'
+    to_name: 大津市役所前
+    time: 2
+    distance: 0.72
+  - from: '3300614'
+    from_name: 大津市役所前
+    to: '1160503'
+    to_name: 大津京
+    time: 2
+    distance: 0.7
+  - from: '1160503'
+    from_name: 大津京
+    to: '3300616'
+    to_name: 近江神宮前
+    time: 2
+    distance: 0.44
+  - from: '3300616'
+    from_name: 近江神宮前
+    to: '3300617'
+    to_name: 南滋賀
+    time: 2
+    distance: 0.96
+  - from: '3300617'
+    from_name: 南滋賀
+    to: '3300618'
+    to_name: 滋賀里
+    time: 2
+    distance: 0.76
+  - from: '3300618'
+    from_name: 滋賀里
+    to: '3300619'
+    to_name: 穴太
+    time: 3
+    distance: 1.46
+  - from: '3300619'
+    from_name: 穴太
+    to: '3300620'
+    to_name: 松ノ馬場
+    time: 2
+    distance: 1.19
+  - from: '3300620'
+    from_name: 松ノ馬場
+    to: '3300621'
+    to_name: 坂本比叡山口
+    time: 2
+    distance: 0.59

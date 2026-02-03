@@ -1,0 +1,246 @@
+line_code: '32001'
+line_name: 南海本線
+company: 南海電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3200101'
+    from_name: 難波
+    to: '1160720'
+    to_name: 新今宮
+    time: 3
+    distance: 1.49
+  - from: '1160720'
+    from_name: 新今宮
+    to: '3200103'
+    to_name: 天下茶屋
+    time: 3
+    distance: 1.53
+  - from: '3200103'
+    from_name: 天下茶屋
+    to: '3200104'
+    to_name: 岸里玉出
+    time: 2
+    distance: 0.97
+  - from: '3200104'
+    from_name: 岸里玉出
+    to: '3200105'
+    to_name: 粉浜
+    time: 2
+    distance: 1.13
+  - from: '3200105'
+    from_name: 粉浜
+    to: '3200106'
+    to_name: 住吉大社
+    time: 2
+    distance: 0.67
+  - from: '3200106'
+    from_name: 住吉大社
+    to: '3200107'
+    to_name: 住ノ江
+    time: 2
+    distance: 0.84
+  - from: '3200107'
+    from_name: 住ノ江
+    to: '3200108'
+    to_name: 七道
+    time: 3
+    distance: 1.57
+  - from: '3200108'
+    from_name: 七道
+    to: '3200109'
+    to_name: 堺
+    time: 3
+    distance: 1.58
+  - from: '3200109'
+    from_name: 堺
+    to: '3200110'
+    to_name: 湊
+    time: 3
+    distance: 1.51
+  - from: '3200110'
+    from_name: 湊
+    to: '3200111'
+    to_name: 石津川
+    time: 3
+    distance: 1.38
+  - from: '3200111'
+    from_name: 石津川
+    to: '3200112'
+    to_name: 諏訪ノ森
+    time: 2
+    distance: 0.92
+  - from: '3200112'
+    from_name: 諏訪ノ森
+    to: '3200113'
+    to_name: 浜寺公園
+    time: 2
+    distance: 1.24
+  - from: '3200113'
+    from_name: 浜寺公園
+    to: '1162702'
+    to_name: 東羽衣
+    time: 2
+    distance: 0.71
+  - from: '1162702'
+    from_name: 東羽衣
+    to: '3200115'
+    to_name: 高石
+    time: 3
+    distance: 1.77
+  - from: '3200115'
+    from_name: 高石
+    to: '3200116'
+    to_name: 北助松
+    time: 2
+    distance: 1.19
+  - from: '3200116'
+    from_name: 北助松
+    to: '3200117'
+    to_name: 松ノ浜
+    time: 2
+    distance: 0.97
+  - from: '3200117'
+    from_name: 松ノ浜
+    to: '3200118'
+    to_name: 泉大津
+    time: 2
+    distance: 0.97
+  - from: '3200118'
+    from_name: 泉大津
+    to: '3200119'
+    to_name: 忠岡
+    time: 3
+    distance: 1.82
+  - from: '3200119'
+    from_name: 忠岡
+    to: '3200120'
+    to_name: 春木
+    time: 2
+    distance: 1.32
+  - from: '3200120'
+    from_name: 春木
+    to: '3200121'
+    to_name: 和泉大宮
+    time: 2
+    distance: 1.27
+  - from: '3200121'
+    from_name: 和泉大宮
+    to: '3200122'
+    to_name: 岸和田
+    time: 2
+    distance: 1.05
+  - from: '3200122'
+    from_name: 岸和田
+    to: '3200123'
+    to_name: 蛸地蔵
+    time: 2
+    distance: 0.84
+  - from: '3200123'
+    from_name: 蛸地蔵
+    to: '3200124'
+    to_name: 貝塚
+    time: 3
+    distance: 1.69
+  - from: '3200124'
+    from_name: 貝塚
+    to: '3200125'
+    to_name: 二色浜
+    time: 3
+    distance: 1.81
+  - from: '3200125'
+    from_name: 二色浜
+    to: '3200126'
+    to_name: 鶴原
+    time: 2
+    distance: 0.94
+  - from: '3200126'
+    from_name: 鶴原
+    to: '3200127'
+    to_name: 井原里
+    time: 2
+    distance: 1.02
+  - from: '3200127'
+    from_name: 井原里
+    to: '3200128'
+    to_name: 泉佐野
+    time: 3
+    distance: 1.61
+  - from: '3200128'
+    from_name: 泉佐野
+    to: '3200129'
+    to_name: 羽倉崎
+    time: 4
+    distance: 2.06
+  - from: '3200129'
+    from_name: 羽倉崎
+    to: '3200130'
+    to_name: 吉見ノ里
+    time: 2
+    distance: 1.26
+  - from: '3200130'
+    from_name: 吉見ノ里
+    to: '3200131'
+    to_name: 岡田浦
+    time: 3
+    distance: 1.4
+  - from: '3200131'
+    from_name: 岡田浦
+    to: '3200132'
+    to_name: 樽井
+    time: 3
+    distance: 1.84
+  - from: '3200132'
+    from_name: 樽井
+    to: '3200133'
+    to_name: 尾崎
+    time: 4
+    distance: 2.43
+  - from: '3200133'
+    from_name: 尾崎
+    to: '3200134'
+    to_name: 鳥取ノ荘
+    time: 2
+    distance: 1.32
+  - from: '3200134'
+    from_name: 鳥取ノ荘
+    to: '3200135'
+    to_name: 箱作
+    time: 4
+    distance: 2.09
+  - from: '3200135'
+    from_name: 箱作
+    to: '3200136'
+    to_name: 淡輪
+    time: 6
+    distance: 3.36
+  - from: '3200136'
+    from_name: 淡輪
+    to: '3200137'
+    to_name: みさき公園
+    time: 3
+    distance: 1.77
+  - from: '3200137'
+    from_name: みさき公園
+    to: '3200138'
+    to_name: 孝子
+    time: 6
+    distance: 3.82
+  - from: '3200138'
+    from_name: 孝子
+    to: '3200141'
+    to_name: 和歌山大学前
+    time: 3
+    distance: 1.74
+  - from: '3200139'
+    from_name: 紀ノ川
+    to: '1164003'
+    to_name: 和歌山市
+    time: 4
+    distance: 2.03
+  - from: '3200141'
+    from_name: 和歌山大学前
+    to: '3200139'
+    to_name: 紀ノ川
+    time: 5
+    distance: 2.85

@@ -1,0 +1,36 @@
+line_code: '11710'
+line_name: 瀬戸大橋線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1170908'
+    from_name: 茶屋町
+    to: '1171002'
+    to_name: 植松
+    time: 5
+    distance: 2.87
+  - from: '1171002'
+    from_name: 植松
+    to: '1171003'
+    to_name: 木見
+    time: 4
+    distance: 2.63
+  - from: '1171003'
+    from_name: 木見
+    to: '1171004'
+    to_name: 上の町
+    time: 7
+    distance: 4.16
+  - from: '1171004'
+    from_name: 上の町
+    to: '1171005'
+    to_name: 児島
+    time: 5
+    distance: 3.2
+  - from: '1171005'
+    from_name: 児島
+    to: '1171006'
+    to_name: 宇多津
+    time: 27
+    distance: 17.42

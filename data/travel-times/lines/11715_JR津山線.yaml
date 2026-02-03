@@ -1,0 +1,102 @@
+line_code: '11715'
+line_name: JR津山線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1163411'
+    from_name: 津山
+    to: '1171502'
+    to_name: 津山口
+    time: 3
+    distance: 1.87
+  - from: '1171502'
+    from_name: 津山口
+    to: '1171503'
+    to_name: 佐良山
+    time: 5
+    distance: 3.22
+  - from: '1171503'
+    from_name: 佐良山
+    to: '1171504'
+    to_name: 亀甲
+    time: 6
+    distance: 3.73
+  - from: '1171504'
+    from_name: 亀甲
+    to: '1171505'
+    to_name: 小原
+    time: 6
+    distance: 3.38
+  - from: '1171505'
+    from_name: 小原
+    to: '1171506'
+    to_name: 誕生寺
+    time: 3
+    distance: 1.85
+  - from: '1171506'
+    from_name: 誕生寺
+    to: '1171507'
+    to_name: 弓削
+    time: 5
+    distance: 2.93
+  - from: '1171507'
+    from_name: 弓削
+    to: '1171508'
+    to_name: 神目
+    time: 6
+    distance: 3.86
+  - from: '1171508'
+    from_name: 神目
+    to: '1171509'
+    to_name: 福渡
+    time: 7
+    distance: 4.05
+  - from: '1171509'
+    from_name: 福渡
+    to: '1171510'
+    to_name: 建部
+    time: 5
+    distance: 3.14
+  - from: '1171510'
+    from_name: 建部
+    to: '1171511'
+    to_name: 金川
+    time: 10
+    distance: 6.42
+  - from: '1171511'
+    from_name: 金川
+    to: '1171512'
+    to_name: 野々口
+    time: 4
+    distance: 2.33
+  - from: '1171512'
+    from_name: 野々口
+    to: '1171513'
+    to_name: 牧山
+    time: 7
+    distance: 4.18
+  - from: '1171513'
+    from_name: 牧山
+    to: '1171514'
+    to_name: 玉柏
+    time: 5
+    distance: 2.72
+  - from: '1171514'
+    from_name: 玉柏
+    to: '1171515'
+    to_name: 備前原
+    time: 4
+    distance: 2.23
+  - from: '1171515'
+    from_name: 備前原
+    to: '1171516'
+    to_name: 法界院
+    time: 5
+    distance: 2.74
+  - from: '1171516'
+    from_name: 法界院
+    to: '1160917'
+    to_name: 岡山
+    time: 4
+    distance: 2.19

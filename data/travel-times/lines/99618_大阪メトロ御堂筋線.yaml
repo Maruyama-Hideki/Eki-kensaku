@@ -1,0 +1,120 @@
+line_code: '99618'
+line_name: 大阪メトロ御堂筋線
+company: Osaka Metro
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9961404'
+    from_name: 江坂
+    to: '9961802'
+    to_name: 東三国
+    time: 3
+    distance: 1.97
+  - from: '9961802'
+    from_name: 東三国
+    to: '1160213'
+    to_name: 新大阪
+    time: 2
+    distance: 0.83
+  - from: '1160213'
+    from_name: 新大阪
+    to: '3400324'
+    to_name: 南方
+    time: 2
+    distance: 0.97
+  - from: '3400324'
+    from_name: 南方
+    to: '9961805'
+    to_name: 中津
+    time: 3
+    distance: 1.63
+  - from: '9961805'
+    from_name: 中津
+    to: '1160214'
+    to_name: 大阪
+    time: 2
+    distance: 0.99
+  - from: '1160214'
+    from_name: 大阪
+    to: '3300140'
+    to_name: 淀屋橋
+    time: 2
+    distance: 1.25
+  - from: '3300140'
+    from_name: 淀屋橋
+    to: '9961808'
+    to_name: 本町
+    time: 2
+    distance: 1.19
+  - from: '9961808'
+    from_name: 本町
+    to: '9961809'
+    to_name: 心斎橋
+    time: 2
+    distance: 0.78
+  - from: '9961809'
+    from_name: 心斎橋
+    to: '3100101'
+    to_name: 大阪難波
+    time: 2
+    distance: 0.88
+  - from: '3100101'
+    from_name: 大阪難波
+    to: '9961811'
+    to_name: 大国町
+    time: 2
+    distance: 1.23
+  - from: '9961811'
+    from_name: 大国町
+    to: '1160720'
+    to_name: 新今宮
+    time: 2
+    distance: 0.72
+  - from: '1160720'
+    from_name: 新今宮
+    to: '1160719'
+    to_name: 天王寺
+    time: 2
+    distance: 1.24
+  - from: '1160719'
+    from_name: 天王寺
+    to: '9961814'
+    to_name: 昭和町
+    time: 3
+    distance: 1.54
+  - from: '9961814'
+    from_name: 昭和町
+    to: '9961815'
+    to_name: 西田辺
+    time: 3
+    distance: 1.34
+  - from: '9961815'
+    from_name: 西田辺
+    to: '1162605'
+    to_name: 長居
+    time: 2
+    distance: 1.21
+  - from: '1162605'
+    from_name: 長居
+    to: '9961817'
+    to_name: あびこ
+    time: 3
+    distance: 1.34
+  - from: '9961817'
+    from_name: あびこ
+    to: '9961818'
+    to_name: 北花田
+    time: 3
+    distance: 1.92
+  - from: '9961818'
+    from_name: 北花田
+    to: '9961819'
+    to_name: 新金岡
+    time: 3
+    distance: 1.61
+  - from: '9961819'
+    from_name: 新金岡
+    to: '3200715'
+    to_name: 中百舌鳥
+    time: 3
+    distance: 1.57

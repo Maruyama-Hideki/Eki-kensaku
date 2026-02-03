@@ -1,0 +1,96 @@
+line_code: '11705'
+line_name: JR境線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1161642'
+    from_name: 米子
+    to: '1170502'
+    to_name: 博労町
+    time: 2
+    distance: 0.98
+  - from: '1170502'
+    from_name: 博労町
+    to: '1170503'
+    to_name: 富士見町
+    time: 2
+    distance: 0.42
+  - from: '1170503'
+    from_name: 富士見町
+    to: '1170504'
+    to_name: 後藤
+    time: 2
+    distance: 0.77
+  - from: '1170504'
+    from_name: 後藤
+    to: '1170505'
+    to_name: 三本松口
+    time: 2
+    distance: 1.01
+  - from: '1170505'
+    from_name: 三本松口
+    to: '1170506'
+    to_name: 河崎口
+    time: 3
+    distance: 1.99
+  - from: '1170506'
+    from_name: 河崎口
+    to: '1170507'
+    to_name: 弓ケ浜
+    time: 3
+    distance: 1.89
+  - from: '1170507'
+    from_name: 弓ケ浜
+    to: '1170508'
+    to_name: 和田浜
+    time: 4
+    distance: 2.59
+  - from: '1170508'
+    from_name: 和田浜
+    to: '1170509'
+    to_name: 大篠津町
+    time: 2
+    distance: 1.27
+  - from: '1170509'
+    from_name: 大篠津町
+    to: '1170510'
+    to_name: 米子空港
+    time: 3
+    distance: 1.68
+  - from: '1170510'
+    from_name: 米子空港
+    to: '1170511'
+    to_name: 中浜
+    time: 2
+    distance: 0.47
+  - from: '1170511'
+    from_name: 中浜
+    to: '1170512'
+    to_name: 高松町
+    time: 2
+    distance: 1.14
+  - from: '1170512'
+    from_name: 高松町
+    to: '1170513'
+    to_name: 余子
+    time: 2
+    distance: 0.71
+  - from: '1170513'
+    from_name: 余子
+    to: '1170514'
+    to_name: 上道
+    time: 2
+    distance: 1.22
+  - from: '1170514'
+    from_name: 上道
+    to: '1170515'
+    to_name: 馬場崎町
+    time: 2
+    distance: 0.9
+  - from: '1170515'
+    from_name: 馬場崎町
+    to: '1170516'
+    to_name: 境港
+    time: 2
+    distance: 0.8

@@ -1,0 +1,60 @@
+line_code: '11506'
+line_name: JR武豊線
+company: JR東海
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1150226'
+    from_name: 大府
+    to: '1150602'
+    to_name: 尾張森岡
+    time: 3
+    distance: 1.82
+  - from: '1150602'
+    from_name: 尾張森岡
+    to: '1150603'
+    to_name: 緒川
+    time: 3
+    distance: 1.39
+  - from: '1150603'
+    from_name: 緒川
+    to: '1150604'
+    to_name: 石浜
+    time: 3
+    distance: 1.51
+  - from: '1150604'
+    from_name: 石浜
+    to: '1150605'
+    to_name: 東浦
+    time: 4
+    distance: 2.04
+  - from: '1150605'
+    from_name: 東浦
+    to: '1150606'
+    to_name: 亀崎
+    time: 6
+    distance: 3.51
+  - from: '1150606'
+    from_name: 亀崎
+    to: '1150607'
+    to_name: 乙川
+    time: 4
+    distance: 2.5
+  - from: '1150607'
+    from_name: 乙川
+    to: '1150608'
+    to_name: 半田
+    time: 3
+    distance: 1.42
+  - from: '1150608'
+    from_name: 半田
+    to: '1150609'
+    to_name: 東成岩
+    time: 4
+    distance: 2.3
+  - from: '1150609'
+    from_name: 東成岩
+    to: '1150610'
+    to_name: 武豊
+    time: 4
+    distance: 2.32

@@ -1,0 +1,48 @@
+line_code: '25003'
+line_name: 小田急多摩線
+company: 小田急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2500123'
+    from_name: 新百合ヶ丘
+    to: '2500302'
+    to_name: 五月台
+    time: 2
+    distance: 1.33
+  - from: '2500302'
+    from_name: 五月台
+    to: '2500303'
+    to_name: 栗平
+    time: 2
+    distance: 1.27
+  - from: '2500303'
+    from_name: 栗平
+    to: '2500304'
+    to_name: 黒川
+    time: 2
+    distance: 1.27
+  - from: '2500304'
+    from_name: 黒川
+    to: '2500305'
+    to_name: はるひ野
+    time: 2
+    distance: 0.84
+  - from: '2500305'
+    from_name: はるひ野
+    to: '2400207'
+    to_name: 京王永山
+    time: 3
+    distance: 1.93
+  - from: '2400207'
+    from_name: 京王永山
+    to: '2400208'
+    to_name: 京王多摩センター
+    time: 4
+    distance: 2.25
+  - from: '2400208'
+    from_name: 京王多摩センター
+    to: '2500308'
+    to_name: 唐木田
+    time: 3
+    distance: 1.47

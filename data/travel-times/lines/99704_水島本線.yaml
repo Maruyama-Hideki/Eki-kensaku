@@ -1,0 +1,60 @@
+line_code: '99704'
+line_name: 水島本線
+company: 水島臨海鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1161005'
+    from_name: 倉敷
+    to: '9970402'
+    to_name: 球場前
+    time: 4
+    distance: 2.04
+  - from: '9970402'
+    from_name: 球場前
+    to: '9970403'
+    to_name: 西富井
+    time: 3
+    distance: 1.52
+  - from: '9970403'
+    from_name: 西富井
+    to: '9970404'
+    to_name: 福井
+    time: 2
+    distance: 0.9
+  - from: '9970404'
+    from_name: 福井
+    to: '9970405'
+    to_name: 浦田
+    time: 2
+    distance: 1.06
+  - from: '9970405'
+    from_name: 浦田
+    to: '9970406'
+    to_name: 弥生
+    time: 3
+    distance: 1.89
+  - from: '9970406'
+    from_name: 弥生
+    to: '9970407'
+    to_name: 栄
+    time: 2
+    distance: 0.76
+  - from: '9970407'
+    from_name: 栄
+    to: '9970408'
+    to_name: 常盤
+    time: 2
+    distance: 0.46
+  - from: '9970408'
+    from_name: 常盤
+    to: '9970409'
+    to_name: 水島
+    time: 2
+    distance: 0.57
+  - from: '9970409'
+    from_name: 水島
+    to: '9970410'
+    to_name: 三菱自工前
+    time: 2
+    distance: 0.95

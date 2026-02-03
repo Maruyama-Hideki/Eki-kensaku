@@ -1,0 +1,276 @@
+line_code: '11714'
+line_name: JR芸備線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1163425'
+    from_name: 新見
+    to: '1171402'
+    to_name: 布原
+    time: 5
+    distance: 3.14
+  - from: '1171402'
+    from_name: 布原
+    to: '1170319'
+    to_name: 備中神代
+    time: 4
+    distance: 2.09
+  - from: '1170319'
+    from_name: 備中神代
+    to: '1171404'
+    to_name: 坂根
+    time: 6
+    distance: 3.64
+  - from: '1171404'
+    from_name: 坂根
+    to: '1171405'
+    to_name: 市岡
+    time: 4
+    distance: 2.3
+  - from: '1171405'
+    from_name: 市岡
+    to: '1171406'
+    to_name: 矢神
+    time: 5
+    distance: 2.85
+  - from: '1171406'
+    from_name: 矢神
+    to: '1171407'
+    to_name: 野馳
+    time: 6
+    distance: 3.47
+  - from: '1171407'
+    from_name: 野馳
+    to: '1171408'
+    to_name: 東城
+    time: 7
+    distance: 4.2
+  - from: '1171408'
+    from_name: 東城
+    to: '1171409'
+    to_name: 備後八幡
+    time: 9
+    distance: 5.55
+  - from: '1171409'
+    from_name: 備後八幡
+    to: '1171410'
+    to_name: 内名
+    time: 5
+    distance: 2.98
+  - from: '1171410'
+    from_name: 内名
+    to: '1171411'
+    to_name: 小奴可
+    time: 6
+    distance: 3.79
+  - from: '1171411'
+    from_name: 小奴可
+    to: '1171412'
+    to_name: 道後山
+    time: 6
+    distance: 3.51
+  - from: '1171412'
+    from_name: 道後山
+    to: '1170618'
+    to_name: 備後落合
+    time: 5
+    distance: 2.94
+  - from: '1170618'
+    from_name: 備後落合
+    to: '1171414'
+    to_name: 比婆山
+    time: 7
+    distance: 4.5
+  - from: '1171414'
+    from_name: 比婆山
+    to: '1171415'
+    to_name: 備後西城
+    time: 5
+    distance: 2.9
+  - from: '1171415'
+    from_name: 備後西城
+    to: '1171416'
+    to_name: 平子
+    time: 6
+    distance: 3.54
+  - from: '1171416'
+    from_name: 平子
+    to: '1171417'
+    to_name: 高
+    time: 8
+    distance: 4.74
+  - from: '1171417'
+    from_name: 高
+    to: '1171418'
+    to_name: 備後庄原
+    time: 8
+    distance: 5.26
+  - from: '1171418'
+    from_name: 備後庄原
+    to: '1171419'
+    to_name: 備後三日市
+    time: 3
+    distance: 1.82
+  - from: '1171419'
+    from_name: 備後三日市
+    to: '1171420'
+    to_name: 七塚
+    time: 3
+    distance: 1.64
+  - from: '1171420'
+    from_name: 七塚
+    to: '1171421'
+    to_name: 山ノ内
+    time: 5
+    distance: 3.05
+  - from: '1171421'
+    from_name: 山ノ内
+    to: '1171422'
+    to_name: 下和知
+    time: 7
+    distance: 4.62
+  - from: '1171422'
+    from_name: 下和知
+    to: '1171423'
+    to_name: 塩町
+    time: 5
+    distance: 2.81
+  - from: '1171423'
+    from_name: 塩町
+    to: '1171424'
+    to_name: 神杉
+    time: 2
+    distance: 1.24
+  - from: '1171424'
+    from_name: 神杉
+    to: '1171425'
+    to_name: 八次
+    time: 5
+    distance: 3.24
+  - from: '1171425'
+    from_name: 八次
+    to: '1170735'
+    to_name: 三次
+    time: 4
+    distance: 2.08
+  - from: '1170735'
+    from_name: 三次
+    to: '1171427'
+    to_name: 西三次
+    time: 3
+    distance: 1.45
+  - from: '1171427'
+    from_name: 西三次
+    to: '1171428'
+    to_name: 志和地
+    time: 11
+    distance: 7.29
+  - from: '1171428'
+    from_name: 志和地
+    to: '1171429'
+    to_name: 上川立
+    time: 4
+    distance: 2.42
+  - from: '1171429'
+    from_name: 上川立
+    to: '1171430'
+    to_name: 甲立
+    time: 7
+    distance: 4.29
+  - from: '1171430'
+    from_name: 甲立
+    to: '1171431'
+    to_name: 吉田口
+    time: 6
+    distance: 3.42
+  - from: '1171431'
+    from_name: 吉田口
+    to: '1171432'
+    to_name: 向原
+    time: 9
+    distance: 5.93
+  - from: '1171432'
+    from_name: 向原
+    to: '1171433'
+    to_name: 井原市
+    time: 8
+    distance: 5.27
+  - from: '1171433'
+    from_name: 井原市
+    to: '1171434'
+    to_name: 志和口
+    time: 6
+    distance: 3.76
+  - from: '1171434'
+    from_name: 志和口
+    to: '1171435'
+    to_name: 上三田
+    time: 4
+    distance: 2.18
+  - from: '1171435'
+    from_name: 上三田
+    to: '1171436'
+    to_name: 中三田
+    time: 7
+    distance: 4.22
+  - from: '1171436'
+    from_name: 中三田
+    to: '1171437'
+    to_name: 白木山
+    time: 4
+    distance: 2.44
+  - from: '1171437'
+    from_name: 白木山
+    to: '1171438'
+    to_name: 狩留家
+    time: 3
+    distance: 1.75
+  - from: '1171438'
+    from_name: 狩留家
+    to: '1171439'
+    to_name: 上深川
+    time: 3
+    distance: 1.92
+  - from: '1171439'
+    from_name: 上深川
+    to: '1171440'
+    to_name: 中深川
+    time: 5
+    distance: 2.69
+  - from: '1171440'
+    from_name: 中深川
+    to: '1171441'
+    to_name: 下深川
+    time: 2
+    distance: 1.2
+  - from: '1171441'
+    from_name: 下深川
+    to: '1171442'
+    to_name: 玖村
+    time: 3
+    distance: 1.71
+  - from: '1171442'
+    from_name: 玖村
+    to: '1171443'
+    to_name: 安芸矢口
+    time: 4
+    distance: 2.36
+  - from: '1171443'
+    from_name: 安芸矢口
+    to: '1171444'
+    to_name: 戸坂
+    time: 5
+    distance: 2.84
+  - from: '1171444'
+    from_name: 戸坂
+    to: '1171445'
+    to_name: 矢賀
+    time: 7
+    distance: 4.36
+  - from: '1171445'
+    from_name: 矢賀
+    to: '1161115'
+    to_name: 広島
+    time: 4
+    distance: 2.05

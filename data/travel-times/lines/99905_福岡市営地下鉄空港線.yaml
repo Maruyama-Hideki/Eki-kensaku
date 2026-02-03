@@ -1,0 +1,78 @@
+line_code: '99905'
+line_name: 福岡市営地下鉄空港線
+company: 福岡市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '9990501'
+    from_name: 福岡空港
+    to: '9990502'
+    to_name: 東比恵
+    time: 4
+    distance: 1.79
+  - from: '9990502'
+    from_name: 東比恵
+    to: '1190101'
+    to_name: 博多
+    time: 2
+    distance: 0.99
+  - from: '1190101'
+    from_name: 博多
+    to: '9990504'
+    to_name: 祇園
+    time: 2
+    distance: 0.72
+  - from: '9990504'
+    from_name: 祇園
+    to: '9990505'
+    to_name: 中洲川端
+    time: 2
+    distance: 0.76
+  - from: '9990505'
+    from_name: 中洲川端
+    to: '9990506'
+    to_name: 天神
+    time: 2
+    distance: 0.78
+  - from: '9990506'
+    from_name: 天神
+    to: '9990507'
+    to_name: 赤坂
+    time: 2
+    distance: 0.79
+  - from: '9990507'
+    from_name: 赤坂
+    to: '9990508'
+    to_name: 大濠公園
+    time: 2
+    distance: 1.14
+  - from: '9990508'
+    from_name: 大濠公園
+    to: '9990509'
+    to_name: 唐人町
+    time: 2
+    distance: 0.77
+  - from: '9990509'
+    from_name: 唐人町
+    to: '9990510'
+    to_name: 西新
+    time: 3
+    distance: 1.23
+  - from: '9990510'
+    from_name: 西新
+    to: '9990511'
+    to_name: 藤崎
+    time: 2
+    distance: 1.09
+  - from: '9990511'
+    from_name: 藤崎
+    to: '9990512'
+    to_name: 室見
+    time: 2
+    distance: 0.75
+  - from: '9990512'
+    from_name: 室見
+    to: '1190901'
+    to_name: 姪浜
+    time: 3
+    distance: 1.42

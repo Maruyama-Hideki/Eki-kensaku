@@ -1,0 +1,12 @@
+line_code: '33005'
+line_name: 石清水八幡宮参道ケーブル
+company: 京阪電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3300115'
+    from_name: 石清水八幡宮
+    to: '3300502'
+    to_name: ケーブル八幡宮山上
+    time: 2
+    distance: 0.4

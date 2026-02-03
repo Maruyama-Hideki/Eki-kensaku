@@ -1,0 +1,54 @@
+line_code: '99512'
+line_name: リニモ
+company: 愛知高速交通
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9951201'
+    from_name: 藤が丘
+    to: '9951202'
+    to_name: はなみずき通
+    time: 3
+    distance: 1.34
+  - from: '9951202'
+    from_name: はなみずき通
+    to: '9951203'
+    to_name: 杁ヶ池公園
+    time: 2
+    distance: 0.69
+  - from: '9951203'
+    from_name: 杁ヶ池公園
+    to: '9951204'
+    to_name: 長久手古戦場
+    time: 2
+    distance: 1.1
+  - from: '9951204'
+    from_name: 長久手古戦場
+    to: '9951205'
+    to_name: 芸大通
+    time: 2
+    distance: 1.02
+  - from: '9951205'
+    from_name: 芸大通
+    to: '9951206'
+    to_name: 公園西
+    time: 3
+    distance: 1.45
+  - from: '9951206'
+    from_name: 公園西
+    to: '9951207'
+    to_name: 愛・地球博記念公園
+    time: 2
+    distance: 1.09
+  - from: '9951207'
+    from_name: 愛・地球博記念公園
+    to: '9951208'
+    to_name: 陶磁資料館南
+    time: 2
+    distance: 0.84
+  - from: '9951208'
+    from_name: 陶磁資料館南
+    to: '9951118'
+    to_name: 八草
+    time: 2
+    distance: 0.99

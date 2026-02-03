@@ -1,0 +1,114 @@
+line_code: '11321'
+line_name: JR埼京線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130201'
+    from_name: 大崎
+    to: '1130204'
+    to_name: 恵比寿
+    time: 6
+    distance: 3.42
+  - from: '1130204'
+    from_name: 恵比寿
+    to: '1130205'
+    to_name: 渋谷
+    time: 3
+    distance: 1.57
+  - from: '1130205'
+    from_name: 渋谷
+    to: '1130208'
+    to_name: 新宿
+    time: 6
+    distance: 3.43
+  - from: '1130208'
+    from_name: 新宿
+    to: '1130212'
+    to_name: 池袋
+    time: 7
+    distance: 4.61
+  - from: '1130212'
+    from_name: 池袋
+    to: '1132106'
+    to_name: 板橋
+    time: 3
+    distance: 1.85
+  - from: '1132106'
+    from_name: 板橋
+    to: '1132107'
+    to_name: 十条
+    time: 3
+    distance: 1.67
+  - from: '1132107'
+    from_name: 十条
+    to: '1131903'
+    to_name: 赤羽
+    time: 3
+    distance: 1.97
+  - from: '1131903'
+    from_name: 赤羽
+    to: '1132109'
+    to_name: 北赤羽
+    time: 3
+    distance: 1.7
+  - from: '1132109'
+    from_name: 北赤羽
+    to: '1132110'
+    to_name: 浮間舟渡
+    time: 3
+    distance: 1.38
+  - from: '1132110'
+    from_name: 浮間舟渡
+    to: '1132111'
+    to_name: 戸田公園
+    time: 4
+    distance: 2.2
+  - from: '1132111'
+    from_name: 戸田公園
+    to: '1132112'
+    to_name: 戸田
+    time: 3
+    distance: 1.34
+  - from: '1132112'
+    from_name: 戸田
+    to: '1132113'
+    to_name: 北戸田
+    time: 2
+    distance: 1.27
+  - from: '1132113'
+    from_name: 北戸田
+    to: '1130510'
+    to_name: 武蔵浦和
+    time: 4
+    distance: 2.44
+  - from: '1130510'
+    from_name: 武蔵浦和
+    to: '1132115'
+    to_name: 中浦和
+    time: 2
+    distance: 1.28
+  - from: '1132115'
+    from_name: 中浦和
+    to: '1132116'
+    to_name: 南与野
+    time: 3
+    distance: 1.63
+  - from: '1132116'
+    from_name: 南与野
+    to: '1132117'
+    to_name: 与野本町
+    time: 3
+    distance: 1.57
+  - from: '1132117'
+    from_name: 与野本町
+    to: '1132118'
+    to_name: 北与野
+    time: 2
+    distance: 1.1
+  - from: '1132118'
+    from_name: 北与野
+    to: '1131906'
+    to_name: 大宮
+    time: 3
+    distance: 1.8

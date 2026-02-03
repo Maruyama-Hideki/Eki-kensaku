@@ -1,0 +1,24 @@
+line_code: '99614'
+line_name: 北大阪急行電鉄
+company: 北大阪急行電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9961401'
+    from_name: 千里中央
+    to: '9961402'
+    to_name: 桃山台
+    time: 3
+    distance: 1.66
+  - from: '9961402'
+    from_name: 桃山台
+    to: '9961403'
+    to_name: 緑地公園
+    time: 4
+    distance: 2.13
+  - from: '9961403'
+    from_name: 緑地公園
+    to: '9961404'
+    to_name: 江坂
+    time: 3
+    distance: 1.79

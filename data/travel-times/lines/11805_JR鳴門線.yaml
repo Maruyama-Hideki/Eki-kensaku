@@ -1,0 +1,42 @@
+line_code: '11805'
+line_name: JR鳴門線
+company: JR四国
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1180501'
+    from_name: 鳴門
+    to: '1180502'
+    to_name: 撫養
+    time: 2
+    distance: 0.96
+  - from: '1180502'
+    from_name: 撫養
+    to: '1180503'
+    to_name: 金比羅前
+    time: 3
+    distance: 1.51
+  - from: '1180503'
+    from_name: 金比羅前
+    to: '1180504'
+    to_name: 教会前
+    time: 2
+    distance: 0.76
+  - from: '1180504'
+    from_name: 教会前
+    to: '1180505'
+    to_name: 立道
+    time: 3
+    distance: 1.91
+  - from: '1180505'
+    from_name: 立道
+    to: '1180506'
+    to_name: 阿波大谷
+    time: 3
+    distance: 1.65
+  - from: '1180506'
+    from_name: 阿波大谷
+    to: '1180225'
+    to_name: 池谷
+    time: 2
+    distance: 1.18

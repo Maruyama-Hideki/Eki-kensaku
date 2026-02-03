@@ -1,0 +1,138 @@
+line_code: '99511'
+line_name: 愛知環状鉄道線
+company: 愛知環状鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1150219'
+    from_name: 岡崎
+    to: '9951102'
+    to_name: 六名
+    time: 3
+    distance: 1.81
+  - from: '9951102'
+    from_name: 六名
+    to: '3000114'
+    to_name: 岡崎公園前
+    time: 3
+    distance: 1.54
+  - from: '3000114'
+    from_name: 岡崎公園前
+    to: '9951104'
+    to_name: 北岡崎
+    time: 3
+    distance: 1.97
+  - from: '9951104'
+    from_name: 北岡崎
+    to: '9951105'
+    to_name: 大門
+    time: 2
+    distance: 1.15
+  - from: '9951105'
+    from_name: 大門
+    to: '9951106'
+    to_name: 北野桝塚
+    time: 4
+    distance: 2.09
+  - from: '9951106'
+    from_name: 北野桝塚
+    to: '9951107'
+    to_name: 三河上郷
+    time: 3
+    distance: 1.89
+  - from: '9951107'
+    from_name: 三河上郷
+    to: '9951108'
+    to_name: 永覚
+    time: 3
+    distance: 1.76
+  - from: '9951108'
+    from_name: 永覚
+    to: '9951109'
+    to_name: 末野原
+    time: 3
+    distance: 1.53
+  - from: '9951109'
+    from_name: 末野原
+    to: '9951110'
+    to_name: 三河豊田
+    time: 3
+    distance: 1.81
+  - from: '9951110'
+    from_name: 三河豊田
+    to: '9951111'
+    to_name: 新上挙母
+    time: 3
+    distance: 1.82
+  - from: '9951111'
+    from_name: 新上挙母
+    to: '9951112'
+    to_name: 新豊田
+    time: 3
+    distance: 1.83
+  - from: '9951112'
+    from_name: 新豊田
+    to: '9951113'
+    to_name: 愛環梅坪
+    time: 4
+    distance: 2
+  - from: '9951113'
+    from_name: 愛環梅坪
+    to: '9951114'
+    to_name: 四郷
+    time: 3
+    distance: 1.9
+  - from: '9951114'
+    from_name: 四郷
+    to: '9951115'
+    to_name: 貝津
+    time: 3
+    distance: 1.8
+  - from: '9951115'
+    from_name: 貝津
+    to: '9951116'
+    to_name: 保見
+    time: 2
+    distance: 1.31
+  - from: '9951116'
+    from_name: 保見
+    to: '9951117'
+    to_name: 篠原
+    time: 4
+    distance: 2.41
+  - from: '9951117'
+    from_name: 篠原
+    to: '9951118'
+    to_name: 八草
+    time: 4
+    distance: 2.57
+  - from: '9951118'
+    from_name: 八草
+    to: '9951119'
+    to_name: 山口
+    time: 4
+    distance: 2.51
+  - from: '9951119'
+    from_name: 山口
+    to: '9951120'
+    to_name: 瀬戸口
+    time: 4
+    distance: 2.09
+  - from: '9951120'
+    from_name: 瀬戸口
+    to: '3001218'
+    to_name: 新瀬戸
+    time: 4
+    distance: 2.13
+  - from: '3001218'
+    from_name: 新瀬戸
+    to: '9951122'
+    to_name: 中水野
+    time: 5
+    distance: 2.82
+  - from: '9951122'
+    from_name: 中水野
+    to: '1141110'
+    to_name: 高蔵寺
+    time: 5
+    distance: 2.99

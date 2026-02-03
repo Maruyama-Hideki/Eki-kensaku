@@ -1,0 +1,222 @@
+line_code: '99306'
+line_name: 秩父鉄道秩父本線
+company: 秩父鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2100237'
+    from_name: 羽生
+    to: '9930602'
+    to_name: 西羽生
+    time: 2
+    distance: 1.12
+  - from: '9930602'
+    from_name: 西羽生
+    to: '9930603'
+    to_name: 新郷
+    time: 3
+    distance: 1.34
+  - from: '9930603'
+    from_name: 新郷
+    to: '9930604'
+    to_name: 武州荒木
+    time: 4
+    distance: 2.19
+  - from: '9930604'
+    from_name: 武州荒木
+    to: '9930605'
+    to_name: 東行田
+    time: 4
+    distance: 2.49
+  - from: '9930605'
+    from_name: 東行田
+    to: '9930606'
+    to_name: 行田市
+    time: 2
+    distance: 0.94
+  - from: '9930606'
+    from_name: 行田市
+    to: '9930607'
+    to_name: 持田
+    time: 3
+    distance: 1.7
+  - from: '9930607'
+    from_name: 持田
+    to: '9930636'
+    to_name: ソシオ流通センター
+    time: 3
+    distance: 1.55
+  - from: '1132316'
+    from_name: 熊谷
+    to: '9930609'
+    to_name: 上熊谷
+    time: 2
+    distance: 0.81
+  - from: '9930609'
+    from_name: 上熊谷
+    to: '9930610'
+    to_name: 石原
+    time: 2
+    distance: 1.25
+  - from: '9930610'
+    from_name: 石原
+    to: '9930611'
+    to_name: ひろせ野鳥の森
+    time: 3
+    distance: 1.52
+  - from: '9930611'
+    from_name: ひろせ野鳥の森
+    to: '9930612'
+    to_name: 大麻生
+    time: 3
+    distance: 1.83
+  - from: '9930612'
+    from_name: 大麻生
+    to: '9930613'
+    to_name: 明戸
+    time: 4
+    distance: 2.57
+  - from: '9930613'
+    from_name: 明戸
+    to: '9930614'
+    to_name: 武川
+    time: 3
+    distance: 1.94
+  - from: '9930614'
+    from_name: 武川
+    to: '9930615'
+    to_name: 永田
+    time: 4
+    distance: 2.14
+  - from: '9930615'
+    from_name: 永田
+    to: '9930637'
+    to_name: ふかや花園
+    time: 2
+    distance: 0.81
+  - from: '9930616'
+    from_name: 小前田
+    to: '9930617'
+    to_name: 桜沢
+    time: 3
+    distance: 1.38
+  - from: '9930617'
+    from_name: 桜沢
+    to: '1131808'
+    to_name: 寄居
+    time: 3
+    distance: 1.65
+  - from: '1131808'
+    from_name: 寄居
+    to: '9930619'
+    to_name: 波久礼
+    time: 6
+    distance: 3.39
+  - from: '9930619'
+    from_name: 波久礼
+    to: '9930620'
+    to_name: 樋口
+    time: 5
+    distance: 3.26
+  - from: '9930620'
+    from_name: 樋口
+    to: '9930621'
+    to_name: 野上
+    time: 4
+    distance: 2.4
+  - from: '9930621'
+    from_name: 野上
+    to: '9930622'
+    to_name: 長瀞
+    time: 3
+    distance: 1.8
+  - from: '9930622'
+    from_name: 長瀞
+    to: '9930623'
+    to_name: 上長瀞
+    time: 2
+    distance: 1.04
+  - from: '9930623'
+    from_name: 上長瀞
+    to: '9930624'
+    to_name: 親鼻
+    time: 2
+    distance: 1.15
+  - from: '9930624'
+    from_name: 親鼻
+    to: '9930625'
+    to_name: 皆野
+    time: 3
+    distance: 1.47
+  - from: '9930625'
+    from_name: 皆野
+    to: '9930626'
+    to_name: 和銅黒谷
+    time: 4
+    distance: 2.54
+  - from: '9930626'
+    from_name: 和銅黒谷
+    to: '9930627'
+    to_name: 大野原
+    time: 5
+    distance: 3.2
+  - from: '9930627'
+    from_name: 大野原
+    to: '9930628'
+    to_name: 秩父
+    time: 4
+    distance: 2.31
+  - from: '9930628'
+    from_name: 秩父
+    to: '9930629'
+    to_name: 御花畑
+    time: 2
+    distance: 0.75
+  - from: '9930629'
+    from_name: 御花畑
+    to: '9930630'
+    to_name: 影森
+    time: 4
+    distance: 2.64
+  - from: '9930630'
+    from_name: 影森
+    to: '9930631'
+    to_name: 浦山口
+    time: 2
+    distance: 1.29
+  - from: '9930631'
+    from_name: 浦山口
+    to: '9930632'
+    to_name: 武州中川
+    time: 4
+    distance: 2.13
+  - from: '9930632'
+    from_name: 武州中川
+    to: '9930633'
+    to_name: 武州日野
+    time: 2
+    distance: 1.32
+  - from: '9930633'
+    from_name: 武州日野
+    to: '9930634'
+    to_name: 白久
+    time: 4
+    distance: 2.64
+  - from: '9930634'
+    from_name: 白久
+    to: '9930635'
+    to_name: 三峰口
+    time: 2
+    distance: 1.32
+  - from: '9930636'
+    from_name: ソシオ流通センター
+    to: '1132316'
+    to_name: 熊谷
+    time: 5
+    distance: 3.14
+  - from: '9930637'
+    from_name: ふかや花園
+    to: '9930616'
+    to_name: 小前田
+    time: 4
+    distance: 2.63

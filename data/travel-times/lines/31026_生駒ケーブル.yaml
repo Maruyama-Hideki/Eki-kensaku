@@ -1,0 +1,30 @@
+line_code: '31026'
+line_name: 生駒ケーブル
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3101601'
+    from_name: 生駒
+    to: '3102602'
+    to_name: 宝山寺
+    time: 2
+    distance: 1.13
+  - from: '3102602'
+    from_name: 宝山寺
+    to: '3102603'
+    to_name: 梅屋敷
+    time: 2
+    distance: 0.36
+  - from: '3102603'
+    from_name: 梅屋敷
+    to: '3102604'
+    to_name: 霞ヶ丘
+    time: 2
+    distance: 0.38
+  - from: '3102604'
+    from_name: 霞ヶ丘
+    to: '3102605'
+    to_name: 生駒山上
+    time: 2
+    distance: 0.34

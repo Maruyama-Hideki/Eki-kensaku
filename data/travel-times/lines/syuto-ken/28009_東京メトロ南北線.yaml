@@ -1,0 +1,114 @@
+line_code: '28009'
+line_name: 東京メトロ南北線
+company: 東京メトロ
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '2800901'
+    from_name: 赤羽岩淵
+    to: '2800902'
+    to_name: 志茂
+    time: 2
+    distance: 1.13
+  - from: '2800902'
+    from_name: 志茂
+    to: '2800903'
+    to_name: 王子神谷
+    time: 3
+    distance: 1.45
+  - from: '2800903'
+    from_name: 王子神谷
+    to: '1133212'
+    to_name: 王子
+    time: 3
+    distance: 1.42
+  - from: '1133212'
+    from_name: 王子
+    to: '2800905'
+    to_name: 西ケ原
+    time: 2
+    distance: 0.82
+  - from: '2800905'
+    from_name: 西ケ原
+    to: '1130215'
+    to_name: 駒込
+    time: 2
+    distance: 1.14
+  - from: '1130215'
+    from_name: 駒込
+    to: '2800907'
+    to_name: 本駒込
+    time: 3
+    distance: 1.5
+  - from: '2800907'
+    from_name: 本駒込
+    to: '2800908'
+    to_name: 東大前
+    time: 2
+    distance: 0.82
+  - from: '2800908'
+    from_name: 東大前
+    to: '2800204'
+    to_name: 後楽園
+    time: 3
+    distance: 1.22
+  - from: '2800204'
+    from_name: 後楽園
+    to: '1131316'
+    to_name: 飯田橋
+    time: 2
+    distance: 0.91
+  - from: '1131316'
+    from_name: 飯田橋
+    to: '1131315'
+    to_name: 市ケ谷
+    time: 3
+    distance: 1.48
+  - from: '1131315'
+    from_name: 市ケ谷
+    to: '1131102'
+    to_name: 四ツ谷
+    time: 2
+    distance: 0.71
+  - from: '1131102'
+    from_name: 四ツ谷
+    to: '2800115'
+    to_name: 赤坂見附
+    time: 2
+    distance: 1.16
+  - from: '2800115'
+    from_name: 赤坂見附
+    to: '2800114'
+    to_name: 溜池山王
+    time: 2
+    distance: 0.55
+  - from: '2800114'
+    from_name: 溜池山王
+    to: '2800915'
+    to_name: 六本木一丁目
+    time: 2
+    distance: 0.92
+  - from: '2800915'
+    from_name: 六本木一丁目
+    to: '2800916'
+    to_name: 麻布十番
+    time: 3
+    distance: 1.23
+  - from: '2800916'
+    from_name: 麻布十番
+    to: '2800917'
+    to_name: 白金高輪
+    time: 3
+    distance: 1.34
+  - from: '2800917'
+    from_name: 白金高輪
+    to: '2800918'
+    to_name: 白金台
+    time: 2
+    distance: 0.91
+  - from: '2800918'
+    from_name: 白金台
+    to: '1130203'
+    to_name: 目黒
+    time: 2
+    distance: 1.04

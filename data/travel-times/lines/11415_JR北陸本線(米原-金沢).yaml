@@ -1,0 +1,258 @@
+line_code: '11415'
+line_name: JR北陸本線(米原～金沢)
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1141501'
+    from_name: 米原
+    to: '1141502'
+    to_name: 坂田
+    time: 4
+    distance: 2.36
+  - from: '1141502'
+    from_name: 坂田
+    to: '1141503'
+    to_name: 田村
+    time: 4
+    distance: 2.35
+  - from: '1141503'
+    from_name: 田村
+    to: '1141504'
+    to_name: 長浜
+    time: 5
+    distance: 2.94
+  - from: '1141504'
+    from_name: 長浜
+    to: '1141505'
+    to_name: 虎姫
+    time: 8
+    distance: 5.13
+  - from: '1141505'
+    from_name: 虎姫
+    to: '1141506'
+    to_name: 河毛
+    time: 5
+    distance: 2.75
+  - from: '1141506'
+    from_name: 河毛
+    to: '1141507'
+    to_name: 高月
+    time: 4
+    distance: 2.66
+  - from: '1141507'
+    from_name: 高月
+    to: '1141508'
+    to_name: 木ノ本
+    time: 7
+    distance: 4.22
+  - from: '1141508'
+    from_name: 木ノ本
+    to: '1141509'
+    to_name: 余呉
+    time: 6
+    distance: 3.79
+  - from: '1141509'
+    from_name: 余呉
+    to: '1141510'
+    to_name: 近江塩津
+    time: 7
+    distance: 4.25
+  - from: '1141510'
+    from_name: 近江塩津
+    to: '1141511'
+    to_name: 新疋田
+    time: 12
+    distance: 7.59
+  - from: '1141511'
+    from_name: 新疋田
+    to: '1141512'
+    to_name: 敦賀
+    time: 10
+    distance: 6.03
+  - from: '1141512'
+    from_name: 敦賀
+    to: '1141513'
+    to_name: 南今庄
+    time: 24
+    distance: 15.89
+  - from: '1141513'
+    from_name: 南今庄
+    to: '1141514'
+    to_name: 今庄
+    time: 4
+    distance: 2.17
+  - from: '1141514'
+    from_name: 今庄
+    to: '1141515'
+    to_name: 湯尾
+    time: 6
+    distance: 3.42
+  - from: '1141515'
+    from_name: 湯尾
+    to: '1141516'
+    to_name: 南条
+    time: 5
+    distance: 3.19
+  - from: '1141516'
+    from_name: 南条
+    to: '1141517'
+    to_name: 王子保
+    time: 7
+    distance: 4.56
+  - from: '1141517'
+    from_name: 王子保
+    to: '1141518'
+    to_name: 武生
+    time: 7
+    distance: 4.14
+  - from: '1141518'
+    from_name: 武生
+    to: '1141519'
+    to_name: 鯖江
+    time: 8
+    distance: 4.74
+  - from: '1141519'
+    from_name: 鯖江
+    to: '1141520'
+    to_name: 北鯖江
+    time: 5
+    distance: 3.25
+  - from: '1141520'
+    from_name: 北鯖江
+    to: '1141521'
+    to_name: 大土呂
+    time: 7
+    distance: 4.64
+  - from: '1141521'
+    from_name: 大土呂
+    to: '1141522'
+    to_name: 越前花堂
+    time: 5
+    distance: 3.14
+  - from: '1141522'
+    from_name: 越前花堂
+    to: '1141523'
+    to_name: 福井
+    time: 4
+    distance: 2.64
+  - from: '1141523'
+    from_name: 福井
+    to: '1141524'
+    to_name: 森田
+    time: 8
+    distance: 5.26
+  - from: '1141524'
+    from_name: 森田
+    to: '1141525'
+    to_name: 春江
+    time: 4
+    distance: 2.25
+  - from: '1141525'
+    from_name: 春江
+    to: '1141526'
+    to_name: 丸岡
+    time: 6
+    distance: 3.76
+  - from: '1141526'
+    from_name: 丸岡
+    to: '1141527'
+    to_name: 芦原温泉
+    time: 9
+    distance: 5.78
+  - from: '1141527'
+    from_name: 芦原温泉
+    to: '1141528'
+    to_name: 細呂木
+    time: 6
+    distance: 3.56
+  - from: '1141528'
+    from_name: 細呂木
+    to: '1141529'
+    to_name: 牛ノ谷
+    time: 5
+    distance: 2.99
+  - from: '1141529'
+    from_name: 牛ノ谷
+    to: '1141530'
+    to_name: 大聖寺
+    time: 9
+    distance: 5.41
+  - from: '1141530'
+    from_name: 大聖寺
+    to: '1141531'
+    to_name: 加賀温泉
+    time: 6
+    distance: 3.94
+  - from: '1141531'
+    from_name: 加賀温泉
+    to: '1141532'
+    to_name: 動橋
+    time: 5
+    distance: 3.06
+  - from: '1141532'
+    from_name: 動橋
+    to: '1141533'
+    to_name: 粟津
+    time: 8
+    distance: 4.8
+  - from: '1141533'
+    from_name: 粟津
+    to: '1141534'
+    to_name: 小松
+    time: 9
+    distance: 5.79
+  - from: '1141534'
+    from_name: 小松
+    to: '1141535'
+    to_name: 明峰
+    time: 5
+    distance: 2.69
+  - from: '1141535'
+    from_name: 明峰
+    to: '1141536'
+    to_name: 能美根上
+    time: 5
+    distance: 2.99
+  - from: '1141536'
+    from_name: 能美根上
+    to: '1141537'
+    to_name: 小舞子
+    time: 5
+    distance: 3.03
+  - from: '1141537'
+    from_name: 小舞子
+    to: '1141538'
+    to_name: 美川
+    time: 3
+    distance: 1.67
+  - from: '1141538'
+    from_name: 美川
+    to: '1141539'
+    to_name: 加賀笠間
+    time: 6
+    distance: 3.9
+  - from: '1141539'
+    from_name: 加賀笠間
+    to: '1141540'
+    to_name: 松任
+    time: 7
+    distance: 4.36
+  - from: '1141540'
+    from_name: 松任
+    to: '1141541'
+    to_name: 野々市
+    time: 5
+    distance: 3.29
+  - from: '1141541'
+    from_name: 野々市
+    to: '1141542'
+    to_name: 西金沢
+    time: 4
+    distance: 2.44
+  - from: '1141542'
+    from_name: 西金沢
+    to: '1141543'
+    to_name: 金沢
+    time: 6
+    distance: 3.67

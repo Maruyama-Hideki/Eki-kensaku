@@ -1,0 +1,198 @@
+line_code: '99817'
+line_name: ごめん線
+company: 土佐電気鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9981602'
+    from_name: 後免町
+    to: '9981702'
+    to_name: 後免東町
+    time: 2
+    distance: 0.3
+  - from: '9981702'
+    from_name: 後免東町
+    to: '9981703'
+    to_name: 後免中町
+    time: 2
+    distance: 0.27
+  - from: '9981703'
+    from_name: 後免中町
+    to: '9981704'
+    to_name: 後免西町
+    time: 2
+    distance: 0.27
+  - from: '9981704'
+    from_name: 後免西町
+    to: '9981705'
+    to_name: 東工業前
+    time: 2
+    distance: 0.39
+  - from: '9981705'
+    from_name: 東工業前
+    to: '9981706'
+    to_name: 住吉通
+    time: 2
+    distance: 0.18
+  - from: '9981706'
+    from_name: 住吉通
+    to: '9981707'
+    to_name: 篠原
+    time: 2
+    distance: 0.51
+  - from: '9981707'
+    from_name: 篠原
+    to: '9981708'
+    to_name: 小篭通
+    time: 2
+    distance: 0.49
+  - from: '9981708'
+    from_name: 小篭通
+    to: '9981709'
+    to_name: 長崎
+    time: 2
+    distance: 0.49
+  - from: '9981709'
+    from_name: 長崎
+    to: '9981710'
+    to_name: 明見橋
+    time: 2
+    distance: 0.3
+  - from: '9981710'
+    from_name: 明見橋
+    to: '1180130'
+    to_name: 土佐大津
+    time: 2
+    distance: 0.56
+  - from: '1180130'
+    from_name: 土佐大津
+    to: '9981712'
+    to_name: 清和学園前
+    time: 2
+    distance: 0.19
+  - from: '9981712'
+    from_name: 清和学園前
+    to: '9981713'
+    to_name: 領石通
+    time: 2
+    distance: 0.44
+  - from: '9981713'
+    from_name: 領石通
+    to: '9981714'
+    to_name: 北浦
+    time: 2
+    distance: 0.38
+  - from: '9981714'
+    from_name: 北浦
+    to: '9981715'
+    to_name: 舟戸
+    time: 2
+    distance: 0.52
+  - from: '9981715'
+    from_name: 舟戸
+    to: '9981716'
+    to_name: 鹿児
+    time: 2
+    distance: 0.44
+  - from: '9981716'
+    from_name: 鹿児
+    to: '9981717'
+    to_name: 田辺島通
+    time: 2
+    distance: 0.36
+  - from: '9981717'
+    from_name: 田辺島通
+    to: '9981718'
+    to_name: 東新木
+    time: 2
+    distance: 0.43
+  - from: '9981718'
+    from_name: 東新木
+    to: '9981719'
+    to_name: 新木
+    time: 2
+    distance: 0.3
+  - from: '9981719'
+    from_name: 新木
+    to: '9981720'
+    to_name: 介良通
+    time: 2
+    distance: 0.42
+  - from: '9981720'
+    from_name: 介良通
+    to: '9981721'
+    to_name: 文珠通
+    time: 2
+    distance: 0.37
+  - from: '9981721'
+    from_name: 文珠通
+    to: '9981722'
+    to_name: 高須
+    time: 2
+    distance: 0.26
+  - from: '9981722'
+    from_name: 高須
+    to: '9981723'
+    to_name: 県立美術館通
+    time: 2
+    distance: 0.1
+  - from: '9981723'
+    from_name: 県立美術館通
+    to: '9981724'
+    to_name: 西高須
+    time: 2
+    distance: 0.25
+  - from: '9981724'
+    from_name: 西高須
+    to: '9981725'
+    to_name: 葛島橋東詰
+    time: 2
+    distance: 0.35
+  - from: '9981725'
+    from_name: 葛島橋東詰
+    to: '9981726'
+    to_name: 知寄町三丁目
+    time: 2
+    distance: 0.43
+  - from: '9981726'
+    from_name: 知寄町三丁目
+    to: '9981727'
+    to_name: 知寄町
+    time: 2
+    distance: 0.32
+  - from: '9981727'
+    from_name: 知寄町
+    to: '9981728'
+    to_name: 知寄町二丁目
+    time: 2
+    distance: 0.17
+  - from: '9981728'
+    from_name: 知寄町二丁目
+    to: '9981729'
+    to_name: 知寄町一丁目
+    time: 2
+    distance: 0.3
+  - from: '9981729'
+    from_name: 知寄町一丁目
+    to: '9981730'
+    to_name: 宝永町
+    time: 2
+    distance: 0.28
+  - from: '9981730'
+    from_name: 宝永町
+    to: '9981731'
+    to_name: 菜園場町
+    time: 2
+    distance: 0.47
+  - from: '9981731'
+    from_name: 菜園場町
+    to: '9981732'
+    to_name: デンテツターミナルビル前
+    time: 2
+    distance: 0.25
+  - from: '9981732'
+    from_name: デンテツターミナルビル前
+    to: '9981733'
+    to_name: はりまや橋
+    time: 2
+    distance: 0.29

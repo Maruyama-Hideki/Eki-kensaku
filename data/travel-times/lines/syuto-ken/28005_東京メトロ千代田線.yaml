@@ -1,0 +1,120 @@
+line_code: '28005'
+line_name: 東京メトロ千代田線
+company: 東京メトロ
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '2800501'
+    from_name: 北綾瀬
+    to: '1132006'
+    to_name: 綾瀬
+    time: 4
+    distance: 1.77
+  - from: '1132006'
+    from_name: 綾瀬
+    to: '1132005'
+    to_name: 北千住
+    time: 4
+    distance: 2.29
+  - from: '1132005'
+    from_name: 北千住
+    to: '2300104'
+    to_name: 町屋
+    time: 4
+    distance: 2.26
+  - from: '2300104'
+    from_name: 町屋
+    to: '1130217'
+    to_name: 西日暮里
+    time: 4
+    distance: 1.76
+  - from: '1130217'
+    from_name: 西日暮里
+    to: '2800506'
+    to_name: 千駄木
+    time: 2
+    distance: 0.78
+  - from: '2800506'
+    from_name: 千駄木
+    to: '2800507'
+    to_name: 根津
+    time: 2
+    distance: 0.93
+  - from: '2800507'
+    from_name: 根津
+    to: '2800508'
+    to_name: 湯島
+    time: 2
+    distance: 1.09
+  - from: '2800508'
+    from_name: 湯島
+    to: '1131203'
+    to_name: 御茶ノ水
+    time: 2
+    distance: 1.06
+  - from: '1131203'
+    from_name: 御茶ノ水
+    to: '2800208'
+    to_name: 大手町
+    time: 3
+    distance: 1.45
+  - from: '2800208'
+    from_name: 大手町
+    to: '2800511'
+    to_name: 二重橋前
+    time: 2
+    distance: 0.72
+  - from: '2800511'
+    from_name: 二重橋前
+    to: '1130225'
+    to_name: 有楽町
+    time: 2
+    distance: 0.65
+  - from: '1130225'
+    from_name: 有楽町
+    to: '2800211'
+    to_name: 霞ケ関
+    time: 3
+    distance: 1.18
+  - from: '2800211'
+    from_name: 霞ケ関
+    to: '2800212'
+    to_name: 国会議事堂前
+    time: 2
+    distance: 0.51
+  - from: '2800212'
+    from_name: 国会議事堂前
+    to: '2800515'
+    to_name: 赤坂
+    time: 2
+    distance: 0.63
+  - from: '2800515'
+    from_name: 赤坂
+    to: '2800516'
+    to_name: 乃木坂
+    time: 3
+    distance: 1.32
+  - from: '2800516'
+    from_name: 乃木坂
+    to: '2800118'
+    to_name: 表参道
+    time: 3
+    distance: 1.26
+  - from: '2800118'
+    from_name: 表参道
+    to: '1130206'
+    to_name: 原宿
+    time: 2
+    distance: 1.06
+  - from: '1130206'
+    from_name: 原宿
+    to: '2500104'
+    to_name: 代々木八幡
+    time: 3
+    distance: 1.24
+  - from: '2500104'
+    from_name: 代々木八幡
+    to: '2500105'
+    to_name: 代々木上原
+    time: 2
+    distance: 0.79

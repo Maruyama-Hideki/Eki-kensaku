@@ -1,0 +1,402 @@
+line_code: '11202'
+line_name: JR奥羽本線(新庄～青森)
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1120201'
+    from_name: 新庄
+    to: '1120202'
+    to_name: 泉田
+    time: 9
+    distance: 5.48
+  - from: '1120202'
+    from_name: 泉田
+    to: '1120203'
+    to_name: 羽前豊里
+    time: 10
+    distance: 6.5
+  - from: '1120203'
+    from_name: 羽前豊里
+    to: '1120204'
+    to_name: 真室川
+    time: 4
+    distance: 2.63
+  - from: '1120204'
+    from_name: 真室川
+    to: '1120205'
+    to_name: 釜淵
+    time: 13
+    distance: 8.33
+  - from: '1120205'
+    from_name: 釜淵
+    to: '1120206'
+    to_name: 大滝
+    time: 10
+    distance: 6.5
+  - from: '1120206'
+    from_name: 大滝
+    to: '1120207'
+    to_name: 及位
+    time: 7
+    distance: 4.27
+  - from: '1120207'
+    from_name: 及位
+    to: '1120208'
+    to_name: 院内
+    time: 12
+    distance: 7.78
+  - from: '1120208'
+    from_name: 院内
+    to: '1120209'
+    to_name: 横堀
+    time: 6
+    distance: 3.63
+  - from: '1120209'
+    from_name: 横堀
+    to: '1120210'
+    to_name: 三関
+    time: 9
+    distance: 5.8
+  - from: '1120210'
+    from_name: 三関
+    to: '1120211'
+    to_name: 上湯沢
+    time: 5
+    distance: 2.67
+  - from: '1120211'
+    from_name: 上湯沢
+    to: '1120212'
+    to_name: 湯沢
+    time: 5
+    distance: 3.25
+  - from: '1120212'
+    from_name: 湯沢
+    to: '1120213'
+    to_name: 下湯沢
+    time: 6
+    distance: 3.98
+  - from: '1120213'
+    from_name: 下湯沢
+    to: '1120214'
+    to_name: 十文字
+    time: 6
+    distance: 3.36
+  - from: '1120214'
+    from_name: 十文字
+    to: '1120215'
+    to_name: 醍醐
+    time: 5
+    distance: 3.24
+  - from: '1120215'
+    from_name: 醍醐
+    to: '1120216'
+    to_name: 柳田
+    time: 6
+    distance: 3.35
+  - from: '1120216'
+    from_name: 柳田
+    to: '1120217'
+    to_name: 横手
+    time: 6
+    distance: 3.8
+  - from: '1120217'
+    from_name: 横手
+    to: '1120218'
+    to_name: 後三年
+    time: 10
+    distance: 6.37
+  - from: '1120218'
+    from_name: 後三年
+    to: '1120219'
+    to_name: 飯詰
+    time: 8
+    distance: 4.98
+  - from: '1120219'
+    from_name: 飯詰
+    to: '1120220'
+    to_name: 大曲
+    time: 11
+    distance: 7.31
+  - from: '1120220'
+    from_name: 大曲
+    to: '1120221'
+    to_name: 神宮寺
+    time: 9
+    distance: 5.59
+  - from: '1120221'
+    from_name: 神宮寺
+    to: '1120222'
+    to_name: 刈和野
+    time: 12
+    distance: 7.48
+  - from: '1120222'
+    from_name: 刈和野
+    to: '1120223'
+    to_name: 峰吉川
+    time: 8
+    distance: 4.72
+  - from: '1120223'
+    from_name: 峰吉川
+    to: '1120224'
+    to_name: 羽後境
+    time: 9
+    distance: 5.8
+  - from: '1120224'
+    from_name: 羽後境
+    to: '1120225'
+    to_name: 大張野
+    time: 10
+    distance: 6.37
+  - from: '1120225'
+    from_name: 大張野
+    to: '1120226'
+    to_name: 和田
+    time: 8
+    distance: 4.93
+  - from: '1120226'
+    from_name: 和田
+    to: '1120227'
+    to_name: 四ツ小屋
+    time: 10
+    distance: 6.42
+  - from: '1120227'
+    from_name: 四ツ小屋
+    to: '1120228'
+    to_name: 秋田
+    time: 10
+    distance: 6.29
+  - from: '1120228'
+    from_name: 秋田
+    to: '1120267'
+    to_name: 泉外旭川
+    time: 5
+    distance: 2.84
+  - from: '1120229'
+    from_name: 土崎
+    to: '1120230'
+    to_name: 上飯島
+    time: 4
+    distance: 2.36
+  - from: '1120230'
+    from_name: 上飯島
+    to: '1120231'
+    to_name: 追分
+    time: 6
+    distance: 3.52
+  - from: '1120231'
+    from_name: 追分
+    to: '1120232'
+    to_name: 大久保
+    time: 11
+    distance: 6.79
+  - from: '1120232'
+    from_name: 大久保
+    to: '1120233'
+    to_name: 羽後飯塚
+    time: 5
+    distance: 3.24
+  - from: '1120233'
+    from_name: 羽後飯塚
+    to: '1120234'
+    to_name: 井川さくら
+    time: 3
+    distance: 1.46
+  - from: '1120234'
+    from_name: 井川さくら
+    to: '1120235'
+    to_name: 八郎潟
+    time: 6
+    distance: 3.95
+  - from: '1120235'
+    from_name: 八郎潟
+    to: '1120236'
+    to_name: 鯉川
+    time: 9
+    distance: 5.45
+  - from: '1120236'
+    from_name: 鯉川
+    to: '1120237'
+    to_name: 鹿渡
+    time: 9
+    distance: 5.38
+  - from: '1120237'
+    from_name: 鹿渡
+    to: '1120238'
+    to_name: 森岳
+    time: 10
+    distance: 6.59
+  - from: '1120238'
+    from_name: 森岳
+    to: '1120239'
+    to_name: 北金岡
+    time: 7
+    distance: 4.35
+  - from: '1120239'
+    from_name: 北金岡
+    to: '1120240'
+    to_name: 東能代
+    time: 9
+    distance: 5.53
+  - from: '1120240'
+    from_name: 東能代
+    to: '1120241'
+    to_name: 鶴形
+    time: 8
+    distance: 4.69
+  - from: '1120241'
+    from_name: 鶴形
+    to: '1120242'
+    to_name: 富根
+    time: 8
+    distance: 4.86
+  - from: '1120242'
+    from_name: 富根
+    to: '1120243'
+    to_name: 二ツ井
+    time: 9
+    distance: 5.39
+  - from: '1120243'
+    from_name: 二ツ井
+    to: '1120244'
+    to_name: 前山
+    time: 10
+    distance: 6.51
+  - from: '1120244'
+    from_name: 前山
+    to: '1120245'
+    to_name: 鷹ノ巣
+    time: 8
+    distance: 5.24
+  - from: '1120245'
+    from_name: 鷹ノ巣
+    to: '1120246'
+    to_name: 糠沢
+    time: 5
+    distance: 3.18
+  - from: '1120246'
+    from_name: 糠沢
+    to: '1120247'
+    to_name: 早口
+    time: 8
+    distance: 4.78
+  - from: '1120247'
+    from_name: 早口
+    to: '1120248'
+    to_name: 下川沿
+    time: 7
+    distance: 4.2
+  - from: '1120248'
+    from_name: 下川沿
+    to: '1120249'
+    to_name: 大館
+    time: 8
+    distance: 5.2
+  - from: '1120249'
+    from_name: 大館
+    to: '1120250'
+    to_name: 白沢
+    time: 10
+    distance: 6.33
+  - from: '1120250'
+    from_name: 白沢
+    to: '1120251'
+    to_name: 陣場
+    time: 11
+    distance: 6.89
+  - from: '1120251'
+    from_name: 陣場
+    to: '1120252'
+    to_name: 津軽湯の沢
+    time: 8
+    distance: 5.21
+  - from: '1120252'
+    from_name: 津軽湯の沢
+    to: '1120253'
+    to_name: 碇ケ関
+    time: 7
+    distance: 4.21
+  - from: '1120253'
+    from_name: 碇ケ関
+    to: '1120254'
+    to_name: 長峰
+    time: 7
+    distance: 4.44
+  - from: '1120254'
+    from_name: 長峰
+    to: '1120255'
+    to_name: 大鰐温泉
+    time: 5
+    distance: 3.12
+  - from: '1120255'
+    from_name: 大鰐温泉
+    to: '1120256'
+    to_name: 石川
+    time: 8
+    distance: 4.89
+  - from: '1120256'
+    from_name: 石川
+    to: '1120257'
+    to_name: 弘前
+    time: 10
+    distance: 6.22
+  - from: '1120257'
+    from_name: 弘前
+    to: '1120258'
+    to_name: 撫牛子
+    time: 4
+    distance: 2.62
+  - from: '1120258'
+    from_name: 撫牛子
+    to: '1120259'
+    to_name: 川部
+    time: 6
+    distance: 3.48
+  - from: '1120259'
+    from_name: 川部
+    to: '1120260'
+    to_name: 北常盤
+    time: 5
+    distance: 3.23
+  - from: '1120260'
+    from_name: 北常盤
+    to: '1120261'
+    to_name: 浪岡
+    time: 9
+    distance: 5.41
+  - from: '1120261'
+    from_name: 浪岡
+    to: '1120262'
+    to_name: 大釈迦
+    time: 8
+    distance: 5.21
+  - from: '1120262'
+    from_name: 大釈迦
+    to: '1120263'
+    to_name: 鶴ケ坂
+    time: 9
+    distance: 5.52
+  - from: '1120263'
+    from_name: 鶴ケ坂
+    to: '1120264'
+    to_name: 津軽新城
+    time: 8
+    distance: 5.15
+  - from: '1120264'
+    from_name: 津軽新城
+    to: '1120265'
+    to_name: 新青森
+    time: 3
+    distance: 1.81
+  - from: '1120265'
+    from_name: 新青森
+    to: '1120120'
+    to_name: 青森
+    time: 6
+    distance: 3.47
+  - from: '1120267'
+    from_name: 泉外旭川
+    to: '1120229'
+    to_name: 土崎
+    time: 6
+    distance: 3.98

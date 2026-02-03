@@ -1,0 +1,60 @@
+line_code: '99915'
+line_name: 長崎電軌４系統
+company: 長崎電気軌道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9991401'
+    from_name: 蛍茶屋
+    to: '9991402'
+    to_name: 新中川町
+    time: 2
+    distance: 0.38
+  - from: '9991402'
+    from_name: 新中川町
+    to: '9991403'
+    to_name: 新大工町
+    time: 2
+    distance: 0.35
+  - from: '9991403'
+    from_name: 新大工町
+    to: '9991404'
+    to_name: 諏訪神社
+    time: 2
+    distance: 0.25
+  - from: '9991404'
+    from_name: 諏訪神社
+    to: '9991405'
+    to_name: 市民会館
+    time: 2
+    distance: 0.48
+  - from: '9991405'
+    from_name: 市民会館
+    to: '9991506'
+    to_name: めがね橋
+    time: 2
+    distance: 0.37
+  - from: '9991506'
+    from_name: めがね橋
+    to: '9991511'
+    to_name: 浜町アーケード
+    time: 2
+    distance: 0.26
+  - from: '9991324'
+    from_name: 観光通
+    to: '9991325'
+    to_name: 思案橋
+    time: 2
+    distance: 0.25
+  - from: '9991325'
+    from_name: 思案橋
+    to: '9991326'
+    to_name: 崇福寺
+    time: 2
+    distance: 0.23
+  - from: '9991511'
+    from_name: 浜町アーケード
+    to: '9991324'
+    to_name: 観光通
+    time: 2
+    distance: 0.17

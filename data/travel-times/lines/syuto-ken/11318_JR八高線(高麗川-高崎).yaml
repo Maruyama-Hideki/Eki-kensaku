@@ -1,0 +1,96 @@
+line_code: '11318'
+line_name: JR八高線(高麗川～高崎)
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1131709'
+    from_name: 高麗川
+    to: '1131802'
+    to_name: 毛呂
+    time: 9
+    distance: 5.59
+  - from: '1131802'
+    from_name: 毛呂
+    to: '1131803'
+    to_name: 越生
+    time: 4
+    distance: 2.57
+  - from: '1131803'
+    from_name: 越生
+    to: '1131804'
+    to_name: 明覚
+    time: 7
+    distance: 4.63
+  - from: '1131804'
+    from_name: 明覚
+    to: '1131805'
+    to_name: 小川町
+    time: 11
+    distance: 6.7
+  - from: '1131805'
+    from_name: 小川町
+    to: '1131806'
+    to_name: 竹沢
+    time: 5
+    distance: 3.29
+  - from: '1131806'
+    from_name: 竹沢
+    to: '1131807'
+    to_name: 折原
+    time: 6
+    distance: 3.89
+  - from: '1131807'
+    from_name: 折原
+    to: '1131808'
+    to_name: 寄居
+    time: 4
+    distance: 2.42
+  - from: '1131808'
+    from_name: 寄居
+    to: '1131809'
+    to_name: 用土
+    time: 7
+    distance: 4.03
+  - from: '1131809'
+    from_name: 用土
+    to: '1131810'
+    to_name: 松久
+    time: 5
+    distance: 2.7
+  - from: '1131810'
+    from_name: 松久
+    to: '1131811'
+    to_name: 児玉
+    time: 8
+    distance: 4.7
+  - from: '1131811'
+    from_name: 児玉
+    to: '1131812'
+    to_name: 丹荘
+    time: 7
+    distance: 4.02
+  - from: '1131812'
+    from_name: 丹荘
+    to: '1131813'
+    to_name: 群馬藤岡
+    time: 7
+    distance: 4.11
+  - from: '1131813'
+    from_name: 群馬藤岡
+    to: '1131814'
+    to_name: 北藤岡
+    time: 6
+    distance: 3.58
+  - from: '1131814'
+    from_name: 北藤岡
+    to: '1131815'
+    to_name: 倉賀野
+    time: 6
+    distance: 3.43
+  - from: '1131815'
+    from_name: 倉賀野
+    to: '1131816'
+    to_name: 高崎
+    time: 7
+    distance: 4.13

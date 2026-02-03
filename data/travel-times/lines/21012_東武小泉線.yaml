@@ -1,0 +1,54 @@
+line_code: '21012'
+line_name: 東武小泉線
+company: 東武鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2100240'
+    from_name: 館林
+    to: '2101202'
+    to_name: 成島
+    time: 4
+    distance: 2
+  - from: '2101202'
+    from_name: 成島
+    to: '2101203'
+    to_name: 本中野
+    time: 6
+    distance: 3.4
+  - from: '2101203'
+    from_name: 本中野
+    to: '2101204'
+    to_name: 篠塚
+    time: 4
+    distance: 2.11
+  - from: '2101204'
+    from_name: 篠塚
+    to: '2101205'
+    to_name: 東小泉
+    time: 3
+    distance: 1.61
+  - from: '2101205'
+    from_name: 東小泉
+    to: '2101206'
+    to_name: 小泉町
+    time: 2
+    distance: 0.77
+  - from: '2101205'
+    from_name: 東小泉
+    to: '2101209'
+    to_name: 竜舞
+    time: 5
+    distance: 2.76
+  - from: '2101206'
+    from_name: 小泉町
+    to: '2101207'
+    to_name: 西小泉
+    time: 2
+    distance: 1.09
+  - from: '2101209'
+    from_name: 竜舞
+    to: '2100248'
+    to_name: 太田
+    time: 5
+    distance: 3.2

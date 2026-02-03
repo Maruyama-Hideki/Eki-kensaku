@@ -1,0 +1,36 @@
+line_code: '11910'
+line_name: 若松線
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1191001'
+    from_name: 若松
+    to: '1191002'
+    to_name: 藤ノ木
+    time: 4
+    distance: 2.42
+  - from: '1191002'
+    from_name: 藤ノ木
+    to: '1191003'
+    to_name: 奥洞海
+    time: 3
+    distance: 1.63
+  - from: '1191003'
+    from_name: 奥洞海
+    to: '1191004'
+    to_name: 二島
+    time: 3
+    distance: 1.52
+  - from: '1191004'
+    from_name: 二島
+    to: '1191005'
+    to_name: 本城
+    time: 5
+    distance: 2.86
+  - from: '1191005'
+    from_name: 本城
+    to: '1190214'
+    to_name: 折尾
+    time: 3
+    distance: 1.57

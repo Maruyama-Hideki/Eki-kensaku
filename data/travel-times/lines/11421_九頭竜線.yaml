@@ -1,0 +1,138 @@
+line_code: '11421'
+line_name: 九頭竜線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1141523'
+    from_name: 福井
+    to: '1141522'
+    to_name: 越前花堂
+    time: 4
+    distance: 2.64
+  - from: '1141522'
+    from_name: 越前花堂
+    to: '1142103'
+    to_name: 六条
+    time: 4
+    distance: 2.27
+  - from: '1142103'
+    from_name: 六条
+    to: '1142104'
+    to_name: 足羽
+    time: 3
+    distance: 1.5
+  - from: '1142104'
+    from_name: 足羽
+    to: '1142105'
+    to_name: 越前東郷
+    time: 3
+    distance: 1.82
+  - from: '1142105'
+    from_name: 越前東郷
+    to: '1142106'
+    to_name: 一乗谷
+    time: 4
+    distance: 2.2
+  - from: '1142106'
+    from_name: 一乗谷
+    to: '1142107'
+    to_name: 越前高田
+    time: 4
+    distance: 2.28
+  - from: '1142107'
+    from_name: 越前高田
+    to: '1142108'
+    to_name: 市波
+    time: 2
+    distance: 1.19
+  - from: '1142108'
+    from_name: 市波
+    to: '1142109'
+    to_name: 小和清水
+    time: 3
+    distance: 1.88
+  - from: '1142109'
+    from_name: 小和清水
+    to: '1142110'
+    to_name: 美山
+    time: 4
+    distance: 2.44
+  - from: '1142110'
+    from_name: 美山
+    to: '1142111'
+    to_name: 越前薬師
+    time: 3
+    distance: 1.89
+  - from: '1142111'
+    from_name: 越前薬師
+    to: '1142112'
+    to_name: 越前大宮
+    time: 4
+    distance: 2.35
+  - from: '1142112'
+    from_name: 越前大宮
+    to: '1142113'
+    to_name: 計石
+    time: 4
+    distance: 2.27
+  - from: '1142113'
+    from_name: 計石
+    to: '1142114'
+    to_name: 牛ケ原
+    time: 5
+    distance: 2.93
+  - from: '1142114'
+    from_name: 牛ケ原
+    to: '1142115'
+    to_name: 北大野
+    time: 3
+    distance: 1.85
+  - from: '1142115'
+    from_name: 北大野
+    to: '1142116'
+    to_name: 越前大野
+    time: 3
+    distance: 1.82
+  - from: '1142116'
+    from_name: 越前大野
+    to: '1142117'
+    to_name: 越前田野
+    time: 5
+    distance: 2.73
+  - from: '1142117'
+    from_name: 越前田野
+    to: '1142118'
+    to_name: 越前富田
+    time: 3
+    distance: 1.36
+  - from: '1142118'
+    from_name: 越前富田
+    to: '1142119'
+    to_name: 下唯野
+    time: 4
+    distance: 2.53
+  - from: '1142119'
+    from_name: 下唯野
+    to: '1142120'
+    to_name: 柿ケ島
+    time: 2
+    distance: 0.98
+  - from: '1142120'
+    from_name: 柿ケ島
+    to: '1142121'
+    to_name: 勝原
+    time: 4
+    distance: 2.42
+  - from: '1142121'
+    from_name: 勝原
+    to: '1142122'
+    to_name: 越前下山
+    time: 10
+    distance: 6.25
+  - from: '1142122'
+    from_name: 越前下山
+    to: '1142123'
+    to_name: 九頭竜湖
+    time: 5
+    distance: 2.98

@@ -1,0 +1,96 @@
+line_code: '11213'
+line_name: JR山田線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1123185'
+    from_name: 盛岡
+    to: '1121302'
+    to_name: 上盛岡
+    time: 3
+    distance: 1.47
+  - from: '1121302'
+    from_name: 上盛岡
+    to: '1121303'
+    to_name: 山岸
+    time: 4
+    distance: 2.07
+  - from: '1121303'
+    from_name: 山岸
+    to: '1121304'
+    to_name: 上米内
+    time: 7
+    distance: 4.16
+  - from: '1121304'
+    from_name: 上米内
+    to: '1121307'
+    to_name: 区界
+    time: 25
+    distance: 16.25
+  - from: '1121307'
+    from_name: 区界
+    to: '1121308'
+    to_name: 松草
+    time: 12
+    distance: 7.58
+  - from: '1121308'
+    from_name: 松草
+    to: '1121309'
+    to_name: 平津戸
+    time: 10
+    distance: 6.47
+  - from: '1121309'
+    from_name: 平津戸
+    to: '1121310'
+    to_name: 川内
+    time: 12
+    distance: 7.64
+  - from: '1121310'
+    from_name: 川内
+    to: '1121311'
+    to_name: 箱石
+    time: 6
+    distance: 3.57
+  - from: '1121311'
+    from_name: 箱石
+    to: '1121312'
+    to_name: 陸中川井
+    time: 8
+    distance: 5.25
+  - from: '1121312'
+    from_name: 陸中川井
+    to: '1121313'
+    to_name: 腹帯
+    time: 12
+    distance: 7.4
+  - from: '1121313'
+    from_name: 腹帯
+    to: '1120701'
+    to_name: 茂市
+    time: 5
+    distance: 3.26
+  - from: '1120701'
+    from_name: 茂市
+    to: '1121315'
+    to_name: 蟇目
+    time: 6
+    distance: 3.53
+  - from: '1121315'
+    from_name: 蟇目
+    to: '1121316'
+    to_name: 花原市
+    time: 3
+    distance: 1.92
+  - from: '1121316'
+    from_name: 花原市
+    to: '1121317'
+    to_name: 千徳
+    time: 7
+    distance: 4.38
+  - from: '1121317'
+    from_name: 千徳
+    to: '1121318'
+    to_name: 宮古
+    time: 5
+    distance: 3.05

@@ -1,0 +1,342 @@
+line_code: '11806'
+line_name: JR予讃線
+company: JR四国
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1180201'
+    from_name: 高松
+    to: '1180602'
+    to_name: 香西
+    time: 6
+    distance: 3.59
+  - from: '1180602'
+    from_name: 香西
+    to: '1180603'
+    to_name: 鬼無
+    time: 4
+    distance: 2.25
+  - from: '1180603'
+    from_name: 鬼無
+    to: '1180604'
+    to_name: 端岡
+    time: 5
+    distance: 3.28
+  - from: '1180604'
+    from_name: 端岡
+    to: '1180605'
+    to_name: 国分
+    time: 4
+    distance: 2.47
+  - from: '1180605'
+    from_name: 国分
+    to: '1180606'
+    to_name: 讃岐府中
+    time: 3
+    distance: 1.93
+  - from: '1180606'
+    from_name: 讃岐府中
+    to: '1180607'
+    to_name: 鴨川
+    time: 4
+    distance: 2.42
+  - from: '1180607'
+    from_name: 鴨川
+    to: '1180608'
+    to_name: 八十場
+    time: 4
+    distance: 2
+  - from: '1180608'
+    from_name: 八十場
+    to: '1180609'
+    to_name: 坂出
+    time: 4
+    distance: 2.57
+  - from: '1180609'
+    from_name: 坂出
+    to: '1171006'
+    to_name: 宇多津
+    time: 7
+    distance: 4.04
+  - from: '1171006'
+    from_name: 宇多津
+    to: '1180611'
+    to_name: 丸亀
+    time: 4
+    distance: 2.38
+  - from: '1180611'
+    from_name: 丸亀
+    to: '1180612'
+    to_name: 讃岐塩屋
+    time: 3
+    distance: 1.71
+  - from: '1180612'
+    from_name: 讃岐塩屋
+    to: '1180101'
+    to_name: 多度津
+    time: 4
+    distance: 2.42
+  - from: '1180101'
+    from_name: 多度津
+    to: '1180614'
+    to_name: 海岸寺
+    time: 5
+    distance: 3.19
+  - from: '1180614'
+    from_name: 海岸寺
+    to: '1180615'
+    to_name: 津島ノ宮
+    time: 5
+    distance: 2.9
+  - from: '1180615'
+    from_name: 津島ノ宮
+    to: '1180616'
+    to_name: 詫間
+    time: 4
+    distance: 2.16
+  - from: '1180616'
+    from_name: 詫間
+    to: '1180617'
+    to_name: みの
+    time: 4
+    distance: 2.4
+  - from: '1180617'
+    from_name: みの
+    to: '1180618'
+    to_name: 高瀬
+    time: 4
+    distance: 2.4
+  - from: '1180618'
+    from_name: 高瀬
+    to: '1180619'
+    to_name: 比地大
+    time: 5
+    distance: 2.73
+  - from: '1180619'
+    from_name: 比地大
+    to: '1180620'
+    to_name: 本山
+    time: 4
+    distance: 2.28
+  - from: '1180620'
+    from_name: 本山
+    to: '1180621'
+    to_name: 観音寺
+    time: 6
+    distance: 3.75
+  - from: '1180621'
+    from_name: 観音寺
+    to: '1180622'
+    to_name: 豊浜
+    time: 8
+    distance: 4.99
+  - from: '1180622'
+    from_name: 豊浜
+    to: '1180623'
+    to_name: 箕浦
+    time: 7
+    distance: 4.3
+  - from: '1180623'
+    from_name: 箕浦
+    to: '1180624'
+    to_name: 川之江
+    time: 9
+    distance: 5.43
+  - from: '1180624'
+    from_name: 川之江
+    to: '1180625'
+    to_name: 伊予三島
+    time: 8
+    distance: 5.02
+  - from: '1180625'
+    from_name: 伊予三島
+    to: '1180626'
+    to_name: 伊予寒川
+    time: 7
+    distance: 4.11
+  - from: '1180626'
+    from_name: 伊予寒川
+    to: '1180627'
+    to_name: 赤星
+    time: 7
+    distance: 4.04
+  - from: '1180627'
+    from_name: 赤星
+    to: '1180628'
+    to_name: 伊予土居
+    time: 5
+    distance: 2.73
+  - from: '1180628'
+    from_name: 伊予土居
+    to: '1180629'
+    to_name: 関川
+    time: 5
+    distance: 3.3
+  - from: '1180629'
+    from_name: 関川
+    to: '1180630'
+    to_name: 多喜浜
+    time: 10
+    distance: 6.45
+  - from: '1180630'
+    from_name: 多喜浜
+    to: '1180631'
+    to_name: 新居浜
+    time: 6
+    distance: 3.75
+  - from: '1180631'
+    from_name: 新居浜
+    to: '1180632'
+    to_name: 中萩
+    time: 7
+    distance: 4.53
+  - from: '1180632'
+    from_name: 中萩
+    to: '1180633'
+    to_name: 伊予西条
+    time: 10
+    distance: 6.19
+  - from: '1180633'
+    from_name: 伊予西条
+    to: '1180634'
+    to_name: 石鎚山
+    time: 6
+    distance: 3.37
+  - from: '1180634'
+    from_name: 石鎚山
+    to: '1180635'
+    to_name: 伊予氷見
+    time: 4
+    distance: 2.48
+  - from: '1180635'
+    from_name: 伊予氷見
+    to: '1180636'
+    to_name: 伊予小松
+    time: 2
+    distance: 1.31
+  - from: '1180636'
+    from_name: 伊予小松
+    to: '1180637'
+    to_name: 玉之江
+    time: 4
+    distance: 2.36
+  - from: '1180637'
+    from_name: 玉之江
+    to: '1180638'
+    to_name: 壬生川
+    time: 4
+    distance: 2.25
+  - from: '1180638'
+    from_name: 壬生川
+    to: '1180639'
+    to_name: 伊予三芳
+    time: 6
+    distance: 3.37
+  - from: '1180639'
+    from_name: 伊予三芳
+    to: '1180640'
+    to_name: 伊予桜井
+    time: 11
+    distance: 6.93
+  - from: '1180640'
+    from_name: 伊予桜井
+    to: '1180641'
+    to_name: 伊予富田
+    time: 6
+    distance: 3.64
+  - from: '1180641'
+    from_name: 伊予富田
+    to: '1180642'
+    to_name: 今治
+    time: 6
+    distance: 3.36
+  - from: '1180642'
+    from_name: 今治
+    to: '1180643'
+    to_name: 波止浜
+    time: 7
+    distance: 4.46
+  - from: '1180643'
+    from_name: 波止浜
+    to: '1180644'
+    to_name: 波方
+    time: 4
+    distance: 2.43
+  - from: '1180644'
+    from_name: 波方
+    to: '1180645'
+    to_name: 大西
+    time: 6
+    distance: 3.46
+  - from: '1180645'
+    from_name: 大西
+    to: '1180646'
+    to_name: 伊予亀岡
+    time: 8
+    distance: 5.27
+  - from: '1180646'
+    from_name: 伊予亀岡
+    to: '1180647'
+    to_name: 菊間
+    time: 6
+    distance: 3.79
+  - from: '1180647'
+    from_name: 菊間
+    to: '1180648'
+    to_name: 浅海
+    time: 7
+    distance: 4.37
+  - from: '1180648'
+    from_name: 浅海
+    to: '1180649'
+    to_name: 大浦
+    time: 5
+    distance: 2.77
+  - from: '1180649'
+    from_name: 大浦
+    to: '1180650'
+    to_name: 伊予北条
+    time: 5
+    distance: 3.01
+  - from: '1180650'
+    from_name: 伊予北条
+    to: '1180651'
+    to_name: 柳原
+    time: 4
+    distance: 2.16
+  - from: '1180651'
+    from_name: 柳原
+    to: '1180652'
+    to_name: 粟井
+    time: 2
+    distance: 1.2
+  - from: '1180652'
+    from_name: 粟井
+    to: '1180653'
+    to_name: 光洋台
+    time: 3
+    distance: 2
+  - from: '1180653'
+    from_name: 光洋台
+    to: '1180654'
+    to_name: 堀江
+    time: 4
+    distance: 2.48
+  - from: '1180654'
+    from_name: 堀江
+    to: '1180655'
+    to_name: 伊予和気
+    time: 4
+    distance: 2.13
+  - from: '1180655'
+    from_name: 伊予和気
+    to: '1180656'
+    to_name: 三津浜
+    time: 5
+    distance: 3.31
+  - from: '1180656'
+    from_name: 三津浜
+    to: '1180657'
+    to_name: 松山
+    time: 5
+    distance: 3.16

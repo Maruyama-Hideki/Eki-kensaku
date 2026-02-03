@@ -1,0 +1,42 @@
+line_code: '26006'
+line_name: 東急多摩川線
+company: 東急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2600109'
+    from_name: 多摩川
+    to: '2600602'
+    to_name: 沼部
+    time: 2
+    distance: 0.89
+  - from: '2600602'
+    from_name: 沼部
+    to: '2600603'
+    to_name: 鵜の木
+    time: 2
+    distance: 1.03
+  - from: '2600603'
+    from_name: 鵜の木
+    to: '2600604'
+    to_name: 下丸子
+    time: 2
+    distance: 0.64
+  - from: '2600604'
+    from_name: 下丸子
+    to: '2600605'
+    to_name: 武蔵新田
+    time: 2
+    distance: 0.74
+  - from: '2600605'
+    from_name: 武蔵新田
+    to: '2600606'
+    to_name: 矢口渡
+    time: 2
+    distance: 0.93
+  - from: '2600606'
+    from_name: 矢口渡
+    to: '1133230'
+    to_name: 蒲田
+    time: 3
+    distance: 1.42

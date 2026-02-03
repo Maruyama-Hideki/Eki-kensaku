@@ -1,0 +1,78 @@
+line_code: '11722'
+line_name: JR美祢線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1161230'
+    from_name: 厚狭
+    to: '1172202'
+    to_name: 湯ノ峠
+    time: 6
+    distance: 3.77
+  - from: '1172202'
+    from_name: 湯ノ峠
+    to: '1172203'
+    to_name: 厚保
+    time: 6
+    distance: 3.55
+  - from: '1172203'
+    from_name: 厚保
+    to: '1172204'
+    to_name: 四郎ケ原
+    time: 5
+    distance: 2.7
+  - from: '1172204'
+    from_name: 四郎ケ原
+    to: '1172205'
+    to_name: 南大嶺
+    time: 6
+    distance: 3.46
+  - from: '1172205'
+    from_name: 南大嶺
+    to: '1172206'
+    to_name: 美祢
+    time: 3
+    distance: 1.92
+  - from: '1172206'
+    from_name: 美祢
+    to: '1172207'
+    to_name: 重安
+    time: 5
+    distance: 2.84
+  - from: '1172207'
+    from_name: 重安
+    to: '1172208'
+    to_name: 於福
+    time: 8
+    distance: 4.68
+  - from: '1172208'
+    from_name: 於福
+    to: '1172209'
+    to_name: 渋木
+    time: 13
+    distance: 8.43
+  - from: '1172209'
+    from_name: 渋木
+    to: '1172210'
+    to_name: 長門湯本
+    time: 6
+    distance: 3.37
+  - from: '1172210'
+    from_name: 長門湯本
+    to: '1172211'
+    to_name: 板持
+    time: 4
+    distance: 2.14
+  - from: '1172211'
+    from_name: 板持
+    to: '1170217'
+    to_name: 長門市
+    time: 4
+    distance: 2.59
+  - from: '1170217'
+    from_name: 長門市
+    to: '1172213'
+    to_name: 仙崎
+    time: 3
+    distance: 1.84

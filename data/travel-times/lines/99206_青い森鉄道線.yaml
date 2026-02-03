@@ -1,0 +1,162 @@
+line_code: '99206'
+line_name: 青い森鉄道線
+company: 青い森鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1120102'
+    from_name: 陸奥市川
+    to: '1120103'
+    to_name: 下田
+    time: 7
+    distance: 4.15
+  - from: '1120103'
+    from_name: 下田
+    to: '1120104'
+    to_name: 向山
+    time: 8
+    distance: 5.25
+  - from: '1120104'
+    from_name: 向山
+    to: '1120105'
+    to_name: 三沢
+    time: 8
+    distance: 4.69
+  - from: '1120105'
+    from_name: 三沢
+    to: '1120106'
+    to_name: 小川原
+    time: 10
+    distance: 6.37
+  - from: '1120106'
+    from_name: 小川原
+    to: '1120107'
+    to_name: 上北町
+    time: 6
+    distance: 3.91
+  - from: '1120107'
+    from_name: 上北町
+    to: '1120108'
+    to_name: 乙供
+    time: 11
+    distance: 6.83
+  - from: '1120108'
+    from_name: 乙供
+    to: '1120109'
+    to_name: 千曳
+    time: 9
+    distance: 5.74
+  - from: '1120109'
+    from_name: 千曳
+    to: '1120110'
+    to_name: 野辺地
+    time: 10
+    distance: 6.27
+  - from: '1120110'
+    from_name: 野辺地
+    to: '1120111'
+    to_name: 狩場沢
+    time: 10
+    distance: 6.46
+  - from: '1120111'
+    from_name: 狩場沢
+    to: '1120112'
+    to_name: 清水川
+    time: 7
+    distance: 4.59
+  - from: '1120112'
+    from_name: 清水川
+    to: '1120113'
+    to_name: 小湊
+    time: 10
+    distance: 6
+  - from: '1120113'
+    from_name: 小湊
+    to: '1120114'
+    to_name: 西平内
+    time: 6
+    distance: 3.66
+  - from: '1120114'
+    from_name: 西平内
+    to: '1120115'
+    to_name: 浅虫温泉
+    time: 8
+    distance: 5.24
+  - from: '1120115'
+    from_name: 浅虫温泉
+    to: '1120116'
+    to_name: 野内
+    time: 10
+    distance: 6.27
+  - from: '1120116'
+    from_name: 野内
+    to: '1120117'
+    to_name: 矢田前
+    time: 3
+    distance: 1.61
+  - from: '1120117'
+    from_name: 矢田前
+    to: '1120118'
+    to_name: 小柳
+    time: 3
+    distance: 1.88
+  - from: '1120118'
+    from_name: 小柳
+    to: '1120119'
+    to_name: 東青森
+    time: 3
+    distance: 1.6
+  - from: '1120119'
+    from_name: 東青森
+    to: '9920608'
+    to_name: 筒井
+    time: 2
+    distance: 1.16
+  - from: '9920518'
+    from_name: 目時
+    to: '9920602'
+    to_name: 三戸
+    time: 8
+    distance: 5.09
+  - from: '9920602'
+    from_name: 三戸
+    to: '9920603'
+    to_name: 諏訪ノ平
+    time: 6
+    distance: 3.39
+  - from: '9920603'
+    from_name: 諏訪ノ平
+    to: '9920604'
+    to_name: 剣吉
+    time: 8
+    distance: 5.21
+  - from: '9920604'
+    from_name: 剣吉
+    to: '9920605'
+    to_name: 苫米地
+    time: 5
+    distance: 3.1
+  - from: '9920605'
+    from_name: 苫米地
+    to: '9920606'
+    to_name: 北高岩
+    time: 5
+    distance: 2.72
+  - from: '9920606'
+    from_name: 北高岩
+    to: '1120601'
+    to_name: 八戸
+    time: 7
+    distance: 4.39
+  - from: '1120601'
+    from_name: 八戸
+    to: '1120102'
+    to_name: 陸奥市川
+    time: 10
+    distance: 6.04
+  - from: '9920608'
+    from_name: 筒井
+    to: '1120120'
+    to_name: 青森
+    time: 6
+    distance: 3.93

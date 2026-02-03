@@ -1,0 +1,30 @@
+line_code: '99627'
+line_name: 大阪モノレール彩都線
+company: 大阪モノレール株式会社
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9962607'
+    from_name: 万博記念公園
+    to: '9962702'
+    to_name: 公園東口
+    time: 2
+    distance: 0.92
+  - from: '9962702'
+    from_name: 公園東口
+    to: '9962703'
+    to_name: 阪大病院前
+    time: 2
+    distance: 1.23
+  - from: '9962703'
+    from_name: 阪大病院前
+    to: '9962704'
+    to_name: 豊川
+    time: 3
+    distance: 1.82
+  - from: '9962704'
+    from_name: 豊川
+    to: '9962705'
+    to_name: 彩都西
+    time: 4
+    distance: 2.35

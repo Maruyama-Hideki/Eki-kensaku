@@ -1,0 +1,30 @@
+line_code: '31019'
+line_name: 近鉄鈴鹿線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3101901'
+    from_name: 伊勢若松
+    to: '3101902'
+    to_name: 柳
+    time: 3
+    distance: 1.91
+  - from: '3101902'
+    from_name: 柳
+    to: '3101903'
+    to_name: 鈴鹿市
+    time: 3
+    distance: 1.84
+  - from: '3101903'
+    from_name: 鈴鹿市
+    to: '3101904'
+    to_name: 三日市
+    time: 3
+    distance: 1.91
+  - from: '3101904'
+    from_name: 三日市
+    to: '3101905'
+    to_name: 平田町
+    time: 3
+    distance: 1.9

@@ -1,0 +1,42 @@
+line_code: '11329'
+line_name: JR鹿島線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1132710'
+    from_name: 佐原
+    to: '1132711'
+    to_name: 香取
+    time: 6
+    distance: 3.47
+  - from: '1132711'
+    from_name: 香取
+    to: '1132903'
+    to_name: 十二橋
+    time: 4
+    distance: 2.44
+  - from: '1132903'
+    from_name: 十二橋
+    to: '1132904'
+    to_name: 潮来
+    time: 4
+    distance: 2.24
+  - from: '1132904'
+    from_name: 潮来
+    to: '1132905'
+    to_name: 延方
+    time: 7
+    distance: 4.25
+  - from: '1132905'
+    from_name: 延方
+    to: '1132906'
+    to_name: 鹿島神宮
+    time: 6
+    distance: 3.6
+  - from: '1132906'
+    from_name: 鹿島神宮
+    to: '1132907'
+    to_name: 鹿島サッカースタジアム（臨）
+    time: 4
+    distance: 2.63

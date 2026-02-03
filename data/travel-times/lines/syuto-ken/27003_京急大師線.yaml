@@ -1,0 +1,42 @@
+line_code: '27003'
+line_name: 京急大師線
+company: 京急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2700115'
+    from_name: 京急川崎
+    to: '2700302'
+    to_name: 港町
+    time: 2
+    distance: 1.08
+  - from: '2700302'
+    from_name: 港町
+    to: '2700303'
+    to_name: 鈴木町
+    time: 2
+    distance: 0.73
+  - from: '2700303'
+    from_name: 鈴木町
+    to: '2700304'
+    to_name: 川崎大師
+    time: 2
+    distance: 0.48
+  - from: '2700304'
+    from_name: 川崎大師
+    to: '2700305'
+    to_name: 東門前
+    time: 2
+    distance: 0.76
+  - from: '2700305'
+    from_name: 東門前
+    to: '2700306'
+    to_name: 大師橋
+    time: 2
+    distance: 0.55
+  - from: '2700306'
+    from_name: 大師橋
+    to: '2700307'
+    to_name: 小島新田
+    time: 2
+    distance: 0.68

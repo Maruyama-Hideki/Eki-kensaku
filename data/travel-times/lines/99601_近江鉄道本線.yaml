@@ -1,0 +1,150 @@
+line_code: '99601'
+line_name: 近江鉄道本線
+company: 近江鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1141501'
+    from_name: 米原
+    to: '9960102'
+    to_name: フジテック前
+    time: 4
+    distance: 2.26
+  - from: '9960102'
+    from_name: フジテック前
+    to: '9960103'
+    to_name: 鳥居本
+    time: 2
+    distance: 1.12
+  - from: '9960103'
+    from_name: 鳥居本
+    to: '1160102'
+    to_name: 彦根
+    time: 4
+    distance: 2.27
+  - from: '1160102'
+    from_name: 彦根
+    to: '9960125'
+    to_name: ひこね芹川
+    time: 2
+    distance: 1.14
+  - from: '9960105'
+    from_name: 彦根口
+    to: '9960106'
+    to_name: 高宮
+    time: 4
+    distance: 2.06
+  - from: '9960106'
+    from_name: 高宮
+    to: '9960107'
+    to_name: 尼子
+    time: 5
+    distance: 2.8
+  - from: '9960107'
+    from_name: 尼子
+    to: '9960108'
+    to_name: 豊郷
+    time: 4
+    distance: 2.26
+  - from: '9960108'
+    from_name: 豊郷
+    to: '9960109'
+    to_name: 愛知川
+    time: 5
+    distance: 2.9
+  - from: '9960109'
+    from_name: 愛知川
+    to: '9960110'
+    to_name: 五箇荘
+    time: 5
+    distance: 2.82
+  - from: '9960110'
+    from_name: 五箇荘
+    to: '9960111'
+    to_name: 河辺の森
+    time: 4
+    distance: 2.13
+  - from: '9960111'
+    from_name: 河辺の森
+    to: '9960112'
+    to_name: 八日市
+    time: 4
+    distance: 2.35
+  - from: '9960112'
+    from_name: 八日市
+    to: '9960113'
+    to_name: 長谷野
+    time: 4
+    distance: 2.17
+  - from: '9960113'
+    from_name: 長谷野
+    to: '9960114'
+    to_name: 大学前
+    time: 2
+    distance: 0.92
+  - from: '9960114'
+    from_name: 大学前
+    to: '9960115'
+    to_name: 京セラ前
+    time: 3
+    distance: 1.5
+  - from: '9960115'
+    from_name: 京セラ前
+    to: '9960116'
+    to_name: 桜川
+    time: 2
+    distance: 1.26
+  - from: '9960116'
+    from_name: 桜川
+    to: '9960117'
+    to_name: 朝日大塚
+    time: 3
+    distance: 1.65
+  - from: '9960117'
+    from_name: 朝日大塚
+    to: '9960118'
+    to_name: 朝日野
+    time: 4
+    distance: 2.44
+  - from: '9960118'
+    from_name: 朝日野
+    to: '9960119'
+    to_name: 日野
+    time: 4
+    distance: 2.49
+  - from: '9960119'
+    from_name: 日野
+    to: '9960120'
+    to_name: 水口松尾
+    time: 7
+    distance: 4.66
+  - from: '9960120'
+    from_name: 水口松尾
+    to: '9960121'
+    to_name: 水口
+    time: 2
+    distance: 1.1
+  - from: '9960121'
+    from_name: 水口
+    to: '9960122'
+    to_name: 水口石橋
+    time: 2
+    distance: 0.66
+  - from: '9960122'
+    from_name: 水口石橋
+    to: '9960123'
+    to_name: 水口城南
+    time: 2
+    distance: 0.58
+  - from: '9960123'
+    from_name: 水口城南
+    to: '1151106'
+    to_name: 貴生川
+    time: 4
+    distance: 2.08
+  - from: '9960125'
+    from_name: ひこね芹川
+    to: '9960105'
+    to_name: 彦根口
+    time: 2
+    distance: 0.86

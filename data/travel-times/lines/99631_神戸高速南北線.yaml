@@ -1,0 +1,12 @@
+line_code: '99631'
+line_name: 神戸高速南北線
+company: 神戸高速鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9963006'
+    from_name: 新開地
+    to: '9963102'
+    to_name: 湊川
+    time: 2
+    distance: 0.44

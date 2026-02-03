@@ -1,0 +1,90 @@
+line_code: '99902'
+line_name: 伊田線
+company: 平成筑豊鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1191108'
+    from_name: 直方
+    to: '9990202'
+    to_name: 南直方御殿口
+    time: 2
+    distance: 1.1
+  - from: '9990202'
+    from_name: 南直方御殿口
+    to: '9990203'
+    to_name: あかぢ
+    time: 2
+    distance: 1.26
+  - from: '9990203'
+    from_name: あかぢ
+    to: '9990204'
+    to_name: 藤棚
+    time: 2
+    distance: 1.16
+  - from: '9990204'
+    from_name: 藤棚
+    to: '9990205'
+    to_name: 中泉
+    time: 2
+    distance: 0.71
+  - from: '9990205'
+    from_name: 中泉
+    to: '9990206'
+    to_name: 市場
+    time: 4
+    distance: 2.09
+  - from: '9990206'
+    from_name: 市場
+    to: '9990207'
+    to_name: ふれあい生力
+    time: 2
+    distance: 1.06
+  - from: '9990207'
+    from_name: ふれあい生力
+    to: '9990208'
+    to_name: 赤池
+    time: 2
+    distance: 0.94
+  - from: '9990208'
+    from_name: 赤池
+    to: '9990209'
+    to_name: 人見
+    time: 2
+    distance: 0.57
+  - from: '9990209'
+    from_name: 人見
+    to: '9990210'
+    to_name: 金田
+    time: 2
+    distance: 0.71
+  - from: '9990210'
+    from_name: 金田
+    to: '9990211'
+    to_name: 上金田
+    time: 3
+    distance: 1.65
+  - from: '9990211'
+    from_name: 上金田
+    to: '9990212'
+    to_name: 糒
+    time: 2
+    distance: 1.26
+  - from: '9990212'
+    from_name: 糒
+    to: '9990213'
+    to_name: 田川市立病院
+    time: 2
+    distance: 0.58
+  - from: '9990213'
+    from_name: 田川市立病院
+    to: '9990214'
+    to_name: 下伊田
+    time: 2
+    distance: 1.02
+  - from: '9990214'
+    from_name: 下伊田
+    to: '1191413'
+    to_name: 田川伊田
+    time: 3
+    distance: 1.48

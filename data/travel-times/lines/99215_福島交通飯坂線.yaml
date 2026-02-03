@@ -1,0 +1,72 @@
+line_code: '99215'
+line_name: 福島交通飯坂線
+company: 福島交通
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1123124'
+    from_name: 福島
+    to: '9921502'
+    to_name: 曽根田
+    time: 2
+    distance: 0.69
+  - from: '9921502'
+    from_name: 曽根田
+    to: '9921503'
+    to_name: 美術館図書館前
+    time: 2
+    distance: 0.84
+  - from: '9921503'
+    from_name: 美術館図書館前
+    to: '9921504'
+    to_name: 岩代清水
+    time: 2
+    distance: 1.24
+  - from: '9921504'
+    from_name: 岩代清水
+    to: '9921505'
+    to_name: 泉
+    time: 2
+    distance: 0.3
+  - from: '9921505'
+    from_name: 泉
+    to: '9921506'
+    to_name: 上松川
+    time: 2
+    distance: 0.69
+  - from: '9921506'
+    from_name: 上松川
+    to: '9921507'
+    to_name: 笹谷
+    time: 2
+    distance: 0.43
+  - from: '9921507'
+    from_name: 笹谷
+    to: '9921508'
+    to_name: 桜水
+    time: 2
+    distance: 1.05
+  - from: '9921508'
+    from_name: 桜水
+    to: '9921509'
+    to_name: 平野
+    time: 2
+    distance: 0.98
+  - from: '9921509'
+    from_name: 平野
+    to: '9921510'
+    to_name: 医王寺前
+    time: 2
+    distance: 1.28
+  - from: '9921510'
+    from_name: 医王寺前
+    to: '9921511'
+    to_name: 花水坂
+    time: 2
+    distance: 1.23
+  - from: '9921511'
+    from_name: 花水坂
+    to: '9921512'
+    to_name: 飯坂温泉
+    time: 2
+    distance: 0.5

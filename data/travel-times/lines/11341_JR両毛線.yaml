@@ -1,0 +1,132 @@
+line_code: '11341'
+line_name: JR両毛線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1131816'
+    from_name: 高崎
+    to: '1134102'
+    to_name: 高崎問屋町
+    time: 5
+    distance: 2.69
+  - from: '1134102'
+    from_name: 高崎問屋町
+    to: '1134103'
+    to_name: 井野
+    time: 3
+    distance: 1.38
+  - from: '1134103'
+    from_name: 井野
+    to: '1134104'
+    to_name: 新前橋
+    time: 5
+    distance: 3.19
+  - from: '1134104'
+    from_name: 新前橋
+    to: '1134105'
+    to_name: 前橋
+    time: 4
+    distance: 2.37
+  - from: '1134105'
+    from_name: 前橋
+    to: '1134106'
+    to_name: 前橋大島
+    time: 6
+    distance: 3.58
+  - from: '1134106'
+    from_name: 前橋大島
+    to: '1134107'
+    to_name: 駒形
+    time: 5
+    distance: 3.24
+  - from: '1134107'
+    from_name: 駒形
+    to: '1134108'
+    to_name: 伊勢崎
+    time: 9
+    distance: 5.73
+  - from: '1134108'
+    from_name: 伊勢崎
+    to: '1134109'
+    to_name: 国定
+    time: 9
+    distance: 5.65
+  - from: '1134109'
+    from_name: 国定
+    to: '1134110'
+    to_name: 岩宿
+    time: 10
+    distance: 6.38
+  - from: '1134110'
+    from_name: 岩宿
+    to: '1134111'
+    to_name: 桐生
+    time: 6
+    distance: 3.65
+  - from: '1134111'
+    from_name: 桐生
+    to: '1134112'
+    to_name: 小俣
+    time: 9
+    distance: 5.45
+  - from: '1134112'
+    from_name: 小俣
+    to: '1134113'
+    to_name: 山前
+    time: 7
+    distance: 4.51
+  - from: '1134113'
+    from_name: 山前
+    to: '1134114'
+    to_name: 足利
+    time: 7
+    distance: 4.38
+  - from: '1134114'
+    from_name: 足利
+    to: '1134122'
+    to_name: あしかがフラワーパーク
+    time: 9
+    distance: 5.88
+  - from: '1134115'
+    from_name: 富田
+    to: '1134116'
+    to_name: 佐野
+    time: 7
+    distance: 4.5
+  - from: '1134116'
+    from_name: 佐野
+    to: '1134117'
+    to_name: 岩舟
+    time: 11
+    distance: 7.17
+  - from: '1134117'
+    from_name: 岩舟
+    to: '1134118'
+    to_name: 大平下
+    time: 7
+    distance: 4.04
+  - from: '1134118'
+    from_name: 大平下
+    to: '1134119'
+    to_name: 栃木
+    time: 7
+    distance: 4.31
+  - from: '1134119'
+    from_name: 栃木
+    to: '1134120'
+    to_name: 思川
+    time: 8
+    distance: 5.05
+  - from: '1134120'
+    from_name: 思川
+    to: '1131918'
+    to_name: 小山
+    time: 8
+    distance: 4.82
+  - from: '1134122'
+    from_name: あしかがフラワーパーク
+    to: '1134115'
+    to_name: 富田
+    time: 2
+    distance: 0.91

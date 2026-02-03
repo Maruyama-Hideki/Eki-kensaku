@@ -1,0 +1,288 @@
+line_code: '31005'
+line_name: 近鉄大阪線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3100103'
+    from_name: 大阪上本町
+    to: '1162317'
+    to_name: 鶴橋
+    time: 2
+    distance: 0.73
+  - from: '1162317'
+    from_name: 鶴橋
+    to: '3100105'
+    to_name: 今里
+    time: 3
+    distance: 1.81
+  - from: '3100105'
+    from_name: 今里
+    to: '3100106'
+    to_name: 布施
+    time: 2
+    distance: 1.25
+  - from: '3100106'
+    from_name: 布施
+    to: '1164104'
+    to_name: ＪＲ俊徳道
+    time: 2
+    distance: 1.03
+  - from: '1164104'
+    from_name: ＪＲ俊徳道
+    to: '3100506'
+    to_name: 長瀬
+    time: 2
+    distance: 1.06
+  - from: '3100506'
+    from_name: 長瀬
+    to: '3100507'
+    to_name: 弥刀
+    time: 2
+    distance: 1.09
+  - from: '3100507'
+    from_name: 弥刀
+    to: '3100508'
+    to_name: 久宝寺口
+    time: 2
+    distance: 0.99
+  - from: '3100508'
+    from_name: 久宝寺口
+    to: '3100509'
+    to_name: 近鉄八尾
+    time: 2
+    distance: 1.31
+  - from: '3100509'
+    from_name: 近鉄八尾
+    to: '3100510'
+    to_name: 河内山本
+    time: 3
+    distance: 1.45
+  - from: '3100510'
+    from_name: 河内山本
+    to: '3100511'
+    to_name: 高安
+    time: 2
+    distance: 1.06
+  - from: '3100511'
+    from_name: 高安
+    to: '3100512'
+    to_name: 恩智
+    time: 2
+    distance: 1.08
+  - from: '3100512'
+    from_name: 恩智
+    to: '3100513'
+    to_name: 法善寺
+    time: 3
+    distance: 1.62
+  - from: '3100513'
+    from_name: 法善寺
+    to: '3100514'
+    to_name: 堅下
+    time: 2
+    distance: 0.78
+  - from: '3100514'
+    from_name: 堅下
+    to: '3100515'
+    to_name: 安堂
+    time: 2
+    distance: 0.91
+  - from: '3100515'
+    from_name: 安堂
+    to: '3100516'
+    to_name: 河内国分
+    time: 3
+    distance: 1.61
+  - from: '3100516'
+    from_name: 河内国分
+    to: '3100517'
+    to_name: 大阪教育大前
+    time: 3
+    distance: 1.53
+  - from: '3100517'
+    from_name: 大阪教育大前
+    to: '3100518'
+    to_name: 関屋
+    time: 4
+    distance: 2.08
+  - from: '3100518'
+    from_name: 関屋
+    to: '3100519'
+    to_name: 二上
+    time: 4
+    distance: 2.03
+  - from: '3100519'
+    from_name: 二上
+    to: '3100520'
+    to_name: 近鉄下田
+    time: 3
+    distance: 1.56
+  - from: '3100520'
+    from_name: 近鉄下田
+    to: '3100521'
+    to_name: 五位堂
+    time: 3
+    distance: 1.48
+  - from: '3100521'
+    from_name: 五位堂
+    to: '3100522'
+    to_name: 築山
+    time: 3
+    distance: 1.68
+  - from: '3100522'
+    from_name: 築山
+    to: '3100523'
+    to_name: 大和高田
+    time: 2
+    distance: 1.1
+  - from: '3100523'
+    from_name: 大和高田
+    to: '3100524'
+    to_name: 松塚
+    time: 3
+    distance: 1.77
+  - from: '3100524'
+    from_name: 松塚
+    to: '3100525'
+    to_name: 真菅
+    time: 2
+    distance: 1.04
+  - from: '3100525'
+    from_name: 真菅
+    to: '3100214'
+    to_name: 大和八木
+    time: 3
+    distance: 1.85
+  - from: '3100214'
+    from_name: 大和八木
+    to: '3100527'
+    to_name: 耳成
+    time: 4
+    distance: 2.16
+  - from: '3100527'
+    from_name: 耳成
+    to: '3100528'
+    to_name: 大福
+    time: 3
+    distance: 1.35
+  - from: '3100528'
+    from_name: 大福
+    to: '1163710'
+    to_name: 桜井
+    time: 3
+    distance: 1.54
+  - from: '1163710'
+    from_name: 桜井
+    to: '3100530'
+    to_name: 大和朝倉
+    time: 4
+    distance: 2.08
+  - from: '3100530'
+    from_name: 大和朝倉
+    to: '3100531'
+    to_name: 長谷寺
+    time: 6
+    distance: 3.64
+  - from: '3100531'
+    from_name: 長谷寺
+    to: '3100532'
+    to_name: 榛原
+    time: 7
+    distance: 4.44
+  - from: '3100532'
+    from_name: 榛原
+    to: '3100533'
+    to_name: 室生口大野
+    time: 11
+    distance: 6.85
+  - from: '3100533'
+    from_name: 室生口大野
+    to: '3100534'
+    to_name: 三本松
+    time: 4
+    distance: 2.34
+  - from: '3100534'
+    from_name: 三本松
+    to: '3100535'
+    to_name: 赤目口
+    time: 7
+    distance: 4.19
+  - from: '3100535'
+    from_name: 赤目口
+    to: '3100536'
+    to_name: 名張
+    time: 5
+    distance: 3.17
+  - from: '3100536'
+    from_name: 名張
+    to: '3100537'
+    to_name: 桔梗が丘
+    time: 5
+    distance: 2.68
+  - from: '3100537'
+    from_name: 桔梗が丘
+    to: '3100538'
+    to_name: 美旗
+    time: 5
+    distance: 3.05
+  - from: '3100538'
+    from_name: 美旗
+    to: '3100539'
+    to_name: 伊賀神戸
+    time: 4
+    distance: 2.17
+  - from: '3100539'
+    from_name: 伊賀神戸
+    to: '3100540'
+    to_name: 青山町
+    time: 4
+    distance: 2.28
+  - from: '3100540'
+    from_name: 青山町
+    to: '3100541'
+    to_name: 伊賀上津
+    time: 5
+    distance: 2.73
+  - from: '3100541'
+    from_name: 伊賀上津
+    to: '3100542'
+    to_name: 西青山
+    time: 5
+    distance: 3.09
+  - from: '3100542'
+    from_name: 西青山
+    to: '3100543'
+    to_name: 東青山
+    time: 12
+    distance: 7.65
+  - from: '3100543'
+    from_name: 東青山
+    to: '3100544'
+    to_name: 榊原温泉口
+    time: 4
+    distance: 2.47
+  - from: '3100544'
+    from_name: 榊原温泉口
+    to: '3100545'
+    to_name: 大三
+    time: 4
+    distance: 2.2
+  - from: '3100545'
+    from_name: 大三
+    to: '3100546'
+    to_name: 伊勢石橋
+    time: 6
+    distance: 3.67
+  - from: '3100546'
+    from_name: 伊勢石橋
+    to: '1151305'
+    to_name: 一志
+    time: 4
+    distance: 2.57
+  - from: '1151305'
+    from_name: 一志
+    to: '3100548'
+    to_name: 伊勢中川
+    time: 7
+    distance: 4.42

@@ -1,0 +1,66 @@
+line_code: '99901'
+line_name: 甘木鉄道
+company: 甘木鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1190313'
+    from_name: 基山
+    to: '9990102'
+    to_name: 立野
+    time: 2
+    distance: 1.16
+  - from: '9990102'
+    from_name: 立野
+    to: '3600120'
+    to_name: 西鉄小郡
+    time: 4
+    distance: 2.21
+  - from: '3600120'
+    from_name: 西鉄小郡
+    to: '9990104'
+    to_name: 大板井
+    time: 2
+    distance: 0.7
+  - from: '9990104'
+    from_name: 大板井
+    to: '9990105'
+    to_name: 松崎
+    time: 3
+    distance: 1.98
+  - from: '9990105'
+    from_name: 松崎
+    to: '9990106'
+    to_name: 今隈
+    time: 2
+    distance: 1.26
+  - from: '9990106'
+    from_name: 今隈
+    to: '9990107'
+    to_name: 西太刀洗
+    time: 2
+    distance: 0.59
+  - from: '9990107'
+    from_name: 西太刀洗
+    to: '9990108'
+    to_name: 山隈
+    time: 2
+    distance: 1.23
+  - from: '9990108'
+    from_name: 山隈
+    to: '9990109'
+    to_name: 太刀洗
+    time: 2
+    distance: 0.82
+  - from: '9990109'
+    from_name: 太刀洗
+    to: '9990110'
+    to_name: 高田
+    time: 3
+    distance: 1.42
+  - from: '9990110'
+    from_name: 高田
+    to: '3600312'
+    to_name: 甘木
+    time: 4
+    distance: 2.01

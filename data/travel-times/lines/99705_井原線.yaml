@@ -1,0 +1,90 @@
+line_code: '99705'
+line_name: 井原線
+company: 井原鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1170307'
+    from_name: 総社
+    to: '1170306'
+    to_name: 清音
+    time: 6
+    distance: 3.35
+  - from: '1170306'
+    from_name: 清音
+    to: '9970503'
+    to_name: 川辺宿
+    time: 4
+    distance: 2.1
+  - from: '9970503'
+    from_name: 川辺宿
+    to: '9970504'
+    to_name: 吉備真備
+    time: 4
+    distance: 2.2
+  - from: '9970504'
+    from_name: 吉備真備
+    to: '9970505'
+    to_name: 備中呉妹
+    time: 5
+    distance: 2.82
+  - from: '9970505'
+    from_name: 備中呉妹
+    to: '9970506'
+    to_name: 三谷
+    time: 6
+    distance: 3.91
+  - from: '9970506'
+    from_name: 三谷
+    to: '9970507'
+    to_name: 矢掛
+    time: 5
+    distance: 3.07
+  - from: '9970507'
+    from_name: 矢掛
+    to: '9970508'
+    to_name: 小田
+    time: 8
+    distance: 5.06
+  - from: '9970508'
+    from_name: 小田
+    to: '9970509'
+    to_name: 早雲の里荏原
+    time: 6
+    distance: 3.35
+  - from: '9970509'
+    from_name: 早雲の里荏原
+    to: '9970510'
+    to_name: 井原
+    time: 6
+    distance: 3.59
+  - from: '9970510'
+    from_name: 井原
+    to: '9970511'
+    to_name: いずえ
+    time: 3
+    distance: 1.76
+  - from: '9970511'
+    from_name: いずえ
+    to: '9970512'
+    to_name: 子守唄の里高屋
+    time: 3
+    distance: 1.74
+  - from: '9970512'
+    from_name: 子守唄の里高屋
+    to: '9970513'
+    to_name: 御領
+    time: 6
+    distance: 3.39
+  - from: '9970513'
+    from_name: 御領
+    to: '9970514'
+    to_name: 湯野
+    time: 3
+    distance: 1.95
+  - from: '9970514'
+    from_name: 湯野
+    to: '1172004'
+    to_name: 神辺
+    time: 3
+    distance: 1.89

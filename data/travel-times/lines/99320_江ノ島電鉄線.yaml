@@ -1,0 +1,90 @@
+line_code: '99320'
+line_name: 江ノ島電鉄線
+company: 江ノ島電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130108'
+    from_name: 藤沢
+    to: '9932002'
+    to_name: 石上
+    time: 2
+    distance: 0.73
+  - from: '9932002'
+    from_name: 石上
+    to: '9932003'
+    to_name: 柳小路
+    time: 2
+    distance: 0.57
+  - from: '9932003'
+    from_name: 柳小路
+    to: '9932004'
+    to_name: 鵠沼
+    time: 2
+    distance: 0.7
+  - from: '9932004'
+    from_name: 鵠沼
+    to: '9932005'
+    to_name: 湘南海岸公園
+    time: 2
+    distance: 0.7
+  - from: '9932005'
+    from_name: 湘南海岸公園
+    to: '9932006'
+    to_name: 江ノ島
+    time: 2
+    distance: 0.61
+  - from: '9932006'
+    from_name: 江ノ島
+    to: '9932007'
+    to_name: 腰越
+    time: 2
+    distance: 0.6
+  - from: '9932007'
+    from_name: 腰越
+    to: '9932008'
+    to_name: 鎌倉高校前
+    time: 2
+    distance: 0.68
+  - from: '9932008'
+    from_name: 鎌倉高校前
+    to: '9932009'
+    to_name: 七里ヶ浜
+    time: 2
+    distance: 0.87
+  - from: '9932009'
+    from_name: 七里ヶ浜
+    to: '9932010'
+    to_name: 稲村ヶ崎
+    time: 2
+    distance: 1.13
+  - from: '9932010'
+    from_name: 稲村ヶ崎
+    to: '9932011'
+    to_name: 極楽寺
+    time: 2
+    distance: 0.81
+  - from: '9932011'
+    from_name: 極楽寺
+    to: '9932012'
+    to_name: 長谷
+    time: 2
+    distance: 0.71
+  - from: '9932012'
+    from_name: 長谷
+    to: '9932013'
+    to_name: 由比ヶ浜
+    time: 2
+    distance: 0.52
+  - from: '9932013'
+    from_name: 由比ヶ浜
+    to: '9932014'
+    to_name: 和田塚
+    time: 2
+    distance: 0.36
+  - from: '9932014'
+    from_name: 和田塚
+    to: '1130812'
+    to_name: 鎌倉
+    time: 2
+    distance: 0.73

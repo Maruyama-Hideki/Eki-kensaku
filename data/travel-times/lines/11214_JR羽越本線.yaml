@@ -1,0 +1,360 @@
+line_code: '11214'
+line_name: JR羽越本線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1121401'
+    from_name: 新津
+    to: '1121402'
+    to_name: 京ケ瀬
+    time: 9
+    distance: 5.35
+  - from: '1121402'
+    from_name: 京ケ瀬
+    to: '1121403'
+    to_name: 水原
+    time: 7
+    distance: 4.02
+  - from: '1121403'
+    from_name: 水原
+    to: '1121404'
+    to_name: 神山
+    time: 6
+    distance: 3.75
+  - from: '1121404'
+    from_name: 神山
+    to: '1121405'
+    to_name: 月岡
+    time: 6
+    distance: 3.85
+  - from: '1121405'
+    from_name: 月岡
+    to: '1121406'
+    to_name: 中浦
+    time: 6
+    distance: 3.67
+  - from: '1121406'
+    from_name: 中浦
+    to: '1121407'
+    to_name: 新発田
+    time: 7
+    distance: 4.55
+  - from: '1121407'
+    from_name: 新発田
+    to: '1121408'
+    to_name: 加治
+    time: 7
+    distance: 4.13
+  - from: '1121408'
+    from_name: 加治
+    to: '1121409'
+    to_name: 金塚
+    time: 8
+    distance: 5.2
+  - from: '1121409'
+    from_name: 金塚
+    to: '1121410'
+    to_name: 中条
+    time: 6
+    distance: 3.61
+  - from: '1121410'
+    from_name: 中条
+    to: '1121411'
+    to_name: 平木田
+    time: 9
+    distance: 5.66
+  - from: '1121411'
+    from_name: 平木田
+    to: '1121412'
+    to_name: 坂町
+    time: 5
+    distance: 3.19
+  - from: '1121412'
+    from_name: 坂町
+    to: '1121413'
+    to_name: 平林
+    time: 6
+    distance: 3.61
+  - from: '1121413'
+    from_name: 平林
+    to: '1121414'
+    to_name: 岩船町
+    time: 6
+    distance: 3.73
+  - from: '1121414'
+    from_name: 岩船町
+    to: '1121415'
+    to_name: 村上
+    time: 7
+    distance: 4.05
+  - from: '1121415'
+    from_name: 村上
+    to: '1121416'
+    to_name: 間島
+    time: 10
+    distance: 6.03
+  - from: '1121416'
+    from_name: 間島
+    to: '1121417'
+    to_name: 越後早川
+    time: 8
+    distance: 4.79
+  - from: '1121417'
+    from_name: 越後早川
+    to: '1121418'
+    to_name: 桑川
+    time: 10
+    distance: 6.6
+  - from: '1121418'
+    from_name: 桑川
+    to: '1121419'
+    to_name: 今川
+    time: 6
+    distance: 3.97
+  - from: '1121419'
+    from_name: 今川
+    to: '1121420'
+    to_name: 越後寒川
+    time: 8
+    distance: 4.69
+  - from: '1121420'
+    from_name: 越後寒川
+    to: '1121421'
+    to_name: 勝木
+    time: 8
+    distance: 5.21
+  - from: '1121421'
+    from_name: 勝木
+    to: '1121422'
+    to_name: 府屋
+    time: 5
+    distance: 2.8
+  - from: '1121422'
+    from_name: 府屋
+    to: '1121423'
+    to_name: 鼠ケ関
+    time: 8
+    distance: 4.95
+  - from: '1121423'
+    from_name: 鼠ケ関
+    to: '1121424'
+    to_name: 小岩川
+    time: 7
+    distance: 4.16
+  - from: '1121424'
+    from_name: 小岩川
+    to: '1121425'
+    to_name: あつみ温泉
+    time: 7
+    distance: 4.22
+  - from: '1121425'
+    from_name: あつみ温泉
+    to: '1121426'
+    to_name: 五十川
+    time: 9
+    distance: 5.72
+  - from: '1121426'
+    from_name: 五十川
+    to: '1121427'
+    to_name: 小波渡
+    time: 6
+    distance: 3.8
+  - from: '1121427'
+    from_name: 小波渡
+    to: '1121428'
+    to_name: 三瀬
+    time: 4
+    distance: 2.21
+  - from: '1121428'
+    from_name: 三瀬
+    to: '1121429'
+    to_name: 羽前水沢
+    time: 8
+    distance: 5.25
+  - from: '1121429'
+    from_name: 羽前水沢
+    to: '1121430'
+    to_name: 羽前大山
+    time: 7
+    distance: 4.52
+  - from: '1121430'
+    from_name: 羽前大山
+    to: '1121431'
+    to_name: 鶴岡
+    time: 9
+    distance: 5.83
+  - from: '1121431'
+    from_name: 鶴岡
+    to: '1121432'
+    to_name: 藤島
+    time: 9
+    distance: 6
+  - from: '1121432'
+    from_name: 藤島
+    to: '1121433'
+    to_name: 西袋
+    time: 8
+    distance: 4.91
+  - from: '1121433'
+    from_name: 西袋
+    to: '1121434'
+    to_name: 余目
+    time: 6
+    distance: 3.66
+  - from: '1121434'
+    from_name: 余目
+    to: '1121435'
+    to_name: 北余目
+    time: 4
+    distance: 2.6
+  - from: '1121435'
+    from_name: 北余目
+    to: '1121436'
+    to_name: 砂越
+    time: 5
+    distance: 3.08
+  - from: '1121436'
+    from_name: 砂越
+    to: '1121437'
+    to_name: 東酒田
+    time: 5
+    distance: 3.08
+  - from: '1121437'
+    from_name: 東酒田
+    to: '1121438'
+    to_name: 酒田
+    time: 5
+    distance: 3.03
+  - from: '1121438'
+    from_name: 酒田
+    to: '1121439'
+    to_name: 本楯
+    time: 10
+    distance: 6.04
+  - from: '1121439'
+    from_name: 本楯
+    to: '1121440'
+    to_name: 南鳥海
+    time: 4
+    distance: 2.53
+  - from: '1121440'
+    from_name: 南鳥海
+    to: '1121441'
+    to_name: 遊佐
+    time: 5
+    distance: 3.23
+  - from: '1121441'
+    from_name: 遊佐
+    to: '1121442'
+    to_name: 吹浦
+    time: 10
+    distance: 6.42
+  - from: '1121442'
+    from_name: 吹浦
+    to: '1121443'
+    to_name: 女鹿
+    time: 5
+    distance: 3.22
+  - from: '1121443'
+    from_name: 女鹿
+    to: '1121444'
+    to_name: 小砂川
+    time: 7
+    distance: 4.32
+  - from: '1121444'
+    from_name: 小砂川
+    to: '1121445'
+    to_name: 上浜
+    time: 6
+    distance: 3.37
+  - from: '1121445'
+    from_name: 上浜
+    to: '1121446'
+    to_name: 象潟
+    time: 8
+    distance: 4.79
+  - from: '1121446'
+    from_name: 象潟
+    to: '1121447'
+    to_name: 金浦
+    time: 9
+    distance: 5.61
+  - from: '1121447'
+    from_name: 金浦
+    to: '1121448'
+    to_name: 仁賀保
+    time: 8
+    distance: 5.32
+  - from: '1121448'
+    from_name: 仁賀保
+    to: '1121449'
+    to_name: 西目
+    time: 12
+    distance: 7.92
+  - from: '1121449'
+    from_name: 西目
+    to: '1121450'
+    to_name: 羽後本荘
+    time: 9
+    distance: 5.52
+  - from: '1121450'
+    from_name: 羽後本荘
+    to: '1121451'
+    to_name: 羽後岩谷
+    time: 11
+    distance: 6.76
+  - from: '1121451'
+    from_name: 羽後岩谷
+    to: '1121452'
+    to_name: 折渡
+    time: 6
+    distance: 3.82
+  - from: '1121452'
+    from_name: 折渡
+    to: '1121453'
+    to_name: 羽後亀田
+    time: 5
+    distance: 3.09
+  - from: '1121453'
+    from_name: 羽後亀田
+    to: '1121454'
+    to_name: 岩城みなと
+    time: 9
+    distance: 5.78
+  - from: '1121454'
+    from_name: 岩城みなと
+    to: '1121455'
+    to_name: 道川
+    time: 3
+    distance: 1.68
+  - from: '1121455'
+    from_name: 道川
+    to: '1121456'
+    to_name: 下浜
+    time: 10
+    distance: 6.61
+  - from: '1121456'
+    from_name: 下浜
+    to: '1121457'
+    to_name: 桂根
+    time: 5
+    distance: 3.11
+  - from: '1121457'
+    from_name: 桂根
+    to: '1121458'
+    to_name: 新屋
+    time: 6
+    distance: 3.8
+  - from: '1121458'
+    from_name: 新屋
+    to: '1121459'
+    to_name: 羽後牛島
+    time: 5
+    distance: 3.19
+  - from: '1121459'
+    from_name: 羽後牛島
+    to: '1120228'
+    to_name: 秋田
+    time: 4
+    distance: 2.6

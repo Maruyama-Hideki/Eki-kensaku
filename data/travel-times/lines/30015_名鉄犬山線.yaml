@@ -1,0 +1,120 @@
+line_code: '30015'
+line_name: 名鉄犬山線
+company: 名古屋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1141101'
+    from_name: 名古屋
+    to: '3000137'
+    to_name: 栄生
+    time: 3
+    distance: 1.64
+  - from: '3000137'
+    from_name: 栄生
+    to: '3000138'
+    to_name: 東枇杷島
+    time: 2
+    distance: 0.73
+  - from: '3000138'
+    from_name: 東枇杷島
+    to: '3001504'
+    to_name: 下小田井
+    time: 3
+    distance: 1.34
+  - from: '3001504'
+    from_name: 下小田井
+    to: '3001505'
+    to_name: 中小田井
+    time: 3
+    distance: 1.53
+  - from: '3001505'
+    from_name: 中小田井
+    to: '3001506'
+    to_name: 上小田井
+    time: 2
+    distance: 0.98
+  - from: '3001506'
+    from_name: 上小田井
+    to: '3001507'
+    to_name: 西春
+    time: 4
+    distance: 2.41
+  - from: '3001507'
+    from_name: 西春
+    to: '3001508'
+    to_name: 徳重・名古屋芸大
+    time: 2
+    distance: 1.28
+  - from: '3001508'
+    from_name: 徳重・名古屋芸大
+    to: '3001509'
+    to_name: 大山寺
+    time: 2
+    distance: 0.84
+  - from: '3001509'
+    from_name: 大山寺
+    to: '3001510'
+    to_name: 岩倉
+    time: 3
+    distance: 1.61
+  - from: '3001510'
+    from_name: 岩倉
+    to: '3001511'
+    to_name: 石仏
+    time: 3
+    distance: 1.97
+  - from: '3001511'
+    from_name: 石仏
+    to: '3001512'
+    to_name: 布袋
+    time: 4
+    distance: 2.41
+  - from: '3001512'
+    from_name: 布袋
+    to: '3001513'
+    to_name: 江南
+    time: 3
+    distance: 1.96
+  - from: '3001513'
+    from_name: 江南
+    to: '3001514'
+    to_name: 柏森
+    time: 5
+    distance: 2.78
+  - from: '3001514'
+    from_name: 柏森
+    to: '3001515'
+    to_name: 扶桑
+    time: 4
+    distance: 2.18
+  - from: '3001515'
+    from_name: 扶桑
+    to: '3001516'
+    to_name: 木津用水
+    time: 2
+    distance: 1.22
+  - from: '3001516'
+    from_name: 木津用水
+    to: '3001517'
+    to_name: 犬山口
+    time: 3
+    distance: 1.5
+  - from: '3001517'
+    from_name: 犬山口
+    to: '3001518'
+    to_name: 犬山
+    time: 2
+    distance: 0.81
+  - from: '3001518'
+    from_name: 犬山
+    to: '3001519'
+    to_name: 犬山遊園
+    time: 2
+    distance: 1.17
+  - from: '3001519'
+    from_name: 犬山遊園
+    to: '1141606'
+    to_name: 鵜沼
+    time: 2
+    distance: 0.86

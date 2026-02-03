@@ -1,0 +1,48 @@
+line_code: '11410'
+line_name: JR弥彦線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1141001'
+    from_name: 弥彦
+    to: '1141002'
+    to_name: 矢作
+    time: 3
+    distance: 1.99
+  - from: '1141002'
+    from_name: 矢作
+    to: '1140818'
+    to_name: 吉田
+    time: 4
+    distance: 2.38
+  - from: '1140818'
+    from_name: 吉田
+    to: '1141004'
+    to_name: 西燕
+    time: 5
+    distance: 2.83
+  - from: '1141004'
+    from_name: 西燕
+    to: '1141005'
+    to_name: 燕
+    time: 4
+    distance: 2.17
+  - from: '1141005'
+    from_name: 燕
+    to: '1141006'
+    to_name: 燕三条
+    time: 4
+    distance: 2.3
+  - from: '1141006'
+    from_name: 燕三条
+    to: '1141007'
+    to_name: 北三条
+    time: 4
+    distance: 2.32
+  - from: '1141007'
+    from_name: 北三条
+    to: '1140430'
+    to_name: 東三条
+    time: 3
+    distance: 1.63

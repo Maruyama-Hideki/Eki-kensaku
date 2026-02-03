@@ -1,0 +1,120 @@
+line_code: '99926'
+line_name: 鹿児島市電２系統
+company: 鹿児島市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '1190412'
+    from_name: 鹿児島
+    to: '9992502'
+    to_name: 桜島桟橋通
+    time: 2
+    distance: 0.38
+  - from: '9992502'
+    from_name: 桜島桟橋通
+    to: '9992503'
+    to_name: 水族館口
+    time: 2
+    distance: 0.18
+  - from: '9992503'
+    from_name: 水族館口
+    to: '9992504'
+    to_name: 市役所前
+    time: 2
+    distance: 0.25
+  - from: '9992504'
+    from_name: 市役所前
+    to: '9992505'
+    to_name: 朝日通
+    time: 2
+    distance: 0.32
+  - from: '9992505'
+    from_name: 朝日通
+    to: '9992506'
+    to_name: いづろ通
+    time: 2
+    distance: 0.29
+  - from: '9992506'
+    from_name: いづろ通
+    to: '9992507'
+    to_name: 天文館通
+    time: 2
+    distance: 0.28
+  - from: '9992507'
+    from_name: 天文館通
+    to: '9992508'
+    to_name: 高見馬場
+    time: 2
+    distance: 0.45
+  - from: '9992508'
+    from_name: 高見馬場
+    to: '9992609'
+    to_name: 加治屋町
+    time: 2
+    distance: 0.32
+  - from: '9992609'
+    from_name: 加治屋町
+    to: '9992610'
+    to_name: 高見橋
+    time: 2
+    distance: 0.31
+  - from: '9992610'
+    from_name: 高見橋
+    to: '1190411'
+    to_name: 鹿児島中央
+    time: 2
+    distance: 0.4
+  - from: '1190411'
+    from_name: 鹿児島中央
+    to: '9992612'
+    to_name: 都通
+    time: 2
+    distance: 0.37
+  - from: '9992612'
+    from_name: 都通
+    to: '9992613'
+    to_name: 中洲通
+    time: 2
+    distance: 0.23
+  - from: '9992613'
+    from_name: 中洲通
+    to: '9992614'
+    to_name: 市立病院前
+    time: 2
+    distance: 0.32
+  - from: '9992614'
+    from_name: 市立病院前
+    to: '9992615'
+    to_name: 神田（交通局前）
+    time: 2
+    distance: 0.34
+  - from: '9992615'
+    from_name: 神田（交通局前）
+    to: '9992616'
+    to_name: 唐湊
+    time: 2
+    distance: 0.27
+  - from: '9992616'
+    from_name: 唐湊
+    to: '9992617'
+    to_name: 工学部前
+    time: 2
+    distance: 0.25
+  - from: '9992617'
+    from_name: 工学部前
+    to: '1193002'
+    to_name: 郡元
+    time: 2
+    distance: 0.31
+  - from: '1193002'
+    from_name: 郡元
+    to: '9992619'
+    to_name: 中郡
+    time: 2
+    distance: 0.32
+  - from: '9992619'
+    from_name: 中郡
+    to: '9992516'
+    to_name: 郡元
+    time: 2
+    distance: 0.45

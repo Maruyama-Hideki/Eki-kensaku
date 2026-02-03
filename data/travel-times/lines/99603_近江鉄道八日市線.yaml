@@ -1,0 +1,42 @@
+line_code: '99603'
+line_name: 近江鉄道八日市線
+company: 近江鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9960112'
+    from_name: 八日市
+    to: '9960302'
+    to_name: 新八日市
+    time: 2
+    distance: 0.54
+  - from: '9960302'
+    from_name: 新八日市
+    to: '9960303'
+    to_name: 太郎坊宮前
+    time: 2
+    distance: 0.68
+  - from: '9960303'
+    from_name: 太郎坊宮前
+    to: '9960304'
+    to_name: 市辺
+    time: 3
+    distance: 1.75
+  - from: '9960304'
+    from_name: 市辺
+    to: '9960305'
+    to_name: 平田
+    time: 3
+    distance: 1.87
+  - from: '9960305'
+    from_name: 平田
+    to: '9960306'
+    to_name: 武佐
+    time: 3
+    distance: 1.54
+  - from: '9960306'
+    from_name: 武佐
+    to: '1160108'
+    to_name: 近江八幡
+    time: 5
+    distance: 2.69

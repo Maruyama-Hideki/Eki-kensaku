@@ -1,0 +1,24 @@
+line_code: '34006'
+line_name: 阪急伊丹線
+company: 阪急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3400106'
+    from_name: 塚口
+    to: '3400602'
+    to_name: 稲野
+    time: 3
+    distance: 1.33
+  - from: '3400602'
+    from_name: 稲野
+    to: '3400603'
+    to_name: 新伊丹
+    time: 2
+    distance: 0.86
+  - from: '3400603'
+    from_name: 新伊丹
+    to: '3400604'
+    to_name: 伊丹
+    time: 2
+    distance: 0.83

@@ -1,0 +1,12 @@
+line_code: '99324'
+line_name: 芝山鉄道線
+company: 芝山鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2300141'
+    from_name: 東成田
+    to: '9932402'
+    to_name: 芝山千代田
+    time: 4
+    distance: 2.07

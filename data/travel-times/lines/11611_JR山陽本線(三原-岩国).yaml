@@ -1,0 +1,186 @@
+line_code: '11611'
+line_name: JR山陽本線(三原～岩国)
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1161020'
+    from_name: 三原
+    to: '1161102'
+    to_name: 本郷
+    time: 14
+    distance: 8.84
+  - from: '1161102'
+    from_name: 本郷
+    to: '1161103'
+    to_name: 河内
+    time: 17
+    distance: 11.11
+  - from: '1161103'
+    from_name: 河内
+    to: '1161104'
+    to_name: 入野
+    time: 6
+    distance: 3.64
+  - from: '1161104'
+    from_name: 入野
+    to: '1161105'
+    to_name: 白市
+    time: 4
+    distance: 2.66
+  - from: '1161105'
+    from_name: 白市
+    to: '1161106'
+    to_name: 西高屋
+    time: 7
+    distance: 4.05
+  - from: '1161106'
+    from_name: 西高屋
+    to: '1161107'
+    to_name: 西条
+    time: 7
+    distance: 4.38
+  - from: '1161107'
+    from_name: 西条
+    to: '1161131'
+    to_name: 寺家
+    time: 4
+    distance: 2.13
+  - from: '1161108'
+    from_name: 八本松
+    to: '1161109'
+    to_name: 瀬野
+    time: 14
+    distance: 8.77
+  - from: '1161109'
+    from_name: 瀬野
+    to: '1161110'
+    to_name: 中野東
+    time: 4
+    distance: 2.66
+  - from: '1161110'
+    from_name: 中野東
+    to: '1161111'
+    to_name: 安芸中野
+    time: 3
+    distance: 1.96
+  - from: '1161111'
+    from_name: 安芸中野
+    to: '1161112'
+    to_name: 海田市
+    time: 6
+    distance: 3.68
+  - from: '1161112'
+    from_name: 海田市
+    to: '1161113'
+    to_name: 向洋
+    time: 4
+    distance: 2.29
+  - from: '1161113'
+    from_name: 向洋
+    to: '1161114'
+    to_name: 天神川
+    time: 3
+    distance: 1.65
+  - from: '1161114'
+    from_name: 天神川
+    to: '1161115'
+    to_name: 広島
+    time: 4
+    distance: 2.24
+  - from: '1161115'
+    from_name: 広島
+    to: '1161130'
+    to_name: 新白島
+    time: 3
+    distance: 1.77
+  - from: '1161116'
+    from_name: 横川
+    to: '1161117'
+    to_name: 西広島
+    time: 4
+    distance: 2.48
+  - from: '1161117'
+    from_name: 西広島
+    to: '1161118'
+    to_name: 新井口
+    time: 7
+    distance: 4.13
+  - from: '1161118'
+    from_name: 新井口
+    to: '1161119'
+    to_name: 五日市
+    time: 4
+    distance: 2.43
+  - from: '1161119'
+    from_name: 五日市
+    to: '1161120'
+    to_name: 廿日市
+    time: 5
+    distance: 3.11
+  - from: '1161120'
+    from_name: 廿日市
+    to: '1161121'
+    to_name: 宮内串戸
+    time: 3
+    distance: 1.55
+  - from: '1161121'
+    from_name: 宮内串戸
+    to: '1161122'
+    to_name: 阿品
+    time: 5
+    distance: 2.89
+  - from: '1161122'
+    from_name: 阿品
+    to: '1161123'
+    to_name: 宮島口
+    time: 3
+    distance: 1.62
+  - from: '1161123'
+    from_name: 宮島口
+    to: '1161124'
+    to_name: 前空
+    time: 3
+    distance: 1.68
+  - from: '1161124'
+    from_name: 前空
+    to: '1161125'
+    to_name: 大野浦
+    time: 5
+    distance: 2.99
+  - from: '1161125'
+    from_name: 大野浦
+    to: '1161126'
+    to_name: 玖波
+    time: 7
+    distance: 4.67
+  - from: '1161126'
+    from_name: 玖波
+    to: '1161127'
+    to_name: 大竹
+    time: 7
+    distance: 4.22
+  - from: '1161127'
+    from_name: 大竹
+    to: '1161129'
+    to_name: 和木
+    time: 3
+    distance: 1.54
+  - from: '1161129'
+    from_name: 和木
+    to: '1161128'
+    to_name: 岩国
+    time: 6
+    distance: 3.6
+  - from: '1161130'
+    from_name: 新白島
+    to: '1161116'
+    to_name: 横川
+    time: 2
+    distance: 1.04
+  - from: '1161131'
+    from_name: 寺家
+    to: '1161108'
+    to_name: 八本松
+    time: 5
+    distance: 3.25

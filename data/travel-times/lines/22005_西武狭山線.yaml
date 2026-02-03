@@ -1,0 +1,18 @@
+line_code: '22005'
+line_name: 西武狭山線
+company: 西武鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2200117'
+    from_name: 西所沢
+    to: '2200502'
+    to_name: 下山口
+    time: 3
+    distance: 1.73
+  - from: '2200502'
+    from_name: 下山口
+    to: '2200503'
+    to_name: 西武球場前
+    time: 4
+    distance: 2.15

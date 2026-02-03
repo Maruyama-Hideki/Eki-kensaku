@@ -1,0 +1,54 @@
+line_code: '99523'
+line_name: ゆとりーとライン
+company: 名古屋ガイドウェイバス
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1141105'
+    from_name: 大曽根
+    to: '9951401'
+    to_name: ナゴヤドーム前矢田
+    time: 2
+    distance: 0.74
+  - from: '9951401'
+    from_name: ナゴヤドーム前矢田
+    to: '9951428'
+    to_name: 砂田橋
+    time: 2
+    distance: 0.82
+  - from: '9951428'
+    from_name: 砂田橋
+    to: '3001208'
+    to_name: 守山自衛隊前
+    time: 2
+    distance: 0.89
+  - from: '3001208'
+    from_name: 守山自衛隊前
+    to: '9952305'
+    to_name: 金屋
+    time: 2
+    distance: 0.71
+  - from: '9952305'
+    from_name: 金屋
+    to: '9952306'
+    to_name: 川宮
+    time: 2
+    distance: 1
+  - from: '9952306'
+    from_name: 川宮
+    to: '9952307'
+    to_name: 川村
+    time: 2
+    distance: 0.74
+  - from: '9952307'
+    from_name: 川村
+    to: '9952308'
+    to_name: 白沢渓谷
+    time: 2
+    distance: 0.93
+  - from: '9952308'
+    from_name: 白沢渓谷
+    to: '9952309'
+    to_name: 小幡緑地
+    time: 2
+    distance: 0.49

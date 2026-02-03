@@ -1,0 +1,90 @@
+line_code: '26005'
+line_name: 東急池上線
+company: 東急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130202'
+    from_name: 五反田
+    to: '2600502'
+    to_name: 大崎広小路
+    time: 2
+    distance: 0.44
+  - from: '2600502'
+    from_name: 大崎広小路
+    to: '2600503'
+    to_name: 戸越銀座
+    time: 2
+    distance: 0.97
+  - from: '2600503'
+    from_name: 戸越銀座
+    to: '2600504'
+    to_name: 荏原中延
+    time: 2
+    distance: 0.7
+  - from: '2600504'
+    from_name: 荏原中延
+    to: '2600406'
+    to_name: 旗の台
+    time: 2
+    distance: 1.06
+  - from: '2600406'
+    from_name: 旗の台
+    to: '2600506'
+    to_name: 長原
+    time: 2
+    distance: 0.5
+  - from: '2600506'
+    from_name: 長原
+    to: '2600507'
+    to_name: 洗足池
+    time: 2
+    distance: 0.69
+  - from: '2600507'
+    from_name: 洗足池
+    to: '2600508'
+    to_name: 石川台
+    time: 2
+    distance: 0.61
+  - from: '2600508'
+    from_name: 石川台
+    to: '2600509'
+    to_name: 雪が谷大塚
+    time: 2
+    distance: 0.65
+  - from: '2600509'
+    from_name: 雪が谷大塚
+    to: '2600510'
+    to_name: 御嶽山
+    time: 2
+    distance: 0.77
+  - from: '2600510'
+    from_name: 御嶽山
+    to: '2600511'
+    to_name: 久が原
+    time: 2
+    distance: 0.7
+  - from: '2600511'
+    from_name: 久が原
+    to: '2600512'
+    to_name: 千鳥町
+    time: 2
+    distance: 0.89
+  - from: '2600512'
+    from_name: 千鳥町
+    to: '2600513'
+    to_name: 池上
+    time: 2
+    distance: 1.04
+  - from: '2600513'
+    from_name: 池上
+    to: '2600514'
+    to_name: 蓮沼
+    time: 2
+    distance: 1.01
+  - from: '2600514'
+    from_name: 蓮沼
+    to: '1133230'
+    to_name: 蒲田
+    time: 2
+    distance: 0.7

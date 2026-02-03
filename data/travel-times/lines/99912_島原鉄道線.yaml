@@ -1,0 +1,144 @@
+line_code: '99912'
+line_name: 島原鉄道線
+company: 島原鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1190527'
+    from_name: 諫早
+    to: '9991202'
+    to_name: 本諫早
+    time: 3
+    distance: 1.46
+  - from: '9991202'
+    from_name: 本諫早
+    to: '9991203'
+    to_name: 幸
+    time: 3
+    distance: 1.42
+  - from: '9991203'
+    from_name: 幸
+    to: '9991204'
+    to_name: 小野
+    time: 3
+    distance: 1.77
+  - from: '9991204'
+    from_name: 小野
+    to: '9991205'
+    to_name: 干拓の里
+    time: 2
+    distance: 0.76
+  - from: '9991205'
+    from_name: 干拓の里
+    to: '9991206'
+    to_name: 森山
+    time: 3
+    distance: 1.89
+  - from: '9991206'
+    from_name: 森山
+    to: '9991207'
+    to_name: 釜ノ鼻
+    time: 4
+    distance: 2.08
+  - from: '9991207'
+    from_name: 釜ノ鼻
+    to: '9991208'
+    to_name: 諫早東高校
+    time: 3
+    distance: 1.75
+  - from: '9991208'
+    from_name: 諫早東高校
+    to: '9991209'
+    to_name: 愛野
+    time: 2
+    distance: 0.79
+  - from: '9991209'
+    from_name: 愛野
+    to: '9991210'
+    to_name: 阿母崎
+    time: 3
+    distance: 1.83
+  - from: '9991210'
+    from_name: 阿母崎
+    to: '9991211'
+    to_name: 吾妻
+    time: 4
+    distance: 2.17
+  - from: '9991211'
+    from_name: 吾妻
+    to: '9991212'
+    to_name: 古部
+    time: 5
+    distance: 2.8
+  - from: '9991212'
+    from_name: 古部
+    to: '9991213'
+    to_name: 大正
+    time: 2
+    distance: 1.25
+  - from: '9991213'
+    from_name: 大正
+    to: '9991214'
+    to_name: 西郷
+    time: 4
+    distance: 2.21
+  - from: '9991214'
+    from_name: 西郷
+    to: '9991215'
+    to_name: 神代
+    time: 4
+    distance: 2.42
+  - from: '9991215'
+    from_name: 神代
+    to: '9991216'
+    to_name: 多比良
+    time: 6
+    distance: 3.62
+  - from: '9991216'
+    from_name: 多比良
+    to: '9991217'
+    to_name: 有明湯江
+    time: 4
+    distance: 2.4
+  - from: '9991217'
+    from_name: 有明湯江
+    to: '9991218'
+    to_name: 大三東
+    time: 4
+    distance: 2.23
+  - from: '9991218'
+    from_name: 大三東
+    to: '9991219'
+    to_name: 松尾
+    time: 2
+    distance: 1.1
+  - from: '9991219'
+    from_name: 松尾
+    to: '9991220'
+    to_name: 三会
+    time: 4
+    distance: 2.31
+  - from: '9991220'
+    from_name: 三会
+    to: '9991221'
+    to_name: 島原
+    time: 5
+    distance: 3
+  - from: '9991221'
+    from_name: 島原
+    to: '9991222'
+    to_name: 霊丘公園体育館
+    time: 2
+    distance: 0.98
+  - from: '9991222'
+    from_name: 霊丘公園体育館
+    to: '9991223'
+    to_name: 島原船津
+    time: 2
+    distance: 0.73
+  - from: '9991223'
+    from_name: 島原船津
+    to: '9991224'
+    to_name: 島原港
+    time: 2
+    distance: 0.95

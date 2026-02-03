@@ -1,0 +1,252 @@
+line_code: '11807'
+line_name: JR予讃・内子線
+company: JR四国
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1180657'
+    from_name: 松山
+    to: '1180702'
+    to_name: 市坪
+    time: 6
+    distance: 3.43
+  - from: '1180702'
+    from_name: 市坪
+    to: '1180703'
+    to_name: 北伊予
+    time: 4
+    distance: 2.41
+  - from: '1180703'
+    from_name: 北伊予
+    to: '1180741'
+    to_name: 南伊予
+    time: 3
+    distance: 1.44
+  - from: '1180704'
+    from_name: 伊予横田
+    to: '1180705'
+    to_name: 鳥ノ木
+    time: 3
+    distance: 1.78
+  - from: '1180705'
+    from_name: 鳥ノ木
+    to: '1180706'
+    to_name: 伊予市
+    time: 2
+    distance: 1.22
+  - from: '1180706'
+    from_name: 伊予市
+    to: '1180707'
+    to_name: 向井原
+    time: 4
+    distance: 2.27
+  - from: '1180707'
+    from_name: 向井原
+    to: '1180708'
+    to_name: 伊予大平
+    time: 4
+    distance: 2.51
+  - from: '1180707'
+    from_name: 向井原
+    to: '1180715'
+    to_name: 高野川
+    time: 8
+    distance: 5.12
+  - from: '1180708'
+    from_name: 伊予大平
+    to: '1180709'
+    to_name: 伊予中山
+    time: 12
+    distance: 7.35
+  - from: '1180709'
+    from_name: 伊予中山
+    to: '1180710'
+    to_name: 伊予立川
+    time: 10
+    distance: 6.36
+  - from: '1180710'
+    from_name: 伊予立川
+    to: '1180711'
+    to_name: 内子
+    time: 10
+    distance: 6.36
+  - from: '1180711'
+    from_name: 内子
+    to: '1180712'
+    to_name: 五十崎
+    time: 3
+    distance: 1.6
+  - from: '1180712'
+    from_name: 五十崎
+    to: '1180713'
+    to_name: 喜多山
+    time: 4
+    distance: 2.32
+  - from: '1180713'
+    from_name: 喜多山
+    to: '1180714'
+    to_name: 新谷
+    time: 2
+    distance: 1.15
+  - from: '1180715'
+    from_name: 高野川
+    to: '1180716'
+    to_name: 伊予上灘
+    time: 5
+    distance: 3.12
+  - from: '1180716'
+    from_name: 伊予上灘
+    to: '1180717'
+    to_name: 下灘
+    time: 8
+    distance: 5.14
+  - from: '1180717'
+    from_name: 下灘
+    to: '1180718'
+    to_name: 串
+    time: 4
+    distance: 2.59
+  - from: '1180718'
+    from_name: 串
+    to: '1180719'
+    to_name: 喜多灘
+    time: 5
+    distance: 3.15
+  - from: '1180719'
+    from_name: 喜多灘
+    to: '1180720'
+    to_name: 伊予長浜
+    time: 8
+    distance: 4.77
+  - from: '1180720'
+    from_name: 伊予長浜
+    to: '1180721'
+    to_name: 伊予出石
+    time: 4
+    distance: 2.38
+  - from: '1180721'
+    from_name: 伊予出石
+    to: '1180722'
+    to_name: 伊予白滝
+    time: 5
+    distance: 3.26
+  - from: '1180722'
+    from_name: 伊予白滝
+    to: '1180723'
+    to_name: 八多喜
+    time: 4
+    distance: 2.19
+  - from: '1180723'
+    from_name: 八多喜
+    to: '1180724'
+    to_name: 春賀
+    time: 3
+    distance: 1.56
+  - from: '1180724'
+    from_name: 春賀
+    to: '1180725'
+    to_name: 五郎
+    time: 4
+    distance: 2.12
+  - from: '1180725'
+    from_name: 五郎
+    to: '1180726'
+    to_name: 伊予大洲
+    time: 6
+    distance: 3.47
+  - from: '1180726'
+    from_name: 伊予大洲
+    to: '1180714'
+    to_name: 新谷
+    time: 8
+    distance: 5.31
+  - from: '1180726'
+    from_name: 伊予大洲
+    to: '1180727'
+    to_name: 西大洲
+    time: 4
+    distance: 2.02
+  - from: '1180727'
+    from_name: 西大洲
+    to: '1180728'
+    to_name: 伊予平野
+    time: 3
+    distance: 1.63
+  - from: '1180728'
+    from_name: 伊予平野
+    to: '1180729'
+    to_name: 千丈
+    time: 10
+    distance: 6.55
+  - from: '1180729'
+    from_name: 千丈
+    to: '1180730'
+    to_name: 八幡浜
+    time: 4
+    distance: 2.13
+  - from: '1180730'
+    from_name: 八幡浜
+    to: '1180731'
+    to_name: 双岩
+    time: 7
+    distance: 4.26
+  - from: '1180731'
+    from_name: 双岩
+    to: '1180732'
+    to_name: 伊予石城
+    time: 6
+    distance: 3.9
+  - from: '1180732'
+    from_name: 伊予石城
+    to: '1180733'
+    to_name: 上宇和
+    time: 5
+    distance: 2.92
+  - from: '1180733'
+    from_name: 上宇和
+    to: '1180734'
+    to_name: 卯之町
+    time: 4
+    distance: 2.03
+  - from: '1180734'
+    from_name: 卯之町
+    to: '1180735'
+    to_name: 下宇和
+    time: 4
+    distance: 2.47
+  - from: '1180735'
+    from_name: 下宇和
+    to: '1180736'
+    to_name: 立間
+    time: 9
+    distance: 5.88
+  - from: '1180736'
+    from_name: 立間
+    to: '1180737'
+    to_name: 伊予吉田
+    time: 5
+    distance: 2.72
+  - from: '1180737'
+    from_name: 伊予吉田
+    to: '1180738'
+    to_name: 高光
+    time: 6
+    distance: 3.34
+  - from: '1180738'
+    from_name: 高光
+    to: '1180739'
+    to_name: 北宇和島
+    time: 3
+    distance: 1.88
+  - from: '1180739'
+    from_name: 北宇和島
+    to: '1180740'
+    to_name: 宇和島
+    time: 3
+    distance: 1.53
+  - from: '1180741'
+    from_name: 南伊予
+    to: '1180704'
+    to_name: 伊予横田
+    time: 2
+    distance: 1.19

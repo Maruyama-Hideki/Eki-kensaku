@@ -1,0 +1,204 @@
+line_code: '99818'
+line_name: 伊野線
+company: 土佐電気鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9981733'
+    from_name: はりまや橋
+    to: '9981802'
+    to_name: 堀詰
+    time: 2
+    distance: 0.32
+  - from: '9981802'
+    from_name: 堀詰
+    to: '9981803'
+    to_name: 大橋通
+    time: 2
+    distance: 0.29
+  - from: '9981803'
+    from_name: 大橋通
+    to: '9981804'
+    to_name: 高知城前
+    time: 2
+    distance: 0.21
+  - from: '9981804'
+    from_name: 高知城前
+    to: '9981805'
+    to_name: 県庁前
+    time: 2
+    distance: 0.29
+  - from: '9981805'
+    from_name: 県庁前
+    to: '9981806'
+    to_name: グランド通
+    time: 2
+    distance: 0.18
+  - from: '9981806'
+    from_name: グランド通
+    to: '9981807'
+    to_name: 枡形
+    time: 2
+    distance: 0.21
+  - from: '9981807'
+    from_name: 枡形
+    to: '9981808'
+    to_name: 上町一丁目
+    time: 2
+    distance: 0.19
+  - from: '9981808'
+    from_name: 上町一丁目
+    to: '9981809'
+    to_name: 上町二丁目
+    time: 2
+    distance: 0.21
+  - from: '9981809'
+    from_name: 上町二丁目
+    to: '9981810'
+    to_name: 上町四丁目
+    time: 2
+    distance: 0.3
+  - from: '9981810'
+    from_name: 上町四丁目
+    to: '9981811'
+    to_name: 上町五丁目
+    time: 2
+    distance: 0.28
+  - from: '9981811'
+    from_name: 上町五丁目
+    to: '9981812'
+    to_name: 旭町一丁目
+    time: 2
+    distance: 0.3
+  - from: '9981812'
+    from_name: 旭町一丁目
+    to: '9981813'
+    to_name: 旭駅前通
+    time: 2
+    distance: 0.37
+  - from: '9981813'
+    from_name: 旭駅前通
+    to: '9981814'
+    to_name: 旭町三丁目
+    time: 2
+    distance: 0.29
+  - from: '9981814'
+    from_name: 旭町三丁目
+    to: '9981815'
+    to_name: 蛍橋
+    time: 2
+    distance: 0.36
+  - from: '9981815'
+    from_name: 蛍橋
+    to: '9981816'
+    to_name: 鏡川橋
+    time: 2
+    distance: 0.39
+  - from: '9981816'
+    from_name: 鏡川橋
+    to: '9981817'
+    to_name: 鴨部
+    time: 2
+    distance: 0.4
+  - from: '9981817'
+    from_name: 鴨部
+    to: '9981818'
+    to_name: 曙町東町
+    time: 2
+    distance: 0.37
+  - from: '9981818'
+    from_name: 曙町東町
+    to: '9981819'
+    to_name: 曙町
+    time: 2
+    distance: 0.22
+  - from: '9981819'
+    from_name: 曙町
+    to: '9981820'
+    to_name: 朝倉
+    time: 2
+    distance: 0.26
+  - from: '9981820'
+    from_name: 朝倉
+    to: '1180139'
+    to_name: 朝倉
+    time: 2
+    distance: 0.26
+  - from: '1180139'
+    from_name: 朝倉
+    to: '9981822'
+    to_name: 朝倉神社前
+    time: 2
+    distance: 0.41
+  - from: '9981822'
+    from_name: 朝倉神社前
+    to: '9981823'
+    to_name: 宮の奥
+    time: 2
+    distance: 0.49
+  - from: '9981823'
+    from_name: 宮の奥
+    to: '9981824'
+    to_name: 咥内
+    time: 2
+    distance: 0.5
+  - from: '9981824'
+    from_name: 咥内
+    to: '9981825'
+    to_name: 宇治団地前
+    time: 2
+    distance: 0.86
+  - from: '9981825'
+    from_name: 宇治団地前
+    to: '9981826'
+    to_name: 八代通
+    time: 2
+    distance: 0.45
+  - from: '9981826'
+    from_name: 八代通
+    to: '9981827'
+    to_name: 中山
+    time: 2
+    distance: 0.35
+  - from: '9981827'
+    from_name: 中山
+    to: '1180140'
+    to_name: 枝川
+    time: 2
+    distance: 0.4
+  - from: '1180140'
+    from_name: 枝川
+    to: '9981829'
+    to_name: 伊野商業前
+    time: 2
+    distance: 0.38
+  - from: '9981829'
+    from_name: 伊野商業前
+    to: '9981834'
+    to_name: 北内
+    time: 2
+    distance: 0.29
+  - from: '9981830'
+    from_name: 北山
+    to: '9981831'
+    to_name: 鳴谷
+    time: 2
+    distance: 0.51
+  - from: '9981831'
+    from_name: 鳴谷
+    to: '1180141'
+    to_name: 伊野
+    time: 2
+    distance: 0.31
+  - from: '1180141'
+    from_name: 伊野
+    to: '9981833'
+    to_name: 伊野
+    time: 2
+    distance: 0.2
+  - from: '9981834'
+    from_name: 北内
+    to: '9981830'
+    to_name: 北山
+    time: 2
+    distance: 0.27

@@ -1,0 +1,84 @@
+line_code: '99622'
+line_name: 大阪メトロ千日前線
+company: Osaka Metro
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1162506'
+    from_name: 海老江
+    to: '1162308'
+    to_name: 野田
+    time: 2
+    distance: 0.72
+  - from: '1162308'
+    from_name: 野田
+    to: '9962106'
+    to_name: 阿波座
+    time: 3
+    distance: 1.35
+  - from: '9962106'
+    from_name: 阿波座
+    to: '9962204'
+    to_name: 西長堀
+    time: 2
+    distance: 0.7
+  - from: '9962204'
+    from_name: 西長堀
+    to: '3200901'
+    to_name: 汐見橋
+    time: 2
+    distance: 0.85
+  - from: '3200901'
+    from_name: 汐見橋
+    to: '3100101'
+    to_name: 大阪難波
+    time: 2
+    distance: 1.19
+  - from: '3100101'
+    from_name: 大阪難波
+    to: '3100102'
+    to_name: 近鉄日本橋
+    time: 2
+    distance: 0.61
+  - from: '3100102'
+    from_name: 近鉄日本橋
+    to: '9961915'
+    to_name: 谷町九丁目
+    time: 2
+    distance: 0.91
+  - from: '9961915'
+    from_name: 谷町九丁目
+    to: '1162317'
+    to_name: 鶴橋
+    time: 2
+    distance: 1.33
+  - from: '1162317'
+    from_name: 鶴橋
+    to: '9962210'
+    to_name: 今里
+    time: 3
+    distance: 1.35
+  - from: '9962210'
+    from_name: 今里
+    to: '9962211'
+    to_name: 新深江
+    time: 2
+    distance: 0.88
+  - from: '9962211'
+    from_name: 新深江
+    to: '9962212'
+    to_name: 小路
+    time: 2
+    distance: 0.77
+  - from: '9962212'
+    from_name: 小路
+    to: '9962213'
+    to_name: 北巽
+    time: 2
+    distance: 0.96
+  - from: '9962213'
+    from_name: 北巽
+    to: '9962214'
+    to_name: 南巽
+    time: 2
+    distance: 1.09

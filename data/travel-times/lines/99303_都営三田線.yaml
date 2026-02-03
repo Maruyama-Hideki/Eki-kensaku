@@ -1,0 +1,162 @@
+line_code: '99303'
+line_name: 都営三田線
+company: 東京都交通局
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130203'
+    from_name: 目黒
+    to: '2800918'
+    to_name: 白金台
+    time: 2
+    distance: 1.04
+  - from: '2800918'
+    from_name: 白金台
+    to: '2800917'
+    to_name: 白金高輪
+    time: 2
+    distance: 0.91
+  - from: '2800917'
+    from_name: 白金高輪
+    to: '9930208'
+    to_name: 三田
+    time: 3
+    distance: 1.45
+  - from: '9930208'
+    from_name: 三田
+    to: '9930305'
+    to_name: 芝公園
+    time: 2
+    distance: 0.66
+  - from: '9930305'
+    from_name: 芝公園
+    to: '9930306'
+    to_name: 御成門
+    time: 2
+    distance: 0.81
+  - from: '9930306'
+    from_name: 御成門
+    to: '9930307'
+    to_name: 内幸町
+    time: 2
+    distance: 1.02
+  - from: '9930307'
+    from_name: 内幸町
+    to: '1130225'
+    to_name: 有楽町
+    time: 2
+    distance: 0.97
+  - from: '1130225'
+    from_name: 有楽町
+    to: '2800208'
+    to_name: 大手町
+    time: 2
+    distance: 1.26
+  - from: '2800208'
+    from_name: 大手町
+    to: '2800807'
+    to_name: 神保町
+    time: 2
+    distance: 1.3
+  - from: '2800807'
+    from_name: 神保町
+    to: '1131317'
+    to_name: 水道橋
+    time: 2
+    distance: 0.74
+  - from: '1131317'
+    from_name: 水道橋
+    to: '9930108'
+    to_name: 春日
+    time: 2
+    distance: 0.85
+  - from: '9930108'
+    from_name: 春日
+    to: '9930313'
+    to_name: 白山
+    time: 2
+    distance: 1.32
+  - from: '9930313'
+    from_name: 白山
+    to: '9930314'
+    to_name: 千石
+    time: 2
+    distance: 0.98
+  - from: '9930314'
+    from_name: 千石
+    to: '1130214'
+    to_name: 巣鴨
+    time: 2
+    distance: 0.79
+  - from: '1130214'
+    from_name: 巣鴨
+    to: '9930316'
+    to_name: 西巣鴨
+    time: 3
+    distance: 1.47
+  - from: '9930316'
+    from_name: 西巣鴨
+    to: '9930317'
+    to_name: 新板橋
+    time: 2
+    distance: 0.97
+  - from: '9930317'
+    from_name: 新板橋
+    to: '9930318'
+    to_name: 板橋区役所前
+    time: 2
+    distance: 0.94
+  - from: '9930318'
+    from_name: 板橋区役所前
+    to: '9930319'
+    to_name: 板橋本町
+    time: 2
+    distance: 1.19
+  - from: '9930319'
+    from_name: 板橋本町
+    to: '9930320'
+    to_name: 本蓮沼
+    time: 2
+    distance: 0.88
+  - from: '9930320'
+    from_name: 本蓮沼
+    to: '9930321'
+    to_name: 志村坂上
+    time: 2
+    distance: 0.99
+  - from: '9930321'
+    from_name: 志村坂上
+    to: '9930322'
+    to_name: 志村三丁目
+    time: 2
+    distance: 0.87
+  - from: '9930322'
+    from_name: 志村三丁目
+    to: '9930323'
+    to_name: 蓮根
+    time: 2
+    distance: 0.99
+  - from: '9930323'
+    from_name: 蓮根
+    to: '9930324'
+    to_name: 西台
+    time: 2
+    distance: 0.54
+  - from: '9930324'
+    from_name: 西台
+    to: '9930325'
+    to_name: 高島平
+    time: 2
+    distance: 1.17
+  - from: '9930325'
+    from_name: 高島平
+    to: '9930326'
+    to_name: 新高島平
+    time: 2
+    distance: 0.64
+  - from: '9930326'
+    from_name: 新高島平
+    to: '9930327'
+    to_name: 西高島平
+    time: 2
+    distance: 0.77

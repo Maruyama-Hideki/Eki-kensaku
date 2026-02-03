@@ -1,0 +1,306 @@
+line_code: '11903'
+line_name: JR鹿児島本線(博多～八代)
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1190101'
+    from_name: 博多
+    to: '1190302'
+    to_name: 竹下
+    time: 4
+    distance: 2.58
+  - from: '1190302'
+    from_name: 竹下
+    to: '1190303'
+    to_name: 笹原
+    time: 4
+    distance: 2.29
+  - from: '1190303'
+    from_name: 笹原
+    to: '1190304'
+    to_name: 南福岡
+    time: 3
+    distance: 1.7
+  - from: '1190304'
+    from_name: 南福岡
+    to: '1190305'
+    to_name: 春日
+    time: 2
+    distance: 1.16
+  - from: '1190305'
+    from_name: 春日
+    to: '1190306'
+    to_name: 大野城
+    time: 3
+    distance: 1.47
+  - from: '1190306'
+    from_name: 大野城
+    to: '1190307'
+    to_name: 水城
+    time: 2
+    distance: 1.23
+  - from: '1190307'
+    from_name: 水城
+    to: '1190308'
+    to_name: 都府楼南
+    time: 4
+    distance: 2.23
+  - from: '1190308'
+    from_name: 都府楼南
+    to: '1190309'
+    to_name: 二日市
+    time: 3
+    distance: 1.49
+  - from: '1190309'
+    from_name: 二日市
+    to: '1190310'
+    to_name: 天拝山
+    time: 3
+    distance: 1.76
+  - from: '1190310'
+    from_name: 天拝山
+    to: '1190311'
+    to_name: 原田
+    time: 6
+    distance: 3.45
+  - from: '1190311'
+    from_name: 原田
+    to: '1190312'
+    to_name: けやき台
+    time: 3
+    distance: 1.99
+  - from: '1190312'
+    from_name: けやき台
+    to: '1190313'
+    to_name: 基山
+    time: 3
+    distance: 1.51
+  - from: '1190313'
+    from_name: 基山
+    to: '1190314'
+    to_name: 弥生が丘
+    time: 4
+    distance: 2.14
+  - from: '1190314'
+    from_name: 弥生が丘
+    to: '1190315'
+    to_name: 田代
+    time: 4
+    distance: 2.03
+  - from: '1190315'
+    from_name: 田代
+    to: '1190316'
+    to_name: 鳥栖
+    time: 2
+    distance: 1.22
+  - from: '1190316'
+    from_name: 鳥栖
+    to: '1190317'
+    to_name: 肥前旭
+    time: 6
+    distance: 3.41
+  - from: '1190317'
+    from_name: 肥前旭
+    to: '1190318'
+    to_name: 久留米
+    time: 6
+    distance: 3.42
+  - from: '1190318'
+    from_name: 久留米
+    to: '1190319'
+    to_name: 荒木
+    time: 8
+    distance: 4.74
+  - from: '1190319'
+    from_name: 荒木
+    to: '1190320'
+    to_name: 西牟田
+    time: 6
+    distance: 3.44
+  - from: '1190320'
+    from_name: 西牟田
+    to: '1190321'
+    to_name: 羽犬塚
+    time: 7
+    distance: 4.06
+  - from: '1190321'
+    from_name: 羽犬塚
+    to: '1190322'
+    to_name: 筑後船小屋
+    time: 6
+    distance: 3.58
+  - from: '1190322'
+    from_name: 筑後船小屋
+    to: '1190323'
+    to_name: 瀬高
+    time: 4
+    distance: 2.41
+  - from: '1190323'
+    from_name: 瀬高
+    to: '1190324'
+    to_name: 南瀬高
+    time: 5
+    distance: 2.9
+  - from: '1190324'
+    from_name: 南瀬高
+    to: '1190325'
+    to_name: 渡瀬
+    time: 6
+    distance: 3.93
+  - from: '1190325'
+    from_name: 渡瀬
+    to: '1190326'
+    to_name: 吉野
+    time: 5
+    distance: 2.74
+  - from: '1190326'
+    from_name: 吉野
+    to: '1190327'
+    to_name: 銀水
+    time: 4
+    distance: 2.35
+  - from: '1190327'
+    from_name: 銀水
+    to: '1190328'
+    to_name: 大牟田
+    time: 5
+    distance: 3.22
+  - from: '1190328'
+    from_name: 大牟田
+    to: '1190329'
+    to_name: 荒尾
+    time: 6
+    distance: 3.99
+  - from: '1190329'
+    from_name: 荒尾
+    to: '1190330'
+    to_name: 南荒尾
+    time: 5
+    distance: 3.19
+  - from: '1190330'
+    from_name: 南荒尾
+    to: '1190331'
+    to_name: 長洲
+    time: 7
+    distance: 4.03
+  - from: '1190331'
+    from_name: 長洲
+    to: '1190332'
+    to_name: 大野下
+    time: 7
+    distance: 4.58
+  - from: '1190332'
+    from_name: 大野下
+    to: '1190333'
+    to_name: 玉名
+    time: 7
+    distance: 4.36
+  - from: '1190333'
+    from_name: 玉名
+    to: '1190334'
+    to_name: 肥後伊倉
+    time: 6
+    distance: 3.85
+  - from: '1190334'
+    from_name: 肥後伊倉
+    to: '1190335'
+    to_name: 木葉
+    time: 6
+    distance: 3.72
+  - from: '1190335'
+    from_name: 木葉
+    to: '1190336'
+    to_name: 田原坂
+    time: 5
+    distance: 3.14
+  - from: '1190336'
+    from_name: 田原坂
+    to: '1190337'
+    to_name: 植木
+    time: 6
+    distance: 3.35
+  - from: '1190337'
+    from_name: 植木
+    to: '1190338'
+    to_name: 西里
+    time: 6
+    distance: 3.37
+  - from: '1190338'
+    from_name: 西里
+    to: '1190339'
+    to_name: 崇城大学前
+    time: 5
+    distance: 2.67
+  - from: '1190339'
+    from_name: 崇城大学前
+    to: '1190340'
+    to_name: 上熊本
+    time: 3
+    distance: 1.57
+  - from: '1190340'
+    from_name: 上熊本
+    to: '1190341'
+    to_name: 熊本
+    time: 5
+    distance: 3.27
+  - from: '1190341'
+    from_name: 熊本
+    to: '1190351'
+    to_name: 西熊本
+    time: 5
+    distance: 3
+  - from: '1190342'
+    from_name: 川尻
+    to: '1190350'
+    to_name: 富合
+    time: 6
+    distance: 3.41
+  - from: '1190343'
+    from_name: 宇土
+    to: '1190344'
+    to_name: 松橋
+    time: 7
+    distance: 4.66
+  - from: '1190344'
+    from_name: 松橋
+    to: '1190345'
+    to_name: 小川
+    time: 10
+    distance: 6.13
+  - from: '1190345'
+    from_name: 小川
+    to: '1190346'
+    to_name: 有佐
+    time: 8
+    distance: 4.83
+  - from: '1190346'
+    from_name: 有佐
+    to: '1190347'
+    to_name: 千丁
+    time: 7
+    distance: 4.08
+  - from: '1190347'
+    from_name: 千丁
+    to: '1190348'
+    to_name: 新八代
+    time: 3
+    distance: 1.9
+  - from: '1190348'
+    from_name: 新八代
+    to: '1190349'
+    to_name: 八代
+    time: 4
+    distance: 2
+  - from: '1190350'
+    from_name: 富合
+    to: '1190343'
+    to_name: 宇土
+    time: 4
+    distance: 2.19
+  - from: '1190351'
+    from_name: 西熊本
+    to: '1190342'
+    to_name: 川尻
+    time: 4
+    distance: 2.12

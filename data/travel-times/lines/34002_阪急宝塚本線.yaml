@@ -1,0 +1,114 @@
+line_code: '34002'
+line_name: 阪急宝塚本線
+company: 阪急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1160214'
+    from_name: 大阪
+    to: '3400102'
+    to_name: 中津
+    time: 2
+    distance: 0.84
+  - from: '3400102'
+    from_name: 中津
+    to: '3400103'
+    to_name: 十三
+    time: 3
+    distance: 1.51
+  - from: '3400103'
+    from_name: 十三
+    to: '3400204'
+    to_name: 三国
+    time: 3
+    distance: 1.89
+  - from: '3400204'
+    from_name: 三国
+    to: '3400205'
+    to_name: 庄内
+    time: 3
+    distance: 1.63
+  - from: '3400205'
+    from_name: 庄内
+    to: '3400206'
+    to_name: 服部天神
+    time: 3
+    distance: 1.41
+  - from: '3400206'
+    from_name: 服部天神
+    to: '3400207'
+    to_name: 曽根
+    time: 2
+    distance: 1.12
+  - from: '3400207'
+    from_name: 曽根
+    to: '3400208'
+    to_name: 岡町
+    time: 2
+    distance: 0.91
+  - from: '3400208'
+    from_name: 岡町
+    to: '3400209'
+    to_name: 豊中
+    time: 2
+    distance: 0.96
+  - from: '3400209'
+    from_name: 豊中
+    to: '3400210'
+    to_name: 蛍池
+    time: 3
+    distance: 1.41
+  - from: '3400210'
+    from_name: 蛍池
+    to: '3400211'
+    to_name: 石橋阪大前
+    time: 3
+    distance: 1.58
+  - from: '3400211'
+    from_name: 石橋阪大前
+    to: '3400212'
+    to_name: 池田
+    time: 4
+    distance: 2.33
+  - from: '3400212'
+    from_name: 池田
+    to: '3400213'
+    to_name: 川西能勢口
+    time: 2
+    distance: 1.32
+  - from: '3400213'
+    from_name: 川西能勢口
+    to: '3400214'
+    to_name: 雲雀丘花屋敷
+    time: 2
+    distance: 0.95
+  - from: '3400214'
+    from_name: 雲雀丘花屋敷
+    to: '3400215'
+    to_name: 山本
+    time: 3
+    distance: 1.45
+  - from: '3400215'
+    from_name: 山本
+    to: '3400216'
+    to_name: 中山観音
+    time: 3
+    distance: 1.78
+  - from: '3400216'
+    from_name: 中山観音
+    to: '3400217'
+    to_name: 売布神社
+    time: 2
+    distance: 0.83
+  - from: '3400217'
+    from_name: 売布神社
+    to: '3400218'
+    to_name: 清荒神
+    time: 2
+    distance: 0.88
+  - from: '3400218'
+    from_name: 清荒神
+    to: '1162910'
+    to_name: 宝塚
+    time: 2
+    distance: 1.2

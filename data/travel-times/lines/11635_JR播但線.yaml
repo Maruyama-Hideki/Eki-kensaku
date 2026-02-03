@@ -1,0 +1,108 @@
+line_code: '11635'
+line_name: JR播但線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1160821'
+    from_name: 姫路
+    to: '1163502'
+    to_name: 京口
+    time: 3
+    distance: 1.54
+  - from: '1163502'
+    from_name: 京口
+    to: '1163503'
+    to_name: 野里
+    time: 4
+    distance: 2.45
+  - from: '1163503'
+    from_name: 野里
+    to: '1163504'
+    to_name: 砥堀
+    time: 3
+    distance: 1.69
+  - from: '1163504'
+    from_name: 砥堀
+    to: '1163505'
+    to_name: 仁豊野
+    time: 4
+    distance: 2.11
+  - from: '1163505'
+    from_name: 仁豊野
+    to: '1163506'
+    to_name: 香呂
+    time: 5
+    distance: 3
+  - from: '1163506'
+    from_name: 香呂
+    to: '1163507'
+    to_name: 溝口
+    time: 3
+    distance: 1.92
+  - from: '1163507'
+    from_name: 溝口
+    to: '1163508'
+    to_name: 福崎
+    time: 6
+    distance: 3.72
+  - from: '1163508'
+    from_name: 福崎
+    to: '1163509'
+    to_name: 甘地
+    time: 5
+    distance: 3.14
+  - from: '1163509'
+    from_name: 甘地
+    to: '1163510'
+    to_name: 鶴居
+    time: 6
+    distance: 3.97
+  - from: '1163510'
+    from_name: 鶴居
+    to: '1163511'
+    to_name: 新野
+    time: 5
+    distance: 2.96
+  - from: '1163511'
+    from_name: 新野
+    to: '1163512'
+    to_name: 寺前
+    time: 3
+    distance: 1.89
+  - from: '1163512'
+    from_name: 寺前
+    to: '1163513'
+    to_name: 長谷
+    time: 9
+    distance: 5.75
+  - from: '1163513'
+    from_name: 長谷
+    to: '1163514'
+    to_name: 生野
+    time: 10
+    distance: 6.36
+  - from: '1163514'
+    from_name: 生野
+    to: '1163515'
+    to_name: 新井
+    time: 13
+    distance: 8.16
+  - from: '1163515'
+    from_name: 新井
+    to: '1163516'
+    to_name: 青倉
+    time: 6
+    distance: 3.74
+  - from: '1163516'
+    from_name: 青倉
+    to: '1163517'
+    to_name: 竹田
+    time: 7
+    distance: 4.09
+  - from: '1163517'
+    from_name: 竹田
+    to: '1161519'
+    to_name: 和田山
+    time: 8
+    distance: 4.99

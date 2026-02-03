@@ -1,0 +1,120 @@
+line_code: '11217'
+line_name: JR仙山線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1123143'
+    from_name: 仙台
+    to: '1121702'
+    to_name: 東照宮
+    time: 3
+    distance: 1.96
+  - from: '1121702'
+    from_name: 東照宮
+    to: '1121703'
+    to_name: 北仙台
+    time: 3
+    distance: 1.55
+  - from: '1121703'
+    from_name: 北仙台
+    to: '1121704'
+    to_name: 北山
+    time: 3
+    distance: 1.62
+  - from: '1121704'
+    from_name: 北山
+    to: '1121722'
+    to_name: 東北福祉大前
+    time: 2
+    distance: 0.96
+  - from: '1121705'
+    from_name: 国見
+    to: '1121706'
+    to_name: 葛岡
+    time: 3
+    distance: 1.46
+  - from: '1121706'
+    from_name: 葛岡
+    to: '1121707'
+    to_name: 陸前落合
+    time: 4
+    distance: 2.56
+  - from: '1121707'
+    from_name: 陸前落合
+    to: '1121708'
+    to_name: 愛子
+    time: 4
+    distance: 2.48
+  - from: '1121708'
+    from_name: 愛子
+    to: '1121709'
+    to_name: 陸前白沢
+    time: 8
+    distance: 5.2
+  - from: '1121709'
+    from_name: 陸前白沢
+    to: '1121710'
+    to_name: 熊ケ根
+    time: 5
+    distance: 2.91
+  - from: '1121710'
+    from_name: 熊ケ根
+    to: '1121712'
+    to_name: 作並
+    time: 8
+    distance: 4.74
+  - from: '1121712'
+    from_name: 作並
+    to: '1121714'
+    to_name: 奥新川
+    time: 6
+    distance: 3.45
+  - from: '1121714'
+    from_name: 奥新川
+    to: '1121715'
+    to_name: 面白山高原
+    time: 13
+    distance: 8.52
+  - from: '1121715'
+    from_name: 面白山高原
+    to: '1121716'
+    to_name: 山寺
+    time: 10
+    distance: 6.03
+  - from: '1121716'
+    from_name: 山寺
+    to: '1121717'
+    to_name: 高瀬
+    time: 6
+    distance: 3.49
+  - from: '1121717'
+    from_name: 高瀬
+    to: '1121718'
+    to_name: 楯山
+    time: 4
+    distance: 2.22
+  - from: '1121718'
+    from_name: 楯山
+    to: '1121620'
+    to_name: 羽前千歳
+    time: 5
+    distance: 2.95
+  - from: '1121620'
+    from_name: 羽前千歳
+    to: '1121619'
+    to_name: 北山形
+    time: 4
+    distance: 2.52
+  - from: '1121619'
+    from_name: 北山形
+    to: '1121618'
+    to_name: 山形
+    time: 4
+    distance: 2.04
+  - from: '1121722'
+    from_name: 東北福祉大前
+    to: '1121705'
+    to_name: 国見
+    time: 2
+    distance: 1.02

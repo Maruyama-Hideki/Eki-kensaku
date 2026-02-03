@@ -1,0 +1,120 @@
+line_code: '99302'
+line_name: 都営浅草線
+company: 東京都交通局
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9930201'
+    from_name: 西馬込
+    to: '9930202'
+    to_name: 馬込
+    time: 2
+    distance: 1.19
+  - from: '9930202'
+    from_name: 馬込
+    to: '2600404'
+    to_name: 中延
+    time: 2
+    distance: 1.03
+  - from: '2600404'
+    from_name: 中延
+    to: '2600503'
+    to_name: 戸越銀座
+    time: 2
+    distance: 1.16
+  - from: '2600503'
+    from_name: 戸越銀座
+    to: '1130202'
+    to_name: 五反田
+    time: 3
+    distance: 1.38
+  - from: '1130202'
+    from_name: 五反田
+    to: '9930206'
+    to_name: 高輪台
+    time: 2
+    distance: 0.86
+  - from: '9930206'
+    from_name: 高輪台
+    to: '2700101'
+    to_name: 泉岳寺
+    time: 2
+    distance: 1.17
+  - from: '2700101'
+    from_name: 泉岳寺
+    to: '9930208'
+    to_name: 三田
+    time: 2
+    distance: 1.32
+  - from: '9930208'
+    from_name: 三田
+    to: '9930121'
+    to_name: 大門
+    time: 2
+    distance: 1.09
+  - from: '9930121'
+    from_name: 大門
+    to: '1130102'
+    to_name: 新橋
+    time: 2
+    distance: 1.1
+  - from: '1130102'
+    from_name: 新橋
+    to: '2800313'
+    to_name: 東銀座
+    time: 2
+    distance: 0.86
+  - from: '2800313'
+    from_name: 東銀座
+    to: '2800110'
+    to_name: 京橋
+    time: 2
+    distance: 0.86
+  - from: '2800110'
+    from_name: 京橋
+    to: '2800109'
+    to_name: 日本橋
+    time: 2
+    distance: 0.66
+  - from: '2800109'
+    from_name: 日本橋
+    to: '2800309'
+    to_name: 人形町
+    time: 2
+    distance: 0.92
+  - from: '2800309'
+    from_name: 人形町
+    to: '1131403'
+    to_name: 馬喰町
+    time: 2
+    distance: 0.78
+  - from: '1131403'
+    from_name: 馬喰町
+    to: '1131320'
+    to_name: 浅草橋
+    time: 2
+    distance: 0.49
+  - from: '1131320'
+    from_name: 浅草橋
+    to: '9930112'
+    to_name: 蔵前
+    time: 2
+    distance: 0.87
+  - from: '9930112'
+    from_name: 蔵前
+    to: '2100201'
+    to_name: 浅草
+    time: 2
+    distance: 1.16
+  - from: '2100201'
+    from_name: 浅草
+    to: '9930219'
+    to_name: 本所吾妻橋
+    time: 2
+    distance: 0.69
+  - from: '9930219'
+    from_name: 本所吾妻橋
+    to: '2100203'
+    to_name: 押上〈スカイツリー前〉
+    time: 2
+    distance: 0.79

@@ -1,0 +1,138 @@
+line_code: '99328'
+line_name: 上毛電気鉄道上毛線
+company: 上毛電気鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9932801'
+    from_name: 中央前橋
+    to: '9932802'
+    to_name: 城東
+    time: 2
+    distance: 0.52
+  - from: '9932802'
+    from_name: 城東
+    to: '9932803'
+    to_name: 三俣
+    time: 2
+    distance: 0.78
+  - from: '9932803'
+    from_name: 三俣
+    to: '9932804'
+    to_name: 片貝
+    time: 2
+    distance: 0.57
+  - from: '9932804'
+    from_name: 片貝
+    to: '9932805'
+    to_name: 上泉
+    time: 2
+    distance: 0.98
+  - from: '9932805'
+    from_name: 上泉
+    to: '9932806'
+    to_name: 赤坂
+    time: 2
+    distance: 1.02
+  - from: '9932806'
+    from_name: 赤坂
+    to: '9932807'
+    to_name: 心臓血管センター
+    time: 3
+    distance: 1.44
+  - from: '9932807'
+    from_name: 心臓血管センター
+    to: '9932808'
+    to_name: 江木
+    time: 2
+    distance: 0.38
+  - from: '9932808'
+    from_name: 江木
+    to: '9932809'
+    to_name: 大胡
+    time: 4
+    distance: 2.14
+  - from: '9932809'
+    from_name: 大胡
+    to: '9932810'
+    to_name: 樋越
+    time: 3
+    distance: 1.56
+  - from: '9932810'
+    from_name: 樋越
+    to: '9932811'
+    to_name: 北原
+    time: 2
+    distance: 1.03
+  - from: '9932811'
+    from_name: 北原
+    to: '9932812'
+    to_name: 新屋
+    time: 2
+    distance: 1.07
+  - from: '9932812'
+    from_name: 新屋
+    to: '9932813'
+    to_name: 粕川
+    time: 2
+    distance: 1.33
+  - from: '9932813'
+    from_name: 粕川
+    to: '9932814'
+    to_name: 膳
+    time: 2
+    distance: 0.99
+  - from: '9932814'
+    from_name: 膳
+    to: '9932815'
+    to_name: 新里
+    time: 3
+    distance: 1.35
+  - from: '9932815'
+    from_name: 新里
+    to: '9932816'
+    to_name: 新川
+    time: 3
+    distance: 1.84
+  - from: '9932816'
+    from_name: 新川
+    to: '9932817'
+    to_name: 東新川
+    time: 2
+    distance: 0.99
+  - from: '9932817'
+    from_name: 東新川
+    to: '2101108'
+    to_name: 赤城
+    time: 2
+    distance: 0.92
+  - from: '2101108'
+    from_name: 赤城
+    to: '9932823'
+    to_name: 桐生球場前
+    time: 4
+    distance: 2.01
+  - from: '9932819'
+    from_name: 天王宿
+    to: '9932820'
+    to_name: 富士山下
+    time: 2
+    distance: 0.7
+  - from: '9932820'
+    from_name: 富士山下
+    to: '9932821'
+    to_name: 丸山下
+    time: 2
+    distance: 0.58
+  - from: '9932821'
+    from_name: 丸山下
+    to: '9932822'
+    to_name: 西桐生
+    time: 2
+    distance: 1.06
+  - from: '9932823'
+    from_name: 桐生球場前
+    to: '9932819'
+    to_name: 天王宿
+    time: 2
+    distance: 1.03

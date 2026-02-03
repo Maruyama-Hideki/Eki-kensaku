@@ -1,0 +1,78 @@
+line_code: '26002'
+line_name: 東急目黒線
+company: 東急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130203'
+    from_name: 目黒
+    to: '2600202'
+    to_name: 不動前
+    time: 2
+    distance: 0.83
+  - from: '2600202'
+    from_name: 不動前
+    to: '2600203'
+    to_name: 武蔵小山
+    time: 2
+    distance: 1.13
+  - from: '2600203'
+    from_name: 武蔵小山
+    to: '2600204'
+    to_name: 西小山
+    time: 2
+    distance: 0.77
+  - from: '2600204'
+    from_name: 西小山
+    to: '2600205'
+    to_name: 洗足
+    time: 2
+    distance: 0.68
+  - from: '2600205'
+    from_name: 洗足
+    to: '2600206'
+    to_name: 大岡山
+    time: 2
+    distance: 0.83
+  - from: '2600206'
+    from_name: 大岡山
+    to: '2600207'
+    to_name: 奥沢
+    time: 2
+    distance: 1.29
+  - from: '2600207'
+    from_name: 奥沢
+    to: '2600108'
+    to_name: 田園調布
+    time: 2
+    distance: 0.91
+  - from: '2600108'
+    from_name: 田園調布
+    to: '2600109'
+    to_name: 多摩川
+    time: 2
+    distance: 0.81
+  - from: '2600109'
+    from_name: 多摩川
+    to: '2600110'
+    to_name: 新丸子
+    time: 2
+    distance: 1.18
+  - from: '2600110'
+    from_name: 新丸子
+    to: '1130307'
+    to_name: 武蔵小杉
+    time: 2
+    distance: 0.47
+  - from: '1130307'
+    from_name: 武蔵小杉
+    to: '2600112'
+    to_name: 元住吉
+    time: 2
+    distance: 1.3
+  - from: '2600112'
+    from_name: 元住吉
+    to: '2600113'
+    to_name: 日吉
+    time: 3
+    distance: 1.49

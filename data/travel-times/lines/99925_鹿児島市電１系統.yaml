@@ -1,0 +1,150 @@
+line_code: '99925'
+line_name: 鹿児島市電１系統
+company: 鹿児島市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '1190412'
+    from_name: 鹿児島
+    to: '9992502'
+    to_name: 桜島桟橋通
+    time: 2
+    distance: 0.38
+  - from: '9992502'
+    from_name: 桜島桟橋通
+    to: '9992503'
+    to_name: 水族館口
+    time: 2
+    distance: 0.18
+  - from: '9992503'
+    from_name: 水族館口
+    to: '9992504'
+    to_name: 市役所前
+    time: 2
+    distance: 0.25
+  - from: '9992504'
+    from_name: 市役所前
+    to: '9992505'
+    to_name: 朝日通
+    time: 2
+    distance: 0.32
+  - from: '9992505'
+    from_name: 朝日通
+    to: '9992506'
+    to_name: いづろ通
+    time: 2
+    distance: 0.29
+  - from: '9992506'
+    from_name: いづろ通
+    to: '9992507'
+    to_name: 天文館通
+    time: 2
+    distance: 0.28
+  - from: '9992507'
+    from_name: 天文館通
+    to: '9992508'
+    to_name: 高見馬場
+    time: 2
+    distance: 0.45
+  - from: '9992508'
+    from_name: 高見馬場
+    to: '9992509'
+    to_name: 甲東中学校前
+    time: 2
+    distance: 0.39
+  - from: '9992509'
+    from_name: 甲東中学校前
+    to: '9992510'
+    to_name: 新屋敷
+    time: 2
+    distance: 0.22
+  - from: '9992510'
+    from_name: 新屋敷
+    to: '9992511'
+    to_name: 武之橋
+    time: 2
+    distance: 0.46
+  - from: '9992511'
+    from_name: 武之橋
+    to: '9992512'
+    to_name: 二中通
+    time: 2
+    distance: 0.3
+  - from: '9992512'
+    from_name: 二中通
+    to: '9992513'
+    to_name: 荒田八幡
+    time: 2
+    distance: 0.39
+  - from: '9992513'
+    from_name: 荒田八幡
+    to: '9992514'
+    to_name: 騎射場
+    time: 2
+    distance: 0.51
+  - from: '9992514'
+    from_name: 騎射場
+    to: '9992515'
+    to_name: 鴨池
+    time: 2
+    distance: 0.58
+  - from: '9992515'
+    from_name: 鴨池
+    to: '9992516'
+    to_name: 郡元
+    time: 2
+    distance: 0.14
+  - from: '9992516'
+    from_name: 郡元
+    to: '9992525'
+    to_name: 郡元南
+    time: 2
+    distance: 0.1
+  - from: '9992517'
+    from_name: 涙橋
+    to: '1193003'
+    to_name: 南鹿児島
+    time: 2
+    distance: 0.57
+  - from: '1193003'
+    from_name: 南鹿児島
+    to: '9992519'
+    to_name: 二軒茶屋
+    time: 2
+    distance: 0.58
+  - from: '9992519'
+    from_name: 二軒茶屋
+    to: '9992520'
+    to_name: 宇宿一丁目
+    time: 2
+    distance: 0.45
+  - from: '9992520'
+    from_name: 宇宿一丁目
+    to: '1193004'
+    to_name: 宇宿
+    time: 2
+    distance: 0.35
+  - from: '1193004'
+    from_name: 宇宿
+    to: '9992522'
+    to_name: 笹貫
+    time: 2
+    distance: 0.56
+  - from: '9992522'
+    from_name: 笹貫
+    to: '9992523'
+    to_name: 上塩屋
+    time: 2
+    distance: 0.73
+  - from: '9992523'
+    from_name: 上塩屋
+    to: '9992524'
+    to_name: 谷山
+    time: 2
+    distance: 0.73
+  - from: '9992525'
+    from_name: 郡元南
+    to: '9992517'
+    to_name: 涙橋
+    time: 2
+    distance: 0.38

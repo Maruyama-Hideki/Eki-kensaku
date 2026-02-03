@@ -1,0 +1,54 @@
+line_code: '11215'
+line_name: JR男鹿線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1120231'
+    from_name: 追分
+    to: '1121502'
+    to_name: 出戸浜
+    time: 8
+    distance: 4.79
+  - from: '1121502'
+    from_name: 出戸浜
+    to: '1121503'
+    to_name: 上二田
+    time: 5
+    distance: 3.24
+  - from: '1121503'
+    from_name: 上二田
+    to: '1121504'
+    to_name: 二田
+    time: 4
+    distance: 2.02
+  - from: '1121504'
+    from_name: 二田
+    to: '1121505'
+    to_name: 天王
+    time: 5
+    distance: 2.76
+  - from: '1121505'
+    from_name: 天王
+    to: '1121506'
+    to_name: 船越
+    time: 3
+    distance: 1.58
+  - from: '1121506'
+    from_name: 船越
+    to: '1121507'
+    to_name: 脇本
+    time: 6
+    distance: 3.94
+  - from: '1121507'
+    from_name: 脇本
+    to: '1121508'
+    to_name: 羽立
+    time: 6
+    distance: 3.66
+  - from: '1121508'
+    from_name: 羽立
+    to: '1121509'
+    to_name: 男鹿
+    time: 4
+    distance: 2.5

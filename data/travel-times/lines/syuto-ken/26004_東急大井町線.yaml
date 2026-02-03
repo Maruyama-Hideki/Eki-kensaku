@@ -1,0 +1,108 @@
+line_code: '26004'
+line_name: 東急大井町線
+company: 東急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1133228'
+    from_name: 大井町
+    to: '2600402'
+    to_name: 下神明
+    time: 2
+    distance: 0.82
+  - from: '2600402'
+    from_name: 下神明
+    to: '2600403'
+    to_name: 戸越公園
+    time: 2
+    distance: 0.73
+  - from: '2600403'
+    from_name: 戸越公園
+    to: '2600404'
+    to_name: 中延
+    time: 2
+    distance: 0.62
+  - from: '2600404'
+    from_name: 中延
+    to: '2600405'
+    to_name: 荏原町
+    time: 2
+    distance: 0.49
+  - from: '2600405'
+    from_name: 荏原町
+    to: '2600406'
+    to_name: 旗の台
+    time: 2
+    distance: 0.49
+  - from: '2600406'
+    from_name: 旗の台
+    to: '2600407'
+    to_name: 北千束
+    time: 2
+    distance: 0.83
+  - from: '2600407'
+    from_name: 北千束
+    to: '2600206'
+    to_name: 大岡山
+    time: 2
+    distance: 0.68
+  - from: '2600206'
+    from_name: 大岡山
+    to: '2600409'
+    to_name: 緑が丘
+    time: 2
+    distance: 0.59
+  - from: '2600409'
+    from_name: 緑が丘
+    to: '2600107'
+    to_name: 自由が丘
+    time: 2
+    distance: 0.98
+  - from: '2600107'
+    from_name: 自由が丘
+    to: '2600411'
+    to_name: 九品仏
+    time: 2
+    distance: 0.72
+  - from: '2600411'
+    from_name: 九品仏
+    to: '2600412'
+    to_name: 尾山台
+    time: 2
+    distance: 0.67
+  - from: '2600412'
+    from_name: 尾山台
+    to: '2600413'
+    to_name: 等々力
+    time: 2
+    distance: 0.56
+  - from: '2600413'
+    from_name: 等々力
+    to: '2600414'
+    to_name: 上野毛
+    time: 2
+    distance: 0.91
+  - from: '2600414'
+    from_name: 上野毛
+    to: '2600307'
+    to_name: 二子玉川
+    time: 2
+    distance: 1.11
+  - from: '2600307'
+    from_name: 二子玉川
+    to: '2600308'
+    to_name: 二子新地
+    time: 2
+    distance: 0.66
+  - from: '2600308'
+    from_name: 二子新地
+    to: '2600309'
+    to_name: 高津
+    time: 2
+    distance: 0.64
+  - from: '2600309'
+    from_name: 高津
+    to: '1130310'
+    to_name: 武蔵溝ノ口
+    time: 2
+    distance: 0.69

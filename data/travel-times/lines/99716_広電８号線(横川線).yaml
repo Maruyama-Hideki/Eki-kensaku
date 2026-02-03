@@ -1,0 +1,72 @@
+line_code: '99716'
+line_name: 広電８号線(横川線)
+company: 広島電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1161116'
+    from_name: 横川
+    to: '9971502'
+    to_name: 横川一丁目
+    time: 2
+    distance: 0.37
+  - from: '9971502'
+    from_name: 横川一丁目
+    to: '9971503'
+    to_name: 別院前
+    time: 2
+    distance: 0.3
+  - from: '9971503'
+    from_name: 別院前
+    to: '9971504'
+    to_name: 寺町
+    time: 2
+    distance: 0.36
+  - from: '9971504'
+    from_name: 寺町
+    to: '9971113'
+    to_name: 十日市町
+    time: 2
+    distance: 0.42
+  - from: '9971113'
+    from_name: 十日市町
+    to: '9971114'
+    to_name: 土橋
+    time: 2
+    distance: 0.3
+  - from: '9971114'
+    from_name: 土橋
+    to: '9971415'
+    to_name: 舟入町
+    time: 2
+    distance: 0.63
+  - from: '9971415'
+    from_name: 舟入町
+    to: '9971416'
+    to_name: 舟入本町
+    time: 2
+    distance: 0.46
+  - from: '9971416'
+    from_name: 舟入本町
+    to: '9971417'
+    to_name: 舟入幸町
+    time: 2
+    distance: 0.3
+  - from: '9971417'
+    from_name: 舟入幸町
+    to: '9971418'
+    to_name: 舟入川口町
+    time: 2
+    distance: 0.35
+  - from: '9971418'
+    from_name: 舟入川口町
+    to: '9971419'
+    to_name: 舟入南
+    time: 2
+    distance: 0.62
+  - from: '9971419'
+    from_name: 舟入南
+    to: '9971420'
+    to_name: 江波
+    time: 2
+    distance: 0.31

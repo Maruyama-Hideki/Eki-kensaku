@@ -1,0 +1,168 @@
+line_code: '11327'
+line_name: JR成田線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1131415'
+    from_name: 佐倉
+    to: '1132702'
+    to_name: 酒々井
+    time: 8
+    distance: 5.02
+  - from: '1132702'
+    from_name: 酒々井
+    to: '1132703'
+    to_name: 成田
+    time: 10
+    distance: 6.19
+  - from: '1132703'
+    from_name: 成田
+    to: '1132813'
+    to_name: 空港第２ビル（第２旅客ターミナル）
+    time: 11
+    distance: 6.7
+  - from: '1132703'
+    from_name: 成田
+    to: '1132706'
+    to_name: 久住
+    time: 10
+    distance: 6.46
+  - from: '1132813'
+    from_name: 空港第２ビル（第２旅客ターミナル）
+    to: '1132705'
+    to_name: 成田空港（第１旅客ターミナル）
+    time: 2
+    distance: 1.08
+  - from: '1132706'
+    from_name: 久住
+    to: '1132707'
+    to_name: 滑河
+    time: 8
+    distance: 5.05
+  - from: '1132707'
+    from_name: 滑河
+    to: '1132708'
+    to_name: 下総神崎
+    time: 9
+    distance: 5.99
+  - from: '1132708'
+    from_name: 下総神崎
+    to: '1132709'
+    to_name: 大戸
+    time: 7
+    distance: 4.28
+  - from: '1132709'
+    from_name: 大戸
+    to: '1132710'
+    to_name: 佐原
+    time: 5
+    distance: 3.3
+  - from: '1132710'
+    from_name: 佐原
+    to: '1132711'
+    to_name: 香取
+    time: 6
+    distance: 3.47
+  - from: '1132711'
+    from_name: 香取
+    to: '1132712'
+    to_name: 水郷
+    time: 6
+    distance: 3.67
+  - from: '1132712'
+    from_name: 水郷
+    to: '1132713'
+    to_name: 小見川
+    time: 8
+    distance: 5.02
+  - from: '1132713'
+    from_name: 小見川
+    to: '1132714'
+    to_name: 笹川
+    time: 8
+    distance: 4.75
+  - from: '1132714'
+    from_name: 笹川
+    to: '1132715'
+    to_name: 下総橘
+    time: 8
+    distance: 4.81
+  - from: '1132715'
+    from_name: 下総橘
+    to: '1132716'
+    to_name: 下総豊里
+    time: 5
+    distance: 3.33
+  - from: '1132716'
+    from_name: 下総豊里
+    to: '1132717'
+    to_name: 椎柴
+    time: 7
+    distance: 4.6
+  - from: '1132717'
+    from_name: 椎柴
+    to: '1131430'
+    to_name: 松岸
+    time: 7
+    distance: 4.35
+  - from: '1131430'
+    from_name: 松岸
+    to: '1131431'
+    to_name: 銚子
+    time: 5
+    distance: 3.13
+  - from: '1132017'
+    from_name: 我孫子
+    to: '1132721'
+    to_name: 東我孫子
+    time: 6
+    distance: 3.39
+  - from: '1132721'
+    from_name: 東我孫子
+    to: '1132722'
+    to_name: 湖北
+    time: 5
+    distance: 2.73
+  - from: '1132722'
+    from_name: 湖北
+    to: '1132723'
+    to_name: 新木
+    time: 5
+    distance: 2.68
+  - from: '1132723'
+    from_name: 新木
+    to: '1132724'
+    to_name: 布佐
+    time: 5
+    distance: 2.74
+  - from: '1132724'
+    from_name: 布佐
+    to: '1132725'
+    to_name: 木下
+    time: 3
+    distance: 1.79
+  - from: '1132725'
+    from_name: 木下
+    to: '1132726'
+    to_name: 小林
+    time: 7
+    distance: 4.16
+  - from: '1132726'
+    from_name: 小林
+    to: '1132727'
+    to_name: 安食
+    time: 7
+    distance: 4.45
+  - from: '1132727'
+    from_name: 安食
+    to: '1132728'
+    to_name: 下総松崎
+    time: 7
+    distance: 4.45
+  - from: '1132728'
+    from_name: 下総松崎
+    to: '1132703'
+    to_name: 成田
+    time: 8
+    distance: 4.68

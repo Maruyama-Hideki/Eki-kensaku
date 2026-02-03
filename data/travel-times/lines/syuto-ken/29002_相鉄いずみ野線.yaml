@@ -1,0 +1,48 @@
+line_code: '29002'
+line_name: 相鉄いずみ野線
+company: 相模鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2900110'
+    from_name: 二俣川
+    to: '2900202'
+    to_name: 南万騎が原
+    time: 2
+    distance: 1.31
+  - from: '2900202'
+    from_name: 南万騎が原
+    to: '2900203'
+    to_name: 緑園都市
+    time: 3
+    distance: 1.5
+  - from: '2900203'
+    from_name: 緑園都市
+    to: '2900204'
+    to_name: 弥生台
+    time: 3
+    distance: 1.74
+  - from: '2900204'
+    from_name: 弥生台
+    to: '2900205'
+    to_name: いずみ野
+    time: 2
+    distance: 1.04
+  - from: '2900205'
+    from_name: いずみ野
+    to: '2900206'
+    to_name: いずみ中央
+    time: 3
+    distance: 1.72
+  - from: '2900206'
+    from_name: いずみ中央
+    to: '2900207'
+    to_name: ゆめが丘
+    time: 2
+    distance: 1.2
+  - from: '2900207'
+    from_name: ゆめが丘
+    to: '2500210'
+    to_name: 湘南台
+    time: 3
+    distance: 1.74

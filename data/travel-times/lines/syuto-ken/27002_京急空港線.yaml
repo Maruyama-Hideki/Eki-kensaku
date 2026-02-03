@@ -1,0 +1,42 @@
+line_code: '27002'
+line_name: 京急空港線
+company: 京急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2700112'
+    from_name: 京急蒲田
+    to: '2700202'
+    to_name: 糀谷
+    time: 2
+    distance: 0.88
+  - from: '2700202'
+    from_name: 糀谷
+    to: '2700203'
+    to_name: 大鳥居
+    time: 2
+    distance: 0.91
+  - from: '2700203'
+    from_name: 大鳥居
+    to: '2700204'
+    to_name: 穴守稲荷
+    time: 2
+    distance: 0.71
+  - from: '2700204'
+    from_name: 穴守稲荷
+    to: '2700205'
+    to_name: 天空橋
+    time: 2
+    distance: 0.7
+  - from: '2700205'
+    from_name: 天空橋
+    to: '2700207'
+    to_name: 羽田空港第3ターミナル
+    time: 3
+    distance: 1.41
+  - from: '2700207'
+    from_name: 羽田空港第3ターミナル
+    to: '2700206'
+    to_name: 羽田空港第1・第2ターミナル
+    time: 3
+    distance: 1.64

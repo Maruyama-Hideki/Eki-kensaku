@@ -1,0 +1,120 @@
+line_code: '30012'
+line_name: 名鉄瀬戸線
+company: 名古屋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3001201'
+    from_name: 栄町
+    to: '3001202'
+    to_name: 東大手
+    time: 3
+    distance: 1.46
+  - from: '3001202'
+    from_name: 東大手
+    to: '3001203'
+    to_name: 清水
+    time: 2
+    distance: 0.62
+  - from: '3001203'
+    from_name: 清水
+    to: '3001204'
+    to_name: 尼ヶ坂
+    time: 2
+    distance: 0.5
+  - from: '3001204'
+    from_name: 尼ヶ坂
+    to: '3001205'
+    to_name: 森下
+    time: 2
+    distance: 0.94
+  - from: '3001205'
+    from_name: 森下
+    to: '1141105'
+    to_name: 大曽根
+    time: 2
+    distance: 0.77
+  - from: '1141105'
+    from_name: 大曽根
+    to: '3001207'
+    to_name: 矢田
+    time: 2
+    distance: 1
+  - from: '3001207'
+    from_name: 矢田
+    to: '3001208'
+    to_name: 守山自衛隊前
+    time: 2
+    distance: 0.96
+  - from: '3001208'
+    from_name: 守山自衛隊前
+    to: '3001209'
+    to_name: 瓢箪山
+    time: 2
+    distance: 0.66
+  - from: '3001209'
+    from_name: 瓢箪山
+    to: '3001210'
+    to_name: 小幡
+    time: 2
+    distance: 1.03
+  - from: '3001210'
+    from_name: 小幡
+    to: '3001211'
+    to_name: 喜多山
+    time: 2
+    distance: 1.22
+  - from: '3001211'
+    from_name: 喜多山
+    to: '3001212'
+    to_name: 大森・金城学院前
+    time: 2
+    distance: 0.82
+  - from: '3001212'
+    from_name: 大森・金城学院前
+    to: '3001213'
+    to_name: 印場
+    time: 3
+    distance: 1.41
+  - from: '3001213'
+    from_name: 印場
+    to: '3001214'
+    to_name: 旭前
+    time: 2
+    distance: 0.85
+  - from: '3001214'
+    from_name: 旭前
+    to: '3001215'
+    to_name: 尾張旭
+    time: 3
+    distance: 1.54
+  - from: '3001215'
+    from_name: 尾張旭
+    to: '3001216'
+    to_name: 三郷
+    time: 3
+    distance: 1.45
+  - from: '3001216'
+    from_name: 三郷
+    to: '3001217'
+    to_name: 水野
+    time: 3
+    distance: 1.81
+  - from: '3001217'
+    from_name: 水野
+    to: '3001218'
+    to_name: 新瀬戸
+    time: 2
+    distance: 0.74
+  - from: '3001218'
+    from_name: 新瀬戸
+    to: '3001219'
+    to_name: 瀬戸市役所前
+    time: 2
+    distance: 0.6
+  - from: '3001219'
+    from_name: 瀬戸市役所前
+    to: '3001220'
+    to_name: 尾張瀬戸
+    time: 2
+    distance: 1.19

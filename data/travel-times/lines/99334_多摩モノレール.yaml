@@ -1,0 +1,114 @@
+line_code: '99334'
+line_name: 多摩モノレール
+company: 多摩都市モノレール
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2400208'
+    from_name: 京王多摩センター
+    to: '9933402'
+    to_name: 松が谷
+    time: 2
+    distance: 0.74
+  - from: '9933402'
+    from_name: 松が谷
+    to: '9933403'
+    to_name: 大塚・帝京大学
+    time: 2
+    distance: 0.78
+  - from: '9933403'
+    from_name: 大塚・帝京大学
+    to: '9933404'
+    to_name: 中央大学・明星大学
+    time: 2
+    distance: 0.9
+  - from: '9933404'
+    from_name: 中央大学・明星大学
+    to: '2400502'
+    to_name: 多摩動物公園
+    time: 2
+    distance: 0.88
+  - from: '2400502'
+    from_name: 多摩動物公園
+    to: '9933406'
+    to_name: 程久保
+    time: 2
+    distance: 0.85
+  - from: '9933406'
+    from_name: 程久保
+    to: '2400129'
+    to_name: 高幡不動
+    time: 2
+    distance: 0.83
+  - from: '2400129'
+    from_name: 高幡不動
+    to: '9933408'
+    to_name: 万願寺
+    time: 2
+    distance: 1.18
+  - from: '9933408'
+    from_name: 万願寺
+    to: '9933409'
+    to_name: 甲州街道
+    time: 2
+    distance: 1.26
+  - from: '9933409'
+    from_name: 甲州街道
+    to: '9933410'
+    to_name: 柴崎体育館
+    time: 2
+    distance: 1.25
+  - from: '9933410'
+    from_name: 柴崎体育館
+    to: '9933411'
+    to_name: 立川南
+    time: 2
+    distance: 0.79
+  - from: '9933411'
+    from_name: 立川南
+    to: '9933412'
+    to_name: 立川北
+    time: 2
+    distance: 0.38
+  - from: '9933412'
+    from_name: 立川北
+    to: '9933413'
+    to_name: 高松
+    time: 2
+    distance: 1.19
+  - from: '9933413'
+    from_name: 高松
+    to: '9933414'
+    to_name: 立飛
+    time: 2
+    distance: 0.63
+  - from: '9933414'
+    from_name: 立飛
+    to: '9933415'
+    to_name: 泉体育館
+    time: 2
+    distance: 0.49
+  - from: '9933415'
+    from_name: 泉体育館
+    to: '9933416'
+    to_name: 砂川七番
+    time: 2
+    distance: 0.52
+  - from: '9933416'
+    from_name: 砂川七番
+    to: '2200805'
+    to_name: 玉川上水
+    time: 2
+    distance: 0.94
+  - from: '2200805'
+    from_name: 玉川上水
+    to: '9933418'
+    to_name: 桜街道
+    time: 2
+    distance: 0.82
+  - from: '9933418'
+    from_name: 桜街道
+    to: '9933419'
+    to_name: 上北台
+    time: 2
+    distance: 0.76

@@ -1,0 +1,108 @@
+line_code: '99401'
+line_name: 富士急行線
+company: 富士急行
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1131120'
+    from_name: 大月
+    to: '9940102'
+    to_name: 上大月
+    time: 2
+    distance: 0.6
+  - from: '9940102'
+    from_name: 上大月
+    to: '9940103'
+    to_name: 田野倉
+    time: 3
+    distance: 1.87
+  - from: '9940103'
+    from_name: 田野倉
+    to: '9940104'
+    to_name: 禾生
+    time: 4
+    distance: 2.04
+  - from: '9940104'
+    from_name: 禾生
+    to: '9940105'
+    to_name: 赤坂
+    time: 3
+    distance: 1.56
+  - from: '9940105'
+    from_name: 赤坂
+    to: '9940106'
+    to_name: 都留市
+    time: 2
+    distance: 1.25
+  - from: '9940106'
+    from_name: 都留市
+    to: '9940107'
+    to_name: 谷村町
+    time: 2
+    distance: 0.76
+  - from: '9940107'
+    from_name: 谷村町
+    to: '9940108'
+    to_name: 都留文科大学前
+    time: 2
+    distance: 1.18
+  - from: '9940108'
+    from_name: 都留文科大学前
+    to: '9940109'
+    to_name: 十日市場
+    time: 2
+    distance: 0.91
+  - from: '9940109'
+    from_name: 十日市場
+    to: '9940110'
+    to_name: 東桂
+    time: 3
+    distance: 1.54
+  - from: '9940110'
+    from_name: 東桂
+    to: '9940111'
+    to_name: 三つ峠
+    time: 4
+    distance: 2.65
+  - from: '9940111'
+    from_name: 三つ峠
+    to: '9940112'
+    to_name: 寿
+    time: 4
+    distance: 2.52
+  - from: '9940112'
+    from_name: 寿
+    to: '9940113'
+    to_name: 葭池温泉前
+    time: 3
+    distance: 1.4
+  - from: '9940113'
+    from_name: 葭池温泉前
+    to: '9940114'
+    to_name: 下吉田
+    time: 2
+    distance: 0.9
+  - from: '9940114'
+    from_name: 下吉田
+    to: '9940115'
+    to_name: 月江寺
+    time: 2
+    distance: 0.72
+  - from: '9940115'
+    from_name: 月江寺
+    to: '9940116'
+    to_name: 富士山
+    time: 2
+    distance: 1.11
+  - from: '9940116'
+    from_name: 富士山
+    to: '9940117'
+    to_name: 富士急ハイランド
+    time: 3
+    distance: 1.37
+  - from: '9940117'
+    from_name: 富士急ハイランド
+    to: '9940118'
+    to_name: 河口湖
+    time: 3
+    distance: 1.58

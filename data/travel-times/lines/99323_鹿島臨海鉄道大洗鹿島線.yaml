@@ -1,0 +1,96 @@
+line_code: '99323'
+line_name: 鹿島臨海鉄道大洗鹿島線
+company: 鹿島臨海鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1122917'
+    from_name: 水戸
+    to: '9932302'
+    to_name: 東水戸
+    time: 6
+    distance: 3.66
+  - from: '9932302'
+    from_name: 東水戸
+    to: '9932303'
+    to_name: 常澄
+    time: 7
+    distance: 4.51
+  - from: '9932303'
+    from_name: 常澄
+    to: '9932304'
+    to_name: 大洗
+    time: 5
+    distance: 2.84
+  - from: '9932304'
+    from_name: 大洗
+    to: '9932305'
+    to_name: 涸沼
+    time: 10
+    distance: 6.33
+  - from: '9932305'
+    from_name: 涸沼
+    to: '9932306'
+    to_name: 鹿島旭
+    time: 8
+    distance: 4.79
+  - from: '9932306'
+    from_name: 鹿島旭
+    to: '9932307'
+    to_name: 徳宿
+    time: 6
+    distance: 3.82
+  - from: '9932307'
+    from_name: 徳宿
+    to: '9932308'
+    to_name: 新鉾田
+    time: 7
+    distance: 4.22
+  - from: '9932308'
+    from_name: 新鉾田
+    to: '9932309'
+    to_name: 北浦湖畔
+    time: 6
+    distance: 3.88
+  - from: '9932309'
+    from_name: 北浦湖畔
+    to: '9932310'
+    to_name: 大洋
+    time: 6
+    distance: 3.8
+  - from: '9932310'
+    from_name: 大洋
+    to: '9932311'
+    to_name: 鹿島灘
+    time: 7
+    distance: 4.08
+  - from: '9932311'
+    from_name: 鹿島灘
+    to: '9932312'
+    to_name: 鹿島大野
+    time: 5
+    distance: 3.01
+  - from: '9932312'
+    from_name: 鹿島大野
+    to: '9932313'
+    to_name: 長者ヶ浜潮騒はまなす公園前
+    time: 4
+    distance: 2.3
+  - from: '9932313'
+    from_name: 長者ヶ浜潮騒はまなす公園前
+    to: '9932314'
+    to_name: 荒野台
+    time: 3
+    distance: 1.71
+  - from: '9932314'
+    from_name: 荒野台
+    to: '1132907'
+    to_name: 鹿島サッカースタジアム（臨）
+    time: 5
+    distance: 2.85
+  - from: '1132907'
+    from_name: 鹿島サッカースタジアム（臨）
+    to: '1132906'
+    to_name: 鹿島神宮
+    time: 4
+    distance: 2.63

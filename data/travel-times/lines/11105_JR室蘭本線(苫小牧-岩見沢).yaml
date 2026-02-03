@@ -1,0 +1,84 @@
+line_code: '11105'
+line_name: JR室蘭本線(苫小牧～岩見沢)
+company: JR北海道
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1110434'
+    from_name: 苫小牧
+    to: '1110502'
+    to_name: 沼ノ端
+    time: 13
+    distance: 8.66
+  - from: '1110502'
+    from_name: 沼ノ端
+    to: '1110503'
+    to_name: 遠浅
+    time: 14
+    distance: 8.94
+  - from: '1110503'
+    from_name: 遠浅
+    to: '1110504'
+    to_name: 早来
+    time: 9
+    distance: 5.38
+  - from: '1110504'
+    from_name: 早来
+    to: '1110505'
+    to_name: 安平
+    time: 9
+    distance: 5.5
+  - from: '1110505'
+    from_name: 安平
+    to: '1110506'
+    to_name: 追分
+    time: 11
+    distance: 6.7
+  - from: '1110506'
+    from_name: 追分
+    to: '1110507'
+    to_name: 三川
+    time: 13
+    distance: 8.01
+  - from: '1110507'
+    from_name: 三川
+    to: '1110508'
+    to_name: 古山
+    time: 6
+    distance: 3.41
+  - from: '1110508'
+    from_name: 古山
+    to: '1110509'
+    to_name: 由仁
+    time: 7
+    distance: 4.16
+  - from: '1110509'
+    from_name: 由仁
+    to: '1110510'
+    to_name: 栗山
+    time: 8
+    distance: 5.18
+  - from: '1110510'
+    from_name: 栗山
+    to: '1110511'
+    to_name: 栗丘
+    time: 6
+    distance: 3.96
+  - from: '1110511'
+    from_name: 栗丘
+    to: '1110512'
+    to_name: 栗沢
+    time: 6
+    distance: 3.9
+  - from: '1110512'
+    from_name: 栗沢
+    to: '1110513'
+    to_name: 志文
+    time: 7
+    distance: 4.3
+  - from: '1110513'
+    from_name: 志文
+    to: '1110327'
+    to_name: 岩見沢
+    time: 8
+    distance: 5.18

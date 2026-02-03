@@ -1,0 +1,60 @@
+line_code: '31008'
+line_name: 近鉄湯の山線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3100801'
+    from_name: 近鉄四日市
+    to: '3100802'
+    to_name: 中川原
+    time: 3
+    distance: 1.46
+  - from: '3100802'
+    from_name: 中川原
+    to: '3100803'
+    to_name: 伊勢松本
+    time: 2
+    distance: 1.09
+  - from: '3100803'
+    from_name: 伊勢松本
+    to: '3100804'
+    to_name: 伊勢川島
+    time: 4
+    distance: 2.34
+  - from: '3100804'
+    from_name: 伊勢川島
+    to: '3100805'
+    to_name: 高角
+    time: 2
+    distance: 1.29
+  - from: '3100805'
+    from_name: 高角
+    to: '3100806'
+    to_name: 桜
+    time: 3
+    distance: 1.89
+  - from: '3100806'
+    from_name: 桜
+    to: '3100807'
+    to_name: 菰野
+    time: 4
+    distance: 2.59
+  - from: '3100807'
+    from_name: 菰野
+    to: '3100808'
+    to_name: 中菰野
+    time: 2
+    distance: 1.26
+  - from: '3100808'
+    from_name: 中菰野
+    to: '3100809'
+    to_name: 大羽根園
+    time: 2
+    distance: 0.92
+  - from: '3100809'
+    from_name: 大羽根園
+    to: '3100810'
+    to_name: 湯の山温泉
+    time: 3
+    distance: 1.87

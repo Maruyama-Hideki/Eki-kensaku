@@ -1,0 +1,84 @@
+line_code: '99920'
+line_name: 湯前線
+company: くま川鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1192515'
+    from_name: 人吉
+    to: '9992002'
+    to_name: 相良藩願成寺
+    time: 3
+    distance: 1.51
+  - from: '9992002'
+    from_name: 相良藩願成寺
+    to: '9992003'
+    to_name: 川村
+    time: 5
+    distance: 2.72
+  - from: '9992003'
+    from_name: 川村
+    to: '9992004'
+    to_name: 肥後西村
+    time: 3
+    distance: 1.39
+  - from: '9992004'
+    from_name: 肥後西村
+    to: '9992005'
+    to_name: 一武
+    time: 5
+    distance: 3.23
+  - from: '9992005'
+    from_name: 一武
+    to: '9992006'
+    to_name: 木上
+    time: 4
+    distance: 2.09
+  - from: '9992006'
+    from_name: 木上
+    to: '9992007'
+    to_name: おかどめ幸福
+    time: 3
+    distance: 1.58
+  - from: '9992007'
+    from_name: おかどめ幸福
+    to: '9992008'
+    to_name: あさぎり
+    time: 3
+    distance: 1.98
+  - from: '9992008'
+    from_name: あさぎり
+    to: '9992009'
+    to_name: 東免田
+    time: 4
+    distance: 2.37
+  - from: '9992009'
+    from_name: 東免田
+    to: '9992010'
+    to_name: 公立病院前
+    time: 2
+    distance: 1.05
+  - from: '9992010'
+    from_name: 公立病院前
+    to: '9992011'
+    to_name: 多良木
+    time: 3
+    distance: 1.34
+  - from: '9992011'
+    from_name: 多良木
+    to: '9992012'
+    to_name: 東多良木
+    time: 3
+    distance: 1.94
+  - from: '9992012'
+    from_name: 東多良木
+    to: '9992013'
+    to_name: 新鶴羽
+    time: 3
+    distance: 1.5
+  - from: '9992013'
+    from_name: 新鶴羽
+    to: '9992014'
+    to_name: 湯前
+    time: 3
+    distance: 1.46

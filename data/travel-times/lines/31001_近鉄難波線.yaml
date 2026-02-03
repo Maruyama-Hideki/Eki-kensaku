@@ -1,0 +1,18 @@
+line_code: '31001'
+line_name: 近鉄難波線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3100101'
+    from_name: 大阪難波
+    to: '3100102'
+    to_name: 近鉄日本橋
+    time: 2
+    distance: 0.61
+  - from: '3100102'
+    from_name: 近鉄日本橋
+    to: '3100103'
+    to_name: 大阪上本町
+    time: 3
+    distance: 1.51

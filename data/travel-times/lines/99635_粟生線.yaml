@@ -1,0 +1,120 @@
+line_code: '99635'
+line_name: 粟生線
+company: 神戸電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9963206'
+    from_name: 鈴蘭台
+    to: '9963502'
+    to_name: 鈴蘭台西口
+    time: 2
+    distance: 0.57
+  - from: '9963502'
+    from_name: 鈴蘭台西口
+    to: '9963503'
+    to_name: 西鈴蘭台
+    time: 2
+    distance: 0.51
+  - from: '9963503'
+    from_name: 西鈴蘭台
+    to: '9963504'
+    to_name: 藍那
+    time: 3
+    distance: 1.72
+  - from: '9963504'
+    from_name: 藍那
+    to: '9963505'
+    to_name: 木津
+    time: 5
+    distance: 3
+  - from: '9963505'
+    from_name: 木津
+    to: '9963506'
+    to_name: 木幡
+    time: 3
+    distance: 1.64
+  - from: '9963506'
+    from_name: 木幡
+    to: '9963507'
+    to_name: 栄
+    time: 3
+    distance: 1.55
+  - from: '9963507'
+    from_name: 栄
+    to: '9963508'
+    to_name: 押部谷
+    time: 3
+    distance: 1.58
+  - from: '9963508'
+    from_name: 押部谷
+    to: '9963509'
+    to_name: 緑が丘
+    time: 3
+    distance: 1.56
+  - from: '9963509'
+    from_name: 緑が丘
+    to: '9963510'
+    to_name: 広野ゴルフ場前
+    time: 2
+    distance: 0.62
+  - from: '9963510'
+    from_name: 広野ゴルフ場前
+    to: '9963511'
+    to_name: 志染
+    time: 3
+    distance: 1.96
+  - from: '9963511'
+    from_name: 志染
+    to: '9963512'
+    to_name: 恵比須
+    time: 3
+    distance: 1.89
+  - from: '9963512'
+    from_name: 恵比須
+    to: '9963513'
+    to_name: 三木上の丸
+    time: 2
+    distance: 0.93
+  - from: '9963513'
+    from_name: 三木上の丸
+    to: '9963514'
+    to_name: 三木
+    time: 2
+    distance: 0.67
+  - from: '9963514'
+    from_name: 三木
+    to: '9963515'
+    to_name: 大村
+    time: 3
+    distance: 1.35
+  - from: '9963515'
+    from_name: 大村
+    to: '9963516'
+    to_name: 樫山
+    time: 4
+    distance: 2.38
+  - from: '9963516'
+    from_name: 樫山
+    to: '9963517'
+    to_name: 市場
+    time: 2
+    distance: 0.66
+  - from: '9963517'
+    from_name: 市場
+    to: '9963518'
+    to_name: 小野
+    time: 4
+    distance: 2.29
+  - from: '9963518'
+    from_name: 小野
+    to: '9963519'
+    to_name: 葉多
+    time: 3
+    distance: 1.52
+  - from: '9963519'
+    from_name: 葉多
+    to: '1163207'
+    to_name: 粟生
+    time: 2
+    distance: 1.2

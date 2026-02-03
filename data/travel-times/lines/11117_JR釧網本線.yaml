@@ -1,0 +1,150 @@
+line_code: '11117'
+line_name: JR釧網本線
+company: JR北海道
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1111642'
+    from_name: 網走
+    to: '1111702'
+    to_name: 桂台
+    time: 3
+    distance: 1.56
+  - from: '1111702'
+    from_name: 桂台
+    to: '1111703'
+    to_name: 鱒浦
+    time: 7
+    distance: 4.26
+  - from: '1111703'
+    from_name: 鱒浦
+    to: '1111704'
+    to_name: 藻琴
+    time: 4
+    distance: 2.45
+  - from: '1111704'
+    from_name: 藻琴
+    to: '1111705'
+    to_name: 北浜
+    time: 5
+    distance: 2.82
+  - from: '1111705'
+    from_name: 北浜
+    to: '1111706'
+    to_name: 原生花園
+    time: 8
+    distance: 5.32
+  - from: '1111706'
+    from_name: 原生花園
+    to: '1111707'
+    to_name: 浜小清水
+    time: 5
+    distance: 3.2
+  - from: '1111707'
+    from_name: 浜小清水
+    to: '1111708'
+    to_name: 止別
+    time: 9
+    distance: 5.51
+  - from: '1111708'
+    from_name: 止別
+    to: '1111709'
+    to_name: 知床斜里
+    time: 18
+    distance: 11.42
+  - from: '1111709'
+    from_name: 知床斜里
+    to: '1111710'
+    to_name: 中斜里
+    time: 7
+    distance: 4.02
+  - from: '1111710'
+    from_name: 中斜里
+    to: '1111712'
+    to_name: 清里町
+    time: 10
+    distance: 6.57
+  - from: '1111712'
+    from_name: 清里町
+    to: '1111713'
+    to_name: 札弦
+    time: 12
+    distance: 7.66
+  - from: '1111713'
+    from_name: 札弦
+    to: '1111714'
+    to_name: 緑
+    time: 12
+    distance: 7.88
+  - from: '1111714'
+    from_name: 緑
+    to: '1111715'
+    to_name: 川湯温泉
+    time: 18
+    distance: 11.98
+  - from: '1111715'
+    from_name: 川湯温泉
+    to: '1111716'
+    to_name: 美留和
+    time: 11
+    distance: 6.97
+  - from: '1111716'
+    from_name: 美留和
+    to: '1111717'
+    to_name: 摩周
+    time: 12
+    distance: 7.85
+  - from: '1111717'
+    from_name: 摩周
+    to: '1111719'
+    to_name: 磯分内
+    time: 22
+    distance: 14.05
+  - from: '1111719'
+    from_name: 磯分内
+    to: '1111720'
+    to_name: 標茶
+    time: 16
+    distance: 10.01
+  - from: '1111720'
+    from_name: 標茶
+    to: '1111722'
+    to_name: 茅沼
+    time: 21
+    distance: 13.66
+  - from: '1111722'
+    from_name: 茅沼
+    to: '1111723'
+    to_name: 塘路
+    time: 9
+    distance: 5.63
+  - from: '1111723'
+    from_name: 塘路
+    to: '1111724'
+    to_name: 細岡
+    time: 9
+    distance: 5.64
+  - from: '1111724'
+    from_name: 細岡
+    to: '1111725'
+    to_name: 釧路湿原
+    time: 3
+    distance: 1.84
+  - from: '1111725'
+    from_name: 釧路湿原
+    to: '1111726'
+    to_name: 遠矢
+    time: 9
+    distance: 5.93
+  - from: '1111726'
+    from_name: 遠矢
+    to: '1110802'
+    to_name: 東釧路
+    time: 11
+    distance: 7
+  - from: '1110802'
+    from_name: 東釧路
+    to: '1110731'
+    to_name: 釧路
+    time: 4
+    distance: 2.44

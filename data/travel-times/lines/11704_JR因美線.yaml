@@ -1,0 +1,120 @@
+line_code: '11704'
+line_name: JR因美線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1161619'
+    from_name: 鳥取
+    to: '1170402'
+    to_name: 津ノ井
+    time: 7
+    distance: 4.19
+  - from: '1170402'
+    from_name: 津ノ井
+    to: '1170403'
+    to_name: 東郡家
+    time: 6
+    distance: 3.71
+  - from: '1170403'
+    from_name: 東郡家
+    to: '1170404'
+    to_name: 郡家
+    time: 3
+    distance: 1.98
+  - from: '1170404'
+    from_name: 郡家
+    to: '1170405'
+    to_name: 河原
+    time: 5
+    distance: 3.03
+  - from: '1170405'
+    from_name: 河原
+    to: '1170406'
+    to_name: 国英
+    time: 5
+    distance: 2.77
+  - from: '1170406'
+    from_name: 国英
+    to: '1170407'
+    to_name: 鷹狩
+    time: 4
+    distance: 2.33
+  - from: '1170407'
+    from_name: 鷹狩
+    to: '1170408'
+    to_name: 用瀬
+    time: 2
+    distance: 1.2
+  - from: '1170408'
+    from_name: 用瀬
+    to: '1170409'
+    to_name: 因幡社
+    time: 6
+    distance: 3.53
+  - from: '1170409'
+    from_name: 因幡社
+    to: '1170410'
+    to_name: 智頭
+    time: 9
+    distance: 5.9
+  - from: '1170410'
+    from_name: 智頭
+    to: '1170411'
+    to_name: 土師
+    time: 6
+    distance: 3.57
+  - from: '1170411'
+    from_name: 土師
+    to: '1170412'
+    to_name: 那岐
+    time: 4
+    distance: 2.56
+  - from: '1170412'
+    from_name: 那岐
+    to: '1170413'
+    to_name: 美作河井
+    time: 15
+    distance: 9.4
+  - from: '1170413'
+    from_name: 美作河井
+    to: '1170414'
+    to_name: 知和
+    time: 5
+    distance: 3.02
+  - from: '1170414'
+    from_name: 知和
+    to: '1170415'
+    to_name: 美作加茂
+    time: 5
+    distance: 2.94
+  - from: '1170415'
+    from_name: 美作加茂
+    to: '1170416'
+    to_name: 三浦
+    time: 6
+    distance: 3.44
+  - from: '1170416'
+    from_name: 三浦
+    to: '1170417'
+    to_name: 美作滝尾
+    time: 4
+    distance: 2.08
+  - from: '1170417'
+    from_name: 美作滝尾
+    to: '1170418'
+    to_name: 高野
+    time: 8
+    distance: 4.82
+  - from: '1170418'
+    from_name: 高野
+    to: '1163410'
+    to_name: 東津山
+    time: 6
+    distance: 3.93
+  - from: '1163410'
+    from_name: 東津山
+    to: '1163411'
+    to_name: 津山
+    time: 4
+    distance: 2.62

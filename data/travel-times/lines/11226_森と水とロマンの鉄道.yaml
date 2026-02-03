@@ -1,0 +1,168 @@
+line_code: '11226'
+line_name: 森と水とロマンの鉄道
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1122515'
+    from_name: 会津若松
+    to: '1122602'
+    to_name: 堂島
+    time: 9
+    distance: 5.36
+  - from: '1122602'
+    from_name: 堂島
+    to: '1122603'
+    to_name: 笈川
+    time: 5
+    distance: 3.07
+  - from: '1122603'
+    from_name: 笈川
+    to: '1122604'
+    to_name: 塩川
+    time: 3
+    distance: 1.8
+  - from: '1122604'
+    from_name: 塩川
+    to: '1122605'
+    to_name: 姥堂
+    time: 4
+    distance: 2.51
+  - from: '1122605'
+    from_name: 姥堂
+    to: '1122606'
+    to_name: 会津豊川
+    time: 3
+    distance: 1.99
+  - from: '1122606'
+    from_name: 会津豊川
+    to: '1122607'
+    to_name: 喜多方
+    time: 3
+    distance: 1.37
+  - from: '1122607'
+    from_name: 喜多方
+    to: '1122608'
+    to_name: 山都
+    time: 14
+    distance: 8.98
+  - from: '1122608'
+    from_name: 山都
+    to: '1122609'
+    to_name: 荻野
+    time: 7
+    distance: 4.59
+  - from: '1122609'
+    from_name: 荻野
+    to: '1122610'
+    to_name: 尾登
+    time: 5
+    distance: 2.86
+  - from: '1122610'
+    from_name: 尾登
+    to: '1122611'
+    to_name: 野沢
+    time: 7
+    distance: 4.6
+  - from: '1122611'
+    from_name: 野沢
+    to: '1122612'
+    to_name: 上野尻
+    time: 6
+    distance: 3.91
+  - from: '1122612'
+    from_name: 上野尻
+    to: '1122613'
+    to_name: 徳沢
+    time: 9
+    distance: 5.39
+  - from: '1122613'
+    from_name: 徳沢
+    to: '1122614'
+    to_name: 豊実
+    time: 5
+    distance: 2.79
+  - from: '1122614'
+    from_name: 豊実
+    to: '1122615'
+    to_name: 日出谷
+    time: 7
+    distance: 4.66
+  - from: '1122615'
+    from_name: 日出谷
+    to: '1122616'
+    to_name: 鹿瀬
+    time: 8
+    distance: 4.91
+  - from: '1122616'
+    from_name: 鹿瀬
+    to: '1122617'
+    to_name: 津川
+    time: 5
+    distance: 2.98
+  - from: '1122617'
+    from_name: 津川
+    to: '1122618'
+    to_name: 三川
+    time: 10
+    distance: 6.2
+  - from: '1122618'
+    from_name: 三川
+    to: '1122619'
+    to_name: 五十島
+    time: 4
+    distance: 2.61
+  - from: '1122619'
+    from_name: 五十島
+    to: '1122620'
+    to_name: 東下条
+    time: 6
+    distance: 3.62
+  - from: '1122620'
+    from_name: 東下条
+    to: '1122621'
+    to_name: 咲花
+    time: 5
+    distance: 2.72
+  - from: '1122621'
+    from_name: 咲花
+    to: '1122622'
+    to_name: 馬下
+    time: 5
+    distance: 2.7
+  - from: '1122622'
+    from_name: 馬下
+    to: '1122623'
+    to_name: 猿和田
+    time: 6
+    distance: 3.46
+  - from: '1122623'
+    from_name: 猿和田
+    to: '1122624'
+    to_name: 五泉
+    time: 6
+    distance: 3.79
+  - from: '1122624'
+    from_name: 五泉
+    to: '1122625'
+    to_name: 北五泉
+    time: 3
+    distance: 1.64
+  - from: '1122625'
+    from_name: 北五泉
+    to: '1122626'
+    to_name: 新関
+    time: 4
+    distance: 2.45
+  - from: '1122626'
+    from_name: 新関
+    to: '1122627'
+    to_name: 東新津
+    time: 5
+    distance: 2.73
+  - from: '1122627'
+    from_name: 東新津
+    to: '1121401'
+    to_name: 新津
+    time: 4
+    distance: 2.42

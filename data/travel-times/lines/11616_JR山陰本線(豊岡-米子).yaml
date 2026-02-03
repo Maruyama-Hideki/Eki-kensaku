@@ -1,0 +1,246 @@
+line_code: '11616'
+line_name: JR山陰本線(豊岡～米子)
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1161524'
+    from_name: 豊岡
+    to: '1161602'
+    to_name: 玄武洞
+    time: 8
+    distance: 5.15
+  - from: '1161602'
+    from_name: 玄武洞
+    to: '1161603'
+    to_name: 城崎温泉
+    time: 7
+    distance: 4.11
+  - from: '1161603'
+    from_name: 城崎温泉
+    to: '1161604'
+    to_name: 竹野
+    time: 9
+    distance: 5.91
+  - from: '1161604'
+    from_name: 竹野
+    to: '1161606'
+    to_name: 佐津
+    time: 10
+    distance: 6.39
+  - from: '1161606'
+    from_name: 佐津
+    to: '1161607'
+    to_name: 柴山
+    time: 4
+    distance: 2.12
+  - from: '1161607'
+    from_name: 柴山
+    to: '1161608'
+    to_name: 香住
+    time: 6
+    distance: 3.85
+  - from: '1161608'
+    from_name: 香住
+    to: '1161609'
+    to_name: 鎧
+    time: 8
+    distance: 4.74
+  - from: '1161609'
+    from_name: 鎧
+    to: '1161610'
+    to_name: 餘部
+    time: 3
+    distance: 1.68
+  - from: '1161610'
+    from_name: 餘部
+    to: '1161611'
+    to_name: 久谷
+    time: 7
+    distance: 4.28
+  - from: '1161611'
+    from_name: 久谷
+    to: '1161612'
+    to_name: 浜坂
+    time: 9
+    distance: 5.91
+  - from: '1161612'
+    from_name: 浜坂
+    to: '1161613'
+    to_name: 諸寄
+    time: 3
+    distance: 1.65
+  - from: '1161613'
+    from_name: 諸寄
+    to: '1161614'
+    to_name: 居組
+    time: 6
+    distance: 3.92
+  - from: '1161614'
+    from_name: 居組
+    to: '1161615'
+    to_name: 東浜
+    time: 5
+    distance: 2.97
+  - from: '1161615'
+    from_name: 東浜
+    to: '1161616'
+    to_name: 岩美
+    time: 6
+    distance: 3.7
+  - from: '1161616'
+    from_name: 岩美
+    to: '1161617'
+    to_name: 大岩
+    time: 4
+    distance: 2.62
+  - from: '1161617'
+    from_name: 大岩
+    to: '1161618'
+    to_name: 福部
+    time: 5
+    distance: 3.03
+  - from: '1161618'
+    from_name: 福部
+    to: '1161619'
+    to_name: 鳥取
+    time: 12
+    distance: 7.98
+  - from: '1161619'
+    from_name: 鳥取
+    to: '1161620'
+    to_name: 湖山
+    time: 7
+    distance: 4.19
+  - from: '1161620'
+    from_name: 湖山
+    to: '1161621'
+    to_name: 鳥取大学前
+    time: 2
+    distance: 1.19
+  - from: '1161621'
+    from_name: 鳥取大学前
+    to: '1161622'
+    to_name: 末恒
+    time: 6
+    distance: 3.55
+  - from: '1161622'
+    from_name: 末恒
+    to: '1161623'
+    to_name: 宝木
+    time: 8
+    distance: 5
+  - from: '1161623'
+    from_name: 宝木
+    to: '1161624'
+    to_name: 浜村
+    time: 5
+    distance: 2.86
+  - from: '1161624'
+    from_name: 浜村
+    to: '1161625'
+    to_name: 青谷
+    time: 8
+    distance: 5.03
+  - from: '1161625'
+    from_name: 青谷
+    to: '1161626'
+    to_name: 泊
+    time: 9
+    distance: 5.42
+  - from: '1161626'
+    from_name: 泊
+    to: '1161627'
+    to_name: 松崎
+    time: 9
+    distance: 5.47
+  - from: '1161627'
+    from_name: 松崎
+    to: '1161628'
+    to_name: 倉吉
+    time: 8
+    distance: 4.99
+  - from: '1161628'
+    from_name: 倉吉
+    to: '1161629'
+    to_name: 下北条
+    time: 8
+    distance: 4.76
+  - from: '1161629'
+    from_name: 下北条
+    to: '1161630'
+    to_name: 由良
+    time: 8
+    distance: 5.04
+  - from: '1161630'
+    from_name: 由良
+    to: '1161631'
+    to_name: 浦安
+    time: 9
+    distance: 5.61
+  - from: '1161631'
+    from_name: 浦安
+    to: '1161632'
+    to_name: 八橋
+    time: 3
+    distance: 1.83
+  - from: '1161632'
+    from_name: 八橋
+    to: '1161633'
+    to_name: 赤碕
+    time: 6
+    distance: 3.69
+  - from: '1161633'
+    from_name: 赤碕
+    to: '1161634'
+    to_name: 中山口
+    time: 7
+    distance: 4.14
+  - from: '1161634'
+    from_name: 中山口
+    to: '1161635'
+    to_name: 下市
+    time: 4
+    distance: 2.16
+  - from: '1161635'
+    from_name: 下市
+    to: '1161636'
+    to_name: 御来屋
+    time: 9
+    distance: 5.79
+  - from: '1161636'
+    from_name: 御来屋
+    to: '1161637'
+    to_name: 名和
+    time: 2
+    distance: 1.13
+  - from: '1161637'
+    from_name: 名和
+    to: '1161638'
+    to_name: 大山口
+    time: 7
+    distance: 4.03
+  - from: '1161638'
+    from_name: 大山口
+    to: '1161639'
+    to_name: 淀江
+    time: 6
+    distance: 3.96
+  - from: '1161639'
+    from_name: 淀江
+    to: '1161640'
+    to_name: 伯耆大山
+    time: 8
+    distance: 5.1
+  - from: '1161640'
+    from_name: 伯耆大山
+    to: '1161641'
+    to_name: 東山公園
+    time: 5
+    distance: 2.93
+  - from: '1161641'
+    from_name: 東山公園
+    to: '1161642'
+    to_name: 米子
+    time: 3
+    distance: 1.62

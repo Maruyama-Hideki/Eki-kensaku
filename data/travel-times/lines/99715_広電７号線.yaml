@@ -1,0 +1,90 @@
+line_code: '99715'
+line_name: 広電７号線
+company: 広島電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1161116'
+    from_name: 横川
+    to: '9971502'
+    to_name: 横川一丁目
+    time: 2
+    distance: 0.37
+  - from: '9971502'
+    from_name: 横川一丁目
+    to: '9971503'
+    to_name: 別院前
+    time: 2
+    distance: 0.3
+  - from: '9971503'
+    from_name: 別院前
+    to: '9971504'
+    to_name: 寺町
+    time: 2
+    distance: 0.36
+  - from: '9971504'
+    from_name: 寺町
+    to: '9971113'
+    to_name: 十日市町
+    time: 2
+    distance: 0.42
+  - from: '9971113'
+    from_name: 十日市町
+    to: '9971112'
+    to_name: 本川町
+    time: 2
+    distance: 0.31
+  - from: '9971112'
+    from_name: 本川町
+    to: '9971111'
+    to_name: 原爆ドーム前
+    time: 2
+    distance: 0.33
+  - from: '9971111'
+    from_name: 原爆ドーム前
+    to: '9971110'
+    to_name: 紙屋町西
+    time: 2
+    distance: 0.29
+  - from: '9971110'
+    from_name: 紙屋町西
+    to: '9970901'
+    to_name: 本通
+    time: 2
+    distance: 0.23
+  - from: '9970901'
+    from_name: 本通
+    to: '9971011'
+    to_name: 袋町
+    time: 2
+    distance: 0.25
+  - from: '9971011'
+    from_name: 袋町
+    to: '9971012'
+    to_name: 中電前
+    time: 2
+    distance: 0.28
+  - from: '9971012'
+    from_name: 中電前
+    to: '9971013'
+    to_name: 市役所前
+    time: 2
+    distance: 0.33
+  - from: '9971013'
+    from_name: 市役所前
+    to: '9971014'
+    to_name: 鷹野橋
+    time: 2
+    distance: 0.28
+  - from: '9971014'
+    from_name: 鷹野橋
+    to: '9971015'
+    to_name: 日赤病院前
+    time: 2
+    distance: 0.33
+  - from: '9971015'
+    from_name: 日赤病院前
+    to: '9971016'
+    to_name: 広電本社前
+    time: 2
+    distance: 0.45

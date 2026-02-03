@@ -1,0 +1,174 @@
+line_code: '99209'
+line_name: 秋田内陸線
+company: 秋田内陸縦貫鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1120245'
+    from_name: 鷹ノ巣
+    to: '9920902'
+    to_name: 西鷹巣
+    time: 2
+    distance: 1.31
+  - from: '9920902'
+    from_name: 西鷹巣
+    to: '9920903'
+    to_name: 縄文小ヶ田
+    time: 4
+    distance: 2.31
+  - from: '9920903'
+    from_name: 縄文小ヶ田
+    to: '9920904'
+    to_name: 大野台
+    time: 4
+    distance: 2.13
+  - from: '9920904'
+    from_name: 大野台
+    to: '9920905'
+    to_name: 合川
+    time: 5
+    distance: 3.02
+  - from: '9920905'
+    from_name: 合川
+    to: '9920906'
+    to_name: 上杉
+    time: 4
+    distance: 2.3
+  - from: '9920906'
+    from_name: 上杉
+    to: '9920907'
+    to_name: 米内沢
+    time: 5
+    distance: 2.88
+  - from: '9920907'
+    from_name: 米内沢
+    to: '9920908'
+    to_name: 桂瀬
+    time: 8
+    distance: 4.79
+  - from: '9920908'
+    from_name: 桂瀬
+    to: '9920909'
+    to_name: 阿仁前田温泉
+    time: 7
+    distance: 4.48
+  - from: '9920909'
+    from_name: 阿仁前田温泉
+    to: '9920910'
+    to_name: 前田南
+    time: 3
+    distance: 1.78
+  - from: '9920910'
+    from_name: 前田南
+    to: '9920911'
+    to_name: 小渕
+    time: 3
+    distance: 1.87
+  - from: '9920911'
+    from_name: 小渕
+    to: '9920912'
+    to_name: 阿仁合
+    time: 6
+    distance: 3.67
+  - from: '9920912'
+    from_name: 阿仁合
+    to: '9920913'
+    to_name: 荒瀬
+    time: 4
+    distance: 2.3
+  - from: '9920913'
+    from_name: 荒瀬
+    to: '9920914'
+    to_name: 萱草
+    time: 4
+    distance: 2.55
+  - from: '9920914'
+    from_name: 萱草
+    to: '9920915'
+    to_name: 笑内
+    time: 4
+    distance: 2.59
+  - from: '9920915'
+    from_name: 笑内
+    to: '9920916'
+    to_name: 岩野目
+    time: 4
+    distance: 2.15
+  - from: '9920916'
+    from_name: 岩野目
+    to: '9920917'
+    to_name: 比立内
+    time: 4
+    distance: 2.6
+  - from: '9920917'
+    from_name: 比立内
+    to: '9920918'
+    to_name: 奥阿仁
+    time: 5
+    distance: 3.22
+  - from: '9920918'
+    from_name: 奥阿仁
+    to: '9920919'
+    to_name: 阿仁マタギ
+    time: 4
+    distance: 2.41
+  - from: '9920919'
+    from_name: 阿仁マタギ
+    to: '9920920'
+    to_name: 戸沢
+    time: 14
+    distance: 8.74
+  - from: '9920920'
+    from_name: 戸沢
+    to: '9920921'
+    to_name: 上桧木内
+    time: 8
+    distance: 4.82
+  - from: '9920921'
+    from_name: 上桧木内
+    to: '9920922'
+    to_name: 左通
+    time: 3
+    distance: 1.56
+  - from: '9920922'
+    from_name: 左通
+    to: '9920923'
+    to_name: 羽後中里
+    time: 6
+    distance: 3.71
+  - from: '9920923'
+    from_name: 羽後中里
+    to: '9920924'
+    to_name: 松葉
+    time: 5
+    distance: 3.18
+  - from: '9920924'
+    from_name: 松葉
+    to: '9920925'
+    to_name: 羽後長戸呂
+    time: 5
+    distance: 2.8
+  - from: '9920925'
+    from_name: 羽後長戸呂
+    to: '9920926'
+    to_name: 八津
+    time: 7
+    distance: 4.57
+  - from: '9920926'
+    from_name: 八津
+    to: '9920927'
+    to_name: 西明寺
+    time: 6
+    distance: 3.94
+  - from: '9920927'
+    from_name: 西明寺
+    to: '9920928'
+    to_name: 羽後太田
+    time: 5
+    distance: 3.03
+  - from: '9920928'
+    from_name: 羽後太田
+    to: '1121111'
+    to_name: 角館
+    time: 6
+    distance: 3.97

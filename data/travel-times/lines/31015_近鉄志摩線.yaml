@@ -1,0 +1,96 @@
+line_code: '31015'
+line_name: 近鉄志摩線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1151211'
+    from_name: 鳥羽
+    to: '3101502'
+    to_name: 中之郷
+    time: 2
+    distance: 0.81
+  - from: '3101502'
+    from_name: 中之郷
+    to: '3101503'
+    to_name: 志摩赤崎
+    time: 2
+    distance: 1.11
+  - from: '3101503'
+    from_name: 志摩赤崎
+    to: '3101504'
+    to_name: 船津
+    time: 3
+    distance: 1.45
+  - from: '3101504'
+    from_name: 船津
+    to: '3101505'
+    to_name: 加茂
+    time: 3
+    distance: 1.5
+  - from: '3101505'
+    from_name: 加茂
+    to: '3101506'
+    to_name: 松尾
+    time: 3
+    distance: 1.4
+  - from: '3101506'
+    from_name: 松尾
+    to: '3101507'
+    to_name: 白木
+    time: 2
+    distance: 0.91
+  - from: '3101507'
+    from_name: 白木
+    to: '3101508'
+    to_name: 五知
+    time: 5
+    distance: 3.08
+  - from: '3101508'
+    from_name: 五知
+    to: '3101509'
+    to_name: 沓掛
+    time: 3
+    distance: 1.5
+  - from: '3101509'
+    from_name: 沓掛
+    to: '3101510'
+    to_name: 上之郷
+    time: 3
+    distance: 1.67
+  - from: '3101510'
+    from_name: 上之郷
+    to: '3101511'
+    to_name: 志摩磯部
+    time: 2
+    distance: 1.2
+  - from: '3101511'
+    from_name: 志摩磯部
+    to: '3101512'
+    to_name: 穴川
+    time: 3
+    distance: 1.53
+  - from: '3101512'
+    from_name: 穴川
+    to: '3101513'
+    to_name: 志摩横山
+    time: 5
+    distance: 2.73
+  - from: '3101513'
+    from_name: 志摩横山
+    to: '3101514'
+    to_name: 鵜方
+    time: 2
+    distance: 0.89
+  - from: '3101514'
+    from_name: 鵜方
+    to: '3101515'
+    to_name: 志摩神明
+    time: 3
+    distance: 1.51
+  - from: '3101515'
+    from_name: 志摩神明
+    to: '3101516'
+    to_name: 賢島
+    time: 2
+    distance: 1.3

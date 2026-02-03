@@ -1,0 +1,162 @@
+line_code: '11324'
+line_name: JR外房線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1131339'
+    from_name: 千葉
+    to: '1132402'
+    to_name: 本千葉
+    time: 3
+    distance: 1.55
+  - from: '1132402'
+    from_name: 本千葉
+    to: '1132403'
+    to_name: 蘇我
+    time: 4
+    distance: 2.3
+  - from: '1132403'
+    from_name: 蘇我
+    to: '1132404'
+    to_name: 鎌取
+    time: 8
+    distance: 4.83
+  - from: '1132404'
+    from_name: 鎌取
+    to: '1132405'
+    to_name: 誉田
+    time: 6
+    distance: 3.63
+  - from: '1132405'
+    from_name: 誉田
+    to: '1132406'
+    to_name: 土気
+    time: 9
+    distance: 5.38
+  - from: '1132406'
+    from_name: 土気
+    to: '1132407'
+    to_name: 大網
+    time: 6
+    distance: 3.86
+  - from: '1132407'
+    from_name: 大網
+    to: '1132408'
+    to_name: 永田
+    time: 4
+    distance: 2.15
+  - from: '1132408'
+    from_name: 永田
+    to: '1132409'
+    to_name: 本納
+    time: 4
+    distance: 2.34
+  - from: '1132409'
+    from_name: 本納
+    to: '1132410'
+    to_name: 新茂原
+    time: 6
+    distance: 3.71
+  - from: '1132410'
+    from_name: 新茂原
+    to: '1132411'
+    to_name: 茂原
+    time: 4
+    distance: 2.56
+  - from: '1132411'
+    from_name: 茂原
+    to: '1132412'
+    to_name: 八積
+    time: 7
+    distance: 4.51
+  - from: '1132412'
+    from_name: 八積
+    to: '1132413'
+    to_name: 上総一ノ宮
+    time: 6
+    distance: 3.84
+  - from: '1132413'
+    from_name: 上総一ノ宮
+    to: '1132414'
+    to_name: 東浪見
+    time: 5
+    distance: 3.15
+  - from: '1132414'
+    from_name: 東浪見
+    to: '1132415'
+    to_name: 太東
+    time: 5
+    distance: 3
+  - from: '1132415'
+    from_name: 太東
+    to: '1132416'
+    to_name: 長者町
+    time: 5
+    distance: 2.7
+  - from: '1132416'
+    from_name: 長者町
+    to: '1132417'
+    to_name: 三門
+    time: 3
+    distance: 1.61
+  - from: '1132417'
+    from_name: 三門
+    to: '1132418'
+    to_name: 大原
+    time: 6
+    distance: 3.48
+  - from: '1132418'
+    from_name: 大原
+    to: '1132419'
+    to_name: 浪花
+    time: 5
+    distance: 3.33
+  - from: '1132419'
+    from_name: 浪花
+    to: '1132420'
+    to_name: 御宿
+    time: 7
+    distance: 4.59
+  - from: '1132420'
+    from_name: 御宿
+    to: '1132421'
+    to_name: 勝浦
+    time: 9
+    distance: 5.34
+  - from: '1132421'
+    from_name: 勝浦
+    to: '1132422'
+    to_name: 鵜原
+    time: 6
+    distance: 3.34
+  - from: '1132422'
+    from_name: 鵜原
+    to: '1132423'
+    to_name: 上総興津
+    time: 4
+    distance: 2.58
+  - from: '1132423'
+    from_name: 上総興津
+    to: '1132424'
+    to_name: 行川アイランド
+    time: 5
+    distance: 2.99
+  - from: '1132424'
+    from_name: 行川アイランド
+    to: '1132425'
+    to_name: 安房小湊
+    time: 6
+    distance: 3.52
+  - from: '1132425'
+    from_name: 安房小湊
+    to: '1132426'
+    to_name: 安房天津
+    time: 5
+    distance: 3.28
+  - from: '1132426'
+    from_name: 安房天津
+    to: '1132427'
+    to_name: 安房鴨川
+    time: 8
+    distance: 5.05

@@ -1,0 +1,42 @@
+line_code: '11340'
+line_name: JR日光線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1131923'
+    from_name: 宇都宮
+    to: '1134002'
+    to_name: 鶴田
+    time: 7
+    distance: 4.23
+  - from: '1134002'
+    from_name: 鶴田
+    to: '1134003'
+    to_name: 鹿沼
+    time: 14
+    distance: 9.31
+  - from: '1134003'
+    from_name: 鹿沼
+    to: '1134004'
+    to_name: 文挟
+    time: 13
+    distance: 8.03
+  - from: '1134004'
+    from_name: 文挟
+    to: '1134005'
+    to_name: 下野大沢
+    time: 9
+    distance: 5.43
+  - from: '1134005'
+    from_name: 下野大沢
+    to: '1134006'
+    to_name: 今市
+    time: 9
+    distance: 5.51
+  - from: '1134006'
+    from_name: 今市
+    to: '1134007'
+    to_name: 日光
+    time: 10
+    distance: 6.54

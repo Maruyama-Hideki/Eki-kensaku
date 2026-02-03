@@ -1,0 +1,156 @@
+line_code: '99913'
+line_name: 長崎電軌１系統
+company: 長崎電気軌道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9991301'
+    from_name: 赤迫
+    to: '9991302'
+    to_name: 住吉
+    time: 2
+    distance: 0.26
+  - from: '9991302'
+    from_name: 住吉
+    to: '1190539'
+    to_name: 西浦上
+    time: 2
+    distance: 0.21
+  - from: '1190539'
+    from_name: 西浦上
+    to: '9991304'
+    to_name: 千歳町
+    time: 2
+    distance: 0.18
+  - from: '9991304'
+    from_name: 千歳町
+    to: '9991305'
+    to_name: 若葉町
+    time: 2
+    distance: 0.22
+  - from: '9991305'
+    from_name: 若葉町
+    to: '9991306'
+    to_name: 長崎大学
+    time: 2
+    distance: 0.23
+  - from: '9991306'
+    from_name: 長崎大学
+    to: '9991307'
+    to_name: 岩屋橋
+    time: 2
+    distance: 0.43
+  - from: '9991307'
+    from_name: 岩屋橋
+    to: '9991308'
+    to_name: 浦上車庫
+    time: 2
+    distance: 0.26
+  - from: '9991308'
+    from_name: 浦上車庫
+    to: '9991309'
+    to_name: 大橋
+    time: 2
+    distance: 0.22
+  - from: '9991309'
+    from_name: 大橋
+    to: '9991310'
+    to_name: 平和公園
+    time: 2
+    distance: 0.48
+  - from: '9991310'
+    from_name: 平和公園
+    to: '9991311'
+    to_name: 原爆資料館
+    time: 2
+    distance: 0.36
+  - from: '9991311'
+    from_name: 原爆資料館
+    to: '9991312'
+    to_name: 大学病院
+    time: 2
+    distance: 0.17
+  - from: '9991312'
+    from_name: 大学病院
+    to: '1190540'
+    to_name: 浦上
+    time: 2
+    distance: 0.37
+  - from: '1190540'
+    from_name: 浦上
+    to: '9991314'
+    to_name: 茂里町
+    time: 2
+    distance: 0.23
+  - from: '9991314'
+    from_name: 茂里町
+    to: '9991315'
+    to_name: 銭座町
+    time: 2
+    distance: 0.3
+  - from: '9991315'
+    from_name: 銭座町
+    to: '9991316'
+    to_name: 宝町
+    time: 2
+    distance: 0.5
+  - from: '9991316'
+    from_name: 宝町
+    to: '9991317'
+    to_name: 八千代町
+    time: 2
+    distance: 0.35
+  - from: '9991317'
+    from_name: 八千代町
+    to: '1190541'
+    to_name: 長崎
+    time: 2
+    distance: 0.21
+  - from: '1190541'
+    from_name: 長崎
+    to: '9991319'
+    to_name: 五島町
+    time: 2
+    distance: 0.44
+  - from: '9991319'
+    from_name: 五島町
+    to: '9991320'
+    to_name: 大波止
+    time: 2
+    distance: 0.48
+  - from: '9991320'
+    from_name: 大波止
+    to: '9991321'
+    to_name: 出島
+    time: 2
+    distance: 0.14
+  - from: '9991321'
+    from_name: 出島
+    to: '9991322'
+    to_name: 新地中華街
+    time: 2
+    distance: 0.32
+  - from: '9991322'
+    from_name: 新地中華街
+    to: '9991323'
+    to_name: 西浜町
+    time: 2
+    distance: 0.14
+  - from: '9991323'
+    from_name: 西浜町
+    to: '9991324'
+    to_name: 観光通
+    time: 2
+    distance: 0.17
+  - from: '9991324'
+    from_name: 観光通
+    to: '9991325'
+    to_name: 思案橋
+    time: 2
+    distance: 0.25
+  - from: '9991325'
+    from_name: 思案橋
+    to: '9991326'
+    to_name: 崇福寺
+    time: 2
+    distance: 0.23

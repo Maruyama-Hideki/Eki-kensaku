@@ -1,0 +1,30 @@
+line_code: '21005'
+line_name: 東武亀戸線
+company: 東武鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2100204'
+    from_name: 曳舟
+    to: '2100502'
+    to_name: 小村井
+    time: 3
+    distance: 1.34
+  - from: '2100502'
+    from_name: 小村井
+    to: '2100503'
+    to_name: 東あずま
+    time: 2
+    distance: 0.53
+  - from: '2100503'
+    from_name: 東あずま
+    to: '2100504'
+    to_name: 亀戸水神
+    time: 2
+    distance: 0.8
+  - from: '2100504'
+    from_name: 亀戸水神
+    to: '1131323'
+    to_name: 亀戸
+    time: 2
+    distance: 0.71

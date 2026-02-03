@@ -1,0 +1,72 @@
+line_code: '11723'
+line_name: JR小野田線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1172115'
+    from_name: 宇部新川
+    to: '1172116'
+    to_name: 居能
+    time: 3
+    distance: 1.63
+  - from: '1172116'
+    from_name: 居能
+    to: '1172303'
+    to_name: 妻崎
+    time: 4
+    distance: 2.37
+  - from: '1172303'
+    from_name: 妻崎
+    to: '1172304'
+    to_name: 長門長沢
+    time: 2
+    distance: 0.7
+  - from: '1172304'
+    from_name: 長門長沢
+    to: '1172305'
+    to_name: 雀田
+    time: 2
+    distance: 1.11
+  - from: '1172305'
+    from_name: 雀田
+    to: '1172306'
+    to_name: 小野田港
+    time: 3
+    distance: 1.66
+  - from: '1172305'
+    from_name: 雀田
+    to: '1172311'
+    to_name: 浜河内
+    time: 2
+    distance: 1.33
+  - from: '1172306'
+    from_name: 小野田港
+    to: '1172307'
+    to_name: 南小野田
+    time: 2
+    distance: 0.6
+  - from: '1172307'
+    from_name: 南小野田
+    to: '1172308'
+    to_name: 南中川
+    time: 2
+    distance: 1.12
+  - from: '1172308'
+    from_name: 南中川
+    to: '1172309'
+    to_name: 目出
+    time: 2
+    distance: 1.15
+  - from: '1172309'
+    from_name: 目出
+    to: '1161229'
+    to_name: 小野田
+    time: 2
+    distance: 1.27
+  - from: '1172311'
+    from_name: 浜河内
+    to: '1172312'
+    to_name: 長門本山
+    time: 2
+    distance: 1.04

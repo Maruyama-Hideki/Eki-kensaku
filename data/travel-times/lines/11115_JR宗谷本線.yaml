@@ -1,0 +1,246 @@
+line_code: '11115'
+line_name: JR宗谷本線
+company: JR北海道
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1110342'
+    from_name: 旭川
+    to: '1111502'
+    to_name: 旭川四条
+    time: 3
+    distance: 1.45
+  - from: '1111502'
+    from_name: 旭川四条
+    to: '1111503'
+    to_name: 新旭川
+    time: 3
+    distance: 1.93
+  - from: '1111503'
+    from_name: 新旭川
+    to: '1111504'
+    to_name: 永山
+    time: 9
+    distance: 5.49
+  - from: '1111504'
+    from_name: 永山
+    to: '1111505'
+    to_name: 北永山
+    time: 4
+    distance: 2.14
+  - from: '1111505'
+    from_name: 北永山
+    to: '1111507'
+    to_name: 比布
+    time: 9
+    distance: 5.48
+  - from: '1111507'
+    from_name: 比布
+    to: '1111509'
+    to_name: 蘭留
+    time: 9
+    distance: 5.63
+  - from: '1111509'
+    from_name: 蘭留
+    to: '1111510'
+    to_name: 塩狩
+    time: 8
+    distance: 4.99
+  - from: '1111510'
+    from_name: 塩狩
+    to: '1111511'
+    to_name: 和寒
+    time: 11
+    distance: 7.29
+  - from: '1111511'
+    from_name: 和寒
+    to: '1111513'
+    to_name: 剣淵
+    time: 14
+    distance: 8.72
+  - from: '1111513'
+    from_name: 剣淵
+    to: '1111515'
+    to_name: 士別
+    time: 14
+    distance: 8.67
+  - from: '1111515'
+    from_name: 士別
+    to: '1111517'
+    to_name: 多寄
+    time: 12
+    distance: 7.67
+  - from: '1111517'
+    from_name: 多寄
+    to: '1111518'
+    to_name: 瑞穂
+    time: 5
+    distance: 2.79
+  - from: '1111518'
+    from_name: 瑞穂
+    to: '1111519'
+    to_name: 風連
+    time: 6
+    distance: 3.52
+  - from: '1111519'
+    from_name: 風連
+    to: '1111520'
+    to_name: 東風連
+    time: 7
+    distance: 4.28
+  - from: '1111520'
+    from_name: 東風連
+    to: '1111521'
+    to_name: 名寄
+    time: 6
+    distance: 3.63
+  - from: '1111521'
+    from_name: 名寄
+    to: '1111522'
+    to_name: 日進
+    time: 6
+    distance: 3.6
+  - from: '1111522'
+    from_name: 日進
+    to: '1111524'
+    to_name: 智恵文
+    time: 14
+    distance: 9.21
+  - from: '1111524'
+    from_name: 智恵文
+    to: '1111525'
+    to_name: 智北
+    time: 3
+    distance: 1.76
+  - from: '1111525'
+    from_name: 智北
+    to: '1111527'
+    to_name: 美深
+    time: 7
+    distance: 4.22
+  - from: '1111527'
+    from_name: 美深
+    to: '1111528'
+    to_name: 初野
+    time: 6
+    distance: 3.51
+  - from: '1111528'
+    from_name: 初野
+    to: '1111530'
+    to_name: 恩根内
+    time: 15
+    distance: 9.76
+  - from: '1111530'
+    from_name: 恩根内
+    to: '1111532'
+    to_name: 天塩川温泉
+    time: 13
+    distance: 8.42
+  - from: '1111532'
+    from_name: 天塩川温泉
+    to: '1111533'
+    to_name: 咲来
+    time: 5
+    distance: 3.16
+  - from: '1111533'
+    from_name: 咲来
+    to: '1111534'
+    to_name: 音威子府
+    time: 7
+    distance: 4.13
+  - from: '1111534'
+    from_name: 音威子府
+    to: '1111535'
+    to_name: 筬島
+    time: 8
+    distance: 5.02
+  - from: '1111535'
+    from_name: 筬島
+    to: '1111536'
+    to_name: 佐久
+    time: 18
+    distance: 11.8
+  - from: '1111536'
+    from_name: 佐久
+    to: '1111537'
+    to_name: 天塩中川
+    time: 12
+    distance: 7.84
+  - from: '1111537'
+    from_name: 天塩中川
+    to: '1111538'
+    to_name: 歌内
+    time: 12
+    distance: 7.85
+  - from: '1111538'
+    from_name: 歌内
+    to: '1111539'
+    to_name: 問寒別
+    time: 7
+    distance: 4.11
+  - from: '1111539'
+    from_name: 問寒別
+    to: '1111540'
+    to_name: 糠南
+    time: 4
+    distance: 2.15
+  - from: '1111540'
+    from_name: 糠南
+    to: '1111541'
+    to_name: 雄信内
+    time: 8
+    distance: 5.22
+  - from: '1111541'
+    from_name: 雄信内
+    to: '1111543'
+    to_name: 南幌延
+    time: 11
+    distance: 7.16
+  - from: '1111543'
+    from_name: 南幌延
+    to: '1111545'
+    to_name: 幌延
+    time: 10
+    distance: 6.3
+  - from: '1111545'
+    from_name: 幌延
+    to: '1111546'
+    to_name: 下沼
+    time: 11
+    distance: 7.32
+  - from: '1111546'
+    from_name: 下沼
+    to: '1111547'
+    to_name: 豊富
+    time: 12
+    distance: 7.58
+  - from: '1111547'
+    from_name: 豊富
+    to: '1111549'
+    to_name: 兜沼
+    time: 22
+    distance: 14.13
+  - from: '1111549'
+    from_name: 兜沼
+    to: '1111550'
+    to_name: 勇知
+    time: 7
+    distance: 4.45
+  - from: '1111550'
+    from_name: 勇知
+    to: '1111551'
+    to_name: 抜海
+    time: 11
+    distance: 7.14
+  - from: '1111551'
+    from_name: 抜海
+    to: '1111552'
+    to_name: 南稚内
+    time: 15
+    distance: 9.53
+  - from: '1111552'
+    from_name: 南稚内
+    to: '1111553'
+    to_name: 稚内
+    time: 4
+    distance: 2.15

@@ -1,0 +1,162 @@
+line_code: '99710'
+line_name: 広電１号線(宇品線)
+company: 広島電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1161115'
+    from_name: 広島
+    to: '9971002'
+    to_name: 猿猴橋町
+    time: 2
+    distance: 0.27
+  - from: '9971002'
+    from_name: 猿猴橋町
+    to: '9971003'
+    to_name: 的場町
+    time: 2
+    distance: 0.21
+  - from: '9971003'
+    from_name: 的場町
+    to: '9971004'
+    to_name: 稲荷町
+    time: 2
+    distance: 0.32
+  - from: '9971004'
+    from_name: 稲荷町
+    to: '9971005'
+    to_name: 銀山町
+    time: 2
+    distance: 0.36
+  - from: '9971005'
+    from_name: 銀山町
+    to: '9971006'
+    to_name: 胡町
+    time: 2
+    distance: 0.26
+  - from: '9971006'
+    from_name: 胡町
+    to: '9971007'
+    to_name: 八丁堀
+    time: 2
+    distance: 0.16
+  - from: '9971007'
+    from_name: 八丁堀
+    to: '9971008'
+    to_name: 立町
+    time: 2
+    distance: 0.24
+  - from: '9971008'
+    from_name: 立町
+    to: '9971009'
+    to_name: 紙屋町東
+    time: 2
+    distance: 0.26
+  - from: '9971009'
+    from_name: 紙屋町東
+    to: '9970901'
+    to_name: 本通
+    time: 2
+    distance: 0.22
+  - from: '9970901'
+    from_name: 本通
+    to: '9971011'
+    to_name: 袋町
+    time: 2
+    distance: 0.25
+  - from: '9971011'
+    from_name: 袋町
+    to: '9971012'
+    to_name: 中電前
+    time: 2
+    distance: 0.28
+  - from: '9971012'
+    from_name: 中電前
+    to: '9971013'
+    to_name: 市役所前
+    time: 2
+    distance: 0.33
+  - from: '9971013'
+    from_name: 市役所前
+    to: '9971014'
+    to_name: 鷹野橋
+    time: 2
+    distance: 0.28
+  - from: '9971014'
+    from_name: 鷹野橋
+    to: '9971015'
+    to_name: 日赤病院前
+    time: 2
+    distance: 0.33
+  - from: '9971015'
+    from_name: 日赤病院前
+    to: '9971016'
+    to_name: 広電本社前
+    time: 2
+    distance: 0.45
+  - from: '9971016'
+    from_name: 広電本社前
+    to: '9971017'
+    to_name: 御幸橋
+    time: 2
+    distance: 0.26
+  - from: '9971017'
+    from_name: 御幸橋
+    to: '9971018'
+    to_name: 皆実町六丁目
+    time: 2
+    distance: 0.46
+  - from: '9971018'
+    from_name: 皆実町六丁目
+    to: '9971019'
+    to_name: 広大附属学校前
+    time: 2
+    distance: 0.28
+  - from: '9971019'
+    from_name: 広大附属学校前
+    to: '9971020'
+    to_name: 県病院前
+    time: 2
+    distance: 0.32
+  - from: '9971020'
+    from_name: 県病院前
+    to: '9971021'
+    to_name: 宇品二丁目
+    time: 2
+    distance: 0.29
+  - from: '9971021'
+    from_name: 宇品二丁目
+    to: '9971022'
+    to_name: 宇品三丁目
+    time: 2
+    distance: 0.22
+  - from: '9971022'
+    from_name: 宇品三丁目
+    to: '9971023'
+    to_name: 宇品四丁目
+    time: 2
+    distance: 0.56
+  - from: '9971023'
+    from_name: 宇品四丁目
+    to: '9971024'
+    to_name: 宇品五丁目
+    time: 2
+    distance: 0.21
+  - from: '9971024'
+    from_name: 宇品五丁目
+    to: '9971025'
+    to_name: 海岸通
+    time: 2
+    distance: 0.28
+  - from: '9971025'
+    from_name: 海岸通
+    to: '9971026'
+    to_name: 元宇品口
+    time: 2
+    distance: 0.35
+  - from: '9971026'
+    from_name: 元宇品口
+    to: '9971027'
+    to_name: 広島港（宇品）
+    time: 2
+    distance: 0.41

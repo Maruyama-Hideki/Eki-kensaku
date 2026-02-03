@@ -1,0 +1,84 @@
+line_code: '99521'
+line_name: 豊橋鉄道東田本線
+company: 豊橋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1141301'
+    from_name: 豊橋
+    to: '9952102'
+    to_name: 駅前大通
+    time: 2
+    distance: 0.33
+  - from: '9952102'
+    from_name: 駅前大通
+    to: '9952103'
+    to_name: 新川
+    time: 2
+    distance: 0.35
+  - from: '9952103'
+    from_name: 新川
+    to: '9952104'
+    to_name: 札木
+    time: 2
+    distance: 0.35
+  - from: '9952104'
+    from_name: 札木
+    to: '9952105'
+    to_name: 市役所前
+    time: 2
+    distance: 0.25
+  - from: '9952105'
+    from_name: 市役所前
+    to: '9952106'
+    to_name: 豊橋公園前
+    time: 2
+    distance: 0.27
+  - from: '9952106'
+    from_name: 豊橋公園前
+    to: '9952107'
+    to_name: 東八町
+    time: 2
+    distance: 0.46
+  - from: '9952107'
+    from_name: 東八町
+    to: '9952108'
+    to_name: 前畑
+    time: 2
+    distance: 0.4
+  - from: '9952108'
+    from_name: 前畑
+    to: '9952109'
+    to_name: 東田坂上
+    time: 2
+    distance: 0.35
+  - from: '9952109'
+    from_name: 東田坂上
+    to: '9952110'
+    to_name: 東田
+    time: 2
+    distance: 0.43
+  - from: '9952110'
+    from_name: 東田
+    to: '9952111'
+    to_name: 競輪場前
+    time: 2
+    distance: 0.33
+  - from: '9952111'
+    from_name: 競輪場前
+    to: '9952112'
+    to_name: 井原
+    time: 2
+    distance: 0.48
+  - from: '9952112'
+    from_name: 井原
+    to: '9952113'
+    to_name: 赤岩口
+    time: 2
+    distance: 0.74
+  - from: '9952112'
+    from_name: 井原
+    to: '9952202'
+    to_name: 運動公園前
+    time: 2
+    distance: 0.64

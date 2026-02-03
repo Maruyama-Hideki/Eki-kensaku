@@ -1,0 +1,192 @@
+line_code: '24001'
+line_name: 京王線
+company: 京王電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130208'
+    from_name: 新宿
+    to: '2400104'
+    to_name: 笹塚
+    time: 6
+    distance: 3.49
+  - from: '2400104'
+    from_name: 笹塚
+    to: '2400105'
+    to_name: 代田橋
+    time: 2
+    distance: 0.77
+  - from: '2400105'
+    from_name: 代田橋
+    to: '2400106'
+    to_name: 明大前
+    time: 2
+    distance: 0.86
+  - from: '2400106'
+    from_name: 明大前
+    to: '2400107'
+    to_name: 下高井戸
+    time: 2
+    distance: 0.86
+  - from: '2400107'
+    from_name: 下高井戸
+    to: '2400108'
+    to_name: 桜上水
+    time: 2
+    distance: 0.93
+  - from: '2400108'
+    from_name: 桜上水
+    to: '2400109'
+    to_name: 上北沢
+    time: 2
+    distance: 0.73
+  - from: '2400109'
+    from_name: 上北沢
+    to: '2400110'
+    to_name: 八幡山
+    time: 2
+    distance: 0.77
+  - from: '2400110'
+    from_name: 八幡山
+    to: '2400111'
+    to_name: 芦花公園
+    time: 2
+    distance: 0.61
+  - from: '2400111'
+    from_name: 芦花公園
+    to: '2400112'
+    to_name: 千歳烏山
+    time: 2
+    distance: 0.74
+  - from: '2400112'
+    from_name: 千歳烏山
+    to: '2400113'
+    to_name: 仙川
+    time: 3
+    distance: 1.56
+  - from: '2400113'
+    from_name: 仙川
+    to: '2400114'
+    to_name: つつじヶ丘
+    time: 2
+    distance: 1.01
+  - from: '2400114'
+    from_name: つつじヶ丘
+    to: '2400115'
+    to_name: 柴崎
+    time: 2
+    distance: 0.89
+  - from: '2400115'
+    from_name: 柴崎
+    to: '2400116'
+    to_name: 国領
+    time: 2
+    distance: 0.89
+  - from: '2400116'
+    from_name: 国領
+    to: '2400117'
+    to_name: 布田
+    time: 2
+    distance: 0.59
+  - from: '2400117'
+    from_name: 布田
+    to: '2400118'
+    to_name: 調布
+    time: 2
+    distance: 0.73
+  - from: '2400118'
+    from_name: 調布
+    to: '2400119'
+    to_name: 西調布
+    time: 3
+    distance: 1.39
+  - from: '2400119'
+    from_name: 西調布
+    to: '2400120'
+    to_name: 飛田給
+    time: 2
+    distance: 0.65
+  - from: '2400120'
+    from_name: 飛田給
+    to: '2400121'
+    to_name: 武蔵野台
+    time: 2
+    distance: 1.2
+  - from: '2400121'
+    from_name: 武蔵野台
+    to: '2400122'
+    to_name: 多磨霊園
+    time: 2
+    distance: 0.82
+  - from: '2400122'
+    from_name: 多磨霊園
+    to: '2400123'
+    to_name: 東府中
+    time: 2
+    distance: 0.72
+  - from: '2400123'
+    from_name: 東府中
+    to: '2400124'
+    to_name: 府中
+    time: 3
+    distance: 1.44
+  - from: '2400124'
+    from_name: 府中
+    to: '1130321'
+    to_name: 分倍河原
+    time: 2
+    distance: 1.09
+  - from: '1130321'
+    from_name: 分倍河原
+    to: '2400126'
+    to_name: 中河原
+    time: 3
+    distance: 1.42
+  - from: '2400126'
+    from_name: 中河原
+    to: '2400127'
+    to_name: 聖蹟桜ヶ丘
+    time: 3
+    distance: 1.37
+  - from: '2400127'
+    from_name: 聖蹟桜ヶ丘
+    to: '2400128'
+    to_name: 百草園
+    time: 3
+    distance: 1.59
+  - from: '2400128'
+    from_name: 百草園
+    to: '2400129'
+    to_name: 高幡不動
+    time: 3
+    distance: 1.75
+  - from: '2400129'
+    from_name: 高幡不動
+    to: '2400130'
+    to_name: 南平
+    time: 4
+    distance: 2.08
+  - from: '2400130'
+    from_name: 南平
+    to: '2400131'
+    to_name: 平山城址公園
+    time: 3
+    distance: 1.35
+  - from: '2400131'
+    from_name: 平山城址公園
+    to: '2400132'
+    to_name: 長沼
+    time: 3
+    distance: 1.37
+  - from: '2400132'
+    from_name: 長沼
+    to: '2400133'
+    to_name: 北野
+    time: 2
+    distance: 1.04
+  - from: '2400133'
+    from_name: 北野
+    to: '2400134'
+    to_name: 京王八王子
+    time: 3
+    distance: 1.73

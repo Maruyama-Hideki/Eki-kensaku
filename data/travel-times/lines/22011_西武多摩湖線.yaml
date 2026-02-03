@@ -1,0 +1,42 @@
+line_code: '22011'
+line_name: 西武多摩湖線
+company: 西武鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1131106'
+    from_name: 国分寺
+    to: '2201102'
+    to_name: 一橋学園
+    time: 4
+    distance: 2.45
+  - from: '2201102'
+    from_name: 一橋学園
+    to: '2201103'
+    to_name: 青梅街道
+    time: 2
+    distance: 1.03
+  - from: '2201103'
+    from_name: 青梅街道
+    to: '2200802'
+    to_name: 萩山
+    time: 2
+    distance: 1.09
+  - from: '2200802'
+    from_name: 萩山
+    to: '2201106'
+    to_name: 八坂
+    time: 2
+    distance: 0.95
+  - from: '2201106'
+    from_name: 八坂
+    to: '2201107'
+    to_name: 武蔵大和
+    time: 4
+    distance: 2.49
+  - from: '2201107'
+    from_name: 武蔵大和
+    to: '2200601'
+    to_name: 多摩湖
+    time: 2
+    distance: 1.06

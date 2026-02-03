@@ -1,0 +1,72 @@
+line_code: '11307'
+line_name: JR根岸線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130105'
+    from_name: 横浜
+    to: '1130702'
+    to_name: 桜木町
+    time: 3
+    distance: 1.83
+  - from: '1130702'
+    from_name: 桜木町
+    to: '1130703'
+    to_name: 関内
+    time: 2
+    distance: 1.03
+  - from: '1130703'
+    from_name: 関内
+    to: '1130704'
+    to_name: 石川町
+    time: 2
+    distance: 0.74
+  - from: '1130704'
+    from_name: 石川町
+    to: '1130705'
+    to_name: 山手
+    time: 3
+    distance: 1.36
+  - from: '1130705'
+    from_name: 山手
+    to: '1130706'
+    to_name: 根岸
+    time: 3
+    distance: 1.54
+  - from: '1130706'
+    from_name: 根岸
+    to: '1130707'
+    to_name: 磯子
+    time: 4
+    distance: 2.42
+  - from: '1130707'
+    from_name: 磯子
+    to: '1130708'
+    to_name: 新杉田
+    time: 3
+    distance: 1.45
+  - from: '1130708'
+    from_name: 新杉田
+    to: '1130709'
+    to_name: 洋光台
+    time: 4
+    distance: 2.24
+  - from: '1130709'
+    from_name: 洋光台
+    to: '1130710'
+    to_name: 港南台
+    time: 3
+    distance: 1.91
+  - from: '1130710'
+    from_name: 港南台
+    to: '1130711'
+    to_name: 本郷台
+    time: 4
+    distance: 2.5
+  - from: '1130711'
+    from_name: 本郷台
+    to: '1130107'
+    to_name: 大船
+    time: 4
+    distance: 2.35

@@ -1,0 +1,102 @@
+line_code: '25002'
+line_name: 小田急江ノ島線
+company: 小田急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2500128'
+    from_name: 相模大野
+    to: '2500202'
+    to_name: 東林間
+    time: 2
+    distance: 1.3
+  - from: '2500202'
+    from_name: 東林間
+    to: '2500203'
+    to_name: 中央林間
+    time: 3
+    distance: 1.47
+  - from: '2500203'
+    from_name: 中央林間
+    to: '2500204'
+    to_name: 南林間
+    time: 3
+    distance: 1.43
+  - from: '2500204'
+    from_name: 南林間
+    to: '2500205'
+    to_name: 鶴間
+    time: 2
+    distance: 0.61
+  - from: '2500205'
+    from_name: 鶴間
+    to: '2500206'
+    to_name: 大和
+    time: 4
+    distance: 2.53
+  - from: '2500206'
+    from_name: 大和
+    to: '2500207'
+    to_name: 桜ヶ丘
+    time: 4
+    distance: 2.16
+  - from: '2500207'
+    from_name: 桜ヶ丘
+    to: '2500208'
+    to_name: 高座渋谷
+    time: 3
+    distance: 2
+  - from: '2500208'
+    from_name: 高座渋谷
+    to: '2500209'
+    to_name: 長後
+    time: 4
+    distance: 2.21
+  - from: '2500209'
+    from_name: 長後
+    to: '2500210'
+    to_name: 湘南台
+    time: 3
+    distance: 1.8
+  - from: '2500210'
+    from_name: 湘南台
+    to: '2500211'
+    to_name: 六会日大前
+    time: 3
+    distance: 1.47
+  - from: '2500211'
+    from_name: 六会日大前
+    to: '2500212'
+    to_name: 善行
+    time: 4
+    distance: 2.34
+  - from: '2500212'
+    from_name: 善行
+    to: '2500213'
+    to_name: 藤沢本町
+    time: 3
+    distance: 1.65
+  - from: '2500213'
+    from_name: 藤沢本町
+    to: '1130108'
+    to_name: 藤沢
+    time: 3
+    distance: 1.45
+  - from: '1130108'
+    from_name: 藤沢
+    to: '2500215'
+    to_name: 本鵠沼
+    time: 3
+    distance: 1.38
+  - from: '2500215'
+    from_name: 本鵠沼
+    to: '2500216'
+    to_name: 鵠沼海岸
+    time: 2
+    distance: 1.22
+  - from: '2500216'
+    from_name: 鵠沼海岸
+    to: '2500217'
+    to_name: 片瀬江ノ島
+    time: 3
+    distance: 1.65

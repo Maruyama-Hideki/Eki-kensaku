@@ -1,0 +1,258 @@
+line_code: '11905'
+line_name: JR長崎本線(鳥栖～長崎)
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1190316'
+    from_name: 鳥栖
+    to: '1190542'
+    to_name: 新鳥栖
+    time: 4
+    distance: 2.65
+  - from: '1190502'
+    from_name: 肥前麓
+    to: '1190503'
+    to_name: 中原
+    time: 7
+    distance: 4.1
+  - from: '1190503'
+    from_name: 中原
+    to: '1190504'
+    to_name: 吉野ケ里公園
+    time: 7
+    distance: 4.45
+  - from: '1190504'
+    from_name: 吉野ケ里公園
+    to: '1190505'
+    to_name: 神埼
+    time: 4
+    distance: 2.54
+  - from: '1190505'
+    from_name: 神埼
+    to: '1190506'
+    to_name: 伊賀屋
+    time: 7
+    distance: 4.52
+  - from: '1190506'
+    from_name: 伊賀屋
+    to: '1190507'
+    to_name: 佐賀
+    time: 7
+    distance: 4.65
+  - from: '1190507'
+    from_name: 佐賀
+    to: '1190508'
+    to_name: 鍋島
+    time: 5
+    distance: 3.02
+  - from: '1190508'
+    from_name: 鍋島
+    to: '1190509'
+    to_name: バルーンさが
+    time: 3
+    distance: 1.56
+  - from: '1190509'
+    from_name: バルーンさが
+    to: '1190510'
+    to_name: 久保田
+    time: 3
+    distance: 1.81
+  - from: '1190510'
+    from_name: 久保田
+    to: '1190511'
+    to_name: 牛津
+    time: 5
+    distance: 2.8
+  - from: '1190511'
+    from_name: 牛津
+    to: '1190512'
+    to_name: 肥前山口
+    time: 8
+    distance: 4.91
+  - from: '1190512'
+    from_name: 肥前山口
+    to: '1190513'
+    to_name: 肥前白石
+    time: 7
+    distance: 4.29
+  - from: '1190513'
+    from_name: 肥前白石
+    to: '1190514'
+    to_name: 肥前竜王
+    time: 8
+    distance: 4.68
+  - from: '1190514'
+    from_name: 肥前竜王
+    to: '1190515'
+    to_name: 肥前鹿島
+    time: 7
+    distance: 4.16
+  - from: '1190515'
+    from_name: 肥前鹿島
+    to: '1190516'
+    to_name: 肥前浜
+    time: 5
+    distance: 2.8
+  - from: '1190516'
+    from_name: 肥前浜
+    to: '1190517'
+    to_name: 肥前七浦
+    time: 6
+    distance: 3.76
+  - from: '1190517'
+    from_name: 肥前七浦
+    to: '1190518'
+    to_name: 肥前飯田
+    time: 4
+    distance: 2.11
+  - from: '1190518'
+    from_name: 肥前飯田
+    to: '1190519'
+    to_name: 多良
+    time: 6
+    distance: 3.75
+  - from: '1190519'
+    from_name: 多良
+    to: '1190520'
+    to_name: 肥前大浦
+    time: 10
+    distance: 6.29
+  - from: '1190520'
+    from_name: 肥前大浦
+    to: '1190521'
+    to_name: 小長井
+    time: 9
+    distance: 5.99
+  - from: '1190521'
+    from_name: 小長井
+    to: '1190522'
+    to_name: 長里
+    time: 4
+    distance: 2.18
+  - from: '1190522'
+    from_name: 長里
+    to: '1190523'
+    to_name: 湯江
+    time: 4
+    distance: 2.6
+  - from: '1190523'
+    from_name: 湯江
+    to: '1190524'
+    to_name: 小江
+    time: 5
+    distance: 3.04
+  - from: '1190524'
+    from_name: 小江
+    to: '1190525'
+    to_name: 肥前長田
+    time: 7
+    distance: 4.46
+  - from: '1190525'
+    from_name: 肥前長田
+    to: '1190526'
+    to_name: 東諫早
+    time: 3
+    distance: 1.98
+  - from: '1190526'
+    from_name: 東諫早
+    to: '1190527'
+    to_name: 諫早
+    time: 3
+    distance: 1.89
+  - from: '1190527'
+    from_name: 諫早
+    to: '1190528'
+    to_name: 西諫早
+    time: 4
+    distance: 2.28
+  - from: '1190528'
+    from_name: 西諫早
+    to: '1190529'
+    to_name: 喜々津
+    time: 6
+    distance: 3.36
+  - from: '1190529'
+    from_name: 喜々津
+    to: '1190530'
+    to_name: 市布
+    time: 4
+    distance: 2.45
+  - from: '1190529'
+    from_name: 喜々津
+    to: '1190533'
+    to_name: 東園
+    time: 5
+    distance: 2.73
+  - from: '1190530'
+    from_name: 市布
+    to: '1190531'
+    to_name: 肥前古賀
+    time: 4
+    distance: 2.64
+  - from: '1190531'
+    from_name: 肥前古賀
+    to: '1190532'
+    to_name: 現川
+    time: 4
+    distance: 2.48
+  - from: '1190532'
+    from_name: 現川
+    to: '1190540'
+    to_name: 浦上
+    time: 10
+    distance: 6.55
+  - from: '1190533'
+    from_name: 東園
+    to: '1190534'
+    to_name: 大草
+    time: 4
+    distance: 2.65
+  - from: '1190534'
+    from_name: 大草
+    to: '1190535'
+    to_name: 本川内
+    time: 8
+    distance: 4.83
+  - from: '1190535'
+    from_name: 本川内
+    to: '1190536'
+    to_name: 長与
+    time: 4
+    distance: 2.39
+  - from: '1190536'
+    from_name: 長与
+    to: '1190537'
+    to_name: 高田
+    time: 2
+    distance: 0.93
+  - from: '1190537'
+    from_name: 高田
+    to: '1190538'
+    to_name: 道ノ尾
+    time: 4
+    distance: 2.28
+  - from: '1190538'
+    from_name: 道ノ尾
+    to: '1190539'
+    to_name: 西浦上
+    time: 3
+    distance: 1.67
+  - from: '1190539'
+    from_name: 西浦上
+    to: '1190540'
+    to_name: 浦上
+    time: 5
+    distance: 2.75
+  - from: '1190540'
+    from_name: 浦上
+    to: '1190541'
+    to_name: 長崎
+    time: 3
+    distance: 1.56
+  - from: '1190542'
+    from_name: 新鳥栖
+    to: '1190502'
+    to_name: 肥前麓
+    time: 3
+    distance: 1.36

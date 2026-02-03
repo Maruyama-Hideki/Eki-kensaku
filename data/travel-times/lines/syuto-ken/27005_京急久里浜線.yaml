@@ -1,0 +1,54 @@
+line_code: '27005'
+line_name: 京急久里浜線
+company: 京急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2700147'
+    from_name: 堀ノ内
+    to: '2700502'
+    to_name: 新大津
+    time: 2
+    distance: 0.75
+  - from: '2700502'
+    from_name: 新大津
+    to: '2700503'
+    to_name: 北久里浜
+    time: 2
+    distance: 0.92
+  - from: '2700503'
+    from_name: 北久里浜
+    to: '1130818'
+    to_name: 久里浜
+    time: 4
+    distance: 2.24
+  - from: '1130818'
+    from_name: 久里浜
+    to: '2700505'
+    to_name: ＹＲＰ野比
+    time: 5
+    distance: 2.73
+  - from: '2700505'
+    from_name: ＹＲＰ野比
+    to: '2700506'
+    to_name: 京急長沢
+    time: 2
+    distance: 1.25
+  - from: '2700506'
+    from_name: 京急長沢
+    to: '2700507'
+    to_name: 津久井浜
+    time: 2
+    distance: 1.12
+  - from: '2700507'
+    from_name: 津久井浜
+    to: '2700508'
+    to_name: 三浦海岸
+    time: 3
+    distance: 1.59
+  - from: '2700508'
+    from_name: 三浦海岸
+    to: '2700509'
+    to_name: 三崎口
+    time: 4
+    distance: 2.16

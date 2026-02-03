@@ -1,0 +1,42 @@
+line_code: '99906'
+line_name: 福岡市営地下鉄箱崎線
+company: 福岡市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '9990505'
+    from_name: 中洲川端
+    to: '9990602'
+    to_name: 呉服町
+    time: 2
+    distance: 0.51
+  - from: '9990602'
+    from_name: 呉服町
+    to: '9990603'
+    to_name: 千代県庁口
+    time: 2
+    distance: 0.62
+  - from: '9990603'
+    from_name: 千代県庁口
+    to: '9990604'
+    to_name: 馬出九大病院前
+    time: 2
+    distance: 0.9
+  - from: '9990604'
+    from_name: 馬出九大病院前
+    to: '9990605'
+    to_name: 箱崎宮前
+    time: 2
+    distance: 0.71
+  - from: '9990605'
+    from_name: 箱崎宮前
+    to: '9990606'
+    to_name: 箱崎九大前
+    time: 2
+    distance: 0.72
+  - from: '9990606'
+    from_name: 箱崎九大前
+    to: '3600401'
+    to_name: 貝塚
+    time: 3
+    distance: 1.27

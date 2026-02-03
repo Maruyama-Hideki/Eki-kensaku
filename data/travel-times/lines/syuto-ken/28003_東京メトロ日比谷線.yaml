@@ -1,0 +1,132 @@
+line_code: '28003'
+line_name: 東京メトロ日比谷線
+company: 東京メトロ
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '1132005'
+    from_name: 北千住
+    to: '1132004'
+    to_name: 南千住
+    time: 4
+    distance: 1.81
+  - from: '1132004'
+    from_name: 南千住
+    to: '2800303'
+    to_name: 三ノ輪
+    time: 2
+    distance: 0.87
+  - from: '2800303'
+    from_name: 三ノ輪
+    to: '2800304'
+    to_name: 入谷
+    time: 3
+    distance: 1.28
+  - from: '2800304'
+    from_name: 入谷
+    to: '1130220'
+    to_name: 上野
+    time: 2
+    distance: 0.92
+  - from: '1130220'
+    from_name: 上野
+    to: '1130221'
+    to_name: 御徒町
+    time: 2
+    distance: 0.75
+  - from: '1130221'
+    from_name: 御徒町
+    to: '1130222'
+    to_name: 秋葉原
+    time: 2
+    distance: 0.97
+  - from: '1130222'
+    from_name: 秋葉原
+    to: '2800308'
+    to_name: 小伝馬町
+    time: 2
+    distance: 0.99
+  - from: '2800308'
+    from_name: 小伝馬町
+    to: '2800309'
+    to_name: 人形町
+    time: 2
+    distance: 0.6
+  - from: '2800309'
+    from_name: 人形町
+    to: '2800310'
+    to_name: 茅場町
+    time: 2
+    distance: 0.76
+  - from: '2800310'
+    from_name: 茅場町
+    to: '1132602'
+    to_name: 八丁堀
+    time: 2
+    distance: 0.61
+  - from: '1132602'
+    from_name: 八丁堀
+    to: '2800312'
+    to_name: 築地
+    time: 2
+    distance: 0.86
+  - from: '2800312'
+    from_name: 築地
+    to: '2800313'
+    to_name: 東銀座
+    time: 2
+    distance: 0.51
+  - from: '2800313'
+    from_name: 東銀座
+    to: '2800111'
+    to_name: 銀座
+    time: 2
+    distance: 0.41
+  - from: '2800111'
+    from_name: 銀座
+    to: '1130225'
+    to_name: 有楽町
+    time: 2
+    distance: 0.38
+  - from: '1130225'
+    from_name: 有楽町
+    to: '2800211'
+    to_name: 霞ケ関
+    time: 3
+    distance: 1.18
+  - from: '2800211'
+    from_name: 霞ケ関
+    to: '2800113'
+    to_name: 虎ノ門
+    time: 2
+    distance: 0.41
+  - from: '2800317'
+    from_name: 神谷町
+    to: '2800318'
+    to_name: 六本木
+    time: 3
+    distance: 1.23
+  - from: '2800318'
+    from_name: 六本木
+    to: '2800319'
+    to_name: 広尾
+    time: 3
+    distance: 1.44
+  - from: '2800319'
+    from_name: 広尾
+    to: '1130204'
+    to_name: 恵比寿
+    time: 3
+    distance: 1.26
+  - from: '1130204'
+    from_name: 恵比寿
+    to: '2600103'
+    to_name: 中目黒
+    time: 2
+    distance: 1.08
+  - from: '2800113'
+    from_name: 虎ノ門
+    to: '2800317'
+    to_name: 神谷町
+    time: 2
+    distance: 0.91

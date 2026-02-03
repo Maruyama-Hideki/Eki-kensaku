@@ -1,0 +1,12 @@
+line_code: '30011'
+line_name: 名鉄築港線
+company: 名古屋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3000807'
+    from_name: 大江
+    to: '3001102'
+    to_name: 東名古屋港
+    time: 2
+    distance: 1.31

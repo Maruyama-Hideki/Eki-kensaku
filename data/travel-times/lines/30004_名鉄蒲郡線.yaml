@@ -1,0 +1,60 @@
+line_code: '30004'
+line_name: 名鉄蒲郡線
+company: 名古屋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3000315'
+    from_name: 吉良吉田
+    to: '3000402'
+    to_name: 三河鳥羽
+    time: 5
+    distance: 3.1
+  - from: '3000402'
+    from_name: 三河鳥羽
+    to: '3000403'
+    to_name: 西幡豆
+    time: 3
+    distance: 1.49
+  - from: '3000403'
+    from_name: 西幡豆
+    to: '3000404'
+    to_name: 東幡豆
+    time: 4
+    distance: 2.25
+  - from: '3000404'
+    from_name: 東幡豆
+    to: '3000405'
+    to_name: こどもの国
+    time: 3
+    distance: 1.56
+  - from: '3000405'
+    from_name: こどもの国
+    to: '3000406'
+    to_name: 西浦
+    time: 3
+    distance: 1.46
+  - from: '3000406'
+    from_name: 西浦
+    to: '3000407'
+    to_name: 形原
+    time: 2
+    distance: 1.1
+  - from: '3000407'
+    from_name: 形原
+    to: '3000408'
+    to_name: 三河鹿島
+    time: 3
+    distance: 1.7
+  - from: '3000408'
+    from_name: 三河鹿島
+    to: '1150216'
+    to_name: 三河塩津
+    time: 3
+    distance: 1.7
+  - from: '1150216'
+    from_name: 三河塩津
+    to: '1150215'
+    to_name: 蒲郡
+    time: 4
+    distance: 2.31

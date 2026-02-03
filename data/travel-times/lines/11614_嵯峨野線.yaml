@@ -1,0 +1,96 @@
+line_code: '11614'
+line_name: 嵯峨野線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1160120'
+    from_name: 京都
+    to: '1161416'
+    to_name: 梅小路京都西
+    time: 3
+    distance: 1.38
+  - from: '1161402'
+    from_name: 丹波口
+    to: '1161403'
+    to_name: 二条
+    time: 3
+    distance: 1.78
+  - from: '1161403'
+    from_name: 二条
+    to: '1161404'
+    to_name: 円町
+    time: 2
+    distance: 1.29
+  - from: '1161404'
+    from_name: 円町
+    to: '1161405'
+    to_name: 花園
+    time: 2
+    distance: 1.16
+  - from: '1161405'
+    from_name: 花園
+    to: '1161406'
+    to_name: 太秦
+    time: 3
+    distance: 1.53
+  - from: '1161406'
+    from_name: 太秦
+    to: '1161407'
+    to_name: 嵯峨嵐山
+    time: 3
+    distance: 1.83
+  - from: '1161407'
+    from_name: 嵯峨嵐山
+    to: '1161408'
+    to_name: 保津峡
+    time: 6
+    distance: 3.77
+  - from: '1161408'
+    from_name: 保津峡
+    to: '1161409'
+    to_name: 馬堀
+    time: 6
+    distance: 3.72
+  - from: '1161409'
+    from_name: 馬堀
+    to: '1161410'
+    to_name: 亀岡
+    time: 3
+    distance: 1.91
+  - from: '1161410'
+    from_name: 亀岡
+    to: '1161411'
+    to_name: 並河
+    time: 5
+    distance: 3.08
+  - from: '1161411'
+    from_name: 並河
+    to: '1161412'
+    to_name: 千代川
+    time: 3
+    distance: 1.89
+  - from: '1161412'
+    from_name: 千代川
+    to: '1161413'
+    to_name: 八木
+    time: 5
+    distance: 2.71
+  - from: '1161413'
+    from_name: 八木
+    to: '1161414'
+    to_name: 吉富
+    time: 6
+    distance: 3.97
+  - from: '1161414'
+    from_name: 吉富
+    to: '1161415'
+    to_name: 園部
+    time: 3
+    distance: 1.78
+  - from: '1161416'
+    from_name: 梅小路京都西
+    to: '1161402'
+    to_name: 丹波口
+    time: 2
+    distance: 0.7

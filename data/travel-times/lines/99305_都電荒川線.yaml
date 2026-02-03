@@ -1,0 +1,180 @@
+line_code: '99305'
+line_name: 都電荒川線
+company: 東京都交通局
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9930501'
+    from_name: 三ノ輪橋
+    to: '9930502'
+    to_name: 荒川一中前
+    time: 2
+    distance: 0.27
+  - from: '9930502'
+    from_name: 荒川一中前
+    to: '9930503'
+    to_name: 荒川区役所前
+    time: 2
+    distance: 0.27
+  - from: '9930503'
+    from_name: 荒川区役所前
+    to: '9930504'
+    to_name: 荒川二丁目
+    time: 2
+    distance: 0.44
+  - from: '9930504'
+    from_name: 荒川二丁目
+    to: '9930505'
+    to_name: 荒川七丁目
+    time: 2
+    distance: 0.38
+  - from: '9930505'
+    from_name: 荒川七丁目
+    to: '2300104'
+    to_name: 町屋
+    time: 2
+    distance: 0.24
+  - from: '2300104'
+    from_name: 町屋
+    to: '9930507'
+    to_name: 町屋二丁目
+    time: 2
+    distance: 0.47
+  - from: '9930507'
+    from_name: 町屋二丁目
+    to: '9930508'
+    to_name: 東尾久三丁目
+    time: 2
+    distance: 0.27
+  - from: '9930508'
+    from_name: 東尾久三丁目
+    to: '9930509'
+    to_name: 熊野前
+    time: 2
+    distance: 0.63
+  - from: '9930509'
+    from_name: 熊野前
+    to: '9930510'
+    to_name: 宮ノ前
+    time: 2
+    distance: 0.4
+  - from: '9930510'
+    from_name: 宮ノ前
+    to: '9930511'
+    to_name: 小台
+    time: 2
+    distance: 0.29
+  - from: '9930511'
+    from_name: 小台
+    to: '9930512'
+    to_name: 荒川遊園地前
+    time: 2
+    distance: 0.36
+  - from: '9930512'
+    from_name: 荒川遊園地前
+    to: '9930513'
+    to_name: 荒川車庫前
+    time: 2
+    distance: 0.47
+  - from: '9930513'
+    from_name: 荒川車庫前
+    to: '9930514'
+    to_name: 梶原
+    time: 2
+    distance: 0.47
+  - from: '9930514'
+    from_name: 梶原
+    to: '9930515'
+    to_name: 栄町
+    time: 2
+    distance: 0.48
+  - from: '9930515'
+    from_name: 栄町
+    to: '1133212'
+    to_name: 王子
+    time: 2
+    distance: 0.41
+  - from: '1133212'
+    from_name: 王子
+    to: '9930517'
+    to_name: 飛鳥山
+    time: 2
+    distance: 0.26
+  - from: '9930517'
+    from_name: 飛鳥山
+    to: '9930518'
+    to_name: 滝野川一丁目
+    time: 2
+    distance: 0.37
+  - from: '9930518'
+    from_name: 滝野川一丁目
+    to: '9930519'
+    to_name: 西ヶ原四丁目
+    time: 2
+    distance: 0.4
+  - from: '9930519'
+    from_name: 西ヶ原四丁目
+    to: '9930520'
+    to_name: 新庚申塚
+    time: 2
+    distance: 0.41
+  - from: '9930520'
+    from_name: 新庚申塚
+    to: '9930521'
+    to_name: 庚申塚
+    time: 2
+    distance: 0.21
+  - from: '9930521'
+    from_name: 庚申塚
+    to: '9930522'
+    to_name: 巣鴨新田
+    time: 2
+    distance: 0.49
+  - from: '9930522'
+    from_name: 巣鴨新田
+    to: '1130213'
+    to_name: 大塚
+    time: 2
+    distance: 0.46
+  - from: '1130213'
+    from_name: 大塚
+    to: '9930524'
+    to_name: 向原
+    time: 2
+    distance: 0.43
+  - from: '9930524'
+    from_name: 向原
+    to: '2800610'
+    to_name: 東池袋
+    time: 2
+    distance: 0.6
+  - from: '2800610'
+    from_name: 東池袋
+    to: '9930526'
+    to_name: 都電雑司ヶ谷
+    time: 2
+    distance: 0.21
+  - from: '9930526'
+    from_name: 都電雑司ヶ谷
+    to: '2801010'
+    to_name: 雑司が谷
+    time: 2
+    distance: 0.53
+  - from: '2801010'
+    from_name: 雑司が谷
+    to: '9930528'
+    to_name: 学習院下
+    time: 2
+    distance: 0.49
+  - from: '9930528'
+    from_name: 学習院下
+    to: '9930529'
+    to_name: 面影橋
+    time: 2
+    distance: 0.4
+  - from: '9930529'
+    from_name: 面影橋
+    to: '9930530'
+    to_name: 早稲田
+    time: 2
+    distance: 0.42

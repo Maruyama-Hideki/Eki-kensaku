@@ -1,0 +1,132 @@
+line_code: '99709'
+line_name: アストラムライン
+company: 広島高速交通
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9970901'
+    from_name: 本通
+    to: '9970902'
+    to_name: 県庁前
+    time: 2
+    distance: 0.4
+  - from: '9970902'
+    from_name: 県庁前
+    to: '9970903'
+    to_name: 城北
+    time: 2
+    distance: 0.95
+  - from: '9970903'
+    from_name: 城北
+    to: '1161130'
+    to_name: 新白島
+    time: 2
+    distance: 0.41
+  - from: '9970904'
+    from_name: 白島
+    to: '9970905'
+    to_name: 牛田
+    time: 2
+    distance: 0.7
+  - from: '9970905'
+    from_name: 牛田
+    to: '9970906'
+    to_name: 不動院前
+    time: 2
+    distance: 1.17
+  - from: '9970906'
+    from_name: 不動院前
+    to: '9970907'
+    to_name: 祇園新橋北
+    time: 2
+    distance: 0.92
+  - from: '9970907'
+    from_name: 祇園新橋北
+    to: '9970908'
+    to_name: 西原
+    time: 2
+    distance: 0.98
+  - from: '9970908'
+    from_name: 西原
+    to: '9970909'
+    to_name: 中筋
+    time: 2
+    distance: 0.98
+  - from: '9970909'
+    from_name: 中筋
+    to: '9970910'
+    to_name: 古市
+    time: 2
+    distance: 0.69
+  - from: '9970910'
+    from_name: 古市
+    to: '1171707'
+    to_name: 大町
+    time: 2
+    distance: 0.55
+  - from: '1171707'
+    from_name: 大町
+    to: '9970912'
+    to_name: 毘沙門台
+    time: 2
+    distance: 1.17
+  - from: '9970912'
+    from_name: 毘沙門台
+    to: '9970913'
+    to_name: 安東
+    time: 2
+    distance: 1.1
+  - from: '9970913'
+    from_name: 安東
+    to: '9970914'
+    to_name: 上安
+    time: 2
+    distance: 0.77
+  - from: '9970914'
+    from_name: 上安
+    to: '9970915'
+    to_name: 高取
+    time: 2
+    distance: 0.61
+  - from: '9970915'
+    from_name: 高取
+    to: '9970916'
+    to_name: 長楽寺
+    time: 2
+    distance: 0.74
+  - from: '9970916'
+    from_name: 長楽寺
+    to: '9970917'
+    to_name: 伴
+    time: 2
+    distance: 1.05
+  - from: '9970917'
+    from_name: 伴
+    to: '9970918'
+    to_name: 大原
+    time: 2
+    distance: 1.04
+  - from: '9970918'
+    from_name: 大原
+    to: '9970919'
+    to_name: 伴中央
+    time: 2
+    distance: 1.06
+  - from: '9970919'
+    from_name: 伴中央
+    to: '9970920'
+    to_name: 大塚
+    time: 3
+    distance: 1.58
+  - from: '9970920'
+    from_name: 大塚
+    to: '9970921'
+    to_name: 広域公園前
+    time: 2
+    distance: 0.72
+  - from: '1161130'
+    from_name: 新白島
+    to: '9970904'
+    to_name: 白島
+    time: 2
+    distance: 0.32

@@ -1,0 +1,108 @@
+line_code: '11335'
+line_name: JR吾妻線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1133501'
+    from_name: 渋川
+    to: '1133502'
+    to_name: 金島
+    time: 8
+    distance: 5.14
+  - from: '1133502'
+    from_name: 金島
+    to: '1133503'
+    to_name: 祖母島
+    time: 4
+    distance: 2.13
+  - from: '1133503'
+    from_name: 祖母島
+    to: '1133504'
+    to_name: 小野上
+    time: 6
+    distance: 3.38
+  - from: '1133504'
+    from_name: 小野上
+    to: '1133505'
+    to_name: 小野上温泉
+    time: 3
+    distance: 1.62
+  - from: '1133505'
+    from_name: 小野上温泉
+    to: '1133506'
+    to_name: 市城
+    time: 4
+    distance: 2.54
+  - from: '1133506'
+    from_name: 市城
+    to: '1133507'
+    to_name: 中之条
+    time: 5
+    distance: 3.25
+  - from: '1133507'
+    from_name: 中之条
+    to: '1133508'
+    to_name: 群馬原町
+    time: 5
+    distance: 2.85
+  - from: '1133508'
+    from_name: 群馬原町
+    to: '1133509'
+    to_name: 郷原
+    time: 5
+    distance: 3.28
+  - from: '1133509'
+    from_name: 郷原
+    to: '1133510'
+    to_name: 矢倉
+    time: 3
+    distance: 1.56
+  - from: '1133510'
+    from_name: 矢倉
+    to: '1133511'
+    to_name: 岩島
+    time: 4
+    distance: 2.47
+  - from: '1133511'
+    from_name: 岩島
+    to: '1133512'
+    to_name: 川原湯温泉
+    time: 9
+    distance: 5.95
+  - from: '1133512'
+    from_name: 川原湯温泉
+    to: '1133513'
+    to_name: 長野原草津口
+    time: 7
+    distance: 4.25
+  - from: '1133513'
+    from_name: 長野原草津口
+    to: '1133514'
+    to_name: 群馬大津
+    time: 4
+    distance: 2.09
+  - from: '1133514'
+    from_name: 群馬大津
+    to: '1133515'
+    to_name: 羽根尾
+    time: 4
+    distance: 2.05
+  - from: '1133515'
+    from_name: 羽根尾
+    to: '1133516'
+    to_name: 袋倉
+    time: 4
+    distance: 2.45
+  - from: '1133516'
+    from_name: 袋倉
+    to: '1133517'
+    to_name: 万座・鹿沢口
+    time: 5
+    distance: 2.82
+  - from: '1133517'
+    from_name: 万座・鹿沢口
+    to: '1133518'
+    to_name: 大前
+    time: 5
+    distance: 2.85

@@ -1,0 +1,144 @@
+line_code: '99420'
+line_name: えちぜん鉄道三国芦原線
+company: えちぜん鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1141523'
+    from_name: 福井
+    to: '9941902'
+    to_name: 新福井
+    time: 2
+    distance: 0.41
+  - from: '9941902'
+    from_name: 新福井
+    to: '9941903'
+    to_name: 福井口
+    time: 2
+    distance: 0.94
+  - from: '9941903'
+    from_name: 福井口
+    to: '9942024'
+    to_name: まつもと町屋
+    time: 2
+    distance: 0.72
+  - from: '9942004'
+    from_name: 西別院
+    to: '9942005'
+    to_name: 田原町
+    time: 2
+    distance: 0.48
+  - from: '9942005'
+    from_name: 田原町
+    to: '9942006'
+    to_name: 福大前西福井
+    time: 2
+    distance: 0.64
+  - from: '9942006'
+    from_name: 福大前西福井
+    to: '9942022'
+    to_name: 日華化学前
+    time: 2
+    distance: 0.82
+  - from: '9942007'
+    from_name: 新田塚
+    to: '9942008'
+    to_name: 中角
+    time: 2
+    distance: 0.96
+  - from: '9942008'
+    from_name: 中角
+    to: '9942009'
+    to_name: 鷲塚針原
+    time: 4
+    distance: 2.17
+  - from: '9942009'
+    from_name: 鷲塚針原
+    to: '9942010'
+    to_name: 太郎丸エンゼルランド
+    time: 2
+    distance: 1.19
+  - from: '9942010'
+    from_name: 太郎丸エンゼルランド
+    to: '9942011'
+    to_name: 西春江ハートピア
+    time: 2
+    distance: 0.85
+  - from: '9942011'
+    from_name: 西春江ハートピア
+    to: '9942012'
+    to_name: 西長田ゆりの里
+    time: 3
+    distance: 1.63
+  - from: '9942012'
+    from_name: 西長田ゆりの里
+    to: '9942013'
+    to_name: 下兵庫こうふく
+    time: 3
+    distance: 1.87
+  - from: '9942013'
+    from_name: 下兵庫こうふく
+    to: '9942014'
+    to_name: 大関
+    time: 3
+    distance: 1.83
+  - from: '9942014'
+    from_name: 大関
+    to: '9942015'
+    to_name: 本荘
+    time: 4
+    distance: 2.05
+  - from: '9942015'
+    from_name: 本荘
+    to: '9942016'
+    to_name: 番田
+    time: 2
+    distance: 0.82
+  - from: '9942016'
+    from_name: 番田
+    to: '9942017'
+    to_name: あわら湯のまち
+    time: 3
+    distance: 1.43
+  - from: '9942017'
+    from_name: あわら湯のまち
+    to: '9942018'
+    to_name: 水居
+    time: 3
+    distance: 2
+  - from: '9942018'
+    from_name: 水居
+    to: '9942019'
+    to_name: 三国神社
+    time: 3
+    distance: 1.34
+  - from: '9942019'
+    from_name: 三国神社
+    to: '9942020'
+    to_name: 三国
+    time: 2
+    distance: 0.8
+  - from: '9942020'
+    from_name: 三国
+    to: '9942021'
+    to_name: 三国港
+    time: 2
+    distance: 0.93
+  - from: '9942022'
+    from_name: 日華化学前
+    to: '9942023'
+    to_name: 八ツ島
+    time: 2
+    distance: 0.61
+  - from: '9942023'
+    from_name: 八ツ島
+    to: '9942007'
+    to_name: 新田塚
+    time: 2
+    distance: 0.68
+  - from: '9942024'
+    from_name: まつもと町屋
+    to: '9942004'
+    to_name: 西別院
+    time: 2
+    distance: 0.6

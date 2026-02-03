@@ -1,0 +1,48 @@
+line_code: '31017'
+line_name: 近鉄田原本線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3100211'
+    from_name: 田原本
+    to: '3101702'
+    to_name: 黒田
+    time: 4
+    distance: 2.08
+  - from: '3101702'
+    from_name: 黒田
+    to: '3101703'
+    to_name: 但馬
+    time: 2
+    distance: 0.88
+  - from: '3101703'
+    from_name: 但馬
+    to: '3101704'
+    to_name: 箸尾
+    time: 3
+    distance: 1.56
+  - from: '3101704'
+    from_name: 箸尾
+    to: '3101705'
+    to_name: 池部
+    time: 3
+    distance: 1.6
+  - from: '3101705'
+    from_name: 池部
+    to: '3101706'
+    to_name: 佐味田川
+    time: 2
+    distance: 0.91
+  - from: '3101706'
+    from_name: 佐味田川
+    to: '3101707'
+    to_name: 大輪田
+    time: 2
+    distance: 1.08
+  - from: '3101707'
+    from_name: 大輪田
+    to: '1160708'
+    to_name: 王寺
+    time: 3
+    distance: 1.75

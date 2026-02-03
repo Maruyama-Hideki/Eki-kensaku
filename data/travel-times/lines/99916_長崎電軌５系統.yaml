@@ -1,0 +1,78 @@
+line_code: '99916'
+line_name: 長崎電軌５系統
+company: 長崎電気軌道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9991401'
+    from_name: 蛍茶屋
+    to: '9991402'
+    to_name: 新中川町
+    time: 2
+    distance: 0.38
+  - from: '9991402'
+    from_name: 新中川町
+    to: '9991403'
+    to_name: 新大工町
+    time: 2
+    distance: 0.35
+  - from: '9991403'
+    from_name: 新大工町
+    to: '9991404'
+    to_name: 諏訪神社
+    time: 2
+    distance: 0.25
+  - from: '9991404'
+    from_name: 諏訪神社
+    to: '9991405'
+    to_name: 市民会館
+    time: 2
+    distance: 0.48
+  - from: '9991405'
+    from_name: 市民会館
+    to: '9991506'
+    to_name: めがね橋
+    time: 2
+    distance: 0.37
+  - from: '9991506'
+    from_name: めがね橋
+    to: '9991613'
+    to_name: 浜町アーケード
+    time: 2
+    distance: 0.26
+  - from: '9991323'
+    from_name: 西浜町
+    to: '9991322'
+    to_name: 新地中華街
+    time: 2
+    distance: 0.14
+  - from: '9991322'
+    from_name: 新地中華街
+    to: '9991609'
+    to_name: メディカルセンター
+    time: 2
+    distance: 0.35
+  - from: '9991609'
+    from_name: メディカルセンター
+    to: '9991610'
+    to_name: 大浦海岸通
+    time: 2
+    distance: 0.34
+  - from: '9991610'
+    from_name: 大浦海岸通
+    to: '9991611'
+    to_name: 大浦天主堂
+    time: 2
+    distance: 0.16
+  - from: '9991611'
+    from_name: 大浦天主堂
+    to: '9991612'
+    to_name: 石橋
+    time: 2
+    distance: 0.28
+  - from: '9991613'
+    from_name: 浜町アーケード
+    to: '9991323'
+    to_name: 西浜町
+    time: 2
+    distance: 0.14

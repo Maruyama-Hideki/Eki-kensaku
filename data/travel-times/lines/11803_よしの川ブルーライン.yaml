@@ -1,0 +1,156 @@
+line_code: '11803'
+line_name: よしの川ブルーライン
+company: JR四国
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1180229'
+    from_name: 徳島
+    to: '1180228'
+    to_name: 佐古
+    time: 3
+    distance: 1.36
+  - from: '1180228'
+    from_name: 佐古
+    to: '1180303'
+    to_name: 蔵本
+    time: 3
+    distance: 1.89
+  - from: '1180303'
+    from_name: 蔵本
+    to: '1180304'
+    to_name: 鮎喰
+    time: 2
+    distance: 1.13
+  - from: '1180304'
+    from_name: 鮎喰
+    to: '1180305'
+    to_name: 府中
+    time: 4
+    distance: 2.16
+  - from: '1180305'
+    from_name: 府中
+    to: '1180306'
+    to_name: 石井
+    time: 6
+    distance: 3.58
+  - from: '1180306'
+    from_name: 石井
+    to: '1180307'
+    to_name: 下浦
+    time: 4
+    distance: 2.17
+  - from: '1180307'
+    from_name: 下浦
+    to: '1180308'
+    to_name: 牛島
+    time: 4
+    distance: 2.42
+  - from: '1180308'
+    from_name: 牛島
+    to: '1180309'
+    to_name: 麻植塚
+    time: 3
+    distance: 1.92
+  - from: '1180309'
+    from_name: 麻植塚
+    to: '1180310'
+    to_name: 鴨島
+    time: 3
+    distance: 1.88
+  - from: '1180310'
+    from_name: 鴨島
+    to: '1180311'
+    to_name: 西麻植
+    time: 3
+    distance: 1.83
+  - from: '1180311'
+    from_name: 西麻植
+    to: '1180312'
+    to_name: 阿波川島
+    time: 3
+    distance: 1.85
+  - from: '1180312'
+    from_name: 阿波川島
+    to: '1180313'
+    to_name: 学
+    time: 5
+    distance: 3.2
+  - from: '1180313'
+    from_name: 学
+    to: '1180314'
+    to_name: 山瀬
+    time: 5
+    distance: 2.76
+  - from: '1180314'
+    from_name: 山瀬
+    to: '1180315'
+    to_name: 阿波山川
+    time: 4
+    distance: 2.13
+  - from: '1180315'
+    from_name: 阿波山川
+    to: '1180316'
+    to_name: 川田
+    time: 5
+    distance: 2.82
+  - from: '1180316'
+    from_name: 川田
+    to: '1180317'
+    to_name: 穴吹
+    time: 6
+    distance: 3.86
+  - from: '1180317'
+    from_name: 穴吹
+    to: '1180318'
+    to_name: 小島
+    time: 8
+    distance: 5.2
+  - from: '1180318'
+    from_name: 小島
+    to: '1180319'
+    to_name: 貞光
+    time: 7
+    distance: 4.58
+  - from: '1180319'
+    from_name: 貞光
+    to: '1180320'
+    to_name: 阿波半田
+    time: 4
+    distance: 2.13
+  - from: '1180320'
+    from_name: 阿波半田
+    to: '1180321'
+    to_name: 江口
+    time: 9
+    distance: 5.76
+  - from: '1180321'
+    from_name: 江口
+    to: '1180322'
+    to_name: 三加茂
+    time: 4
+    distance: 2.27
+  - from: '1180322'
+    from_name: 三加茂
+    to: '1180323'
+    to_name: 阿波加茂
+    time: 4
+    distance: 2.05
+  - from: '1180323'
+    from_name: 阿波加茂
+    to: '1180324'
+    to_name: 辻
+    time: 8
+    distance: 4.97
+  - from: '1180324'
+    from_name: 辻
+    to: '1180110'
+    to_name: 佃
+    time: 3
+    distance: 1.54
+  - from: '1180110'
+    from_name: 佃
+    to: '1180111'
+    to_name: 阿波池田
+    time: 8
+    distance: 4.92

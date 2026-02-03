@@ -1,0 +1,252 @@
+line_code: '33001'
+line_name: 京阪本線
+company: 京阪電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3300101'
+    from_name: 三条
+    to: '3300102'
+    to_name: 祇園四条
+    time: 2
+    distance: 0.6
+  - from: '3300102'
+    from_name: 祇園四条
+    to: '3300103'
+    to_name: 清水五条
+    time: 2
+    distance: 0.95
+  - from: '3300103'
+    from_name: 清水五条
+    to: '3300104'
+    to_name: 七条
+    time: 2
+    distance: 0.71
+  - from: '3300104'
+    from_name: 七条
+    to: '1161802'
+    to_name: 東福寺
+    time: 2
+    distance: 0.9
+  - from: '1161802'
+    from_name: 東福寺
+    to: '3300106'
+    to_name: 鳥羽街道
+    time: 2
+    distance: 0.86
+  - from: '3300106'
+    from_name: 鳥羽街道
+    to: '3300107'
+    to_name: 伏見稲荷
+    time: 2
+    distance: 0.52
+  - from: '3300107'
+    from_name: 伏見稲荷
+    to: '3300108'
+    to_name: 龍谷大前深草
+    time: 2
+    distance: 0.53
+  - from: '3300108'
+    from_name: 龍谷大前深草
+    to: '3300109'
+    to_name: 藤森
+    time: 2
+    distance: 0.83
+  - from: '3300109'
+    from_name: 藤森
+    to: '3300110'
+    to_name: 墨染
+    time: 2
+    distance: 0.96
+  - from: '3300110'
+    from_name: 墨染
+    to: '3102507'
+    to_name: 近鉄丹波橋
+    time: 2
+    distance: 1.13
+  - from: '3102507'
+    from_name: 近鉄丹波橋
+    to: '3102508'
+    to_name: 桃山御陵前
+    time: 2
+    distance: 0.55
+  - from: '3102508'
+    from_name: 桃山御陵前
+    to: '3300113'
+    to_name: 中書島
+    time: 2
+    distance: 0.87
+  - from: '3300113'
+    from_name: 中書島
+    to: '3300114'
+    to_name: 淀
+    time: 7
+    distance: 4.55
+  - from: '3300114'
+    from_name: 淀
+    to: '3300115'
+    to_name: 石清水八幡宮
+    time: 5
+    distance: 2.77
+  - from: '3300115'
+    from_name: 石清水八幡宮
+    to: '3300116'
+    to_name: 橋本
+    time: 3
+    distance: 1.46
+  - from: '3300116'
+    from_name: 橋本
+    to: '3300117'
+    to_name: 樟葉
+    time: 4
+    distance: 2.37
+  - from: '3300117'
+    from_name: 樟葉
+    to: '3300118'
+    to_name: 牧野
+    time: 4
+    distance: 2.2
+  - from: '3300118'
+    from_name: 牧野
+    to: '3300119'
+    to_name: 御殿山
+    time: 3
+    distance: 1.95
+  - from: '3300119'
+    from_name: 御殿山
+    to: '3300120'
+    to_name: 枚方市
+    time: 3
+    distance: 1.52
+  - from: '3300120'
+    from_name: 枚方市
+    to: '3300121'
+    to_name: 枚方公園
+    time: 2
+    distance: 1
+  - from: '3300121'
+    from_name: 枚方公園
+    to: '3300122'
+    to_name: 光善寺
+    time: 3
+    distance: 1.75
+  - from: '3300122'
+    from_name: 光善寺
+    to: '3300123'
+    to_name: 香里園
+    time: 3
+    distance: 1.46
+  - from: '3300123'
+    from_name: 香里園
+    to: '3300124'
+    to_name: 寝屋川市
+    time: 4
+    distance: 2.49
+  - from: '3300124'
+    from_name: 寝屋川市
+    to: '3300125'
+    to_name: 萱島
+    time: 4
+    distance: 2.02
+  - from: '3300125'
+    from_name: 萱島
+    to: '3300126'
+    to_name: 大和田
+    time: 2
+    distance: 0.92
+  - from: '3300126'
+    from_name: 大和田
+    to: '3300127'
+    to_name: 古川橋
+    time: 2
+    distance: 1.08
+  - from: '3300127'
+    from_name: 古川橋
+    to: '3300128'
+    to_name: 門真市
+    time: 2
+    distance: 0.78
+  - from: '3300128'
+    from_name: 門真市
+    to: '3300129'
+    to_name: 西三荘
+    time: 2
+    distance: 0.67
+  - from: '3300129'
+    from_name: 西三荘
+    to: '3300130'
+    to_name: 守口市
+    time: 2
+    distance: 1
+  - from: '3300130'
+    from_name: 守口市
+    to: '3300131'
+    to_name: 土居
+    time: 2
+    distance: 0.73
+  - from: '3300131'
+    from_name: 土居
+    to: '3300132'
+    to_name: 滝井
+    time: 2
+    distance: 0.37
+  - from: '3300132'
+    from_name: 滝井
+    to: '3300133'
+    to_name: 千林
+    time: 2
+    distance: 0.5
+  - from: '3300133'
+    from_name: 千林
+    to: '3300134'
+    to_name: 森小路
+    time: 2
+    distance: 0.58
+  - from: '3300134'
+    from_name: 森小路
+    to: '3300135'
+    to_name: 関目
+    time: 2
+    distance: 0.88
+  - from: '3300135'
+    from_name: 関目
+    to: '3300136'
+    to_name: JR野江
+    time: 2
+    distance: 0.8
+  - from: '3300136'
+    from_name: JR野江
+    to: '1161724'
+    to_name: 京橋
+    time: 3
+    distance: 1.38
+  - from: '1161724'
+    from_name: 京橋
+    to: '3300138'
+    to_name: 天満橋
+    time: 3
+    distance: 1.74
+  - from: '3300138'
+    from_name: 天満橋
+    to: '3300139'
+    to_name: 北浜
+    time: 2
+    distance: 0.91
+  - from: '3300139'
+    from_name: 北浜
+    to: '3300140'
+    to_name: 淀屋橋
+    time: 2
+    distance: 0.48
+  - from: '3300402'
+    from_name: 神宮丸太町
+    to: '3300101'
+    to_name: 三条
+    time: 2
+    distance: 0.95
+  - from: '3300401'
+    from_name: 出町柳
+    to: '3300402'
+    to_name: 神宮丸太町
+    time: 2
+    distance: 1.33

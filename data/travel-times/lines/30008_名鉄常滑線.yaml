@@ -1,0 +1,156 @@
+line_code: '30008'
+line_name: 名鉄常滑線
+company: 名古屋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1141101'
+    from_name: 名古屋
+    to: '3000135'
+    to_name: 山王
+    time: 4
+    distance: 2.13
+  - from: '3000135'
+    from_name: 山王
+    to: '1141102'
+    to_name: 金山
+    time: 3
+    distance: 1.51
+  - from: '1141102'
+    from_name: 金山
+    to: '3000133'
+    to_name: 神宮前
+    time: 4
+    distance: 2.19
+  - from: '3000133'
+    from_name: 神宮前
+    to: '3000805'
+    to_name: 豊田本町
+    time: 3
+    distance: 1.37
+  - from: '3000805'
+    from_name: 豊田本町
+    to: '3000806'
+    to_name: 道徳
+    time: 2
+    distance: 0.89
+  - from: '3000806'
+    from_name: 道徳
+    to: '3000807'
+    to_name: 大江
+    time: 3
+    distance: 1.42
+  - from: '3000807'
+    from_name: 大江
+    to: '3000808'
+    to_name: 大同町
+    time: 3
+    distance: 1.48
+  - from: '3000808'
+    from_name: 大同町
+    to: '3000809'
+    to_name: 柴田
+    time: 2
+    distance: 0.83
+  - from: '3000809'
+    from_name: 柴田
+    to: '3000810'
+    to_name: 名和
+    time: 3
+    distance: 1.34
+  - from: '3000810'
+    from_name: 名和
+    to: '3000811'
+    to_name: 聚楽園
+    time: 4
+    distance: 2.16
+  - from: '3000811'
+    from_name: 聚楽園
+    to: '3000812'
+    to_name: 新日鉄前
+    time: 2
+    distance: 0.91
+  - from: '3000812'
+    from_name: 新日鉄前
+    to: '3000813'
+    to_name: 太田川
+    time: 3
+    distance: 1.78
+  - from: '3000813'
+    from_name: 太田川
+    to: '3000814'
+    to_name: 尾張横須賀
+    time: 2
+    distance: 1.28
+  - from: '3000814'
+    from_name: 尾張横須賀
+    to: '3000815'
+    to_name: 寺本
+    time: 3
+    distance: 1.44
+  - from: '3000815'
+    from_name: 寺本
+    to: '3000816'
+    to_name: 朝倉
+    time: 2
+    distance: 1.31
+  - from: '3000816'
+    from_name: 朝倉
+    to: '3000817'
+    to_name: 古見
+    time: 2
+    distance: 0.91
+  - from: '3000817'
+    from_name: 古見
+    to: '3000818'
+    to_name: 長浦
+    time: 2
+    distance: 1.32
+  - from: '3000818'
+    from_name: 長浦
+    to: '3000819'
+    to_name: 日長
+    time: 4
+    distance: 2.35
+  - from: '3000819'
+    from_name: 日長
+    to: '3000820'
+    to_name: 新舞子
+    time: 3
+    distance: 1.36
+  - from: '3000820'
+    from_name: 新舞子
+    to: '3000821'
+    to_name: 大野町
+    time: 3
+    distance: 1.59
+  - from: '3000821'
+    from_name: 大野町
+    to: '3000822'
+    to_name: 西ノ口
+    time: 2
+    distance: 0.97
+  - from: '3000822'
+    from_name: 西ノ口
+    to: '3000823'
+    to_name: 蒲池
+    time: 2
+    distance: 1.27
+  - from: '3000823'
+    from_name: 蒲池
+    to: '3000824'
+    to_name: 榎戸
+    time: 2
+    distance: 1.19
+  - from: '3000824'
+    from_name: 榎戸
+    to: '3000825'
+    to_name: 多屋
+    time: 2
+    distance: 0.91
+  - from: '3000825'
+    from_name: 多屋
+    to: '3000701'
+    to_name: 常滑
+    time: 2
+    distance: 0.76

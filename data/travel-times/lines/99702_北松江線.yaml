@@ -1,0 +1,132 @@
+line_code: '99702'
+line_name: 北松江線
+company: 一畑電車
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1170113'
+    from_name: 出雲市
+    to: '9970202'
+    to_name: 出雲科学館パークタウン前
+    time: 2
+    distance: 0.91
+  - from: '9970202'
+    from_name: 出雲科学館パークタウン前
+    to: '9970203'
+    to_name: 大津町
+    time: 2
+    distance: 1.02
+  - from: '9970203'
+    from_name: 大津町
+    to: '9970204'
+    to_name: 武志
+    time: 4
+    distance: 2.1
+  - from: '9970204'
+    from_name: 武志
+    to: '9970205'
+    to_name: 川跡
+    time: 2
+    distance: 0.84
+  - from: '9970205'
+    from_name: 川跡
+    to: '9970206'
+    to_name: 大寺
+    time: 3
+    distance: 1.43
+  - from: '9970206'
+    from_name: 大寺
+    to: '9970207'
+    to_name: 美談
+    time: 2
+    distance: 1.33
+  - from: '9970207'
+    from_name: 美談
+    to: '9970208'
+    to_name: 旅伏
+    time: 2
+    distance: 1.25
+  - from: '9970208'
+    from_name: 旅伏
+    to: '9970209'
+    to_name: 雲州平田
+    time: 3
+    distance: 1.96
+  - from: '9970209'
+    from_name: 雲州平田
+    to: '9970210'
+    to_name: 布崎
+    time: 6
+    distance: 3.47
+  - from: '9970210'
+    from_name: 布崎
+    to: '9970211'
+    to_name: 湖遊館新駅
+    time: 2
+    distance: 0.68
+  - from: '9970211'
+    from_name: 湖遊館新駅
+    to: '9970212'
+    to_name: 園
+    time: 2
+    distance: 0.68
+  - from: '9970212'
+    from_name: 園
+    to: '9970213'
+    to_name: 一畑口
+    time: 3
+    distance: 1.63
+  - from: '9970213'
+    from_name: 一畑口
+    to: '9970214'
+    to_name: 伊野灘
+    time: 3
+    distance: 1.67
+  - from: '9970214'
+    from_name: 伊野灘
+    to: '9970215'
+    to_name: 津ノ森
+    time: 3
+    distance: 1.74
+  - from: '9970215'
+    from_name: 津ノ森
+    to: '9970216'
+    to_name: 高ノ宮
+    time: 2
+    distance: 1.2
+  - from: '9970216'
+    from_name: 高ノ宮
+    to: '9970217'
+    to_name: 松江フォーゲルパーク
+    time: 2
+    distance: 1.26
+  - from: '9970217'
+    from_name: 松江フォーゲルパーク
+    to: '9970218'
+    to_name: 秋鹿町
+    time: 2
+    distance: 1.2
+  - from: '9970218'
+    from_name: 秋鹿町
+    to: '9970219'
+    to_name: 長江
+    time: 3
+    distance: 1.63
+  - from: '9970219'
+    from_name: 長江
+    to: '9970220'
+    to_name: 朝日ヶ丘
+    time: 2
+    distance: 1.23
+  - from: '9970220'
+    from_name: 朝日ヶ丘
+    to: '9970221'
+    to_name: 松江イングリッシュガーデン前
+    time: 3
+    distance: 1.47
+  - from: '9970221'
+    from_name: 松江イングリッシュガーデン前
+    to: '9970222'
+    to_name: 松江しんじ湖温泉
+    time: 6
+    distance: 4

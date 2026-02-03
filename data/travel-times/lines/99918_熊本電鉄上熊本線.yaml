@@ -1,0 +1,36 @@
+line_code: '99918'
+line_name: 熊本電鉄上熊本線
+company: 熊本電気鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1190340'
+    from_name: 上熊本
+    to: '9991802'
+    to_name: 韓々坂
+    time: 2
+    distance: 0.82
+  - from: '9991802'
+    from_name: 韓々坂
+    to: '9991803'
+    to_name: 池田
+    time: 2
+    distance: 0.61
+  - from: '9991803'
+    from_name: 池田
+    to: '9991804'
+    to_name: 打越
+    time: 2
+    distance: 0.7
+  - from: '9991804'
+    from_name: 打越
+    to: '9991805'
+    to_name: 坪井川公園
+    time: 2
+    distance: 0.53
+  - from: '9991805'
+    from_name: 坪井川公園
+    to: '9991703'
+    to_name: 北熊本
+    time: 2
+    distance: 0.74

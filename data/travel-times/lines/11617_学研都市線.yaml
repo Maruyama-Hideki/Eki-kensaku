@@ -1,0 +1,144 @@
+line_code: '11617'
+line_name: 学研都市線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1160702'
+    from_name: 木津
+    to: '1161702'
+    to_name: 西木津
+    time: 3
+    distance: 1.96
+  - from: '1161702'
+    from_name: 西木津
+    to: '1161703'
+    to_name: 祝園
+    time: 5
+    distance: 2.7
+  - from: '1161703'
+    from_name: 祝園
+    to: '1161704'
+    to_name: 下狛
+    time: 4
+    distance: 2.29
+  - from: '1161704'
+    from_name: 下狛
+    to: '1161705'
+    to_name: ＪＲ三山木
+    time: 4
+    distance: 2.01
+  - from: '1161705'
+    from_name: ＪＲ三山木
+    to: '1161706'
+    to_name: 同志社前
+    time: 2
+    distance: 0.93
+  - from: '1161706'
+    from_name: 同志社前
+    to: '1161707'
+    to_name: 京田辺
+    time: 3
+    distance: 2
+  - from: '1161707'
+    from_name: 京田辺
+    to: '1161708'
+    to_name: 大住
+    time: 4
+    distance: 2.02
+  - from: '1161708'
+    from_name: 大住
+    to: '1161709'
+    to_name: 松井山手
+    time: 4
+    distance: 2.05
+  - from: '1161709'
+    from_name: 松井山手
+    to: '1161710'
+    to_name: 長尾
+    time: 3
+    distance: 1.56
+  - from: '1161710'
+    from_name: 長尾
+    to: '1161711'
+    to_name: 藤阪
+    time: 3
+    distance: 1.59
+  - from: '1161711'
+    from_name: 藤阪
+    to: '1161712'
+    to_name: 津田
+    time: 3
+    distance: 1.52
+  - from: '1161712'
+    from_name: 津田
+    to: '1161713'
+    to_name: 河内磐船
+    time: 5
+    distance: 3.02
+  - from: '1161713'
+    from_name: 河内磐船
+    to: '1161714'
+    to_name: 星田
+    time: 4
+    distance: 2.18
+  - from: '1161714'
+    from_name: 星田
+    to: '1161715'
+    to_name: 寝屋川公園
+    time: 3
+    distance: 1.61
+  - from: '1161715'
+    from_name: 寝屋川公園
+    to: '1161716'
+    to_name: 忍ケ丘
+    time: 2
+    distance: 1.31
+  - from: '1161716'
+    from_name: 忍ケ丘
+    to: '1161717'
+    to_name: 四条畷
+    time: 3
+    distance: 1.82
+  - from: '1161717'
+    from_name: 四条畷
+    to: '1161718'
+    to_name: 野崎
+    time: 2
+    distance: 1.33
+  - from: '1161718'
+    from_name: 野崎
+    to: '1161719'
+    to_name: 住道
+    time: 3
+    distance: 1.95
+  - from: '1161719'
+    from_name: 住道
+    to: '1161720'
+    to_name: 鴻池新田
+    time: 4
+    distance: 2.33
+  - from: '1161720'
+    from_name: 鴻池新田
+    to: '1161721'
+    to_name: 徳庵
+    time: 3
+    distance: 1.65
+  - from: '1161721'
+    from_name: 徳庵
+    to: '1161722'
+    to_name: 放出
+    time: 3
+    distance: 1.72
+  - from: '1161722'
+    from_name: 放出
+    to: '1161723'
+    to_name: 鴫野
+    time: 3
+    distance: 1.75
+  - from: '1161723'
+    from_name: 鴫野
+    to: '1161724'
+    to_name: 京橋
+    time: 2
+    distance: 1.05

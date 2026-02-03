@@ -1,0 +1,36 @@
+line_code: '99903'
+line_name: 糸田線
+company: 平成筑豊鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9990210'
+    from_name: 金田
+    to: '9990302'
+    to_name: 豊前大熊
+    time: 2
+    distance: 1.19
+  - from: '9990302'
+    from_name: 豊前大熊
+    to: '9990303'
+    to_name: 松山
+    time: 2
+    distance: 0.46
+  - from: '9990303'
+    from_name: 松山
+    to: '9990304'
+    to_name: 糸田
+    time: 3
+    distance: 1.42
+  - from: '9990304'
+    from_name: 糸田
+    to: '9990305'
+    to_name: 大藪
+    time: 3
+    distance: 1.51
+  - from: '9990305'
+    from_name: 大藪
+    to: '1191414'
+    to_name: 田川後藤寺
+    time: 3
+    distance: 1.89

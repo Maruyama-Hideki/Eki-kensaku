@@ -1,0 +1,210 @@
+line_code: '11230'
+line_name: JR常磐線(いわき～仙台)
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1122801'
+    from_name: いわき
+    to: '1123002'
+    to_name: 草野
+    time: 8
+    distance: 5.18
+  - from: '1123002'
+    from_name: 草野
+    to: '1123003'
+    to_name: 四ツ倉
+    time: 7
+    distance: 4.35
+  - from: '1123003'
+    from_name: 四ツ倉
+    to: '1123004'
+    to_name: 久ノ浜
+    time: 7
+    distance: 4.65
+  - from: '1123004'
+    from_name: 久ノ浜
+    to: '1123005'
+    to_name: 末続
+    time: 5
+    distance: 3.3
+  - from: '1123005'
+    from_name: 末続
+    to: '1123006'
+    to_name: 広野
+    time: 7
+    distance: 4.39
+  - from: '1123006'
+    from_name: 広野
+    to: '1123035'
+    to_name: Jヴィレッジ
+    time: 6
+    distance: 3.53
+  - from: '1123007'
+    from_name: 木戸
+    to: '1123008'
+    to_name: 竜田
+    time: 5
+    distance: 2.74
+  - from: '1123008'
+    from_name: 竜田
+    to: '1123009'
+    to_name: 富岡
+    time: 9
+    distance: 5.99
+  - from: '1123009'
+    from_name: 富岡
+    to: '1123010'
+    to_name: 夜ノ森
+    time: 7
+    distance: 4.46
+  - from: '1123010'
+    from_name: 夜ノ森
+    to: '1123011'
+    to_name: 大野
+    time: 8
+    distance: 4.9
+  - from: '1123011'
+    from_name: 大野
+    to: '1123012'
+    to_name: 双葉
+    time: 8
+    distance: 5.3
+  - from: '1123012'
+    from_name: 双葉
+    to: '1123013'
+    to_name: 浪江
+    time: 7
+    distance: 4.52
+  - from: '1123013'
+    from_name: 浪江
+    to: '1123014'
+    to_name: 桃内
+    time: 7
+    distance: 4.07
+  - from: '1123014'
+    from_name: 桃内
+    to: '1123015'
+    to_name: 小高
+    time: 6
+    distance: 3.96
+  - from: '1123015'
+    from_name: 小高
+    to: '1123016'
+    to_name: 磐城太田
+    time: 8
+    distance: 4.71
+  - from: '1123016'
+    from_name: 磐城太田
+    to: '1123017'
+    to_name: 原ノ町
+    time: 7
+    distance: 4.06
+  - from: '1123017'
+    from_name: 原ノ町
+    to: '1123018'
+    to_name: 鹿島
+    time: 11
+    distance: 7.22
+  - from: '1123018'
+    from_name: 鹿島
+    to: '1123019'
+    to_name: 日立木
+    time: 11
+    distance: 6.69
+  - from: '1123019'
+    from_name: 日立木
+    to: '1123020'
+    to_name: 相馬
+    time: 8
+    distance: 5.22
+  - from: '1123020'
+    from_name: 相馬
+    to: '1123021'
+    to_name: 駒ケ嶺
+    time: 7
+    distance: 4.44
+  - from: '1123021'
+    from_name: 駒ケ嶺
+    to: '1123022'
+    to_name: 新地
+    time: 7
+    distance: 4.09
+  - from: '1123022'
+    from_name: 新地
+    to: '1123023'
+    to_name: 坂元
+    time: 9
+    distance: 5.47
+  - from: '1123023'
+    from_name: 坂元
+    to: '1123024'
+    to_name: 山下
+    time: 8
+    distance: 4.81
+  - from: '1123024'
+    from_name: 山下
+    to: '1123025'
+    to_name: 浜吉田
+    time: 6
+    distance: 3.96
+  - from: '1123025'
+    from_name: 浜吉田
+    to: '1123026'
+    to_name: 亘理
+    time: 8
+    distance: 4.88
+  - from: '1123026'
+    from_name: 亘理
+    to: '1123027'
+    to_name: 逢隈
+    time: 5
+    distance: 3.15
+  - from: '1123027'
+    from_name: 逢隈
+    to: '1123137'
+    to_name: 岩沼
+    time: 8
+    distance: 5.01
+  - from: '1123137'
+    from_name: 岩沼
+    to: '1123138'
+    to_name: 館腰
+    time: 6
+    distance: 3.73
+  - from: '1123138'
+    from_name: 館腰
+    to: '1123139'
+    to_name: 名取
+    time: 6
+    distance: 3.35
+  - from: '1123139'
+    from_name: 名取
+    to: '1123140'
+    to_name: 南仙台
+    time: 5
+    distance: 2.71
+  - from: '1123140'
+    from_name: 南仙台
+    to: '1123141'
+    to_name: 太子堂
+    time: 4
+    distance: 2.19
+  - from: '1123142'
+    from_name: 長町
+    to: '1123143'
+    to_name: 仙台
+    time: 6
+    distance: 3.71
+  - from: '1123141'
+    from_name: 太子堂
+    to: '1123142'
+    to_name: 長町
+    time: 2
+    distance: 1.1
+  - from: '1123035'
+    from_name: Jヴィレッジ
+    to: '1123007'
+    to_name: 木戸
+    time: 3
+    distance: 1.76

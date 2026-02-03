@@ -1,0 +1,84 @@
+line_code: '99615'
+line_name: 能勢電鉄妙見線
+company: 能勢電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3400213'
+    from_name: 川西能勢口
+    to: '9961502'
+    to_name: 絹延橋
+    time: 2
+    distance: 1.19
+  - from: '9961502'
+    from_name: 絹延橋
+    to: '9961503'
+    to_name: 滝山
+    time: 2
+    distance: 0.93
+  - from: '9961503'
+    from_name: 滝山
+    to: '9961504'
+    to_name: 鶯の森
+    time: 2
+    distance: 0.56
+  - from: '9961504'
+    from_name: 鶯の森
+    to: '9961505'
+    to_name: 鼓滝
+    time: 2
+    distance: 0.78
+  - from: '9961505'
+    from_name: 鼓滝
+    to: '9961506'
+    to_name: 多田
+    time: 2
+    distance: 0.7
+  - from: '9961506'
+    from_name: 多田
+    to: '9961507'
+    to_name: 平野
+    time: 2
+    distance: 0.88
+  - from: '9961507'
+    from_name: 平野
+    to: '9961508'
+    to_name: 一の鳥居
+    time: 2
+    distance: 1.23
+  - from: '9961508'
+    from_name: 一の鳥居
+    to: '9961509'
+    to_name: 畦野
+    time: 2
+    distance: 0.71
+  - from: '9961509'
+    from_name: 畦野
+    to: '9961510'
+    to_name: 山下
+    time: 2
+    distance: 0.94
+  - from: '9961510'
+    from_name: 山下
+    to: '9961511'
+    to_name: 笹部
+    time: 2
+    distance: 0.39
+  - from: '9961511'
+    from_name: 笹部
+    to: '9961512'
+    to_name: 光風台
+    time: 3
+    distance: 1.54
+  - from: '9961512'
+    from_name: 光風台
+    to: '9961513'
+    to_name: ときわ台
+    time: 2
+    distance: 0.93
+  - from: '9961513'
+    from_name: ときわ台
+    to: '9961514'
+    to_name: 妙見口
+    time: 2
+    distance: 0.84

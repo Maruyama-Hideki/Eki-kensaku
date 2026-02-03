@@ -1,0 +1,210 @@
+line_code: '11101'
+line_name: JR函館本線(函館～長万部)
+company: JR北海道
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1110101'
+    from_name: 函館
+    to: '1110102'
+    to_name: 五稜郭
+    time: 6
+    distance: 3.37
+  - from: '1110102'
+    from_name: 五稜郭
+    to: '1110103'
+    to_name: 桔梗
+    time: 8
+    distance: 4.85
+  - from: '1110103'
+    from_name: 桔梗
+    to: '1110104'
+    to_name: 大中山
+    time: 4
+    distance: 2.17
+  - from: '1110104'
+    from_name: 大中山
+    to: '1110105'
+    to_name: 七飯
+    time: 5
+    distance: 3.23
+  - from: '1110105'
+    from_name: 七飯
+    to: '1110106'
+    to_name: 新函館北斗
+    time: 7
+    distance: 4.04
+  - from: '1110105'
+    from_name: 七飯
+    to: '1110108'
+    to_name: 大沼
+    time: 15
+    distance: 9.58
+  - from: '1110106'
+    from_name: 新函館北斗
+    to: '1110107'
+    to_name: 仁山
+    time: 5
+    distance: 2.89
+  - from: '1110107'
+    from_name: 仁山
+    to: '1110108'
+    to_name: 大沼
+    time: 9
+    distance: 5.45
+  - from: '1110108'
+    from_name: 大沼
+    to: '1110109'
+    to_name: 大沼公園
+    time: 2
+    distance: 1
+  - from: '1110108'
+    from_name: 大沼
+    to: '1110114'
+    to_name: 池田園
+    time: 5
+    distance: 3.3
+  - from: '1110109'
+    from_name: 大沼公園
+    to: '1110110'
+    to_name: 赤井川
+    time: 6
+    distance: 3.34
+  - from: '1110110'
+    from_name: 赤井川
+    to: '1110111'
+    to_name: 駒ケ岳
+    time: 8
+    distance: 4.76
+  - from: '1110111'
+    from_name: 駒ケ岳
+    to: '1110123'
+    to_name: 森
+    time: 13
+    distance: 8.36
+  - from: '1110114'
+    from_name: 池田園
+    to: '1110115'
+    to_name: 流山温泉
+    time: 3
+    distance: 1.94
+  - from: '1110115'
+    from_name: 流山温泉
+    to: '1110116'
+    to_name: 銚子口
+    time: 3
+    distance: 1.38
+  - from: '1110116'
+    from_name: 銚子口
+    to: '1110117'
+    to_name: 鹿部
+    time: 11
+    distance: 6.87
+  - from: '1110117'
+    from_name: 鹿部
+    to: '1110118'
+    to_name: 渡島沼尻
+    time: 8
+    distance: 5.14
+  - from: '1110118'
+    from_name: 渡島沼尻
+    to: '1110119'
+    to_name: 渡島砂原
+    time: 8
+    distance: 5.06
+  - from: '1110119'
+    from_name: 渡島砂原
+    to: '1110120'
+    to_name: 掛澗
+    time: 6
+    distance: 3.6
+  - from: '1110120'
+    from_name: 掛澗
+    to: '1110121'
+    to_name: 尾白内
+    time: 5
+    distance: 2.83
+  - from: '1110121'
+    from_name: 尾白内
+    to: '1110122'
+    to_name: 東森
+    time: 3
+    distance: 1.71
+  - from: '1110122'
+    from_name: 東森
+    to: '1110123'
+    to_name: 森
+    time: 3
+    distance: 1.64
+  - from: '1110123'
+    from_name: 森
+    to: '1110125'
+    to_name: 石谷
+    time: 10
+    distance: 6.29
+  - from: '1110125'
+    from_name: 石谷
+    to: '1110126'
+    to_name: 本石倉
+    time: 6
+    distance: 3.92
+  - from: '1110126'
+    from_name: 本石倉
+    to: '1110127'
+    to_name: 石倉
+    time: 3
+    distance: 1.84
+  - from: '1110127'
+    from_name: 石倉
+    to: '1110128'
+    to_name: 落部
+    time: 6
+    distance: 3.51
+  - from: '1110128'
+    from_name: 落部
+    to: '1110129'
+    to_name: 野田生
+    time: 8
+    distance: 4.94
+  - from: '1110129'
+    from_name: 野田生
+    to: '1110130'
+    to_name: 山越
+    time: 7
+    distance: 4.35
+  - from: '1110130'
+    from_name: 山越
+    to: '1110131'
+    to_name: 八雲
+    time: 8
+    distance: 5.03
+  - from: '1110131'
+    from_name: 八雲
+    to: '1110133'
+    to_name: 山崎
+    time: 11
+    distance: 6.81
+  - from: '1110133'
+    from_name: 山崎
+    to: '1110134'
+    to_name: 黒岩
+    time: 10
+    distance: 6.07
+  - from: '1110134'
+    from_name: 黒岩
+    to: '1110136'
+    to_name: 国縫
+    time: 13
+    distance: 8.34
+  - from: '1110136'
+    from_name: 国縫
+    to: '1110137'
+    to_name: 中ノ沢
+    time: 8
+    distance: 4.76
+  - from: '1110137'
+    from_name: 中ノ沢
+    to: '1110138'
+    to_name: 長万部
+    time: 7
+    distance: 4.52

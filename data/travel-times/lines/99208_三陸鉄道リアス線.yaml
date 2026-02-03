@@ -1,0 +1,246 @@
+line_code: '99208'
+line_name: 三陸鉄道リアス線
+company: 三陸鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1121318'
+    from_name: 宮古
+    to: '9920716'
+    to_name: 山口団地
+    time: 3
+    distance: 1.48
+  - from: '9920702'
+    from_name: 一の渡
+    to: '9920703'
+    to_name: 佐羽根
+    time: 5
+    distance: 2.76
+  - from: '9920703'
+    from_name: 佐羽根
+    to: '9920704'
+    to_name: 田老
+    time: 6
+    distance: 3.37
+  - from: '9920704'
+    from_name: 田老
+    to: '9920824'
+    to_name: 新田老
+    time: 2
+    distance: 0.48
+  - from: '9920705'
+    from_name: 摂待
+    to: '9920706'
+    to_name: 岩泉小本
+    time: 6
+    distance: 3.71
+  - from: '9920706'
+    from_name: 岩泉小本
+    to: '9920707'
+    to_name: 島越
+    time: 13
+    distance: 8.28
+  - from: '9920707'
+    from_name: 島越
+    to: '9920708'
+    to_name: 田野畑
+    time: 4
+    distance: 2.12
+  - from: '9920708'
+    from_name: 田野畑
+    to: '9920709'
+    to_name: 普代
+    time: 13
+    distance: 8.6
+  - from: '9920709'
+    from_name: 普代
+    to: '9920710'
+    to_name: 白井海岸
+    time: 6
+    distance: 3.36
+  - from: '9920710'
+    from_name: 白井海岸
+    to: '9920711'
+    to_name: 堀内
+    time: 5
+    distance: 2.94
+  - from: '9920711'
+    from_name: 堀内
+    to: '9920712'
+    to_name: 野田玉川
+    time: 7
+    distance: 4.31
+  - from: '9920712'
+    from_name: 野田玉川
+    to: '9920717'
+    to_name: 十府ヶ浦海岸
+    time: 4
+    distance: 2.05
+  - from: '9920713'
+    from_name: 陸中野田
+    to: '9920714'
+    to_name: 陸中宇部
+    time: 6
+    distance: 3.35
+  - from: '9920714'
+    from_name: 陸中宇部
+    to: '1120625'
+    to_name: 久慈
+    time: 10
+    distance: 6.57
+  - from: '9920716'
+    from_name: 山口団地
+    to: '9920702'
+    to_name: 一の渡
+    time: 7
+    distance: 4.35
+  - from: '9920717'
+    from_name: 十府ヶ浦海岸
+    to: '9920713'
+    to_name: 陸中野田
+    time: 3
+    distance: 1.75
+  - from: '1120825'
+    from_name: 盛
+    to: '9920802'
+    to_name: 陸前赤崎
+    time: 5
+    distance: 3.28
+  - from: '9920802'
+    from_name: 陸前赤崎
+    to: '9920803'
+    to_name: 綾里
+    time: 8
+    distance: 5.25
+  - from: '9920803'
+    from_name: 綾里
+    to: '9920804'
+    to_name: 恋し浜
+    time: 5
+    distance: 2.7
+  - from: '9920804'
+    from_name: 恋し浜
+    to: '9920805'
+    to_name: 甫嶺
+    time: 4
+    distance: 2.26
+  - from: '9920805'
+    from_name: 甫嶺
+    to: '9920806'
+    to_name: 三陸
+    time: 4
+    distance: 2.66
+  - from: '9920806'
+    from_name: 三陸
+    to: '9920807'
+    to_name: 吉浜
+    time: 7
+    distance: 4.41
+  - from: '9920807'
+    from_name: 吉浜
+    to: '9920808'
+    to_name: 唐丹
+    time: 10
+    distance: 6.03
+  - from: '9920808'
+    from_name: 唐丹
+    to: '9920809'
+    to_name: 平田
+    time: 8
+    distance: 5.32
+  - from: '9920809'
+    from_name: 平田
+    to: '1120924'
+    to_name: 釜石
+    time: 5
+    distance: 3.28
+  - from: '1120924'
+    from_name: 釜石
+    to: '9920811'
+    to_name: 両石
+    time: 7
+    distance: 4.11
+  - from: '9920811'
+    from_name: 両石
+    to: '9920812'
+    to_name: 鵜住居
+    time: 4
+    distance: 2.1
+  - from: '9920812'
+    from_name: 鵜住居
+    to: '9920813'
+    to_name: 大槌
+    time: 6
+    distance: 3.55
+  - from: '9920813'
+    from_name: 大槌
+    to: '9920814'
+    to_name: 吉里吉里
+    time: 6
+    distance: 3.39
+  - from: '9920814'
+    from_name: 吉里吉里
+    to: '9920815'
+    to_name: 浪板海岸
+    time: 3
+    distance: 1.58
+  - from: '9920815'
+    from_name: 浪板海岸
+    to: '9920816'
+    to_name: 岩手船越
+    time: 10
+    distance: 6.28
+  - from: '9920816'
+    from_name: 岩手船越
+    to: '9920817'
+    to_name: 織笠
+    time: 4
+    distance: 2.16
+  - from: '9920817'
+    from_name: 織笠
+    to: '9920818'
+    to_name: 陸中山田
+    time: 3
+    distance: 1.93
+  - from: '9920818'
+    from_name: 陸中山田
+    to: '9920819'
+    to_name: 豊間根
+    time: 13
+    distance: 8.2
+  - from: '9920819'
+    from_name: 豊間根
+    to: '9920820'
+    to_name: 払川
+    time: 6
+    distance: 3.42
+  - from: '9920820'
+    from_name: 払川
+    to: '9920821'
+    to_name: 津軽石
+    time: 3
+    distance: 1.94
+  - from: '9920821'
+    from_name: 津軽石
+    to: '9920822'
+    to_name: 八木沢・宮古短大
+    time: 7
+    distance: 4.27
+  - from: '9920822'
+    from_name: 八木沢・宮古短大
+    to: '9920823'
+    to_name: 磯鶏
+    time: 3
+    distance: 1.72
+  - from: '9920823'
+    from_name: 磯鶏
+    to: '1121318'
+    to_name: 宮古
+    time: 3
+    distance: 1.7
+  - from: '9920824'
+    from_name: 新田老
+    to: '9920705'
+    to_name: 摂待
+    time: 13
+    distance: 8.22

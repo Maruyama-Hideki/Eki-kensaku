@@ -1,0 +1,234 @@
+line_code: '99301'
+line_name: 都営大江戸線
+company: 東京都交通局
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9930101'
+    from_name: 都庁前
+    to: '9930102'
+    to_name: 新宿西口
+    time: 2
+    distance: 0.67
+  - from: '9930101'
+    from_name: 都庁前
+    to: '9930129'
+    to_name: 西新宿五丁目
+    time: 2
+    distance: 0.75
+  - from: '9930102'
+    from_name: 新宿西口
+    to: '2801012'
+    to_name: 東新宿
+    time: 2
+    distance: 0.98
+  - from: '2801012'
+    from_name: 東新宿
+    to: '9930104'
+    to_name: 若松河田
+    time: 2
+    distance: 0.96
+  - from: '9930104'
+    from_name: 若松河田
+    to: '9930105'
+    to_name: 牛込柳町
+    time: 2
+    distance: 0.62
+  - from: '9930105'
+    from_name: 牛込柳町
+    to: '9930106'
+    to_name: 牛込神楽坂
+    time: 2
+    distance: 0.98
+  - from: '9930106'
+    from_name: 牛込神楽坂
+    to: '1131316'
+    to_name: 飯田橋
+    time: 2
+    distance: 0.85
+  - from: '1131316'
+    from_name: 飯田橋
+    to: '9930108'
+    to_name: 春日
+    time: 2
+    distance: 1.13
+  - from: '9930108'
+    from_name: 春日
+    to: '2800205'
+    to_name: 本郷三丁目
+    time: 2
+    distance: 0.68
+  - from: '2800205'
+    from_name: 本郷三丁目
+    to: '1130221'
+    to_name: 御徒町
+    time: 3
+    distance: 1.34
+  - from: '1130221'
+    from_name: 御徒町
+    to: '9930111'
+    to_name: 新御徒町
+    time: 2
+    distance: 0.65
+  - from: '9930111'
+    from_name: 新御徒町
+    to: '9930112'
+    to_name: 蔵前
+    time: 2
+    distance: 0.91
+  - from: '9930112'
+    from_name: 蔵前
+    to: '1131321'
+    to_name: 両国
+    time: 2
+    distance: 0.86
+  - from: '1131321'
+    from_name: 両国
+    to: '9930114'
+    to_name: 森下
+    time: 2
+    distance: 0.93
+  - from: '9930114'
+    from_name: 森下
+    to: '2800811'
+    to_name: 清澄白河
+    time: 2
+    distance: 0.67
+  - from: '2800811'
+    from_name: 清澄白河
+    to: '2800412'
+    to_name: 門前仲町
+    time: 2
+    distance: 1.16
+  - from: '2800412'
+    from_name: 門前仲町
+    to: '2800621'
+    to_name: 月島
+    time: 2
+    distance: 1.33
+  - from: '2800621'
+    from_name: 月島
+    to: '9930118'
+    to_name: 勝どき
+    time: 2
+    distance: 1
+  - from: '9930118'
+    from_name: 勝どき
+    to: '9930119'
+    to_name: 築地市場
+    time: 2
+    distance: 1.12
+  - from: '9930119'
+    from_name: 築地市場
+    to: '9930120'
+    to_name: 汐留
+    time: 2
+    distance: 0.58
+  - from: '9930120'
+    from_name: 汐留
+    to: '9930121'
+    to_name: 大門
+    time: 2
+    distance: 0.94
+  - from: '9930121'
+    from_name: 大門
+    to: '9930122'
+    to_name: 赤羽橋
+    time: 2
+    distance: 1.01
+  - from: '9930122'
+    from_name: 赤羽橋
+    to: '2800916'
+    to_name: 麻布十番
+    time: 2
+    distance: 0.6
+  - from: '2800916'
+    from_name: 麻布十番
+    to: '2800318'
+    to_name: 六本木
+    time: 2
+    distance: 1.04
+  - from: '2800318'
+    from_name: 六本木
+    to: '2800116'
+    to_name: 青山一丁目
+    time: 2
+    distance: 1.29
+  - from: '2800116'
+    from_name: 青山一丁目
+    to: '9930126'
+    to_name: 国立競技場
+    time: 2
+    distance: 1.15
+  - from: '9930126'
+    from_name: 国立競技場
+    to: '1130207'
+    to_name: 代々木
+    time: 2
+    distance: 1.22
+  - from: '1130207'
+    from_name: 代々木
+    to: '1130208'
+    to_name: 新宿
+    time: 2
+    distance: 0.76
+  - from: '1130208'
+    from_name: 新宿
+    to: '9930101'
+    to_name: 都庁前
+    time: 2
+    distance: 0.72
+  - from: '9930129'
+    from_name: 西新宿五丁目
+    to: '2800220'
+    to_name: 中野坂上
+    time: 2
+    distance: 0.91
+  - from: '2800220'
+    from_name: 中野坂上
+    to: '1131308'
+    to_name: 東中野
+    time: 2
+    distance: 0.97
+  - from: '1131308'
+    from_name: 東中野
+    to: '2200704'
+    to_name: 中井
+    time: 2
+    distance: 0.98
+  - from: '2200704'
+    from_name: 中井
+    to: '9930133'
+    to_name: 落合南長崎
+    time: 2
+    distance: 1
+  - from: '9930133'
+    from_name: 落合南長崎
+    to: '9930134'
+    to_name: 新江古田
+    time: 3
+    distance: 1.51
+  - from: '9930134'
+    from_name: 新江古田
+    to: '2200106'
+    to_name: 練馬
+    time: 3
+    distance: 1.59
+  - from: '2200106'
+    from_name: 練馬
+    to: '2200402'
+    to_name: 豊島園
+    time: 2
+    distance: 0.74
+  - from: '2200402'
+    from_name: 豊島園
+    to: '9930137'
+    to_name: 練馬春日町
+    time: 2
+    distance: 1.26
+  - from: '9930137'
+    from_name: 練馬春日町
+    to: '9930138'
+    to_name: 光が丘
+    time: 2
+    distance: 1.31

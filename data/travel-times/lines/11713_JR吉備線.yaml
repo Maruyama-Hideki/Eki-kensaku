@@ -1,0 +1,60 @@
+line_code: '11713'
+line_name: JR吉備線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1160917'
+    from_name: 岡山
+    to: '1171302'
+    to_name: 備前三門
+    time: 3
+    distance: 1.66
+  - from: '1171302'
+    from_name: 備前三門
+    to: '1171303'
+    to_name: 大安寺
+    time: 2
+    distance: 1.29
+  - from: '1171303'
+    from_name: 大安寺
+    to: '1171304'
+    to_name: 備前一宮
+    time: 5
+    distance: 2.8
+  - from: '1171304'
+    from_name: 備前一宮
+    to: '1171305'
+    to_name: 吉備津
+    time: 3
+    distance: 1.71
+  - from: '1171305'
+    from_name: 吉備津
+    to: '1171306'
+    to_name: 備中高松
+    time: 4
+    distance: 2.55
+  - from: '1171306'
+    from_name: 備中高松
+    to: '1171307'
+    to_name: 足守
+    time: 4
+    distance: 2.21
+  - from: '1171307'
+    from_name: 足守
+    to: '1171308'
+    to_name: 服部
+    time: 4
+    distance: 2.62
+  - from: '1171308'
+    from_name: 服部
+    to: '1171309'
+    to_name: 東総社
+    time: 4
+    distance: 2.65
+  - from: '1171309'
+    from_name: 東総社
+    to: '1170307'
+    to_name: 総社
+    time: 2
+    distance: 1.31

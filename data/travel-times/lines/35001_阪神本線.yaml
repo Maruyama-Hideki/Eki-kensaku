@@ -1,0 +1,198 @@
+line_code: '35001'
+line_name: 阪神本線
+company: 阪神電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1160214'
+    from_name: 大阪
+    to: '1162309'
+    to_name: 福島
+    time: 2
+    distance: 0.98
+  - from: '1162309'
+    from_name: 福島
+    to: '1162506'
+    to_name: 海老江
+    time: 2
+    distance: 1.23
+  - from: '1162506'
+    from_name: 海老江
+    to: '3500104'
+    to_name: 淀川
+    time: 2
+    distance: 0.74
+  - from: '3500104'
+    from_name: 淀川
+    to: '3500105'
+    to_name: 姫島
+    time: 2
+    distance: 1.12
+  - from: '3500105'
+    from_name: 姫島
+    to: '3500106'
+    to_name: 千船
+    time: 3
+    distance: 1.46
+  - from: '3500106'
+    from_name: 千船
+    to: '3500107'
+    to_name: 杭瀬
+    time: 2
+    distance: 0.9
+  - from: '3500107'
+    from_name: 杭瀬
+    to: '3500108'
+    to_name: 大物
+    time: 2
+    distance: 1.23
+  - from: '3500108'
+    from_name: 大物
+    to: '3500109'
+    to_name: 尼崎
+    time: 2
+    distance: 0.79
+  - from: '3500109'
+    from_name: 尼崎
+    to: '3500110'
+    to_name: 出屋敷
+    time: 2
+    distance: 1.16
+  - from: '3500110'
+    from_name: 出屋敷
+    to: '3500111'
+    to_name: 尼崎センタープール前
+    time: 2
+    distance: 0.88
+  - from: '3500111'
+    from_name: 尼崎センタープール前
+    to: '3500112'
+    to_name: 武庫川
+    time: 2
+    distance: 1.04
+  - from: '3500112'
+    from_name: 武庫川
+    to: '3500113'
+    to_name: 鳴尾・武庫川女子大前
+    time: 2
+    distance: 1.23
+  - from: '3500113'
+    from_name: 鳴尾・武庫川女子大前
+    to: '3500114'
+    to_name: 甲子園
+    time: 2
+    distance: 0.81
+  - from: '3500114'
+    from_name: 甲子園
+    to: '3500115'
+    to_name: 久寿川
+    time: 2
+    distance: 0.67
+  - from: '3500115'
+    from_name: 久寿川
+    to: '3400401'
+    to_name: 今津
+    time: 2
+    distance: 0.74
+  - from: '3400401'
+    from_name: 今津
+    to: '3500117'
+    to_name: 西宮
+    time: 3
+    distance: 1.37
+  - from: '3500117'
+    from_name: 西宮
+    to: '3500118'
+    to_name: 香櫨園
+    time: 2
+    distance: 0.85
+  - from: '3500118'
+    from_name: 香櫨園
+    to: '3500119'
+    to_name: 打出
+    time: 2
+    distance: 1.27
+  - from: '3500119'
+    from_name: 打出
+    to: '3500120'
+    to_name: 芦屋
+    time: 2
+    distance: 1.12
+  - from: '3500120'
+    from_name: 芦屋
+    to: '3500121'
+    to_name: 深江
+    time: 2
+    distance: 1.3
+  - from: '3500121'
+    from_name: 深江
+    to: '3500122'
+    to_name: 青木
+    time: 2
+    distance: 1.16
+  - from: '3500122'
+    from_name: 青木
+    to: '3500123'
+    to_name: 魚崎
+    time: 2
+    distance: 1.15
+  - from: '3500123'
+    from_name: 魚崎
+    to: '3500124'
+    to_name: 住吉
+    time: 2
+    distance: 0.69
+  - from: '3500124'
+    from_name: 住吉
+    to: '3500125'
+    to_name: 御影
+    time: 2
+    distance: 0.58
+  - from: '3500125'
+    from_name: 御影
+    to: '3500126'
+    to_name: 石屋川
+    time: 2
+    distance: 0.61
+  - from: '3500126'
+    from_name: 石屋川
+    to: '3500127'
+    to_name: 新在家
+    time: 2
+    distance: 0.86
+  - from: '3500127'
+    from_name: 新在家
+    to: '3500128'
+    to_name: 大石
+    time: 2
+    distance: 0.93
+  - from: '3500128'
+    from_name: 大石
+    to: '3500129'
+    to_name: 西灘
+    time: 2
+    distance: 0.62
+  - from: '3500129'
+    from_name: 西灘
+    to: '3500130'
+    to_name: 岩屋
+    time: 2
+    distance: 0.64
+  - from: '3500130'
+    from_name: 岩屋
+    to: '3500131'
+    to_name: 春日野道
+    time: 2
+    distance: 1.04
+  - from: '3500131'
+    from_name: 春日野道
+    to: '1160313'
+    to_name: 三ノ宮
+    time: 2
+    distance: 1.29
+  - from: '1160313'
+    from_name: 三ノ宮
+    to: '1160314'
+    to_name: 元町
+    time: 2
+    distance: 0.91

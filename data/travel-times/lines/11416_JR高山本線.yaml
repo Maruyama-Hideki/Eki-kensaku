@@ -1,0 +1,270 @@
+line_code: '11416'
+line_name: JR高山本線
+company: JR東海
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1141601'
+    from_name: 岐阜
+    to: '1141602'
+    to_name: 長森
+    time: 7
+    distance: 4.29
+  - from: '1141602'
+    from_name: 長森
+    to: '1141603'
+    to_name: 那加
+    time: 5
+    distance: 2.95
+  - from: '1141603'
+    from_name: 那加
+    to: '1141604'
+    to_name: 蘇原
+    time: 5
+    distance: 3.27
+  - from: '1141604'
+    from_name: 蘇原
+    to: '1141605'
+    to_name: 各務ケ原
+    time: 5
+    distance: 2.69
+  - from: '1141605'
+    from_name: 各務ケ原
+    to: '1141606'
+    to_name: 鵜沼
+    time: 7
+    distance: 4.04
+  - from: '1141606'
+    from_name: 鵜沼
+    to: '1141607'
+    to_name: 坂祝
+    time: 7
+    distance: 4.28
+  - from: '1141607'
+    from_name: 坂祝
+    to: '1141608'
+    to_name: 美濃太田
+    time: 7
+    distance: 4.41
+  - from: '1141608'
+    from_name: 美濃太田
+    to: '1141609'
+    to_name: 古井
+    time: 5
+    distance: 2.85
+  - from: '1141609'
+    from_name: 古井
+    to: '1141610'
+    to_name: 中川辺
+    time: 6
+    distance: 3.68
+  - from: '1141610'
+    from_name: 中川辺
+    to: '1141611'
+    to_name: 下麻生
+    time: 6
+    distance: 3.68
+  - from: '1141611'
+    from_name: 下麻生
+    to: '1141612'
+    to_name: 上麻生
+    time: 7
+    distance: 4.08
+  - from: '1141612'
+    from_name: 上麻生
+    to: '1141613'
+    to_name: 白川口
+    time: 11
+    distance: 7.33
+  - from: '1141613'
+    from_name: 白川口
+    to: '1141614'
+    to_name: 下油井
+    time: 9
+    distance: 5.99
+  - from: '1141614'
+    from_name: 下油井
+    to: '1141615'
+    to_name: 飛騨金山
+    time: 6
+    distance: 3.64
+  - from: '1141615'
+    from_name: 飛騨金山
+    to: '1141616'
+    to_name: 焼石
+    time: 12
+    distance: 7.79
+  - from: '1141616'
+    from_name: 焼石
+    to: '1141617'
+    to_name: 下呂
+    time: 15
+    distance: 9.54
+  - from: '1141617'
+    from_name: 下呂
+    to: '1141618'
+    to_name: 禅昌寺
+    time: 8
+    distance: 5.02
+  - from: '1141618'
+    from_name: 禅昌寺
+    to: '1141619'
+    to_name: 飛騨萩原
+    time: 5
+    distance: 3.06
+  - from: '1141619'
+    from_name: 飛騨萩原
+    to: '1141620'
+    to_name: 上呂
+    time: 7
+    distance: 4.08
+  - from: '1141620'
+    from_name: 上呂
+    to: '1141621'
+    to_name: 飛騨宮田
+    time: 6
+    distance: 3.42
+  - from: '1141621'
+    from_name: 飛騨宮田
+    to: '1141622'
+    to_name: 飛騨小坂
+    time: 5
+    distance: 3.15
+  - from: '1141622'
+    from_name: 飛騨小坂
+    to: '1141623'
+    to_name: 渚
+    time: 10
+    distance: 6.28
+  - from: '1141623'
+    from_name: 渚
+    to: '1141624'
+    to_name: 久々野
+    time: 9
+    distance: 5.74
+  - from: '1141624'
+    from_name: 久々野
+    to: '1141625'
+    to_name: 飛騨一ノ宮
+    time: 8
+    distance: 4.79
+  - from: '1141625'
+    from_name: 飛騨一ノ宮
+    to: '1141626'
+    to_name: 高山
+    time: 9
+    distance: 5.82
+  - from: '1141626'
+    from_name: 高山
+    to: '1141627'
+    to_name: 上枝
+    time: 7
+    distance: 4.52
+  - from: '1141627'
+    from_name: 上枝
+    to: '1141628'
+    to_name: 飛騨国府
+    time: 7
+    distance: 4.29
+  - from: '1141628'
+    from_name: 飛騨国府
+    to: '1141629'
+    to_name: 飛騨古川
+    time: 6
+    distance: 3.7
+  - from: '1141629'
+    from_name: 飛騨古川
+    to: '1141630'
+    to_name: 杉崎
+    time: 4
+    distance: 2.4
+  - from: '1141630'
+    from_name: 杉崎
+    to: '1141631'
+    to_name: 飛騨細江
+    time: 4
+    distance: 2.36
+  - from: '1141631'
+    from_name: 飛騨細江
+    to: '1141632'
+    to_name: 角川
+    time: 8
+    distance: 5.26
+  - from: '1141632'
+    from_name: 角川
+    to: '1141633'
+    to_name: 坂上
+    time: 6
+    distance: 3.96
+  - from: '1141633'
+    from_name: 坂上
+    to: '1141634'
+    to_name: 打保
+    time: 11
+    distance: 7.21
+  - from: '1141634'
+    from_name: 打保
+    to: '1141635'
+    to_name: 杉原
+    time: 6
+    distance: 3.68
+  - from: '1141635'
+    from_name: 杉原
+    to: '1141636'
+    to_name: 猪谷
+    time: 12
+    distance: 7.44
+  - from: '1141636'
+    from_name: 猪谷
+    to: '1141637'
+    to_name: 楡原
+    time: 10
+    distance: 6.47
+  - from: '1141637'
+    from_name: 楡原
+    to: '1141638'
+    to_name: 笹津
+    time: 6
+    distance: 3.96
+  - from: '1141638'
+    from_name: 笹津
+    to: '1141639'
+    to_name: 東八尾
+    time: 7
+    distance: 4.47
+  - from: '1141639'
+    from_name: 東八尾
+    to: '1141640'
+    to_name: 越中八尾
+    time: 5
+    distance: 3.27
+  - from: '1141640'
+    from_name: 越中八尾
+    to: '1141641'
+    to_name: 千里
+    time: 8
+    distance: 4.84
+  - from: '1141641'
+    from_name: 千里
+    to: '1141642'
+    to_name: 速星
+    time: 7
+    distance: 4.12
+  - from: '1141642'
+    from_name: 速星
+    to: '1141645'
+    to_name: 婦中鵜坂
+    time: 3
+    distance: 1.48
+  - from: '1141643'
+    from_name: 西富山
+    to: '1140501'
+    to_name: 富山
+    time: 5
+    distance: 3.22
+  - from: '1141645'
+    from_name: 婦中鵜坂
+    to: '1141643'
+    to_name: 西富山
+    time: 5
+    distance: 2.72

@@ -1,0 +1,258 @@
+line_code: '99637'
+line_name: 山陽電鉄本線
+company: 山陽電気鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9963009'
+    from_name: 西代
+    to: '9963702'
+    to_name: 板宿
+    time: 2
+    distance: 1.01
+  - from: '9963702'
+    from_name: 板宿
+    to: '9963703'
+    to_name: 東須磨
+    time: 2
+    distance: 0.75
+  - from: '9963703'
+    from_name: 東須磨
+    to: '9963704'
+    to_name: 月見山
+    time: 2
+    distance: 0.78
+  - from: '9963704'
+    from_name: 月見山
+    to: '9963705'
+    to_name: 須磨寺
+    time: 2
+    distance: 0.68
+  - from: '9963705'
+    from_name: 須磨寺
+    to: '1160805'
+    to_name: 須磨
+    time: 2
+    distance: 0.52
+  - from: '1160805'
+    from_name: 須磨
+    to: '9963707'
+    to_name: 須磨浦公園
+    time: 2
+    distance: 1.26
+  - from: '9963707'
+    from_name: 須磨浦公園
+    to: '1160806'
+    to_name: 塩屋
+    time: 3
+    distance: 1.61
+  - from: '1160806'
+    from_name: 塩屋
+    to: '9963709'
+    to_name: 滝の茶屋
+    time: 2
+    distance: 0.99
+  - from: '9963709'
+    from_name: 滝の茶屋
+    to: '9963710'
+    to_name: 東垂水
+    time: 2
+    distance: 0.88
+  - from: '9963710'
+    from_name: 東垂水
+    to: '1160807'
+    to_name: 垂水
+    time: 2
+    distance: 0.89
+  - from: '1160807'
+    from_name: 垂水
+    to: '9963712'
+    to_name: 霞ヶ丘
+    time: 2
+    distance: 1.02
+  - from: '9963712'
+    from_name: 霞ヶ丘
+    to: '1160808'
+    to_name: 舞子
+    time: 2
+    distance: 0.83
+  - from: '1160808'
+    from_name: 舞子
+    to: '9963714'
+    to_name: 西舞子
+    time: 2
+    distance: 0.84
+  - from: '9963714'
+    from_name: 西舞子
+    to: '9963715'
+    to_name: 大蔵谷
+    time: 4
+    distance: 2.02
+  - from: '9963715'
+    from_name: 大蔵谷
+    to: '9963716'
+    to_name: 人丸前
+    time: 2
+    distance: 0.54
+  - from: '9963716'
+    from_name: 人丸前
+    to: '1160810'
+    to_name: 明石
+    time: 2
+    distance: 0.94
+  - from: '1160810'
+    from_name: 明石
+    to: '9963718'
+    to_name: 西新町
+    time: 2
+    distance: 1.08
+  - from: '9963718'
+    from_name: 西新町
+    to: '9963719'
+    to_name: 林崎松江海岸
+    time: 3
+    distance: 1.47
+  - from: '9963719'
+    from_name: 林崎松江海岸
+    to: '9963720'
+    to_name: 藤江
+    time: 4
+    distance: 2.02
+  - from: '9963720'
+    from_name: 藤江
+    to: '9963721'
+    to_name: 中八木
+    time: 3
+    distance: 1.33
+  - from: '9963721'
+    from_name: 中八木
+    to: '9963722'
+    to_name: 江井ヶ島
+    time: 3
+    distance: 1.74
+  - from: '9963722'
+    from_name: 江井ヶ島
+    to: '9963723'
+    to_name: 西江井ヶ島
+    time: 2
+    distance: 1.31
+  - from: '9963723'
+    from_name: 西江井ヶ島
+    to: '9963724'
+    to_name: 山陽魚住
+    time: 2
+    distance: 0.69
+  - from: '9963724'
+    from_name: 山陽魚住
+    to: '9963725'
+    to_name: 東二見
+    time: 3
+    distance: 1.78
+  - from: '9963725'
+    from_name: 東二見
+    to: '9963726'
+    to_name: 西二見
+    time: 2
+    distance: 1.26
+  - from: '9963726'
+    from_name: 西二見
+    to: '9963727'
+    to_name: 播磨町
+    time: 2
+    distance: 1.32
+  - from: '9963727'
+    from_name: 播磨町
+    to: '9963728'
+    to_name: 別府
+    time: 4
+    distance: 2.2
+  - from: '9963728'
+    from_name: 別府
+    to: '9963729'
+    to_name: 浜の宮
+    time: 3
+    distance: 1.94
+  - from: '9963729'
+    from_name: 浜の宮
+    to: '9963730'
+    to_name: 尾上の松
+    time: 3
+    distance: 1.48
+  - from: '9963730'
+    from_name: 尾上の松
+    to: '9963731'
+    to_name: 高砂
+    time: 3
+    distance: 1.73
+  - from: '9963731'
+    from_name: 高砂
+    to: '9963732'
+    to_name: 荒井
+    time: 2
+    distance: 1.03
+  - from: '9963732'
+    from_name: 荒井
+    to: '9963733'
+    to_name: 伊保
+    time: 2
+    distance: 1.2
+  - from: '9963733'
+    from_name: 伊保
+    to: '9963734'
+    to_name: 山陽曽根
+    time: 3
+    distance: 1.57
+  - from: '9963734'
+    from_name: 山陽曽根
+    to: '9963735'
+    to_name: 大塩
+    time: 3
+    distance: 1.49
+  - from: '9963735'
+    from_name: 大塩
+    to: '9963736'
+    to_name: 的形
+    time: 3
+    distance: 1.42
+  - from: '9963736'
+    from_name: 的形
+    to: '9963737'
+    to_name: 八家
+    time: 3
+    distance: 1.9
+  - from: '9963737'
+    from_name: 八家
+    to: '9963738'
+    to_name: 白浜の宮
+    time: 3
+    distance: 1.38
+  - from: '9963738'
+    from_name: 白浜の宮
+    to: '9963739'
+    to_name: 妻鹿
+    time: 3
+    distance: 1.43
+  - from: '9963739'
+    from_name: 妻鹿
+    to: '9963740'
+    to_name: 飾磨
+    time: 3
+    distance: 1.81
+  - from: '9963740'
+    from_name: 飾磨
+    to: '9963741'
+    to_name: 亀山
+    time: 2
+    distance: 1.22
+  - from: '9963741'
+    from_name: 亀山
+    to: '9963742'
+    to_name: 手柄
+    time: 2
+    distance: 1.11
+  - from: '9963742'
+    from_name: 手柄
+    to: '1160821'
+    to_name: 姫路
+    time: 2
+    distance: 1.22

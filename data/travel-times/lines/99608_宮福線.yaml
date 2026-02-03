@@ -1,0 +1,84 @@
+line_code: '99608'
+line_name: 宮福線
+company: 京都丹後鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1161514'
+    from_name: 福知山
+    to: '9960802'
+    to_name: 福知山市民病院口
+    time: 3
+    distance: 1.47
+  - from: '9960802'
+    from_name: 福知山市民病院口
+    to: '9960803'
+    to_name: 荒河かしの木台
+    time: 3
+    distance: 1.45
+  - from: '9960803'
+    from_name: 荒河かしの木台
+    to: '9960804'
+    to_name: 牧
+    time: 4
+    distance: 2.09
+  - from: '9960804'
+    from_name: 牧
+    to: '9960805'
+    to_name: 下天津
+    time: 4
+    distance: 2.58
+  - from: '9960805'
+    from_name: 下天津
+    to: '9960806'
+    to_name: 公庄
+    time: 4
+    distance: 2.09
+  - from: '9960806'
+    from_name: 公庄
+    to: '9960807'
+    to_name: 大江
+    time: 4
+    distance: 2.54
+  - from: '9960807'
+    from_name: 大江
+    to: '9960808'
+    to_name: 大江高校前
+    time: 2
+    distance: 0.87
+  - from: '9960808'
+    from_name: 大江高校前
+    to: '9960809'
+    to_name: 二俣
+    time: 3
+    distance: 1.99
+  - from: '9960809'
+    from_name: 二俣
+    to: '9960810'
+    to_name: 大江山口内宮
+    time: 4
+    distance: 2.09
+  - from: '9960810'
+    from_name: 大江山口内宮
+    to: '9960811'
+    to_name: 辛皮
+    time: 6
+    distance: 3.66
+  - from: '9960811'
+    from_name: 辛皮
+    to: '9960812'
+    to_name: 喜多
+    time: 9
+    distance: 5.35
+  - from: '9960812'
+    from_name: 喜多
+    to: '9960813'
+    to_name: 宮村
+    time: 3
+    distance: 1.61
+  - from: '9960813'
+    from_name: 宮村
+    to: '9960814'
+    to_name: 宮津
+    time: 3
+    distance: 1.42

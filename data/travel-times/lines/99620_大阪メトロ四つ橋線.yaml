@@ -1,0 +1,66 @@
+line_code: '99620'
+line_name: 大阪メトロ四つ橋線
+company: Osaka Metro
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1160214'
+    from_name: 大阪
+    to: '3300804'
+    to_name: 渡辺橋
+    time: 2
+    distance: 0.94
+  - from: '3300804'
+    from_name: 渡辺橋
+    to: '9961808'
+    to_name: 本町
+    time: 3
+    distance: 1.37
+  - from: '9961808'
+    from_name: 本町
+    to: '9962004'
+    to_name: 四ツ橋
+    time: 2
+    distance: 0.89
+  - from: '9962004'
+    from_name: 四ツ橋
+    to: '3100101'
+    to_name: 大阪難波
+    time: 2
+    distance: 0.81
+  - from: '3100101'
+    from_name: 大阪難波
+    to: '9961811'
+    to_name: 大国町
+    time: 2
+    distance: 1.23
+  - from: '9961811'
+    from_name: 大国町
+    to: '9962007'
+    to_name: 花園町
+    time: 2
+    distance: 1.31
+  - from: '9962007'
+    from_name: 花園町
+    to: '9962008'
+    to_name: 岸里
+    time: 2
+    distance: 1.14
+  - from: '9962008'
+    from_name: 岸里
+    to: '9962009'
+    to_name: 玉出
+    time: 2
+    distance: 1.18
+  - from: '9962009'
+    from_name: 玉出
+    to: '9962010'
+    to_name: 北加賀屋
+    time: 2
+    distance: 1.11
+  - from: '9962010'
+    from_name: 北加賀屋
+    to: '9962011'
+    to_name: 住之江公園
+    time: 3
+    distance: 1.48

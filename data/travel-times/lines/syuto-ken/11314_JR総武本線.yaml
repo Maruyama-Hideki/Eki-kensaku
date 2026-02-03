@@ -1,0 +1,186 @@
+line_code: '11314'
+line_name: JR総武本線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130101'
+    from_name: 東京
+    to: '1131402'
+    to_name: 新日本橋
+    time: 2
+    distance: 1.04
+  - from: '1131402'
+    from_name: 新日本橋
+    to: '1131403'
+    to_name: 馬喰町
+    time: 2
+    distance: 0.98
+  - from: '1131403'
+    from_name: 馬喰町
+    to: '1131322'
+    to_name: 錦糸町
+    time: 5
+    distance: 2.89
+  - from: '1131322'
+    from_name: 錦糸町
+    to: '1131325'
+    to_name: 新小岩
+    time: 7
+    distance: 4.53
+  - from: '1131325'
+    from_name: 新小岩
+    to: '1131327'
+    to_name: 市川
+    time: 8
+    distance: 4.74
+  - from: '1131327'
+    from_name: 市川
+    to: '1131331'
+    to_name: 船橋
+    time: 12
+    distance: 7.54
+  - from: '1131331'
+    from_name: 船橋
+    to: '1131333'
+    to_name: 津田沼
+    time: 6
+    distance: 3.41
+  - from: '1131333'
+    from_name: 津田沼
+    to: '1131337'
+    to_name: 稲毛
+    time: 14
+    distance: 8.89
+  - from: '1131337'
+    from_name: 稲毛
+    to: '1131339'
+    to_name: 千葉
+    time: 5
+    distance: 3.22
+  - from: '1131339'
+    from_name: 千葉
+    to: '1131411'
+    to_name: 東千葉
+    time: 2
+    distance: 0.94
+  - from: '1131411'
+    from_name: 東千葉
+    to: '1131412'
+    to_name: 都賀
+    time: 5
+    distance: 3.23
+  - from: '1131412'
+    from_name: 都賀
+    to: '1131413'
+    to_name: 四街道
+    time: 5
+    distance: 3.29
+  - from: '1131413'
+    from_name: 四街道
+    to: '1131414'
+    to_name: 物井
+    time: 7
+    distance: 4.08
+  - from: '1131414'
+    from_name: 物井
+    to: '1131415'
+    to_name: 佐倉
+    time: 6
+    distance: 3.59
+  - from: '1131415'
+    from_name: 佐倉
+    to: '1131416'
+    to_name: 南酒々井
+    time: 6
+    distance: 3.76
+  - from: '1131416'
+    from_name: 南酒々井
+    to: '1131417'
+    to_name: 榎戸
+    time: 5
+    distance: 2.9
+  - from: '1131417'
+    from_name: 榎戸
+    to: '1131418'
+    to_name: 八街
+    time: 6
+    distance: 3.5
+  - from: '1131418'
+    from_name: 八街
+    to: '1131419'
+    to_name: 日向
+    time: 9
+    distance: 5.62
+  - from: '1131419'
+    from_name: 日向
+    to: '1131420'
+    to_name: 成東
+    time: 8
+    distance: 4.84
+  - from: '1131420'
+    from_name: 成東
+    to: '1131421'
+    to_name: 松尾
+    time: 8
+    distance: 5.27
+  - from: '1131421'
+    from_name: 松尾
+    to: '1131422'
+    to_name: 横芝
+    time: 7
+    distance: 4.14
+  - from: '1131422'
+    from_name: 横芝
+    to: '1131423'
+    to_name: 飯倉
+    time: 6
+    distance: 3.9
+  - from: '1131423'
+    from_name: 飯倉
+    to: '1131424'
+    to_name: 八日市場
+    time: 5
+    distance: 3.11
+  - from: '1131424'
+    from_name: 八日市場
+    to: '1131425'
+    to_name: 干潟
+    time: 8
+    distance: 5.06
+  - from: '1131425'
+    from_name: 干潟
+    to: '1131426'
+    to_name: 旭
+    time: 8
+    distance: 4.69
+  - from: '1131426'
+    from_name: 旭
+    to: '1131427'
+    to_name: 飯岡
+    time: 5
+    distance: 2.74
+  - from: '1131427'
+    from_name: 飯岡
+    to: '1131428'
+    to_name: 倉橋
+    time: 5
+    distance: 2.88
+  - from: '1131428'
+    from_name: 倉橋
+    to: '1131429'
+    to_name: 猿田
+    time: 4
+    distance: 2.36
+  - from: '1131429'
+    from_name: 猿田
+    to: '1131430'
+    to_name: 松岸
+    time: 8
+    distance: 5.29
+  - from: '1131430'
+    from_name: 松岸
+    to: '1131431'
+    to_name: 銚子
+    time: 5
+    distance: 3.13

@@ -1,0 +1,60 @@
+line_code: '99647'
+line_name: 夢かもめ
+company: 神戸市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '1160803'
+    from_name: 新長田
+    to: '9964702'
+    to_name: 駒ヶ林
+    time: 2
+    distance: 0.72
+  - from: '9964702'
+    from_name: 駒ヶ林
+    to: '9964703'
+    to_name: 苅藻
+    time: 2
+    distance: 0.67
+  - from: '9964703'
+    from_name: 苅藻
+    to: '9964704'
+    to_name: 御崎公園
+    time: 2
+    distance: 0.78
+  - from: '9964704'
+    from_name: 御崎公園
+    to: '1161302'
+    to_name: 和田岬
+    time: 2
+    distance: 0.9
+  - from: '1161302'
+    from_name: 和田岬
+    to: '9964706'
+    to_name: 中央市場前
+    time: 2
+    distance: 1
+  - from: '9964706'
+    from_name: 中央市場前
+    to: '1160315'
+    to_name: 神戸
+    time: 3
+    distance: 1.49
+  - from: '1160315'
+    from_name: 神戸
+    to: '9964708'
+    to_name: みなと元町
+    time: 2
+    distance: 0.89
+  - from: '9964708'
+    from_name: みなと元町
+    to: '9964709'
+    to_name: 旧居留地・大丸前
+    time: 2
+    distance: 0.66
+  - from: '9964709'
+    from_name: 旧居留地・大丸前
+    to: '1160313'
+    to_name: 三ノ宮
+    time: 2
+    distance: 0.77

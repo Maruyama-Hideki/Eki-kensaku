@@ -1,0 +1,510 @@
+line_code: '11231'
+line_name: JR東北本線(黒磯～利府・盛岡)
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1123101'
+    from_name: 黒磯
+    to: '1123102'
+    to_name: 高久
+    time: 6
+    distance: 3.8
+  - from: '1123102'
+    from_name: 高久
+    to: '1123103'
+    to_name: 黒田原
+    time: 7
+    distance: 4.09
+  - from: '1123103'
+    from_name: 黒田原
+    to: '1123104'
+    to_name: 豊原
+    time: 8
+    distance: 4.77
+  - from: '1123104'
+    from_name: 豊原
+    to: '1123105'
+    to_name: 白坂
+    time: 8
+    distance: 5.11
+  - from: '1123105'
+    from_name: 白坂
+    to: '1123106'
+    to_name: 新白河
+    time: 5
+    distance: 3.22
+  - from: '1123106'
+    from_name: 新白河
+    to: '1123107'
+    to_name: 白河
+    time: 4
+    distance: 2.31
+  - from: '1123107'
+    from_name: 白河
+    to: '1123108'
+    to_name: 久田野
+    time: 7
+    distance: 4.13
+  - from: '1123108'
+    from_name: 久田野
+    to: '1123109'
+    to_name: 泉崎
+    time: 7
+    distance: 4.23
+  - from: '1123109'
+    from_name: 泉崎
+    to: '1123110'
+    to_name: 矢吹
+    time: 9
+    distance: 5.82
+  - from: '1123110'
+    from_name: 矢吹
+    to: '1123111'
+    to_name: 鏡石
+    time: 8
+    distance: 5.32
+  - from: '1123111'
+    from_name: 鏡石
+    to: '1123112'
+    to_name: 須賀川
+    time: 9
+    distance: 5.95
+  - from: '1123112'
+    from_name: 須賀川
+    to: '1123113'
+    to_name: 安積永盛
+    time: 10
+    distance: 6.3
+  - from: '1123113'
+    from_name: 安積永盛
+    to: '1123114'
+    to_name: 郡山
+    time: 8
+    distance: 4.93
+  - from: '1123114'
+    from_name: 郡山
+    to: '1123115'
+    to_name: 日和田
+    time: 9
+    distance: 5.36
+  - from: '1123115'
+    from_name: 日和田
+    to: '1123116'
+    to_name: 五百川
+    time: 7
+    distance: 4.06
+  - from: '1123116'
+    from_name: 五百川
+    to: '1123117'
+    to_name: 本宮
+    time: 6
+    distance: 3.63
+  - from: '1123117'
+    from_name: 本宮
+    to: '1123118'
+    to_name: 杉田
+    time: 9
+    distance: 5.6
+  - from: '1123118'
+    from_name: 杉田
+    to: '1123119'
+    to_name: 二本松
+    time: 6
+    distance: 3.49
+  - from: '1123119'
+    from_name: 二本松
+    to: '1123120'
+    to_name: 安達
+    time: 6
+    distance: 3.65
+  - from: '1123120'
+    from_name: 安達
+    to: '1123121'
+    to_name: 松川
+    time: 8
+    distance: 4.95
+  - from: '1123121'
+    from_name: 松川
+    to: '1123122'
+    to_name: 金谷川
+    time: 7
+    distance: 4.1
+  - from: '1123122'
+    from_name: 金谷川
+    to: '1123123'
+    to_name: 南福島
+    time: 8
+    distance: 4.81
+  - from: '1123123'
+    from_name: 南福島
+    to: '1123124'
+    to_name: 福島
+    time: 6
+    distance: 3.4
+  - from: '1123124'
+    from_name: 福島
+    to: '1123125'
+    to_name: 東福島
+    time: 9
+    distance: 5.4
+  - from: '1123125'
+    from_name: 東福島
+    to: '1123126'
+    to_name: 伊達
+    time: 5
+    distance: 2.93
+  - from: '1123126'
+    from_name: 伊達
+    to: '1123127'
+    to_name: 桑折
+    time: 7
+    distance: 4.08
+  - from: '1123127'
+    from_name: 桑折
+    to: '1123128'
+    to_name: 藤田
+    time: 5
+    distance: 3.29
+  - from: '1123128'
+    from_name: 藤田
+    to: '1123129'
+    to_name: 貝田
+    time: 8
+    distance: 4.87
+  - from: '1123129'
+    from_name: 貝田
+    to: '1123130'
+    to_name: 越河
+    time: 6
+    distance: 3.5
+  - from: '1123130'
+    from_name: 越河
+    to: '1123131'
+    to_name: 白石
+    time: 13
+    distance: 8.01
+  - from: '1123131'
+    from_name: 白石
+    to: '1123132'
+    to_name: 東白石
+    time: 7
+    distance: 4.11
+  - from: '1123132'
+    from_name: 東白石
+    to: '1123133'
+    to_name: 北白川
+    time: 6
+    distance: 3.64
+  - from: '1123133'
+    from_name: 北白川
+    to: '1123134'
+    to_name: 大河原
+    time: 7
+    distance: 4.48
+  - from: '1123134'
+    from_name: 大河原
+    to: '1123135'
+    to_name: 船岡
+    time: 5
+    distance: 2.72
+  - from: '1123135'
+    from_name: 船岡
+    to: '1123136'
+    to_name: 槻木
+    time: 7
+    distance: 4.31
+  - from: '1123136'
+    from_name: 槻木
+    to: '1123137'
+    to_name: 岩沼
+    time: 9
+    distance: 6
+  - from: '1123137'
+    from_name: 岩沼
+    to: '1123138'
+    to_name: 館腰
+    time: 6
+    distance: 3.73
+  - from: '1123138'
+    from_name: 館腰
+    to: '1123139'
+    to_name: 名取
+    time: 6
+    distance: 3.35
+  - from: '1123139'
+    from_name: 名取
+    to: '1123140'
+    to_name: 南仙台
+    time: 5
+    distance: 2.71
+  - from: '1123140'
+    from_name: 南仙台
+    to: '1123141'
+    to_name: 太子堂
+    time: 4
+    distance: 2.19
+  - from: '1123141'
+    from_name: 太子堂
+    to: '1123142'
+    to_name: 長町
+    time: 2
+    distance: 1.1
+  - from: '1123142'
+    from_name: 長町
+    to: '1123143'
+    to_name: 仙台
+    time: 6
+    distance: 3.71
+  - from: '1123143'
+    from_name: 仙台
+    to: '1123144'
+    to_name: 東仙台
+    time: 6
+    distance: 3.79
+  - from: '1123144'
+    from_name: 東仙台
+    to: '1123145'
+    to_name: 岩切
+    time: 7
+    distance: 4.04
+  - from: '1123145'
+    from_name: 岩切
+    to: '1123146'
+    to_name: 新利府
+    time: 4
+    distance: 2.4
+  - from: '1123145'
+    from_name: 岩切
+    to: '1123148'
+    to_name: 陸前山王
+    time: 4
+    distance: 2.15
+  - from: '1123146'
+    from_name: 新利府
+    to: '1123147'
+    to_name: 利府
+    time: 3
+    distance: 1.74
+  - from: '1123148'
+    from_name: 陸前山王
+    to: '1123149'
+    to_name: 国府多賀城
+    time: 2
+    distance: 1.31
+  - from: '1123149'
+    from_name: 国府多賀城
+    to: '1123150'
+    to_name: 塩釜
+    time: 3
+    distance: 1.66
+  - from: '1123150'
+    from_name: 塩釜
+    to: '1123151'
+    to_name: 松島
+    time: 14
+    distance: 9.24
+  - from: '1123151'
+    from_name: 松島
+    to: '1123152'
+    to_name: 愛宕
+    time: 3
+    distance: 1.95
+  - from: '1123152'
+    from_name: 愛宕
+    to: '1123153'
+    to_name: 品井沼
+    time: 7
+    distance: 4.09
+  - from: '1123153'
+    from_name: 品井沼
+    to: '1123154'
+    to_name: 鹿島台
+    time: 8
+    distance: 4.99
+  - from: '1123154'
+    from_name: 鹿島台
+    to: '1123155'
+    to_name: 松山町
+    time: 7
+    distance: 4.63
+  - from: '1123155'
+    from_name: 松山町
+    to: '1123156'
+    to_name: 小牛田
+    time: 6
+    distance: 3.34
+  - from: '1123156'
+    from_name: 小牛田
+    to: '1123157'
+    to_name: 田尻
+    time: 10
+    distance: 6.15
+  - from: '1123157'
+    from_name: 田尻
+    to: '1123158'
+    to_name: 瀬峰
+    time: 11
+    distance: 6.68
+  - from: '1123158'
+    from_name: 瀬峰
+    to: '1123159'
+    to_name: 梅ケ沢
+    time: 5
+    distance: 3.11
+  - from: '1123159'
+    from_name: 梅ケ沢
+    to: '1123160'
+    to_name: 新田
+    time: 7
+    distance: 4.45
+  - from: '1123160'
+    from_name: 新田
+    to: '1123161'
+    to_name: 石越
+    time: 11
+    distance: 7.24
+  - from: '1123161'
+    from_name: 石越
+    to: '1123162'
+    to_name: 油島
+    time: 6
+    distance: 3.47
+  - from: '1123162'
+    from_name: 油島
+    to: '1123163'
+    to_name: 花泉
+    time: 7
+    distance: 4.04
+  - from: '1123163'
+    from_name: 花泉
+    to: '1123164'
+    to_name: 清水原
+    time: 5
+    distance: 3.15
+  - from: '1123164'
+    from_name: 清水原
+    to: '1123165'
+    to_name: 有壁
+    time: 6
+    distance: 3.38
+  - from: '1123165'
+    from_name: 有壁
+    to: '1123166'
+    to_name: 一ノ関
+    time: 11
+    distance: 6.74
+  - from: '1123166'
+    from_name: 一ノ関
+    to: '1123167'
+    to_name: 山ノ目
+    time: 5
+    distance: 2.8
+  - from: '1123167'
+    from_name: 山ノ目
+    to: '1123168'
+    to_name: 平泉
+    time: 7
+    distance: 4.26
+  - from: '1123168'
+    from_name: 平泉
+    to: '1123169'
+    to_name: 前沢
+    time: 11
+    distance: 6.79
+  - from: '1123169'
+    from_name: 前沢
+    to: '1123170'
+    to_name: 陸中折居
+    time: 8
+    distance: 5.21
+  - from: '1123170'
+    from_name: 陸中折居
+    to: '1123171'
+    to_name: 水沢
+    time: 8
+    distance: 5.01
+  - from: '1123171'
+    from_name: 水沢
+    to: '1123172'
+    to_name: 金ケ崎
+    time: 11
+    distance: 7.33
+  - from: '1123172'
+    from_name: 金ケ崎
+    to: '1123173'
+    to_name: 六原
+    time: 6
+    distance: 3.41
+  - from: '1123173'
+    from_name: 六原
+    to: '1123174'
+    to_name: 北上
+    time: 10
+    distance: 6.27
+  - from: '1123174'
+    from_name: 北上
+    to: '1123175'
+    to_name: 村崎野
+    time: 7
+    distance: 4.65
+  - from: '1123175'
+    from_name: 村崎野
+    to: '1123176'
+    to_name: 花巻
+    time: 12
+    distance: 7.85
+  - from: '1123176'
+    from_name: 花巻
+    to: '1123177'
+    to_name: 花巻空港
+    time: 9
+    distance: 5.69
+  - from: '1123177'
+    from_name: 花巻空港
+    to: '1123178'
+    to_name: 石鳥谷
+    time: 9
+    distance: 5.62
+  - from: '1123178'
+    from_name: 石鳥谷
+    to: '1123179'
+    to_name: 日詰
+    time: 9
+    distance: 5.45
+  - from: '1123179'
+    from_name: 日詰
+    to: '1123180'
+    to_name: 紫波中央
+    time: 3
+    distance: 1.8
+  - from: '1123180'
+    from_name: 紫波中央
+    to: '1123181'
+    to_name: 古館
+    time: 5
+    distance: 2.92
+  - from: '1123181'
+    from_name: 古館
+    to: '1123182'
+    to_name: 矢幅
+    time: 6
+    distance: 3.65
+  - from: '1123182'
+    from_name: 矢幅
+    to: '1123183'
+    to_name: 岩手飯岡
+    time: 7
+    distance: 4.5
+  - from: '1123183'
+    from_name: 岩手飯岡
+    to: '1123184'
+    to_name: 仙北町
+    time: 6
+    distance: 3.81
+  - from: '1123184'
+    from_name: 仙北町
+    to: '1123185'
+    to_name: 盛岡
+    time: 3
+    distance: 1.84

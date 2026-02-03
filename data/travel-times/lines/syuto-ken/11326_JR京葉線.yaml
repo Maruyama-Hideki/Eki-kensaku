@@ -1,0 +1,114 @@
+line_code: '11326'
+line_name: JR京葉線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130101'
+    from_name: 東京
+    to: '1132602'
+    to_name: 八丁堀
+    time: 2
+    distance: 1.29
+  - from: '1132602'
+    from_name: 八丁堀
+    to: '1132603'
+    to_name: 越中島
+    time: 3
+    distance: 1.55
+  - from: '1132603'
+    from_name: 越中島
+    to: '1132604'
+    to_name: 潮見
+    time: 4
+    distance: 2.45
+  - from: '1132604'
+    from_name: 潮見
+    to: '1132605'
+    to_name: 新木場
+    time: 3
+    distance: 1.66
+  - from: '1132605'
+    from_name: 新木場
+    to: '1132606'
+    to_name: 葛西臨海公園
+    time: 5
+    distance: 3.09
+  - from: '1132606'
+    from_name: 葛西臨海公園
+    to: '1132607'
+    to_name: 舞浜
+    time: 4
+    distance: 2.21
+  - from: '1132607'
+    from_name: 舞浜
+    to: '1132608'
+    to_name: 新浦安
+    time: 5
+    distance: 3
+  - from: '1132608'
+    from_name: 新浦安
+    to: '1132609'
+    to_name: 市川塩浜
+    time: 4
+    distance: 2.14
+  - from: '1132609'
+    from_name: 市川塩浜
+    to: '1130524'
+    to_name: 西船橋
+    time: 9
+    distance: 5.57
+  - from: '1132609'
+    from_name: 市川塩浜
+    to: '1132611'
+    to_name: 二俣新町
+    time: 7
+    distance: 4.25
+  - from: '1130524'
+    from_name: 西船橋
+    to: '1132612'
+    to_name: 南船橋
+    time: 7
+    distance: 4.33
+  - from: '1132611'
+    from_name: 二俣新町
+    to: '1132612'
+    to_name: 南船橋
+    time: 6
+    distance: 3.44
+  - from: '1132612'
+    from_name: 南船橋
+    to: '1132613'
+    to_name: 新習志野
+    time: 4
+    distance: 2.23
+  - from: '1132613'
+    from_name: 新習志野
+    to: '1132614'
+    to_name: 海浜幕張
+    time: 6
+    distance: 3.37
+  - from: '1132614'
+    from_name: 海浜幕張
+    to: '1132615'
+    to_name: 検見川浜
+    time: 3
+    distance: 1.97
+  - from: '1132615'
+    from_name: 検見川浜
+    to: '1132616'
+    to_name: 稲毛海岸
+    time: 3
+    distance: 1.62
+  - from: '1132616'
+    from_name: 稲毛海岸
+    to: '1132617'
+    to_name: 千葉みなと
+    time: 6
+    distance: 3.71
+  - from: '1132617'
+    from_name: 千葉みなと
+    to: '1132403'
+    to_name: 蘇我
+    time: 6
+    distance: 3.65

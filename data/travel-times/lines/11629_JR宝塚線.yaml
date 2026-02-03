@@ -1,0 +1,138 @@
+line_code: '11629'
+line_name: JR宝塚線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1160213'
+    from_name: 新大阪
+    to: '1160214'
+    to_name: 大阪
+    time: 6
+    distance: 3.58
+  - from: '1160214'
+    from_name: 大阪
+    to: '1160303'
+    to_name: 尼崎
+    time: 10
+    distance: 6.66
+  - from: '1160303'
+    from_name: 尼崎
+    to: '1162904'
+    to_name: 塚口
+    time: 4
+    distance: 2.23
+  - from: '1162904'
+    from_name: 塚口
+    to: '1162905'
+    to_name: 猪名寺
+    time: 3
+    distance: 1.47
+  - from: '1162905'
+    from_name: 猪名寺
+    to: '1162906'
+    to_name: 伊丹
+    time: 3
+    distance: 1.84
+  - from: '1162906'
+    from_name: 伊丹
+    to: '1162907'
+    to_name: 北伊丹
+    time: 4
+    distance: 2.31
+  - from: '1162907'
+    from_name: 北伊丹
+    to: '1162908'
+    to_name: 川西池田
+    time: 5
+    distance: 2.75
+  - from: '1162908'
+    from_name: 川西池田
+    to: '1162909'
+    to_name: 中山寺
+    time: 6
+    distance: 3.4
+  - from: '1162909'
+    from_name: 中山寺
+    to: '1162910'
+    to_name: 宝塚
+    time: 5
+    distance: 3.12
+  - from: '1162910'
+    from_name: 宝塚
+    to: '1162911'
+    to_name: 生瀬
+    time: 3
+    distance: 1.64
+  - from: '1162911'
+    from_name: 生瀬
+    to: '1162912'
+    to_name: 西宮名塩
+    time: 3
+    distance: 1.72
+  - from: '1162912'
+    from_name: 西宮名塩
+    to: '1162913'
+    to_name: 武田尾
+    time: 5
+    distance: 3.15
+  - from: '1162913'
+    from_name: 武田尾
+    to: '1162914'
+    to_name: 道場
+    time: 8
+    distance: 4.78
+  - from: '1162914'
+    from_name: 道場
+    to: '1162915'
+    to_name: 三田
+    time: 6
+    distance: 3.35
+  - from: '1162915'
+    from_name: 三田
+    to: '1162916'
+    to_name: 新三田
+    time: 5
+    distance: 3.06
+  - from: '1162916'
+    from_name: 新三田
+    to: '1162917'
+    to_name: 広野
+    time: 4
+    distance: 2.57
+  - from: '1162917'
+    from_name: 広野
+    to: '1162918'
+    to_name: 相野
+    time: 6
+    distance: 3.85
+  - from: '1162918'
+    from_name: 相野
+    to: '1162919'
+    to_name: 藍本
+    time: 5
+    distance: 3.29
+  - from: '1162919'
+    from_name: 藍本
+    to: '1162920'
+    to_name: 草野
+    time: 4
+    distance: 2.23
+  - from: '1162920'
+    from_name: 草野
+    to: '1162921'
+    to_name: 古市
+    time: 5
+    distance: 2.79
+  - from: '1162921'
+    from_name: 古市
+    to: '1162922'
+    to_name: 南矢代
+    time: 4
+    distance: 2.53
+  - from: '1162922'
+    from_name: 南矢代
+    to: '1162923'
+    to_name: 篠山口
+    time: 4
+    distance: 2.07

@@ -1,0 +1,174 @@
+line_code: '11802'
+line_name: JR高徳線
+company: JR四国
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1180201'
+    from_name: 高松
+    to: '1180202'
+    to_name: 昭和町
+    time: 3
+    distance: 1.55
+  - from: '1180202'
+    from_name: 昭和町
+    to: '1180203'
+    to_name: 栗林公園北口
+    time: 3
+    distance: 1.38
+  - from: '1180203'
+    from_name: 栗林公園北口
+    to: '1180204'
+    to_name: 栗林
+    time: 2
+    distance: 1.13
+  - from: '1180204'
+    from_name: 栗林
+    to: '1180205'
+    to_name: 木太町
+    time: 4
+    distance: 2.42
+  - from: '1180205'
+    from_name: 木太町
+    to: '1180206'
+    to_name: 屋島
+    time: 5
+    distance: 2.73
+  - from: '1180206'
+    from_name: 屋島
+    to: '1180207'
+    to_name: 古高松南
+    time: 2
+    distance: 1.23
+  - from: '1180207'
+    from_name: 古高松南
+    to: '1180208'
+    to_name: 八栗口
+    time: 2
+    distance: 1.22
+  - from: '1180208'
+    from_name: 八栗口
+    to: '1180209'
+    to_name: 讃岐牟礼
+    time: 2
+    distance: 1.27
+  - from: '1180209'
+    from_name: 讃岐牟礼
+    to: '1180210'
+    to_name: 志度
+    time: 5
+    distance: 2.87
+  - from: '1180210'
+    from_name: 志度
+    to: '1180211'
+    to_name: オレンジタウン
+    time: 4
+    distance: 2.29
+  - from: '1180211'
+    from_name: オレンジタウン
+    to: '1180212'
+    to_name: 造田
+    time: 4
+    distance: 2.15
+  - from: '1180212'
+    from_name: 造田
+    to: '1180213'
+    to_name: 神前
+    time: 4
+    distance: 2.12
+  - from: '1180213'
+    from_name: 神前
+    to: '1180214'
+    to_name: 讃岐津田
+    time: 6
+    distance: 3.67
+  - from: '1180214'
+    from_name: 讃岐津田
+    to: '1180215'
+    to_name: 鶴羽
+    time: 4
+    distance: 2.53
+  - from: '1180215'
+    from_name: 鶴羽
+    to: '1180216'
+    to_name: 丹生
+    time: 6
+    distance: 3.8
+  - from: '1180216'
+    from_name: 丹生
+    to: '1180217'
+    to_name: 三本松
+    time: 5
+    distance: 3.05
+  - from: '1180217'
+    from_name: 三本松
+    to: '1180218'
+    to_name: 讃岐白鳥
+    time: 5
+    distance: 3.05
+  - from: '1180218'
+    from_name: 讃岐白鳥
+    to: '1180219'
+    to_name: 引田
+    time: 6
+    distance: 3.93
+  - from: '1180219'
+    from_name: 引田
+    to: '1180220'
+    to_name: 讃岐相生
+    time: 4
+    distance: 2.49
+  - from: '1180220'
+    from_name: 讃岐相生
+    to: '1180221'
+    to_name: 阿波大宮
+    time: 7
+    distance: 4.31
+  - from: '1180221'
+    from_name: 阿波大宮
+    to: '1180222'
+    to_name: 板野
+    time: 7
+    distance: 4.37
+  - from: '1180222'
+    from_name: 板野
+    to: '1180223'
+    to_name: 阿波川端
+    time: 3
+    distance: 1.84
+  - from: '1180223'
+    from_name: 阿波川端
+    to: '1180224'
+    to_name: 板東
+    time: 4
+    distance: 2.24
+  - from: '1180224'
+    from_name: 板東
+    to: '1180225'
+    to_name: 池谷
+    time: 4
+    distance: 2.07
+  - from: '1180225'
+    from_name: 池谷
+    to: '1180226'
+    to_name: 勝瑞
+    time: 5
+    distance: 2.75
+  - from: '1180226'
+    from_name: 勝瑞
+    to: '1180227'
+    to_name: 吉成
+    time: 2
+    distance: 1.08
+  - from: '1180227'
+    from_name: 吉成
+    to: '1180228'
+    to_name: 佐古
+    time: 7
+    distance: 4.28
+  - from: '1180228'
+    from_name: 佐古
+    to: '1180229'
+    to_name: 徳島
+    time: 3
+    distance: 1.36

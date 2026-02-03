@@ -1,0 +1,60 @@
+line_code: '99623'
+line_name: 大阪メトロ堺筋線
+company: Osaka Metro
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3400811'
+    from_name: 天神橋筋六丁目
+    to: '1162311'
+    to_name: 天満
+    time: 2
+    distance: 0.61
+  - from: '1162311'
+    from_name: 天満
+    to: '1162503'
+    to_name: 大阪天満宮
+    time: 2
+    distance: 0.84
+  - from: '1162503'
+    from_name: 大阪天満宮
+    to: '3300139'
+    to_name: 北浜
+    time: 2
+    distance: 0.87
+  - from: '3300139'
+    from_name: 北浜
+    to: '9962108'
+    to_name: 堺筋本町
+    time: 2
+    distance: 1.1
+  - from: '9962108'
+    from_name: 堺筋本町
+    to: '9962306'
+    to_name: 長堀橋
+    time: 2
+    distance: 0.8
+  - from: '9962306'
+    from_name: 長堀橋
+    to: '3100102'
+    to_name: 近鉄日本橋
+    time: 2
+    distance: 0.86
+  - from: '3100102'
+    from_name: 近鉄日本橋
+    to: '9962308'
+    to_name: 恵美須町
+    time: 2
+    distance: 1.32
+  - from: '9962308'
+    from_name: 恵美須町
+    to: '1160720'
+    to_name: 新今宮
+    time: 2
+    distance: 0.69
+  - from: '1160720'
+    from_name: 新今宮
+    to: '3200103'
+    to_name: 天下茶屋
+    time: 3
+    distance: 1.53

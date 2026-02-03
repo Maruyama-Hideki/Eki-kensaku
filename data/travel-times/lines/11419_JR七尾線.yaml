@@ -1,0 +1,120 @@
+line_code: '11419'
+line_name: JR七尾線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1141546'
+    from_name: 津幡
+    to: '1141902'
+    to_name: 中津幡
+    time: 3
+    distance: 1.74
+  - from: '1141902'
+    from_name: 中津幡
+    to: '1141903'
+    to_name: 本津幡
+    time: 2
+    distance: 0.92
+  - from: '1141903'
+    from_name: 本津幡
+    to: '1141904'
+    to_name: 能瀬
+    time: 4
+    distance: 2.14
+  - from: '1141904'
+    from_name: 能瀬
+    to: '1141905'
+    to_name: 宇野気
+    time: 6
+    distance: 3.62
+  - from: '1141905'
+    from_name: 宇野気
+    to: '1141906'
+    to_name: 横山
+    time: 5
+    distance: 3.03
+  - from: '1141906'
+    from_name: 横山
+    to: '1141907'
+    to_name: 高松
+    time: 4
+    distance: 2.55
+  - from: '1141907'
+    from_name: 高松
+    to: '1141908'
+    to_name: 免田
+    time: 6
+    distance: 3.46
+  - from: '1141908'
+    from_name: 免田
+    to: '1141909'
+    to_name: 宝達
+    time: 5
+    distance: 2.98
+  - from: '1141909'
+    from_name: 宝達
+    to: '1141910'
+    to_name: 敷浪
+    time: 5
+    distance: 3.29
+  - from: '1141910'
+    from_name: 敷浪
+    to: '1141911'
+    to_name: 南羽咋
+    time: 4
+    distance: 2.47
+  - from: '1141911'
+    from_name: 南羽咋
+    to: '1141912'
+    to_name: 羽咋
+    time: 5
+    distance: 3.07
+  - from: '1141912'
+    from_name: 羽咋
+    to: '1141913'
+    to_name: 千路
+    time: 6
+    distance: 3.8
+  - from: '1141913'
+    from_name: 千路
+    to: '1141914'
+    to_name: 金丸
+    time: 6
+    distance: 3.52
+  - from: '1141914'
+    from_name: 金丸
+    to: '1141915'
+    to_name: 能登部
+    time: 6
+    distance: 3.56
+  - from: '1141915'
+    from_name: 能登部
+    to: '1141916'
+    to_name: 良川
+    time: 5
+    distance: 2.85
+  - from: '1141916'
+    from_name: 良川
+    to: '1141917'
+    to_name: 能登二宮
+    time: 4
+    distance: 2.22
+  - from: '1141917'
+    from_name: 能登二宮
+    to: '1141918'
+    to_name: 徳田
+    time: 5
+    distance: 2.76
+  - from: '1141918'
+    from_name: 徳田
+    to: '1141919'
+    to_name: 七尾
+    time: 8
+    distance: 4.86
+  - from: '1141919'
+    from_name: 七尾
+    to: '1141920'
+    to_name: 和倉温泉
+    time: 8
+    distance: 5.02

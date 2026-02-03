@@ -1,0 +1,54 @@
+line_code: '30020'
+line_name: 名鉄竹鼻線
+company: 名古屋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3000156'
+    from_name: 笠松
+    to: '3002002'
+    to_name: 西笠松
+    time: 2
+    distance: 0.87
+  - from: '3002002'
+    from_name: 西笠松
+    to: '3002003'
+    to_name: 柳津
+    time: 3
+    distance: 1.94
+  - from: '3002003'
+    from_name: 柳津
+    to: '3002004'
+    to_name: 南宿
+    time: 4
+    distance: 2.05
+  - from: '3002004'
+    from_name: 南宿
+    to: '3002005'
+    to_name: 須賀
+    time: 2
+    distance: 0.87
+  - from: '3002005'
+    from_name: 須賀
+    to: '3002006'
+    to_name: 不破一色
+    time: 2
+    distance: 0.92
+  - from: '3002006'
+    from_name: 不破一色
+    to: '3002007'
+    to_name: 竹鼻
+    time: 3
+    distance: 1.57
+  - from: '3002007'
+    from_name: 竹鼻
+    to: '3002008'
+    to_name: 羽島市役所前
+    time: 2
+    distance: 0.79
+  - from: '3002008'
+    from_name: 羽島市役所前
+    to: '3002009'
+    to_name: 江吉良
+    time: 2
+    distance: 0.72

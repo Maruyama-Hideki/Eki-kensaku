@@ -1,0 +1,48 @@
+line_code: '99606'
+line_name: 叡山電鉄叡山本線
+company: 叡山電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3300401'
+    from_name: 出町柳
+    to: '9960602'
+    to_name: 元田中
+    time: 2
+    distance: 1.01
+  - from: '9960602'
+    from_name: 元田中
+    to: '9960603'
+    to_name: 茶山
+    time: 2
+    distance: 0.46
+  - from: '9960603'
+    from_name: 茶山
+    to: '9960604'
+    to_name: 一乗寺
+    time: 2
+    distance: 0.72
+  - from: '9960604'
+    from_name: 一乗寺
+    to: '9960605'
+    to_name: 修学院
+    time: 2
+    distance: 0.7
+  - from: '9960605'
+    from_name: 修学院
+    to: '9960606'
+    to_name: 宝ヶ池
+    time: 2
+    distance: 0.9
+  - from: '9960606'
+    from_name: 宝ヶ池
+    to: '9960607'
+    to_name: 三宅八幡
+    time: 2
+    distance: 0.6
+  - from: '9960607'
+    from_name: 三宅八幡
+    to: '9960608'
+    to_name: 八瀬比叡山口
+    time: 2
+    distance: 1.16

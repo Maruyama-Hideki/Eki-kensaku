@@ -1,0 +1,258 @@
+line_code: '23001'
+line_name: 京成本線
+company: 京成電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2300101'
+    from_name: 京成上野
+    to: '1130218'
+    to_name: 日暮里
+    time: 3
+    distance: 1.87
+  - from: '1130218'
+    from_name: 日暮里
+    to: '2300103'
+    to_name: 新三河島
+    time: 2
+    distance: 1.05
+  - from: '2300103'
+    from_name: 新三河島
+    to: '2300104'
+    to_name: 町屋
+    time: 2
+    distance: 0.9
+  - from: '2300104'
+    from_name: 町屋
+    to: '2300105'
+    to_name: 千住大橋
+    time: 3
+    distance: 1.39
+  - from: '2300105'
+    from_name: 千住大橋
+    to: '2100208'
+    to_name: 牛田
+    time: 3
+    distance: 1.36
+  - from: '2100208'
+    from_name: 牛田
+    to: '2300107'
+    to_name: 堀切菖蒲園
+    time: 3
+    distance: 1.46
+  - from: '2300107'
+    from_name: 堀切菖蒲園
+    to: '2300108'
+    to_name: お花茶屋
+    time: 2
+    distance: 1.11
+  - from: '2300108'
+    from_name: お花茶屋
+    to: '2300109'
+    to_name: 青砥
+    time: 3
+    distance: 1.49
+  - from: '2300109'
+    from_name: 青砥
+    to: '2300110'
+    to_name: 京成高砂
+    time: 2
+    distance: 1.11
+  - from: '2300110'
+    from_name: 京成高砂
+    to: '2300111'
+    to_name: 京成小岩
+    time: 3
+    distance: 1.81
+  - from: '2300111'
+    from_name: 京成小岩
+    to: '2300112'
+    to_name: 江戸川
+    time: 2
+    distance: 1.23
+  - from: '2300112'
+    from_name: 江戸川
+    to: '2300113'
+    to_name: 国府台
+    time: 2
+    distance: 0.65
+  - from: '2300113'
+    from_name: 国府台
+    to: '2300114'
+    to_name: 市川真間
+    time: 2
+    distance: 0.95
+  - from: '2300114'
+    from_name: 市川真間
+    to: '2300115'
+    to_name: 菅野
+    time: 2
+    distance: 0.77
+  - from: '2300115'
+    from_name: 菅野
+    to: '1131328'
+    to_name: 本八幡
+    time: 2
+    distance: 1.09
+  - from: '1131328'
+    from_name: 本八幡
+    to: '2300117'
+    to_name: 鬼越
+    time: 2
+    distance: 0.96
+  - from: '2300117'
+    from_name: 鬼越
+    to: '2300118'
+    to_name: 京成中山
+    time: 2
+    distance: 0.64
+  - from: '2300118'
+    from_name: 京成中山
+    to: '2300119'
+    to_name: 東中山
+    time: 2
+    distance: 0.82
+  - from: '2300119'
+    from_name: 東中山
+    to: '2300120'
+    to_name: 京成西船
+    time: 2
+    distance: 0.64
+  - from: '2300120'
+    from_name: 京成西船
+    to: '2300121'
+    to_name: 海神
+    time: 3
+    distance: 1.34
+  - from: '2300121'
+    from_name: 海神
+    to: '1131331'
+    to_name: 船橋
+    time: 2
+    distance: 1.24
+  - from: '1131331'
+    from_name: 船橋
+    to: '2300123'
+    to_name: 大神宮下
+    time: 2
+    distance: 1.07
+  - from: '2300123'
+    from_name: 大神宮下
+    to: '2300124'
+    to_name: 船橋競馬場
+    time: 2
+    distance: 0.76
+  - from: '2300124'
+    from_name: 船橋競馬場
+    to: '2300125'
+    to_name: 谷津
+    time: 2
+    distance: 1
+  - from: '2300125'
+    from_name: 谷津
+    to: '2300126'
+    to_name: 京成津田沼
+    time: 3
+    distance: 1.56
+  - from: '2300126'
+    from_name: 京成津田沼
+    to: '2300127'
+    to_name: 京成大久保
+    time: 4
+    distance: 2.17
+  - from: '2300127'
+    from_name: 京成大久保
+    to: '2300128'
+    to_name: 実籾
+    time: 3
+    distance: 1.78
+  - from: '2300128'
+    from_name: 実籾
+    to: '2300129'
+    to_name: 八千代台
+    time: 4
+    distance: 2.61
+  - from: '2300129'
+    from_name: 八千代台
+    to: '2300130'
+    to_name: 京成大和田
+    time: 3
+    distance: 2
+  - from: '2300130'
+    from_name: 京成大和田
+    to: '2300131'
+    to_name: 勝田台
+    time: 3
+    distance: 1.62
+  - from: '2300131'
+    from_name: 勝田台
+    to: '2300132'
+    to_name: 志津
+    time: 3
+    distance: 1.72
+  - from: '2300132'
+    from_name: 志津
+    to: '2300133'
+    to_name: ユーカリが丘
+    time: 2
+    distance: 1.14
+  - from: '2300133'
+    from_name: ユーカリが丘
+    to: '2300134'
+    to_name: 京成臼井
+    time: 4
+    distance: 2.39
+  - from: '2300134'
+    from_name: 京成臼井
+    to: '2300135'
+    to_name: 京成佐倉
+    time: 7
+    distance: 4.44
+  - from: '2300135'
+    from_name: 京成佐倉
+    to: '2300136'
+    to_name: 大佐倉
+    time: 3
+    distance: 1.98
+  - from: '2300136'
+    from_name: 大佐倉
+    to: '2300137'
+    to_name: 京成酒々井
+    time: 3
+    distance: 1.91
+  - from: '2300137'
+    from_name: 京成酒々井
+    to: '2300138'
+    to_name: 宗吾参道
+    time: 4
+    distance: 2.01
+  - from: '2300138'
+    from_name: 宗吾参道
+    to: '2300139'
+    to_name: 公津の杜
+    time: 3
+    distance: 1.53
+  - from: '2300139'
+    from_name: 公津の杜
+    to: '1132703'
+    to_name: 成田
+    time: 4
+    distance: 2.58
+  - from: '1132703'
+    from_name: 成田
+    to: '2300141'
+    to_name: 東成田
+    time: 11
+    distance: 6.67
+  - from: '1132703'
+    from_name: 成田
+    to: '1132813'
+    to_name: 空港第２ビル（第２旅客ターミナル）
+    time: 11
+    distance: 6.7
+  - from: '1132813'
+    from_name: 空港第２ビル（第２旅客ターミナル）
+    to: '1132705'
+    to_name: 成田空港（第１旅客ターミナル）
+    time: 2
+    distance: 1.08

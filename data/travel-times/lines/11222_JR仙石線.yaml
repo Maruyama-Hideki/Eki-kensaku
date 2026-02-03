@@ -1,0 +1,192 @@
+line_code: '11222'
+line_name: JR仙石線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1122201'
+    from_name: あおば通
+    to: '1123143'
+    to_name: 仙台
+    time: 2
+    distance: 0.33
+  - from: '1123143'
+    from_name: 仙台
+    to: '1122203'
+    to_name: 榴ケ岡
+    time: 2
+    distance: 1.02
+  - from: '1122203'
+    from_name: 榴ケ岡
+    to: '1122204'
+    to_name: 宮城野原
+    time: 2
+    distance: 1.03
+  - from: '1122204'
+    from_name: 宮城野原
+    to: '1122205'
+    to_name: 陸前原ノ町
+    time: 2
+    distance: 0.72
+  - from: '1122205'
+    from_name: 陸前原ノ町
+    to: '1122206'
+    to_name: 苦竹
+    time: 2
+    distance: 0.78
+  - from: '1122206'
+    from_name: 苦竹
+    to: '1122207'
+    to_name: 小鶴新田
+    time: 3
+    distance: 1.54
+  - from: '1122207'
+    from_name: 小鶴新田
+    to: '1122208'
+    to_name: 福田町
+    time: 3
+    distance: 2
+  - from: '1122208'
+    from_name: 福田町
+    to: '1122209'
+    to_name: 陸前高砂
+    time: 2
+    distance: 0.83
+  - from: '1122209'
+    from_name: 陸前高砂
+    to: '1122210'
+    to_name: 中野栄
+    time: 3
+    distance: 1.74
+  - from: '1122210'
+    from_name: 中野栄
+    to: '1122211'
+    to_name: 多賀城
+    time: 4
+    distance: 2.13
+  - from: '1122211'
+    from_name: 多賀城
+    to: '1122212'
+    to_name: 下馬
+    time: 3
+    distance: 1.78
+  - from: '1122212'
+    from_name: 下馬
+    to: '1122213'
+    to_name: 西塩釜
+    time: 2
+    distance: 0.74
+  - from: '1122213'
+    from_name: 西塩釜
+    to: '1122214'
+    to_name: 本塩釜
+    time: 2
+    distance: 0.73
+  - from: '1122214'
+    from_name: 本塩釜
+    to: '1122215'
+    to_name: 東塩釜
+    time: 2
+    distance: 1.19
+  - from: '1122215'
+    from_name: 東塩釜
+    to: '1122216'
+    to_name: 陸前浜田
+    time: 5
+    distance: 2.94
+  - from: '1122216'
+    from_name: 陸前浜田
+    to: '1122217'
+    to_name: 松島海岸
+    time: 4
+    distance: 2.46
+  - from: '1122217'
+    from_name: 松島海岸
+    to: '1122218'
+    to_name: 高城町
+    time: 4
+    distance: 2.05
+  - from: '1122218'
+    from_name: 高城町
+    to: '1122219'
+    to_name: 手樽
+    time: 3
+    distance: 1.76
+  - from: '1122219'
+    from_name: 手樽
+    to: '1122220'
+    to_name: 陸前富山
+    time: 2
+    distance: 1.26
+  - from: '1122220'
+    from_name: 陸前富山
+    to: '1122221'
+    to_name: 陸前大塚
+    time: 4
+    distance: 2.1
+  - from: '1122221'
+    from_name: 陸前大塚
+    to: '1122222'
+    to_name: 東名
+    time: 3
+    distance: 1.46
+  - from: '1122222'
+    from_name: 東名
+    to: '1122223'
+    to_name: 野蒜
+    time: 2
+    distance: 1.09
+  - from: '1122223'
+    from_name: 野蒜
+    to: '1122224'
+    to_name: 陸前小野
+    time: 4
+    distance: 2.42
+  - from: '1122224'
+    from_name: 陸前小野
+    to: '1122225'
+    to_name: 鹿妻
+    time: 3
+    distance: 1.59
+  - from: '1122225'
+    from_name: 鹿妻
+    to: '1122226'
+    to_name: 矢本
+    time: 4
+    distance: 2.53
+  - from: '1122226'
+    from_name: 矢本
+    to: '1122227'
+    to_name: 東矢本
+    time: 3
+    distance: 1.41
+  - from: '1122227'
+    from_name: 東矢本
+    to: '1122228'
+    to_name: 陸前赤井
+    time: 3
+    distance: 1.54
+  - from: '1122228'
+    from_name: 陸前赤井
+    to: '1122232'
+    to_name: 石巻あゆみ野
+    time: 3
+    distance: 1.84
+  - from: '1122229'
+    from_name: 蛇田
+    to: '1122230'
+    to_name: 陸前山下
+    time: 2
+    distance: 0.98
+  - from: '1122230'
+    from_name: 陸前山下
+    to: '1122231'
+    to_name: 石巻
+    time: 2
+    distance: 1.31
+  - from: '1122232'
+    from_name: 石巻あゆみ野
+    to: '1122229'
+    to_name: 蛇田
+    time: 3
+    distance: 1.6

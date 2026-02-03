@@ -1,0 +1,210 @@
+line_code: '11501'
+line_name: JR東海道本線(熱海～浜松)
+company: JR東海
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130121'
+    from_name: 熱海
+    to: '1150102'
+    to_name: 函南
+    time: 15
+    distance: 9.72
+  - from: '1150102'
+    from_name: 函南
+    to: '1150103'
+    to_name: 三島
+    time: 9
+    distance: 5.78
+  - from: '1150103'
+    from_name: 三島
+    to: '1150104'
+    to_name: 沼津
+    time: 8
+    distance: 5.31
+  - from: '1150104'
+    from_name: 沼津
+    to: '1150105'
+    to_name: 片浜
+    time: 7
+    distance: 4.11
+  - from: '1150105'
+    from_name: 片浜
+    to: '1150106'
+    to_name: 原
+    time: 4
+    distance: 2.44
+  - from: '1150106'
+    from_name: 原
+    to: '1150107'
+    to_name: 東田子の浦
+    time: 7
+    distance: 4.54
+  - from: '1150107'
+    from_name: 東田子の浦
+    to: '1150108'
+    to_name: 吉原
+    time: 6
+    distance: 3.97
+  - from: '1150108'
+    from_name: 吉原
+    to: '1140201'
+    to_name: 富士
+    time: 8
+    distance: 4.76
+  - from: '1140201'
+    from_name: 富士
+    to: '1150110'
+    to_name: 富士川
+    time: 5
+    distance: 3.19
+  - from: '1150110'
+    from_name: 富士川
+    to: '1150111'
+    to_name: 新蒲原
+    time: 4
+    distance: 2.57
+  - from: '1150111'
+    from_name: 新蒲原
+    to: '1150112'
+    to_name: 蒲原
+    time: 4
+    distance: 2.39
+  - from: '1150112'
+    from_name: 蒲原
+    to: '1150113'
+    to_name: 由比
+    time: 5
+    distance: 3.31
+  - from: '1150113'
+    from_name: 由比
+    to: '1150114'
+    to_name: 興津
+    time: 9
+    distance: 5.7
+  - from: '1150114'
+    from_name: 興津
+    to: '1150115'
+    to_name: 清水
+    time: 7
+    distance: 4.43
+  - from: '1150115'
+    from_name: 清水
+    to: '1150116'
+    to_name: 草薙
+    time: 8
+    distance: 4.84
+  - from: '1150116'
+    from_name: 草薙
+    to: '1150117'
+    to_name: 東静岡
+    time: 5
+    distance: 3.28
+  - from: '1150117'
+    from_name: 東静岡
+    to: '1150118'
+    to_name: 静岡
+    time: 5
+    distance: 2.7
+  - from: '1150118'
+    from_name: 静岡
+    to: '1150119'
+    to_name: 安倍川
+    time: 7
+    distance: 4.08
+  - from: '1150119'
+    from_name: 安倍川
+    to: '1150120'
+    to_name: 用宗
+    time: 4
+    distance: 2.08
+  - from: '1150120'
+    from_name: 用宗
+    to: '1150121'
+    to_name: 焼津
+    time: 11
+    distance: 6.75
+  - from: '1150121'
+    from_name: 焼津
+    to: '1150122'
+    to_name: 西焼津
+    time: 5
+    distance: 3.31
+  - from: '1150122'
+    from_name: 西焼津
+    to: '1150123'
+    to_name: 藤枝
+    time: 5
+    distance: 3.2
+  - from: '1150123'
+    from_name: 藤枝
+    to: '1150124'
+    to_name: 六合
+    time: 8
+    distance: 4.72
+  - from: '1150124'
+    from_name: 六合
+    to: '1150125'
+    to_name: 島田
+    time: 5
+    distance: 2.83
+  - from: '1150125'
+    from_name: 島田
+    to: '1150126'
+    to_name: 金谷
+    time: 7
+    distance: 4.54
+  - from: '1150126'
+    from_name: 金谷
+    to: '1150127'
+    to_name: 菊川
+    time: 12
+    distance: 7.34
+  - from: '1150127'
+    from_name: 菊川
+    to: '1150128'
+    to_name: 掛川
+    time: 10
+    distance: 6.52
+  - from: '1150128'
+    from_name: 掛川
+    to: '1150129'
+    to_name: 愛野
+    time: 8
+    distance: 5.23
+  - from: '1150129'
+    from_name: 愛野
+    to: '1150130'
+    to_name: 袋井
+    time: 6
+    distance: 3.48
+  - from: '1150130'
+    from_name: 袋井
+    to: '1150135'
+    to_name: 御厨
+    time: 7
+    distance: 4.54
+  - from: '1150131'
+    from_name: 磐田
+    to: '1150132'
+    to_name: 豊田町
+    time: 5
+    distance: 2.94
+  - from: '1150132'
+    from_name: 豊田町
+    to: '1150133'
+    to_name: 天竜川
+    time: 6
+    distance: 3.78
+  - from: '1150133'
+    from_name: 天竜川
+    to: '1150201'
+    to_name: 浜松
+    time: 7
+    distance: 4.32
+  - from: '1150135'
+    from_name: 御厨
+    to: '1150131'
+    to_name: 磐田
+    time: 5
+    distance: 3.13

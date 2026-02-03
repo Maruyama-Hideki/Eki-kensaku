@@ -1,0 +1,174 @@
+line_code: '11111'
+line_name: JR日高本線
+company: JR北海道
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1110434'
+    from_name: 苫小牧
+    to: '1111102'
+    to_name: 勇払
+    time: 17
+    distance: 10.73
+  - from: '1111102'
+    from_name: 勇払
+    to: '1111103'
+    to_name: 浜厚真
+    time: 15
+    distance: 9.41
+  - from: '1111103'
+    from_name: 浜厚真
+    to: '1111104'
+    to_name: 浜田浦
+    time: 7
+    distance: 4.21
+  - from: '1111104'
+    from_name: 浜田浦
+    to: '1111105'
+    to_name: 鵡川
+    time: 6
+    distance: 3.55
+  - from: '1111105'
+    from_name: 鵡川
+    to: '1111106'
+    to_name: 汐見
+    time: 6
+    distance: 3.64
+  - from: '1111106'
+    from_name: 汐見
+    to: '1111107'
+    to_name: 富川
+    time: 11
+    distance: 7.22
+  - from: '1111107'
+    from_name: 富川
+    to: '1111108'
+    to_name: 日高門別
+    time: 9
+    distance: 5.81
+  - from: '1111108'
+    from_name: 日高門別
+    to: '1111109'
+    to_name: 豊郷
+    time: 7
+    distance: 4.27
+  - from: '1111109'
+    from_name: 豊郷
+    to: '1111110'
+    to_name: 清畠
+    time: 8
+    distance: 4.72
+  - from: '1111110'
+    from_name: 清畠
+    to: '1111111'
+    to_name: 厚賀
+    time: 7
+    distance: 4.27
+  - from: '1111111'
+    from_name: 厚賀
+    to: '1111112'
+    to_name: 大狩部
+    time: 8
+    distance: 5.26
+  - from: '1111112'
+    from_name: 大狩部
+    to: '1111113'
+    to_name: 節婦
+    time: 3
+    distance: 1.98
+  - from: '1111113'
+    from_name: 節婦
+    to: '1111114'
+    to_name: 新冠
+    time: 6
+    distance: 3.89
+  - from: '1111114'
+    from_name: 新冠
+    to: '1111115'
+    to_name: 静内
+    time: 8
+    distance: 4.76
+  - from: '1111115'
+    from_name: 静内
+    to: '1111117'
+    to_name: 東静内
+    time: 13
+    distance: 8.22
+  - from: '1111117'
+    from_name: 東静内
+    to: '1111118'
+    to_name: 春立
+    time: 9
+    distance: 5.64
+  - from: '1111118'
+    from_name: 春立
+    to: '1111119'
+    to_name: 日高東別
+    time: 4
+    distance: 2.3
+  - from: '1111119'
+    from_name: 日高東別
+    to: '1111120'
+    to_name: 日高三石
+    time: 8
+    distance: 5.29
+  - from: '1111120'
+    from_name: 日高三石
+    to: '1111121'
+    to_name: 蓬栄
+    time: 6
+    distance: 3.65
+  - from: '1111121'
+    from_name: 蓬栄
+    to: '1111122'
+    to_name: 本桐
+    time: 5
+    distance: 2.81
+  - from: '1111122'
+    from_name: 本桐
+    to: '1111123'
+    to_name: 荻伏
+    time: 11
+    distance: 6.74
+  - from: '1111123'
+    from_name: 荻伏
+    to: '1111124'
+    to_name: 絵笛
+    time: 6
+    distance: 3.94
+  - from: '1111124'
+    from_name: 絵笛
+    to: '1111125'
+    to_name: 浦河
+    time: 7
+    distance: 4.35
+  - from: '1111125'
+    from_name: 浦河
+    to: '1111126'
+    to_name: 東町
+    time: 4
+    distance: 2.08
+  - from: '1111126'
+    from_name: 東町
+    to: '1111127'
+    to_name: 日高幌別
+    time: 7
+    distance: 4.06
+  - from: '1111127'
+    from_name: 日高幌別
+    to: '1111128'
+    to_name: 鵜苫
+    time: 7
+    distance: 4.05
+  - from: '1111128'
+    from_name: 鵜苫
+    to: '1111129'
+    to_name: 西様似
+    time: 4
+    distance: 2.21
+  - from: '1111129'
+    from_name: 西様似
+    to: '1111130'
+    to_name: 様似
+    time: 4
+    distance: 2.53

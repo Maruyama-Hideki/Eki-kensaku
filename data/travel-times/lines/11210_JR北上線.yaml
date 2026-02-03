@@ -1,0 +1,102 @@
+line_code: '11210'
+line_name: JR北上線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1123174'
+    from_name: 北上
+    to: '1121002'
+    to_name: 柳原
+    time: 3
+    distance: 1.7
+  - from: '1121002'
+    from_name: 柳原
+    to: '1121003'
+    to_name: 江釣子
+    time: 5
+    distance: 3.12
+  - from: '1121003'
+    from_name: 江釣子
+    to: '1121004'
+    to_name: 藤根
+    time: 5
+    distance: 3.13
+  - from: '1121004'
+    from_name: 藤根
+    to: '1121005'
+    to_name: 立川目
+    time: 6
+    distance: 3.73
+  - from: '1121005'
+    from_name: 立川目
+    to: '1121006'
+    to_name: 横川目
+    time: 4
+    distance: 2.16
+  - from: '1121006'
+    from_name: 横川目
+    to: '1121007'
+    to_name: 岩沢
+    time: 6
+    distance: 3.61
+  - from: '1121007'
+    from_name: 岩沢
+    to: '1121008'
+    to_name: 和賀仙人
+    time: 4
+    distance: 2.08
+  - from: '1121008'
+    from_name: 和賀仙人
+    to: '1121009'
+    to_name: ゆだ錦秋湖
+    time: 10
+    distance: 6.54
+  - from: '1121009'
+    from_name: ゆだ錦秋湖
+    to: '1121010'
+    to_name: ほっとゆだ
+    time: 9
+    distance: 5.55
+  - from: '1121010'
+    from_name: ほっとゆだ
+    to: '1121011'
+    to_name: ゆだ高原
+    time: 6
+    distance: 3.63
+  - from: '1121011'
+    from_name: ゆだ高原
+    to: '1121012'
+    to_name: 黒沢
+    time: 7
+    distance: 4.25
+  - from: '1121012'
+    from_name: 黒沢
+    to: '1121013'
+    to_name: 小松川
+    time: 8
+    distance: 4.99
+  - from: '1121013'
+    from_name: 小松川
+    to: '1121014'
+    to_name: 平石
+    time: 3
+    distance: 1.53
+  - from: '1121014'
+    from_name: 平石
+    to: '1121015'
+    to_name: 相野々
+    time: 3
+    distance: 1.72
+  - from: '1121015'
+    from_name: 相野々
+    to: '1121016'
+    to_name: 矢美津
+    time: 5
+    distance: 2.75
+  - from: '1121016'
+    from_name: 矢美津
+    to: '1120217'
+    to_name: 横手
+    time: 6
+    distance: 3.44

@@ -1,0 +1,180 @@
+line_code: '11303'
+line_name: JR南武線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130104'
+    from_name: 川崎
+    to: '1130302'
+    to_name: 尻手
+    time: 2
+    distance: 1.2
+  - from: '1130302'
+    from_name: 尻手
+    to: '1130303'
+    to_name: 矢向
+    time: 2
+    distance: 1
+  - from: '1130302'
+    from_name: 尻手
+    to: '1130326'
+    to_name: 八丁畷
+    time: 2
+    distance: 1.09
+  - from: '1130303'
+    from_name: 矢向
+    to: '1130304'
+    to_name: 鹿島田
+    time: 3
+    distance: 1.43
+  - from: '1130304'
+    from_name: 鹿島田
+    to: '1130305'
+    to_name: 平間
+    time: 2
+    distance: 1.07
+  - from: '1130305'
+    from_name: 平間
+    to: '1130306'
+    to_name: 向河原
+    time: 3
+    distance: 1.41
+  - from: '1130306'
+    from_name: 向河原
+    to: '1130307'
+    to_name: 武蔵小杉
+    time: 2
+    distance: 0.81
+  - from: '1130307'
+    from_name: 武蔵小杉
+    to: '1130308'
+    to_name: 武蔵中原
+    time: 3
+    distance: 1.8
+  - from: '1130308'
+    from_name: 武蔵中原
+    to: '1130309'
+    to_name: 武蔵新城
+    time: 2
+    distance: 1.2
+  - from: '1130309'
+    from_name: 武蔵新城
+    to: '1130310'
+    to_name: 武蔵溝ノ口
+    time: 4
+    distance: 2.08
+  - from: '1130310'
+    from_name: 武蔵溝ノ口
+    to: '1130311'
+    to_name: 津田山
+    time: 2
+    distance: 1.19
+  - from: '1130311'
+    from_name: 津田山
+    to: '1130312'
+    to_name: 久地
+    time: 2
+    distance: 0.95
+  - from: '1130312'
+    from_name: 久地
+    to: '1130313'
+    to_name: 宿河原
+    time: 2
+    distance: 1.32
+  - from: '1130313'
+    from_name: 宿河原
+    to: '1130314'
+    to_name: 登戸
+    time: 2
+    distance: 1.05
+  - from: '1130314'
+    from_name: 登戸
+    to: '1130315'
+    to_name: 中野島
+    time: 4
+    distance: 2.07
+  - from: '1130315'
+    from_name: 中野島
+    to: '1130316'
+    to_name: 稲田堤
+    time: 3
+    distance: 1.41
+  - from: '1130316'
+    from_name: 稲田堤
+    to: '1130317'
+    to_name: 矢野口
+    time: 3
+    distance: 1.55
+  - from: '1130317'
+    from_name: 矢野口
+    to: '1130318'
+    to_name: 稲城長沼
+    time: 3
+    distance: 1.66
+  - from: '1130318'
+    from_name: 稲城長沼
+    to: '1130319'
+    to_name: 南多摩
+    time: 2
+    distance: 1.31
+  - from: '1130319'
+    from_name: 南多摩
+    to: '1130320'
+    to_name: 府中本町
+    time: 4
+    distance: 2.16
+  - from: '1130320'
+    from_name: 府中本町
+    to: '1130321'
+    to_name: 分倍河原
+    time: 2
+    distance: 0.81
+  - from: '1130321'
+    from_name: 分倍河原
+    to: '1130329'
+    to_name: 西府
+    time: 2
+    distance: 1.06
+  - from: '1130322'
+    from_name: 谷保
+    to: '1130323'
+    to_name: 矢川
+    time: 3
+    distance: 1.43
+  - from: '1130323'
+    from_name: 矢川
+    to: '1130324'
+    to_name: 西国立
+    time: 2
+    distance: 1.19
+  - from: '1130324'
+    from_name: 西国立
+    to: '1130325'
+    to_name: 立川
+    time: 2
+    distance: 1.04
+  - from: '1130326'
+    from_name: 八丁畷
+    to: '1130327'
+    to_name: 川崎新町
+    time: 2
+    distance: 0.89
+  - from: '1130327'
+    from_name: 川崎新町
+    to: '1130330'
+    to_name: 小田栄
+    time: 2
+    distance: 0.65
+  - from: '1130329'
+    from_name: 西府
+    to: '1130322'
+    to_name: 谷保
+    time: 3
+    distance: 1.52
+  - from: '1130330'
+    from_name: 小田栄
+    to: '1130328'
+    to_name: 浜川崎
+    time: 2
+    distance: 0.9

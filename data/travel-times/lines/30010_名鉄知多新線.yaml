@@ -1,0 +1,36 @@
+line_code: '30010'
+line_name: 名鉄知多新線
+company: 名古屋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3000918'
+    from_name: 富貴
+    to: '3001002'
+    to_name: 上野間
+    time: 8
+    distance: 5.17
+  - from: '3001002'
+    from_name: 上野間
+    to: '3001003'
+    to_name: 美浜緑苑
+    time: 2
+    distance: 0.85
+  - from: '3001003'
+    from_name: 美浜緑苑
+    to: '3001004'
+    to_name: 知多奥田
+    time: 3
+    distance: 1.41
+  - from: '3001004'
+    from_name: 知多奥田
+    to: '3001005'
+    to_name: 野間
+    time: 3
+    distance: 1.74
+  - from: '3001005'
+    from_name: 野間
+    to: '3001006'
+    to_name: 内海
+    time: 6
+    distance: 3.36

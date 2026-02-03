@@ -1,0 +1,78 @@
+line_code: '99502'
+line_name: 伊豆箱根鉄道駿豆線
+company: 伊豆箱根鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1150103'
+    from_name: 三島
+    to: '9950202'
+    to_name: 三島広小路
+    time: 2
+    distance: 0.78
+  - from: '9950202'
+    from_name: 三島広小路
+    to: '9950203'
+    to_name: 三島田町
+    time: 2
+    distance: 0.74
+  - from: '9950203'
+    from_name: 三島田町
+    to: '9950204'
+    to_name: 三島二日町
+    time: 2
+    distance: 0.9
+  - from: '9950204'
+    from_name: 三島二日町
+    to: '9950205'
+    to_name: 大場
+    time: 4
+    distance: 2.39
+  - from: '9950205'
+    from_name: 大場
+    to: '9950206'
+    to_name: 伊豆仁田
+    time: 3
+    distance: 1.54
+  - from: '9950206'
+    from_name: 伊豆仁田
+    to: '9950207'
+    to_name: 原木
+    time: 3
+    distance: 1.48
+  - from: '9950207'
+    from_name: 原木
+    to: '9950208'
+    to_name: 韮山
+    time: 3
+    distance: 1.36
+  - from: '9950208'
+    from_name: 韮山
+    to: '9950209'
+    to_name: 伊豆長岡
+    time: 3
+    distance: 1.53
+  - from: '9950209'
+    from_name: 伊豆長岡
+    to: '9950210'
+    to_name: 田京
+    time: 5
+    distance: 2.82
+  - from: '9950210'
+    from_name: 田京
+    to: '9950211'
+    to_name: 大仁
+    time: 4
+    distance: 2.36
+  - from: '9950211'
+    from_name: 大仁
+    to: '9950212'
+    to_name: 牧之郷
+    time: 3
+    distance: 1.66
+  - from: '9950212'
+    from_name: 牧之郷
+    to: '9950213'
+    to_name: 修善寺
+    time: 2
+    distance: 1.12

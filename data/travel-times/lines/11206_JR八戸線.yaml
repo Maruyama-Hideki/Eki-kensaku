@@ -1,0 +1,144 @@
+line_code: '11206'
+line_name: JR八戸線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1120601'
+    from_name: 八戸
+    to: '1120602'
+    to_name: 長苗代
+    time: 5
+    distance: 3.21
+  - from: '1120602'
+    from_name: 長苗代
+    to: '1120603'
+    to_name: 本八戸
+    time: 4
+    distance: 2.02
+  - from: '1120603'
+    from_name: 本八戸
+    to: '1120604'
+    to_name: 小中野
+    time: 3
+    distance: 1.82
+  - from: '1120604'
+    from_name: 小中野
+    to: '1120605'
+    to_name: 陸奥湊
+    time: 3
+    distance: 1.57
+  - from: '1120605'
+    from_name: 陸奥湊
+    to: '1120606'
+    to_name: 白銀
+    time: 2
+    distance: 1.19
+  - from: '1120606'
+    from_name: 白銀
+    to: '1120607'
+    to_name: 鮫
+    time: 3
+    distance: 1.44
+  - from: '1120607'
+    from_name: 鮫
+    to: '1120609'
+    to_name: 陸奥白浜
+    time: 6
+    distance: 3.51
+  - from: '1120609'
+    from_name: 陸奥白浜
+    to: '1120610'
+    to_name: 種差海岸
+    time: 3
+    distance: 1.67
+  - from: '1120610'
+    from_name: 種差海岸
+    to: '1120611'
+    to_name: 大久喜
+    time: 3
+    distance: 1.86
+  - from: '1120611'
+    from_name: 大久喜
+    to: '1120612'
+    to_name: 金浜
+    time: 4
+    distance: 2.45
+  - from: '1120612'
+    from_name: 金浜
+    to: '1120613'
+    to_name: 大蛇
+    time: 3
+    distance: 1.49
+  - from: '1120613'
+    from_name: 大蛇
+    to: '1120614'
+    to_name: 階上
+    time: 3
+    distance: 1.67
+  - from: '1120614'
+    from_name: 階上
+    to: '1120615'
+    to_name: 角の浜
+    time: 3
+    distance: 1.98
+  - from: '1120615'
+    from_name: 角の浜
+    to: '1120616'
+    to_name: 平内
+    time: 4
+    distance: 2.58
+  - from: '1120616'
+    from_name: 平内
+    to: '1120617'
+    to_name: 種市
+    time: 4
+    distance: 2.16
+  - from: '1120617'
+    from_name: 種市
+    to: '1120618'
+    to_name: 玉川
+    time: 6
+    distance: 3.73
+  - from: '1120618'
+    from_name: 玉川
+    to: '1120619'
+    to_name: 宿戸
+    time: 3
+    distance: 1.87
+  - from: '1120619'
+    from_name: 宿戸
+    to: '1120620'
+    to_name: 陸中八木
+    time: 5
+    distance: 2.84
+  - from: '1120620'
+    from_name: 陸中八木
+    to: '1120621'
+    to_name: 有家
+    time: 4
+    distance: 2.45
+  - from: '1120621'
+    from_name: 有家
+    to: '1120622'
+    to_name: 陸中中野
+    time: 4
+    distance: 2.44
+  - from: '1120622'
+    from_name: 陸中中野
+    to: '1120623'
+    to_name: 侍浜
+    time: 9
+    distance: 5.39
+  - from: '1120623'
+    from_name: 侍浜
+    to: '1120624'
+    to_name: 陸中夏井
+    time: 10
+    distance: 6.53
+  - from: '1120624'
+    from_name: 陸中夏井
+    to: '1120625'
+    to_name: 久慈
+    time: 4
+    distance: 2.63

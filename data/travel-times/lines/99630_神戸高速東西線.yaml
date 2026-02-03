@@ -1,0 +1,54 @@
+line_code: '99630'
+line_name: 神戸高速東西線
+company: 神戸高速鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1160313'
+    from_name: 三ノ宮
+    to: '9963002'
+    to_name: 花隈
+    time: 3
+    distance: 1.57
+  - from: '9963002'
+    from_name: 花隈
+    to: '9963005'
+    to_name: 高速神戸
+    time: 2
+    distance: 0.99
+  - from: '1160314'
+    from_name: 元町
+    to: '9963004'
+    to_name: 西元町
+    time: 2
+    distance: 0.96
+  - from: '9963004'
+    from_name: 西元町
+    to: '9963005'
+    to_name: 高速神戸
+    time: 2
+    distance: 0.69
+  - from: '9963005'
+    from_name: 高速神戸
+    to: '9963006'
+    to_name: 新開地
+    time: 2
+    distance: 0.6
+  - from: '9963006'
+    from_name: 新開地
+    to: '9963007'
+    to_name: 大開
+    time: 2
+    distance: 0.88
+  - from: '9963007'
+    from_name: 大開
+    to: '9963008'
+    to_name: 高速長田
+    time: 2
+    distance: 1.03
+  - from: '9963008'
+    from_name: 高速長田
+    to: '9963009'
+    to_name: 西代
+    time: 2
+    distance: 0.87

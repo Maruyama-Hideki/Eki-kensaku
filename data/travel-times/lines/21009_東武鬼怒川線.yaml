@@ -1,0 +1,54 @@
+line_code: '21009'
+line_name: 東武鬼怒川線
+company: 東武鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2100324'
+    from_name: 下今市
+    to: '2100902'
+    to_name: 大谷向
+    time: 2
+    distance: 0.74
+  - from: '2100902'
+    from_name: 大谷向
+    to: '2100903'
+    to_name: 大桑
+    time: 6
+    distance: 3.71
+  - from: '2100903'
+    from_name: 大桑
+    to: '2100904'
+    to_name: 新高徳
+    time: 4
+    distance: 2.13
+  - from: '2100904'
+    from_name: 新高徳
+    to: '2100905'
+    to_name: 小佐越
+    time: 4
+    distance: 2.52
+  - from: '2100905'
+    from_name: 小佐越
+    to: '2100909'
+    to_name: 東武ワールドスクウェア
+    time: 2
+    distance: 0.72
+  - from: '2100906'
+    from_name: 鬼怒川温泉
+    to: '2100907'
+    to_name: 鬼怒川公園
+    time: 4
+    distance: 2.12
+  - from: '2100907'
+    from_name: 鬼怒川公園
+    to: '2100908'
+    to_name: 新藤原
+    time: 3
+    distance: 1.56
+  - from: '2100909'
+    from_name: 東武ワールドスクウェア
+    to: '2100906'
+    to_name: 鬼怒川温泉
+    time: 3
+    distance: 1.72

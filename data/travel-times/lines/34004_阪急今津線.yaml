@@ -1,0 +1,60 @@
+line_code: '34004'
+line_name: 阪急今津線
+company: 阪急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3400401'
+    from_name: 今津
+    to: '3400402'
+    to_name: 阪神国道
+    time: 2
+    distance: 0.64
+  - from: '3400402'
+    from_name: 阪神国道
+    to: '3400108'
+    to_name: 西宮北口
+    time: 2
+    distance: 1
+  - from: '3400108'
+    from_name: 西宮北口
+    to: '3400404'
+    to_name: 門戸厄神
+    time: 2
+    distance: 1.25
+  - from: '3400404'
+    from_name: 門戸厄神
+    to: '3400405'
+    to_name: 甲東園
+    time: 2
+    distance: 1.08
+  - from: '3400405'
+    from_name: 甲東園
+    to: '3400406'
+    to_name: 仁川
+    time: 2
+    distance: 0.97
+  - from: '3400406'
+    from_name: 仁川
+    to: '3400407'
+    to_name: 小林
+    time: 3
+    distance: 1.64
+  - from: '3400407'
+    from_name: 小林
+    to: '3400408'
+    to_name: 逆瀬川
+    time: 2
+    distance: 0.88
+  - from: '3400408'
+    from_name: 逆瀬川
+    to: '3400409'
+    to_name: 宝塚南口
+    time: 2
+    distance: 0.9
+  - from: '3400409'
+    from_name: 宝塚南口
+    to: '1162910'
+    to_name: 宝塚
+    time: 2
+    distance: 0.96

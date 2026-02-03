@@ -1,0 +1,84 @@
+line_code: '30018'
+line_name: 名鉄小牧線
+company: 名古屋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3001801'
+    from_name: 上飯田
+    to: '3001802'
+    to_name: 味鋺
+    time: 4
+    distance: 2.15
+  - from: '3001802'
+    from_name: 味鋺
+    to: '3001803'
+    to_name: 味美
+    time: 3
+    distance: 1.42
+  - from: '3001803'
+    from_name: 味美
+    to: '3001804'
+    to_name: 春日井
+    time: 3
+    distance: 1.69
+  - from: '3001804'
+    from_name: 春日井
+    to: '3001805'
+    to_name: 牛山
+    time: 3
+    distance: 1.58
+  - from: '3001805'
+    from_name: 牛山
+    to: '3001806'
+    to_name: 間内
+    time: 2
+    distance: 0.84
+  - from: '3001806'
+    from_name: 間内
+    to: '3001807'
+    to_name: 小牧口
+    time: 2
+    distance: 1.17
+  - from: '3001807'
+    from_name: 小牧口
+    to: '3001808'
+    to_name: 小牧
+    time: 2
+    distance: 0.83
+  - from: '3001808'
+    from_name: 小牧
+    to: '3001809'
+    to_name: 小牧原
+    time: 3
+    distance: 1.39
+  - from: '3001809'
+    from_name: 小牧原
+    to: '3001810'
+    to_name: 味岡
+    time: 2
+    distance: 1.1
+  - from: '3001810'
+    from_name: 味岡
+    to: '3001811'
+    to_name: 田県神社前
+    time: 2
+    distance: 0.95
+  - from: '3001811'
+    from_name: 田県神社前
+    to: '3001812'
+    to_name: 楽田
+    time: 3
+    distance: 1.57
+  - from: '3001812'
+    from_name: 楽田
+    to: '3001813'
+    to_name: 羽黒
+    time: 4
+    distance: 2.34
+  - from: '3001813'
+    from_name: 羽黒
+    to: '3001518'
+    to_name: 犬山
+    time: 5
+    distance: 3.21

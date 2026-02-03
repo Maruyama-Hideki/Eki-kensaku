@@ -1,0 +1,84 @@
+line_code: '99644'
+line_name: 智頭急行智頭線
+company: 智頭急行
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1160907'
+    from_name: 上郡
+    to: '9964402'
+    to_name: 苔縄
+    time: 6
+    distance: 3.45
+  - from: '9964402'
+    from_name: 苔縄
+    to: '9964403'
+    to_name: 河野原円心
+    time: 4
+    distance: 2.54
+  - from: '9964403'
+    from_name: 河野原円心
+    to: '9964404'
+    to_name: 久崎
+    time: 7
+    distance: 4.57
+  - from: '9964404'
+    from_name: 久崎
+    to: '1163312'
+    to_name: 佐用
+    time: 8
+    distance: 4.96
+  - from: '1163312'
+    from_name: 佐用
+    to: '9964406'
+    to_name: 平福
+    time: 8
+    distance: 4.73
+  - from: '9964406'
+    from_name: 平福
+    to: '9964407'
+    to_name: 石井
+    time: 7
+    distance: 4.44
+  - from: '9964407'
+    from_name: 石井
+    to: '9964408'
+    to_name: 宮本武蔵
+    time: 5
+    distance: 3.26
+  - from: '9964408'
+    from_name: 宮本武蔵
+    to: '9964409'
+    to_name: 大原
+    time: 4
+    distance: 2.48
+  - from: '9964409'
+    from_name: 大原
+    to: '9964410'
+    to_name: 西粟倉
+    time: 7
+    distance: 4.19
+  - from: '9964410'
+    from_name: 西粟倉
+    to: '9964411'
+    to_name: あわくら温泉
+    time: 5
+    distance: 3.11
+  - from: '9964411'
+    from_name: あわくら温泉
+    to: '9964412'
+    to_name: 山郷
+    time: 10
+    distance: 6.55
+  - from: '9964412'
+    from_name: 山郷
+    to: '9964413'
+    to_name: 恋山形
+    time: 5
+    distance: 2.71
+  - from: '9964413'
+    from_name: 恋山形
+    to: '1170410'
+    to_name: 智頭
+    time: 8
+    distance: 4.97

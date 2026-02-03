@@ -1,0 +1,300 @@
+line_code: '27001'
+line_name: 京急本線
+company: 京急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2700101'
+    from_name: 泉岳寺
+    to: '1130103'
+    to_name: 品川
+    time: 2
+    distance: 1.11
+  - from: '1130103'
+    from_name: 品川
+    to: '2700103'
+    to_name: 北品川
+    time: 2
+    distance: 0.7
+  - from: '2700103'
+    from_name: 北品川
+    to: '2700104'
+    to_name: 新馬場
+    time: 2
+    distance: 0.57
+  - from: '2700104'
+    from_name: 新馬場
+    to: '2700105'
+    to_name: 青物横丁
+    time: 2
+    distance: 0.93
+  - from: '2700105'
+    from_name: 青物横丁
+    to: '2700106'
+    to_name: 鮫洲
+    time: 2
+    distance: 0.49
+  - from: '2700106'
+    from_name: 鮫洲
+    to: '2700107'
+    to_name: 立会川
+    time: 2
+    distance: 0.78
+  - from: '2700107'
+    from_name: 立会川
+    to: '2700108'
+    to_name: 大森海岸
+    time: 2
+    distance: 1.25
+  - from: '2700108'
+    from_name: 大森海岸
+    to: '2700109'
+    to_name: 平和島
+    time: 2
+    distance: 0.99
+  - from: '2700109'
+    from_name: 平和島
+    to: '2700110'
+    to_name: 大森町
+    time: 2
+    distance: 0.74
+  - from: '2700110'
+    from_name: 大森町
+    to: '2700111'
+    to_name: 梅屋敷
+    time: 2
+    distance: 0.71
+  - from: '2700111'
+    from_name: 梅屋敷
+    to: '2700112'
+    to_name: 京急蒲田
+    time: 2
+    distance: 0.79
+  - from: '2700112'
+    from_name: 京急蒲田
+    to: '2700113'
+    to_name: 雑色
+    time: 3
+    distance: 1.46
+  - from: '2700113'
+    from_name: 雑色
+    to: '2700114'
+    to_name: 六郷土手
+    time: 2
+    distance: 1.22
+  - from: '2700114'
+    from_name: 六郷土手
+    to: '2700115'
+    to_name: 京急川崎
+    time: 2
+    distance: 1.05
+  - from: '2700115'
+    from_name: 京急川崎
+    to: '1130326'
+    to_name: 八丁畷
+    time: 3
+    distance: 1.38
+  - from: '1130326'
+    from_name: 八丁畷
+    to: '2700117'
+    to_name: 鶴見市場
+    time: 2
+    distance: 0.76
+  - from: '2700117'
+    from_name: 鶴見市場
+    to: '1130401'
+    to_name: 鶴見
+    time: 3
+    distance: 1.38
+  - from: '1130401'
+    from_name: 鶴見
+    to: '2700119'
+    to_name: 花月総持寺
+    time: 2
+    distance: 0.94
+  - from: '2700119'
+    from_name: 花月総持寺
+    to: '2700120'
+    to_name: 生麦
+    time: 2
+    distance: 0.73
+  - from: '2700120'
+    from_name: 生麦
+    to: '1133233'
+    to_name: 新子安
+    time: 3
+    distance: 1.48
+  - from: '1133233'
+    from_name: 新子安
+    to: '2700122'
+    to_name: 子安
+    time: 2
+    distance: 0.93
+  - from: '2700122'
+    from_name: 子安
+    to: '2700123'
+    to_name: 神奈川新町
+    time: 2
+    distance: 0.55
+  - from: '2700123'
+    from_name: 神奈川新町
+    to: '1130601'
+    to_name: 東神奈川
+    time: 2
+    distance: 0.72
+  - from: '1130601'
+    from_name: 東神奈川
+    to: '2700125'
+    to_name: 神奈川
+    time: 2
+    distance: 0.93
+  - from: '2700125'
+    from_name: 神奈川
+    to: '1130105'
+    to_name: 横浜
+    time: 2
+    distance: 0.71
+  - from: '1130105'
+    from_name: 横浜
+    to: '2700127'
+    to_name: 戸部
+    time: 2
+    distance: 1.1
+  - from: '2700127'
+    from_name: 戸部
+    to: '2700128'
+    to_name: 日ノ出町
+    time: 3
+    distance: 1.39
+  - from: '2700128'
+    from_name: 日ノ出町
+    to: '2700129'
+    to_name: 黄金町
+    time: 2
+    distance: 0.75
+  - from: '2700129'
+    from_name: 黄金町
+    to: '2700130'
+    to_name: 南太田
+    time: 2
+    distance: 0.88
+  - from: '2700130'
+    from_name: 南太田
+    to: '2700131'
+    to_name: 井土ヶ谷
+    time: 2
+    distance: 1.21
+  - from: '2700131'
+    from_name: 井土ヶ谷
+    to: '2700132'
+    to_name: 弘明寺
+    time: 2
+    distance: 1.11
+  - from: '2700132'
+    from_name: 弘明寺
+    to: '2700133'
+    to_name: 上大岡
+    time: 3
+    distance: 1.66
+  - from: '2700133'
+    from_name: 上大岡
+    to: '2700134'
+    to_name: 屏風浦
+    time: 4
+    distance: 2.11
+  - from: '2700134'
+    from_name: 屏風浦
+    to: '2700135'
+    to_name: 杉田
+    time: 2
+    distance: 1.25
+  - from: '2700135'
+    from_name: 杉田
+    to: '2700136'
+    to_name: 京急富岡
+    time: 4
+    distance: 2.28
+  - from: '2700136'
+    from_name: 京急富岡
+    to: '2700137'
+    to_name: 能見台
+    time: 2
+    distance: 0.69
+  - from: '2700137'
+    from_name: 能見台
+    to: '2700138'
+    to_name: 金沢文庫
+    time: 4
+    distance: 2.07
+  - from: '2700138'
+    from_name: 金沢文庫
+    to: '2700139'
+    to_name: 金沢八景
+    time: 2
+    distance: 1.31
+  - from: '2700139'
+    from_name: 金沢八景
+    to: '2700140'
+    to_name: 追浜
+    time: 3
+    distance: 1.8
+  - from: '2700140'
+    from_name: 追浜
+    to: '2700141'
+    to_name: 京急田浦
+    time: 3
+    distance: 1.62
+  - from: '2700141'
+    from_name: 京急田浦
+    to: '2700142'
+    to_name: 安針塚
+    time: 4
+    distance: 2.25
+  - from: '2700142'
+    from_name: 安針塚
+    to: '2700143'
+    to_name: 逸見
+    time: 2
+    distance: 1.15
+  - from: '2700143'
+    from_name: 逸見
+    to: '2700144'
+    to_name: 汐入
+    time: 2
+    distance: 0.84
+  - from: '2700144'
+    from_name: 汐入
+    to: '2700145'
+    to_name: 横須賀中央
+    time: 2
+    distance: 0.73
+  - from: '2700145'
+    from_name: 横須賀中央
+    to: '2700146'
+    to_name: 県立大学
+    time: 2
+    distance: 1.16
+  - from: '2700146'
+    from_name: 県立大学
+    to: '2700147'
+    to_name: 堀ノ内
+    time: 2
+    distance: 1.15
+  - from: '2700147'
+    from_name: 堀ノ内
+    to: '2700148'
+    to_name: 京急大津
+    time: 2
+    distance: 0.8
+  - from: '2700148'
+    from_name: 京急大津
+    to: '2700149'
+    to_name: 馬堀海岸
+    time: 2
+    distance: 1.1
+  - from: '2700149'
+    from_name: 馬堀海岸
+    to: '2700150'
+    to_name: 浦賀
+    time: 2
+    distance: 1.19

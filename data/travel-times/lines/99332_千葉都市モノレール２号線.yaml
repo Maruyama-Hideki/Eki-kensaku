@@ -1,0 +1,78 @@
+line_code: '99332'
+line_name: 千葉都市モノレール２号線
+company: 千葉都市モノレール
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1131339'
+    from_name: 千葉
+    to: '9933202'
+    to_name: 千葉公園
+    time: 2
+    distance: 0.84
+  - from: '9933202'
+    from_name: 千葉公園
+    to: '9933203'
+    to_name: 作草部
+    time: 2
+    distance: 0.71
+  - from: '9933203'
+    from_name: 作草部
+    to: '9933204'
+    to_name: 天台
+    time: 2
+    distance: 0.66
+  - from: '9933204'
+    from_name: 天台
+    to: '9933205'
+    to_name: 穴川
+    time: 2
+    distance: 0.92
+  - from: '9933205'
+    from_name: 穴川
+    to: '9933206'
+    to_name: スポーツセンター
+    time: 2
+    distance: 0.55
+  - from: '9933206'
+    from_name: スポーツセンター
+    to: '9933207'
+    to_name: 動物公園
+    time: 2
+    distance: 0.85
+  - from: '9933207'
+    from_name: 動物公園
+    to: '9933208'
+    to_name: みつわ台
+    time: 2
+    distance: 0.96
+  - from: '9933208'
+    from_name: みつわ台
+    to: '1131412'
+    to_name: 都賀
+    time: 2
+    distance: 1.33
+  - from: '1131412'
+    from_name: 都賀
+    to: '9933210'
+    to_name: 桜木
+    time: 2
+    distance: 1.18
+  - from: '9933210'
+    from_name: 桜木
+    to: '9933211'
+    to_name: 小倉台
+    time: 2
+    distance: 1.06
+  - from: '9933211'
+    from_name: 小倉台
+    to: '9933212'
+    to_name: 千城台北
+    time: 2
+    distance: 0.91
+  - from: '9933212'
+    from_name: 千城台北
+    to: '9933213'
+    to_name: 千城台
+    time: 2
+    distance: 0.82

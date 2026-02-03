@@ -1,0 +1,60 @@
+line_code: '99343'
+line_name: グリーンライン
+company: 横浜市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '1130607'
+    from_name: 中山
+    to: '9934302'
+    to_name: 川和町
+    time: 3
+    distance: 1.69
+  - from: '9934302'
+    from_name: 川和町
+    to: '9934303'
+    to_name: 都筑ふれあいの丘
+    time: 3
+    distance: 1.49
+  - from: '9934303'
+    from_name: 都筑ふれあいの丘
+    to: '9931604'
+    to_name: センター南
+    time: 3
+    distance: 1.53
+  - from: '9931604'
+    from_name: センター南
+    to: '9931603'
+    to_name: センター北
+    time: 2
+    distance: 0.97
+  - from: '9931603'
+    from_name: センター北
+    to: '9934306'
+    to_name: 北山田
+    time: 3
+    distance: 1.5
+  - from: '9934306'
+    from_name: 北山田
+    to: '9934307'
+    to_name: 東山田
+    time: 3
+    distance: 1.33
+  - from: '9934307'
+    from_name: 東山田
+    to: '9934308'
+    to_name: 高田
+    time: 3
+    distance: 1.5
+  - from: '9934308'
+    from_name: 高田
+    to: '9934309'
+    to_name: 日吉本町
+    time: 3
+    distance: 1.23
+  - from: '9934309'
+    from_name: 日吉本町
+    to: '2600113'
+    to_name: 日吉
+    time: 3
+    distance: 1.29

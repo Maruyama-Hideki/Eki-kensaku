@@ -1,0 +1,60 @@
+line_code: '11220'
+line_name: 奥の細道最上川ライン
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1120201'
+    from_name: 新庄
+    to: '1122002'
+    to_name: 升形
+    time: 9
+    distance: 5.5
+  - from: '1122002'
+    from_name: 升形
+    to: '1122003'
+    to_name: 羽前前波
+    time: 5
+    distance: 3.04
+  - from: '1122003'
+    from_name: 羽前前波
+    to: '1122004'
+    to_name: 津谷
+    time: 4
+    distance: 2.3
+  - from: '1122004'
+    from_name: 津谷
+    to: '1122005'
+    to_name: 古口
+    time: 6
+    distance: 3.5
+  - from: '1122005'
+    from_name: 古口
+    to: '1122006'
+    to_name: 高屋
+    time: 11
+    distance: 6.73
+  - from: '1122006'
+    from_name: 高屋
+    to: '1122007'
+    to_name: 清川
+    time: 10
+    distance: 6.03
+  - from: '1122007'
+    from_name: 清川
+    to: '1122008'
+    to_name: 狩川
+    time: 6
+    distance: 3.83
+  - from: '1122008'
+    from_name: 狩川
+    to: '1122009'
+    to_name: 南野
+    time: 6
+    distance: 3.89
+  - from: '1122009'
+    from_name: 南野
+    to: '1121434'
+    to_name: 余目
+    time: 7
+    distance: 4.1

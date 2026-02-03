@@ -1,0 +1,102 @@
+line_code: '11603'
+line_name: JR神戸線(大阪～神戸)
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1160214'
+    from_name: 大阪
+    to: '1160302'
+    to_name: 塚本
+    time: 5
+    distance: 2.67
+  - from: '1160302'
+    from_name: 塚本
+    to: '1160303'
+    to_name: 尼崎
+    time: 7
+    distance: 4
+  - from: '1160303'
+    from_name: 尼崎
+    to: '1160304'
+    to_name: 立花
+    time: 5
+    distance: 3.01
+  - from: '1160304'
+    from_name: 立花
+    to: '1160305'
+    to_name: 甲子園口
+    time: 4
+    distance: 2.3
+  - from: '1160305'
+    from_name: 甲子園口
+    to: '1160306'
+    to_name: 西宮
+    time: 4
+    distance: 2.35
+  - from: '1160306'
+    from_name: 西宮
+    to: '1160316'
+    to_name: さくら夙川
+    time: 3
+    distance: 1.61
+  - from: '1160307'
+    from_name: 芦屋
+    to: '1160308'
+    to_name: 甲南山手
+    time: 3
+    distance: 1.37
+  - from: '1160308'
+    from_name: 甲南山手
+    to: '1160309'
+    to_name: 摂津本山
+    time: 3
+    distance: 1.51
+  - from: '1160309'
+    from_name: 摂津本山
+    to: '1160310'
+    to_name: 住吉
+    time: 3
+    distance: 1.59
+  - from: '1160310'
+    from_name: 住吉
+    to: '1160311'
+    to_name: 六甲道
+    time: 4
+    distance: 2.19
+  - from: '1160311'
+    from_name: 六甲道
+    to: '1160317'
+    to_name: 摩耶
+    time: 3
+    distance: 1.41
+  - from: '1160312'
+    from_name: 灘
+    to: '1160313'
+    to_name: 三ノ宮
+    time: 4
+    distance: 2.33
+  - from: '1160313'
+    from_name: 三ノ宮
+    to: '1160314'
+    to_name: 元町
+    time: 2
+    distance: 0.91
+  - from: '1160314'
+    from_name: 元町
+    to: '1160315'
+    to_name: 神戸
+    time: 3
+    distance: 1.41
+  - from: '1160316'
+    from_name: さくら夙川
+    to: '1160307'
+    to_name: 芦屋
+    time: 4
+    distance: 2.26
+  - from: '1160317'
+    from_name: 摩耶
+    to: '1160312'
+    to_name: 灘
+    time: 2
+    distance: 0.84

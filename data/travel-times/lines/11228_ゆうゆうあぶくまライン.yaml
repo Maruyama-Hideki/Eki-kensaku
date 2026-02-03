@@ -1,0 +1,96 @@
+line_code: '11228'
+line_name: ゆうゆうあぶくまライン
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1122801'
+    from_name: いわき
+    to: '1122802'
+    to_name: 赤井
+    time: 6
+    distance: 3.39
+  - from: '1122802'
+    from_name: 赤井
+    to: '1122803'
+    to_name: 小川郷
+    time: 8
+    distance: 5.11
+  - from: '1122803'
+    from_name: 小川郷
+    to: '1122804'
+    to_name: 江田
+    time: 11
+    distance: 6.71
+  - from: '1122804'
+    from_name: 江田
+    to: '1122805'
+    to_name: 川前
+    time: 11
+    distance: 7.32
+  - from: '1122805'
+    from_name: 川前
+    to: '1122806'
+    to_name: 夏井
+    time: 15
+    distance: 9.4
+  - from: '1122806'
+    from_name: 夏井
+    to: '1122807'
+    to_name: 小野新町
+    time: 6
+    distance: 3.42
+  - from: '1122807'
+    from_name: 小野新町
+    to: '1122808'
+    to_name: 神俣
+    time: 9
+    distance: 5.75
+  - from: '1122808'
+    from_name: 神俣
+    to: '1122809'
+    to_name: 菅谷
+    time: 5
+    distance: 3.28
+  - from: '1122809'
+    from_name: 菅谷
+    to: '1122810'
+    to_name: 大越
+    time: 7
+    distance: 4.15
+  - from: '1122810'
+    from_name: 大越
+    to: '1122811'
+    to_name: 磐城常葉
+    time: 7
+    distance: 4.37
+  - from: '1122811'
+    from_name: 磐城常葉
+    to: '1122812'
+    to_name: 船引
+    time: 6
+    distance: 3.69
+  - from: '1122812'
+    from_name: 船引
+    to: '1122813'
+    to_name: 要田
+    time: 8
+    distance: 4.9
+  - from: '1122813'
+    from_name: 要田
+    to: '1122814'
+    to_name: 三春
+    time: 6
+    distance: 3.69
+  - from: '1122814'
+    from_name: 三春
+    to: '1122815'
+    to_name: 舞木
+    time: 9
+    distance: 5.37
+  - from: '1122815'
+    from_name: 舞木
+    to: '1123114'
+    to_name: 郡山
+    time: 7
+    distance: 4.53

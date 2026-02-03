@@ -1,0 +1,270 @@
+line_code: '11701'
+line_name: JR山陰本線(米子～益田)
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1161642'
+    from_name: 米子
+    to: '1170102'
+    to_name: 安来
+    time: 11
+    distance: 7.02
+  - from: '1170102'
+    from_name: 安来
+    to: '1170103'
+    to_name: 荒島
+    time: 8
+    distance: 4.72
+  - from: '1170103'
+    from_name: 荒島
+    to: '1170104'
+    to_name: 揖屋
+    time: 8
+    distance: 5.28
+  - from: '1170104'
+    from_name: 揖屋
+    to: '1170105'
+    to_name: 東松江
+    time: 5
+    distance: 2.71
+  - from: '1170105'
+    from_name: 東松江
+    to: '1170106'
+    to_name: 松江
+    time: 10
+    distance: 6.2
+  - from: '1170106'
+    from_name: 松江
+    to: '1170107'
+    to_name: 乃木
+    time: 4
+    distance: 2.43
+  - from: '1170107'
+    from_name: 乃木
+    to: '1170108'
+    to_name: 玉造温泉
+    time: 6
+    distance: 3.74
+  - from: '1170108'
+    from_name: 玉造温泉
+    to: '1170109'
+    to_name: 来待
+    time: 9
+    distance: 5.56
+  - from: '1170109'
+    from_name: 来待
+    to: '1170110'
+    to_name: 宍道
+    time: 7
+    distance: 4.15
+  - from: '1170110'
+    from_name: 宍道
+    to: '1170111'
+    to_name: 荘原
+    time: 7
+    distance: 4.01
+  - from: '1170111'
+    from_name: 荘原
+    to: '1170112'
+    to_name: 直江
+    time: 9
+    distance: 5.6
+  - from: '1170112'
+    from_name: 直江
+    to: '1170113'
+    to_name: 出雲市
+    time: 8
+    distance: 5.29
+  - from: '1170113'
+    from_name: 出雲市
+    to: '1170114'
+    to_name: 西出雲
+    time: 7
+    distance: 4.25
+  - from: '1170114'
+    from_name: 西出雲
+    to: '1170115'
+    to_name: 出雲神西
+    time: 4
+    distance: 2.08
+  - from: '1170115'
+    from_name: 出雲神西
+    to: '1170116'
+    to_name: 江南
+    time: 4
+    distance: 2.05
+  - from: '1170116'
+    from_name: 江南
+    to: '1170117'
+    to_name: 小田
+    time: 9
+    distance: 5.89
+  - from: '1170117'
+    from_name: 小田
+    to: '1170118'
+    to_name: 田儀
+    time: 6
+    distance: 3.79
+  - from: '1170118'
+    from_name: 田儀
+    to: '1170119'
+    to_name: 波根
+    time: 11
+    distance: 7.01
+  - from: '1170119'
+    from_name: 波根
+    to: '1170120'
+    to_name: 久手
+    time: 4
+    distance: 2.01
+  - from: '1170120'
+    from_name: 久手
+    to: '1170121'
+    to_name: 大田市
+    time: 5
+    distance: 3.28
+  - from: '1170121'
+    from_name: 大田市
+    to: '1170122'
+    to_name: 静間
+    time: 5
+    distance: 2.91
+  - from: '1170122'
+    from_name: 静間
+    to: '1170123'
+    to_name: 五十猛
+    time: 4
+    distance: 2.48
+  - from: '1170123'
+    from_name: 五十猛
+    to: '1170124'
+    to_name: 仁万
+    time: 9
+    distance: 5.76
+  - from: '1170124'
+    from_name: 仁万
+    to: '1170125'
+    to_name: 馬路
+    time: 5
+    distance: 2.94
+  - from: '1170125'
+    from_name: 馬路
+    to: '1170126'
+    to_name: 湯里
+    time: 4
+    distance: 2.62
+  - from: '1170126'
+    from_name: 湯里
+    to: '1170127'
+    to_name: 温泉津
+    time: 5
+    distance: 2.82
+  - from: '1170127'
+    from_name: 温泉津
+    to: '1170128'
+    to_name: 石見福光
+    time: 4
+    distance: 2.58
+  - from: '1170128'
+    from_name: 石見福光
+    to: '1170129'
+    to_name: 黒松
+    time: 4
+    distance: 2.59
+  - from: '1170129'
+    from_name: 黒松
+    to: '1170130'
+    to_name: 浅利
+    time: 7
+    distance: 4.21
+  - from: '1170130'
+    from_name: 浅利
+    to: '1170131'
+    to_name: 江津
+    time: 9
+    distance: 5.37
+  - from: '1170131'
+    from_name: 江津
+    to: '1170132'
+    to_name: 都野津
+    time: 7
+    distance: 4.15
+  - from: '1170132'
+    from_name: 都野津
+    to: '1170133'
+    to_name: 敬川
+    time: 3
+    distance: 1.79
+  - from: '1170133'
+    from_name: 敬川
+    to: '1170134'
+    to_name: 波子
+    time: 4
+    distance: 2.57
+  - from: '1170134'
+    from_name: 波子
+    to: '1170135'
+    to_name: 久代
+    time: 3
+    distance: 1.96
+  - from: '1170135'
+    from_name: 久代
+    to: '1170136'
+    to_name: 下府
+    time: 6
+    distance: 3.6
+  - from: '1170136'
+    from_name: 下府
+    to: '1170137'
+    to_name: 浜田
+    time: 6
+    distance: 3.39
+  - from: '1170137'
+    from_name: 浜田
+    to: '1170138'
+    to_name: 西浜田
+    time: 8
+    distance: 5.08
+  - from: '1170138'
+    from_name: 西浜田
+    to: '1170139'
+    to_name: 周布
+    time: 5
+    distance: 3.28
+  - from: '1170139'
+    from_name: 周布
+    to: '1170140'
+    to_name: 折居
+    time: 7
+    distance: 4.5
+  - from: '1170140'
+    from_name: 折居
+    to: '1170141'
+    to_name: 三保三隅
+    time: 7
+    distance: 4.42
+  - from: '1170141'
+    from_name: 三保三隅
+    to: '1170142'
+    to_name: 岡見
+    time: 8
+    distance: 4.77
+  - from: '1170142'
+    from_name: 岡見
+    to: '1170143'
+    to_name: 鎌手
+    time: 6
+    distance: 3.85
+  - from: '1170143'
+    from_name: 鎌手
+    to: '1170144'
+    to_name: 石見津田
+    time: 6
+    distance: 3.45
+  - from: '1170144'
+    from_name: 石見津田
+    to: '1170145'
+    to_name: 益田
+    time: 9
+    distance: 5.47

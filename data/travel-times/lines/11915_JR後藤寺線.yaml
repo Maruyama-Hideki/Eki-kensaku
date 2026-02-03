@@ -1,0 +1,36 @@
+line_code: '11915'
+line_name: JR後藤寺線
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1191113'
+    from_name: 新飯塚
+    to: '1191502'
+    to_name: 上三緒
+    time: 5
+    distance: 3.04
+  - from: '1191502'
+    from_name: 上三緒
+    to: '1191503'
+    to_name: 下鴨生
+    time: 3
+    distance: 1.57
+  - from: '1191503'
+    from_name: 下鴨生
+    to: '1191504'
+    to_name: 筑前庄内
+    time: 2
+    distance: 0.97
+  - from: '1191504'
+    from_name: 筑前庄内
+    to: '1191505'
+    to_name: 船尾
+    time: 5
+    distance: 3.09
+  - from: '1191505'
+    from_name: 船尾
+    to: '1191414'
+    to_name: 田川後藤寺
+    time: 5
+    distance: 3.04

@@ -1,0 +1,150 @@
+line_code: '99318'
+line_name: 関東鉄道常総線
+company: 関東鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1122901'
+    from_name: 取手
+    to: '9931802'
+    to_name: 西取手
+    time: 3
+    distance: 1.49
+  - from: '9931802'
+    from_name: 西取手
+    to: '9931803'
+    to_name: 寺原
+    time: 2
+    distance: 0.57
+  - from: '9931803'
+    from_name: 寺原
+    to: '9931804'
+    to_name: 新取手
+    time: 2
+    distance: 1.3
+  - from: '9931804'
+    from_name: 新取手
+    to: '9931825'
+    to_name: ゆめみ野
+    time: 2
+    distance: 0.76
+  - from: '9931805'
+    from_name: 稲戸井
+    to: '9931806'
+    to_name: 戸頭
+    time: 2
+    distance: 0.85
+  - from: '9931806'
+    from_name: 戸頭
+    to: '9931807'
+    to_name: 南守谷
+    time: 2
+    distance: 1.21
+  - from: '9931807'
+    from_name: 南守谷
+    to: '9930915'
+    to_name: 守谷
+    time: 4
+    distance: 2.03
+  - from: '9930915'
+    from_name: 守谷
+    to: '9931809'
+    to_name: 新守谷
+    time: 3
+    distance: 1.84
+  - from: '9931809'
+    from_name: 新守谷
+    to: '9931810'
+    to_name: 小絹
+    time: 3
+    distance: 1.66
+  - from: '9931810'
+    from_name: 小絹
+    to: '9931811'
+    to_name: 水海道
+    time: 7
+    distance: 4.14
+  - from: '9931811'
+    from_name: 水海道
+    to: '9931812'
+    to_name: 北水海道
+    time: 3
+    distance: 1.59
+  - from: '9931812'
+    from_name: 北水海道
+    to: '9931813'
+    to_name: 中妻
+    time: 3
+    distance: 1.7
+  - from: '9931813'
+    from_name: 中妻
+    to: '9931814'
+    to_name: 三妻
+    time: 5
+    distance: 3
+  - from: '9931814'
+    from_name: 三妻
+    to: '9931815'
+    to_name: 南石下
+    time: 5
+    distance: 3.3
+  - from: '9931815'
+    from_name: 南石下
+    to: '9931816'
+    to_name: 石下
+    time: 3
+    distance: 1.64
+  - from: '9931816'
+    from_name: 石下
+    to: '9931817'
+    to_name: 玉村
+    time: 4
+    distance: 2.09
+  - from: '9931817'
+    from_name: 玉村
+    to: '9931818'
+    to_name: 宗道
+    time: 4
+    distance: 2.01
+  - from: '9931818'
+    from_name: 宗道
+    to: '9931819'
+    to_name: 下妻
+    time: 5
+    distance: 3.24
+  - from: '9931819'
+    from_name: 下妻
+    to: '9931820'
+    to_name: 大宝
+    time: 4
+    distance: 2.37
+  - from: '9931820'
+    from_name: 大宝
+    to: '9931821'
+    to_name: 騰波ノ江
+    time: 4
+    distance: 2.3
+  - from: '9931821'
+    from_name: 騰波ノ江
+    to: '9931822'
+    to_name: 黒子
+    time: 5
+    distance: 2.69
+  - from: '9931822'
+    from_name: 黒子
+    to: '9931823'
+    to_name: 大田郷
+    time: 6
+    distance: 3.7
+  - from: '9931823'
+    from_name: 大田郷
+    to: '1133907'
+    to_name: 下館
+    time: 6
+    distance: 3.35
+  - from: '9931825'
+    from_name: ゆめみ野
+    to: '9931805'
+    to_name: 稲戸井
+    time: 2
+    distance: 1.22

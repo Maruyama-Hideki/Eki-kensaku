@@ -1,0 +1,102 @@
+line_code: '99214'
+line_name: 仙台市営地下鉄南北線
+company: 仙台市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '9921401'
+    from_name: 泉中央
+    to: '9921402'
+    to_name: 八乙女
+    time: 3
+    distance: 1.18
+  - from: '9921402'
+    from_name: 八乙女
+    to: '9921403'
+    to_name: 黒松
+    time: 2
+    distance: 1.1
+  - from: '9921403'
+    from_name: 黒松
+    to: '9921404'
+    to_name: 旭ヶ丘
+    time: 2
+    distance: 0.87
+  - from: '9921404'
+    from_name: 旭ヶ丘
+    to: '9921405'
+    to_name: 台原
+    time: 2
+    distance: 0.9
+  - from: '9921405'
+    from_name: 台原
+    to: '1121703'
+    to_name: 北仙台
+    time: 2
+    distance: 1.08
+  - from: '1121703'
+    from_name: 北仙台
+    to: '9921407'
+    to_name: 北四番丁
+    time: 2
+    distance: 1.05
+  - from: '9921407'
+    from_name: 北四番丁
+    to: '9921408'
+    to_name: 勾当台公園
+    time: 2
+    distance: 0.68
+  - from: '9921408'
+    from_name: 勾当台公園
+    to: '9921409'
+    to_name: 広瀬通
+    time: 2
+    distance: 0.54
+  - from: '9921409'
+    from_name: 広瀬通
+    to: '1122201'
+    to_name: あおば通
+    time: 2
+    distance: 0.35
+  - from: '1122201'
+    from_name: あおば通
+    to: '9921411'
+    to_name: 五橋
+    time: 2
+    distance: 1.01
+  - from: '9921411'
+    from_name: 五橋
+    to: '9921412'
+    to_name: 愛宕橋
+    time: 2
+    distance: 0.52
+  - from: '9921412'
+    from_name: 愛宕橋
+    to: '9921413'
+    to_name: 河原町
+    time: 2
+    distance: 0.85
+  - from: '9921413'
+    from_name: 河原町
+    to: '9921414'
+    to_name: 長町一丁目
+    time: 2
+    distance: 0.78
+  - from: '9921414'
+    from_name: 長町一丁目
+    to: '1123142'
+    to_name: 長町
+    time: 2
+    distance: 0.82
+  - from: '1123142'
+    from_name: 長町
+    to: '9921416'
+    to_name: 長町南
+    time: 2
+    distance: 0.86
+  - from: '9921416'
+    from_name: 長町南
+    to: '9921417'
+    to_name: 富沢
+    time: 3
+    distance: 1.29

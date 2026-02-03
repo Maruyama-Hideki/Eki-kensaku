@@ -1,0 +1,60 @@
+line_code: '36004'
+line_name: 西鉄貝塚線
+company: 西日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3600401'
+    from_name: 貝塚
+    to: '3600402'
+    to_name: 名島
+    time: 2
+    distance: 1.23
+  - from: '3600402'
+    from_name: 名島
+    to: '1190228'
+    to_name: 千早
+    time: 2
+    distance: 1.08
+  - from: '1190228'
+    from_name: 千早
+    to: '3600404'
+    to_name: 香椎宮前
+    time: 2
+    distance: 0.72
+  - from: '3600404'
+    from_name: 香椎宮前
+    to: '3600405'
+    to_name: 西鉄香椎
+    time: 2
+    distance: 0.52
+  - from: '3600405'
+    from_name: 西鉄香椎
+    to: '3600406'
+    to_name: 香椎花園前
+    time: 2
+    distance: 1.3
+  - from: '3600406'
+    from_name: 香椎花園前
+    to: '3600407'
+    to_name: 唐の原
+    time: 2
+    distance: 1.13
+  - from: '3600407'
+    from_name: 唐の原
+    to: '1191605'
+    to_name: 和白
+    time: 2
+    distance: 1.07
+  - from: '1191605'
+    from_name: 和白
+    to: '3600409'
+    to_name: 三苫
+    time: 3
+    distance: 1.62
+  - from: '3600409'
+    from_name: 三苫
+    to: '3600410'
+    to_name: 西鉄新宮
+    time: 3
+    distance: 1.88

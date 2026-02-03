@@ -1,0 +1,210 @@
+line_code: '11626'
+line_name: 阪和線(天王寺～和歌山)
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1160719'
+    from_name: 天王寺
+    to: '1162602'
+    to_name: 美章園
+    time: 2
+    distance: 1.32
+  - from: '1162602'
+    from_name: 美章園
+    to: '1162603'
+    to_name: 南田辺
+    time: 3
+    distance: 1.45
+  - from: '1162603'
+    from_name: 南田辺
+    to: '1162604'
+    to_name: 鶴ケ丘
+    time: 2
+    distance: 0.91
+  - from: '1162604'
+    from_name: 鶴ケ丘
+    to: '1162605'
+    to_name: 長居
+    time: 2
+    distance: 0.88
+  - from: '1162605'
+    from_name: 長居
+    to: '1162606'
+    to_name: 我孫子町
+    time: 2
+    distance: 1.15
+  - from: '1162606'
+    from_name: 我孫子町
+    to: '1162607'
+    to_name: 杉本町
+    time: 2
+    distance: 1.03
+  - from: '1162607'
+    from_name: 杉本町
+    to: '1162608'
+    to_name: 浅香
+    time: 2
+    distance: 0.87
+  - from: '1162608'
+    from_name: 浅香
+    to: '1162609'
+    to_name: 堺市
+    time: 2
+    distance: 0.91
+  - from: '1162609'
+    from_name: 堺市
+    to: '1162610'
+    to_name: 三国ケ丘
+    time: 3
+    distance: 1.38
+  - from: '1162610'
+    from_name: 三国ケ丘
+    to: '1162611'
+    to_name: 百舌鳥
+    time: 2
+    distance: 0.96
+  - from: '1162611'
+    from_name: 百舌鳥
+    to: '1162612'
+    to_name: 上野芝
+    time: 3
+    distance: 1.4
+  - from: '1162612'
+    from_name: 上野芝
+    to: '1162613'
+    to_name: 津久野
+    time: 2
+    distance: 1.21
+  - from: '1162613'
+    from_name: 津久野
+    to: '1162614'
+    to_name: 鳳
+    time: 3
+    distance: 1.46
+  - from: '1162614'
+    from_name: 鳳
+    to: '1162615'
+    to_name: 富木
+    time: 2
+    distance: 1.23
+  - from: '1162615'
+    from_name: 富木
+    to: '1162616'
+    to_name: 北信太
+    time: 3
+    distance: 1.59
+  - from: '1162616'
+    from_name: 北信太
+    to: '1162617'
+    to_name: 信太山
+    time: 3
+    distance: 1.41
+  - from: '1162617'
+    from_name: 信太山
+    to: '1162618'
+    to_name: 和泉府中
+    time: 3
+    distance: 1.59
+  - from: '1162618'
+    from_name: 和泉府中
+    to: '1162619'
+    to_name: 久米田
+    time: 5
+    distance: 3
+  - from: '1162619'
+    from_name: 久米田
+    to: '1162620'
+    to_name: 下松
+    time: 2
+    distance: 1.22
+  - from: '1162620'
+    from_name: 下松
+    to: '1162621'
+    to_name: 東岸和田
+    time: 3
+    distance: 1.34
+  - from: '1162621'
+    from_name: 東岸和田
+    to: '1162622'
+    to_name: 東貝塚
+    time: 3
+    distance: 1.56
+  - from: '1162622'
+    from_name: 東貝塚
+    to: '1162623'
+    to_name: 和泉橋本
+    time: 3
+    distance: 1.92
+  - from: '1162623'
+    from_name: 和泉橋本
+    to: '1162624'
+    to_name: 東佐野
+    time: 3
+    distance: 1.42
+  - from: '1162624'
+    from_name: 東佐野
+    to: '1162625'
+    to_name: 熊取
+    time: 3
+    distance: 1.45
+  - from: '1162625'
+    from_name: 熊取
+    to: '1162626'
+    to_name: 日根野
+    time: 3
+    distance: 1.92
+  - from: '1162626'
+    from_name: 日根野
+    to: '1162627'
+    to_name: 長滝
+    time: 3
+    distance: 1.46
+  - from: '1162627'
+    from_name: 長滝
+    to: '1162628'
+    to_name: 新家
+    time: 4
+    distance: 2.16
+  - from: '1162628'
+    from_name: 新家
+    to: '1162629'
+    to_name: 和泉砂川
+    time: 4
+    distance: 2.12
+  - from: '1162629'
+    from_name: 和泉砂川
+    to: '1162630'
+    to_name: 和泉鳥取
+    time: 4
+    distance: 2.57
+  - from: '1162630'
+    from_name: 和泉鳥取
+    to: '1162631'
+    to_name: 山中渓
+    time: 3
+    distance: 1.98
+  - from: '1162631'
+    from_name: 山中渓
+    to: '1162632'
+    to_name: 紀伊
+    time: 10
+    distance: 6.63
+  - from: '1162632'
+    from_name: 紀伊
+    to: '1162633'
+    to_name: 六十谷
+    time: 6
+    distance: 3.67
+  - from: '1162633'
+    from_name: 六十谷
+    to: '1162634'
+    to_name: 紀伊中ノ島
+    time: 5
+    distance: 2.67
+  - from: '1162634'
+    from_name: 紀伊中ノ島
+    to: '1162635'
+    to_name: 和歌山
+    time: 2
+    distance: 1.17

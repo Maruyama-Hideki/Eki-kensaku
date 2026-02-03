@@ -1,0 +1,48 @@
+line_code: '30013'
+line_name: 名鉄津島線
+company: 名古屋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3000142'
+    from_name: 須ヶ口
+    to: '3001302'
+    to_name: 甚目寺
+    time: 3
+    distance: 1.91
+  - from: '3001302'
+    from_name: 甚目寺
+    to: '3001303'
+    to_name: 七宝
+    time: 3
+    distance: 1.73
+  - from: '3001303'
+    from_name: 七宝
+    to: '3001304'
+    to_name: 木田
+    time: 3
+    distance: 1.69
+  - from: '3001304'
+    from_name: 木田
+    to: '3001305'
+    to_name: 青塚
+    time: 3
+    distance: 1.92
+  - from: '3001305'
+    from_name: 青塚
+    to: '3001306'
+    to_name: 勝幡
+    time: 3
+    distance: 1.59
+  - from: '3001306'
+    from_name: 勝幡
+    to: '3001307'
+    to_name: 藤浪
+    time: 2
+    distance: 1.24
+  - from: '3001307'
+    from_name: 藤浪
+    to: '3001308'
+    to_name: 津島
+    time: 3
+    distance: 1.41

@@ -1,0 +1,18 @@
+line_code: '32004'
+line_name: 南海高師浜線
+company: 南海電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1162702'
+    from_name: 東羽衣
+    to: '3200402'
+    to_name: 伽羅橋
+    time: 2
+    distance: 0.88
+  - from: '3200402'
+    from_name: 伽羅橋
+    to: '3200403'
+    to_name: 高師浜
+    time: 2
+    distance: 0.48

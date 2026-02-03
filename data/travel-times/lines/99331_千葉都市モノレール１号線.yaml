@@ -1,0 +1,36 @@
+line_code: '99331'
+line_name: 千葉都市モノレール１号線
+company: 千葉都市モノレール
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1132617'
+    from_name: 千葉みなと
+    to: '9933102'
+    to_name: 市役所前
+    time: 2
+    distance: 0.4
+  - from: '9933102'
+    from_name: 市役所前
+    to: '1131339'
+    to_name: 千葉
+    time: 2
+    distance: 0.86
+  - from: '1131339'
+    from_name: 千葉
+    to: '9933104'
+    to_name: 栄町
+    time: 2
+    distance: 0.52
+  - from: '9933104'
+    from_name: 栄町
+    to: '9933105'
+    to_name: 葭川公園
+    time: 2
+    distance: 0.5
+  - from: '9933105'
+    from_name: 葭川公園
+    to: '9933106'
+    to_name: 県庁前
+    time: 2
+    distance: 0.54

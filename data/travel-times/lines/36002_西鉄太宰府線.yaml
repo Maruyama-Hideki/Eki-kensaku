@@ -1,0 +1,18 @@
+line_code: '36002'
+line_name: 西鉄太宰府線
+company: 西日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3600112'
+    from_name: 西鉄二日市
+    to: '3600202'
+    to_name: 西鉄五条
+    time: 2
+    distance: 1.25
+  - from: '3600202'
+    from_name: 西鉄五条
+    to: '3600203'
+    to_name: 太宰府
+    time: 2
+    distance: 1.01

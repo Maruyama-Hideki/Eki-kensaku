@@ -1,0 +1,90 @@
+line_code: '99415'
+line_name: 富山港線
+company: 富山地方鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1140501'
+    from_name: 富山
+    to: '9941514'
+    to_name: オークスカナルパークホテル富山前
+    time: 2
+    distance: 0.3
+  - from: '9941502'
+    from_name: インテック本社前
+    to: '9941515'
+    to_name: 龍谷富山高校前（永楽町）
+    time: 2
+    distance: 0.27
+  - from: '9941503'
+    from_name: 奥田中学校前
+    to: '9941504'
+    to_name: 下奥井
+    time: 2
+    distance: 0.87
+  - from: '9941504'
+    from_name: 下奥井
+    to: '9941505'
+    to_name: 粟島（大阪屋ショップ前）
+    time: 2
+    distance: 0.9
+  - from: '9941505'
+    from_name: 粟島（大阪屋ショップ前）
+    to: '9941506'
+    to_name: 越中中島
+    time: 2
+    distance: 0.3
+  - from: '9941506'
+    from_name: 越中中島
+    to: '9941507'
+    to_name: 城川原
+    time: 2
+    distance: 1
+  - from: '9941507'
+    from_name: 城川原
+    to: '9941508'
+    to_name: 犬島新町
+    time: 2
+    distance: 0.49
+  - from: '9941508'
+    from_name: 犬島新町
+    to: '9941509'
+    to_name: 蓮町（馬場記念公園前）
+    time: 2
+    distance: 0.81
+  - from: '9941509'
+    from_name: 蓮町（馬場記念公園前）
+    to: '9941510'
+    to_name: 萩浦小学校前
+    time: 2
+    distance: 0.67
+  - from: '9941510'
+    from_name: 萩浦小学校前
+    to: '9941511'
+    to_name: 東岩瀬
+    time: 2
+    distance: 0.41
+  - from: '9941511'
+    from_name: 東岩瀬
+    to: '9941512'
+    to_name: 競輪場前
+    time: 2
+    distance: 0.69
+  - from: '9941512'
+    from_name: 競輪場前
+    to: '9941513'
+    to_name: 岩瀬浜
+    time: 2
+    distance: 0.42
+  - from: '9941514'
+    from_name: オークスカナルパークホテル富山前
+    to: '9941502'
+    to_name: インテック本社前
+    time: 2
+    distance: 0.18
+  - from: '9941515'
+    from_name: 龍谷富山高校前（永楽町）
+    to: '9941503'
+    to_name: 奥田中学校前
+    time: 2
+    distance: 0.36

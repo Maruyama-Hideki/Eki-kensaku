@@ -1,0 +1,126 @@
+line_code: '99304'
+line_name: 都営新宿線
+company: 東京都交通局
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130208'
+    from_name: 新宿
+    to: '2800217'
+    to_name: 新宿三丁目
+    time: 2
+    distance: 0.42
+  - from: '2800217'
+    from_name: 新宿三丁目
+    to: '9930403'
+    to_name: 曙橋
+    time: 3
+    distance: 1.63
+  - from: '9930403'
+    from_name: 曙橋
+    to: '1131315'
+    to_name: 市ケ谷
+    time: 2
+    distance: 1.16
+  - from: '1131315'
+    from_name: 市ケ谷
+    to: '2800407'
+    to_name: 九段下
+    time: 3
+    distance: 1.56
+  - from: '2800407'
+    from_name: 九段下
+    to: '2800807'
+    to_name: 神保町
+    time: 2
+    distance: 0.51
+  - from: '2800807'
+    from_name: 神保町
+    to: '2800207'
+    to_name: 小川町
+    time: 2
+    distance: 0.9
+  - from: '2800207'
+    from_name: 小川町
+    to: '9930408'
+    to_name: 岩本町
+    time: 2
+    distance: 0.75
+  - from: '9930408'
+    from_name: 岩本町
+    to: '1131403'
+    to_name: 馬喰町
+    time: 2
+    distance: 0.64
+  - from: '1131403'
+    from_name: 馬喰町
+    to: '9930410'
+    to_name: 浜町
+    time: 2
+    distance: 0.75
+  - from: '9930410'
+    from_name: 浜町
+    to: '9930114'
+    to_name: 森下
+    time: 2
+    distance: 0.81
+  - from: '9930114'
+    from_name: 森下
+    to: '9930412'
+    to_name: 菊川
+    time: 2
+    distance: 0.81
+  - from: '9930412'
+    from_name: 菊川
+    to: '2800814'
+    to_name: 住吉
+    time: 2
+    distance: 0.88
+  - from: '2800814'
+    from_name: 住吉
+    to: '9930414'
+    to_name: 西大島
+    time: 2
+    distance: 0.95
+  - from: '9930414'
+    from_name: 西大島
+    to: '9930415'
+    to_name: 大島
+    time: 2
+    distance: 0.86
+  - from: '9930415'
+    from_name: 大島
+    to: '9930416'
+    to_name: 東大島
+    time: 2
+    distance: 0.93
+  - from: '9930416'
+    from_name: 東大島
+    to: '9930417'
+    to_name: 船堀
+    time: 3
+    distance: 1.81
+  - from: '9930417'
+    from_name: 船堀
+    to: '9930418'
+    to_name: 一之江
+    time: 3
+    distance: 1.71
+  - from: '9930418'
+    from_name: 一之江
+    to: '9930419'
+    to_name: 瑞江
+    time: 3
+    distance: 1.55
+  - from: '9930419'
+    from_name: 瑞江
+    to: '9930420'
+    to_name: 篠崎
+    time: 3
+    distance: 1.52
+  - from: '9930420'
+    from_name: 篠崎
+    to: '1131328'
+    to_name: 本八幡
+    time: 5
+    distance: 2.71

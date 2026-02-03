@@ -1,0 +1,24 @@
+line_code: '31011'
+line_name: 近鉄天理線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3100207'
+    from_name: 平端
+    to: '3101102'
+    to_name: 二階堂
+    time: 2
+    distance: 1.27
+  - from: '3101102'
+    from_name: 二階堂
+    to: '3101103'
+    to_name: 前栽
+    time: 3
+    distance: 1.93
+  - from: '3101103'
+    from_name: 前栽
+    to: '1163705'
+    to_name: 天理
+    time: 2
+    distance: 1.26

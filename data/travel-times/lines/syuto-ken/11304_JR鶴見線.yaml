@@ -1,0 +1,78 @@
+line_code: '11304'
+line_name: JR鶴見線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130401'
+    from_name: 鶴見
+    to: '1130402'
+    to_name: 国道
+    time: 2
+    distance: 0.84
+  - from: '1130402'
+    from_name: 国道
+    to: '1130403'
+    to_name: 鶴見小野
+    time: 2
+    distance: 0.66
+  - from: '1130403'
+    from_name: 鶴見小野
+    to: '1130404'
+    to_name: 弁天橋
+    time: 2
+    distance: 0.76
+  - from: '1130404'
+    from_name: 弁天橋
+    to: '1130405'
+    to_name: 浅野
+    time: 2
+    distance: 0.6
+  - from: '1130405'
+    from_name: 浅野
+    to: '1130406'
+    to_name: 新芝浦
+    time: 2
+    distance: 0.74
+  - from: '1130405'
+    from_name: 浅野
+    to: '1130408'
+    to_name: 安善
+    time: 2
+    distance: 0.5
+  - from: '1130406'
+    from_name: 新芝浦
+    to: '1130407'
+    to_name: 海芝浦
+    time: 2
+    distance: 0.65
+  - from: '1130408'
+    from_name: 安善
+    to: '1130410'
+    to_name: 武蔵白石
+    time: 2
+    distance: 0.59
+  - from: '1130409'
+    from_name: 大川
+    to: '1130408'
+    to_name: 安善
+    time: 2
+    distance: 1.04
+  - from: '1130410'
+    from_name: 武蔵白石
+    to: '1130328'
+    to_name: 浜川崎
+    time: 2
+    distance: 1.14
+  - from: '1130328'
+    from_name: 浜川崎
+    to: '1130412'
+    to_name: 昭和
+    time: 2
+    distance: 1.02
+  - from: '1130412'
+    from_name: 昭和
+    to: '1130413'
+    to_name: 扇町
+    time: 2
+    distance: 0.62

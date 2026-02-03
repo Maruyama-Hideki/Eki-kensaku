@@ -1,0 +1,78 @@
+line_code: '99108'
+line_name: 道南いさりび鉄道線
+company: 道南いさりび鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1111806'
+    from_name: 木古内
+    to: '1111911'
+    to_name: 札苅
+    time: 6
+    distance: 3.71
+  - from: '1111911'
+    from_name: 札苅
+    to: '1111912'
+    to_name: 泉沢
+    time: 5
+    distance: 3.22
+  - from: '1111912'
+    from_name: 泉沢
+    to: '1111913'
+    to_name: 釜谷
+    time: 5
+    distance: 2.82
+  - from: '1111913'
+    from_name: 釜谷
+    to: '1111914'
+    to_name: 渡島当別
+    time: 7
+    distance: 4.46
+  - from: '1111914'
+    from_name: 渡島当別
+    to: '1111915'
+    to_name: 茂辺地
+    time: 6
+    distance: 3.71
+  - from: '1111915'
+    from_name: 茂辺地
+    to: '1111916'
+    to_name: 上磯
+    time: 11
+    distance: 6.76
+  - from: '1111916'
+    from_name: 上磯
+    to: '1111917'
+    to_name: 清川口
+    time: 2
+    distance: 1.16
+  - from: '1111917'
+    from_name: 清川口
+    to: '1111918'
+    to_name: 久根別
+    time: 2
+    distance: 1.15
+  - from: '1111918'
+    from_name: 久根別
+    to: '1111919'
+    to_name: 東久根別
+    time: 2
+    distance: 1.1
+  - from: '1111919'
+    from_name: 東久根別
+    to: '1111920'
+    to_name: 七重浜
+    time: 4
+    distance: 2.52
+  - from: '1111920'
+    from_name: 七重浜
+    to: '1110102'
+    to_name: 五稜郭
+    time: 4
+    distance: 2.64
+  - from: '1110102'
+    from_name: 五稜郭
+    to: '1110101'
+    to_name: 函館
+    time: 6
+    distance: 3.37

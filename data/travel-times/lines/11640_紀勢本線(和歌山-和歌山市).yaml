@@ -1,0 +1,18 @@
+line_code: '11640'
+line_name: 紀勢本線(和歌山～和歌山市)
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1162635'
+    from_name: 和歌山
+    to: '1164002'
+    to_name: 紀和
+    time: 3
+    distance: 1.4
+  - from: '1164002'
+    from_name: 紀和
+    to: '1164003'
+    to_name: 和歌山市
+    time: 3
+    distance: 1.47

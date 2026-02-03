@@ -1,0 +1,24 @@
+line_code: '99412'
+line_name: 黒部峡谷鉄道本線
+company: 黒部峡谷鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9940838'
+    from_name: 宇奈月温泉
+    to: '9941202'
+    to_name: 黒薙
+    time: 8
+    distance: 4.89
+  - from: '9941202'
+    from_name: 黒薙
+    to: '9941203'
+    to_name: 鐘釣
+    time: 10
+    distance: 6.27
+  - from: '9941203'
+    from_name: 鐘釣
+    to: '9941204'
+    to_name: 欅平
+    time: 7
+    distance: 4.23

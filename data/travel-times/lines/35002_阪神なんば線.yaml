@@ -1,0 +1,66 @@
+line_code: '35002'
+line_name: 阪神なんば線
+company: 阪神電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1162307'
+    from_name: 西九条
+    to: '3500202'
+    to_name: 千鳥橋
+    time: 2
+    distance: 0.88
+  - from: '3500202'
+    from_name: 千鳥橋
+    to: '3500203'
+    to_name: 伝法
+    time: 2
+    distance: 0.71
+  - from: '3500203'
+    from_name: 伝法
+    to: '3500204'
+    to_name: 福
+    time: 3
+    distance: 1.42
+  - from: '3500204'
+    from_name: 福
+    to: '3500205'
+    to_name: 出来島
+    time: 2
+    distance: 0.98
+  - from: '3500205'
+    from_name: 出来島
+    to: '3500108'
+    to_name: 大物
+    time: 3
+    distance: 1.47
+  - from: '3500108'
+    from_name: 大物
+    to: '3500109'
+    to_name: 尼崎
+    time: 2
+    distance: 0.79
+  - from: '3500208'
+    from_name: 九条
+    to: '1162307'
+    to_name: 西九条
+    time: 2
+    distance: 1.25
+  - from: '3500209'
+    from_name: ドーム前
+    to: '3500208'
+    to_name: 九条
+    time: 2
+    distance: 0.5
+  - from: '3200901'
+    from_name: 汐見橋
+    to: '3500209'
+    to_name: ドーム前
+    time: 2
+    distance: 0.78
+  - from: '3100101'
+    from_name: 大阪難波
+    to: '3200901'
+    to_name: 汐見橋
+    time: 2
+    distance: 1.19

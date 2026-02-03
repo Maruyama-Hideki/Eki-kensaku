@@ -1,0 +1,30 @@
+line_code: '99426'
+line_name: IRいしかわ鉄道線
+company: IRいしかわ鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1141544'
+    from_name: 東金沢
+    to: '1141545'
+    to_name: 森本
+    time: 5
+    distance: 2.7
+  - from: '1141545'
+    from_name: 森本
+    to: '1141546'
+    to_name: 津幡
+    time: 10
+    distance: 6.28
+  - from: '1141546'
+    from_name: 津幡
+    to: '1141547'
+    to_name: 倶利伽羅
+    time: 9
+    distance: 5.66
+  - from: '1141543'
+    from_name: 金沢
+    to: '1141544'
+    to_name: 東金沢
+    time: 4
+    distance: 2.59

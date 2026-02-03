@@ -1,0 +1,12 @@
+line_code: '32008'
+line_name: 南海高野山ケーブル
+company: 南海電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3200742'
+    from_name: 極楽橋
+    to: '3200802'
+    to_name: 高野山
+    time: 2
+    distance: 0.84

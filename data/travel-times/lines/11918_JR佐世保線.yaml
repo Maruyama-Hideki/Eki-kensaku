@@ -1,0 +1,84 @@
+line_code: '11918'
+line_name: JR佐世保線
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1190512'
+    from_name: 肥前山口
+    to: '1191802'
+    to_name: 大町
+    time: 8
+    distance: 5.12
+  - from: '1191802'
+    from_name: 大町
+    to: '1191803'
+    to_name: 北方
+    time: 4
+    distance: 2.2
+  - from: '1191803'
+    from_name: 北方
+    to: '1191804'
+    to_name: 高橋
+    time: 6
+    distance: 3.91
+  - from: '1191804'
+    from_name: 高橋
+    to: '1191805'
+    to_name: 武雄温泉
+    time: 4
+    distance: 2.29
+  - from: '1191805'
+    from_name: 武雄温泉
+    to: '1191806'
+    to_name: 永尾
+    time: 6
+    distance: 3.91
+  - from: '1191806'
+    from_name: 永尾
+    to: '1191807'
+    to_name: 三間坂
+    time: 5
+    distance: 3.04
+  - from: '1191807'
+    from_name: 三間坂
+    to: '1191808'
+    to_name: 上有田
+    time: 6
+    distance: 3.98
+  - from: '1191808'
+    from_name: 上有田
+    to: '1191809'
+    to_name: 有田
+    time: 4
+    distance: 2.31
+  - from: '1191809'
+    from_name: 有田
+    to: '1191810'
+    to_name: 三河内
+    time: 10
+    distance: 6.15
+  - from: '1191810'
+    from_name: 三河内
+    to: '1191811'
+    to_name: 早岐
+    time: 5
+    distance: 3.31
+  - from: '1191811'
+    from_name: 早岐
+    to: '1191812'
+    to_name: 大塔
+    time: 4
+    distance: 2.32
+  - from: '1191812'
+    from_name: 大塔
+    to: '1191813'
+    to_name: 日宇
+    time: 4
+    distance: 2.39
+  - from: '1191813'
+    from_name: 日宇
+    to: '1191814'
+    to_name: 佐世保
+    time: 5
+    distance: 3.12

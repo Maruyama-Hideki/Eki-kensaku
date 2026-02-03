@@ -1,0 +1,120 @@
+line_code: '11219'
+line_name: JR米坂線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1121609'
+    from_name: 米沢
+    to: '1121902'
+    to_name: 南米沢
+    time: 4
+    distance: 2.29
+  - from: '1121902'
+    from_name: 南米沢
+    to: '1121903'
+    to_name: 西米沢
+    time: 5
+    distance: 3.14
+  - from: '1121903'
+    from_name: 西米沢
+    to: '1121904'
+    to_name: 成島
+    time: 5
+    distance: 3.01
+  - from: '1121904'
+    from_name: 成島
+    to: '1121905'
+    to_name: 中郡
+    time: 5
+    distance: 2.96
+  - from: '1121905'
+    from_name: 中郡
+    to: '1121906'
+    to_name: 羽前小松
+    time: 7
+    distance: 4.29
+  - from: '1121906'
+    from_name: 羽前小松
+    to: '1121907'
+    to_name: 犬川
+    time: 4
+    distance: 2.31
+  - from: '1121907'
+    from_name: 犬川
+    to: '1121908'
+    to_name: 今泉
+    time: 6
+    distance: 3.56
+  - from: '1121908'
+    from_name: 今泉
+    to: '1121909'
+    to_name: 萩生
+    time: 6
+    distance: 3.54
+  - from: '1121909'
+    from_name: 萩生
+    to: '1121910'
+    to_name: 羽前椿
+    time: 5
+    distance: 2.72
+  - from: '1121910'
+    from_name: 羽前椿
+    to: '1121911'
+    to_name: 手ノ子
+    time: 7
+    distance: 4.16
+  - from: '1121911'
+    from_name: 手ノ子
+    to: '1121912'
+    to_name: 羽前沼沢
+    time: 13
+    distance: 8
+  - from: '1121912'
+    from_name: 羽前沼沢
+    to: '1121913'
+    to_name: 伊佐領
+    time: 8
+    distance: 5.02
+  - from: '1121913'
+    from_name: 伊佐領
+    to: '1121914'
+    to_name: 羽前松岡
+    time: 6
+    distance: 3.75
+  - from: '1121914'
+    from_name: 羽前松岡
+    to: '1121915'
+    to_name: 小国
+    time: 5
+    distance: 3.19
+  - from: '1121915'
+    from_name: 小国
+    to: '1121916'
+    to_name: 越後金丸
+    time: 12
+    distance: 7.61
+  - from: '1121916'
+    from_name: 越後金丸
+    to: '1121917'
+    to_name: 越後片貝
+    time: 6
+    distance: 3.63
+  - from: '1121917'
+    from_name: 越後片貝
+    to: '1121918'
+    to_name: 越後下関
+    time: 9
+    distance: 5.87
+  - from: '1121918'
+    from_name: 越後下関
+    to: '1121919'
+    to_name: 越後大島
+    time: 6
+    distance: 3.81
+  - from: '1121919'
+    from_name: 越後大島
+    to: '1121412'
+    to_name: 坂町
+    time: 11
+    distance: 6.69

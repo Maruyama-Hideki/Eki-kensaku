@@ -1,0 +1,276 @@
+line_code: '11338'
+line_name: JR水郡線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1122917'
+    from_name: 水戸
+    to: '1133802'
+    to_name: 常陸青柳
+    time: 3
+    distance: 1.57
+  - from: '1133802'
+    from_name: 常陸青柳
+    to: '1133803'
+    to_name: 常陸津田
+    time: 4
+    distance: 2.29
+  - from: '1133803'
+    from_name: 常陸津田
+    to: '1133804'
+    to_name: 後台
+    time: 4
+    distance: 2.27
+  - from: '1133804'
+    from_name: 後台
+    to: '1133805'
+    to_name: 下菅谷
+    time: 3
+    distance: 1.34
+  - from: '1133805'
+    from_name: 下菅谷
+    to: '1133806'
+    to_name: 中菅谷
+    time: 2
+    distance: 1.15
+  - from: '1133806'
+    from_name: 中菅谷
+    to: '1133807'
+    to_name: 上菅谷
+    time: 2
+    distance: 1.08
+  - from: '1133807'
+    from_name: 上菅谷
+    to: '1133808'
+    to_name: 南酒出
+    time: 4
+    distance: 2.5
+  - from: '1133807'
+    from_name: 上菅谷
+    to: '1133813'
+    to_name: 常陸鴻巣
+    time: 5
+    distance: 2.94
+  - from: '1133808'
+    from_name: 南酒出
+    to: '1133809'
+    to_name: 額田
+    time: 2
+    distance: 1.03
+  - from: '1133809'
+    from_name: 額田
+    to: '1133810'
+    to_name: 河合
+    time: 5
+    distance: 2.79
+  - from: '1133810'
+    from_name: 河合
+    to: '1133811'
+    to_name: 谷河原
+    time: 3
+    distance: 1.46
+  - from: '1133811'
+    from_name: 谷河原
+    to: '1133812'
+    to_name: 常陸太田
+    time: 2
+    distance: 1.3
+  - from: '1133813'
+    from_name: 常陸鴻巣
+    to: '1133814'
+    to_name: 瓜連
+    time: 5
+    distance: 3.21
+  - from: '1133814'
+    from_name: 瓜連
+    to: '1133815'
+    to_name: 静
+    time: 3
+    distance: 1.43
+  - from: '1133815'
+    from_name: 静
+    to: '1133816'
+    to_name: 常陸大宮
+    time: 8
+    distance: 5.16
+  - from: '1133816'
+    from_name: 常陸大宮
+    to: '1133817'
+    to_name: 玉川村
+    time: 8
+    distance: 4.89
+  - from: '1133817'
+    from_name: 玉川村
+    to: '1133818'
+    to_name: 野上原
+    time: 5
+    distance: 3.3
+  - from: '1133818'
+    from_name: 野上原
+    to: '1133819'
+    to_name: 山方宿
+    time: 4
+    distance: 2.31
+  - from: '1133819'
+    from_name: 山方宿
+    to: '1133820'
+    to_name: 中舟生
+    time: 4
+    distance: 2.48
+  - from: '1133820'
+    from_name: 中舟生
+    to: '1133821'
+    to_name: 下小川
+    time: 4
+    distance: 2.63
+  - from: '1133821'
+    from_name: 下小川
+    to: '1133822'
+    to_name: 西金
+    time: 5
+    distance: 2.95
+  - from: '1133822'
+    from_name: 西金
+    to: '1133823'
+    to_name: 上小川
+    time: 5
+    distance: 2.73
+  - from: '1133823'
+    from_name: 上小川
+    to: '1133824'
+    to_name: 袋田
+    time: 6
+    distance: 3.95
+  - from: '1133824'
+    from_name: 袋田
+    to: '1133825'
+    to_name: 常陸大子
+    time: 5
+    distance: 3.11
+  - from: '1133825'
+    from_name: 常陸大子
+    to: '1133826'
+    to_name: 下野宮
+    time: 9
+    distance: 5.46
+  - from: '1133826'
+    from_name: 下野宮
+    to: '1133827'
+    to_name: 矢祭山
+    time: 7
+    distance: 4.18
+  - from: '1133827'
+    from_name: 矢祭山
+    to: '1133828'
+    to_name: 東館
+    time: 6
+    distance: 3.38
+  - from: '1133828'
+    from_name: 東館
+    to: '1133829'
+    to_name: 南石井
+    time: 5
+    distance: 2.77
+  - from: '1133829'
+    from_name: 南石井
+    to: '1133830'
+    to_name: 磐城石井
+    time: 2
+    distance: 1.11
+  - from: '1133830'
+    from_name: 磐城石井
+    to: '1133831'
+    to_name: 磐城塙
+    time: 10
+    distance: 6.02
+  - from: '1133831'
+    from_name: 磐城塙
+    to: '1133832'
+    to_name: 近津
+    time: 8
+    distance: 4.93
+  - from: '1133832'
+    from_name: 近津
+    to: '1133833'
+    to_name: 中豊
+    time: 4
+    distance: 2.45
+  - from: '1133833'
+    from_name: 中豊
+    to: '1133834'
+    to_name: 磐城棚倉
+    time: 3
+    distance: 1.61
+  - from: '1133834'
+    from_name: 磐城棚倉
+    to: '1133835'
+    to_name: 磐城浅川
+    time: 9
+    distance: 5.63
+  - from: '1133835'
+    from_name: 磐城浅川
+    to: '1133836'
+    to_name: 里白石
+    time: 5
+    distance: 2.72
+  - from: '1133836'
+    from_name: 里白石
+    to: '1133837'
+    to_name: 磐城石川
+    time: 8
+    distance: 4.72
+  - from: '1133837'
+    from_name: 磐城石川
+    to: '1133838'
+    to_name: 野木沢
+    time: 7
+    distance: 4.35
+  - from: '1133838'
+    from_name: 野木沢
+    to: '1133839'
+    to_name: 川辺沖
+    time: 4
+    distance: 2.38
+  - from: '1133839'
+    from_name: 川辺沖
+    to: '1133840'
+    to_name: 泉郷
+    time: 4
+    distance: 2.41
+  - from: '1133840'
+    from_name: 泉郷
+    to: '1133841'
+    to_name: 川東
+    time: 10
+    distance: 6.19
+  - from: '1133841'
+    from_name: 川東
+    to: '1133842'
+    to_name: 小塩江
+    time: 6
+    distance: 3.54
+  - from: '1133842'
+    from_name: 小塩江
+    to: '1133843'
+    to_name: 谷田川
+    time: 4
+    distance: 2.02
+  - from: '1133843'
+    from_name: 谷田川
+    to: '1133844'
+    to_name: 磐城守山
+    time: 5
+    distance: 2.89
+  - from: '1133844'
+    from_name: 磐城守山
+    to: '1123113'
+    to_name: 安積永盛
+    time: 7
+    distance: 4.42
+  - from: '1123113'
+    from_name: 安積永盛
+    to: '1123114'
+    to_name: 郡山
+    time: 8
+    distance: 4.93

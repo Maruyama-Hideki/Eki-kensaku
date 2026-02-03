@@ -1,0 +1,48 @@
+line_code: '33003'
+line_name: 京阪交野線
+company: 京阪電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3300120'
+    from_name: 枚方市
+    to: '3300302'
+    to_name: 宮之阪
+    time: 2
+    distance: 0.77
+  - from: '3300302'
+    from_name: 宮之阪
+    to: '3300303'
+    to_name: 星ヶ丘
+    time: 2
+    distance: 0.72
+  - from: '3300303'
+    from_name: 星ヶ丘
+    to: '3300304'
+    to_name: 村野
+    time: 2
+    distance: 0.77
+  - from: '3300304'
+    from_name: 村野
+    to: '3300305'
+    to_name: 郡津
+    time: 2
+    distance: 0.98
+  - from: '3300305'
+    from_name: 郡津
+    to: '3300306'
+    to_name: 交野市
+    time: 2
+    distance: 0.98
+  - from: '3300306'
+    from_name: 交野市
+    to: '3300307'
+    to_name: 河内森
+    time: 3
+    distance: 1.72
+  - from: '3300307'
+    from_name: 河内森
+    to: '3300308'
+    to_name: 私市
+    time: 2
+    distance: 0.69

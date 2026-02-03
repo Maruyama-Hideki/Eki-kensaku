@@ -1,0 +1,84 @@
+line_code: '11904'
+line_name: JR鹿児島本線(川内～鹿児島)
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1190401'
+    from_name: 川内
+    to: '1190402'
+    to_name: 隈之城
+    time: 4
+    distance: 2.4
+  - from: '1190402'
+    from_name: 隈之城
+    to: '1190403'
+    to_name: 木場茶屋
+    time: 5
+    distance: 2.94
+  - from: '1190403'
+    from_name: 木場茶屋
+    to: '1190404'
+    to_name: 串木野
+    time: 9
+    distance: 5.88
+  - from: '1190404'
+    from_name: 串木野
+    to: '1190414'
+    to_name: 神村学園前
+    time: 4
+    distance: 2.19
+  - from: '1190405'
+    from_name: 市来
+    to: '1190406'
+    to_name: 湯之元
+    time: 6
+    distance: 3.68
+  - from: '1190406'
+    from_name: 湯之元
+    to: '1190407'
+    to_name: 東市来
+    time: 4
+    distance: 2.33
+  - from: '1190407'
+    from_name: 東市来
+    to: '1190408'
+    to_name: 伊集院
+    time: 9
+    distance: 5.34
+  - from: '1190408'
+    from_name: 伊集院
+    to: '1190409'
+    to_name: 薩摩松元
+    time: 8
+    distance: 4.94
+  - from: '1190409'
+    from_name: 薩摩松元
+    to: '1190410'
+    to_name: 上伊集院
+    time: 4
+    distance: 2.32
+  - from: '1190410'
+    from_name: 上伊集院
+    to: '1190413'
+    to_name: 広木
+    time: 7
+    distance: 4.66
+  - from: '1190411'
+    from_name: 鹿児島中央
+    to: '1190412'
+    to_name: 鹿児島
+    time: 5
+    distance: 2.94
+  - from: '1190413'
+    from_name: 広木
+    to: '1190411'
+    to_name: 鹿児島中央
+    time: 6
+    distance: 3.63
+  - from: '1190414'
+    from_name: 神村学園前
+    to: '1190405'
+    to_name: 市来
+    time: 4
+    distance: 2.33

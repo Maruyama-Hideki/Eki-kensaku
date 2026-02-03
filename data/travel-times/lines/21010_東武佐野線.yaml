@@ -1,0 +1,60 @@
+line_code: '21010'
+line_name: 東武佐野線
+company: 東武鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2100240'
+    from_name: 館林
+    to: '2101002'
+    to_name: 渡瀬
+    time: 3
+    distance: 1.9
+  - from: '2101002'
+    from_name: 渡瀬
+    to: '2101003'
+    to_name: 田島
+    time: 7
+    distance: 4
+  - from: '2101003'
+    from_name: 田島
+    to: '2101004'
+    to_name: 佐野市
+    time: 4
+    distance: 2.02
+  - from: '2101004'
+    from_name: 佐野市
+    to: '1134116'
+    to_name: 佐野
+    time: 2
+    distance: 1.2
+  - from: '1134116'
+    from_name: 佐野
+    to: '2101006'
+    to_name: 堀米
+    time: 2
+    distance: 1.32
+  - from: '2101006'
+    from_name: 堀米
+    to: '2101007'
+    to_name: 吉水
+    time: 3
+    distance: 1.91
+  - from: '2101007'
+    from_name: 吉水
+    to: '2101008'
+    to_name: 田沼
+    time: 4
+    distance: 2.4
+  - from: '2101008'
+    from_name: 田沼
+    to: '2101009'
+    to_name: 多田
+    time: 3
+    distance: 1.57
+  - from: '2101009'
+    from_name: 多田
+    to: '2101010'
+    to_name: 葛生
+    time: 4
+    distance: 2.64

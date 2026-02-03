@@ -1,0 +1,84 @@
+line_code: '99508'
+line_name: 南アルプスあぷとライン
+company: 大井川鐵道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9950719'
+    from_name: 千頭
+    to: '9950802'
+    to_name: 川根両国
+    time: 2
+    distance: 1.07
+  - from: '9950802'
+    from_name: 川根両国
+    to: '9950803'
+    to_name: 沢間
+    time: 2
+    distance: 1.04
+  - from: '9950803'
+    from_name: 沢間
+    to: '9950804'
+    to_name: 土本
+    time: 3
+    distance: 1.34
+  - from: '9950804'
+    from_name: 土本
+    to: '9950805'
+    to_name: 川根小山
+    time: 2
+    distance: 0.66
+  - from: '9950805'
+    from_name: 川根小山
+    to: '9950806'
+    to_name: 奥泉
+    time: 2
+    distance: 1.08
+  - from: '9950806'
+    from_name: 奥泉
+    to: '9950807'
+    to_name: アプトいちしろ
+    time: 3
+    distance: 1.99
+  - from: '9950807'
+    from_name: アプトいちしろ
+    to: '9950808'
+    to_name: 長島ダム
+    time: 2
+    distance: 1.13
+  - from: '9950808'
+    from_name: 長島ダム
+    to: '9950809'
+    to_name: ひらんだ
+    time: 2
+    distance: 1.04
+  - from: '9950809'
+    from_name: ひらんだ
+    to: '9950810'
+    to_name: 奥大井湖上
+    time: 2
+    distance: 1.27
+  - from: '9950810'
+    from_name: 奥大井湖上
+    to: '9950811'
+    to_name: 接岨峡温泉
+    time: 2
+    distance: 1.25
+  - from: '9950811'
+    from_name: 接岨峡温泉
+    to: '9950812'
+    to_name: 尾盛
+    time: 3
+    distance: 1.78
+  - from: '9950812'
+    from_name: 尾盛
+    to: '9950813'
+    to_name: 閑蔵
+    time: 3
+    distance: 1.8
+  - from: '9950813'
+    from_name: 閑蔵
+    to: '9950814'
+    to_name: 井川
+    time: 6
+    distance: 3.34

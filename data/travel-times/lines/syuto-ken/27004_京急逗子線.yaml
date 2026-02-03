@@ -1,0 +1,24 @@
+line_code: '27004'
+line_name: 京急逗子線
+company: 京急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2700139'
+    from_name: 金沢八景
+    to: '2700402'
+    to_name: 六浦
+    time: 2
+    distance: 1.23
+  - from: '2700402'
+    from_name: 六浦
+    to: '2700403'
+    to_name: 神武寺
+    time: 4
+    distance: 2.49
+  - from: '2700403'
+    from_name: 神武寺
+    to: '2700404'
+    to_name: 逗子・葉山
+    time: 3
+    distance: 1.76

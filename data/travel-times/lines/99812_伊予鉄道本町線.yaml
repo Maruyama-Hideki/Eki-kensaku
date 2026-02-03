@@ -1,0 +1,42 @@
+line_code: '99812'
+line_name: 伊予鉄道本町線
+company: 伊予鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9980809'
+    from_name: 本町六丁目
+    to: '9981202'
+    to_name: 本町五丁目
+    time: 2
+    distance: 0.27
+  - from: '9981202'
+    from_name: 本町五丁目
+    to: '9981203'
+    to_name: 本町四丁目
+    time: 2
+    distance: 0.34
+  - from: '9981203'
+    from_name: 本町四丁目
+    to: '9981204'
+    to_name: 本町三丁目
+    time: 2
+    distance: 0.32
+  - from: '9981204'
+    from_name: 本町三丁目
+    to: '9980803'
+    to_name: 西堀端
+    time: 2
+    distance: 0.56
+  - from: '9980803'
+    from_name: 西堀端
+    to: '9980802'
+    to_name: 南堀端
+    time: 2
+    distance: 0.29
+  - from: '9980802'
+    from_name: 南堀端
+    to: '9980501'
+    to_name: 松山市
+    time: 2
+    distance: 0.4

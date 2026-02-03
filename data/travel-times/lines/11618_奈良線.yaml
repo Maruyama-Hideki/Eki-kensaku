@@ -1,0 +1,126 @@
+line_code: '11618'
+line_name: 奈良線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1160120'
+    from_name: 京都
+    to: '1161802'
+    to_name: 東福寺
+    time: 2
+    distance: 1.19
+  - from: '1161802'
+    from_name: 東福寺
+    to: '1161803'
+    to_name: 稲荷
+    time: 3
+    distance: 1.63
+  - from: '1161803'
+    from_name: 稲荷
+    to: '1161804'
+    to_name: ＪＲ藤森
+    time: 4
+    distance: 2.1
+  - from: '1161804'
+    from_name: ＪＲ藤森
+    to: '1161805'
+    to_name: 桃山
+    time: 3
+    distance: 1.78
+  - from: '1161805'
+    from_name: 桃山
+    to: '1161806'
+    to_name: 六地蔵
+    time: 4
+    distance: 2.34
+  - from: '1161806'
+    from_name: 六地蔵
+    to: '1161807'
+    to_name: 木幡
+    time: 2
+    distance: 0.89
+  - from: '1161807'
+    from_name: 木幡
+    to: '1161808'
+    to_name: 黄檗
+    time: 3
+    distance: 1.42
+  - from: '1161808'
+    from_name: 黄檗
+    to: '1161809'
+    to_name: 宇治
+    time: 4
+    distance: 2.51
+  - from: '1161809'
+    from_name: 宇治
+    to: '1161810'
+    to_name: ＪＲ小倉
+    time: 3
+    distance: 1.35
+  - from: '1161810'
+    from_name: ＪＲ小倉
+    to: '1161811'
+    to_name: 新田
+    time: 3
+    distance: 1.71
+  - from: '1161811'
+    from_name: 新田
+    to: '1161812'
+    to_name: 城陽
+    time: 4
+    distance: 2.09
+  - from: '1161812'
+    from_name: 城陽
+    to: '1161813'
+    to_name: 長池
+    time: 3
+    distance: 1.67
+  - from: '1161813'
+    from_name: 長池
+    to: '1161814'
+    to_name: 山城青谷
+    time: 3
+    distance: 1.84
+  - from: '1161814'
+    from_name: 山城青谷
+    to: '1161815'
+    to_name: 山城多賀
+    time: 2
+    distance: 1.25
+  - from: '1161815'
+    from_name: 山城多賀
+    to: '1161816'
+    to_name: 玉水
+    time: 3
+    distance: 1.99
+  - from: '1161816'
+    from_name: 玉水
+    to: '1161817'
+    to_name: 棚倉
+    time: 5
+    distance: 2.94
+  - from: '1161817'
+    from_name: 棚倉
+    to: '1161818'
+    to_name: 上狛
+    time: 5
+    distance: 2.74
+  - from: '1161818'
+    from_name: 上狛
+    to: '1160702'
+    to_name: 木津
+    time: 3
+    distance: 1.64
+  - from: '1160702'
+    from_name: 木津
+    to: '1160703'
+    to_name: 平城山
+    time: 5
+    distance: 3.13
+  - from: '1160703'
+    from_name: 平城山
+    to: '1160704'
+    to_name: 奈良
+    time: 6
+    distance: 3.42

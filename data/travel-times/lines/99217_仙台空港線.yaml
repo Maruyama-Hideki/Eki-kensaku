@@ -1,0 +1,24 @@
+line_code: '99217'
+line_name: 仙台空港線
+company: 仙台空港鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1123139'
+    from_name: 名取
+    to: '9921702'
+    to_name: 杜せきのした
+    time: 3
+    distance: 1.41
+  - from: '9921702'
+    from_name: 杜せきのした
+    to: '9921703'
+    to_name: 美田園
+    time: 4
+    distance: 2
+  - from: '9921703'
+    from_name: 美田園
+    to: '9921704'
+    to_name: 仙台空港
+    time: 4
+    distance: 2.64

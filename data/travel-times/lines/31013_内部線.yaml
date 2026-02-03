@@ -1,0 +1,48 @@
+line_code: '31013'
+line_name: 内部線
+company: 四日市あすなろう鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3100801'
+    from_name: 近鉄四日市
+    to: '3101302'
+    to_name: 赤堀
+    time: 2
+    distance: 1.09
+  - from: '3101302'
+    from_name: 赤堀
+    to: '3101303'
+    to_name: 日永
+    time: 2
+    distance: 0.65
+  - from: '3101303'
+    from_name: 日永
+    to: '3101304'
+    to_name: 南日永
+    time: 2
+    distance: 0.73
+  - from: '3101304'
+    from_name: 南日永
+    to: '3101305'
+    to_name: 泊
+    time: 2
+    distance: 1.09
+  - from: '3101305'
+    from_name: 泊
+    to: '3101306'
+    to_name: 追分
+    time: 2
+    distance: 0.75
+  - from: '3101306'
+    from_name: 追分
+    to: '3101307'
+    to_name: 小古曽
+    time: 2
+    distance: 0.68
+  - from: '3101307'
+    from_name: 小古曽
+    to: '3101308'
+    to_name: 内部
+    time: 2
+    distance: 0.6

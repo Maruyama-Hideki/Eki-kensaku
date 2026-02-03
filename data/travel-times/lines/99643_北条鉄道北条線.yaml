@@ -1,0 +1,48 @@
+line_code: '99643'
+line_name: 北条鉄道北条線
+company: 北条鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1163207'
+    from_name: 粟生
+    to: '9964302'
+    to_name: 網引
+    time: 5
+    distance: 2.93
+  - from: '9964302'
+    from_name: 網引
+    to: '9964303'
+    to_name: 田原
+    time: 2
+    distance: 1.1
+  - from: '9964303'
+    from_name: 田原
+    to: '9964304'
+    to_name: 法華口
+    time: 3
+    distance: 1.44
+  - from: '9964304'
+    from_name: 法華口
+    to: '9964305'
+    to_name: 播磨下里
+    time: 3
+    distance: 1.92
+  - from: '9964305'
+    from_name: 播磨下里
+    to: '9964306'
+    to_name: 長
+    time: 3
+    distance: 1.74
+  - from: '9964306'
+    from_name: 長
+    to: '9964307'
+    to_name: 播磨横田
+    time: 3
+    distance: 1.56
+  - from: '9964307'
+    from_name: 播磨横田
+    to: '9964308'
+    to_name: 北条町
+    time: 4
+    distance: 2.24

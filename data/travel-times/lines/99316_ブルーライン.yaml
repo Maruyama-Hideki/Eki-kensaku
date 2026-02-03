@@ -1,0 +1,192 @@
+line_code: '99316'
+line_name: ブルーライン
+company: 横浜市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '2600316'
+    from_name: あざみ野
+    to: '9931602'
+    to_name: 中川
+    time: 3
+    distance: 1.61
+  - from: '9931602'
+    from_name: 中川
+    to: '9931603'
+    to_name: センター北
+    time: 3
+    distance: 1.31
+  - from: '9931603'
+    from_name: センター北
+    to: '9931604'
+    to_name: センター南
+    time: 2
+    distance: 0.97
+  - from: '9931604'
+    from_name: センター南
+    to: '9931605'
+    to_name: 仲町台
+    time: 4
+    distance: 1.8
+  - from: '9931605'
+    from_name: 仲町台
+    to: '9931606'
+    to_name: 新羽
+    time: 4
+    distance: 2.19
+  - from: '9931606'
+    from_name: 新羽
+    to: '9931607'
+    to_name: 北新横浜
+    time: 2
+    distance: 0.94
+  - from: '9931607'
+    from_name: 北新横浜
+    to: '1130604'
+    to_name: 新横浜
+    time: 3
+    distance: 1.44
+  - from: '1130604'
+    from_name: 新横浜
+    to: '9931609'
+    to_name: 岸根公園
+    time: 3
+    distance: 1.2
+  - from: '9931609'
+    from_name: 岸根公園
+    to: '9931610'
+    to_name: 片倉町
+    time: 2
+    distance: 1.15
+  - from: '9931610'
+    from_name: 片倉町
+    to: '9931611'
+    to_name: 三ツ沢上町
+    time: 3
+    distance: 1.52
+  - from: '9931611'
+    from_name: 三ツ沢上町
+    to: '9931612'
+    to_name: 三ツ沢下町
+    time: 2
+    distance: 0.85
+  - from: '9931612'
+    from_name: 三ツ沢下町
+    to: '1130105'
+    to_name: 横浜
+    time: 3
+    distance: 1.35
+  - from: '1130105'
+    from_name: 横浜
+    to: '9931614'
+    to_name: 高島町
+    time: 2
+    distance: 0.83
+  - from: '9931614'
+    from_name: 高島町
+    to: '1130702'
+    to_name: 桜木町
+    time: 2
+    distance: 1.08
+  - from: '1130702'
+    from_name: 桜木町
+    to: '1130703'
+    to_name: 関内
+    time: 2
+    distance: 1.03
+  - from: '1130703'
+    from_name: 関内
+    to: '9931617'
+    to_name: 伊勢佐木長者町
+    time: 2
+    distance: 0.43
+  - from: '9931617'
+    from_name: 伊勢佐木長者町
+    to: '9931618'
+    to_name: 阪東橋
+    time: 2
+    distance: 0.86
+  - from: '9931618'
+    from_name: 阪東橋
+    to: '9931619'
+    to_name: 吉野町
+    time: 2
+    distance: 0.62
+  - from: '9931619'
+    from_name: 吉野町
+    to: '9931620'
+    to_name: 蒔田
+    time: 2
+    distance: 0.98
+  - from: '9931620'
+    from_name: 蒔田
+    to: '9931621'
+    to_name: 弘明寺
+    time: 2
+    distance: 1.04
+  - from: '9931621'
+    from_name: 弘明寺
+    to: '2700133'
+    to_name: 上大岡
+    time: 3
+    distance: 1.62
+  - from: '2700133'
+    from_name: 上大岡
+    to: '9931623'
+    to_name: 港南中央
+    time: 2
+    distance: 1.06
+  - from: '9931623'
+    from_name: 港南中央
+    to: '9931624'
+    to_name: 上永谷
+    time: 3
+    distance: 1.65
+  - from: '9931624'
+    from_name: 上永谷
+    to: '9931625'
+    to_name: 下永谷
+    time: 3
+    distance: 1.22
+  - from: '9931625'
+    from_name: 下永谷
+    to: '9931626'
+    to_name: 舞岡
+    time: 2
+    distance: 0.71
+  - from: '9931626'
+    from_name: 舞岡
+    to: '1130106'
+    to_name: 戸塚
+    time: 3
+    distance: 1.58
+  - from: '1130106'
+    from_name: 戸塚
+    to: '9931628'
+    to_name: 踊場
+    time: 3
+    distance: 1.59
+  - from: '9931628'
+    from_name: 踊場
+    to: '9931629'
+    to_name: 中田
+    time: 2
+    distance: 0.85
+  - from: '9931629'
+    from_name: 中田
+    to: '9931630'
+    to_name: 立場
+    time: 2
+    distance: 1.07
+  - from: '9931630'
+    from_name: 立場
+    to: '9931631'
+    to_name: 下飯田
+    time: 4
+    distance: 1.95
+  - from: '9931631'
+    from_name: 下飯田
+    to: '2500210'
+    to_name: 湘南台
+    time: 3
+    distance: 1.71

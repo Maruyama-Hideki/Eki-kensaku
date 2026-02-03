@@ -1,0 +1,84 @@
+line_code: '11637'
+line_name: 万葉まほろば線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1160704'
+    from_name: 奈良
+    to: '1163702'
+    to_name: 京終
+    time: 3
+    distance: 1.45
+  - from: '1163702'
+    from_name: 京終
+    to: '1163703'
+    to_name: 帯解
+    time: 5
+    distance: 3
+  - from: '1163703'
+    from_name: 帯解
+    to: '1163704'
+    to_name: 櫟本
+    time: 4
+    distance: 2.46
+  - from: '1163704'
+    from_name: 櫟本
+    to: '1163705'
+    to_name: 天理
+    time: 4
+    distance: 2.25
+  - from: '1163705'
+    from_name: 天理
+    to: '1163706'
+    to_name: 長柄
+    time: 5
+    distance: 3.02
+  - from: '1163706'
+    from_name: 長柄
+    to: '1163707'
+    to_name: 柳本
+    time: 3
+    distance: 1.7
+  - from: '1163707'
+    from_name: 柳本
+    to: '1163708'
+    to_name: 巻向
+    time: 3
+    distance: 1.58
+  - from: '1163708'
+    from_name: 巻向
+    to: '1163709'
+    to_name: 三輪
+    time: 4
+    distance: 2.12
+  - from: '1163709'
+    from_name: 三輪
+    to: '1163710'
+    to_name: 桜井
+    time: 3
+    distance: 1.57
+  - from: '1163710'
+    from_name: 桜井
+    to: '1163711'
+    to_name: 香久山
+    time: 3
+    distance: 1.98
+  - from: '1163711'
+    from_name: 香久山
+    to: '1163712'
+    to_name: 畝傍
+    time: 5
+    distance: 2.85
+  - from: '1163712'
+    from_name: 畝傍
+    to: '1163713'
+    to_name: 金橋
+    time: 4
+    distance: 2.64
+  - from: '1163713'
+    from_name: 金橋
+    to: '1163606'
+    to_name: 高田
+    time: 3
+    distance: 1.99

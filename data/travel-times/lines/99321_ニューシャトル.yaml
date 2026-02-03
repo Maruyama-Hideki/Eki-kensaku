@@ -1,0 +1,78 @@
+line_code: '99321'
+line_name: ニューシャトル
+company: 埼玉新都市交通
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1131906'
+    from_name: 大宮
+    to: '9932102'
+    to_name: 鉄道博物館
+    time: 3
+    distance: 1.64
+  - from: '9932102'
+    from_name: 鉄道博物館
+    to: '9932103'
+    to_name: 加茂宮
+    time: 3
+    distance: 1.72
+  - from: '9932103'
+    from_name: 加茂宮
+    to: '9932104'
+    to_name: 東宮原
+    time: 2
+    distance: 0.78
+  - from: '9932104'
+    from_name: 東宮原
+    to: '9932105'
+    to_name: 今羽
+    time: 2
+    distance: 0.82
+  - from: '9932105'
+    from_name: 今羽
+    to: '9932106'
+    to_name: 吉野原
+    time: 2
+    distance: 0.8
+  - from: '9932106'
+    from_name: 吉野原
+    to: '9932107'
+    to_name: 原市
+    time: 2
+    distance: 0.79
+  - from: '9932107'
+    from_name: 原市
+    to: '9932108'
+    to_name: 沼南
+    time: 2
+    distance: 0.79
+  - from: '9932108'
+    from_name: 沼南
+    to: '9932109'
+    to_name: 丸山
+    time: 2
+    distance: 0.98
+  - from: '9932109'
+    from_name: 丸山
+    to: '9932110'
+    to_name: 志久
+    time: 2
+    distance: 1.27
+  - from: '9932110'
+    from_name: 志久
+    to: '9932111'
+    to_name: 伊奈中央
+    time: 2
+    distance: 1.05
+  - from: '9932111'
+    from_name: 伊奈中央
+    to: '9932112'
+    to_name: 羽貫
+    time: 2
+    distance: 1.15
+  - from: '9932112'
+    from_name: 羽貫
+    to: '9932113'
+    to_name: 内宿
+    time: 2
+    distance: 1.09

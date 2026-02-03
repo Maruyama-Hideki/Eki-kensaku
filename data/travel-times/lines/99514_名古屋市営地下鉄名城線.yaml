@@ -1,0 +1,174 @@
+line_code: '99514'
+line_name: 名古屋市営地下鉄名城線
+company: 名古屋市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '9951401'
+    from_name: ナゴヤドーム前矢田
+    to: '1141105'
+    to_name: 大曽根
+    time: 2
+    distance: 0.74
+  - from: '1141105'
+    from_name: 大曽根
+    to: '9951403'
+    to_name: 平安通
+    time: 2
+    distance: 0.83
+  - from: '9951403'
+    from_name: 平安通
+    to: '9951404'
+    to_name: 志賀本通
+    time: 2
+    distance: 0.78
+  - from: '9951404'
+    from_name: 志賀本通
+    to: '9951405'
+    to_name: 黒川
+    time: 2
+    distance: 1.01
+  - from: '9951405'
+    from_name: 黒川
+    to: '9951406'
+    to_name: 名城公園
+    time: 2
+    distance: 0.89
+  - from: '9951406'
+    from_name: 名城公園
+    to: '9951407'
+    to_name: 市役所
+    time: 2
+    distance: 1
+  - from: '9951407'
+    from_name: 市役所
+    to: '9951408'
+    to_name: 久屋大通
+    time: 2
+    distance: 0.9
+  - from: '9951408'
+    from_name: 久屋大通
+    to: '3001201'
+    to_name: 栄町
+    time: 2
+    distance: 0.37
+  - from: '3001201'
+    from_name: 栄町
+    to: '9951410'
+    to_name: 矢場町
+    time: 2
+    distance: 0.75
+  - from: '9951410'
+    from_name: 矢場町
+    to: '9951411'
+    to_name: 上前津
+    time: 2
+    distance: 0.73
+  - from: '9951411'
+    from_name: 上前津
+    to: '9951412'
+    to_name: 東別院
+    time: 2
+    distance: 0.8
+  - from: '9951412'
+    from_name: 東別院
+    to: '1141102'
+    to_name: 金山
+    time: 2
+    distance: 0.92
+  - from: '1141102'
+    from_name: 金山
+    to: '9951414'
+    to_name: 西高蔵
+    time: 2
+    distance: 0.93
+  - from: '9951414'
+    from_name: 西高蔵
+    to: '9951415'
+    to_name: 神宮西
+    time: 2
+    distance: 0.87
+  - from: '9951415'
+    from_name: 神宮西
+    to: '9951416'
+    to_name: 伝馬町
+    time: 2
+    distance: 0.87
+  - from: '9951416'
+    from_name: 伝馬町
+    to: '9951417'
+    to_name: 堀田
+    time: 2
+    distance: 1.12
+  - from: '9951417'
+    from_name: 堀田
+    to: '9951418'
+    to_name: 妙音通
+    time: 2
+    distance: 0.72
+  - from: '9951418'
+    from_name: 妙音通
+    to: '9951419'
+    to_name: 新瑞橋
+    time: 2
+    distance: 0.65
+  - from: '9951419'
+    from_name: 新瑞橋
+    to: '9951420'
+    to_name: 瑞穂運動場東
+    time: 3
+    distance: 1.25
+  - from: '9951420'
+    from_name: 瑞穂運動場東
+    to: '9951421'
+    to_name: 総合リハビリセンター
+    time: 2
+    distance: 0.98
+  - from: '9951421'
+    from_name: 総合リハビリセンター
+    to: '9951422'
+    to_name: 八事
+    time: 2
+    distance: 1.12
+  - from: '9951422'
+    from_name: 八事
+    to: '9951423'
+    to_name: 八事日赤
+    time: 2
+    distance: 0.85
+  - from: '9951423'
+    from_name: 八事日赤
+    to: '9951424'
+    to_name: 名古屋大学
+    time: 2
+    distance: 1.09
+  - from: '9951424'
+    from_name: 名古屋大学
+    to: '9951316'
+    to_name: 本山
+    time: 2
+    distance: 1.11
+  - from: '9951316'
+    from_name: 本山
+    to: '9951426'
+    to_name: 自由ヶ丘
+    time: 3
+    distance: 1.26
+  - from: '9951426'
+    from_name: 自由ヶ丘
+    to: '9951427'
+    to_name: 茶屋ヶ坂
+    time: 2
+    distance: 1.15
+  - from: '9951427'
+    from_name: 茶屋ヶ坂
+    to: '9951428'
+    to_name: 砂田橋
+    time: 2
+    distance: 0.89
+  - from: '9951428'
+    from_name: 砂田橋
+    to: '9951401'
+    to_name: ナゴヤドーム前矢田
+    time: 2
+    distance: 0.82

@@ -1,0 +1,120 @@
+line_code: '99507'
+line_name: 大井川鐵道大井川本線
+company: 大井川鐵道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1150126'
+    from_name: 金谷
+    to: '9950702'
+    to_name: 新金谷
+    time: 2
+    distance: 1.33
+  - from: '9950702'
+    from_name: 新金谷
+    to: '9950703'
+    to_name: 代官町
+    time: 3
+    distance: 1.51
+  - from: '9950703'
+    from_name: 代官町
+    to: '9950704'
+    to_name: 日切
+    time: 2
+    distance: 0.52
+  - from: '9950704'
+    from_name: 日切
+    to: '9950705'
+    to_name: 合格
+    time: 2
+    distance: 0.66
+  - from: '9950705'
+    from_name: 合格
+    to: '9950720'
+    to_name: 門出
+    time: 2
+    distance: 0.59
+  - from: '9950706'
+    from_name: 神尾
+    to: '9950707'
+    to_name: 福用
+    time: 4
+    distance: 2.36
+  - from: '9950707'
+    from_name: 福用
+    to: '9950708'
+    to_name: 大和田
+    time: 4
+    distance: 2.26
+  - from: '9950708'
+    from_name: 大和田
+    to: '9950709'
+    to_name: 家山
+    time: 4
+    distance: 2.15
+  - from: '9950709'
+    from_name: 家山
+    to: '9950710'
+    to_name: 抜里
+    time: 3
+    distance: 1.73
+  - from: '9950710'
+    from_name: 抜里
+    to: '9950711'
+    to_name: 川根温泉笹間渡
+    time: 2
+    distance: 1
+  - from: '9950711'
+    from_name: 川根温泉笹間渡
+    to: '9950712'
+    to_name: 地名
+    time: 4
+    distance: 2.64
+  - from: '9950712'
+    from_name: 地名
+    to: '9950713'
+    to_name: 塩郷
+    time: 2
+    distance: 1.33
+  - from: '9950713'
+    from_name: 塩郷
+    to: '9950714'
+    to_name: 下泉
+    time: 5
+    distance: 2.71
+  - from: '9950714'
+    from_name: 下泉
+    to: '9950715'
+    to_name: 田野口
+    time: 5
+    distance: 3.29
+  - from: '9950715'
+    from_name: 田野口
+    to: '9950716'
+    to_name: 駿河徳山
+    time: 5
+    distance: 2.95
+  - from: '9950716'
+    from_name: 駿河徳山
+    to: '9950717'
+    to_name: 青部
+    time: 3
+    distance: 1.71
+  - from: '9950717'
+    from_name: 青部
+    to: '9950718'
+    to_name: 崎平
+    time: 2
+    distance: 1.11
+  - from: '9950718'
+    from_name: 崎平
+    to: '9950719'
+    to_name: 千頭
+    time: 3
+    distance: 1.96
+  - from: '9950720'
+    from_name: 門出
+    to: '9950706'
+    to_name: 神尾
+    time: 6
+    distance: 4

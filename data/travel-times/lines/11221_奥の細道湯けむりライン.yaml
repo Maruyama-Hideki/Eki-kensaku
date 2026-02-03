@@ -1,0 +1,162 @@
+line_code: '11221'
+line_name: 奥の細道湯けむりライン
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1123156'
+    from_name: 小牛田
+    to: '1122102'
+    to_name: 北浦
+    time: 7
+    distance: 4.15
+  - from: '1122102'
+    from_name: 北浦
+    to: '1122103'
+    to_name: 陸前谷地
+    time: 4
+    distance: 2.13
+  - from: '1122103'
+    from_name: 陸前谷地
+    to: '1122104'
+    to_name: 古川
+    time: 5
+    distance: 2.83
+  - from: '1122104'
+    from_name: 古川
+    to: '1122105'
+    to_name: 塚目
+    time: 5
+    distance: 2.68
+  - from: '1122105'
+    from_name: 塚目
+    to: '1122106'
+    to_name: 西古川
+    time: 6
+    distance: 3.68
+  - from: '1122106'
+    from_name: 西古川
+    to: '1122107'
+    to_name: 東大崎
+    time: 5
+    distance: 3.05
+  - from: '1122107'
+    from_name: 東大崎
+    to: '1122108'
+    to_name: 西大崎
+    time: 5
+    distance: 2.78
+  - from: '1122108'
+    from_name: 西大崎
+    to: '1122109'
+    to_name: 岩出山
+    time: 5
+    distance: 2.96
+  - from: '1122109'
+    from_name: 岩出山
+    to: '1122110'
+    to_name: 有備館
+    time: 2
+    distance: 0.88
+  - from: '1122110'
+    from_name: 有備館
+    to: '1122111'
+    to_name: 上野目
+    time: 4
+    distance: 2.53
+  - from: '1122111'
+    from_name: 上野目
+    to: '1122112'
+    to_name: 池月
+    time: 6
+    distance: 3.76
+  - from: '1122112'
+    from_name: 池月
+    to: '1122113'
+    to_name: 川渡温泉
+    time: 9
+    distance: 5.79
+  - from: '1122113'
+    from_name: 川渡温泉
+    to: '1122114'
+    to_name: 鳴子御殿湯
+    time: 6
+    distance: 3.76
+  - from: '1122114'
+    from_name: 鳴子御殿湯
+    to: '1122115'
+    to_name: 鳴子温泉
+    time: 3
+    distance: 1.85
+  - from: '1122115'
+    from_name: 鳴子温泉
+    to: '1122116'
+    to_name: 中山平温泉
+    time: 7
+    distance: 4.54
+  - from: '1122116'
+    from_name: 中山平温泉
+    to: '1122117'
+    to_name: 堺田
+    time: 8
+    distance: 4.89
+  - from: '1122117'
+    from_name: 堺田
+    to: '1122118'
+    to_name: 赤倉温泉
+    time: 8
+    distance: 5.17
+  - from: '1122118'
+    from_name: 赤倉温泉
+    to: '1122119'
+    to_name: 立小路
+    time: 3
+    distance: 1.59
+  - from: '1122119'
+    from_name: 立小路
+    to: '1122120'
+    to_name: 最上
+    time: 4
+    distance: 2.66
+  - from: '1122120'
+    from_name: 最上
+    to: '1122121'
+    to_name: 大堀
+    time: 6
+    distance: 3.83
+  - from: '1122121'
+    from_name: 大堀
+    to: '1122122'
+    to_name: 鵜杉
+    time: 3
+    distance: 1.88
+  - from: '1122122'
+    from_name: 鵜杉
+    to: '1122123'
+    to_name: 瀬見温泉
+    time: 5
+    distance: 3.15
+  - from: '1122123'
+    from_name: 瀬見温泉
+    to: '1122124'
+    to_name: 東長沢
+    time: 8
+    distance: 5.18
+  - from: '1122124'
+    from_name: 東長沢
+    to: '1122125'
+    to_name: 長沢
+    time: 3
+    distance: 1.73
+  - from: '1122125'
+    from_name: 長沢
+    to: '1122126'
+    to_name: 南新庄
+    time: 7
+    distance: 4.51
+  - from: '1122126'
+    from_name: 南新庄
+    to: '1120201'
+    to_name: 新庄
+    time: 7
+    distance: 4.64

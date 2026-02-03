@@ -1,0 +1,234 @@
+line_code: '11402'
+line_name: JR身延線
+company: JR東海
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1140201'
+    from_name: 富士
+    to: '1140202'
+    to_name: 柚木
+    time: 2
+    distance: 1.28
+  - from: '1140202'
+    from_name: 柚木
+    to: '1140203'
+    to_name: 竪堀
+    time: 2
+    distance: 1.33
+  - from: '1140203'
+    from_name: 竪堀
+    to: '1140204'
+    to_name: 入山瀬
+    time: 4
+    distance: 2.25
+  - from: '1140204'
+    from_name: 入山瀬
+    to: '1140205'
+    to_name: 富士根
+    time: 4
+    distance: 2.18
+  - from: '1140205'
+    from_name: 富士根
+    to: '1140206'
+    to_name: 源道寺
+    time: 2
+    distance: 1.29
+  - from: '1140206'
+    from_name: 源道寺
+    to: '1140207'
+    to_name: 富士宮
+    time: 3
+    distance: 1.35
+  - from: '1140207'
+    from_name: 富士宮
+    to: '1140208'
+    to_name: 西富士宮
+    time: 2
+    distance: 1.21
+  - from: '1140208'
+    from_name: 西富士宮
+    to: '1140209'
+    to_name: 沼久保
+    time: 6
+    distance: 3.35
+  - from: '1140209'
+    from_name: 沼久保
+    to: '1140210'
+    to_name: 芝川
+    time: 3
+    distance: 1.87
+  - from: '1140210'
+    from_name: 芝川
+    to: '1140211'
+    to_name: 稲子
+    time: 7
+    distance: 4.43
+  - from: '1140211'
+    from_name: 稲子
+    to: '1140212'
+    to_name: 十島
+    time: 3
+    distance: 1.92
+  - from: '1140212'
+    from_name: 十島
+    to: '1140213'
+    to_name: 井出
+    time: 5
+    distance: 2.96
+  - from: '1140213'
+    from_name: 井出
+    to: '1140214'
+    to_name: 寄畑
+    time: 4
+    distance: 2.42
+  - from: '1140214'
+    from_name: 寄畑
+    to: '1140215'
+    to_name: 内船
+    time: 4
+    distance: 2.13
+  - from: '1140215'
+    from_name: 内船
+    to: '1140216'
+    to_name: 甲斐大島
+    time: 8
+    distance: 5.25
+  - from: '1140216'
+    from_name: 甲斐大島
+    to: '1140217'
+    to_name: 身延
+    time: 6
+    distance: 3.7
+  - from: '1140217'
+    from_name: 身延
+    to: '1140218'
+    to_name: 塩之沢
+    time: 4
+    distance: 2.03
+  - from: '1140218'
+    from_name: 塩之沢
+    to: '1140219'
+    to_name: 波高島
+    time: 7
+    distance: 4.37
+  - from: '1140219'
+    from_name: 波高島
+    to: '1140220'
+    to_name: 下部温泉
+    time: 3
+    distance: 1.39
+  - from: '1140220'
+    from_name: 下部温泉
+    to: '1140221'
+    to_name: 甲斐常葉
+    time: 4
+    distance: 2.16
+  - from: '1140221'
+    from_name: 甲斐常葉
+    to: '1140222'
+    to_name: 市ノ瀬
+    time: 4
+    distance: 2.01
+  - from: '1140222'
+    from_name: 市ノ瀬
+    to: '1140223'
+    to_name: 久那土
+    time: 4
+    distance: 2.51
+  - from: '1140223'
+    from_name: 久那土
+    to: '1140224'
+    to_name: 甲斐岩間
+    time: 2
+    distance: 1.3
+  - from: '1140224'
+    from_name: 甲斐岩間
+    to: '1140225'
+    to_name: 落居
+    time: 3
+    distance: 1.44
+  - from: '1140225'
+    from_name: 落居
+    to: '1140226'
+    to_name: 鰍沢口
+    time: 7
+    distance: 4.2
+  - from: '1140226'
+    from_name: 鰍沢口
+    to: '1140227'
+    to_name: 市川大門
+    time: 5
+    distance: 2.93
+  - from: '1140227'
+    from_name: 市川大門
+    to: '1140228'
+    to_name: 市川本町
+    time: 2
+    distance: 0.79
+  - from: '1140228'
+    from_name: 市川本町
+    to: '1140229'
+    to_name: 芦川
+    time: 2
+    distance: 0.88
+  - from: '1140229'
+    from_name: 芦川
+    to: '1140230'
+    to_name: 甲斐上野
+    time: 2
+    distance: 1.1
+  - from: '1140230'
+    from_name: 甲斐上野
+    to: '1140231'
+    to_name: 東花輪
+    time: 5
+    distance: 2.86
+  - from: '1140231'
+    from_name: 東花輪
+    to: '1140232'
+    to_name: 小井川
+    time: 2
+    distance: 1.09
+  - from: '1140232'
+    from_name: 小井川
+    to: '1140233'
+    to_name: 常永
+    time: 3
+    distance: 1.44
+  - from: '1140233'
+    from_name: 常永
+    to: '1140234'
+    to_name: 国母
+    time: 4
+    distance: 2.31
+  - from: '1140234'
+    from_name: 国母
+    to: '1140235'
+    to_name: 甲斐住吉
+    time: 3
+    distance: 1.74
+  - from: '1140235'
+    from_name: 甲斐住吉
+    to: '1140236'
+    to_name: 南甲府
+    time: 2
+    distance: 1.02
+  - from: '1140236'
+    from_name: 南甲府
+    to: '1140237'
+    to_name: 善光寺
+    time: 4
+    distance: 2.12
+  - from: '1140237'
+    from_name: 善光寺
+    to: '1140238'
+    to_name: 金手
+    time: 2
+    distance: 0.98
+  - from: '1140238'
+    from_name: 金手
+    to: '1131131'
+    to_name: 甲府
+    time: 2
+    distance: 1.04

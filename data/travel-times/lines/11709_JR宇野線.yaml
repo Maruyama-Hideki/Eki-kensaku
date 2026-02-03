@@ -1,0 +1,90 @@
+line_code: '11709'
+line_name: JR宇野線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1160917'
+    from_name: 岡山
+    to: '1170902'
+    to_name: 大元
+    time: 4
+    distance: 2.23
+  - from: '1170902'
+    from_name: 大元
+    to: '1170903'
+    to_name: 備前西市
+    time: 4
+    distance: 2.05
+  - from: '1170903'
+    from_name: 備前西市
+    to: '1170904'
+    to_name: 妹尾
+    time: 6
+    distance: 3.67
+  - from: '1170904'
+    from_name: 妹尾
+    to: '1170905'
+    to_name: 備中箕島
+    time: 3
+    distance: 1.88
+  - from: '1170905'
+    from_name: 備中箕島
+    to: '1170906'
+    to_name: 早島
+    time: 3
+    distance: 1.66
+  - from: '1170906'
+    from_name: 早島
+    to: '1170907'
+    to_name: 久々原
+    time: 2
+    distance: 1.21
+  - from: '1170907'
+    from_name: 久々原
+    to: '1170908'
+    to_name: 茶屋町
+    time: 3
+    distance: 1.7
+  - from: '1170908'
+    from_name: 茶屋町
+    to: '1170909'
+    to_name: 彦崎
+    time: 5
+    distance: 2.89
+  - from: '1170909'
+    from_name: 彦崎
+    to: '1170910'
+    to_name: 備前片岡
+    time: 4
+    distance: 2.62
+  - from: '1170910'
+    from_name: 備前片岡
+    to: '1170911'
+    to_name: 迫川
+    time: 3
+    distance: 1.8
+  - from: '1170911'
+    from_name: 迫川
+    to: '1170912'
+    to_name: 常山
+    time: 3
+    distance: 1.38
+  - from: '1170912'
+    from_name: 常山
+    to: '1170913'
+    to_name: 八浜
+    time: 4
+    distance: 2.42
+  - from: '1170913'
+    from_name: 八浜
+    to: '1170914'
+    to_name: 備前田井
+    time: 5
+    distance: 2.8
+  - from: '1170914'
+    from_name: 備前田井
+    to: '1170915'
+    to_name: 宇野
+    time: 4
+    distance: 2.53

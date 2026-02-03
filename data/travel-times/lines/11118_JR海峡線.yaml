@@ -1,0 +1,18 @@
+line_code: '11118'
+line_name: JR海峡線
+company: JR北海道
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1111801'
+    from_name: 中小国
+    to: '1111802'
+    to_name: 津軽今別
+    time: 19
+    distance: 12.39
+  - from: '1111802'
+    from_name: 津軽今別
+    to: '1111806'
+    to_name: 木古内
+    time: 90
+    distance: 59.63

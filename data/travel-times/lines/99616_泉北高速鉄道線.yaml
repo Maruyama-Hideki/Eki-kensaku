@@ -1,0 +1,36 @@
+line_code: '99616'
+line_name: 泉北高速鉄道線
+company: 大阪府都市開発
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3200715'
+    from_name: 中百舌鳥
+    to: '9961602'
+    to_name: 深井
+    time: 5
+    distance: 2.94
+  - from: '9961602'
+    from_name: 深井
+    to: '9961603'
+    to_name: 泉ヶ丘
+    time: 6
+    distance: 3.92
+  - from: '9961603'
+    from_name: 泉ヶ丘
+    to: '9961604'
+    to_name: 栂・美木多
+    time: 4
+    distance: 2.36
+  - from: '9961604'
+    from_name: 栂・美木多
+    to: '9961605'
+    to_name: 光明池
+    time: 3
+    distance: 1.77
+  - from: '9961605'
+    from_name: 光明池
+    to: '9961606'
+    to_name: 和泉中央
+    time: 4
+    distance: 2.34

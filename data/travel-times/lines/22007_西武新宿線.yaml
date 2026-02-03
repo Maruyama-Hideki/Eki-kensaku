@@ -1,0 +1,174 @@
+line_code: '22007'
+line_name: 西武新宿線
+company: 西武鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2200701'
+    from_name: 西武新宿
+    to: '1130210'
+    to_name: 高田馬場
+    time: 3
+    distance: 1.86
+  - from: '1130210'
+    from_name: 高田馬場
+    to: '2200703'
+    to_name: 下落合
+    time: 2
+    distance: 0.83
+  - from: '2200703'
+    from_name: 下落合
+    to: '2200704'
+    to_name: 中井
+    time: 2
+    distance: 0.76
+  - from: '2200704'
+    from_name: 中井
+    to: '2200705'
+    to_name: 新井薬師前
+    time: 2
+    distance: 1.3
+  - from: '2200705'
+    from_name: 新井薬師前
+    to: '2200706'
+    to_name: 沼袋
+    time: 2
+    distance: 0.89
+  - from: '2200706'
+    from_name: 沼袋
+    to: '2200707'
+    to_name: 野方
+    time: 2
+    distance: 1
+  - from: '2200707'
+    from_name: 野方
+    to: '2200708'
+    to_name: 都立家政
+    time: 2
+    distance: 0.77
+  - from: '2200708'
+    from_name: 都立家政
+    to: '2200709'
+    to_name: 鷺ノ宮
+    time: 2
+    distance: 0.54
+  - from: '2200709'
+    from_name: 鷺ノ宮
+    to: '2200710'
+    to_name: 下井草
+    time: 2
+    distance: 1.29
+  - from: '2200710'
+    from_name: 下井草
+    to: '2200711'
+    to_name: 井荻
+    time: 2
+    distance: 0.85
+  - from: '2200711'
+    from_name: 井荻
+    to: '2200712'
+    to_name: 上井草
+    time: 2
+    distance: 1.12
+  - from: '2200712'
+    from_name: 上井草
+    to: '2200713'
+    to_name: 上石神井
+    time: 2
+    distance: 0.97
+  - from: '2200713'
+    from_name: 上石神井
+    to: '2200714'
+    to_name: 武蔵関
+    time: 3
+    distance: 1.44
+  - from: '2200714'
+    from_name: 武蔵関
+    to: '2200715'
+    to_name: 東伏見
+    time: 2
+    distance: 1.17
+  - from: '2200715'
+    from_name: 東伏見
+    to: '2200716'
+    to_name: 西武柳沢
+    time: 2
+    distance: 1
+  - from: '2200716'
+    from_name: 西武柳沢
+    to: '2200717'
+    to_name: 田無
+    time: 2
+    distance: 1.2
+  - from: '2200717'
+    from_name: 田無
+    to: '2200718'
+    to_name: 花小金井
+    time: 4
+    distance: 2.35
+  - from: '2200718'
+    from_name: 花小金井
+    to: '2200719'
+    to_name: 小平
+    time: 4
+    distance: 2.54
+  - from: '2200719'
+    from_name: 小平
+    to: '2200720'
+    to_name: 久米川
+    time: 4
+    distance: 2
+  - from: '2200720'
+    from_name: 久米川
+    to: '2200721'
+    to_name: 東村山
+    time: 2
+    distance: 1.32
+  - from: '2200721'
+    from_name: 東村山
+    to: '2200131'
+    to_name: 所沢
+    time: 5
+    distance: 3.03
+  - from: '2200131'
+    from_name: 所沢
+    to: '2200723'
+    to_name: 航空公園
+    time: 3
+    distance: 1.47
+  - from: '2200723'
+    from_name: 航空公園
+    to: '2200724'
+    to_name: 新所沢
+    time: 2
+    distance: 1.14
+  - from: '2200724'
+    from_name: 新所沢
+    to: '2200725'
+    to_name: 入曽
+    time: 6
+    distance: 4
+  - from: '2200725'
+    from_name: 入曽
+    to: '2200726'
+    to_name: 狭山市
+    time: 5
+    distance: 3.01
+  - from: '2200726'
+    from_name: 狭山市
+    to: '2200727'
+    to_name: 新狭山
+    time: 4
+    distance: 2.65
+  - from: '2200727'
+    from_name: 新狭山
+    to: '2200728'
+    to_name: 南大塚
+    time: 4
+    distance: 2.55
+  - from: '2200728'
+    from_name: 南大塚
+    to: '2200729'
+    to_name: 本川越
+    time: 6
+    distance: 3.6

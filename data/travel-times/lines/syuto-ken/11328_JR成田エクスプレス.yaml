@@ -1,0 +1,132 @@
+line_code: '11328'
+line_name: JR成田エクスプレス
+company: JR東日本
+type: 特急
+default_speed: 100
+segments:
+  - from: '1130107'
+    from_name: 大船
+    to: '1130106'
+    to_name: 戸塚
+    time: 4
+    distance: 5.23
+  - from: '1130106'
+    from_name: 戸塚
+    to: '1130105'
+    to_name: 横浜
+    time: 7
+    distance: 10.85
+  - from: '1130105'
+    from_name: 横浜
+    to: '1130307'
+    to_name: 武蔵小杉
+    time: 8
+    distance: 12.73
+  - from: '1131906'
+    from_name: 大宮
+    to: '1130212'
+    to_name: 池袋
+    time: 13
+    distance: 21.1
+  - from: '1130212'
+    from_name: 池袋
+    to: '1130208'
+    to_name: 新宿
+    time: 3
+    distance: 4.61
+  - from: '1130208'
+    from_name: 新宿
+    to: '1130205'
+    to_name: 渋谷
+    time: 3
+    distance: 3.43
+  - from: '1130205'
+    from_name: 渋谷
+    to: '1130103'
+    to_name: 品川
+    time: 3
+    distance: 4.78
+  - from: '1130103'
+    from_name: 品川
+    to: '1130101'
+    to_name: 東京
+    time: 4
+    distance: 6.34
+  - from: '1130101'
+    from_name: 東京
+    to: '1131339'
+    to_name: 千葉
+    time: 20
+    distance: 32.23
+  - from: '1131339'
+    from_name: 千葉
+    to: '1131413'
+    to_name: 四街道
+    time: 5
+    distance: 7.23
+  - from: '1131413'
+    from_name: 四街道
+    to: '1131415'
+    to_name: 佐倉
+    time: 5
+    distance: 7.64
+  - from: '1132703'
+    from_name: 成田
+    to: '1132813'
+    to_name: 空港第２ビル（第２旅客ターミナル）
+    time: 5
+    distance: 6.7
+  - from: '1132813'
+    from_name: 空港第２ビル（第２旅客ターミナル）
+    to: '1132705'
+    to_name: 成田空港（第１旅客ターミナル）
+    time: 2
+    distance: 1.08
+  - from: '1131112'
+    from_name: 高尾
+    to: '1130620'
+    to_name: 八王子
+    time: 4
+    distance: 5.34
+  - from: '1130620'
+    from_name: 八王子
+    to: '1130325'
+    to_name: 立川
+    time: 5
+    distance: 8.25
+  - from: '1130325'
+    from_name: 立川
+    to: '1131106'
+    to_name: 国分寺
+    time: 4
+    distance: 6.07
+  - from: '1131106'
+    from_name: 国分寺
+    to: '1131105'
+    to_name: 三鷹
+    time: 5
+    distance: 7.18
+  - from: '1131105'
+    from_name: 三鷹
+    to: '1131104'
+    to_name: 吉祥寺
+    time: 2
+    distance: 1.76
+  - from: '1131104'
+    from_name: 吉祥寺
+    to: '1130208'
+    to_name: 新宿
+    time: 7
+    distance: 11
+  - from: '1130307'
+    from_name: 武蔵小杉
+    to: '1130103'
+    to_name: 品川
+    time: 6
+    distance: 9.22
+  - from: '1131415'
+    from_name: 佐倉
+    to: '1132703'
+    to_name: 成田
+    time: 7
+    distance: 10.91

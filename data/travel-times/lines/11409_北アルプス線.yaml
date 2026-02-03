@@ -1,0 +1,246 @@
+line_code: '11409'
+line_name: 北アルプス線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1140901'
+    from_name: 松本
+    to: '1140902'
+    to_name: 北松本
+    time: 2
+    distance: 0.79
+  - from: '1140902'
+    from_name: 北松本
+    to: '1140903'
+    to_name: 島内
+    time: 3
+    distance: 1.83
+  - from: '1140903'
+    from_name: 島内
+    to: '1140904'
+    to_name: 島高松
+    time: 2
+    distance: 1.19
+  - from: '1140904'
+    from_name: 島高松
+    to: '1140905'
+    to_name: 梓橋
+    time: 2
+    distance: 1.29
+  - from: '1140905'
+    from_name: 梓橋
+    to: '1140906'
+    to_name: 一日市場
+    time: 3
+    distance: 1.63
+  - from: '1140906'
+    from_name: 一日市場
+    to: '1140907'
+    to_name: 中萱
+    time: 3
+    distance: 1.54
+  - from: '1140907'
+    from_name: 中萱
+    to: '1140908'
+    to_name: 南豊科
+    time: 3
+    distance: 1.97
+  - from: '1140908'
+    from_name: 南豊科
+    to: '1140909'
+    to_name: 豊科
+    time: 2
+    distance: 1.01
+  - from: '1140909'
+    from_name: 豊科
+    to: '1140910'
+    to_name: 柏矢町
+    time: 5
+    distance: 2.75
+  - from: '1140910'
+    from_name: 柏矢町
+    to: '1140911'
+    to_name: 穂高
+    time: 3
+    distance: 1.93
+  - from: '1140911'
+    from_name: 穂高
+    to: '1140912'
+    to_name: 有明
+    time: 4
+    distance: 2.35
+  - from: '1140912'
+    from_name: 有明
+    to: '1140913'
+    to_name: 安曇追分
+    time: 3
+    distance: 1.41
+  - from: '1140913'
+    from_name: 安曇追分
+    to: '1140914'
+    to_name: 細野
+    time: 5
+    distance: 2.88
+  - from: '1140914'
+    from_name: 細野
+    to: '1140915'
+    to_name: 北細野
+    time: 2
+    distance: 1.07
+  - from: '1140915'
+    from_name: 北細野
+    to: '1140916'
+    to_name: 信濃松川
+    time: 4
+    distance: 2.04
+  - from: '1140916'
+    from_name: 信濃松川
+    to: '1140917'
+    to_name: 安曇沓掛
+    time: 4
+    distance: 2.62
+  - from: '1140917'
+    from_name: 安曇沓掛
+    to: '1140918'
+    to_name: 信濃常盤
+    time: 4
+    distance: 2.28
+  - from: '1140918'
+    from_name: 信濃常盤
+    to: '1140919'
+    to_name: 南大町
+    time: 5
+    distance: 2.8
+  - from: '1140919'
+    from_name: 南大町
+    to: '1140920'
+    to_name: 信濃大町
+    time: 2
+    distance: 1.09
+  - from: '1140920'
+    from_name: 信濃大町
+    to: '1140921'
+    to_name: 北大町
+    time: 3
+    distance: 1.95
+  - from: '1140921'
+    from_name: 北大町
+    to: '1140922'
+    to_name: 信濃木崎
+    time: 4
+    distance: 2.27
+  - from: '1140922'
+    from_name: 信濃木崎
+    to: '1140923'
+    to_name: 稲尾
+    time: 4
+    distance: 2.07
+  - from: '1140923'
+    from_name: 稲尾
+    to: '1140924'
+    to_name: 海ノ口
+    time: 2
+    distance: 1.29
+  - from: '1140924'
+    from_name: 海ノ口
+    to: '1140925'
+    to_name: 簗場
+    time: 5
+    distance: 3.24
+  - from: '1140925'
+    from_name: 簗場
+    to: '1140927'
+    to_name: 南神城
+    time: 8
+    distance: 4.73
+  - from: '1140927'
+    from_name: 南神城
+    to: '1140928'
+    to_name: 神城
+    time: 4
+    distance: 2.4
+  - from: '1140928'
+    from_name: 神城
+    to: '1140929'
+    to_name: 飯森
+    time: 3
+    distance: 1.4
+  - from: '1140929'
+    from_name: 飯森
+    to: '1140930'
+    to_name: 白馬
+    time: 5
+    distance: 3.08
+  - from: '1140930'
+    from_name: 白馬
+    to: '1140931'
+    to_name: 信濃森上
+    time: 3
+    distance: 1.84
+  - from: '1140931'
+    from_name: 信濃森上
+    to: '1140932'
+    to_name: 白馬大池
+    time: 6
+    distance: 3.42
+  - from: '1140932'
+    from_name: 白馬大池
+    to: '1140933'
+    to_name: 千国
+    time: 5
+    distance: 2.93
+  - from: '1140933'
+    from_name: 千国
+    to: '1140934'
+    to_name: 南小谷
+    time: 3
+    distance: 1.43
+  - from: '1140934'
+    from_name: 南小谷
+    to: '1140935'
+    to_name: 中土
+    time: 6
+    distance: 3.44
+  - from: '1140935'
+    from_name: 中土
+    to: '1140936'
+    to_name: 北小谷
+    time: 7
+    distance: 4.11
+  - from: '1140936'
+    from_name: 北小谷
+    to: '1140937'
+    to_name: 平岩
+    time: 10
+    distance: 6.12
+  - from: '1140937'
+    from_name: 平岩
+    to: '1140938'
+    to_name: 小滝
+    time: 9
+    distance: 5.73
+  - from: '1140938'
+    from_name: 小滝
+    to: '1140939'
+    to_name: 根知
+    time: 5
+    distance: 3.24
+  - from: '1140939'
+    from_name: 根知
+    to: '1140940'
+    to_name: 頸城大野
+    time: 7
+    distance: 4.41
+  - from: '1140940'
+    from_name: 頸城大野
+    to: '1140941'
+    to_name: 姫川
+    time: 3
+    distance: 1.88
+  - from: '1140941'
+    from_name: 姫川
+    to: '1140516'
+    to_name: 糸魚川
+    time: 4
+    distance: 2.59

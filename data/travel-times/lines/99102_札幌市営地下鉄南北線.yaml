@@ -1,0 +1,96 @@
+line_code: '99102'
+line_name: 札幌市営地下鉄南北線
+company: 札幌市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '9910201'
+    from_name: 麻生
+    to: '9910202'
+    to_name: 北３４条
+    time: 2
+    distance: 1.07
+  - from: '9910202'
+    from_name: 北３４条
+    to: '9910203'
+    to_name: 北２４条
+    time: 2
+    distance: 1.14
+  - from: '9910203'
+    from_name: 北２４条
+    to: '9910204'
+    to_name: 北１８条
+    time: 2
+    distance: 0.93
+  - from: '9910204'
+    from_name: 北１８条
+    to: '9910205'
+    to_name: 北１２条
+    time: 2
+    distance: 0.76
+  - from: '9910205'
+    from_name: 北１２条
+    to: '1110315'
+    to_name: 札幌
+    time: 2
+    distance: 0.72
+  - from: '1110315'
+    from_name: 札幌
+    to: '9910109'
+    to_name: 大通
+    time: 2
+    distance: 0.95
+  - from: '9910109'
+    from_name: 大通
+    to: '9910208'
+    to_name: すすきの
+    time: 2
+    distance: 0.53
+  - from: '9910208'
+    from_name: すすきの
+    to: '9910209'
+    to_name: 中島公園
+    time: 2
+    distance: 0.78
+  - from: '9910209'
+    from_name: 中島公園
+    to: '9910210'
+    to_name: 幌平橋
+    time: 2
+    distance: 0.98
+  - from: '9910210'
+    from_name: 幌平橋
+    to: '9910211'
+    to_name: 中の島
+    time: 2
+    distance: 0.47
+  - from: '9910211'
+    from_name: 中の島
+    to: '9910212'
+    to_name: 平岸
+    time: 2
+    distance: 0.72
+  - from: '9910212'
+    from_name: 平岸
+    to: '9910213'
+    to_name: 南平岸
+    time: 2
+    distance: 0.9
+  - from: '9910213'
+    from_name: 南平岸
+    to: '9910214'
+    to_name: 澄川
+    time: 2
+    distance: 1.16
+  - from: '9910214'
+    from_name: 澄川
+    to: '9910215'
+    to_name: 自衛隊前
+    time: 3
+    distance: 1.22
+  - from: '9910215'
+    from_name: 自衛隊前
+    to: '9910216'
+    to_name: 真駒内
+    time: 3
+    distance: 1.73

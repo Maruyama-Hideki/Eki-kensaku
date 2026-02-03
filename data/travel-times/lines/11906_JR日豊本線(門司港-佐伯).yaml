@@ -1,0 +1,360 @@
+line_code: '11906'
+line_name: JR日豊本線(門司港～佐伯)
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1190202'
+    from_name: 門司港
+    to: '1190203'
+    to_name: 小森江
+    time: 6
+    distance: 3.83
+  - from: '1190203'
+    from_name: 小森江
+    to: '1161237'
+    to_name: 門司
+    time: 3
+    distance: 1.42
+  - from: '1161237'
+    from_name: 門司
+    to: '1190205'
+    to_name: 小倉
+    time: 8
+    distance: 5.08
+  - from: '1190205'
+    from_name: 小倉
+    to: '1190206'
+    to_name: 西小倉
+    time: 2
+    distance: 0.84
+  - from: '1190206'
+    from_name: 西小倉
+    to: '1190606'
+    to_name: 南小倉
+    time: 4
+    distance: 2.24
+  - from: '1190606'
+    from_name: 南小倉
+    to: '1190607'
+    to_name: 城野
+    time: 4
+    distance: 2.37
+  - from: '1190607'
+    from_name: 城野
+    to: '1190608'
+    to_name: 安部山公園
+    time: 4
+    distance: 2.3
+  - from: '1190608'
+    from_name: 安部山公園
+    to: '1190609'
+    to_name: 下曽根
+    time: 5
+    distance: 3.08
+  - from: '1190609'
+    from_name: 下曽根
+    to: '1190610'
+    to_name: 朽網
+    time: 6
+    distance: 3.36
+  - from: '1190610'
+    from_name: 朽網
+    to: '1190611'
+    to_name: 苅田
+    time: 6
+    distance: 3.38
+  - from: '1190611'
+    from_name: 苅田
+    to: '1190612'
+    to_name: 小波瀬西工大前
+    time: 6
+    distance: 3.56
+  - from: '1190612'
+    from_name: 小波瀬西工大前
+    to: '1190613'
+    to_name: 行橋
+    time: 5
+    distance: 2.74
+  - from: '1190613'
+    from_name: 行橋
+    to: '1190614'
+    to_name: 南行橋
+    time: 3
+    distance: 1.67
+  - from: '1190614'
+    from_name: 南行橋
+    to: '1190615'
+    to_name: 新田原
+    time: 6
+    distance: 3.45
+  - from: '1190615'
+    from_name: 新田原
+    to: '1190616'
+    to_name: 築城
+    time: 6
+    distance: 3.69
+  - from: '1190616'
+    from_name: 築城
+    to: '1190617'
+    to_name: 椎田
+    time: 5
+    distance: 2.87
+  - from: '1190617'
+    from_name: 椎田
+    to: '1190618'
+    to_name: 豊前松江
+    time: 8
+    distance: 4.88
+  - from: '1190618'
+    from_name: 豊前松江
+    to: '1190619'
+    to_name: 宇島
+    time: 5
+    distance: 2.87
+  - from: '1190619'
+    from_name: 宇島
+    to: '1190620'
+    to_name: 三毛門
+    time: 5
+    distance: 2.89
+  - from: '1190620'
+    from_name: 三毛門
+    to: '1190621'
+    to_name: 吉富
+    time: 3
+    distance: 1.97
+  - from: '1190621'
+    from_name: 吉富
+    to: '1190622'
+    to_name: 中津
+    time: 3
+    distance: 1.66
+  - from: '1190622'
+    from_name: 中津
+    to: '1190623'
+    to_name: 東中津
+    time: 7
+    distance: 4.61
+  - from: '1190623'
+    from_name: 東中津
+    to: '1190624'
+    to_name: 今津
+    time: 5
+    distance: 3.2
+  - from: '1190624'
+    from_name: 今津
+    to: '1190625'
+    to_name: 天津
+    time: 4
+    distance: 2.5
+  - from: '1190625'
+    from_name: 天津
+    to: '1190626'
+    to_name: 豊前善光寺
+    time: 5
+    distance: 2.77
+  - from: '1190626'
+    from_name: 豊前善光寺
+    to: '1190627'
+    to_name: 柳ケ浦
+    time: 6
+    distance: 3.7
+  - from: '1190627'
+    from_name: 柳ケ浦
+    to: '1190628'
+    to_name: 豊前長洲
+    time: 3
+    distance: 1.91
+  - from: '1190628'
+    from_name: 豊前長洲
+    to: '1190629'
+    to_name: 宇佐
+    time: 7
+    distance: 4.58
+  - from: '1190629'
+    from_name: 宇佐
+    to: '1190630'
+    to_name: 西屋敷
+    time: 6
+    distance: 3.4
+  - from: '1190630'
+    from_name: 西屋敷
+    to: '1190631'
+    to_name: 立石
+    time: 8
+    distance: 5.07
+  - from: '1190631'
+    from_name: 立石
+    to: '1190632'
+    to_name: 中山香
+    time: 7
+    distance: 4.55
+  - from: '1190632'
+    from_name: 中山香
+    to: '1190633'
+    to_name: 杵築
+    time: 12
+    distance: 7.69
+  - from: '1190633'
+    from_name: 杵築
+    to: '1190634'
+    to_name: 大神
+    time: 5
+    distance: 3.06
+  - from: '1190634'
+    from_name: 大神
+    to: '1190635'
+    to_name: 日出
+    time: 6
+    distance: 3.41
+  - from: '1190635'
+    from_name: 日出
+    to: '1190636'
+    to_name: 暘谷
+    time: 2
+    distance: 1.16
+  - from: '1190636'
+    from_name: 暘谷
+    to: '1190637'
+    to_name: 豊後豊岡
+    time: 5
+    distance: 2.86
+  - from: '1190637'
+    from_name: 豊後豊岡
+    to: '1190638'
+    to_name: 亀川
+    time: 6
+    distance: 3.56
+  - from: '1190638'
+    from_name: 亀川
+    to: '1190639'
+    to_name: 別府大学
+    time: 4
+    distance: 2.02
+  - from: '1190639'
+    from_name: 別府大学
+    to: '1190640'
+    to_name: 別府
+    time: 6
+    distance: 3.74
+  - from: '1190640'
+    from_name: 別府
+    to: '1190641'
+    to_name: 東別府
+    time: 3
+    distance: 1.63
+  - from: '1190641'
+    from_name: 東別府
+    to: '1190642'
+    to_name: 西大分
+    time: 11
+    distance: 7.17
+  - from: '1190642'
+    from_name: 西大分
+    to: '1190643'
+    to_name: 大分
+    time: 4
+    distance: 2.61
+  - from: '1190643'
+    from_name: 大分
+    to: '1190644'
+    to_name: 牧
+    time: 5
+    distance: 2.94
+  - from: '1190644'
+    from_name: 牧
+    to: '1190645'
+    to_name: 高城
+    time: 3
+    distance: 1.79
+  - from: '1190645'
+    from_name: 高城
+    to: '1190646'
+    to_name: 鶴崎
+    time: 5
+    distance: 2.9
+  - from: '1190646'
+    from_name: 鶴崎
+    to: '1190647'
+    to_name: 大在
+    time: 5
+    distance: 3.13
+  - from: '1190647'
+    from_name: 大在
+    to: '1190648'
+    to_name: 坂ノ市
+    time: 5
+    distance: 3
+  - from: '1190648'
+    from_name: 坂ノ市
+    to: '1190649'
+    to_name: 幸崎
+    time: 7
+    distance: 4.06
+  - from: '1190649'
+    from_name: 幸崎
+    to: '1190650'
+    to_name: 佐志生
+    time: 11
+    distance: 6.88
+  - from: '1190650'
+    from_name: 佐志生
+    to: '1190651'
+    to_name: 下ノ江
+    time: 3
+    distance: 1.91
+  - from: '1190651'
+    from_name: 下ノ江
+    to: '1190652'
+    to_name: 熊崎
+    time: 6
+    distance: 3.36
+  - from: '1190652'
+    from_name: 熊崎
+    to: '1190653'
+    to_name: 上臼杵
+    time: 4
+    distance: 2.64
+  - from: '1190653'
+    from_name: 上臼杵
+    to: '1190654'
+    to_name: 臼杵
+    time: 3
+    distance: 1.51
+  - from: '1190654'
+    from_name: 臼杵
+    to: '1190655'
+    to_name: 津久見
+    time: 11
+    distance: 7.29
+  - from: '1190655'
+    from_name: 津久見
+    to: '1190656'
+    to_name: 日代
+    time: 8
+    distance: 5.18
+  - from: '1190656'
+    from_name: 日代
+    to: '1190657'
+    to_name: 浅海井
+    time: 4
+    distance: 2.5
+  - from: '1190657'
+    from_name: 浅海井
+    to: '1190658'
+    to_name: 狩生
+    time: 6
+    distance: 3.41
+  - from: '1190658'
+    from_name: 狩生
+    to: '1190659'
+    to_name: 海崎
+    time: 4
+    distance: 2.66
+  - from: '1190659'
+    from_name: 海崎
+    to: '1190660'
+    to_name: 佐伯
+    time: 5
+    distance: 2.92

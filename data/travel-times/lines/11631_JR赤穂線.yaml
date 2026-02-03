@@ -1,0 +1,132 @@
+line_code: '11631'
+line_name: JR赤穂線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1160905'
+    from_name: 相生
+    to: '1163102'
+    to_name: 西相生
+    time: 5
+    distance: 2.8
+  - from: '1163102'
+    from_name: 西相生
+    to: '1163103'
+    to_name: 坂越
+    time: 8
+    distance: 4.73
+  - from: '1163103'
+    from_name: 坂越
+    to: '1163104'
+    to_name: 播州赤穂
+    time: 4
+    distance: 2.59
+  - from: '1163104'
+    from_name: 播州赤穂
+    to: '1163105'
+    to_name: 天和
+    time: 6
+    distance: 3.89
+  - from: '1163105'
+    from_name: 天和
+    to: '1163106'
+    to_name: 備前福河
+    time: 3
+    distance: 1.82
+  - from: '1163106'
+    from_name: 備前福河
+    to: '1163107'
+    to_name: 寒河
+    time: 5
+    distance: 3.1
+  - from: '1163107'
+    from_name: 寒河
+    to: '1163108'
+    to_name: 日生
+    time: 4
+    distance: 2.3
+  - from: '1163108'
+    from_name: 日生
+    to: '1163109'
+    to_name: 伊里
+    time: 8
+    distance: 4.8
+  - from: '1163109'
+    from_name: 伊里
+    to: '1163110'
+    to_name: 備前片上
+    time: 4
+    distance: 2.63
+  - from: '1163110'
+    from_name: 備前片上
+    to: '1163111'
+    to_name: 西片上
+    time: 2
+    distance: 1.22
+  - from: '1163111'
+    from_name: 西片上
+    to: '1163112'
+    to_name: 伊部
+    time: 4
+    distance: 2.27
+  - from: '1163112'
+    from_name: 伊部
+    to: '1163113'
+    to_name: 香登
+    time: 6
+    distance: 3.94
+  - from: '1163113'
+    from_name: 香登
+    to: '1163114'
+    to_name: 長船
+    time: 6
+    distance: 3.63
+  - from: '1163114'
+    from_name: 長船
+    to: '1163115'
+    to_name: 邑久
+    time: 6
+    distance: 3.56
+  - from: '1163115'
+    from_name: 邑久
+    to: '1163116'
+    to_name: 大富
+    time: 4
+    distance: 2.01
+  - from: '1163116'
+    from_name: 大富
+    to: '1163117'
+    to_name: 西大寺
+    time: 5
+    distance: 3.08
+  - from: '1163117'
+    from_name: 西大寺
+    to: '1163118'
+    to_name: 大多羅
+    time: 5
+    distance: 2.84
+  - from: '1163118'
+    from_name: 大多羅
+    to: '1160915'
+    to_name: 東岡山
+    time: 5
+    distance: 2.78
+  - from: '1160915'
+    from_name: 東岡山
+    to: '1160916'
+    to_name: 高島
+    time: 5
+    distance: 2.79
+  - from: '1160916'
+    from_name: 高島
+    to: '1160919'
+    to_name: 西川原
+    time: 4
+    distance: 2.02
+  - from: '1160919'
+    from_name: 西川原
+    to: '1160917'
+    to_name: 岡山
+    time: 4
+    distance: 2.08

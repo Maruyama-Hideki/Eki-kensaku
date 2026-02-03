@@ -1,0 +1,84 @@
+line_code: '11223'
+line_name: JR石巻線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1123156'
+    from_name: 小牛田
+    to: '1122302'
+    to_name: 上涌谷
+    time: 5
+    distance: 3.18
+  - from: '1122302'
+    from_name: 上涌谷
+    to: '1122303'
+    to_name: 涌谷
+    time: 5
+    distance: 2.72
+  - from: '1122303'
+    from_name: 涌谷
+    to: '1122304'
+    to_name: 前谷地
+    time: 10
+    distance: 6.5
+  - from: '1122304'
+    from_name: 前谷地
+    to: '1122305'
+    to_name: 佳景山
+    time: 7
+    distance: 4.24
+  - from: '1122305'
+    from_name: 佳景山
+    to: '1122306'
+    to_name: 鹿又
+    time: 7
+    distance: 4.01
+  - from: '1122306'
+    from_name: 鹿又
+    to: '1122307'
+    to_name: 曽波神
+    time: 4
+    distance: 2.25
+  - from: '1122307'
+    from_name: 曽波神
+    to: '1122231'
+    to_name: 石巻
+    time: 6
+    distance: 3.67
+  - from: '1122231'
+    from_name: 石巻
+    to: '1122309'
+    to_name: 陸前稲井
+    time: 5
+    distance: 2.95
+  - from: '1122309'
+    from_name: 陸前稲井
+    to: '1122310'
+    to_name: 渡波
+    time: 6
+    distance: 3.87
+  - from: '1122310'
+    from_name: 渡波
+    to: '1122311'
+    to_name: 万石浦
+    time: 2
+    distance: 1.02
+  - from: '1122311'
+    from_name: 万石浦
+    to: '1122312'
+    to_name: 沢田
+    time: 2
+    distance: 1.26
+  - from: '1122312'
+    from_name: 沢田
+    to: '1122313'
+    to_name: 浦宿
+    time: 6
+    distance: 3.43
+  - from: '1122313'
+    from_name: 浦宿
+    to: '1122314'
+    to_name: 女川
+    time: 4
+    distance: 2.33

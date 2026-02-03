@@ -1,0 +1,24 @@
+line_code: '35003'
+line_name: 阪神武庫川線
+company: 阪神電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3500112'
+    from_name: 武庫川
+    to: '3500302'
+    to_name: 東鳴尾
+    time: 2
+    distance: 0.74
+  - from: '3500302'
+    from_name: 東鳴尾
+    to: '3500303'
+    to_name: 洲先
+    time: 2
+    distance: 0.41
+  - from: '3500303'
+    from_name: 洲先
+    to: '3500304'
+    to_name: 武庫川団地前
+    time: 2
+    distance: 0.55

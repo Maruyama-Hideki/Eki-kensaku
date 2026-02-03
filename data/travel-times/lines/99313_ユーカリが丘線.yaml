@@ -1,0 +1,42 @@
+line_code: '99313'
+line_name: ユーカリが丘線
+company: 山万
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2300133'
+    from_name: ユーカリが丘
+    to: '9931302'
+    to_name: 地区センター
+    time: 2
+    distance: 0.51
+  - from: '9931302'
+    from_name: 地区センター
+    to: '9931303'
+    to_name: 公園
+    time: 2
+    distance: 0.52
+  - from: '9931303'
+    from_name: 公園
+    to: '9931304'
+    to_name: 女子大
+    time: 2
+    distance: 0.85
+  - from: '9931304'
+    from_name: 女子大
+    to: '9931305'
+    to_name: 中学校
+    time: 2
+    distance: 0.63
+  - from: '9931305'
+    from_name: 中学校
+    to: '9931306'
+    to_name: 井野
+    time: 2
+    distance: 0.84
+  - from: '9931306'
+    from_name: 井野
+    to: '9931303'
+    to_name: 公園
+    time: 2
+    distance: 0.52

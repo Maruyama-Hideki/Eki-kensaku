@@ -1,0 +1,12 @@
+line_code: '30021'
+line_name: 名鉄羽島線
+company: 名古屋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3002009'
+    from_name: 江吉良
+    to: '3002102'
+    to_name: 新羽島
+    time: 2
+    distance: 1.19

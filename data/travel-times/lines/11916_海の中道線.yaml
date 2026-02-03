@@ -1,0 +1,36 @@
+line_code: '11916'
+line_name: 海の中道線
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1191601'
+    from_name: 西戸崎
+    to: '1191602'
+    to_name: 海ノ中道
+    time: 3
+    distance: 1.61
+  - from: '1191602'
+    from_name: 海ノ中道
+    to: '1191603'
+    to_name: 雁ノ巣
+    time: 7
+    distance: 4.43
+  - from: '1191603'
+    from_name: 雁ノ巣
+    to: '1191604'
+    to_name: 奈多
+    time: 2
+    distance: 0.85
+  - from: '1191604'
+    from_name: 奈多
+    to: '1191605'
+    to_name: 和白
+    time: 3
+    distance: 1.68
+  - from: '1191605'
+    from_name: 和白
+    to: '1190227'
+    to_name: 香椎
+    time: 6
+    distance: 3.55

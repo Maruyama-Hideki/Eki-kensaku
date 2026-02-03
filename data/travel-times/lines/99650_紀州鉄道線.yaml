@@ -1,0 +1,30 @@
+line_code: '99650'
+line_name: 紀州鉄道線
+company: 紀州鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1163938'
+    from_name: 御坊
+    to: '9965002'
+    to_name: 学門
+    time: 2
+    distance: 1.3
+  - from: '9965002'
+    from_name: 学門
+    to: '9965003'
+    to_name: 紀伊御坊
+    time: 2
+    distance: 0.28
+  - from: '9965003'
+    from_name: 紀伊御坊
+    to: '9965004'
+    to_name: 市役所前
+    time: 2
+    distance: 0.55
+  - from: '9965004'
+    from_name: 市役所前
+    to: '9965005'
+    to_name: 西御坊
+    time: 2
+    distance: 0.31

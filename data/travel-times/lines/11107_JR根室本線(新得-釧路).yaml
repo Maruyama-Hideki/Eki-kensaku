@@ -1,0 +1,150 @@
+line_code: '11107'
+line_name: JR根室本線(新得～釧路)
+company: JR北海道
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1110618'
+    from_name: 新得
+    to: '1110702'
+    to_name: 十勝清水
+    time: 13
+    distance: 8.63
+  - from: '1110702'
+    from_name: 十勝清水
+    to: '1110704'
+    to_name: 御影
+    time: 14
+    distance: 9.07
+  - from: '1110704'
+    from_name: 御影
+    to: '1110705'
+    to_name: 芽室
+    time: 15
+    distance: 9.83
+  - from: '1110705'
+    from_name: 芽室
+    to: '1110706'
+    to_name: 大成
+    time: 3
+    distance: 1.9
+  - from: '1110706'
+    from_name: 大成
+    to: '1110707'
+    to_name: 西帯広
+    time: 8
+    distance: 4.7
+  - from: '1110707'
+    from_name: 西帯広
+    to: '1110708'
+    to_name: 柏林台
+    time: 5
+    distance: 3.15
+  - from: '1110708'
+    from_name: 柏林台
+    to: '1110709'
+    to_name: 帯広
+    time: 5
+    distance: 3.28
+  - from: '1110709'
+    from_name: 帯広
+    to: '1110710'
+    to_name: 札内
+    time: 7
+    distance: 4.46
+  - from: '1110710'
+    from_name: 札内
+    to: '1110712'
+    to_name: 幕別
+    time: 13
+    distance: 8.41
+  - from: '1110712'
+    from_name: 幕別
+    to: '1110713'
+    to_name: 利別
+    time: 10
+    distance: 6.09
+  - from: '1110713'
+    from_name: 利別
+    to: '1110714'
+    to_name: 池田
+    time: 5
+    distance: 2.71
+  - from: '1110714'
+    from_name: 池田
+    to: '1110715'
+    to_name: 十弗
+    time: 13
+    distance: 8.35
+  - from: '1110715'
+    from_name: 十弗
+    to: '1110716'
+    to_name: 豊頃
+    time: 8
+    distance: 5.25
+  - from: '1110716'
+    from_name: 豊頃
+    to: '1110717'
+    to_name: 新吉野
+    time: 11
+    distance: 7.17
+  - from: '1110717'
+    from_name: 新吉野
+    to: '1110718'
+    to_name: 浦幌
+    time: 8
+    distance: 5.06
+  - from: '1110718'
+    from_name: 浦幌
+    to: '1110720'
+    to_name: 厚内
+    time: 20
+    distance: 13.28
+  - from: '1110720'
+    from_name: 厚内
+    to: '1110723'
+    to_name: 音別
+    time: 20
+    distance: 13.06
+  - from: '1110723'
+    from_name: 音別
+    to: '1110725'
+    to_name: 白糠
+    time: 21
+    distance: 13.93
+  - from: '1110725'
+    from_name: 白糠
+    to: '1110726'
+    to_name: 西庶路
+    time: 8
+    distance: 4.85
+  - from: '1110726'
+    from_name: 西庶路
+    to: '1110727'
+    to_name: 庶路
+    time: 3
+    distance: 1.84
+  - from: '1110727'
+    from_name: 庶路
+    to: '1110728'
+    to_name: 大楽毛
+    time: 16
+    distance: 10.46
+  - from: '1110728'
+    from_name: 大楽毛
+    to: '1110729'
+    to_name: 新大楽毛
+    time: 3
+    distance: 1.76
+  - from: '1110729'
+    from_name: 新大楽毛
+    to: '1110730'
+    to_name: 新富士
+    time: 7
+    distance: 4.57
+  - from: '1110730'
+    from_name: 新富士
+    to: '1110731'
+    to_name: 釧路
+    time: 5
+    distance: 2.82

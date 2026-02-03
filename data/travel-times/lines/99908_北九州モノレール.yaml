@@ -1,0 +1,78 @@
+line_code: '99908'
+line_name: 北九州モノレール
+company: 北九州高速鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1190205'
+    from_name: 小倉
+    to: '9990802'
+    to_name: 平和通
+    time: 2
+    distance: 0.42
+  - from: '9990802'
+    from_name: 平和通
+    to: '9990803'
+    to_name: 旦過
+    time: 2
+    distance: 0.3
+  - from: '9990803'
+    from_name: 旦過
+    to: '9990804'
+    to_name: 香春口三萩野
+    time: 2
+    distance: 0.83
+  - from: '9990804'
+    from_name: 香春口三萩野
+    to: '9990805'
+    to_name: 片野
+    time: 2
+    distance: 0.85
+  - from: '9990805'
+    from_name: 片野
+    to: '9990806'
+    to_name: 城野
+    time: 2
+    distance: 0.79
+  - from: '9990806'
+    from_name: 城野
+    to: '9990807'
+    to_name: 北方
+    time: 2
+    distance: 1.05
+  - from: '9990807'
+    from_name: 北方
+    to: '9990808'
+    to_name: 競馬場前
+    time: 2
+    distance: 0.7
+  - from: '9990808'
+    from_name: 競馬場前
+    to: '9990809'
+    to_name: 守恒
+    time: 2
+    distance: 0.77
+  - from: '9990809'
+    from_name: 守恒
+    to: '9990810'
+    to_name: 徳力公団前
+    time: 2
+    distance: 0.85
+  - from: '9990810'
+    from_name: 徳力公団前
+    to: '9990811'
+    to_name: 徳力嵐山口
+    time: 2
+    distance: 0.72
+  - from: '9990811'
+    from_name: 徳力嵐山口
+    to: '9990812'
+    to_name: 志井
+    time: 2
+    distance: 0.75
+  - from: '9990812'
+    from_name: 志井
+    to: '9990813'
+    to_name: 企救丘
+    time: 2
+    distance: 0.65

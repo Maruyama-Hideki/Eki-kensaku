@@ -1,0 +1,138 @@
+line_code: '11608'
+line_name: JR神戸線(神戸～姫路)
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1160315'
+    from_name: 神戸
+    to: '1160802'
+    to_name: 兵庫
+    time: 3
+    distance: 1.75
+  - from: '1160802'
+    from_name: 兵庫
+    to: '1160803'
+    to_name: 新長田
+    time: 4
+    distance: 2.15
+  - from: '1160803'
+    from_name: 新長田
+    to: '1160804'
+    to_name: 鷹取
+    time: 2
+    distance: 1.12
+  - from: '1160804'
+    from_name: 鷹取
+    to: '1160822'
+    to_name: 須磨海浜公園
+    time: 2
+    distance: 0.94
+  - from: '1160805'
+    from_name: 須磨
+    to: '1160806'
+    to_name: 塩屋
+    time: 5
+    distance: 2.87
+  - from: '1160806'
+    from_name: 塩屋
+    to: '1160807'
+    to_name: 垂水
+    time: 5
+    distance: 2.74
+  - from: '1160807'
+    from_name: 垂水
+    to: '1160808'
+    to_name: 舞子
+    time: 3
+    distance: 1.83
+  - from: '1160808'
+    from_name: 舞子
+    to: '1160809'
+    to_name: 朝霧
+    time: 3
+    distance: 1.98
+  - from: '1160809'
+    from_name: 朝霧
+    to: '1160810'
+    to_name: 明石
+    time: 4
+    distance: 2.35
+  - from: '1160810'
+    from_name: 明石
+    to: '1160811'
+    to_name: 西明石
+    time: 6
+    distance: 3.5
+  - from: '1160811'
+    from_name: 西明石
+    to: '1160812'
+    to_name: 大久保
+    time: 4
+    distance: 2.62
+  - from: '1160812'
+    from_name: 大久保
+    to: '1160813'
+    to_name: 魚住
+    time: 6
+    distance: 3.43
+  - from: '1160813'
+    from_name: 魚住
+    to: '1160814'
+    to_name: 土山
+    time: 5
+    distance: 3.1
+  - from: '1160814'
+    from_name: 土山
+    to: '1160815'
+    to_name: 東加古川
+    time: 6
+    distance: 3.35
+  - from: '1160815'
+    from_name: 東加古川
+    to: '1160816'
+    to_name: 加古川
+    time: 6
+    distance: 3.65
+  - from: '1160816'
+    from_name: 加古川
+    to: '1160817'
+    to_name: 宝殿
+    time: 5
+    distance: 3.14
+  - from: '1160817'
+    from_name: 宝殿
+    to: '1160818'
+    to_name: 曽根
+    time: 6
+    distance: 3.98
+  - from: '1160818'
+    from_name: 曽根
+    to: '1160819'
+    to_name: ひめじ別所
+    time: 4
+    distance: 2.03
+  - from: '1160819'
+    from_name: ひめじ別所
+    to: '1160820'
+    to_name: 御着
+    time: 4
+    distance: 2.06
+  - from: '1160820'
+    from_name: 御着
+    to: '1160823'
+    to_name: 東姫路
+    time: 4
+    distance: 2.26
+  - from: '1160822'
+    from_name: 須磨海浜公園
+    to: '1160805'
+    to_name: 須磨
+    time: 3
+    distance: 1.37
+  - from: '1160823'
+    from_name: 東姫路
+    to: '1160821'
+    to_name: 姫路
+    time: 4
+    distance: 2.01

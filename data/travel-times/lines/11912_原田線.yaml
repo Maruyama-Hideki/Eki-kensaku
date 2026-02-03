@@ -1,0 +1,30 @@
+line_code: '11912'
+line_name: 原田線
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1190801'
+    from_name: 桂川
+    to: '1191202'
+    to_name: 上穂波
+    time: 4
+    distance: 2.56
+  - from: '1191202'
+    from_name: 上穂波
+    to: '1191203'
+    to_name: 筑前内野
+    time: 5
+    distance: 3.07
+  - from: '1191203'
+    from_name: 筑前内野
+    to: '1191204'
+    to_name: 筑前山家
+    time: 14
+    distance: 9.12
+  - from: '1191204'
+    from_name: 筑前山家
+    to: '1190311'
+    to_name: 原田
+    time: 7
+    distance: 4.31

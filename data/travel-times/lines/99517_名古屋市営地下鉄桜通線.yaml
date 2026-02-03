@@ -1,0 +1,126 @@
+line_code: '99517'
+line_name: 名古屋市営地下鉄桜通線
+company: 名古屋市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '9951701'
+    from_name: 中村区役所
+    to: '1141101'
+    to_name: 名古屋
+    time: 2
+    distance: 0.85
+  - from: '1141101'
+    from_name: 名古屋
+    to: '9951703'
+    to_name: 国際センター
+    time: 2
+    distance: 0.72
+  - from: '9951703'
+    from_name: 国際センター
+    to: '9951606'
+    to_name: 丸の内
+    time: 2
+    distance: 0.7
+  - from: '9951606'
+    from_name: 丸の内
+    to: '9951408'
+    to_name: 久屋大通
+    time: 2
+    distance: 1.02
+  - from: '9951408'
+    from_name: 久屋大通
+    to: '9951706'
+    to_name: 高岳
+    time: 2
+    distance: 0.68
+  - from: '9951706'
+    from_name: 高岳
+    to: '9951707'
+    to_name: 車道
+    time: 3
+    distance: 1.26
+  - from: '9951707'
+    from_name: 車道
+    to: '9951313'
+    to_name: 今池
+    time: 2
+    distance: 0.81
+  - from: '9951313'
+    from_name: 今池
+    to: '9951709'
+    to_name: 吹上
+    time: 3
+    distance: 1.25
+  - from: '9951709'
+    from_name: 吹上
+    to: '9951612'
+    to_name: 御器所
+    time: 2
+    distance: 1.03
+  - from: '9951612'
+    from_name: 御器所
+    to: '9951711'
+    to_name: 桜山
+    time: 2
+    distance: 1.1
+  - from: '9951711'
+    from_name: 桜山
+    to: '9951712'
+    to_name: 瑞穂区役所
+    time: 2
+    distance: 0.88
+  - from: '9951712'
+    from_name: 瑞穂区役所
+    to: '9951713'
+    to_name: 瑞穂運動場西
+    time: 2
+    distance: 0.77
+  - from: '9951713'
+    from_name: 瑞穂運動場西
+    to: '9951419'
+    to_name: 新瑞橋
+    time: 2
+    distance: 0.81
+  - from: '9951419'
+    from_name: 新瑞橋
+    to: '9951715'
+    to_name: 桜本町
+    time: 2
+    distance: 0.97
+  - from: '9951715'
+    from_name: 桜本町
+    to: '9951716'
+    to_name: 鶴里
+    time: 2
+    distance: 0.71
+  - from: '9951716'
+    from_name: 鶴里
+    to: '9951717'
+    to_name: 野並
+    time: 2
+    distance: 1.16
+  - from: '9951717'
+    from_name: 野並
+    to: '9951718'
+    to_name: 鳴子北
+    time: 2
+    distance: 0.98
+  - from: '9951718'
+    from_name: 鳴子北
+    to: '9951719'
+    to_name: 相生山
+    time: 2
+    distance: 0.91
+  - from: '9951719'
+    from_name: 相生山
+    to: '9951720'
+    to_name: 神沢
+    time: 3
+    distance: 1.29
+  - from: '9951720'
+    from_name: 神沢
+    to: '9951721'
+    to_name: 徳重
+    time: 2
+    distance: 0.9

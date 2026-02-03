@@ -1,0 +1,54 @@
+line_code: '30006'
+line_name: 名鉄豊田線
+company: 名古屋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3000519'
+    from_name: 豊田市
+    to: '3000520'
+    to_name: 梅坪
+    time: 3
+    distance: 1.48
+  - from: '3000520'
+    from_name: 梅坪
+    to: '3000603'
+    to_name: 上豊田
+    time: 3
+    distance: 1.94
+  - from: '3000603'
+    from_name: 上豊田
+    to: '3000604'
+    to_name: 浄水
+    time: 3
+    distance: 1.75
+  - from: '3000604'
+    from_name: 浄水
+    to: '3000605'
+    to_name: 三好ヶ丘
+    time: 4
+    distance: 2.44
+  - from: '3000605'
+    from_name: 三好ヶ丘
+    to: '3000606'
+    to_name: 黒笹
+    time: 3
+    distance: 1.81
+  - from: '3000606'
+    from_name: 黒笹
+    to: '3000607'
+    to_name: 米野木
+    time: 4
+    distance: 2.26
+  - from: '3000607'
+    from_name: 米野木
+    to: '3000608'
+    to_name: 日進
+    time: 3
+    distance: 1.76
+  - from: '3000608'
+    from_name: 日進
+    to: '3000609'
+    to_name: 赤池
+    time: 5
+    distance: 2.82

@@ -1,0 +1,96 @@
+line_code: '34001'
+line_name: 阪急神戸本線
+company: 阪急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1160214'
+    from_name: 大阪
+    to: '3400102'
+    to_name: 中津
+    time: 2
+    distance: 0.84
+  - from: '3400102'
+    from_name: 中津
+    to: '3400103'
+    to_name: 十三
+    time: 3
+    distance: 1.51
+  - from: '3400103'
+    from_name: 十三
+    to: '3400104'
+    to_name: 神崎川
+    time: 3
+    distance: 1.59
+  - from: '3400104'
+    from_name: 神崎川
+    to: '3400105'
+    to_name: 園田
+    time: 5
+    distance: 3.15
+  - from: '3400105'
+    from_name: 園田
+    to: '3400106'
+    to_name: 塚口
+    time: 5
+    distance: 2.96
+  - from: '3400106'
+    from_name: 塚口
+    to: '3400107'
+    to_name: 武庫之荘
+    time: 4
+    distance: 2.02
+  - from: '3400107'
+    from_name: 武庫之荘
+    to: '3400108'
+    to_name: 西宮北口
+    time: 6
+    distance: 3.45
+  - from: '3400108'
+    from_name: 西宮北口
+    to: '3400109'
+    to_name: 夙川
+    time: 4
+    distance: 2.64
+  - from: '3400109'
+    from_name: 夙川
+    to: '3400110'
+    to_name: 芦屋川
+    time: 4
+    distance: 2.6
+  - from: '3400110'
+    from_name: 芦屋川
+    to: '3400111'
+    to_name: 岡本
+    time: 4
+    distance: 2.39
+  - from: '3400111'
+    from_name: 岡本
+    to: '3400112'
+    to_name: 御影
+    time: 4
+    distance: 2.27
+  - from: '3400112'
+    from_name: 御影
+    to: '3400113'
+    to_name: 六甲
+    time: 3
+    distance: 1.67
+  - from: '3400113'
+    from_name: 六甲
+    to: '3400114'
+    to_name: 王子公園
+    time: 3
+    distance: 1.79
+  - from: '3400114'
+    from_name: 王子公園
+    to: '3400115'
+    to_name: 春日野道
+    time: 3
+    distance: 1.45
+  - from: '3400115'
+    from_name: 春日野道
+    to: '1160313'
+    to_name: 三ノ宮
+    time: 2
+    distance: 1.32

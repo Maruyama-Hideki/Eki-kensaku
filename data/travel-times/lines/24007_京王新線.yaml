@@ -1,0 +1,24 @@
+line_code: '24007'
+line_name: 京王新線
+company: 京王電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130208'
+    from_name: 新宿
+    to: '2400102'
+    to_name: 初台
+    time: 3
+    distance: 1.59
+  - from: '2400102'
+    from_name: 初台
+    to: '2400103'
+    to_name: 幡ヶ谷
+    time: 2
+    distance: 1.03
+  - from: '2400103'
+    from_name: 幡ヶ谷
+    to: '2400104'
+    to_name: 笹塚
+    time: 2
+    distance: 0.89

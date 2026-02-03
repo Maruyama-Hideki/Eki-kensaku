@@ -1,0 +1,18 @@
+line_code: '33004'
+line_name: 京阪鴨東線
+company: 京阪電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3300401'
+    from_name: 出町柳
+    to: '3300402'
+    to_name: 神宮丸太町
+    time: 2
+    distance: 1.33
+  - from: '3300402'
+    from_name: 神宮丸太町
+    to: '3300101'
+    to_name: 三条
+    time: 2
+    distance: 0.95

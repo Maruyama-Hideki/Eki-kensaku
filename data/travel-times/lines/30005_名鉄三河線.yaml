@@ -1,0 +1,138 @@
+line_code: '30005'
+line_name: 名鉄三河線
+company: 名古屋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3000501'
+    from_name: 碧南
+    to: '3000502'
+    to_name: 碧南中央
+    time: 3
+    distance: 1.53
+  - from: '3000502'
+    from_name: 碧南中央
+    to: '3000503'
+    to_name: 新川町
+    time: 2
+    distance: 1.03
+  - from: '3000503'
+    from_name: 新川町
+    to: '3000504'
+    to_name: 北新川
+    time: 2
+    distance: 1.06
+  - from: '3000504'
+    from_name: 北新川
+    to: '3000505'
+    to_name: 高浜港
+    time: 3
+    distance: 1.75
+  - from: '3000505'
+    from_name: 高浜港
+    to: '3000506'
+    to_name: 三河高浜
+    time: 2
+    distance: 1.03
+  - from: '3000506'
+    from_name: 三河高浜
+    to: '3000507'
+    to_name: 吉浜
+    time: 3
+    distance: 1.73
+  - from: '3000507'
+    from_name: 吉浜
+    to: '3000508'
+    to_name: 小垣江
+    time: 4
+    distance: 2.04
+  - from: '3000508'
+    from_name: 小垣江
+    to: '3000509'
+    to_name: 刈谷市
+    time: 4
+    distance: 2.33
+  - from: '3000509'
+    from_name: 刈谷市
+    to: '1150224'
+    to_name: 刈谷
+    time: 3
+    distance: 1.54
+  - from: '1150224'
+    from_name: 刈谷
+    to: '3000511'
+    to_name: 重原
+    time: 3
+    distance: 1.41
+  - from: '3000511'
+    from_name: 重原
+    to: '3000119'
+    to_name: 知立
+    time: 3
+    distance: 1.92
+  - from: '3000119'
+    from_name: 知立
+    to: '3000513'
+    to_name: 三河知立
+    time: 2
+    distance: 0.57
+  - from: '3000513'
+    from_name: 三河知立
+    to: '3000514'
+    to_name: 三河八橋
+    time: 5
+    distance: 3
+  - from: '3000514'
+    from_name: 三河八橋
+    to: '3000515'
+    to_name: 若林
+    time: 4
+    distance: 2.41
+  - from: '3000515'
+    from_name: 若林
+    to: '3000516'
+    to_name: 竹村
+    time: 4
+    distance: 2.3
+  - from: '3000516'
+    from_name: 竹村
+    to: '3000517'
+    to_name: 土橋
+    time: 4
+    distance: 2.42
+  - from: '3000517'
+    from_name: 土橋
+    to: '3000518'
+    to_name: 上挙母
+    time: 5
+    distance: 2.73
+  - from: '3000518'
+    from_name: 上挙母
+    to: '3000519'
+    to_name: 豊田市
+    time: 3
+    distance: 1.73
+  - from: '3000519'
+    from_name: 豊田市
+    to: '3000520'
+    to_name: 梅坪
+    time: 3
+    distance: 1.48
+  - from: '3000520'
+    from_name: 梅坪
+    to: '3000521'
+    to_name: 越戸
+    time: 3
+    distance: 1.86
+  - from: '3000521'
+    from_name: 越戸
+    to: '3000522'
+    to_name: 平戸橋
+    time: 2
+    distance: 0.88
+  - from: '3000522'
+    from_name: 平戸橋
+    to: '3000523'
+    to_name: 猿投
+    time: 2
+    distance: 1.04

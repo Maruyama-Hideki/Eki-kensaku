@@ -1,0 +1,66 @@
+line_code: '99810'
+line_name: 伊予鉄道市駅線
+company: 伊予鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9980501'
+    from_name: 松山市
+    to: '9980802'
+    to_name: 南堀端
+    time: 2
+    distance: 0.4
+  - from: '9980802'
+    from_name: 南堀端
+    to: '9980821'
+    to_name: 市役所前
+    time: 2
+    distance: 0.3
+  - from: '9980821'
+    from_name: 市役所前
+    to: '9980820'
+    to_name: 県庁前
+    time: 2
+    distance: 0.19
+  - from: '9980820'
+    from_name: 県庁前
+    to: '9980819'
+    to_name: 大街道
+    time: 2
+    distance: 0.32
+  - from: '9980819'
+    from_name: 大街道
+    to: '9980818'
+    to_name: 勝山町
+    time: 2
+    distance: 0.46
+  - from: '9980818'
+    from_name: 勝山町
+    to: '9980817'
+    to_name: 警察署前
+    time: 2
+    distance: 0.32
+  - from: '9980817'
+    from_name: 警察署前
+    to: '9980816'
+    to_name: 上一万
+    time: 2
+    distance: 0.24
+  - from: '9980816'
+    from_name: 上一万
+    to: '9981009'
+    to_name: 南町
+    time: 2
+    distance: 0.41
+  - from: '9981009'
+    from_name: 南町
+    to: '9981010'
+    to_name: 道後公園
+    time: 2
+    distance: 0.49
+  - from: '9981010'
+    from_name: 道後公園
+    to: '9981011'
+    to_name: 道後温泉
+    time: 2
+    distance: 0.21

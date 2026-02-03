@@ -1,0 +1,24 @@
+line_code: '34009'
+line_name: 阪急嵐山線
+company: 阪急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3400306'
+    from_name: 桂
+    to: '3400902'
+    to_name: 上桂
+    time: 3
+    distance: 1.36
+  - from: '3400902'
+    from_name: 上桂
+    to: '3400903'
+    to_name: 松尾大社
+    time: 3
+    distance: 1.33
+  - from: '3400903'
+    from_name: 松尾大社
+    to: '3400904'
+    to_name: 嵐山
+    time: 2
+    distance: 1.26

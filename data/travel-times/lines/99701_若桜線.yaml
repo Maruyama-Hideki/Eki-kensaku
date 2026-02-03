@@ -1,0 +1,54 @@
+line_code: '99701'
+line_name: 若桜線
+company: 若桜鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1170404'
+    from_name: 郡家
+    to: '9970102'
+    to_name: 八頭高校前
+    time: 2
+    distance: 0.88
+  - from: '9970102'
+    from_name: 八頭高校前
+    to: '9970103'
+    to_name: 因幡船岡
+    time: 2
+    distance: 1.21
+  - from: '9970103'
+    from_name: 因幡船岡
+    to: '9970104'
+    to_name: 隼
+    time: 4
+    distance: 2.06
+  - from: '9970104'
+    from_name: 隼
+    to: '9970105'
+    to_name: 安部
+    time: 4
+    distance: 2.48
+  - from: '9970105'
+    from_name: 安部
+    to: '9970106'
+    to_name: 八東
+    time: 4
+    distance: 2.56
+  - from: '9970106'
+    from_name: 八東
+    to: '9970107'
+    to_name: 徳丸
+    time: 3
+    distance: 1.75
+  - from: '9970107'
+    from_name: 徳丸
+    to: '9970108'
+    to_name: 丹比
+    time: 3
+    distance: 1.9
+  - from: '9970108'
+    from_name: 丹比
+    to: '9970109'
+    to_name: 若桜
+    time: 7
+    distance: 4.19

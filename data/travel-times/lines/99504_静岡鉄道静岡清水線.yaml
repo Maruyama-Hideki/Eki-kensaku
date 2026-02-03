@@ -1,0 +1,90 @@
+line_code: '99504'
+line_name: 静岡鉄道静岡清水線
+company: 静岡鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9950401'
+    from_name: 新静岡
+    to: '9950402'
+    to_name: 日吉町
+    time: 2
+    distance: 0.36
+  - from: '9950402'
+    from_name: 日吉町
+    to: '9950403'
+    to_name: 音羽町
+    time: 2
+    distance: 0.45
+  - from: '9950403'
+    from_name: 音羽町
+    to: '9950404'
+    to_name: 春日町
+    time: 2
+    distance: 0.43
+  - from: '9950404'
+    from_name: 春日町
+    to: '9950405'
+    to_name: 柚木
+    time: 2
+    distance: 0.64
+  - from: '9950405'
+    from_name: 柚木
+    to: '9950406'
+    to_name: 長沼
+    time: 2
+    distance: 1.01
+  - from: '9950406'
+    from_name: 長沼
+    to: '9950407'
+    to_name: 古庄
+    time: 2
+    distance: 0.74
+  - from: '9950407'
+    from_name: 古庄
+    to: '9950408'
+    to_name: 県総合運動場
+    time: 2
+    distance: 0.96
+  - from: '9950408'
+    from_name: 県総合運動場
+    to: '9950409'
+    to_name: 県立美術館前
+    time: 2
+    distance: 0.86
+  - from: '9950409'
+    from_name: 県立美術館前
+    to: '1150116'
+    to_name: 草薙
+    time: 2
+    distance: 0.7
+  - from: '1150116'
+    from_name: 草薙
+    to: '9950411'
+    to_name: 御門台
+    time: 2
+    distance: 1.1
+  - from: '9950411'
+    from_name: 御門台
+    to: '9950412'
+    to_name: 狐ヶ崎
+    time: 2
+    distance: 0.77
+  - from: '9950412'
+    from_name: 狐ヶ崎
+    to: '9950413'
+    to_name: 桜橋
+    time: 3
+    distance: 1.63
+  - from: '9950413'
+    from_name: 桜橋
+    to: '9950414'
+    to_name: 入江岡
+    time: 2
+    distance: 0.39
+  - from: '9950414'
+    from_name: 入江岡
+    to: '9950415'
+    to_name: 新清水
+    time: 2
+    distance: 0.62

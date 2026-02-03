@@ -1,0 +1,36 @@
+line_code: '11224'
+line_name: JR気仙沼線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1122304'
+    from_name: 前谷地
+    to: '1122402'
+    to_name: 和渕
+    time: 5
+    distance: 2.73
+  - from: '1122402'
+    from_name: 和渕
+    to: '1122403'
+    to_name: のの岳
+    time: 5
+    distance: 3.02
+  - from: '1122403'
+    from_name: のの岳
+    to: '1122404'
+    to_name: 陸前豊里
+    time: 6
+    distance: 3.71
+  - from: '1122404'
+    from_name: 陸前豊里
+    to: '1122405'
+    to_name: 御岳堂
+    time: 5
+    distance: 3.11
+  - from: '1122405'
+    from_name: 御岳堂
+    to: '1122406'
+    to_name: 柳津
+    time: 6
+    distance: 3.64

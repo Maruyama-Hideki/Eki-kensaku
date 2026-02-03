@@ -1,0 +1,108 @@
+line_code: '99506'
+line_name: 遠州鉄道鉄道線
+company: 遠州鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1150201'
+    from_name: 浜松
+    to: '9950602'
+    to_name: 第一通り
+    time: 2
+    distance: 0.44
+  - from: '9950602'
+    from_name: 第一通り
+    to: '9950603'
+    to_name: 遠州病院
+    time: 2
+    distance: 0.36
+  - from: '9950603'
+    from_name: 遠州病院
+    to: '9950604'
+    to_name: 八幡
+    time: 2
+    distance: 0.75
+  - from: '9950604'
+    from_name: 八幡
+    to: '9950605'
+    to_name: 助信
+    time: 2
+    distance: 0.85
+  - from: '9950605'
+    from_name: 助信
+    to: '9950606'
+    to_name: 曳馬
+    time: 2
+    distance: 1.02
+  - from: '9950606'
+    from_name: 曳馬
+    to: '9950607'
+    to_name: 上島
+    time: 2
+    distance: 1
+  - from: '9950607'
+    from_name: 上島
+    to: '9950608'
+    to_name: 自動車学校前
+    time: 2
+    distance: 0.87
+  - from: '9950608'
+    from_name: 自動車学校前
+    to: '9950609'
+    to_name: さぎの宮
+    time: 2
+    distance: 1.21
+  - from: '9950609'
+    from_name: さぎの宮
+    to: '9950610'
+    to_name: 積志
+    time: 2
+    distance: 1.32
+  - from: '9950610'
+    from_name: 積志
+    to: '9950611'
+    to_name: 遠州西ヶ崎
+    time: 3
+    distance: 1.37
+  - from: '9950611'
+    from_name: 遠州西ヶ崎
+    to: '9950612'
+    to_name: 遠州小松
+    time: 2
+    distance: 0.9
+  - from: '9950612'
+    from_name: 遠州小松
+    to: '9950613'
+    to_name: 浜北
+    time: 2
+    distance: 0.99
+  - from: '9950613'
+    from_name: 浜北
+    to: '9950614'
+    to_name: 美薗中央公園
+    time: 2
+    distance: 0.91
+  - from: '9950614'
+    from_name: 美薗中央公園
+    to: '9950615'
+    to_name: 遠州小林
+    time: 2
+    distance: 1.25
+  - from: '9950615'
+    from_name: 遠州小林
+    to: '9950616'
+    to_name: 遠州芝本
+    time: 3
+    distance: 1.76
+  - from: '9950616'
+    from_name: 遠州芝本
+    to: '9950617'
+    to_name: 遠州岩水寺
+    time: 2
+    distance: 1.17
+  - from: '9950617'
+    from_name: 遠州岩水寺
+    to: '9950518'
+    to_name: 西鹿島
+    time: 3
+    distance: 1.51

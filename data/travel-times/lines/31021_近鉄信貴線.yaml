@@ -1,0 +1,18 @@
+line_code: '31021'
+line_name: 近鉄信貴線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3100510'
+    from_name: 河内山本
+    to: '3102102'
+    to_name: 服部川
+    time: 3
+    distance: 2
+  - from: '3102102'
+    from_name: 服部川
+    to: '3102103'
+    to_name: 信貴山口
+    time: 2
+    distance: 0.73

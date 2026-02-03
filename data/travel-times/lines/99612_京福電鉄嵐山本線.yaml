@@ -1,0 +1,78 @@
+line_code: '99612'
+line_name: 京福電鉄嵐山本線
+company: 京福電気鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3400303'
+    from_name: 大宮
+    to: '3400304'
+    to_name: 西院
+    time: 3
+    distance: 1.49
+  - from: '3400304'
+    from_name: 西院
+    to: '9961203'
+    to_name: 西大路三条
+    time: 2
+    distance: 0.47
+  - from: '9961203'
+    from_name: 西大路三条
+    to: '9961204'
+    to_name: 山ノ内
+    time: 2
+    distance: 0.85
+  - from: '9961204'
+    from_name: 山ノ内
+    to: '9961213'
+    to_name: 嵐電天神川
+    time: 2
+    distance: 0.75
+  - from: '9961205'
+    from_name: 蚕ノ社
+    to: '9961206'
+    to_name: 太秦広隆寺
+    time: 2
+    distance: 0.47
+  - from: '9961206'
+    from_name: 太秦広隆寺
+    to: '9961207'
+    to_name: 帷子ノ辻
+    time: 2
+    distance: 0.75
+  - from: '9961207'
+    from_name: 帷子ノ辻
+    to: '9961208'
+    to_name: 有栖川
+    time: 2
+    distance: 0.55
+  - from: '9961208'
+    from_name: 有栖川
+    to: '9961209'
+    to_name: 車折神社
+    time: 2
+    distance: 0.51
+  - from: '9961209'
+    from_name: 車折神社
+    to: '9961210'
+    to_name: 鹿王院
+    time: 2
+    distance: 0.34
+  - from: '9961210'
+    from_name: 鹿王院
+    to: '9961211'
+    to_name: 嵐電嵯峨
+    time: 2
+    distance: 0.35
+  - from: '9961211'
+    from_name: 嵐電嵯峨
+    to: '9961212'
+    to_name: 嵐山
+    time: 2
+    distance: 0.36
+  - from: '9961213'
+    from_name: 嵐電天神川
+    to: '9961205'
+    to_name: 蚕ノ社
+    time: 2
+    distance: 0.28

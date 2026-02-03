@@ -1,0 +1,12 @@
+line_code: '22009'
+line_name: 西武西武園線
+company: 西武鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2200721'
+    from_name: 東村山
+    to: '2200902'
+    to_name: 西武園
+    time: 3
+    distance: 1.75

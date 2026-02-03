@@ -1,0 +1,150 @@
+line_code: '99421'
+line_name: 福井鉄道福武線
+company: 福井鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9942101'
+    from_name: 越前武生
+    to: '9942102'
+    to_name: 北府
+    time: 2
+    distance: 0.53
+  - from: '9942102'
+    from_name: 北府
+    to: '9942124'
+    to_name: スポーツ公園
+    time: 2
+    distance: 1.01
+  - from: '9942103'
+    from_name: 家久
+    to: '9942104'
+    to_name: サンドーム西
+    time: 3
+    distance: 1.48
+  - from: '9942104'
+    from_name: サンドーム西
+    to: '9942105'
+    to_name: 西鯖江
+    time: 2
+    distance: 1.1
+  - from: '9942105'
+    from_name: 西鯖江
+    to: '9942106'
+    to_name: 西山公園
+    time: 2
+    distance: 0.76
+  - from: '9942106'
+    from_name: 西山公園
+    to: '9942107'
+    to_name: 水落
+    time: 2
+    distance: 1.12
+  - from: '9942107'
+    from_name: 水落
+    to: '9942108'
+    to_name: 神明
+    time: 2
+    distance: 1.16
+  - from: '9942108'
+    from_name: 神明
+    to: '9942109'
+    to_name: 鳥羽中
+    time: 2
+    distance: 1.1
+  - from: '9942109'
+    from_name: 鳥羽中
+    to: '9942110'
+    to_name: 三十八社
+    time: 2
+    distance: 1.02
+  - from: '9942110'
+    from_name: 三十八社
+    to: '9942125'
+    to_name: 泰澄の里
+    time: 2
+    distance: 1.22
+  - from: '9942111'
+    from_name: 浅水
+    to: '9942112'
+    to_name: ハーモニーホール
+    time: 2
+    distance: 0.89
+  - from: '9942112'
+    from_name: ハーモニーホール
+    to: '9942126'
+    to_name: 清明
+    time: 2
+    distance: 0.96
+  - from: '9942113'
+    from_name: 江端
+    to: '9942114'
+    to_name: ベル前
+    time: 2
+    distance: 0.6
+  - from: '9942114'
+    from_name: ベル前
+    to: '9942115'
+    to_name: 花堂
+    time: 2
+    distance: 0.81
+  - from: '9942115'
+    from_name: 花堂
+    to: '9942116'
+    to_name: 赤十字前
+    time: 2
+    distance: 0.88
+  - from: '9942116'
+    from_name: 赤十字前
+    to: '9942117'
+    to_name: 商工会議所前
+    time: 2
+    distance: 0.57
+  - from: '9942117'
+    from_name: 商工会議所前
+    to: '9942118'
+    to_name: 足羽山公園口
+    time: 2
+    distance: 0.46
+  - from: '9942118'
+    from_name: 足羽山公園口
+    to: '9942119'
+    to_name: 福井城址大名町
+    time: 2
+    distance: 0.68
+  - from: '9942119'
+    from_name: 福井城址大名町
+    to: '1141523'
+    to_name: 福井
+    time: 2
+    distance: 0.56
+  - from: '9942119'
+    from_name: 福井城址大名町
+    to: '9942122'
+    to_name: 仁愛女子高校
+    time: 2
+    distance: 0.65
+  - from: '9942122'
+    from_name: 仁愛女子高校
+    to: '9942005'
+    to_name: 田原町
+    time: 2
+    distance: 0.62
+  - from: '9942124'
+    from_name: スポーツ公園
+    to: '9942103'
+    to_name: 家久
+    time: 2
+    distance: 0.8
+  - from: '9942125'
+    from_name: 泰澄の里
+    to: '9942111'
+    to_name: 浅水
+    time: 2
+    distance: 0.87
+  - from: '9942126'
+    from_name: 清明
+    to: '9942113'
+    to_name: 江端
+    time: 2
+    distance: 0.73

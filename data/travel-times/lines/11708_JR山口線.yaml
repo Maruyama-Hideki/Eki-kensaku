@@ -1,0 +1,168 @@
+line_code: '11708'
+line_name: JR山口線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1161224'
+    from_name: 新山口
+    to: '1170802'
+    to_name: 周防下郷
+    time: 2
+    distance: 1
+  - from: '1170802'
+    from_name: 周防下郷
+    to: '1170803'
+    to_name: 上郷
+    time: 3
+    distance: 1.69
+  - from: '1170803'
+    from_name: 上郷
+    to: '1170804'
+    to_name: 仁保津
+    time: 3
+    distance: 1.87
+  - from: '1170804'
+    from_name: 仁保津
+    to: '1170805'
+    to_name: 大歳
+    time: 4
+    distance: 2.62
+  - from: '1170805'
+    from_name: 大歳
+    to: '1170806'
+    to_name: 矢原
+    time: 2
+    distance: 1.27
+  - from: '1170806'
+    from_name: 矢原
+    to: '1170807'
+    to_name: 湯田温泉
+    time: 3
+    distance: 1.63
+  - from: '1170807'
+    from_name: 湯田温泉
+    to: '1170808'
+    to_name: 山口
+    time: 4
+    distance: 2.4
+  - from: '1170808'
+    from_name: 山口
+    to: '1170809'
+    to_name: 上山口
+    time: 2
+    distance: 1.13
+  - from: '1170809'
+    from_name: 上山口
+    to: '1170810'
+    to_name: 宮野
+    time: 3
+    distance: 1.63
+  - from: '1170810'
+    from_name: 宮野
+    to: '1170811'
+    to_name: 仁保
+    time: 7
+    distance: 4.42
+  - from: '1170811'
+    from_name: 仁保
+    to: '1170812'
+    to_name: 篠目
+    time: 12
+    distance: 7.38
+  - from: '1170812'
+    from_name: 篠目
+    to: '1170813'
+    to_name: 長門峡
+    time: 5
+    distance: 3.21
+  - from: '1170813'
+    from_name: 長門峡
+    to: '1170814'
+    to_name: 渡川
+    time: 5
+    distance: 3.1
+  - from: '1170814'
+    from_name: 渡川
+    to: '1170815'
+    to_name: 三谷
+    time: 5
+    distance: 2.78
+  - from: '1170815'
+    from_name: 三谷
+    to: '1170816'
+    to_name: 名草
+    time: 5
+    distance: 2.83
+  - from: '1170816'
+    from_name: 名草
+    to: '1170817'
+    to_name: 地福
+    time: 4
+    distance: 2.34
+  - from: '1170817'
+    from_name: 地福
+    to: '1170818'
+    to_name: 鍋倉
+    time: 4
+    distance: 2.52
+  - from: '1170818'
+    from_name: 鍋倉
+    to: '1170819'
+    to_name: 徳佐
+    time: 6
+    distance: 3.36
+  - from: '1170819'
+    from_name: 徳佐
+    to: '1170820'
+    to_name: 船平山
+    time: 5
+    distance: 2.74
+  - from: '1170820'
+    from_name: 船平山
+    to: '1170821'
+    to_name: 津和野
+    time: 11
+    distance: 6.75
+  - from: '1170821'
+    from_name: 津和野
+    to: '1170822'
+    to_name: 青野山
+    time: 5
+    distance: 2.86
+  - from: '1170822'
+    from_name: 青野山
+    to: '1170823'
+    to_name: 日原
+    time: 10
+    distance: 6.3
+  - from: '1170823'
+    from_name: 日原
+    to: '1170824'
+    to_name: 青原
+    time: 7
+    distance: 4.22
+  - from: '1170824'
+    from_name: 青原
+    to: '1170825'
+    to_name: 東青原
+    time: 5
+    distance: 2.76
+  - from: '1170825'
+    from_name: 東青原
+    to: '1170826'
+    to_name: 石見横田
+    time: 6
+    distance: 3.72
+  - from: '1170826'
+    from_name: 石見横田
+    to: '1170827'
+    to_name: 本俣賀
+    time: 7
+    distance: 4.37
+  - from: '1170827'
+    from_name: 本俣賀
+    to: '1170145'
+    to_name: 益田
+    time: 5
+    distance: 3.06

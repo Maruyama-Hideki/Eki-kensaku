@@ -1,0 +1,186 @@
+line_code: '11302'
+line_name: JR山手線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130201'
+    from_name: 大崎
+    to: '1130202'
+    to_name: 五反田
+    time: 2
+    distance: 0.81
+  - from: '1130202'
+    from_name: 五反田
+    to: '1130203'
+    to_name: 目黒
+    time: 2
+    distance: 1.14
+  - from: '1130203'
+    from_name: 目黒
+    to: '1130204'
+    to_name: 恵比寿
+    time: 3
+    distance: 1.51
+  - from: '1130204'
+    from_name: 恵比寿
+    to: '1130205'
+    to_name: 渋谷
+    time: 3
+    distance: 1.57
+  - from: '1130205'
+    from_name: 渋谷
+    to: '1130206'
+    to_name: 原宿
+    time: 2
+    distance: 1.32
+  - from: '1130206'
+    from_name: 原宿
+    to: '1130207'
+    to_name: 代々木
+    time: 3
+    distance: 1.38
+  - from: '1130207'
+    from_name: 代々木
+    to: '1130208'
+    to_name: 新宿
+    time: 2
+    distance: 0.76
+  - from: '1130208'
+    from_name: 新宿
+    to: '1130209'
+    to_name: 新大久保
+    time: 2
+    distance: 1.24
+  - from: '1130209'
+    from_name: 新大久保
+    to: '1130210'
+    to_name: 高田馬場
+    time: 3
+    distance: 1.35
+  - from: '1130210'
+    from_name: 高田馬場
+    to: '1130211'
+    to_name: 目白
+    time: 2
+    distance: 0.9
+  - from: '1130211'
+    from_name: 目白
+    to: '1130212'
+    to_name: 池袋
+    time: 2
+    distance: 1.17
+  - from: '1130212'
+    from_name: 池袋
+    to: '1130213'
+    to_name: 大塚
+    time: 3
+    distance: 1.58
+  - from: '1130213'
+    from_name: 大塚
+    to: '1130214'
+    to_name: 巣鴨
+    time: 2
+    distance: 0.99
+  - from: '1130214'
+    from_name: 巣鴨
+    to: '1130215'
+    to_name: 駒込
+    time: 2
+    distance: 0.87
+  - from: '1130215'
+    from_name: 駒込
+    to: '1130216'
+    to_name: 田端
+    time: 2
+    distance: 1.19
+  - from: '1130216'
+    from_name: 田端
+    to: '1130217'
+    to_name: 西日暮里
+    time: 2
+    distance: 0.82
+  - from: '1130217'
+    from_name: 西日暮里
+    to: '1130218'
+    to_name: 日暮里
+    time: 2
+    distance: 0.6
+  - from: '1130218'
+    from_name: 日暮里
+    to: '1130219'
+    to_name: 鶯谷
+    time: 2
+    distance: 0.94
+  - from: '1130219'
+    from_name: 鶯谷
+    to: '1130220'
+    to_name: 上野
+    time: 2
+    distance: 0.86
+  - from: '1130220'
+    from_name: 上野
+    to: '1130221'
+    to_name: 御徒町
+    time: 2
+    distance: 0.75
+  - from: '1130221'
+    from_name: 御徒町
+    to: '1130222'
+    to_name: 秋葉原
+    time: 2
+    distance: 0.97
+  - from: '1130222'
+    from_name: 秋葉原
+    to: '1130223'
+    to_name: 神田
+    time: 2
+    distance: 0.86
+  - from: '1130223'
+    from_name: 神田
+    to: '1130101'
+    to_name: 東京
+    time: 2
+    distance: 1.16
+  - from: '1130101'
+    from_name: 東京
+    to: '1130225'
+    to_name: 有楽町
+    time: 2
+    distance: 0.69
+  - from: '1130225'
+    from_name: 有楽町
+    to: '1130102'
+    to_name: 新橋
+    time: 2
+    distance: 1.13
+  - from: '1130102'
+    from_name: 新橋
+    to: '1130227'
+    to_name: 浜松町
+    time: 2
+    distance: 1.21
+  - from: '1130227'
+    from_name: 浜松町
+    to: '1130228'
+    to_name: 田町
+    time: 3
+    distance: 1.38
+  - from: '1130228'
+    from_name: 田町
+    to: '1130230'
+    to_name: 高輪ゲートウェイ
+    time: 2
+    distance: 1.3
+  - from: '1130103'
+    from_name: 品川
+    to: '1130201'
+    to_name: 大崎
+    time: 3
+    distance: 1.38
+  - from: '1130230'
+    from_name: 高輪ゲートウェイ
+    to: '1130103'
+    to_name: 品川
+    time: 2
+    distance: 0.77

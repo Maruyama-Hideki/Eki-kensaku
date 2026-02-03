@@ -1,0 +1,90 @@
+line_code: '11412'
+line_name: JR篠ノ井線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1131153'
+    from_name: 塩尻
+    to: '1141202'
+    to_name: 広丘
+    time: 6
+    distance: 3.75
+  - from: '1141202'
+    from_name: 広丘
+    to: '1141203'
+    to_name: 村井
+    time: 5
+    distance: 2.97
+  - from: '1141203'
+    from_name: 村井
+    to: '1141215'
+    to_name: 平田
+    time: 3
+    distance: 1.96
+  - from: '1141204'
+    from_name: 南松本
+    to: '1140901'
+    to_name: 松本
+    time: 4
+    distance: 2.26
+  - from: '1140901'
+    from_name: 松本
+    to: '1141206'
+    to_name: 田沢
+    time: 13
+    distance: 8.19
+  - from: '1141206'
+    from_name: 田沢
+    to: '1141207'
+    to_name: 明科
+    time: 9
+    distance: 5.91
+  - from: '1141207'
+    from_name: 明科
+    to: '1141208'
+    to_name: 西条
+    time: 14
+    distance: 9
+  - from: '1141208'
+    from_name: 西条
+    to: '1141209'
+    to_name: 坂北
+    time: 6
+    distance: 3.38
+  - from: '1141209'
+    from_name: 坂北
+    to: '1141210'
+    to_name: 聖高原
+    time: 6
+    distance: 3.93
+  - from: '1141210'
+    from_name: 聖高原
+    to: '1141211'
+    to_name: 冠着
+    time: 5
+    distance: 2.84
+  - from: '1141211'
+    from_name: 冠着
+    to: '1141212'
+    to_name: 姨捨
+    time: 8
+    distance: 5.21
+  - from: '1141212'
+    from_name: 姨捨
+    to: '1141213'
+    to_name: 稲荷山
+    time: 9
+    distance: 5.71
+  - from: '1141213'
+    from_name: 稲荷山
+    to: '1140301'
+    to_name: 篠ノ井
+    time: 6
+    distance: 3.82
+  - from: '1141215'
+    from_name: 平田
+    to: '1141204'
+    to_name: 南松本
+    time: 4
+    distance: 2.25

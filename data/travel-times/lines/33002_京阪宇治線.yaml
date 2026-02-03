@@ -1,0 +1,48 @@
+line_code: '33002'
+line_name: 京阪宇治線
+company: 京阪電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3300113'
+    from_name: 中書島
+    to: '3300202'
+    to_name: 観月橋
+    time: 2
+    distance: 0.78
+  - from: '3300202'
+    from_name: 観月橋
+    to: '3300203'
+    to_name: 桃山南口
+    time: 3
+    distance: 1.41
+  - from: '3300203'
+    from_name: 桃山南口
+    to: '3300204'
+    to_name: 六地蔵
+    time: 2
+    distance: 0.89
+  - from: '3300204'
+    from_name: 六地蔵
+    to: '3300205'
+    to_name: 木幡
+    time: 2
+    distance: 0.73
+  - from: '3300205'
+    from_name: 木幡
+    to: '1161808'
+    to_name: 黄檗
+    time: 3
+    distance: 1.61
+  - from: '1161808'
+    from_name: 黄檗
+    to: '3300207'
+    to_name: 三室戸
+    time: 3
+    distance: 1.56
+  - from: '3300207'
+    from_name: 三室戸
+    to: '3300208'
+    to_name: 宇治
+    time: 2
+    distance: 0.48

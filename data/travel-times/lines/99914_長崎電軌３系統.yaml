@@ -1,0 +1,144 @@
+line_code: '99914'
+line_name: 長崎電軌３系統
+company: 長崎電気軌道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9991401'
+    from_name: 蛍茶屋
+    to: '9991402'
+    to_name: 新中川町
+    time: 2
+    distance: 0.38
+  - from: '9991402'
+    from_name: 新中川町
+    to: '9991403'
+    to_name: 新大工町
+    time: 2
+    distance: 0.35
+  - from: '9991403'
+    from_name: 新大工町
+    to: '9991404'
+    to_name: 諏訪神社
+    time: 2
+    distance: 0.25
+  - from: '9991404'
+    from_name: 諏訪神社
+    to: '9991405'
+    to_name: 市民会館
+    time: 2
+    distance: 0.48
+  - from: '9991405'
+    from_name: 市民会館
+    to: '9991406'
+    to_name: 桜町
+    time: 2
+    distance: 0.51
+  - from: '9991406'
+    from_name: 桜町
+    to: '1190541'
+    to_name: 長崎
+    time: 2
+    distance: 0.53
+  - from: '1190541'
+    from_name: 長崎
+    to: '9991317'
+    to_name: 八千代町
+    time: 2
+    distance: 0.21
+  - from: '9991317'
+    from_name: 八千代町
+    to: '9991316'
+    to_name: 宝町
+    time: 2
+    distance: 0.35
+  - from: '9991316'
+    from_name: 宝町
+    to: '9991315'
+    to_name: 銭座町
+    time: 2
+    distance: 0.5
+  - from: '9991315'
+    from_name: 銭座町
+    to: '9991314'
+    to_name: 茂里町
+    time: 2
+    distance: 0.3
+  - from: '9991314'
+    from_name: 茂里町
+    to: '1190540'
+    to_name: 浦上
+    time: 2
+    distance: 0.23
+  - from: '1190540'
+    from_name: 浦上
+    to: '9991312'
+    to_name: 大学病院
+    time: 2
+    distance: 0.37
+  - from: '9991312'
+    from_name: 大学病院
+    to: '9991311'
+    to_name: 原爆資料館
+    time: 2
+    distance: 0.17
+  - from: '9991311'
+    from_name: 原爆資料館
+    to: '9991310'
+    to_name: 平和公園
+    time: 2
+    distance: 0.36
+  - from: '9991310'
+    from_name: 平和公園
+    to: '9991309'
+    to_name: 大橋
+    time: 2
+    distance: 0.48
+  - from: '9991309'
+    from_name: 大橋
+    to: '9991308'
+    to_name: 浦上車庫
+    time: 2
+    distance: 0.22
+  - from: '9991308'
+    from_name: 浦上車庫
+    to: '9991307'
+    to_name: 岩屋橋
+    time: 2
+    distance: 0.26
+  - from: '9991307'
+    from_name: 岩屋橋
+    to: '9991306'
+    to_name: 長崎大学
+    time: 2
+    distance: 0.43
+  - from: '9991306'
+    from_name: 長崎大学
+    to: '9991305'
+    to_name: 若葉町
+    time: 2
+    distance: 0.23
+  - from: '9991305'
+    from_name: 若葉町
+    to: '9991304'
+    to_name: 千歳町
+    time: 2
+    distance: 0.22
+  - from: '9991304'
+    from_name: 千歳町
+    to: '1190539'
+    to_name: 西浦上
+    time: 2
+    distance: 0.18
+  - from: '1190539'
+    from_name: 西浦上
+    to: '9991302'
+    to_name: 住吉
+    time: 2
+    distance: 0.21
+  - from: '9991302'
+    from_name: 住吉
+    to: '9991301'
+    to_name: 赤迫
+    time: 2
+    distance: 0.26

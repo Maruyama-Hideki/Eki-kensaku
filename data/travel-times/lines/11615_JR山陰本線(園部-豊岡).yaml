@@ -1,0 +1,144 @@
+line_code: '11615'
+line_name: JR山陰本線(園部～豊岡)
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1161415'
+    from_name: 園部
+    to: '1161502'
+    to_name: 船岡
+    time: 6
+    distance: 3.56
+  - from: '1161502'
+    from_name: 船岡
+    to: '1161503'
+    to_name: 日吉
+    time: 6
+    distance: 3.36
+  - from: '1161503'
+    from_name: 日吉
+    to: '1161504'
+    to_name: 鍼灸大学前
+    time: 4
+    distance: 2.25
+  - from: '1161504'
+    from_name: 鍼灸大学前
+    to: '1161505'
+    to_name: 胡麻
+    time: 4
+    distance: 2.65
+  - from: '1161505'
+    from_name: 胡麻
+    to: '1161506'
+    to_name: 下山
+    time: 7
+    distance: 4.57
+  - from: '1161506'
+    from_name: 下山
+    to: '1161507'
+    to_name: 和知
+    time: 9
+    distance: 5.84
+  - from: '1161507'
+    from_name: 和知
+    to: '1161508'
+    to_name: 安栖里
+    time: 3
+    distance: 1.37
+  - from: '1161508'
+    from_name: 安栖里
+    to: '1161509'
+    to_name: 立木
+    time: 7
+    distance: 4.45
+  - from: '1161509'
+    from_name: 立木
+    to: '1161510'
+    to_name: 山家
+    time: 5
+    distance: 2.76
+  - from: '1161510'
+    from_name: 山家
+    to: '1161511'
+    to_name: 綾部
+    time: 10
+    distance: 6.13
+  - from: '1161511'
+    from_name: 綾部
+    to: '1161512'
+    to_name: 高津
+    time: 7
+    distance: 4.07
+  - from: '1161512'
+    from_name: 高津
+    to: '1161513'
+    to_name: 石原
+    time: 4
+    distance: 2.48
+  - from: '1161513'
+    from_name: 石原
+    to: '1161514'
+    to_name: 福知山
+    time: 9
+    distance: 5.62
+  - from: '1161514'
+    from_name: 福知山
+    to: '1161515'
+    to_name: 上川口
+    time: 9
+    distance: 5.54
+  - from: '1161515'
+    from_name: 上川口
+    to: '1161516'
+    to_name: 下夜久野
+    time: 11
+    distance: 6.84
+  - from: '1161516'
+    from_name: 下夜久野
+    to: '1161517'
+    to_name: 上夜久野
+    time: 10
+    distance: 6.56
+  - from: '1161517'
+    from_name: 上夜久野
+    to: '1161518'
+    to_name: 梁瀬
+    time: 8
+    distance: 5.09
+  - from: '1161518'
+    from_name: 梁瀬
+    to: '1161519'
+    to_name: 和田山
+    time: 6
+    distance: 3.37
+  - from: '1161519'
+    from_name: 和田山
+    to: '1161520'
+    to_name: 養父
+    time: 8
+    distance: 4.9
+  - from: '1161520'
+    from_name: 養父
+    to: '1161521'
+    to_name: 八鹿
+    time: 9
+    distance: 5.51
+  - from: '1161521'
+    from_name: 八鹿
+    to: '1161522'
+    to_name: 江原
+    time: 10
+    distance: 6.16
+  - from: '1161522'
+    from_name: 江原
+    to: '1161523'
+    to_name: 国府
+    time: 6
+    distance: 3.7
+  - from: '1161523'
+    from_name: 国府
+    to: '1161524'
+    to_name: 豊岡
+    time: 9
+    distance: 5.44

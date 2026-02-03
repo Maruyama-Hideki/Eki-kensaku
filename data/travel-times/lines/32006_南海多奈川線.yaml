@@ -1,0 +1,24 @@
+line_code: '32006'
+line_name: 南海多奈川線
+company: 南海電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3200137'
+    from_name: みさき公園
+    to: '3200602'
+    to_name: 深日町
+    time: 3
+    distance: 1.35
+  - from: '3200602'
+    from_name: 深日町
+    to: '3200603'
+    to_name: 深日港
+    time: 2
+    distance: 0.62
+  - from: '3200603'
+    from_name: 深日港
+    to: '3200604'
+    to_name: 多奈川
+    time: 2
+    distance: 0.39

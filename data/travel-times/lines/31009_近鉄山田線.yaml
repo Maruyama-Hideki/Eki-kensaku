@@ -1,0 +1,84 @@
+line_code: '31009'
+line_name: 近鉄山田線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3100548'
+    from_name: 伊勢中川
+    to: '3100902'
+    to_name: 伊勢中原
+    time: 5
+    distance: 2.88
+  - from: '3100902'
+    from_name: 伊勢中原
+    to: '3100903'
+    to_name: 松ヶ崎
+    time: 5
+    distance: 2.83
+  - from: '3100903'
+    from_name: 松ヶ崎
+    to: '1151008'
+    to_name: 松阪
+    time: 4
+    distance: 2.65
+  - from: '1151008'
+    from_name: 松阪
+    to: '3100905'
+    to_name: 東松阪
+    time: 3
+    distance: 1.59
+  - from: '3100905'
+    from_name: 東松阪
+    to: '3100906'
+    to_name: 櫛田
+    time: 6
+    distance: 3.86
+  - from: '3100906'
+    from_name: 櫛田
+    to: '3100907'
+    to_name: 漕代
+    time: 3
+    distance: 1.86
+  - from: '3100907'
+    from_name: 漕代
+    to: '3100908'
+    to_name: 斎宮
+    time: 3
+    distance: 1.36
+  - from: '3100908'
+    from_name: 斎宮
+    to: '3100909'
+    to_name: 明星
+    time: 4
+    distance: 2.6
+  - from: '3100909'
+    from_name: 明星
+    to: '3100910'
+    to_name: 明野
+    time: 4
+    distance: 2.63
+  - from: '3100910'
+    from_name: 明野
+    to: '3100911'
+    to_name: 小俣
+    time: 3
+    distance: 1.79
+  - from: '3100911'
+    from_name: 小俣
+    to: '3100912'
+    to_name: 宮町
+    time: 4
+    distance: 2.06
+  - from: '3100912'
+    from_name: 宮町
+    to: '1151206'
+    to_name: 伊勢市
+    time: 2
+    distance: 1.25
+  - from: '1151206'
+    from_name: 伊勢市
+    to: '3100914'
+    to_name: 宇治山田
+    time: 2
+    distance: 0.52

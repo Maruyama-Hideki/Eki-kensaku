@@ -1,0 +1,126 @@
+line_code: '26001'
+line_name: 東急東横線
+company: 東急電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130205'
+    from_name: 渋谷
+    to: '2600102'
+    to_name: 代官山
+    time: 2
+    distance: 1.2
+  - from: '2600102'
+    from_name: 代官山
+    to: '2600103'
+    to_name: 中目黒
+    time: 2
+    distance: 0.64
+  - from: '2600103'
+    from_name: 中目黒
+    to: '2600104'
+    to_name: 祐天寺
+    time: 2
+    distance: 1.03
+  - from: '2600104'
+    from_name: 祐天寺
+    to: '2600105'
+    to_name: 学芸大学
+    time: 2
+    distance: 1.06
+  - from: '2600105'
+    from_name: 学芸大学
+    to: '2600106'
+    to_name: 都立大学
+    time: 3
+    distance: 1.46
+  - from: '2600106'
+    from_name: 都立大学
+    to: '2600107'
+    to_name: 自由が丘
+    time: 3
+    distance: 1.37
+  - from: '2600107'
+    from_name: 自由が丘
+    to: '2600108'
+    to_name: 田園調布
+    time: 2
+    distance: 1.16
+  - from: '2600108'
+    from_name: 田園調布
+    to: '2600109'
+    to_name: 多摩川
+    time: 2
+    distance: 0.81
+  - from: '2600109'
+    from_name: 多摩川
+    to: '2600110'
+    to_name: 新丸子
+    time: 2
+    distance: 1.18
+  - from: '2600110'
+    from_name: 新丸子
+    to: '1130307'
+    to_name: 武蔵小杉
+    time: 2
+    distance: 0.47
+  - from: '1130307'
+    from_name: 武蔵小杉
+    to: '2600112'
+    to_name: 元住吉
+    time: 2
+    distance: 1.3
+  - from: '2600112'
+    from_name: 元住吉
+    to: '2600113'
+    to_name: 日吉
+    time: 3
+    distance: 1.49
+  - from: '2600113'
+    from_name: 日吉
+    to: '2600114'
+    to_name: 綱島
+    time: 4
+    distance: 2.18
+  - from: '2600114'
+    from_name: 綱島
+    to: '2600115'
+    to_name: 大倉山
+    time: 3
+    distance: 1.67
+  - from: '2600115'
+    from_name: 大倉山
+    to: '1130603'
+    to_name: 菊名
+    time: 3
+    distance: 1.41
+  - from: '1130603'
+    from_name: 菊名
+    to: '2600117'
+    to_name: 妙蓮寺
+    time: 2
+    distance: 1.25
+  - from: '2600117'
+    from_name: 妙蓮寺
+    to: '2600118'
+    to_name: 白楽
+    time: 2
+    distance: 1.13
+  - from: '2600118'
+    from_name: 白楽
+    to: '2600119'
+    to_name: 東白楽
+    time: 2
+    distance: 0.68
+  - from: '2600119'
+    from_name: 東白楽
+    to: '2600120'
+    to_name: 反町
+    time: 2
+    distance: 1.04
+  - from: '2600120'
+    from_name: 反町
+    to: '1130105'
+    to_name: 横浜
+    time: 2
+    distance: 0.98

@@ -1,0 +1,144 @@
+line_code: '28006'
+line_name: 東京メトロ有楽町線
+company: 東京メトロ
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '2100111'
+    from_name: 和光市
+    to: '2100110'
+    to_name: 成増
+    time: 4
+    distance: 2.19
+  - from: '2100110'
+    from_name: 成増
+    to: '2100109'
+    to_name: 下赤塚
+    time: 3
+    distance: 1.33
+  - from: '2100109'
+    from_name: 下赤塚
+    to: '2800604'
+    to_name: 平和台
+    time: 3
+    distance: 1.64
+  - from: '2800604'
+    from_name: 平和台
+    to: '2800605'
+    to_name: 氷川台
+    time: 3
+    distance: 1.41
+  - from: '2800605'
+    from_name: 氷川台
+    to: '2200301'
+    to_name: 小竹向原
+    time: 3
+    distance: 1.34
+  - from: '2200301'
+    from_name: 小竹向原
+    to: '2800607'
+    to_name: 千川
+    time: 2
+    distance: 1.15
+  - from: '2800607'
+    from_name: 千川
+    to: '2800608'
+    to_name: 要町
+    time: 2
+    distance: 1.02
+  - from: '2800608'
+    from_name: 要町
+    to: '1130212'
+    to_name: 池袋
+    time: 2
+    distance: 1.16
+  - from: '1130212'
+    from_name: 池袋
+    to: '2800610'
+    to_name: 東池袋
+    time: 2
+    distance: 0.91
+  - from: '2800610'
+    from_name: 東池袋
+    to: '2800611'
+    to_name: 護国寺
+    time: 2
+    distance: 1.04
+  - from: '2800611'
+    from_name: 護国寺
+    to: '2800612'
+    to_name: 江戸川橋
+    time: 3
+    distance: 1.19
+  - from: '2800612'
+    from_name: 江戸川橋
+    to: '1131316'
+    to_name: 飯田橋
+    time: 3
+    distance: 1.35
+  - from: '1131316'
+    from_name: 飯田橋
+    to: '1131315'
+    to_name: 市ケ谷
+    time: 3
+    distance: 1.48
+  - from: '1131315'
+    from_name: 市ケ谷
+    to: '2800615'
+    to_name: 麹町
+    time: 2
+    distance: 0.8
+  - from: '2800615'
+    from_name: 麹町
+    to: '2800115'
+    to_name: 赤坂見附
+    time: 2
+    distance: 0.78
+  - from: '2800115'
+    from_name: 赤坂見附
+    to: '2800617'
+    to_name: 桜田門
+    time: 3
+    distance: 1.31
+  - from: '2800617'
+    from_name: 桜田門
+    to: '1130225'
+    to_name: 有楽町
+    time: 2
+    distance: 1.13
+  - from: '1130225'
+    from_name: 有楽町
+    to: '2800111'
+    to_name: 銀座
+    time: 2
+    distance: 0.38
+  - from: '2800111'
+    from_name: 銀座
+    to: '2800312'
+    to_name: 築地
+    time: 2
+    distance: 0.89
+  - from: '2800312'
+    from_name: 築地
+    to: '2800621'
+    to_name: 月島
+    time: 2
+    distance: 1.11
+  - from: '2800621'
+    from_name: 月島
+    to: '2800622'
+    to_name: 豊洲
+    time: 3
+    distance: 1.55
+  - from: '2800622'
+    from_name: 豊洲
+    to: '2800623'
+    to_name: 辰巳
+    time: 3
+    distance: 1.66
+  - from: '2800623'
+    from_name: 辰巳
+    to: '1132605'
+    to_name: 新木場
+    time: 3
+    distance: 1.53

@@ -1,0 +1,132 @@
+line_code: '30014'
+line_name: 名鉄尾西線
+company: 名古屋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1150806'
+    from_name: 弥富
+    to: '3001403'
+    to_name: 五ノ三
+    time: 4
+    distance: 2.18
+  - from: '3001403'
+    from_name: 五ノ三
+    to: '3001404'
+    to_name: 佐屋
+    time: 4
+    distance: 2.02
+  - from: '3001404'
+    from_name: 佐屋
+    to: '3001405'
+    to_name: 日比野
+    time: 4
+    distance: 2.05
+  - from: '3001405'
+    from_name: 日比野
+    to: '3001308'
+    to_name: 津島
+    time: 3
+    distance: 1.65
+  - from: '3001308'
+    from_name: 津島
+    to: '3001407'
+    to_name: 町方
+    time: 2
+    distance: 1.26
+  - from: '3001407'
+    from_name: 町方
+    to: '3001408'
+    to_name: 六輪
+    time: 3
+    distance: 1.5
+  - from: '3001408'
+    from_name: 六輪
+    to: '3001409'
+    to_name: 渕高
+    time: 2
+    distance: 1.3
+  - from: '3001409'
+    from_name: 渕高
+    to: '3001410'
+    to_name: 丸渕
+    time: 2
+    distance: 0.98
+  - from: '3001410'
+    from_name: 丸渕
+    to: '3001411'
+    to_name: 上丸渕
+    time: 2
+    distance: 1.28
+  - from: '3001411'
+    from_name: 上丸渕
+    to: '3001412'
+    to_name: 森上
+    time: 3
+    distance: 1.54
+  - from: '3001412'
+    from_name: 森上
+    to: '3001413'
+    to_name: 山崎
+    time: 2
+    distance: 1.06
+  - from: '3001413'
+    from_name: 山崎
+    to: '3001414'
+    to_name: 玉野
+    time: 3
+    distance: 1.34
+  - from: '3001414'
+    from_name: 玉野
+    to: '3001415'
+    to_name: 萩原
+    time: 3
+    distance: 1.49
+  - from: '3001415'
+    from_name: 萩原
+    to: '3001416'
+    to_name: 二子
+    time: 2
+    distance: 1.09
+  - from: '3001416'
+    from_name: 二子
+    to: '3001417'
+    to_name: 苅安賀
+    time: 2
+    distance: 1.15
+  - from: '3001417'
+    from_name: 苅安賀
+    to: '3001418'
+    to_name: 観音寺
+    time: 2
+    distance: 0.77
+  - from: '3001418'
+    from_name: 観音寺
+    to: '1150237'
+    to_name: 尾張一宮
+    time: 3
+    distance: 1.69
+  - from: '1150237'
+    from_name: 尾張一宮
+    to: '3001420'
+    to_name: 西一宮
+    time: 2
+    distance: 0.83
+  - from: '3001420'
+    from_name: 西一宮
+    to: '3001421'
+    to_name: 開明
+    time: 4
+    distance: 2.07
+  - from: '3001421'
+    from_name: 開明
+    to: '3001422'
+    to_name: 奥町
+    time: 2
+    distance: 1.31
+  - from: '3001422'
+    from_name: 奥町
+    to: '3001423'
+    to_name: 玉ノ井
+    time: 2
+    distance: 1.21

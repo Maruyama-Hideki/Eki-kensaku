@@ -1,0 +1,24 @@
+line_code: '31018'
+line_name: 近鉄御所線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3100323'
+    from_name: 尺土
+    to: '3101802'
+    to_name: 近鉄新庄
+    time: 4
+    distance: 2.23
+  - from: '3101802'
+    from_name: 近鉄新庄
+    to: '3101803'
+    to_name: 忍海
+    time: 3
+    distance: 1.51
+  - from: '3101803'
+    from_name: 忍海
+    to: '1163608'
+    to_name: 御所
+    time: 2
+    distance: 1.23

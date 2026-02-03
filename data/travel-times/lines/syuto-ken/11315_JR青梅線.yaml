@@ -1,0 +1,150 @@
+line_code: '11315'
+line_name: JR青梅線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130325'
+    from_name: 立川
+    to: '1131502'
+    to_name: 西立川
+    time: 3
+    distance: 1.91
+  - from: '1131502'
+    from_name: 西立川
+    to: '1131503'
+    to_name: 東中神
+    time: 2
+    distance: 0.87
+  - from: '1131503'
+    from_name: 東中神
+    to: '1131504'
+    to_name: 中神
+    time: 2
+    distance: 0.84
+  - from: '1131504'
+    from_name: 中神
+    to: '1131505'
+    to_name: 昭島
+    time: 3
+    distance: 1.37
+  - from: '1131505'
+    from_name: 昭島
+    to: '1131506'
+    to_name: 拝島
+    time: 3
+    distance: 1.86
+  - from: '1131506'
+    from_name: 拝島
+    to: '1131507'
+    to_name: 牛浜
+    time: 3
+    distance: 1.72
+  - from: '1131507'
+    from_name: 牛浜
+    to: '1131508'
+    to_name: 福生
+    time: 2
+    distance: 1.03
+  - from: '1131508'
+    from_name: 福生
+    to: '1131509'
+    to_name: 羽村
+    time: 4
+    distance: 2.03
+  - from: '1131509'
+    from_name: 羽村
+    to: '1131510'
+    to_name: 小作
+    time: 4
+    distance: 2.36
+  - from: '1131510'
+    from_name: 小作
+    to: '1131511'
+    to_name: 河辺
+    time: 3
+    distance: 1.9
+  - from: '1131511'
+    from_name: 河辺
+    to: '1131512'
+    to_name: 東青梅
+    time: 2
+    distance: 1.15
+  - from: '1131512'
+    from_name: 東青梅
+    to: '1131513'
+    to_name: 青梅
+    time: 2
+    distance: 1.33
+  - from: '1131513'
+    from_name: 青梅
+    to: '1131514'
+    to_name: 宮ノ平
+    time: 3
+    distance: 1.91
+  - from: '1131514'
+    from_name: 宮ノ平
+    to: '1131515'
+    to_name: 日向和田
+    time: 2
+    distance: 0.71
+  - from: '1131515'
+    from_name: 日向和田
+    to: '1131516'
+    to_name: 石神前
+    time: 2
+    distance: 0.99
+  - from: '1131516'
+    from_name: 石神前
+    to: '1131517'
+    to_name: 二俣尾
+    time: 2
+    distance: 1.13
+  - from: '1131517'
+    from_name: 二俣尾
+    to: '1131518'
+    to_name: 軍畑
+    time: 2
+    distance: 0.88
+  - from: '1131518'
+    from_name: 軍畑
+    to: '1131519'
+    to_name: 沢井
+    time: 2
+    distance: 1.28
+  - from: '1131519'
+    from_name: 沢井
+    to: '1131520'
+    to_name: 御嶽
+    time: 2
+    distance: 1.09
+  - from: '1131520'
+    from_name: 御嶽
+    to: '1131521'
+    to_name: 川井
+    time: 4
+    distance: 2.14
+  - from: '1131521'
+    from_name: 川井
+    to: '1131522'
+    to_name: 古里
+    time: 2
+    distance: 1.13
+  - from: '1131522'
+    from_name: 古里
+    to: '1131523'
+    to_name: 鳩ノ巣
+    time: 4
+    distance: 2.09
+  - from: '1131523'
+    from_name: 鳩ノ巣
+    to: '1131524'
+    to_name: 白丸
+    time: 2
+    distance: 1.32
+  - from: '1131524'
+    from_name: 白丸
+    to: '1131525'
+    to_name: 奥多摩
+    time: 3
+    distance: 1.64

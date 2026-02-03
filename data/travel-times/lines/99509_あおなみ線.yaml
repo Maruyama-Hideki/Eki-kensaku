@@ -1,0 +1,66 @@
+line_code: '99509'
+line_name: あおなみ線
+company: 名古屋臨海高速鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1141101'
+    from_name: 名古屋
+    to: '3102702'
+    to_name: 米野
+    time: 2
+    distance: 1.05
+  - from: '3102702'
+    from_name: 米野
+    to: '9950903'
+    to_name: 小本
+    time: 4
+    distance: 2.15
+  - from: '9950903'
+    from_name: 小本
+    to: '9950904'
+    to_name: 荒子
+    time: 2
+    distance: 1.03
+  - from: '9950904'
+    from_name: 荒子
+    to: '9950905'
+    to_name: 南荒子
+    time: 2
+    distance: 0.92
+  - from: '9950905'
+    from_name: 南荒子
+    to: '9950906'
+    to_name: 中島
+    time: 2
+    distance: 0.73
+  - from: '9950906'
+    from_name: 中島
+    to: '9950907'
+    to_name: 名古屋競馬場前
+    time: 2
+    distance: 1.19
+  - from: '9950907'
+    from_name: 名古屋競馬場前
+    to: '9950908'
+    to_name: 荒子川公園
+    time: 2
+    distance: 1.12
+  - from: '9950908'
+    from_name: 荒子川公園
+    to: '9950909'
+    to_name: 稲永
+    time: 3
+    distance: 1.47
+  - from: '9950909'
+    from_name: 稲永
+    to: '9950910'
+    to_name: 野跡
+    time: 3
+    distance: 1.98
+  - from: '9950910'
+    from_name: 野跡
+    to: '9950911'
+    to_name: 金城ふ頭
+    time: 5
+    distance: 2.98

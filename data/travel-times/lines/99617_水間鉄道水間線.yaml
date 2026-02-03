@@ -1,0 +1,60 @@
+line_code: '99617'
+line_name: 水間鉄道水間線
+company: 水間鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3200124'
+    from_name: 貝塚
+    to: '9961702'
+    to_name: 貝塚市役所前
+    time: 2
+    distance: 0.73
+  - from: '9961702'
+    from_name: 貝塚市役所前
+    to: '9961703'
+    to_name: 近義の里
+    time: 2
+    distance: 0.36
+  - from: '9961703'
+    from_name: 近義の里
+    to: '9961704'
+    to_name: 石才
+    time: 2
+    distance: 0.85
+  - from: '9961704'
+    from_name: 石才
+    to: '9961705'
+    to_name: 清児
+    time: 2
+    distance: 0.74
+  - from: '9961705'
+    from_name: 清児
+    to: '9961706'
+    to_name: 名越
+    time: 2
+    distance: 0.45
+  - from: '9961706'
+    from_name: 名越
+    to: '9961707'
+    to_name: 森
+    time: 2
+    distance: 1.02
+  - from: '9961707'
+    from_name: 森
+    to: '9961708'
+    to_name: 三ツ松
+    time: 2
+    distance: 0.37
+  - from: '9961708'
+    from_name: 三ツ松
+    to: '9961709'
+    to_name: 三ヶ山口
+    time: 2
+    distance: 0.46
+  - from: '9961709'
+    from_name: 三ヶ山口
+    to: '9961710'
+    to_name: 水間観音
+    time: 2
+    distance: 0.42

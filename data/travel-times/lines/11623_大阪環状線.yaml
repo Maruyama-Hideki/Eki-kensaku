@@ -1,0 +1,120 @@
+line_code: '11623'
+line_name: 大阪環状線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1160719'
+    from_name: 天王寺
+    to: '1160720'
+    to_name: 新今宮
+    time: 2
+    distance: 1.24
+  - from: '1160720'
+    from_name: 新今宮
+    to: '1160721'
+    to_name: 今宮
+    time: 2
+    distance: 0.86
+  - from: '1160721'
+    from_name: 今宮
+    to: '1162304'
+    to_name: 芦原橋
+    time: 2
+    distance: 0.6
+  - from: '1162304'
+    from_name: 芦原橋
+    to: '1162305'
+    to_name: 大正
+    time: 2
+    distance: 1.15
+  - from: '1162305'
+    from_name: 大正
+    to: '1162306'
+    to_name: 弁天町
+    time: 3
+    distance: 1.66
+  - from: '1162306'
+    from_name: 弁天町
+    to: '1162307'
+    to_name: 西九条
+    time: 3
+    distance: 1.53
+  - from: '1162307'
+    from_name: 西九条
+    to: '1162308'
+    to_name: 野田
+    time: 2
+    distance: 1.02
+  - from: '1162308'
+    from_name: 野田
+    to: '1162309'
+    to_name: 福島
+    time: 3
+    distance: 1.4
+  - from: '1162309'
+    from_name: 福島
+    to: '1160214'
+    to_name: 大阪
+    time: 2
+    distance: 0.98
+  - from: '1160214'
+    from_name: 大阪
+    to: '1162311'
+    to_name: 天満
+    time: 3
+    distance: 1.58
+  - from: '1162311'
+    from_name: 天満
+    to: '1162312'
+    to_name: 桜ノ宮
+    time: 2
+    distance: 0.8
+  - from: '1162312'
+    from_name: 桜ノ宮
+    to: '1161724'
+    to_name: 京橋
+    time: 3
+    distance: 1.57
+  - from: '1161724'
+    from_name: 京橋
+    to: '1162314'
+    to_name: 大阪城公園
+    time: 2
+    distance: 0.83
+  - from: '1162314'
+    from_name: 大阪城公園
+    to: '1162315'
+    to_name: 森ノ宮
+    time: 2
+    distance: 0.91
+  - from: '1162315'
+    from_name: 森ノ宮
+    to: '1162316'
+    to_name: 玉造
+    time: 2
+    distance: 0.77
+  - from: '1162316'
+    from_name: 玉造
+    to: '1162317'
+    to_name: 鶴橋
+    time: 2
+    distance: 0.96
+  - from: '1162317'
+    from_name: 鶴橋
+    to: '1162318'
+    to_name: 桃谷
+    time: 2
+    distance: 0.78
+  - from: '1162318'
+    from_name: 桃谷
+    to: '1162319'
+    to_name: 寺田町
+    time: 2
+    distance: 1.24
+  - from: '1162319'
+    from_name: 寺田町
+    to: '1160719'
+    to_name: 天王寺
+    time: 2
+    distance: 0.86

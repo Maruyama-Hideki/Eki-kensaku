@@ -1,0 +1,18 @@
+line_code: '99319'
+line_name: 関東鉄道竜ヶ崎線
+company: 関東鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1122903'
+    from_name: 龍ケ崎市
+    to: '9931902'
+    to_name: 入地
+    time: 4
+    distance: 2.11
+  - from: '9931902'
+    from_name: 入地
+    to: '9931903'
+    to_name: 竜ヶ崎
+    time: 4
+    distance: 2.27

@@ -1,0 +1,228 @@
+line_code: '99525'
+line_name: 長良川鉄道越美南線
+company: 長良川鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1141608'
+    from_name: 美濃太田
+    to: '9952502'
+    to_name: 前平公園
+    time: 3
+    distance: 1.68
+  - from: '9952502'
+    from_name: 前平公園
+    to: '9952503'
+    to_name: 加茂野
+    time: 3
+    distance: 1.95
+  - from: '9952503'
+    from_name: 加茂野
+    to: '9952504'
+    to_name: 富加
+    time: 4
+    distance: 2.11
+  - from: '9952504'
+    from_name: 富加
+    to: '9952505'
+    to_name: 関富岡
+    time: 4
+    distance: 2.27
+  - from: '9952505'
+    from_name: 関富岡
+    to: '9952506'
+    to_name: 関口
+    time: 3
+    distance: 1.46
+  - from: '9952506'
+    from_name: 関口
+    to: '9952507'
+    to_name: 刃物会館前
+    time: 3
+    distance: 1.38
+  - from: '9952507'
+    from_name: 刃物会館前
+    to: '9952508'
+    to_name: 関
+    time: 2
+    distance: 0.74
+  - from: '9952508'
+    from_name: 関
+    to: '9952509'
+    to_name: 関市役所前
+    time: 2
+    distance: 1
+  - from: '9952509'
+    from_name: 関市役所前
+    to: '9952510'
+    to_name: 関下有知
+    time: 3
+    distance: 1.64
+  - from: '9952510'
+    from_name: 関下有知
+    to: '9952511'
+    to_name: 松森
+    time: 3
+    distance: 1.46
+  - from: '9952511'
+    from_name: 松森
+    to: '9952512'
+    to_name: 美濃市
+    time: 3
+    distance: 1.42
+  - from: '9952512'
+    from_name: 美濃市
+    to: '9952513'
+    to_name: 梅山
+    time: 2
+    distance: 1.07
+  - from: '9952513'
+    from_name: 梅山
+    to: '9952514'
+    to_name: 湯の洞温泉口
+    time: 5
+    distance: 2.75
+  - from: '9952514'
+    from_name: 湯の洞温泉口
+    to: '9952515'
+    to_name: 洲原
+    time: 4
+    distance: 2.32
+  - from: '9952515'
+    from_name: 洲原
+    to: '9952516'
+    to_name: 母野
+    time: 2
+    distance: 1.12
+  - from: '9952516'
+    from_name: 母野
+    to: '9952517'
+    to_name: 木尾
+    time: 2
+    distance: 0.91
+  - from: '9952517'
+    from_name: 木尾
+    to: '9952518'
+    to_name: 八坂
+    time: 3
+    distance: 1.64
+  - from: '9952518'
+    from_name: 八坂
+    to: '9952519'
+    to_name: みなみ子宝温泉
+    time: 2
+    distance: 0.94
+  - from: '9952519'
+    from_name: みなみ子宝温泉
+    to: '9952520'
+    to_name: 大矢
+    time: 2
+    distance: 1.11
+  - from: '9952520'
+    from_name: 大矢
+    to: '9952521'
+    to_name: 福野
+    time: 2
+    distance: 1.05
+  - from: '9952521'
+    from_name: 福野
+    to: '9952522'
+    to_name: 美並苅安
+    time: 3
+    distance: 1.58
+  - from: '9952522'
+    from_name: 美並苅安
+    to: '9952523'
+    to_name: 赤池
+    time: 2
+    distance: 1.25
+  - from: '9952523'
+    from_name: 赤池
+    to: '9952524'
+    to_name: 深戸
+    time: 3
+    distance: 1.72
+  - from: '9952524'
+    from_name: 深戸
+    to: '9952525'
+    to_name: 相生
+    time: 6
+    distance: 3.37
+  - from: '9952525'
+    from_name: 相生
+    to: '9952526'
+    to_name: 郡上八幡
+    time: 5
+    distance: 2.99
+  - from: '9952526'
+    from_name: 郡上八幡
+    to: '9952527'
+    to_name: 自然園前
+    time: 6
+    distance: 3.46
+  - from: '9952527'
+    from_name: 自然園前
+    to: '9952528'
+    to_name: 山田
+    time: 5
+    distance: 2.74
+  - from: '9952528'
+    from_name: 山田
+    to: '9952529'
+    to_name: 徳永
+    time: 3
+    distance: 1.93
+  - from: '9952529'
+    from_name: 徳永
+    to: '9952530'
+    to_name: 郡上大和
+    time: 3
+    distance: 1.37
+  - from: '9952530'
+    from_name: 郡上大和
+    to: '9952531'
+    to_name: 万場
+    time: 4
+    distance: 2.31
+  - from: '9952531'
+    from_name: 万場
+    to: '9952532'
+    to_name: 上万場
+    time: 2
+    distance: 1.32
+  - from: '9952532'
+    from_name: 上万場
+    to: '9952533'
+    to_name: 大中
+    time: 2
+    distance: 1.28
+  - from: '9952533'
+    from_name: 大中
+    to: '9952534'
+    to_name: 大島
+    time: 3
+    distance: 1.83
+  - from: '9952534'
+    from_name: 大島
+    to: '9952535'
+    to_name: 美濃白鳥
+    time: 3
+    distance: 1.84
+  - from: '9952535'
+    from_name: 美濃白鳥
+    to: '9952536'
+    to_name: 白鳥高原
+    time: 6
+    distance: 3.46
+  - from: '9952536'
+    from_name: 白鳥高原
+    to: '9952537'
+    to_name: 白山長滝
+    time: 2
+    distance: 1.25
+  - from: '9952537'
+    from_name: 白山長滝
+    to: '9952538'
+    to_name: 北濃
+    time: 2
+    distance: 1.16

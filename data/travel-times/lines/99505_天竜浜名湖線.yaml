@@ -1,0 +1,234 @@
+line_code: '99505'
+line_name: 天竜浜名湖線
+company: 天竜浜名湖鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1150128'
+    from_name: 掛川
+    to: '9950502'
+    to_name: 掛川市役所前
+    time: 3
+    distance: 1.35
+  - from: '9950502'
+    from_name: 掛川市役所前
+    to: '9950503'
+    to_name: 西掛川
+    time: 2
+    distance: 0.5
+  - from: '9950503'
+    from_name: 西掛川
+    to: '9950504'
+    to_name: 桜木
+    time: 4
+    distance: 2.15
+  - from: '9950504'
+    from_name: 桜木
+    to: '9950505'
+    to_name: いこいの広場
+    time: 3
+    distance: 1.37
+  - from: '9950505'
+    from_name: いこいの広場
+    to: '9950506'
+    to_name: 細谷
+    time: 2
+    distance: 0.55
+  - from: '9950506'
+    from_name: 細谷
+    to: '9950507'
+    to_name: 原谷
+    time: 3
+    distance: 1.85
+  - from: '9950507'
+    from_name: 原谷
+    to: '9950508'
+    to_name: 原田
+    time: 2
+    distance: 1.32
+  - from: '9950508'
+    from_name: 原田
+    to: '9950509'
+    to_name: 戸綿
+    time: 4
+    distance: 2.35
+  - from: '9950509'
+    from_name: 戸綿
+    to: '9950510'
+    to_name: 遠州森
+    time: 2
+    distance: 0.62
+  - from: '9950510'
+    from_name: 遠州森
+    to: '9950539'
+    to_name: 森町病院前
+    time: 2
+    distance: 0.78
+  - from: '9950511'
+    from_name: 円田
+    to: '9950512'
+    to_name: 遠江一宮
+    time: 3
+    distance: 1.71
+  - from: '9950512'
+    from_name: 遠江一宮
+    to: '9950513'
+    to_name: 敷地
+    time: 4
+    distance: 2.44
+  - from: '9950513'
+    from_name: 敷地
+    to: '9950514'
+    to_name: 豊岡
+    time: 4
+    distance: 2.55
+  - from: '9950514'
+    from_name: 豊岡
+    to: '9950515'
+    to_name: 上野部
+    time: 3
+    distance: 1.45
+  - from: '9950515'
+    from_name: 上野部
+    to: '9950516'
+    to_name: 天竜二俣
+    time: 3
+    distance: 1.59
+  - from: '9950516'
+    from_name: 天竜二俣
+    to: '9950517'
+    to_name: 二俣本町
+    time: 2
+    distance: 0.64
+  - from: '9950517'
+    from_name: 二俣本町
+    to: '9950518'
+    to_name: 西鹿島
+    time: 3
+    distance: 1.49
+  - from: '9950518'
+    from_name: 西鹿島
+    to: '9950519'
+    to_name: 岩水寺
+    time: 3
+    distance: 1.73
+  - from: '9950519'
+    from_name: 岩水寺
+    to: '9950520'
+    to_name: 宮口
+    time: 3
+    distance: 1.9
+  - from: '9950520'
+    from_name: 宮口
+    to: '9950521'
+    to_name: フルーツパーク
+    time: 6
+    distance: 3.84
+  - from: '9950521'
+    from_name: フルーツパーク
+    to: '9950522'
+    to_name: 都田
+    time: 3
+    distance: 1.43
+  - from: '9950522'
+    from_name: 都田
+    to: '9950523'
+    to_name: 常葉大学前
+    time: 2
+    distance: 1.24
+  - from: '9950523'
+    from_name: 常葉大学前
+    to: '9950524'
+    to_name: 金指
+    time: 4
+    distance: 2.59
+  - from: '9950524'
+    from_name: 金指
+    to: '9950525'
+    to_name: 岡地
+    time: 3
+    distance: 1.5
+  - from: '9950525'
+    from_name: 岡地
+    to: '9950526'
+    to_name: 気賀
+    time: 3
+    distance: 1.38
+  - from: '9950526'
+    from_name: 気賀
+    to: '9950527'
+    to_name: 西気賀
+    time: 5
+    distance: 2.83
+  - from: '9950527'
+    from_name: 西気賀
+    to: '9950528'
+    to_name: 寸座
+    time: 3
+    distance: 1.59
+  - from: '9950528'
+    from_name: 寸座
+    to: '9950529'
+    to_name: 浜名湖佐久米
+    time: 2
+    distance: 1.21
+  - from: '9950529'
+    from_name: 浜名湖佐久米
+    to: '9950530'
+    to_name: 東都筑
+    time: 2
+    distance: 1.17
+  - from: '9950530'
+    from_name: 東都筑
+    to: '9950531'
+    to_name: 都筑
+    time: 2
+    distance: 1.26
+  - from: '9950531'
+    from_name: 都筑
+    to: '9950532'
+    to_name: 三ヶ日
+    time: 4
+    distance: 2.21
+  - from: '9950532'
+    from_name: 三ヶ日
+    to: '9950533'
+    to_name: 奥浜名湖
+    time: 2
+    distance: 0.99
+  - from: '9950533'
+    from_name: 奥浜名湖
+    to: '9950534'
+    to_name: 尾奈
+    time: 2
+    distance: 1.29
+  - from: '9950534'
+    from_name: 尾奈
+    to: '9950535'
+    to_name: 知波田
+    time: 7
+    distance: 4.39
+  - from: '9950535'
+    from_name: 知波田
+    to: '9950538'
+    to_name: 大森
+    time: 3
+    distance: 1.7
+  - from: '9950536'
+    from_name: アスモ前
+    to: '1150208'
+    to_name: 新所原
+    time: 2
+    distance: 1.01
+  - from: '9950538'
+    from_name: 大森
+    to: '9950536'
+    to_name: アスモ前
+    time: 3
+    distance: 1.82
+  - from: '9950539'
+    from_name: 森町病院前
+    to: '9950511'
+    to_name: 円田
+    time: 2
+    distance: 1.13

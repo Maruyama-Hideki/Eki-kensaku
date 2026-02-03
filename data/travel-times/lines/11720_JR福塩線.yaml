@@ -1,0 +1,180 @@
+line_code: '11720'
+line_name: JR福塩線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1161014'
+    from_name: 福山
+    to: '1172002'
+    to_name: 備後本庄
+    time: 3
+    distance: 1.56
+  - from: '1172002'
+    from_name: 備後本庄
+    to: '1172003'
+    to_name: 横尾
+    time: 6
+    distance: 3.55
+  - from: '1172003'
+    from_name: 横尾
+    to: '1172004'
+    to_name: 神辺
+    time: 4
+    distance: 2.24
+  - from: '1172004'
+    from_name: 神辺
+    to: '1172005'
+    to_name: 湯田村
+    time: 3
+    distance: 1.78
+  - from: '1172005'
+    from_name: 湯田村
+    to: '1172006'
+    to_name: 道上
+    time: 2
+    distance: 0.92
+  - from: '1172006'
+    from_name: 道上
+    to: '1172007'
+    to_name: 万能倉
+    time: 4
+    distance: 2.11
+  - from: '1172007'
+    from_name: 万能倉
+    to: '1172008'
+    to_name: 駅家
+    time: 2
+    distance: 1.18
+  - from: '1172008'
+    from_name: 駅家
+    to: '1172009'
+    to_name: 近田
+    time: 3
+    distance: 1.4
+  - from: '1172009'
+    from_name: 近田
+    to: '1172010'
+    to_name: 戸手
+    time: 2
+    distance: 0.95
+  - from: '1172010'
+    from_name: 戸手
+    to: '1172011'
+    to_name: 上戸手
+    time: 3
+    distance: 1.78
+  - from: '1172011'
+    from_name: 上戸手
+    to: '1172012'
+    to_name: 新市
+    time: 2
+    distance: 1.2
+  - from: '1172012'
+    from_name: 新市
+    to: '1172013'
+    to_name: 高木
+    time: 3
+    distance: 1.77
+  - from: '1172013'
+    from_name: 高木
+    to: '1172014'
+    to_name: 鵜飼
+    time: 2
+    distance: 0.97
+  - from: '1172014'
+    from_name: 鵜飼
+    to: '1172015'
+    to_name: 府中
+    time: 2
+    distance: 0.88
+  - from: '1172015'
+    from_name: 府中
+    to: '1172016'
+    to_name: 下川辺
+    time: 6
+    distance: 3.41
+  - from: '1172016'
+    from_name: 下川辺
+    to: '1172017'
+    to_name: 中畑
+    time: 5
+    distance: 3.3
+  - from: '1172017'
+    from_name: 中畑
+    to: '1172018'
+    to_name: 河佐
+    time: 4
+    distance: 2.58
+  - from: '1172018'
+    from_name: 河佐
+    to: '1172019'
+    to_name: 備後三川
+    time: 11
+    distance: 6.85
+  - from: '1172019'
+    from_name: 備後三川
+    to: '1172020'
+    to_name: 備後矢野
+    time: 7
+    distance: 4.05
+  - from: '1172020'
+    from_name: 備後矢野
+    to: '1172021'
+    to_name: 上下
+    time: 6
+    distance: 3.48
+  - from: '1172021'
+    from_name: 上下
+    to: '1172022'
+    to_name: 甲奴
+    time: 6
+    distance: 3.46
+  - from: '1172022'
+    from_name: 甲奴
+    to: '1172023'
+    to_name: 梶田
+    time: 4
+    distance: 2.21
+  - from: '1172023'
+    from_name: 梶田
+    to: '1172024'
+    to_name: 備後安田
+    time: 7
+    distance: 4.04
+  - from: '1172024'
+    from_name: 備後安田
+    to: '1172025'
+    to_name: 吉舎
+    time: 7
+    distance: 4.22
+  - from: '1172025'
+    from_name: 吉舎
+    to: '1172026'
+    to_name: 三良坂
+    time: 8
+    distance: 5.25
+  - from: '1172026'
+    from_name: 三良坂
+    to: '1171423'
+    to_name: 塩町
+    time: 7
+    distance: 4.09
+  - from: '1171423'
+    from_name: 塩町
+    to: '1171424'
+    to_name: 神杉
+    time: 2
+    distance: 1.24
+  - from: '1171424'
+    from_name: 神杉
+    to: '1171425'
+    to_name: 八次
+    time: 5
+    distance: 3.24
+  - from: '1171425'
+    from_name: 八次
+    to: '1170735'
+    to_name: 三次
+    time: 4
+    distance: 2.08

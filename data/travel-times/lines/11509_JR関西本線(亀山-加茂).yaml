@@ -1,0 +1,72 @@
+line_code: '11509'
+line_name: JR関西本線(亀山～加茂)
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1150818'
+    from_name: 亀山
+    to: '1150902'
+    to_name: 関
+    time: 8
+    distance: 5.08
+  - from: '1150902'
+    from_name: 関
+    to: '1150903'
+    to_name: 加太
+    time: 8
+    distance: 5.02
+  - from: '1150903'
+    from_name: 加太
+    to: '1150904'
+    to_name: 柘植
+    time: 12
+    distance: 7.74
+  - from: '1150904'
+    from_name: 柘植
+    to: '1150905'
+    to_name: 新堂
+    time: 8
+    distance: 5.33
+  - from: '1150905'
+    from_name: 新堂
+    to: '1150906'
+    to_name: 佐那具
+    time: 7
+    distance: 4.38
+  - from: '1150906'
+    from_name: 佐那具
+    to: '1150907'
+    to_name: 伊賀上野
+    time: 7
+    distance: 4.04
+  - from: '1150907'
+    from_name: 伊賀上野
+    to: '1150908'
+    to_name: 島ケ原
+    time: 11
+    distance: 6.71
+  - from: '1150908'
+    from_name: 島ケ原
+    to: '1150909'
+    to_name: 月ケ瀬口
+    time: 5
+    distance: 2.84
+  - from: '1150909'
+    from_name: 月ケ瀬口
+    to: '1150910'
+    to_name: 大河原
+    time: 6
+    distance: 3.44
+  - from: '1150910'
+    from_name: 大河原
+    to: '1150911'
+    to_name: 笠置
+    time: 8
+    distance: 5.07
+  - from: '1150911'
+    from_name: 笠置
+    to: '1150912'
+    to_name: 加茂
+    time: 9
+    distance: 5.95

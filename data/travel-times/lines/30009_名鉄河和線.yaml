@@ -1,0 +1,114 @@
+line_code: '30009'
+line_name: 名鉄河和線
+company: 名古屋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3000813'
+    from_name: 太田川
+    to: '3000902'
+    to_name: 高横須賀
+    time: 2
+    distance: 1.19
+  - from: '3000902'
+    from_name: 高横須賀
+    to: '3000903'
+    to_name: 南加木屋
+    time: 4
+    distance: 2.56
+  - from: '3000903'
+    from_name: 南加木屋
+    to: '3000904'
+    to_name: 八幡新田
+    time: 3
+    distance: 1.81
+  - from: '3000904'
+    from_name: 八幡新田
+    to: '3000905'
+    to_name: 巽ヶ丘
+    time: 2
+    distance: 1.3
+  - from: '3000905'
+    from_name: 巽ヶ丘
+    to: '3000906'
+    to_name: 白沢
+    time: 2
+    distance: 0.78
+  - from: '3000906'
+    from_name: 白沢
+    to: '3000907'
+    to_name: 坂部
+    time: 3
+    distance: 1.52
+  - from: '3000907'
+    from_name: 坂部
+    to: '3000908'
+    to_name: 阿久比
+    time: 2
+    distance: 1.16
+  - from: '3000908'
+    from_name: 阿久比
+    to: '3000910'
+    to_name: 植大
+    time: 3
+    distance: 1.6
+  - from: '3000910'
+    from_name: 植大
+    to: '3000911'
+    to_name: 半田口
+    time: 2
+    distance: 0.95
+  - from: '3000911'
+    from_name: 半田口
+    to: '3000912'
+    to_name: 住吉町
+    time: 2
+    distance: 0.79
+  - from: '3000912'
+    from_name: 住吉町
+    to: '3000913'
+    to_name: 知多半田
+    time: 2
+    distance: 0.9
+  - from: '3000913'
+    from_name: 知多半田
+    to: '3000914'
+    to_name: 成岩
+    time: 2
+    distance: 0.94
+  - from: '3000914'
+    from_name: 成岩
+    to: '3000915'
+    to_name: 青山
+    time: 2
+    distance: 1
+  - from: '3000915'
+    from_name: 青山
+    to: '3000916'
+    to_name: 上ゲ
+    time: 4
+    distance: 2.2
+  - from: '3000916'
+    from_name: 上ゲ
+    to: '3000917'
+    to_name: 知多武豊
+    time: 2
+    distance: 0.85
+  - from: '3000917'
+    from_name: 知多武豊
+    to: '3000918'
+    to_name: 富貴
+    time: 4
+    distance: 2.44
+  - from: '3000918'
+    from_name: 富貴
+    to: '3000920'
+    to_name: 河和口
+    time: 6
+    distance: 3.45
+  - from: '3000920'
+    from_name: 河和口
+    to: '3000921'
+    to_name: 河和
+    time: 4
+    distance: 2.3

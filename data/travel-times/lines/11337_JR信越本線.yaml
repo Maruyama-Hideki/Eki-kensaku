@@ -1,0 +1,48 @@
+line_code: '11337'
+line_name: JR信越本線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1131816'
+    from_name: 高崎
+    to: '1133702'
+    to_name: 北高崎
+    time: 4
+    distance: 2.1
+  - from: '1133702'
+    from_name: 北高崎
+    to: '1133703'
+    to_name: 群馬八幡
+    time: 6
+    distance: 3.91
+  - from: '1133703'
+    from_name: 群馬八幡
+    to: '1133704'
+    to_name: 安中
+    time: 6
+    distance: 3.91
+  - from: '1133704'
+    from_name: 安中
+    to: '1133705'
+    to_name: 磯部
+    time: 11
+    distance: 6.88
+  - from: '1133705'
+    from_name: 磯部
+    to: '1133706'
+    to_name: 松井田
+    time: 8
+    distance: 4.81
+  - from: '1133706'
+    from_name: 松井田
+    to: '1133707'
+    to_name: 西松井田
+    time: 2
+    distance: 1.25
+  - from: '1133707'
+    from_name: 西松井田
+    to: '1133708'
+    to_name: 横川
+    time: 8
+    distance: 4.9

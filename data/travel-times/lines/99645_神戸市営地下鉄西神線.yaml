@@ -1,0 +1,54 @@
+line_code: '99645'
+line_name: 神戸市営地下鉄西神線
+company: 神戸市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '1160803'
+    from_name: 新長田
+    to: '9963702'
+    to_name: 板宿
+    time: 2
+    distance: 1.11
+  - from: '9963702'
+    from_name: 板宿
+    to: '9964503'
+    to_name: 妙法寺
+    time: 5
+    distance: 2.72
+  - from: '9964503'
+    from_name: 妙法寺
+    to: '9964504'
+    to_name: 名谷
+    time: 3
+    distance: 1.47
+  - from: '9964504'
+    from_name: 名谷
+    to: '9964505'
+    to_name: 総合運動公園
+    time: 3
+    distance: 1.75
+  - from: '9964505'
+    from_name: 総合運動公園
+    to: '9964506'
+    to_name: 学園都市
+    time: 3
+    distance: 1.66
+  - from: '9964506'
+    from_name: 学園都市
+    to: '9964507'
+    to_name: 伊川谷
+    time: 3
+    distance: 1.66
+  - from: '9964507'
+    from_name: 伊川谷
+    to: '9964508'
+    to_name: 西神南
+    time: 3
+    distance: 1.63
+  - from: '9964508'
+    from_name: 西神南
+    to: '9964509'
+    to_name: 西神中央
+    time: 5
+    distance: 2.54

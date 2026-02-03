@@ -1,0 +1,60 @@
+line_code: '99613'
+line_name: 京福電鉄北野線
+company: 京福電気鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9961207'
+    from_name: 帷子ノ辻
+    to: '9961310'
+    to_name: 撮影所前
+    time: 2
+    distance: 0.24
+  - from: '9961302'
+    from_name: 常盤
+    to: '9961303'
+    to_name: 鳴滝
+    time: 2
+    distance: 0.38
+  - from: '9961303'
+    from_name: 鳴滝
+    to: '9961304'
+    to_name: 宇多野
+    time: 2
+    distance: 0.53
+  - from: '9961304'
+    from_name: 宇多野
+    to: '9961305'
+    to_name: 御室仁和寺
+    time: 2
+    distance: 0.41
+  - from: '9961305'
+    from_name: 御室仁和寺
+    to: '9961306'
+    to_name: 妙心寺
+    time: 2
+    distance: 0.36
+  - from: '9961306'
+    from_name: 妙心寺
+    to: '9961307'
+    to_name: 龍安寺
+    time: 2
+    distance: 0.34
+  - from: '9961307'
+    from_name: 龍安寺
+    to: '9961308'
+    to_name: 等持院・立命館大学衣笠キャンパス前
+    time: 2
+    distance: 0.23
+  - from: '9961308'
+    from_name: 等持院・立命館大学衣笠キャンパス前
+    to: '9961309'
+    to_name: 北野白梅町
+    time: 2
+    distance: 0.64
+  - from: '9961310'
+    from_name: 撮影所前
+    to: '9961302'
+    to_name: 常盤
+    time: 2
+    distance: 0.54

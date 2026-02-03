@@ -1,0 +1,138 @@
+line_code: '99419'
+line_name: えちぜん鉄道勝山永平寺線
+company: えちぜん鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1141523'
+    from_name: 福井
+    to: '9941902'
+    to_name: 新福井
+    time: 2
+    distance: 0.41
+  - from: '9941902'
+    from_name: 新福井
+    to: '9941903'
+    to_name: 福井口
+    time: 2
+    distance: 0.94
+  - from: '9941903'
+    from_name: 福井口
+    to: '9941904'
+    to_name: 越前開発
+    time: 2
+    distance: 0.85
+  - from: '9941904'
+    from_name: 越前開発
+    to: '9941905'
+    to_name: 越前新保
+    time: 2
+    distance: 1.06
+  - from: '9941905'
+    from_name: 越前新保
+    to: '9941906'
+    to_name: 追分口
+    time: 2
+    distance: 0.94
+  - from: '9941906'
+    from_name: 追分口
+    to: '9941907'
+    to_name: 東藤島
+    time: 2
+    distance: 0.88
+  - from: '9941907'
+    from_name: 東藤島
+    to: '9941908'
+    to_name: 越前島橋
+    time: 2
+    distance: 0.75
+  - from: '9941908'
+    from_name: 越前島橋
+    to: '9941909'
+    to_name: 観音町
+    time: 2
+    distance: 1.17
+  - from: '9941909'
+    from_name: 観音町
+    to: '9941910'
+    to_name: 松岡
+    time: 2
+    distance: 1.09
+  - from: '9941910'
+    from_name: 松岡
+    to: '9941911'
+    to_name: 志比堺
+    time: 2
+    distance: 0.94
+  - from: '9941911'
+    from_name: 志比堺
+    to: '9941912'
+    to_name: 永平寺口
+    time: 3
+    distance: 1.43
+  - from: '9941912'
+    from_name: 永平寺口
+    to: '9941913'
+    to_name: 下志比
+    time: 2
+    distance: 1.03
+  - from: '9941913'
+    from_name: 下志比
+    to: '9941914'
+    to_name: 光明寺
+    time: 2
+    distance: 0.78
+  - from: '9941914'
+    from_name: 光明寺
+    to: '9941915'
+    to_name: 轟
+    time: 3
+    distance: 1.49
+  - from: '9941915'
+    from_name: 轟
+    to: '9941916'
+    to_name: 越前野中
+    time: 3
+    distance: 1.49
+  - from: '9941916'
+    from_name: 越前野中
+    to: '9941917'
+    to_name: 山王
+    time: 3
+    distance: 1.46
+  - from: '9941917'
+    from_name: 山王
+    to: '9941918'
+    to_name: 越前竹原
+    time: 3
+    distance: 1.94
+  - from: '9941918'
+    from_name: 越前竹原
+    to: '9941919'
+    to_name: 小舟渡
+    time: 3
+    distance: 1.9
+  - from: '9941919'
+    from_name: 小舟渡
+    to: '9941920'
+    to_name: 保田
+    time: 3
+    distance: 1.7
+  - from: '9941920'
+    from_name: 保田
+    to: '9941921'
+    to_name: 発坂
+    time: 2
+    distance: 1.3
+  - from: '9941921'
+    from_name: 発坂
+    to: '9941922'
+    to_name: 比島
+    time: 3
+    distance: 1.77
+  - from: '9941922'
+    from_name: 比島
+    to: '9941923'
+    to_name: 勝山
+    time: 2
+    distance: 1.32

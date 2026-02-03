@@ -1,0 +1,102 @@
+line_code: '11106'
+line_name: JR根室本線(滝川～新得)
+company: JR北海道
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1110335'
+    from_name: 滝川
+    to: '1110602'
+    to_name: 東滝川
+    time: 11
+    distance: 6.74
+  - from: '1110602'
+    from_name: 東滝川
+    to: '1110603'
+    to_name: 赤平
+    time: 9
+    distance: 5.89
+  - from: '1110603'
+    from_name: 赤平
+    to: '1110604'
+    to_name: 茂尻
+    time: 6
+    distance: 3.35
+  - from: '1110604'
+    from_name: 茂尻
+    to: '1110605'
+    to_name: 平岸
+    time: 6
+    distance: 3.39
+  - from: '1110605'
+    from_name: 平岸
+    to: '1110606'
+    to_name: 芦別
+    time: 9
+    distance: 5.61
+  - from: '1110606'
+    from_name: 芦別
+    to: '1110607'
+    to_name: 上芦別
+    time: 6
+    distance: 3.76
+  - from: '1110607'
+    from_name: 上芦別
+    to: '1110608'
+    to_name: 野花南
+    time: 7
+    distance: 4.4
+  - from: '1110608'
+    from_name: 野花南
+    to: '1110610'
+    to_name: 富良野
+    time: 27
+    distance: 17.61
+  - from: '1110610'
+    from_name: 富良野
+    to: '1110611'
+    to_name: 布部
+    time: 10
+    distance: 6.17
+  - from: '1110611'
+    from_name: 布部
+    to: '1110612'
+    to_name: 山部
+    time: 9
+    distance: 5.49
+  - from: '1110612'
+    from_name: 山部
+    to: '1110613'
+    to_name: 下金山
+    time: 9
+    distance: 5.93
+  - from: '1110613'
+    from_name: 下金山
+    to: '1110614'
+    to_name: 金山
+    time: 11
+    distance: 6.81
+  - from: '1110614'
+    from_name: 金山
+    to: '1110615'
+    to_name: 東鹿越
+    time: 14
+    distance: 9.24
+  - from: '1110615'
+    from_name: 東鹿越
+    to: '1110616'
+    to_name: 幾寅
+    time: 6
+    distance: 3.74
+  - from: '1110616'
+    from_name: 幾寅
+    to: '1110617'
+    to_name: 落合
+    time: 14
+    distance: 9.05
+  - from: '1110617'
+    from_name: 落合
+    to: '1110618'
+    to_name: 新得
+    time: 22
+    distance: 14.08

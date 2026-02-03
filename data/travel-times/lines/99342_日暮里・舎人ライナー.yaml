@@ -1,0 +1,78 @@
+line_code: '99342'
+line_name: 日暮里・舎人ライナー
+company: 東京都交通局
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130218'
+    from_name: 日暮里
+    to: '1130217'
+    to_name: 西日暮里
+    time: 2
+    distance: 0.6
+  - from: '1130217'
+    from_name: 西日暮里
+    to: '9934203'
+    to_name: 赤土小学校前
+    time: 2
+    distance: 1.18
+  - from: '9934203'
+    from_name: 赤土小学校前
+    to: '9930509'
+    to_name: 熊野前
+    time: 2
+    distance: 0.75
+  - from: '9930509'
+    from_name: 熊野前
+    to: '9934205'
+    to_name: 足立小台
+    time: 2
+    distance: 0.61
+  - from: '9934205'
+    from_name: 足立小台
+    to: '9934206'
+    to_name: 扇大橋
+    time: 2
+    distance: 1.03
+  - from: '9934206'
+    from_name: 扇大橋
+    to: '9934207'
+    to_name: 高野
+    time: 2
+    distance: 0.5
+  - from: '9934207'
+    from_name: 高野
+    to: '9934208'
+    to_name: 江北
+    time: 2
+    distance: 0.63
+  - from: '9934208'
+    from_name: 江北
+    to: '9934209'
+    to_name: 西新井大師西
+    time: 2
+    distance: 0.83
+  - from: '9934209'
+    from_name: 西新井大師西
+    to: '9934210'
+    to_name: 谷在家
+    time: 2
+    distance: 0.81
+  - from: '9934210'
+    from_name: 谷在家
+    to: '9934211'
+    to_name: 舎人公園
+    time: 2
+    distance: 0.83
+  - from: '9934211'
+    from_name: 舎人公園
+    to: '9934212'
+    to_name: 舎人
+    time: 2
+    distance: 1.05
+  - from: '9934212'
+    from_name: 舎人
+    to: '9934213'
+    to_name: 見沼代親水公園
+    time: 2
+    distance: 0.98

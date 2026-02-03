@@ -1,0 +1,84 @@
+line_code: '99308'
+line_name: いすみ線
+company: いすみ鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1132418'
+    from_name: 大原
+    to: '9930802'
+    to_name: 西大原
+    time: 3
+    distance: 1.56
+  - from: '9930802'
+    from_name: 西大原
+    to: '9930803'
+    to_name: 上総東
+    time: 5
+    distance: 3.02
+  - from: '9930803'
+    from_name: 上総東
+    to: '9930804'
+    to_name: 新田野
+    time: 4
+    distance: 2.11
+  - from: '9930804'
+    from_name: 新田野
+    to: '9930805'
+    to_name: 国吉
+    time: 3
+    distance: 1.35
+  - from: '9930805'
+    from_name: 国吉
+    to: '9930806'
+    to_name: 上総中川
+    time: 5
+    distance: 3.04
+  - from: '9930806'
+    from_name: 上総中川
+    to: '9930814'
+    to_name: 城見ヶ丘
+    time: 5
+    distance: 2.73
+  - from: '9930807'
+    from_name: 大多喜
+    to: '9930808'
+    to_name: 小谷松
+    time: 4
+    distance: 2.06
+  - from: '9930808'
+    from_name: 小谷松
+    to: '9930809'
+    to_name: 東総元
+    time: 2
+    distance: 1.12
+  - from: '9930809'
+    from_name: 東総元
+    to: '9930810'
+    to_name: 久我原
+    time: 2
+    distance: 1.01
+  - from: '9930810'
+    from_name: 久我原
+    to: '9930811'
+    to_name: 総元
+    time: 2
+    distance: 1.26
+  - from: '9930811'
+    from_name: 総元
+    to: '9930812'
+    to_name: 西畑
+    time: 4
+    distance: 2.54
+  - from: '9930812'
+    from_name: 西畑
+    to: '9930813'
+    to_name: 上総中野
+    time: 3
+    distance: 1.42
+  - from: '9930814'
+    from_name: 城見ヶ丘
+    to: '9930807'
+    to_name: 大多喜
+    time: 2
+    distance: 1

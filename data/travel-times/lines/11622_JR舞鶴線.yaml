@@ -1,0 +1,54 @@
+line_code: '11622'
+line_name: JR舞鶴線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1161514'
+    from_name: 福知山
+    to: '1161513'
+    to_name: 石原
+    time: 9
+    distance: 5.62
+  - from: '1161513'
+    from_name: 石原
+    to: '1161512'
+    to_name: 高津
+    time: 4
+    distance: 2.48
+  - from: '1161512'
+    from_name: 高津
+    to: '1161511'
+    to_name: 綾部
+    time: 7
+    distance: 4.07
+  - from: '1161511'
+    from_name: 綾部
+    to: '1162205'
+    to_name: 淵垣
+    time: 8
+    distance: 4.84
+  - from: '1162205'
+    from_name: 淵垣
+    to: '1162206'
+    to_name: 梅迫
+    time: 5
+    distance: 2.72
+  - from: '1162206'
+    from_name: 梅迫
+    to: '1162207'
+    to_name: 真倉
+    time: 10
+    distance: 6.63
+  - from: '1162207'
+    from_name: 真倉
+    to: '1162208'
+    to_name: 西舞鶴
+    time: 6
+    distance: 3.87
+  - from: '1162208'
+    from_name: 西舞鶴
+    to: '1142201'
+    to_name: 東舞鶴
+    time: 10
+    distance: 6.54

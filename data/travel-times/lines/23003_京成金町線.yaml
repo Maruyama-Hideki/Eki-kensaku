@@ -1,0 +1,18 @@
+line_code: '23003'
+line_name: 京成金町線
+company: 京成電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2300110'
+    from_name: 京成高砂
+    to: '2300302'
+    to_name: 柴又
+    time: 2
+    distance: 0.96
+  - from: '2300302'
+    from_name: 柴又
+    to: '1132008'
+    to_name: 金町
+    time: 3
+    distance: 1.53

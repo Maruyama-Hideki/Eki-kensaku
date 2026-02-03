@@ -1,0 +1,108 @@
+line_code: '99325'
+line_name: 小湊鉄道線
+company: 小湊鐵道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1132506'
+    from_name: 五井
+    to: '9932502'
+    to_name: 上総村上
+    time: 4
+    distance: 2.11
+  - from: '9932502'
+    from_name: 上総村上
+    to: '9932503'
+    to_name: 海士有木
+    time: 5
+    distance: 2.7
+  - from: '9932503'
+    from_name: 海士有木
+    to: '9932504'
+    to_name: 上総三又
+    time: 3
+    distance: 1.77
+  - from: '9932504'
+    from_name: 上総三又
+    to: '9932505'
+    to_name: 上総山田
+    time: 2
+    distance: 1.31
+  - from: '9932505'
+    from_name: 上総山田
+    to: '9932506'
+    to_name: 光風台
+    time: 3
+    distance: 1.94
+  - from: '9932506'
+    from_name: 光風台
+    to: '9932507'
+    to_name: 馬立
+    time: 3
+    distance: 1.77
+  - from: '9932507'
+    from_name: 馬立
+    to: '9932508'
+    to_name: 上総牛久
+    time: 6
+    distance: 3.62
+  - from: '9932508'
+    from_name: 上総牛久
+    to: '9932509'
+    to_name: 上総川間
+    time: 3
+    distance: 1.57
+  - from: '9932509'
+    from_name: 上総川間
+    to: '9932510'
+    to_name: 上総鶴舞
+    time: 3
+    distance: 1.47
+  - from: '9932510'
+    from_name: 上総鶴舞
+    to: '9932511'
+    to_name: 上総久保
+    time: 3
+    distance: 1.82
+  - from: '9932511'
+    from_name: 上総久保
+    to: '9932512'
+    to_name: 高滝
+    time: 3
+    distance: 1.65
+  - from: '9932512'
+    from_name: 高滝
+    to: '9932513'
+    to_name: 里見
+    time: 3
+    distance: 1.87
+  - from: '9932513'
+    from_name: 里見
+    to: '9932514'
+    to_name: 飯給
+    time: 3
+    distance: 1.82
+  - from: '9932514'
+    from_name: 飯給
+    to: '9932515'
+    to_name: 月崎
+    time: 4
+    distance: 2.05
+  - from: '9932515'
+    from_name: 月崎
+    to: '9932516'
+    to_name: 上総大久保
+    time: 4
+    distance: 2.18
+  - from: '9932516'
+    from_name: 上総大久保
+    to: '9932517'
+    to_name: 養老渓谷
+    time: 4
+    distance: 2.25
+  - from: '9932517'
+    from_name: 養老渓谷
+    to: '9930813'
+    to_name: 上総中野
+    time: 7
+    distance: 4.08

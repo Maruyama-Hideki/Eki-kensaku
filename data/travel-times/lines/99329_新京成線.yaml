@@ -1,0 +1,144 @@
+line_code: '99329'
+line_name: 新京成線
+company: 新京成電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '2300126'
+    from_name: 京成津田沼
+    to: '9932902'
+    to_name: 新津田沼
+    time: 2
+    distance: 0.73
+  - from: '9932902'
+    from_name: 新津田沼
+    to: '9932903'
+    to_name: 前原
+    time: 2
+    distance: 1.21
+  - from: '9932903'
+    from_name: 前原
+    to: '9932904'
+    to_name: 薬園台
+    time: 3
+    distance: 1.4
+  - from: '9932904'
+    from_name: 薬園台
+    to: '9932905'
+    to_name: 習志野
+    time: 2
+    distance: 0.73
+  - from: '9932905'
+    from_name: 習志野
+    to: '9932906'
+    to_name: 北習志野
+    time: 2
+    distance: 0.67
+  - from: '9932906'
+    from_name: 北習志野
+    to: '9932907'
+    to_name: 高根木戸
+    time: 2
+    distance: 0.88
+  - from: '9932907'
+    from_name: 高根木戸
+    to: '9932908'
+    to_name: 高根公団
+    time: 2
+    distance: 0.66
+  - from: '9932908'
+    from_name: 高根公団
+    to: '9932909'
+    to_name: 滝不動
+    time: 2
+    distance: 0.88
+  - from: '9932909'
+    from_name: 滝不動
+    to: '9932910'
+    to_name: 三咲
+    time: 2
+    distance: 1.27
+  - from: '9932910'
+    from_name: 三咲
+    to: '9932911'
+    to_name: 二和向台
+    time: 2
+    distance: 0.67
+  - from: '9932911'
+    from_name: 二和向台
+    to: '9932912'
+    to_name: 鎌ヶ谷大仏
+    time: 2
+    distance: 1
+  - from: '9932912'
+    from_name: 鎌ヶ谷大仏
+    to: '9932913'
+    to_name: 初富
+    time: 3
+    distance: 1.98
+  - from: '9932913'
+    from_name: 初富
+    to: '2100430'
+    to_name: 新鎌ヶ谷
+    time: 2
+    distance: 0.92
+  - from: '2100430'
+    from_name: 新鎌ヶ谷
+    to: '9932915'
+    to_name: 北初富
+    time: 2
+    distance: 0.95
+  - from: '9932915'
+    from_name: 北初富
+    to: '9932916'
+    to_name: くぬぎ山
+    time: 3
+    distance: 1.42
+  - from: '9932916'
+    from_name: くぬぎ山
+    to: '9932917'
+    to_name: 元山
+    time: 2
+    distance: 0.88
+  - from: '9932917'
+    from_name: 元山
+    to: '9932918'
+    to_name: 五香
+    time: 2
+    distance: 1.2
+  - from: '9932918'
+    from_name: 五香
+    to: '9932919'
+    to_name: 常盤平
+    time: 3
+    distance: 1.61
+  - from: '9932919'
+    from_name: 常盤平
+    to: '1130520'
+    to_name: 新八柱
+    time: 3
+    distance: 1.6
+  - from: '1130520'
+    from_name: 新八柱
+    to: '9932921'
+    to_name: みのり台
+    time: 2
+    distance: 0.86
+  - from: '9932921'
+    from_name: みのり台
+    to: '9932922'
+    to_name: 松戸新田
+    time: 2
+    distance: 0.62
+  - from: '9932922'
+    from_name: 松戸新田
+    to: '9932923'
+    to_name: 上本郷
+    time: 2
+    distance: 0.63
+  - from: '9932923'
+    from_name: 上本郷
+    to: '1132009'
+    to_name: 松戸
+    time: 3
+    distance: 1.49

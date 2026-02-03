@@ -1,0 +1,78 @@
+line_code: '99529'
+line_name: 三岐鉄道北勢線
+company: 三岐鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1150808'
+    from_name: 桑名
+    to: '9952902'
+    to_name: 馬道
+    time: 2
+    distance: 1.01
+  - from: '9952902'
+    from_name: 馬道
+    to: '9952903'
+    to_name: 西別所
+    time: 2
+    distance: 0.94
+  - from: '9952903'
+    from_name: 西別所
+    to: '9952904'
+    to_name: 蓮花寺
+    time: 2
+    distance: 1.26
+  - from: '9952904'
+    from_name: 蓮花寺
+    to: '9952905'
+    to_name: 在良
+    time: 2
+    distance: 0.78
+  - from: '9952905'
+    from_name: 在良
+    to: '9952906'
+    to_name: 星川
+    time: 2
+    distance: 1.31
+  - from: '9952906'
+    from_name: 星川
+    to: '9952907'
+    to_name: 七和
+    time: 3
+    distance: 1.4
+  - from: '9952907'
+    from_name: 七和
+    to: '9952908'
+    to_name: 穴太
+    time: 2
+    distance: 1.09
+  - from: '9952908'
+    from_name: 穴太
+    to: '9952909'
+    to_name: 東員
+    time: 3
+    distance: 1.67
+  - from: '9952909'
+    from_name: 東員
+    to: '9952910'
+    to_name: 大泉
+    time: 4
+    distance: 2.47
+  - from: '9952910'
+    from_name: 大泉
+    to: '9952911'
+    to_name: 楚原
+    time: 3
+    distance: 1.99
+  - from: '9952911'
+    from_name: 楚原
+    to: '9952912'
+    to_name: 麻生田
+    time: 6
+    distance: 3.39
+  - from: '9952912'
+    from_name: 麻生田
+    to: '9952913'
+    to_name: 阿下喜
+    time: 4
+    distance: 2.06

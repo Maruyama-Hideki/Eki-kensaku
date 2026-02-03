@@ -1,0 +1,108 @@
+line_code: '99803'
+line_name: 琴電長尾線
+company: 高松琴平電気鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1180201'
+    from_name: 高松
+    to: '9980202'
+    to_name: 片原町
+    time: 2
+    distance: 0.86
+  - from: '9980202'
+    from_name: 片原町
+    to: '9980203'
+    to_name: 瓦町
+    time: 2
+    distance: 0.83
+  - from: '9980203'
+    from_name: 瓦町
+    to: '9980304'
+    to_name: 花園
+    time: 2
+    distance: 0.82
+  - from: '9980304'
+    from_name: 花園
+    to: '9980305'
+    to_name: 林道
+    time: 3
+    distance: 1.73
+  - from: '9980305'
+    from_name: 林道
+    to: '9980306'
+    to_name: 木太東口
+    time: 2
+    distance: 0.72
+  - from: '9980306'
+    from_name: 木太東口
+    to: '9980307'
+    to_name: 元山
+    time: 2
+    distance: 1.1
+  - from: '9980307'
+    from_name: 元山
+    to: '9980308'
+    to_name: 水田
+    time: 2
+    distance: 1.16
+  - from: '9980308'
+    from_name: 水田
+    to: '9980309'
+    to_name: 西前田
+    time: 3
+    distance: 1.35
+  - from: '9980309'
+    from_name: 西前田
+    to: '9980310'
+    to_name: 高田
+    time: 2
+    distance: 1.08
+  - from: '9980310'
+    from_name: 高田
+    to: '9980311'
+    to_name: 池戸
+    time: 2
+    distance: 1.3
+  - from: '9980311'
+    from_name: 池戸
+    to: '9980312'
+    to_name: 農学部前
+    time: 2
+    distance: 0.77
+  - from: '9980312'
+    from_name: 農学部前
+    to: '9980313'
+    to_name: 平木
+    time: 2
+    distance: 0.55
+  - from: '9980313'
+    from_name: 平木
+    to: '9980314'
+    to_name: 学園通り
+    time: 2
+    distance: 0.55
+  - from: '9980314'
+    from_name: 学園通り
+    to: '9980315'
+    to_name: 白山
+    time: 2
+    distance: 1.31
+  - from: '9980315'
+    from_name: 白山
+    to: '9980316'
+    to_name: 井戸
+    time: 2
+    distance: 0.52
+  - from: '9980316'
+    from_name: 井戸
+    to: '9980317'
+    to_name: 公文明
+    time: 2
+    distance: 0.53
+  - from: '9980317'
+    from_name: 公文明
+    to: '9980318'
+    to_name: 長尾
+    time: 2
+    distance: 0.67

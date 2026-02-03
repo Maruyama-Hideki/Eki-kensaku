@@ -1,0 +1,48 @@
+line_code: '11334'
+line_name: JR烏山線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1131925'
+    from_name: 宝積寺
+    to: '1133402'
+    to_name: 下野花岡
+    time: 5
+    distance: 3.3
+  - from: '1133402'
+    from_name: 下野花岡
+    to: '1133403'
+    to_name: 仁井田
+    time: 4
+    distance: 2.04
+  - from: '1133403'
+    from_name: 仁井田
+    to: '1133404'
+    to_name: 鴻野山
+    time: 4
+    distance: 2.22
+  - from: '1133404'
+    from_name: 鴻野山
+    to: '1133405'
+    to_name: 大金
+    time: 7
+    distance: 4.09
+  - from: '1133405'
+    from_name: 大金
+    to: '1133406'
+    to_name: 小塙
+    time: 4
+    distance: 2.37
+  - from: '1133406'
+    from_name: 小塙
+    to: '1133407'
+    to_name: 滝
+    time: 4
+    distance: 2.02
+  - from: '1133407'
+    from_name: 滝
+    to: '1133408'
+    to_name: 烏山
+    time: 3
+    distance: 1.52

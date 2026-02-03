@@ -1,0 +1,246 @@
+line_code: '11510'
+line_name: JR紀勢本線
+company: JR東海
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1150818'
+    from_name: 亀山
+    to: '1151002'
+    to_name: 下庄
+    time: 8
+    distance: 4.8
+  - from: '1151002'
+    from_name: 下庄
+    to: '1151003'
+    to_name: 一身田
+    time: 9
+    distance: 6
+  - from: '1151003'
+    from_name: 一身田
+    to: '1151004'
+    to_name: 津
+    time: 6
+    distance: 3.33
+  - from: '1151004'
+    from_name: 津
+    to: '1151005'
+    to_name: 阿漕
+    time: 6
+    distance: 3.46
+  - from: '1151005'
+    from_name: 阿漕
+    to: '1151006'
+    to_name: 高茶屋
+    time: 7
+    distance: 4.1
+  - from: '1151006'
+    from_name: 高茶屋
+    to: '1151007'
+    to_name: 六軒
+    time: 9
+    distance: 5.55
+  - from: '1151007'
+    from_name: 六軒
+    to: '1151008'
+    to_name: 松阪
+    time: 8
+    distance: 5.19
+  - from: '1151008'
+    from_name: 松阪
+    to: '1151009'
+    to_name: 徳和
+    time: 5
+    distance: 3.03
+  - from: '1151009'
+    from_name: 徳和
+    to: '1151010'
+    to_name: 多気
+    time: 7
+    distance: 4.55
+  - from: '1151010'
+    from_name: 多気
+    to: '1151011'
+    to_name: 相可
+    time: 5
+    distance: 2.92
+  - from: '1151011'
+    from_name: 相可
+    to: '1151012'
+    to_name: 佐奈
+    time: 5
+    distance: 2.76
+  - from: '1151012'
+    from_name: 佐奈
+    to: '1151013'
+    to_name: 栃原
+    time: 7
+    distance: 4.65
+  - from: '1151013'
+    from_name: 栃原
+    to: '1151014'
+    to_name: 川添
+    time: 7
+    distance: 4.31
+  - from: '1151014'
+    from_name: 川添
+    to: '1151015'
+    to_name: 三瀬谷
+    time: 10
+    distance: 6.5
+  - from: '1151015'
+    from_name: 三瀬谷
+    to: '1151016'
+    to_name: 滝原
+    time: 6
+    distance: 3.87
+  - from: '1151016'
+    from_name: 滝原
+    to: '1151017'
+    to_name: 阿曽
+    time: 5
+    distance: 3.2
+  - from: '1151017'
+    from_name: 阿曽
+    to: '1151018'
+    to_name: 伊勢柏崎
+    time: 6
+    distance: 3.79
+  - from: '1151018'
+    from_name: 伊勢柏崎
+    to: '1151019'
+    to_name: 大内山
+    time: 7
+    distance: 4.1
+  - from: '1151019'
+    from_name: 大内山
+    to: '1151020'
+    to_name: 梅ケ谷
+    time: 4
+    distance: 2.24
+  - from: '1151020'
+    from_name: 梅ケ谷
+    to: '1151021'
+    to_name: 紀伊長島
+    time: 9
+    distance: 5.63
+  - from: '1151021'
+    from_name: 紀伊長島
+    to: '1151022'
+    to_name: 三野瀬
+    time: 11
+    distance: 7.02
+  - from: '1151022'
+    from_name: 三野瀬
+    to: '1151023'
+    to_name: 船津
+    time: 9
+    distance: 5.7
+  - from: '1151023'
+    from_name: 船津
+    to: '1151024'
+    to_name: 相賀
+    time: 6
+    distance: 3.37
+  - from: '1151024'
+    from_name: 相賀
+    to: '1151025'
+    to_name: 尾鷲
+    time: 9
+    distance: 5.39
+  - from: '1151025'
+    from_name: 尾鷲
+    to: '1151026'
+    to_name: 大曽根浦
+    time: 5
+    distance: 3.32
+  - from: '1151026'
+    from_name: 大曽根浦
+    to: '1151027'
+    to_name: 九鬼
+    time: 9
+    distance: 5.42
+  - from: '1151027'
+    from_name: 九鬼
+    to: '1151028'
+    to_name: 三木里
+    time: 7
+    distance: 4.04
+  - from: '1151028'
+    from_name: 三木里
+    to: '1151029'
+    to_name: 賀田
+    time: 6
+    distance: 3.52
+  - from: '1151029'
+    from_name: 賀田
+    to: '1151030'
+    to_name: 二木島
+    time: 6
+    distance: 3.67
+  - from: '1151030'
+    from_name: 二木島
+    to: '1151031'
+    to_name: 新鹿
+    time: 6
+    distance: 3.62
+  - from: '1151031'
+    from_name: 新鹿
+    to: '1151032'
+    to_name: 波田須
+    time: 4
+    distance: 2.06
+  - from: '1151032'
+    from_name: 波田須
+    to: '1151033'
+    to_name: 大泊
+    time: 4
+    distance: 2.05
+  - from: '1151033'
+    from_name: 大泊
+    to: '1151034'
+    to_name: 熊野市
+    time: 4
+    distance: 2.27
+  - from: '1151034'
+    from_name: 熊野市
+    to: '1151035'
+    to_name: 有井
+    time: 3
+    distance: 1.93
+  - from: '1151035'
+    from_name: 有井
+    to: '1151036'
+    to_name: 神志山
+    time: 7
+    distance: 4.58
+  - from: '1151036'
+    from_name: 神志山
+    to: '1151037'
+    to_name: 紀伊市木
+    time: 3
+    distance: 1.47
+  - from: '1151037'
+    from_name: 紀伊市木
+    to: '1151038'
+    to_name: 阿田和
+    time: 5
+    distance: 2.84
+  - from: '1151038'
+    from_name: 阿田和
+    to: '1151039'
+    to_name: 紀伊井田
+    time: 8
+    distance: 5.29
+  - from: '1151039'
+    from_name: 紀伊井田
+    to: '1151040'
+    to_name: 鵜殿
+    time: 5
+    distance: 2.7
+  - from: '1151040'
+    from_name: 鵜殿
+    to: '1151041'
+    to_name: 新宮
+    time: 4
+    distance: 2.34

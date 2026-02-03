@@ -1,0 +1,102 @@
+line_code: '11602'
+line_name: JR京都線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1160120'
+    from_name: 京都
+    to: '1160202'
+    to_name: 西大路
+    time: 4
+    distance: 2.42
+  - from: '1160202'
+    from_name: 西大路
+    to: '1160216'
+    to_name: 桂川
+    time: 4
+    distance: 2.65
+  - from: '1160203'
+    from_name: 向日町
+    to: '1160204'
+    to_name: 長岡京
+    time: 6
+    distance: 3.58
+  - from: '1160204'
+    from_name: 長岡京
+    to: '1160205'
+    to_name: 山崎
+    time: 6
+    distance: 4
+  - from: '1160205'
+    from_name: 山崎
+    to: '1160215'
+    to_name: 島本
+    time: 3
+    distance: 1.88
+  - from: '1160206'
+    from_name: 高槻
+    to: '1160207'
+    to_name: 摂津富田
+    time: 4
+    distance: 2.63
+  - from: '1160207'
+    from_name: 摂津富田
+    to: '1160217'
+    to_name: JR総持寺
+    time: 3
+    distance: 1.75
+  - from: '1160208'
+    from_name: 茨木
+    to: '1160209'
+    to_name: 千里丘
+    time: 5
+    distance: 2.79
+  - from: '1160209'
+    from_name: 千里丘
+    to: '1160210'
+    to_name: 岸辺
+    time: 3
+    distance: 1.87
+  - from: '1160210'
+    from_name: 岸辺
+    to: '1160211'
+    to_name: 吹田
+    time: 4
+    distance: 2.23
+  - from: '1160211'
+    from_name: 吹田
+    to: '1160212'
+    to_name: 東淀川
+    time: 5
+    distance: 3.2
+  - from: '1160212'
+    from_name: 東淀川
+    to: '1160213'
+    to_name: 新大阪
+    time: 2
+    distance: 0.61
+  - from: '1160213'
+    from_name: 新大阪
+    to: '1160214'
+    to_name: 大阪
+    time: 6
+    distance: 3.58
+  - from: '1160215'
+    from_name: 島本
+    to: '1160206'
+    to_name: 高槻
+    time: 9
+    distance: 5.4
+  - from: '1160216'
+    from_name: 桂川
+    to: '1160203'
+    to_name: 向日町
+    time: 2
+    distance: 1.11
+  - from: '1160217'
+    from_name: JR総持寺
+    to: '1160208'
+    to_name: 茨木
+    time: 4
+    distance: 2.08

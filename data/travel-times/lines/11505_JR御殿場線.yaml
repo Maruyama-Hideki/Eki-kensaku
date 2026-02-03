@@ -1,0 +1,114 @@
+line_code: '11505'
+line_name: JR御殿場線
+company: JR東海
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130114'
+    from_name: 国府津
+    to: '1150502'
+    to_name: 下曽我
+    time: 6
+    distance: 3.68
+  - from: '1150502'
+    from_name: 下曽我
+    to: '1150503'
+    to_name: 上大井
+    time: 5
+    distance: 2.72
+  - from: '1150503'
+    from_name: 上大井
+    to: '1150504'
+    to_name: 相模金子
+    time: 3
+    distance: 1.75
+  - from: '1150504'
+    from_name: 相模金子
+    to: '1150505'
+    to_name: 松田
+    time: 3
+    distance: 1.9
+  - from: '1150505'
+    from_name: 松田
+    to: '1150506'
+    to_name: 東山北
+    time: 5
+    distance: 2.95
+  - from: '1150506'
+    from_name: 東山北
+    to: '1150507'
+    to_name: 山北
+    time: 4
+    distance: 2.51
+  - from: '1150507'
+    from_name: 山北
+    to: '1150508'
+    to_name: 谷峨
+    time: 6
+    distance: 3.86
+  - from: '1150508'
+    from_name: 谷峨
+    to: '1150509'
+    to_name: 駿河小山
+    time: 6
+    distance: 3.77
+  - from: '1150509'
+    from_name: 駿河小山
+    to: '1150510'
+    to_name: 足柄
+    time: 5
+    distance: 3.32
+  - from: '1150510'
+    from_name: 足柄
+    to: '1150511'
+    to_name: 御殿場
+    time: 9
+    distance: 5.61
+  - from: '1150511'
+    from_name: 御殿場
+    to: '1150512'
+    to_name: 南御殿場
+    time: 4
+    distance: 2.63
+  - from: '1150512'
+    from_name: 南御殿場
+    to: '1150513'
+    to_name: 富士岡
+    time: 4
+    distance: 2.27
+  - from: '1150513'
+    from_name: 富士岡
+    to: '1150514'
+    to_name: 岩波
+    time: 8
+    distance: 4.71
+  - from: '1150514'
+    from_name: 岩波
+    to: '1150515'
+    to_name: 裾野
+    time: 8
+    distance: 4.93
+  - from: '1150515'
+    from_name: 裾野
+    to: '1150516'
+    to_name: 長泉なめり
+    time: 5
+    distance: 2.79
+  - from: '1150516'
+    from_name: 長泉なめり
+    to: '1150517'
+    to_name: 下土狩
+    time: 4
+    distance: 2.18
+  - from: '1150517'
+    from_name: 下土狩
+    to: '1150518'
+    to_name: 大岡
+    time: 3
+    distance: 1.81
+  - from: '1150518'
+    from_name: 大岡
+    to: '1150104'
+    to_name: 沼津
+    time: 4
+    distance: 2.47

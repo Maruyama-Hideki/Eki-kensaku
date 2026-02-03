@@ -1,0 +1,102 @@
+line_code: '99211'
+line_name: フラワー長井線
+company: 山形鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1121612'
+    from_name: 赤湯
+    to: '9921102'
+    to_name: 南陽市役所
+    time: 2
+    distance: 1.01
+  - from: '9921102'
+    from_name: 南陽市役所
+    to: '9921103'
+    to_name: 宮内
+    time: 4
+    distance: 2.01
+  - from: '9921103'
+    from_name: 宮内
+    to: '9921104'
+    to_name: おりはた
+    time: 2
+    distance: 1.23
+  - from: '9921104'
+    from_name: おりはた
+    to: '9921105'
+    to_name: 梨郷
+    time: 4
+    distance: 2.36
+  - from: '9921105'
+    from_name: 梨郷
+    to: '9921106'
+    to_name: 西大塚
+    time: 5
+    distance: 2.93
+  - from: '9921106'
+    from_name: 西大塚
+    to: '1121908'
+    to_name: 今泉
+    time: 3
+    distance: 1.8
+  - from: '1121908'
+    from_name: 今泉
+    to: '9921108'
+    to_name: 時庭
+    time: 4
+    distance: 2.57
+  - from: '9921108'
+    from_name: 時庭
+    to: '9921109'
+    to_name: 南長井
+    time: 4
+    distance: 2.36
+  - from: '9921109'
+    from_name: 南長井
+    to: '9921110'
+    to_name: 長井
+    time: 2
+    distance: 1
+  - from: '9921110'
+    from_name: 長井
+    to: '9921111'
+    to_name: あやめ公園
+    time: 2
+    distance: 0.83
+  - from: '9921111'
+    from_name: あやめ公園
+    to: '9921112'
+    to_name: 羽前成田
+    time: 3
+    distance: 1.91
+  - from: '9921112'
+    from_name: 羽前成田
+    to: '9921113'
+    to_name: 白兎
+    time: 4
+    distance: 2.17
+  - from: '9921113'
+    from_name: 白兎
+    to: '9921114'
+    to_name: 蚕桑
+    time: 3
+    distance: 1.38
+  - from: '9921114'
+    from_name: 蚕桑
+    to: '9921115'
+    to_name: 鮎貝
+    time: 5
+    distance: 3.15
+  - from: '9921115'
+    from_name: 鮎貝
+    to: '9921117'
+    to_name: 四季の郷
+    time: 2
+    distance: 0.67
+  - from: '9921117'
+    from_name: 四季の郷
+    to: '9921116'
+    to_name: 荒砥
+    time: 3
+    distance: 1.75

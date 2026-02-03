@@ -1,0 +1,120 @@
+line_code: '11610'
+line_name: JR山陽本線(岡山～三原)
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1160917'
+    from_name: 岡山
+    to: '1161002'
+    to_name: 北長瀬
+    time: 6
+    distance: 3.39
+  - from: '1161002'
+    from_name: 北長瀬
+    to: '1161003'
+    to_name: 庭瀬
+    time: 5
+    distance: 3.04
+  - from: '1161003'
+    from_name: 庭瀬
+    to: '1161004'
+    to_name: 中庄
+    time: 7
+    distance: 4.6
+  - from: '1161004'
+    from_name: 中庄
+    to: '1161005'
+    to_name: 倉敷
+    time: 8
+    distance: 4.79
+  - from: '1161005'
+    from_name: 倉敷
+    to: '1161006'
+    to_name: 西阿知
+    time: 6
+    distance: 3.86
+  - from: '1161006'
+    from_name: 西阿知
+    to: '1161007'
+    to_name: 新倉敷
+    time: 8
+    distance: 5.09
+  - from: '1161007'
+    from_name: 新倉敷
+    to: '1161008'
+    to_name: 金光
+    time: 9
+    distance: 5.91
+  - from: '1161008'
+    from_name: 金光
+    to: '1161009'
+    to_name: 鴨方
+    time: 6
+    distance: 3.39
+  - from: '1161009'
+    from_name: 鴨方
+    to: '1161010'
+    to_name: 里庄
+    time: 7
+    distance: 4.01
+  - from: '1161010'
+    from_name: 里庄
+    to: '1161011'
+    to_name: 笠岡
+    time: 7
+    distance: 4.23
+  - from: '1161011'
+    from_name: 笠岡
+    to: '1161012'
+    to_name: 大門
+    time: 9
+    distance: 5.98
+  - from: '1161012'
+    from_name: 大門
+    to: '1161013'
+    to_name: 東福山
+    time: 5
+    distance: 3.19
+  - from: '1161013'
+    from_name: 東福山
+    to: '1161014'
+    to_name: 福山
+    time: 7
+    distance: 4.08
+  - from: '1161014'
+    from_name: 福山
+    to: '1161015'
+    to_name: 備後赤坂
+    time: 9
+    distance: 5.48
+  - from: '1161015'
+    from_name: 備後赤坂
+    to: '1161016'
+    to_name: 松永
+    time: 8
+    distance: 4.9
+  - from: '1161016'
+    from_name: 松永
+    to: '1161017'
+    to_name: 東尾道
+    time: 5
+    distance: 2.93
+  - from: '1161017'
+    from_name: 東尾道
+    to: '1161018'
+    to_name: 尾道
+    time: 8
+    distance: 4.99
+  - from: '1161018'
+    from_name: 尾道
+    to: '1161019'
+    to_name: 糸崎
+    time: 13
+    distance: 8.24
+  - from: '1161019'
+    from_name: 糸崎
+    to: '1161020'
+    to_name: 三原
+    time: 4
+    distance: 2.15

@@ -1,0 +1,30 @@
+line_code: '31010'
+line_name: 近鉄鳥羽線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3100914'
+    from_name: 宇治山田
+    to: '3101002'
+    to_name: 五十鈴川
+    time: 3
+    distance: 1.79
+  - from: '3101002'
+    from_name: 五十鈴川
+    to: '3101003'
+    to_name: 朝熊
+    time: 5
+    distance: 2.76
+  - from: '3101003'
+    from_name: 朝熊
+    to: '3101004'
+    to_name: 池の浦
+    time: 9
+    distance: 5.61
+  - from: '3101004'
+    from_name: 池の浦
+    to: '1151211'
+    to_name: 鳥羽
+    time: 4
+    distance: 2.37

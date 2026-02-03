@@ -1,0 +1,174 @@
+line_code: '11804'
+line_name: JR牟岐線
+company: JR四国
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1180229'
+    from_name: 徳島
+    to: '1180402'
+    to_name: 阿波富田
+    time: 2
+    distance: 1.23
+  - from: '1180402'
+    from_name: 阿波富田
+    to: '1180403'
+    to_name: 二軒屋
+    time: 2
+    distance: 1.3
+  - from: '1180403'
+    from_name: 二軒屋
+    to: '1180404'
+    to_name: 文化の森
+    time: 2
+    distance: 1.23
+  - from: '1180404'
+    from_name: 文化の森
+    to: '1180405'
+    to_name: 地蔵橋
+    time: 4
+    distance: 2.02
+  - from: '1180405'
+    from_name: 地蔵橋
+    to: '1180406'
+    to_name: 中田
+    time: 5
+    distance: 2.73
+  - from: '1180406'
+    from_name: 中田
+    to: '1180407'
+    to_name: 南小松島
+    time: 3
+    distance: 1.69
+  - from: '1180407'
+    from_name: 南小松島
+    to: '1180408'
+    to_name: 阿波赤石
+    time: 5
+    distance: 3.18
+  - from: '1180408'
+    from_name: 阿波赤石
+    to: '1180409'
+    to_name: 立江
+    time: 2
+    distance: 1.3
+  - from: '1180409'
+    from_name: 立江
+    to: '1180410'
+    to_name: 羽ノ浦
+    time: 4
+    distance: 2.16
+  - from: '1180410'
+    from_name: 羽ノ浦
+    to: '1180411'
+    to_name: 西原
+    time: 3
+    distance: 2
+  - from: '1180411'
+    from_name: 西原
+    to: '1180412'
+    to_name: 阿波中島
+    time: 3
+    distance: 2
+  - from: '1180412'
+    from_name: 阿波中島
+    to: '1180413'
+    to_name: 阿南
+    time: 4
+    distance: 2.47
+  - from: '1180413'
+    from_name: 阿南
+    to: '1180414'
+    to_name: 見能林
+    time: 3
+    distance: 1.85
+  - from: '1180414'
+    from_name: 見能林
+    to: '1180415'
+    to_name: 阿波橘
+    time: 4
+    distance: 2.17
+  - from: '1180415'
+    from_name: 阿波橘
+    to: '1180416'
+    to_name: 桑野
+    time: 6
+    distance: 3.83
+  - from: '1180416'
+    from_name: 桑野
+    to: '1180417'
+    to_name: 新野
+    time: 5
+    distance: 3.32
+  - from: '1180417'
+    from_name: 新野
+    to: '1180418'
+    to_name: 阿波福井
+    time: 4
+    distance: 2.57
+  - from: '1180418'
+    from_name: 阿波福井
+    to: '1180419'
+    to_name: 由岐
+    time: 9
+    distance: 5.48
+  - from: '1180419'
+    from_name: 由岐
+    to: '1180420'
+    to_name: 田井ノ浜
+    time: 2
+    distance: 0.8
+  - from: '1180420'
+    from_name: 田井ノ浜
+    to: '1180421'
+    to_name: 木岐
+    time: 3
+    distance: 1.52
+  - from: '1180421'
+    from_name: 木岐
+    to: '1180422'
+    to_name: 北河内
+    time: 7
+    distance: 4.09
+  - from: '1180422'
+    from_name: 北河内
+    to: '1180423'
+    to_name: 日和佐
+    time: 3
+    distance: 1.65
+  - from: '1180423'
+    from_name: 日和佐
+    to: '1180424'
+    to_name: 山河内
+    time: 7
+    distance: 4.46
+  - from: '1180424'
+    from_name: 山河内
+    to: '1180425'
+    to_name: 辺川
+    time: 8
+    distance: 5.19
+  - from: '1180425'
+    from_name: 辺川
+    to: '1180426'
+    to_name: 牟岐
+    time: 5
+    distance: 2.94
+  - from: '1180426'
+    from_name: 牟岐
+    to: '1180427'
+    to_name: 鯖瀬
+    time: 7
+    distance: 4.18
+  - from: '1180427'
+    from_name: 鯖瀬
+    to: '1180428'
+    to_name: 浅川
+    time: 5
+    distance: 3.3
+  - from: '1180428'
+    from_name: 浅川
+    to: '1180429'
+    to_name: 阿波海南
+    time: 4
+    distance: 2.37

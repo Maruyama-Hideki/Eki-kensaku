@@ -1,0 +1,36 @@
+line_code: '99634'
+line_name: 公園都市線
+company: 神戸電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1162915'
+    from_name: 三田
+    to: '9963309'
+    to_name: 三田本町
+    time: 2
+    distance: 0.78
+  - from: '9963309'
+    from_name: 三田本町
+    to: '9963308'
+    to_name: 横山
+    time: 2
+    distance: 1.07
+  - from: '9963308'
+    from_name: 横山
+    to: '9963404'
+    to_name: フラワータウン
+    time: 3
+    distance: 1.86
+  - from: '9963404'
+    from_name: フラワータウン
+    to: '9963405'
+    to_name: 南ウッディタウン
+    time: 4
+    distance: 2.15
+  - from: '9963405'
+    from_name: 南ウッディタウン
+    to: '9963406'
+    to_name: ウッディタウン中央
+    time: 2
+    distance: 1.04

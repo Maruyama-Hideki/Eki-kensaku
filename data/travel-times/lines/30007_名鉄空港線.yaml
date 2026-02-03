@@ -1,0 +1,18 @@
+line_code: '30007'
+line_name: 名鉄空港線
+company: 名古屋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3000701'
+    from_name: 常滑
+    to: '3000702'
+    to_name: りんくう常滑
+    time: 3
+    distance: 1.42
+  - from: '3000702'
+    from_name: りんくう常滑
+    to: '3000703'
+    to_name: 中部国際空港
+    time: 4
+    distance: 2.51

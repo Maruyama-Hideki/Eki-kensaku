@@ -1,0 +1,120 @@
+line_code: '99714'
+line_name: 広電６号線(江波線)
+company: 広島電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1161115'
+    from_name: 広島
+    to: '9971002'
+    to_name: 猿猴橋町
+    time: 2
+    distance: 0.27
+  - from: '9971002'
+    from_name: 猿猴橋町
+    to: '9971003'
+    to_name: 的場町
+    time: 2
+    distance: 0.21
+  - from: '9971003'
+    from_name: 的場町
+    to: '9971004'
+    to_name: 稲荷町
+    time: 2
+    distance: 0.32
+  - from: '9971004'
+    from_name: 稲荷町
+    to: '9971005'
+    to_name: 銀山町
+    time: 2
+    distance: 0.36
+  - from: '9971005'
+    from_name: 銀山町
+    to: '9971006'
+    to_name: 胡町
+    time: 2
+    distance: 0.26
+  - from: '9971006'
+    from_name: 胡町
+    to: '9971007'
+    to_name: 八丁堀
+    time: 2
+    distance: 0.16
+  - from: '9971007'
+    from_name: 八丁堀
+    to: '9971008'
+    to_name: 立町
+    time: 2
+    distance: 0.24
+  - from: '9971008'
+    from_name: 立町
+    to: '9971009'
+    to_name: 紙屋町東
+    time: 2
+    distance: 0.26
+  - from: '9971009'
+    from_name: 紙屋町東
+    to: '9971110'
+    to_name: 紙屋町西
+    time: 2
+    distance: 0.12
+  - from: '9971110'
+    from_name: 紙屋町西
+    to: '9971111'
+    to_name: 原爆ドーム前
+    time: 2
+    distance: 0.29
+  - from: '9971111'
+    from_name: 原爆ドーム前
+    to: '9971112'
+    to_name: 本川町
+    time: 2
+    distance: 0.33
+  - from: '9971112'
+    from_name: 本川町
+    to: '9971113'
+    to_name: 十日市町
+    time: 2
+    distance: 0.31
+  - from: '9971113'
+    from_name: 十日市町
+    to: '9971114'
+    to_name: 土橋
+    time: 2
+    distance: 0.3
+  - from: '9971114'
+    from_name: 土橋
+    to: '9971415'
+    to_name: 舟入町
+    time: 2
+    distance: 0.63
+  - from: '9971415'
+    from_name: 舟入町
+    to: '9971416'
+    to_name: 舟入本町
+    time: 2
+    distance: 0.46
+  - from: '9971416'
+    from_name: 舟入本町
+    to: '9971417'
+    to_name: 舟入幸町
+    time: 2
+    distance: 0.3
+  - from: '9971417'
+    from_name: 舟入幸町
+    to: '9971418'
+    to_name: 舟入川口町
+    time: 2
+    distance: 0.35
+  - from: '9971418'
+    from_name: 舟入川口町
+    to: '9971419'
+    to_name: 舟入南
+    time: 2
+    distance: 0.62
+  - from: '9971419'
+    from_name: 舟入南
+    to: '9971420'
+    to_name: 江波
+    time: 2
+    distance: 0.31

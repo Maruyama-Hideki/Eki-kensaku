@@ -1,0 +1,72 @@
+line_code: '11218'
+line_name: フルーツライン左沢線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1121618'
+    from_name: 山形
+    to: '1121619'
+    to_name: 北山形
+    time: 4
+    distance: 2.04
+  - from: '1121619'
+    from_name: 北山形
+    to: '1121803'
+    to_name: 東金井
+    time: 5
+    distance: 2.9
+  - from: '1121803'
+    from_name: 東金井
+    to: '1121804'
+    to_name: 羽前山辺
+    time: 6
+    distance: 3.35
+  - from: '1121804'
+    from_name: 羽前山辺
+    to: '1121805'
+    to_name: 羽前金沢
+    time: 5
+    distance: 2.9
+  - from: '1121805'
+    from_name: 羽前金沢
+    to: '1121806'
+    to_name: 羽前長崎
+    time: 3
+    distance: 1.37
+  - from: '1121806'
+    from_name: 羽前長崎
+    to: '1121807'
+    to_name: 南寒河江
+    time: 4
+    distance: 2.6
+  - from: '1121807'
+    from_name: 南寒河江
+    to: '1121808'
+    to_name: 寒河江
+    time: 3
+    distance: 1.86
+  - from: '1121808'
+    from_name: 寒河江
+    to: '1121809'
+    to_name: 西寒河江
+    time: 2
+    distance: 1.04
+  - from: '1121809'
+    from_name: 西寒河江
+    to: '1121810'
+    to_name: 羽前高松
+    time: 4
+    distance: 2.53
+  - from: '1121810'
+    from_name: 羽前高松
+    to: '1121811'
+    to_name: 柴橋
+    time: 5
+    distance: 2.72
+  - from: '1121811'
+    from_name: 柴橋
+    to: '1121812'
+    to_name: 左沢
+    time: 3
+    distance: 1.55

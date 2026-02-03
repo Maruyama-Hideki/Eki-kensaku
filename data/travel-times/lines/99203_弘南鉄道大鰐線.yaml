@@ -1,0 +1,84 @@
+line_code: '99203'
+line_name: 弘南鉄道大鰐線
+company: 弘南鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1120255'
+    from_name: 大鰐温泉
+    to: '9920302'
+    to_name: 宿川原
+    time: 2
+    distance: 0.89
+  - from: '9920302'
+    from_name: 宿川原
+    to: '9920303'
+    to_name: 鯖石
+    time: 2
+    distance: 1.23
+  - from: '9920303'
+    from_name: 鯖石
+    to: '9920304'
+    to_name: 石川プール前
+    time: 2
+    distance: 0.88
+  - from: '9920304'
+    from_name: 石川プール前
+    to: '9920305'
+    to_name: 石川
+    time: 2
+    distance: 1.14
+  - from: '9920305'
+    from_name: 石川
+    to: '9920306'
+    to_name: 義塾高校前
+    time: 2
+    distance: 1.29
+  - from: '9920306'
+    from_name: 義塾高校前
+    to: '9920307'
+    to_name: 津軽大沢
+    time: 2
+    distance: 0.96
+  - from: '9920307'
+    from_name: 津軽大沢
+    to: '9920308'
+    to_name: 松木平
+    time: 3
+    distance: 1.66
+  - from: '9920308'
+    from_name: 松木平
+    to: '9920309'
+    to_name: 小栗山
+    time: 2
+    distance: 0.96
+  - from: '9920309'
+    from_name: 小栗山
+    to: '9920310'
+    to_name: 千年
+    time: 2
+    distance: 0.64
+  - from: '9920310'
+    from_name: 千年
+    to: '9920311'
+    to_name: 聖愛中高前
+    time: 2
+    distance: 1.27
+  - from: '9920311'
+    from_name: 聖愛中高前
+    to: '9920312'
+    to_name: 弘前学院大前
+    time: 2
+    distance: 0.71
+  - from: '9920312'
+    from_name: 弘前学院大前
+    to: '9920313'
+    to_name: 弘高下
+    time: 2
+    distance: 1.1
+  - from: '9920313'
+    from_name: 弘高下
+    to: '9920314'
+    to_name: 中央弘前
+    time: 2
+    distance: 0.75

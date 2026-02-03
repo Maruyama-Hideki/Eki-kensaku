@@ -1,0 +1,66 @@
+line_code: '11511'
+line_name: JR草津線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1150904'
+    from_name: 柘植
+    to: '1151102'
+    to_name: 油日
+    time: 8
+    distance: 5.31
+  - from: '1151102'
+    from_name: 油日
+    to: '1151103'
+    to_name: 甲賀
+    time: 4
+    distance: 2.01
+  - from: '1151103'
+    from_name: 甲賀
+    to: '1151104'
+    to_name: 寺庄
+    time: 5
+    distance: 3.14
+  - from: '1151104'
+    from_name: 寺庄
+    to: '1151105'
+    to_name: 甲南
+    time: 4
+    distance: 2.09
+  - from: '1151105'
+    from_name: 甲南
+    to: '1151106'
+    to_name: 貴生川
+    time: 4
+    distance: 2.66
+  - from: '1151106'
+    from_name: 貴生川
+    to: '1151107'
+    to_name: 三雲
+    time: 8
+    distance: 4.75
+  - from: '1151107'
+    from_name: 三雲
+    to: '1151108'
+    to_name: 甲西
+    time: 6
+    distance: 3.77
+  - from: '1151108'
+    from_name: 甲西
+    to: '1151109'
+    to_name: 石部
+    time: 5
+    distance: 3.28
+  - from: '1151109'
+    from_name: 石部
+    to: '1151110'
+    to_name: 手原
+    time: 8
+    distance: 5.01
+  - from: '1151110'
+    from_name: 手原
+    to: '1151111'
+    to_name: 草津
+    time: 6
+    distance: 3.36

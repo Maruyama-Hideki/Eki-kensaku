@@ -1,0 +1,42 @@
+line_code: '11316'
+line_name: JR五日市線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1131506'
+    from_name: 拝島
+    to: '1131602'
+    to_name: 熊川
+    time: 2
+    distance: 1.04
+  - from: '1131602'
+    from_name: 熊川
+    to: '1131603'
+    to_name: 東秋留
+    time: 4
+    distance: 2.2
+  - from: '1131603'
+    from_name: 東秋留
+    to: '1131604'
+    to_name: 秋川
+    time: 4
+    distance: 2.26
+  - from: '1131604'
+    from_name: 秋川
+    to: '1131605'
+    to_name: 武蔵引田
+    time: 3
+    distance: 1.53
+  - from: '1131605'
+    from_name: 武蔵引田
+    to: '1131606'
+    to_name: 武蔵増戸
+    time: 2
+    distance: 1.23
+  - from: '1131606'
+    from_name: 武蔵増戸
+    to: '1131607'
+    to_name: 武蔵五日市
+    time: 4
+    distance: 2.56

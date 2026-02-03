@@ -1,0 +1,66 @@
+line_code: '99910'
+line_name: 西九州線(有田～伊万里)
+company: 松浦鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1191809'
+    from_name: 有田
+    to: '9991002'
+    to_name: 三代橋
+    time: 3
+    distance: 1.55
+  - from: '9991002'
+    from_name: 三代橋
+    to: '9991003'
+    to_name: 黒川
+    time: 2
+    distance: 1.22
+  - from: '9991003'
+    from_name: 黒川
+    to: '9991004'
+    to_name: 蔵宿
+    time: 2
+    distance: 0.88
+  - from: '9991004'
+    from_name: 蔵宿
+    to: '9991005'
+    to_name: 西有田
+    time: 2
+    distance: 0.77
+  - from: '9991005'
+    from_name: 西有田
+    to: '9991006'
+    to_name: 大木
+    time: 3
+    distance: 1.42
+  - from: '9991006'
+    from_name: 大木
+    to: '9991007'
+    to_name: 山谷
+    time: 2
+    distance: 0.86
+  - from: '9991007'
+    from_name: 山谷
+    to: '9991008'
+    to_name: 夫婦石
+    time: 2
+    distance: 0.85
+  - from: '9991008'
+    from_name: 夫婦石
+    to: '9991009'
+    to_name: 金武
+    time: 3
+    distance: 1.7
+  - from: '9991009'
+    from_name: 金武
+    to: '9991010'
+    to_name: 川東
+    time: 3
+    distance: 1.93
+  - from: '9991010'
+    from_name: 川東
+    to: '1192014'
+    to_name: 伊万里
+    time: 2
+    distance: 1.3

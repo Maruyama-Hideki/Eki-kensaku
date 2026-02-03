@@ -1,0 +1,120 @@
+line_code: '99309'
+line_name: つくばエクスプレス
+company: 首都圏新都市鉄道
+type: 特急
+default_speed: 100
+segments:
+  - from: '1130222'
+    from_name: 秋葉原
+    to: '9930111'
+    to_name: 新御徒町
+    time: 2
+    distance: 1.22
+  - from: '9930111'
+    from_name: 新御徒町
+    to: '9930903'
+    to_name: 浅草
+    time: 2
+    distance: 1.21
+  - from: '9930903'
+    from_name: 浅草
+    to: '1132004'
+    to_name: 南千住
+    time: 2
+    distance: 2.34
+  - from: '1132004'
+    from_name: 南千住
+    to: '1132005'
+    to_name: 北千住
+    time: 2
+    distance: 1.81
+  - from: '1132005'
+    from_name: 北千住
+    to: '9930906'
+    to_name: 青井
+    time: 2
+    distance: 2.83
+  - from: '9930906'
+    from_name: 青井
+    to: '9930907'
+    to_name: 六町
+    time: 2
+    distance: 1.47
+  - from: '9930907'
+    from_name: 六町
+    to: '9930908'
+    to_name: 八潮
+    time: 2
+    distance: 3.3
+  - from: '9930908'
+    from_name: 八潮
+    to: '9930909'
+    to_name: 三郷中央
+    time: 3
+    distance: 3.53
+  - from: '9930909'
+    from_name: 三郷中央
+    to: '1130518'
+    to_name: 南流山
+    time: 2
+    distance: 2.75
+  - from: '1130518'
+    from_name: 南流山
+    to: '9930911'
+    to_name: 流山セントラルパーク
+    time: 2
+    distance: 2.1
+  - from: '9930911'
+    from_name: 流山セントラルパーク
+    to: '2100422'
+    to_name: 流山おおたかの森
+    time: 2
+    distance: 2.17
+  - from: '2100422'
+    from_name: 流山おおたかの森
+    to: '9930913'
+    to_name: 柏の葉キャンパス
+    time: 3
+    distance: 3.35
+  - from: '9930913'
+    from_name: 柏の葉キャンパス
+    to: '9930914'
+    to_name: 柏たなか
+    time: 2
+    distance: 2.03
+  - from: '9930914'
+    from_name: 柏たなか
+    to: '9930915'
+    to_name: 守谷
+    time: 4
+    distance: 5.41
+  - from: '9930915'
+    from_name: 守谷
+    to: '9930916'
+    to_name: みらい平
+    time: 4
+    distance: 6.47
+  - from: '9930916'
+    from_name: みらい平
+    to: '9930917'
+    to_name: みどりの
+    time: 3
+    distance: 4.22
+  - from: '9930917'
+    from_name: みどりの
+    to: '9930918'
+    to_name: 万博記念公園
+    time: 2
+    distance: 3.14
+  - from: '9930918'
+    from_name: 万博記念公園
+    to: '9930919'
+    to_name: 研究学園
+    time: 3
+    distance: 3.35
+  - from: '9930919'
+    from_name: 研究学園
+    to: '9930920'
+    to_name: つくば
+    time: 2
+    distance: 2.55

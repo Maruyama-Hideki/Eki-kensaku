@@ -1,0 +1,336 @@
+line_code: '11907'
+line_name: JR日豊本線(佐伯～鹿児島中央)
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1190660'
+    from_name: 佐伯
+    to: '1190702'
+    to_name: 上岡
+    time: 7
+    distance: 4.17
+  - from: '1190702'
+    from_name: 上岡
+    to: '1190703'
+    to_name: 直見
+    time: 9
+    distance: 5.89
+  - from: '1190703'
+    from_name: 直見
+    to: '1190704'
+    to_name: 直川
+    time: 7
+    distance: 4.24
+  - from: '1190704'
+    from_name: 直川
+    to: '1190705'
+    to_name: 重岡
+    time: 14
+    distance: 8.82
+  - from: '1190705'
+    from_name: 重岡
+    to: '1190706'
+    to_name: 宗太郎
+    time: 10
+    distance: 6.07
+  - from: '1190706'
+    from_name: 宗太郎
+    to: '1190707'
+    to_name: 市棚
+    time: 10
+    distance: 6.45
+  - from: '1190707'
+    from_name: 市棚
+    to: '1190708'
+    to_name: 北川
+    time: 7
+    distance: 4.36
+  - from: '1190708'
+    from_name: 北川
+    to: '1190709'
+    to_name: 日向長井
+    time: 5
+    distance: 2.93
+  - from: '1190709'
+    from_name: 日向長井
+    to: '1190710'
+    to_name: 北延岡
+    time: 6
+    distance: 3.91
+  - from: '1190710'
+    from_name: 北延岡
+    to: '1190711'
+    to_name: 延岡
+    time: 8
+    distance: 4.77
+  - from: '1190711'
+    from_name: 延岡
+    to: '1190712'
+    to_name: 南延岡
+    time: 6
+    distance: 3.44
+  - from: '1190712'
+    from_name: 南延岡
+    to: '1190713'
+    to_name: 旭ケ丘
+    time: 6
+    distance: 3.49
+  - from: '1190713'
+    from_name: 旭ケ丘
+    to: '1190714'
+    to_name: 土々呂
+    time: 4
+    distance: 2.33
+  - from: '1190714'
+    from_name: 土々呂
+    to: '1190715'
+    to_name: 門川
+    time: 6
+    distance: 3.92
+  - from: '1190715'
+    from_name: 門川
+    to: '1190716'
+    to_name: 日向市
+    time: 10
+    distance: 6.24
+  - from: '1190716'
+    from_name: 日向市
+    to: '1190717'
+    to_name: 財光寺
+    time: 4
+    distance: 2.24
+  - from: '1190717'
+    from_name: 財光寺
+    to: '1190718'
+    to_name: 南日向
+    time: 6
+    distance: 3.98
+  - from: '1190718'
+    from_name: 南日向
+    to: '1190719'
+    to_name: 美々津
+    time: 9
+    distance: 5.45
+  - from: '1190719'
+    from_name: 美々津
+    to: '1190720'
+    to_name: 東都農
+    time: 7
+    distance: 4.41
+  - from: '1190720'
+    from_name: 東都農
+    to: '1190721'
+    to_name: 都農
+    time: 7
+    distance: 4.52
+  - from: '1190721'
+    from_name: 都農
+    to: '1190722'
+    to_name: 川南
+    time: 11
+    distance: 6.7
+  - from: '1190722'
+    from_name: 川南
+    to: '1190723'
+    to_name: 高鍋
+    time: 12
+    distance: 7.93
+  - from: '1190723'
+    from_name: 高鍋
+    to: '1190724'
+    to_name: 日向新富
+    time: 10
+    distance: 6.38
+  - from: '1190724'
+    from_name: 日向新富
+    to: '1190725'
+    to_name: 佐土原
+    time: 10
+    distance: 6.01
+  - from: '1190725'
+    from_name: 佐土原
+    to: '1190726'
+    to_name: 日向住吉
+    time: 6
+    distance: 3.92
+  - from: '1190726'
+    from_name: 日向住吉
+    to: '1190727'
+    to_name: 蓮ケ池
+    time: 6
+    distance: 3.75
+  - from: '1190727'
+    from_name: 蓮ケ池
+    to: '1190728'
+    to_name: 宮崎神宮
+    time: 5
+    distance: 2.72
+  - from: '1190728'
+    from_name: 宮崎神宮
+    to: '1190729'
+    to_name: 宮崎
+    time: 4
+    distance: 2.49
+  - from: '1190729'
+    from_name: 宮崎
+    to: '1190730'
+    to_name: 南宮崎
+    time: 4
+    distance: 2.47
+  - from: '1190730'
+    from_name: 南宮崎
+    to: '1190731'
+    to_name: 加納
+    time: 4
+    distance: 2.6
+  - from: '1190731'
+    from_name: 加納
+    to: '1190732'
+    to_name: 清武
+    time: 4
+    distance: 2.45
+  - from: '1190732'
+    from_name: 清武
+    to: '1190733'
+    to_name: 日向沓掛
+    time: 7
+    distance: 4.62
+  - from: '1190733'
+    from_name: 日向沓掛
+    to: '1190734'
+    to_name: 田野
+    time: 6
+    distance: 3.85
+  - from: '1190734'
+    from_name: 田野
+    to: '1190735'
+    to_name: 青井岳
+    time: 13
+    distance: 8.22
+  - from: '1190735'
+    from_name: 青井岳
+    to: '1190736'
+    to_name: 山之口
+    time: 12
+    distance: 7.98
+  - from: '1190736'
+    from_name: 山之口
+    to: '1190737'
+    to_name: 餅原
+    time: 6
+    distance: 3.42
+  - from: '1190737'
+    from_name: 餅原
+    to: '1190738'
+    to_name: 三股
+    time: 5
+    distance: 2.87
+  - from: '1190738'
+    from_name: 三股
+    to: '1190739'
+    to_name: 都城
+    time: 7
+    distance: 4.3
+  - from: '1190739'
+    from_name: 都城
+    to: '1190740'
+    to_name: 西都城
+    time: 4
+    distance: 2.17
+  - from: '1190740'
+    from_name: 西都城
+    to: '1190741'
+    to_name: 五十市
+    time: 4
+    distance: 2.26
+  - from: '1190741'
+    from_name: 五十市
+    to: '1190742'
+    to_name: 財部
+    time: 7
+    distance: 4.18
+  - from: '1190742'
+    from_name: 財部
+    to: '1190743'
+    to_name: 北俣
+    time: 6
+    distance: 3.47
+  - from: '1190743'
+    from_name: 北俣
+    to: '1190744'
+    to_name: 大隅大川原
+    time: 7
+    distance: 4.57
+  - from: '1190744'
+    from_name: 大隅大川原
+    to: '1190745'
+    to_name: 北永野田
+    time: 8
+    distance: 4.83
+  - from: '1190745'
+    from_name: 北永野田
+    to: '1190746'
+    to_name: 霧島神宮
+    time: 9
+    distance: 5.35
+  - from: '1190746'
+    from_name: 霧島神宮
+    to: '1190747'
+    to_name: 国分
+    time: 17
+    distance: 10.81
+  - from: '1190747'
+    from_name: 国分
+    to: '1190748'
+    to_name: 隼人
+    time: 4
+    distance: 2.19
+  - from: '1190748'
+    from_name: 隼人
+    to: '1190749'
+    to_name: 加治木
+    time: 10
+    distance: 6.6
+  - from: '1190749'
+    from_name: 加治木
+    to: '1190750'
+    to_name: 錦江
+    time: 3
+    distance: 1.67
+  - from: '1190750'
+    from_name: 錦江
+    to: '1190751'
+    to_name: 帖佐
+    time: 4
+    distance: 2.24
+  - from: '1190751'
+    from_name: 帖佐
+    to: '1190752'
+    to_name: 姶良
+    time: 3
+    distance: 1.58
+  - from: '1190752'
+    from_name: 姶良
+    to: '1190753'
+    to_name: 重富
+    time: 3
+    distance: 1.64
+  - from: '1190753'
+    from_name: 重富
+    to: '1190754'
+    to_name: 竜ケ水
+    time: 10
+    distance: 6.22
+  - from: '1190754'
+    from_name: 竜ケ水
+    to: '1190412'
+    to_name: 鹿児島
+    time: 10
+    distance: 6.31
+  - from: '1190412'
+    from_name: 鹿児島
+    to: '1190411'
+    to_name: 鹿児島中央
+    time: 5
+    distance: 2.94

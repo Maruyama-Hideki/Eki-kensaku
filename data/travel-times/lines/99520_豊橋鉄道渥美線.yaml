@@ -1,0 +1,96 @@
+line_code: '99520'
+line_name: 豊橋鉄道渥美線
+company: 豊橋鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1141301'
+    from_name: 豊橋
+    to: '9952002'
+    to_name: 柳生橋
+    time: 2
+    distance: 1.06
+  - from: '9952002'
+    from_name: 柳生橋
+    to: '9952003'
+    to_name: 小池
+    time: 2
+    distance: 0.66
+  - from: '9952003'
+    from_name: 小池
+    to: '9952004'
+    to_name: 愛知大学前
+    time: 2
+    distance: 0.83
+  - from: '9952004'
+    from_name: 愛知大学前
+    to: '9952005'
+    to_name: 南栄
+    time: 2
+    distance: 0.64
+  - from: '9952005'
+    from_name: 南栄
+    to: '9952006'
+    to_name: 高師
+    time: 2
+    distance: 1.04
+  - from: '9952006'
+    from_name: 高師
+    to: '9952007'
+    to_name: 芦原
+    time: 2
+    distance: 0.97
+  - from: '9952007'
+    from_name: 芦原
+    to: '9952008'
+    to_name: 植田
+    time: 2
+    distance: 1.04
+  - from: '9952008'
+    from_name: 植田
+    to: '9952009'
+    to_name: 向ヶ丘
+    time: 2
+    distance: 0.73
+  - from: '9952009'
+    from_name: 向ヶ丘
+    to: '9952010'
+    to_name: 大清水
+    time: 3
+    distance: 1.4
+  - from: '9952010'
+    from_name: 大清水
+    to: '9952011'
+    to_name: 老津
+    time: 4
+    distance: 2.19
+  - from: '9952011'
+    from_name: 老津
+    to: '9952012'
+    to_name: 杉山
+    time: 3
+    distance: 1.89
+  - from: '9952012'
+    from_name: 杉山
+    to: '9952013'
+    to_name: やぐま台
+    time: 2
+    distance: 1.26
+  - from: '9952013'
+    from_name: やぐま台
+    to: '9952014'
+    to_name: 豊島
+    time: 3
+    distance: 1.6
+  - from: '9952014'
+    from_name: 豊島
+    to: '9952015'
+    to_name: 神戸
+    time: 3
+    distance: 1.44
+  - from: '9952015'
+    from_name: 神戸
+    to: '9952016'
+    to_name: 三河田原
+    time: 2
+    distance: 0.83

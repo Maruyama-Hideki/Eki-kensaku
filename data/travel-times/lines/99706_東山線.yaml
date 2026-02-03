@@ -1,0 +1,60 @@
+line_code: '99706'
+line_name: 東山線
+company: 岡山電気軌道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1160917'
+    from_name: 岡山
+    to: '9970602'
+    to_name: 西川緑道公園
+    time: 2
+    distance: 0.42
+  - from: '9970602'
+    from_name: 西川緑道公園
+    to: '9970603'
+    to_name: 柳川
+    time: 2
+    distance: 0.23
+  - from: '9970603'
+    from_name: 柳川
+    to: '9970604'
+    to_name: 城下
+    time: 2
+    distance: 0.39
+  - from: '9970604'
+    from_name: 城下
+    to: '9970605'
+    to_name: 県庁通り
+    time: 2
+    distance: 0.34
+  - from: '9970605'
+    from_name: 県庁通り
+    to: '9970606'
+    to_name: 西大寺町
+    time: 2
+    distance: 0.46
+  - from: '9970606'
+    from_name: 西大寺町
+    to: '9970607'
+    to_name: 小橋
+    time: 2
+    distance: 0.53
+  - from: '9970607'
+    from_name: 小橋
+    to: '9970608'
+    to_name: 中納言
+    time: 2
+    distance: 0.15
+  - from: '9970608'
+    from_name: 中納言
+    to: '9970609'
+    to_name: 門田屋敷
+    time: 2
+    distance: 0.17
+  - from: '9970609'
+    from_name: 門田屋敷
+    to: '9970610'
+    to_name: 東山
+    time: 2
+    distance: 0.36

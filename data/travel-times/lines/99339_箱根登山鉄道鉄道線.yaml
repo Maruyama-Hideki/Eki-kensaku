@@ -1,0 +1,66 @@
+line_code: '99339'
+line_name: 箱根登山鉄道鉄道線
+company: 箱根登山鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130116'
+    from_name: 小田原
+    to: '9933902'
+    to_name: 箱根板橋
+    time: 3
+    distance: 1.56
+  - from: '9933902'
+    from_name: 箱根板橋
+    to: '9933903'
+    to_name: 風祭
+    time: 3
+    distance: 1.46
+  - from: '9933903'
+    from_name: 風祭
+    to: '9933904'
+    to_name: 入生田
+    time: 2
+    distance: 0.93
+  - from: '9933904'
+    from_name: 入生田
+    to: '9933905'
+    to_name: 箱根湯本
+    time: 3
+    distance: 1.79
+  - from: '9933905'
+    from_name: 箱根湯本
+    to: '9933906'
+    to_name: 塔ノ沢
+    time: 2
+    distance: 0.89
+  - from: '9933906'
+    from_name: 塔ノ沢
+    to: '9933907'
+    to_name: 大平台
+    time: 3
+    distance: 1.89
+  - from: '9933907'
+    from_name: 大平台
+    to: '9933908'
+    to_name: 宮ノ下
+    time: 2
+    distance: 1.04
+  - from: '9933908'
+    from_name: 宮ノ下
+    to: '9933909'
+    to_name: 小涌谷
+    time: 2
+    distance: 0.91
+  - from: '9933909'
+    from_name: 小涌谷
+    to: '9933910'
+    to_name: 彫刻の森
+    time: 2
+    distance: 0.72
+  - from: '9933910'
+    from_name: 彫刻の森
+    to: '9933911'
+    to_name: 強羅
+    time: 2
+    distance: 0.54

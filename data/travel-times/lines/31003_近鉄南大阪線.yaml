@@ -1,0 +1,168 @@
+line_code: '31003'
+line_name: 近鉄南大阪線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1160719'
+    from_name: 天王寺
+    to: '3100302'
+    to_name: 河堀口
+    time: 2
+    distance: 1.15
+  - from: '3100302'
+    from_name: 河堀口
+    to: '3100303'
+    to_name: 北田辺
+    time: 2
+    distance: 1.09
+  - from: '3100303'
+    from_name: 北田辺
+    to: '3100304'
+    to_name: 今川
+    time: 2
+    distance: 0.69
+  - from: '3100304'
+    from_name: 今川
+    to: '3100305'
+    to_name: 針中野
+    time: 2
+    distance: 1.04
+  - from: '3100305'
+    from_name: 針中野
+    to: '3100306'
+    to_name: 矢田
+    time: 2
+    distance: 1.23
+  - from: '3100306'
+    from_name: 矢田
+    to: '3100307'
+    to_name: 河内天美
+    time: 4
+    distance: 2.25
+  - from: '3100307'
+    from_name: 河内天美
+    to: '3100308'
+    to_name: 布忍
+    time: 2
+    distance: 0.96
+  - from: '3100308'
+    from_name: 布忍
+    to: '3100309'
+    to_name: 高見ノ里
+    time: 2
+    distance: 0.68
+  - from: '3100309'
+    from_name: 高見ノ里
+    to: '3100310'
+    to_name: 河内松原
+    time: 2
+    distance: 1
+  - from: '3100310'
+    from_name: 河内松原
+    to: '3100311'
+    to_name: 恵我ノ荘
+    time: 3
+    distance: 1.45
+  - from: '3100311'
+    from_name: 恵我ノ荘
+    to: '3100312'
+    to_name: 高鷲
+    time: 2
+    distance: 1.1
+  - from: '3100312'
+    from_name: 高鷲
+    to: '3100313'
+    to_name: 藤井寺
+    time: 2
+    distance: 0.87
+  - from: '3100313'
+    from_name: 藤井寺
+    to: '3100314'
+    to_name: 土師ノ里
+    time: 3
+    distance: 1.98
+  - from: '3100314'
+    from_name: 土師ノ里
+    to: '3100315'
+    to_name: 道明寺
+    time: 2
+    distance: 0.57
+  - from: '3100315'
+    from_name: 道明寺
+    to: '3100316'
+    to_name: 古市
+    time: 3
+    distance: 1.89
+  - from: '3100316'
+    from_name: 古市
+    to: '3100317'
+    to_name: 駒ヶ谷
+    time: 3
+    distance: 1.51
+  - from: '3100317'
+    from_name: 駒ヶ谷
+    to: '3100318'
+    to_name: 上ノ太子
+    time: 4
+    distance: 2.02
+  - from: '3100318'
+    from_name: 上ノ太子
+    to: '3100319'
+    to_name: 二上山
+    time: 7
+    distance: 4.48
+  - from: '3100319'
+    from_name: 二上山
+    to: '3100320'
+    to_name: 二上神社口
+    time: 2
+    distance: 1.08
+  - from: '3100320'
+    from_name: 二上神社口
+    to: '3100321'
+    to_name: 当麻寺
+    time: 4
+    distance: 2.05
+  - from: '3100321'
+    from_name: 当麻寺
+    to: '3100322'
+    to_name: 磐城
+    time: 2
+    distance: 0.73
+  - from: '3100322'
+    from_name: 磐城
+    to: '3100323'
+    to_name: 尺土
+    time: 2
+    distance: 1.01
+  - from: '3100323'
+    from_name: 尺土
+    to: '3100324'
+    to_name: 高田市
+    time: 3
+    distance: 1.9
+  - from: '3100324'
+    from_name: 高田市
+    to: '3100325'
+    to_name: 浮孔
+    time: 3
+    distance: 1.53
+  - from: '3100325'
+    from_name: 浮孔
+    to: '3100326'
+    to_name: 坊城
+    time: 2
+    distance: 1.05
+  - from: '3100326'
+    from_name: 坊城
+    to: '3100327'
+    to_name: 橿原神宮西口
+    time: 3
+    distance: 1.72
+  - from: '3100327'
+    from_name: 橿原神宮西口
+    to: '3100217'
+    to_name: 橿原神宮前
+    time: 2
+    distance: 1.21

@@ -1,0 +1,102 @@
+line_code: '99416'
+line_name: 北陸鉄道石川線
+company: 北陸鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9941601'
+    from_name: 野町
+    to: '9941602'
+    to_name: 西泉
+    time: 2
+    distance: 0.96
+  - from: '9941602'
+    from_name: 西泉
+    to: '1141542'
+    to_name: 西金沢
+    time: 2
+    distance: 1.1
+  - from: '1141542'
+    from_name: 西金沢
+    to: '9941604'
+    to_name: 押野
+    time: 2
+    distance: 1.27
+  - from: '9941604'
+    from_name: 押野
+    to: '9941605'
+    to_name: 野々市
+    time: 2
+    distance: 0.6
+  - from: '9941605'
+    from_name: 野々市
+    to: '9941606'
+    to_name: 野々市工大前
+    time: 2
+    distance: 0.47
+  - from: '9941606'
+    from_name: 野々市工大前
+    to: '9941607'
+    to_name: 馬替
+    time: 2
+    distance: 1.05
+  - from: '9941607'
+    from_name: 馬替
+    to: '9941608'
+    to_name: 額住宅前
+    time: 2
+    distance: 0.52
+  - from: '9941608'
+    from_name: 額住宅前
+    to: '9941609'
+    to_name: 乙丸
+    time: 2
+    distance: 0.75
+  - from: '9941609'
+    from_name: 乙丸
+    to: '9941610'
+    to_name: 四十万
+    time: 3
+    distance: 1.45
+  - from: '9941610'
+    from_name: 四十万
+    to: '9941619'
+    to_name: 陽羽里
+    time: 2
+    distance: 0.59
+  - from: '9941611'
+    from_name: 曽谷
+    to: '9941612'
+    to_name: 道法寺
+    time: 2
+    distance: 0.64
+  - from: '9941612'
+    from_name: 道法寺
+    to: '9941613'
+    to_name: 井口
+    time: 2
+    distance: 0.9
+  - from: '9941613'
+    from_name: 井口
+    to: '9941614'
+    to_name: 小柳
+    time: 2
+    distance: 0.63
+  - from: '9941614'
+    from_name: 小柳
+    to: '9941615'
+    to_name: 日御子
+    time: 2
+    distance: 0.73
+  - from: '9941615'
+    from_name: 日御子
+    to: '9941616'
+    to_name: 鶴来
+    time: 3
+    distance: 1.6
+  - from: '9941619'
+    from_name: 陽羽里
+    to: '9941611'
+    to_name: 曽谷
+    time: 2
+    distance: 0.4

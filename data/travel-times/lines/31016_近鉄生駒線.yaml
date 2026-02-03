@@ -1,0 +1,72 @@
+line_code: '31016'
+line_name: 近鉄生駒線
+company: 近畿日本鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3101601'
+    from_name: 生駒
+    to: '3101602'
+    to_name: 菜畑
+    time: 2
+    distance: 1.16
+  - from: '3101602'
+    from_name: 菜畑
+    to: '3101603'
+    to_name: 一分
+    time: 2
+    distance: 1.13
+  - from: '3101603'
+    from_name: 一分
+    to: '3101604'
+    to_name: 南生駒
+    time: 2
+    distance: 1.11
+  - from: '3101604'
+    from_name: 南生駒
+    to: '3101605'
+    to_name: 萩の台
+    time: 2
+    distance: 0.95
+  - from: '3101605'
+    from_name: 萩の台
+    to: '3101606'
+    to_name: 東山
+    time: 2
+    distance: 0.93
+  - from: '3101606'
+    from_name: 東山
+    to: '3101607'
+    to_name: 元山上口
+    time: 2
+    distance: 1.14
+  - from: '3101607'
+    from_name: 元山上口
+    to: '3101608'
+    to_name: 平群
+    time: 2
+    distance: 1.29
+  - from: '3101608'
+    from_name: 平群
+    to: '3101609'
+    to_name: 竜田川
+    time: 3
+    distance: 1.34
+  - from: '3101609'
+    from_name: 竜田川
+    to: '3101610'
+    to_name: 勢野北口
+    time: 2
+    distance: 1.28
+  - from: '3101610'
+    from_name: 勢野北口
+    to: '3101611'
+    to_name: 信貴山下
+    time: 2
+    distance: 0.78
+  - from: '3101611'
+    from_name: 信貴山下
+    to: '1160708'
+    to_name: 王寺
+    time: 2
+    distance: 0.9

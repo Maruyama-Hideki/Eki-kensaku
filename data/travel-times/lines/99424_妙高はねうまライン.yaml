@@ -1,0 +1,60 @@
+line_code: '99424'
+line_name: 妙高はねうまライン
+company: えちごトキめき鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1140313'
+    from_name: 関山
+    to: '1140312'
+    to_name: 妙高高原
+    time: 11
+    distance: 6.89
+  - from: '1140314'
+    from_name: 二本木
+    to: '1140313'
+    to_name: 関山
+    time: 10
+    distance: 6.31
+  - from: '1140315'
+    from_name: 新井
+    to: '1140314'
+    to_name: 二本木
+    time: 7
+    distance: 4.6
+  - from: '1140316'
+    from_name: 北新井
+    to: '1140315'
+    to_name: 新井
+    time: 5
+    distance: 2.92
+  - from: '1140317'
+    from_name: 上越妙高
+    to: '1140316'
+    to_name: 北新井
+    time: 5
+    distance: 3.29
+  - from: '1140318'
+    from_name: 南高田
+    to: '1140317'
+    to_name: 上越妙高
+    time: 3
+    distance: 1.76
+  - from: '1140319'
+    from_name: 高田
+    to: '1140318'
+    to_name: 南高田
+    time: 4
+    distance: 2.05
+  - from: '1140320'
+    from_name: 春日山
+    to: '1140319'
+    to_name: 高田
+    time: 6
+    distance: 3.7
+  - from: '1140321'
+    from_name: 直江津
+    to: '1140320'
+    to_name: 春日山
+    time: 4
+    distance: 2.55

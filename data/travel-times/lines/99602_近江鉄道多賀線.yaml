@@ -1,0 +1,18 @@
+line_code: '99602'
+line_name: 近江鉄道多賀線
+company: 近江鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9960106'
+    from_name: 高宮
+    to: '9960203'
+    to_name: スクリーン
+    time: 2
+    distance: 0.7
+  - from: '9960203'
+    from_name: スクリーン
+    to: '9960202'
+    to_name: 多賀大社前
+    time: 3
+    distance: 1.71

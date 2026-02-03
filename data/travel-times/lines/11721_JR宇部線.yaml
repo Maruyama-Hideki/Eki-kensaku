@@ -1,0 +1,108 @@
+line_code: '11721'
+line_name: JR宇部線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1161224'
+    from_name: 新山口
+    to: '1172102'
+    to_name: 上嘉川
+    time: 5
+    distance: 2.75
+  - from: '1172102'
+    from_name: 上嘉川
+    to: '1172103'
+    to_name: 深溝
+    time: 5
+    distance: 3.02
+  - from: '1172103'
+    from_name: 深溝
+    to: '1172104'
+    to_name: 周防佐山
+    time: 3
+    distance: 1.52
+  - from: '1172104'
+    from_name: 周防佐山
+    to: '1172105'
+    to_name: 岩倉
+    time: 2
+    distance: 1.33
+  - from: '1172105'
+    from_name: 岩倉
+    to: '1172106'
+    to_name: 阿知須
+    time: 3
+    distance: 1.46
+  - from: '1172106'
+    from_name: 阿知須
+    to: '1172107'
+    to_name: 岐波
+    time: 4
+    distance: 2.46
+  - from: '1172107'
+    from_name: 岐波
+    to: '1172108'
+    to_name: 丸尾
+    time: 4
+    distance: 2.39
+  - from: '1172108'
+    from_name: 丸尾
+    to: '1172109'
+    to_name: 床波
+    time: 6
+    distance: 3.47
+  - from: '1172109'
+    from_name: 床波
+    to: '1172110'
+    to_name: 常盤
+    time: 3
+    distance: 1.78
+  - from: '1172110'
+    from_name: 常盤
+    to: '1172111'
+    to_name: 草江
+    time: 3
+    distance: 1.76
+  - from: '1172111'
+    from_name: 草江
+    to: '1172112'
+    to_name: 宇部岬
+    time: 2
+    distance: 1.15
+  - from: '1172112'
+    from_name: 宇部岬
+    to: '1172113'
+    to_name: 東新川
+    time: 3
+    distance: 1.6
+  - from: '1172113'
+    from_name: 東新川
+    to: '1172114'
+    to_name: 琴芝
+    time: 2
+    distance: 0.64
+  - from: '1172114'
+    from_name: 琴芝
+    to: '1172115'
+    to_name: 宇部新川
+    time: 2
+    distance: 1.1
+  - from: '1172115'
+    from_name: 宇部新川
+    to: '1172116'
+    to_name: 居能
+    time: 3
+    distance: 1.63
+  - from: '1172116'
+    from_name: 居能
+    to: '1172117'
+    to_name: 岩鼻
+    time: 2
+    distance: 1.31
+  - from: '1172117'
+    from_name: 岩鼻
+    to: '1161228'
+    to_name: 宇部
+    time: 5
+    distance: 2.74

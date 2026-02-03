@@ -1,0 +1,186 @@
+line_code: '99629'
+line_name: 阪堺電軌阪堺線
+company: 阪堺電気軌道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9962308'
+    from_name: 恵美須町
+    to: '1160720'
+    to_name: 新今宮
+    time: 2
+    distance: 0.69
+  - from: '1160720'
+    from_name: 新今宮
+    to: '9962903'
+    to_name: 今池
+    time: 2
+    distance: 0.51
+  - from: '9962903'
+    from_name: 今池
+    to: '9962904'
+    to_name: 今船
+    time: 2
+    distance: 0.34
+  - from: '9962904'
+    from_name: 今船
+    to: '9962905'
+    to_name: 松田町
+    time: 2
+    distance: 0.4
+  - from: '9962905'
+    from_name: 松田町
+    to: '9962906'
+    to_name: 北天下茶屋
+    time: 2
+    distance: 0.3
+  - from: '9962906'
+    from_name: 北天下茶屋
+    to: '9962907'
+    to_name: 聖天坂
+    time: 2
+    distance: 0.41
+  - from: '9962907'
+    from_name: 聖天坂
+    to: '9962908'
+    to_name: 天神ノ森
+    time: 2
+    distance: 0.39
+  - from: '9962908'
+    from_name: 天神ノ森
+    to: '3200104'
+    to_name: 岸里玉出
+    time: 2
+    distance: 0.36
+  - from: '3200104'
+    from_name: 岸里玉出
+    to: '9962910'
+    to_name: 塚西
+    time: 2
+    distance: 0.53
+  - from: '9962910'
+    from_name: 塚西
+    to: '3200105'
+    to_name: 粉浜
+    time: 2
+    distance: 0.64
+  - from: '3200105'
+    from_name: 粉浜
+    to: '9962810'
+    to_name: 住吉
+    time: 2
+    distance: 0.43
+  - from: '9962810'
+    from_name: 住吉
+    to: '3200106'
+    to_name: 住吉大社
+    time: 2
+    distance: 0.28
+  - from: '3200106'
+    from_name: 住吉大社
+    to: '9962914'
+    to_name: 細井川
+    time: 2
+    distance: 0.29
+  - from: '9962914'
+    from_name: 細井川
+    to: '9962915'
+    to_name: 安立町
+    time: 2
+    distance: 0.48
+  - from: '9962915'
+    from_name: 安立町
+    to: '9962916'
+    to_name: 我孫子道
+    time: 2
+    distance: 0.61
+  - from: '9962916'
+    from_name: 我孫子道
+    to: '9962917'
+    to_name: 大和川
+    time: 2
+    distance: 0.66
+  - from: '9962917'
+    from_name: 大和川
+    to: '9962918'
+    to_name: 高須神社
+    time: 2
+    distance: 0.49
+  - from: '9962918'
+    from_name: 高須神社
+    to: '9962919'
+    to_name: 綾ノ町
+    time: 2
+    distance: 0.34
+  - from: '9962919'
+    from_name: 綾ノ町
+    to: '9962920'
+    to_name: 神明町
+    time: 2
+    distance: 0.41
+  - from: '9962920'
+    from_name: 神明町
+    to: '9962921'
+    to_name: 妙国寺前
+    time: 2
+    distance: 0.26
+  - from: '9962921'
+    from_name: 妙国寺前
+    to: '9962922'
+    to_name: 花田口
+    time: 2
+    distance: 0.27
+  - from: '9962922'
+    from_name: 花田口
+    to: '9962923'
+    to_name: 大小路
+    time: 2
+    distance: 0.33
+  - from: '9962923'
+    from_name: 大小路
+    to: '9962924'
+    to_name: 宿院
+    time: 2
+    distance: 0.38
+  - from: '9962924'
+    from_name: 宿院
+    to: '9962925'
+    to_name: 寺地町
+    time: 2
+    distance: 0.39
+  - from: '9962925'
+    from_name: 寺地町
+    to: '9962926'
+    to_name: 御陵前
+    time: 2
+    distance: 0.42
+  - from: '9962926'
+    from_name: 御陵前
+    to: '9962927'
+    to_name: 東湊
+    time: 2
+    distance: 0.76
+  - from: '9962927'
+    from_name: 東湊
+    to: '9962931'
+    to_name: 石津北
+    time: 2
+    distance: 0.62
+  - from: '9962928'
+    from_name: 石津
+    to: '9962929'
+    to_name: 船尾
+    time: 2
+    distance: 0.74
+  - from: '9962929'
+    from_name: 船尾
+    to: '3200113'
+    to_name: 浜寺公園
+    time: 2
+    distance: 1.11
+  - from: '9962931'
+    from_name: 石津北
+    to: '9962928'
+    to_name: 石津
+    time: 2
+    distance: 0.62

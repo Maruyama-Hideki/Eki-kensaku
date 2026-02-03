@@ -1,0 +1,126 @@
+line_code: '99327'
+line_name: 上信電鉄
+company: 上信電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1131816'
+    from_name: 高崎
+    to: '9932702'
+    to_name: 南高崎
+    time: 2
+    distance: 1.09
+  - from: '9932702'
+    from_name: 南高崎
+    to: '9932721'
+    to_name: 佐野のわたし
+    time: 2
+    distance: 1.24
+  - from: '9932703'
+    from_name: 根小屋
+    to: '9932704'
+    to_name: 高崎商科大学前
+    time: 2
+    distance: 1.21
+  - from: '9932704'
+    from_name: 高崎商科大学前
+    to: '9932705'
+    to_name: 山名
+    time: 2
+    distance: 1.06
+  - from: '9932705'
+    from_name: 山名
+    to: '9932706'
+    to_name: 西山名
+    time: 2
+    distance: 0.93
+  - from: '9932706'
+    from_name: 西山名
+    to: '9932707'
+    to_name: 馬庭
+    time: 4
+    distance: 2.29
+  - from: '9932707'
+    from_name: 馬庭
+    to: '9932708'
+    to_name: 吉井
+    time: 4
+    distance: 2.31
+  - from: '9932708'
+    from_name: 吉井
+    to: '9932709'
+    to_name: 西吉井
+    time: 3
+    distance: 1.66
+  - from: '9932709'
+    from_name: 西吉井
+    to: '9932710'
+    to_name: 上州新屋
+    time: 2
+    distance: 1.27
+  - from: '9932710'
+    from_name: 上州新屋
+    to: '9932711'
+    to_name: 上州福島
+    time: 4
+    distance: 2
+  - from: '9932711'
+    from_name: 上州福島
+    to: '9932712'
+    to_name: 東富岡
+    time: 4
+    distance: 2.52
+  - from: '9932712'
+    from_name: 東富岡
+    to: '9932713'
+    to_name: 上州富岡
+    time: 2
+    distance: 0.9
+  - from: '9932713'
+    from_name: 上州富岡
+    to: '9932714'
+    to_name: 西富岡
+    time: 2
+    distance: 0.81
+  - from: '9932714'
+    from_name: 西富岡
+    to: '9932715'
+    to_name: 上州七日市
+    time: 2
+    distance: 0.76
+  - from: '9932715'
+    from_name: 上州七日市
+    to: '9932716'
+    to_name: 上州一ノ宮
+    time: 2
+    distance: 1.14
+  - from: '9932716'
+    from_name: 上州一ノ宮
+    to: '9932717'
+    to_name: 神農原
+    time: 4
+    distance: 2.14
+  - from: '9932717'
+    from_name: 神農原
+    to: '9932718'
+    to_name: 南蛇井
+    time: 5
+    distance: 2.73
+  - from: '9932718'
+    from_name: 南蛇井
+    to: '9932719'
+    to_name: 千平
+    time: 3
+    distance: 1.65
+  - from: '9932719'
+    from_name: 千平
+    to: '9932720'
+    to_name: 下仁田
+    time: 4
+    distance: 2.42
+  - from: '9932721'
+    from_name: 佐野のわたし
+    to: '9932703'
+    to_name: 根小屋
+    time: 2
+    distance: 1.26

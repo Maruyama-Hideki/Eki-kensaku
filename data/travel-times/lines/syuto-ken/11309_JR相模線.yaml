@@ -1,0 +1,108 @@
+line_code: '11309'
+line_name: JR相模線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1130110'
+    from_name: 茅ケ崎
+    to: '1130902'
+    to_name: 北茅ケ崎
+    time: 2
+    distance: 0.94
+  - from: '1130902'
+    from_name: 北茅ケ崎
+    to: '1130903'
+    to_name: 香川
+    time: 4
+    distance: 2.05
+  - from: '1130903'
+    from_name: 香川
+    to: '1130904'
+    to_name: 寒川
+    time: 3
+    distance: 1.68
+  - from: '1130904'
+    from_name: 寒川
+    to: '1130905'
+    to_name: 宮山
+    time: 3
+    distance: 1.78
+  - from: '1130905'
+    from_name: 宮山
+    to: '1130906'
+    to_name: 倉見
+    time: 3
+    distance: 1.43
+  - from: '1130906'
+    from_name: 倉見
+    to: '1130907'
+    to_name: 門沢橋
+    time: 2
+    distance: 1.31
+  - from: '1130907'
+    from_name: 門沢橋
+    to: '1130908'
+    to_name: 社家
+    time: 3
+    distance: 1.55
+  - from: '1130908'
+    from_name: 社家
+    to: '1130909'
+    to_name: 厚木
+    time: 4
+    distance: 2.58
+  - from: '1130909'
+    from_name: 厚木
+    to: '1130910'
+    to_name: 海老名
+    time: 3
+    distance: 1.52
+  - from: '1130910'
+    from_name: 海老名
+    to: '1130911'
+    to_name: 入谷
+    time: 5
+    distance: 2.7
+  - from: '1130911'
+    from_name: 入谷
+    to: '1130912'
+    to_name: 相武台下
+    time: 3
+    distance: 1.66
+  - from: '1130912'
+    from_name: 相武台下
+    to: '1130913'
+    to_name: 下溝
+    time: 5
+    distance: 2.92
+  - from: '1130913'
+    from_name: 下溝
+    to: '1130914'
+    to_name: 原当麻
+    time: 2
+    distance: 1.25
+  - from: '1130914'
+    from_name: 原当麻
+    to: '1130915'
+    to_name: 番田
+    time: 4
+    distance: 2.14
+  - from: '1130915'
+    from_name: 番田
+    to: '1130916'
+    to_name: 上溝
+    time: 3
+    distance: 1.36
+  - from: '1130916'
+    from_name: 上溝
+    to: '1130917'
+    to_name: 南橋本
+    time: 5
+    distance: 2.71
+  - from: '1130917'
+    from_name: 南橋本
+    to: '1130616'
+    to_name: 橋本
+    time: 3
+    distance: 1.77

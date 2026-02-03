@@ -1,0 +1,102 @@
+line_code: '24006'
+line_name: 京王井の頭線
+company: 京王電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '1130205'
+    from_name: 渋谷
+    to: '2400602'
+    to_name: 神泉
+    time: 2
+    distance: 0.72
+  - from: '2400602'
+    from_name: 神泉
+    to: '2400603'
+    to_name: 駒場東大前
+    time: 2
+    distance: 0.85
+  - from: '2400603'
+    from_name: 駒場東大前
+    to: '2400604'
+    to_name: 池ノ上
+    time: 2
+    distance: 1
+  - from: '2400604'
+    from_name: 池ノ上
+    to: '2400605'
+    to_name: 下北沢
+    time: 2
+    distance: 0.6
+  - from: '2400605'
+    from_name: 下北沢
+    to: '2400606'
+    to_name: 新代田
+    time: 2
+    distance: 0.59
+  - from: '2400606'
+    from_name: 新代田
+    to: '2400607'
+    to_name: 東松原
+    time: 2
+    distance: 0.45
+  - from: '2400607'
+    from_name: 東松原
+    to: '2400106'
+    to_name: 明大前
+    time: 2
+    distance: 0.83
+  - from: '2400106'
+    from_name: 明大前
+    to: '2400609'
+    to_name: 永福町
+    time: 2
+    distance: 1.08
+  - from: '2400609'
+    from_name: 永福町
+    to: '2400610'
+    to_name: 西永福
+    time: 2
+    distance: 0.76
+  - from: '2400610'
+    from_name: 西永福
+    to: '2400611'
+    to_name: 浜田山
+    time: 2
+    distance: 0.73
+  - from: '2400611'
+    from_name: 浜田山
+    to: '2400612'
+    to_name: 高井戸
+    time: 2
+    distance: 1.14
+  - from: '2400612'
+    from_name: 高井戸
+    to: '2400613'
+    to_name: 富士見ヶ丘
+    time: 2
+    distance: 0.75
+  - from: '2400613'
+    from_name: 富士見ヶ丘
+    to: '2400614'
+    to_name: 久我山
+    time: 2
+    distance: 0.8
+  - from: '2400614'
+    from_name: 久我山
+    to: '2400615'
+    to_name: 三鷹台
+    time: 2
+    distance: 1
+  - from: '2400615'
+    from_name: 三鷹台
+    to: '2400616'
+    to_name: 井の頭公園
+    time: 2
+    distance: 0.81
+  - from: '2400616'
+    from_name: 井の頭公園
+    to: '1131104'
+    to_name: 吉祥寺
+    time: 2
+    distance: 0.71

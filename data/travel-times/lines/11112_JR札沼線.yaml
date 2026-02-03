@@ -1,0 +1,84 @@
+line_code: '11112'
+line_name: JR札沼線
+company: JR北海道
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1110315'
+    from_name: 札幌
+    to: '1110314'
+    to_name: 桑園
+    time: 3
+    distance: 1.54
+  - from: '1110314'
+    from_name: 桑園
+    to: '1111203'
+    to_name: 八軒
+    time: 3
+    distance: 1.98
+  - from: '1111203'
+    from_name: 八軒
+    to: '1111204'
+    to_name: 新川
+    time: 3
+    distance: 1.47
+  - from: '1111204'
+    from_name: 新川
+    to: '1111205'
+    to_name: 新琴似
+    time: 3
+    distance: 1.84
+  - from: '1111205'
+    from_name: 新琴似
+    to: '1111206'
+    to_name: 太平
+    time: 3
+    distance: 1.7
+  - from: '1111206'
+    from_name: 太平
+    to: '1111207'
+    to_name: 百合が原
+    time: 2
+    distance: 1.23
+  - from: '1111207'
+    from_name: 百合が原
+    to: '1111208'
+    to_name: 篠路
+    time: 3
+    distance: 1.55
+  - from: '1111208'
+    from_name: 篠路
+    to: '1111209'
+    to_name: 拓北
+    time: 3
+    distance: 1.78
+  - from: '1111209'
+    from_name: 拓北
+    to: '1111210'
+    to_name: あいの里教育大
+    time: 3
+    distance: 1.41
+  - from: '1111210'
+    from_name: あいの里教育大
+    to: '1111211'
+    to_name: あいの里公園
+    time: 3
+    distance: 1.37
+  - from: '1111211'
+    from_name: あいの里公園
+    to: '1111212'
+    to_name: 石狩太美
+    time: 7
+    distance: 4.3
+  - from: '1111212'
+    from_name: 石狩太美
+    to: '1111213'
+    to_name: 石狩当別
+    time: 10
+    distance: 6.35
+  - from: '1111213'
+    from_name: 石狩当別
+    to: '1111214'
+    to_name: 北海道医療大学
+    time: 5
+    distance: 3.09

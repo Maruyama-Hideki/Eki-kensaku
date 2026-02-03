@@ -28,6 +28,25 @@ export interface Connection {
 }
 
 /**
+ * 所要時間付き駅間接続情報
+ */
+export interface ConnectionWithTime {
+  from: string;
+  to: string;
+  line: string;
+  time: number;
+}
+
+/**
+ * connections-with-times.json のスキーマ
+ */
+export interface ConnectionsWithTimesData {
+  generated_at: string;
+  total_connections: number;
+  connections: ConnectionWithTime[];
+}
+
+/**
  * グラフのエッジ（隣接駅への接続）
  */
 export interface GraphEdge {

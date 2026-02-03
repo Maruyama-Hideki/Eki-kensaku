@@ -1,0 +1,114 @@
+line_code: '11609'
+line_name: JR山陽本線(姫路～岡山)
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1160821'
+    from_name: 姫路
+    to: '1160902'
+    to_name: 英賀保
+    time: 7
+    distance: 4.5
+  - from: '1160902'
+    from_name: 英賀保
+    to: '1160918'
+    to_name: はりま勝原
+    time: 5
+    distance: 2.82
+  - from: '1160903'
+    from_name: 網干
+    to: '1160904'
+    to_name: 竜野
+    time: 9
+    distance: 5.8
+  - from: '1160904'
+    from_name: 竜野
+    to: '1160905'
+    to_name: 相生
+    time: 7
+    distance: 4.51
+  - from: '1160905'
+    from_name: 相生
+    to: '1160906'
+    to_name: 有年
+    time: 11
+    distance: 7.21
+  - from: '1160906'
+    from_name: 有年
+    to: '1160907'
+    to_name: 上郡
+    time: 9
+    distance: 5.56
+  - from: '1160907'
+    from_name: 上郡
+    to: '1160908'
+    to_name: 三石
+    time: 15
+    distance: 9.9
+  - from: '1160908'
+    from_name: 三石
+    to: '1160909'
+    to_name: 吉永
+    time: 10
+    distance: 6.52
+  - from: '1160909'
+    from_name: 吉永
+    to: '1160910'
+    to_name: 和気
+    time: 8
+    distance: 5.02
+  - from: '1160910'
+    from_name: 和気
+    to: '1160911'
+    to_name: 熊山
+    time: 7
+    distance: 4.24
+  - from: '1160911'
+    from_name: 熊山
+    to: '1160912'
+    to_name: 万富
+    time: 6
+    distance: 3.85
+  - from: '1160912'
+    from_name: 万富
+    to: '1160913'
+    to_name: 瀬戸
+    time: 7
+    distance: 4.41
+  - from: '1160913'
+    from_name: 瀬戸
+    to: '1160914'
+    to_name: 上道
+    time: 7
+    distance: 4.36
+  - from: '1160914'
+    from_name: 上道
+    to: '1160915'
+    to_name: 東岡山
+    time: 6
+    distance: 3.34
+  - from: '1160915'
+    from_name: 東岡山
+    to: '1160916'
+    to_name: 高島
+    time: 5
+    distance: 2.79
+  - from: '1160916'
+    from_name: 高島
+    to: '1160919'
+    to_name: 西川原
+    time: 4
+    distance: 2.02
+  - from: '1160918'
+    from_name: はりま勝原
+    to: '1160903'
+    to_name: 網干
+    time: 5
+    distance: 2.78
+  - from: '1160919'
+    from_name: 西川原
+    to: '1160917'
+    to_name: 岡山
+    time: 4
+    distance: 2.08

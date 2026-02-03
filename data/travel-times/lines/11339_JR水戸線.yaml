@@ -1,0 +1,96 @@
+line_code: '11339'
+line_name: JR水戸線
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1131918'
+    from_name: 小山
+    to: '1133902'
+    to_name: 小田林
+    time: 7
+    distance: 4.44
+  - from: '1133902'
+    from_name: 小田林
+    to: '1133903'
+    to_name: 結城
+    time: 3
+    distance: 1.77
+  - from: '1133903'
+    from_name: 結城
+    to: '1133904'
+    to_name: 東結城
+    time: 3
+    distance: 1.66
+  - from: '1133904'
+    from_name: 東結城
+    to: '1133905'
+    to_name: 川島
+    time: 4
+    distance: 2.23
+  - from: '1133905'
+    from_name: 川島
+    to: '1133906'
+    to_name: 玉戸
+    time: 3
+    distance: 2
+  - from: '1133906'
+    from_name: 玉戸
+    to: '1133907'
+    to_name: 下館
+    time: 6
+    distance: 3.66
+  - from: '1133907'
+    from_name: 下館
+    to: '1133908'
+    to_name: 新治
+    time: 10
+    distance: 6.03
+  - from: '1133908'
+    from_name: 新治
+    to: '1133909'
+    to_name: 大和
+    time: 6
+    distance: 3.62
+  - from: '1133909'
+    from_name: 大和
+    to: '1133910'
+    to_name: 岩瀬
+    time: 6
+    distance: 3.53
+  - from: '1133910'
+    from_name: 岩瀬
+    to: '1133911'
+    to_name: 羽黒
+    time: 5
+    distance: 3.1
+  - from: '1133911'
+    from_name: 羽黒
+    to: '1133912'
+    to_name: 福原
+    time: 6
+    distance: 3.99
+  - from: '1133912'
+    from_name: 福原
+    to: '1133913'
+    to_name: 稲田
+    time: 5
+    distance: 3.15
+  - from: '1133913'
+    from_name: 稲田
+    to: '1133914'
+    to_name: 笠間
+    time: 5
+    distance: 2.86
+  - from: '1133914'
+    from_name: 笠間
+    to: '1133915'
+    to_name: 宍戸
+    time: 8
+    distance: 4.88
+  - from: '1133915'
+    from_name: 宍戸
+    to: '1122913'
+    to_name: 友部
+    time: 3
+    distance: 1.74

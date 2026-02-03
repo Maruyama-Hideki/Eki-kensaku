@@ -1,0 +1,324 @@
+line_code: '11639'
+line_name: きのくに線
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1151041'
+    from_name: 新宮
+    to: '1163902'
+    to_name: 三輪崎
+    time: 7
+    distance: 4.05
+  - from: '1163902'
+    from_name: 三輪崎
+    to: '1163903'
+    to_name: 紀伊佐野
+    time: 3
+    distance: 1.72
+  - from: '1163903'
+    from_name: 紀伊佐野
+    to: '1163904'
+    to_name: 宇久井
+    time: 3
+    distance: 1.91
+  - from: '1163904'
+    from_name: 宇久井
+    to: '1163905'
+    to_name: 那智
+    time: 6
+    distance: 3.92
+  - from: '1163905'
+    from_name: 那智
+    to: '1163906'
+    to_name: 紀伊天満
+    time: 2
+    distance: 0.82
+  - from: '1163906'
+    from_name: 紀伊天満
+    to: '1163907'
+    to_name: 紀伊勝浦
+    time: 2
+    distance: 1.17
+  - from: '1163907'
+    from_name: 紀伊勝浦
+    to: '1163908'
+    to_name: 湯川
+    time: 4
+    distance: 2.58
+  - from: '1163908'
+    from_name: 湯川
+    to: '1163909'
+    to_name: 太地
+    time: 4
+    distance: 2.04
+  - from: '1163909'
+    from_name: 太地
+    to: '1163910'
+    to_name: 下里
+    time: 2
+    distance: 1.14
+  - from: '1163910'
+    from_name: 下里
+    to: '1163911'
+    to_name: 紀伊浦神
+    time: 6
+    distance: 3.55
+  - from: '1163911'
+    from_name: 紀伊浦神
+    to: '1163912'
+    to_name: 紀伊田原
+    time: 6
+    distance: 3.58
+  - from: '1163912'
+    from_name: 紀伊田原
+    to: '1163913'
+    to_name: 古座
+    time: 8
+    distance: 4.82
+  - from: '1163913'
+    from_name: 古座
+    to: '1163914'
+    to_name: 紀伊姫
+    time: 5
+    distance: 3.27
+  - from: '1163914'
+    from_name: 紀伊姫
+    to: '1163915'
+    to_name: 串本
+    time: 5
+    distance: 2.79
+  - from: '1163915'
+    from_name: 串本
+    to: '1163916'
+    to_name: 紀伊有田
+    time: 7
+    distance: 4.54
+  - from: '1163916'
+    from_name: 紀伊有田
+    to: '1163917'
+    to_name: 田並
+    time: 3
+    distance: 1.62
+  - from: '1163917'
+    from_name: 田並
+    to: '1163918'
+    to_name: 田子
+    time: 6
+    distance: 3.86
+  - from: '1163918'
+    from_name: 田子
+    to: '1163919'
+    to_name: 和深
+    time: 4
+    distance: 2.42
+  - from: '1163919'
+    from_name: 和深
+    to: '1163920'
+    to_name: 江住
+    time: 8
+    distance: 4.88
+  - from: '1163920'
+    from_name: 江住
+    to: '1163921'
+    to_name: 見老津
+    time: 4
+    distance: 2.65
+  - from: '1163921'
+    from_name: 見老津
+    to: '1163922'
+    to_name: 周参見
+    time: 13
+    distance: 8.17
+  - from: '1163922'
+    from_name: 周参見
+    to: '1163923'
+    to_name: 紀伊日置
+    time: 9
+    distance: 5.49
+  - from: '1163923'
+    from_name: 紀伊日置
+    to: '1163924'
+    to_name: 椿
+    time: 9
+    distance: 5.74
+  - from: '1163924'
+    from_name: 椿
+    to: '1163925'
+    to_name: 紀伊富田
+    time: 8
+    distance: 4.86
+  - from: '1163925'
+    from_name: 紀伊富田
+    to: '1163926'
+    to_name: 白浜
+    time: 5
+    distance: 2.67
+  - from: '1163926'
+    from_name: 白浜
+    to: '1163927'
+    to_name: 朝来
+    time: 6
+    distance: 3.61
+  - from: '1163927'
+    from_name: 朝来
+    to: '1163928'
+    to_name: 紀伊新庄
+    time: 5
+    distance: 3.04
+  - from: '1163928'
+    from_name: 紀伊新庄
+    to: '1163929'
+    to_name: 紀伊田辺
+    time: 4
+    distance: 2.23
+  - from: '1163929'
+    from_name: 紀伊田辺
+    to: '1163930'
+    to_name: 芳養
+    time: 5
+    distance: 3.02
+  - from: '1163930'
+    from_name: 芳養
+    to: '1163931'
+    to_name: 南部
+    time: 6
+    distance: 3.65
+  - from: '1163931'
+    from_name: 南部
+    to: '1163932'
+    to_name: 岩代
+    time: 7
+    distance: 4.37
+  - from: '1163932'
+    from_name: 岩代
+    to: '1163933'
+    to_name: 切目
+    time: 6
+    distance: 3.99
+  - from: '1163933'
+    from_name: 切目
+    to: '1163934'
+    to_name: 印南
+    time: 5
+    distance: 3.12
+  - from: '1163934'
+    from_name: 印南
+    to: '1163935'
+    to_name: 稲原
+    time: 6
+    distance: 3.91
+  - from: '1163935'
+    from_name: 稲原
+    to: '1163936'
+    to_name: 和佐
+    time: 9
+    distance: 5.35
+  - from: '1163936'
+    from_name: 和佐
+    to: '1163937'
+    to_name: 道成寺
+    time: 5
+    distance: 3.26
+  - from: '1163937'
+    from_name: 道成寺
+    to: '1163938'
+    to_name: 御坊
+    time: 3
+    distance: 1.61
+  - from: '1163938'
+    from_name: 御坊
+    to: '1163939'
+    to_name: 紀伊内原
+    time: 4
+    distance: 2.36
+  - from: '1163939'
+    from_name: 紀伊内原
+    to: '1163940'
+    to_name: 紀伊由良
+    time: 8
+    distance: 5.05
+  - from: '1163940'
+    from_name: 紀伊由良
+    to: '1163941'
+    to_name: 広川ビーチ
+    time: 9
+    distance: 5.88
+  - from: '1163941'
+    from_name: 広川ビーチ
+    to: '1163942'
+    to_name: 湯浅
+    time: 4
+    distance: 2.62
+  - from: '1163942'
+    from_name: 湯浅
+    to: '1163943'
+    to_name: 藤並
+    time: 5
+    distance: 3.25
+  - from: '1163943'
+    from_name: 藤並
+    to: '1163944'
+    to_name: 紀伊宮原
+    time: 6
+    distance: 3.35
+  - from: '1163944'
+    from_name: 紀伊宮原
+    to: '1163945'
+    to_name: 箕島
+    time: 7
+    distance: 4.32
+  - from: '1163945'
+    from_name: 箕島
+    to: '1163946'
+    to_name: 初島
+    time: 3
+    distance: 1.74
+  - from: '1163946'
+    from_name: 初島
+    to: '1163947'
+    to_name: 下津
+    time: 5
+    distance: 2.93
+  - from: '1163947'
+    from_name: 下津
+    to: '1163948'
+    to_name: 加茂郷
+    time: 4
+    distance: 2.31
+  - from: '1163948'
+    from_name: 加茂郷
+    to: '1163949'
+    to_name: 冷水浦
+    time: 6
+    distance: 3.56
+  - from: '1163949'
+    from_name: 冷水浦
+    to: '1163950'
+    to_name: 海南
+    time: 4
+    distance: 2.4
+  - from: '1163950'
+    from_name: 海南
+    to: '1163951'
+    to_name: 黒江
+    time: 3
+    distance: 1.83
+  - from: '1163951'
+    from_name: 黒江
+    to: '1163952'
+    to_name: 紀三井寺
+    time: 5
+    distance: 2.82
+  - from: '1163952'
+    from_name: 紀三井寺
+    to: '1163953'
+    to_name: 宮前
+    time: 5
+    distance: 2.86
+  - from: '1163953'
+    from_name: 宮前
+    to: '1162635'
+    to_name: 和歌山
+    time: 4
+    distance: 2.13

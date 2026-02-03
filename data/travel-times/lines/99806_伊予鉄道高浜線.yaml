@@ -1,0 +1,60 @@
+line_code: '99806'
+line_name: 伊予鉄道高浜線
+company: 伊予鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9980601'
+    from_name: 高浜
+    to: '9980602'
+    to_name: 梅津寺
+    time: 2
+    distance: 1.1
+  - from: '9980602'
+    from_name: 梅津寺
+    to: '9980603'
+    to_name: 港山
+    time: 2
+    distance: 0.78
+  - from: '9980603'
+    from_name: 港山
+    to: '9980604'
+    to_name: 三津
+    time: 2
+    distance: 0.88
+  - from: '9980604'
+    from_name: 三津
+    to: '9980605'
+    to_name: 山西
+    time: 2
+    distance: 1.03
+  - from: '9980605'
+    from_name: 山西
+    to: '9980606'
+    to_name: 西衣山
+    time: 2
+    distance: 1.06
+  - from: '9980606'
+    from_name: 西衣山
+    to: '9980607'
+    to_name: 衣山
+    time: 2
+    distance: 0.95
+  - from: '9980607'
+    from_name: 衣山
+    to: '9980608'
+    to_name: 古町
+    time: 2
+    distance: 1.17
+  - from: '9980608'
+    from_name: 古町
+    to: '9980609'
+    to_name: 大手町
+    time: 2
+    distance: 0.81
+  - from: '9980609'
+    from_name: 大手町
+    to: '9980501'
+    to_name: 松山市
+    time: 2
+    distance: 0.78

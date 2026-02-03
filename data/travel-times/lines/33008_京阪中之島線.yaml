@@ -1,0 +1,30 @@
+line_code: '33008'
+line_name: 京阪中之島線
+company: 京阪電鉄
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '3300138'
+    from_name: 天満橋
+    to: '3300139'
+    to_name: 北浜
+    time: 2
+    distance: 0.91
+  - from: '3300139'
+    from_name: 北浜
+    to: '3300140'
+    to_name: 淀屋橋
+    time: 2
+    distance: 0.48
+  - from: '3300140'
+    from_name: 淀屋橋
+    to: '3300804'
+    to_name: 渡辺橋
+    time: 2
+    distance: 0.59
+  - from: '3300804'
+    from_name: 渡辺橋
+    to: '3300805'
+    to_name: 中之島
+    time: 2
+    distance: 0.78

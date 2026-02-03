@@ -1,0 +1,30 @@
+line_code: '11403'
+line_name: JR信越本線(篠ノ井～長野)
+company: JR東日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1140301'
+    from_name: 篠ノ井
+    to: '1140302'
+    to_name: 今井
+    time: 4
+    distance: 2.17
+  - from: '1140302'
+    from_name: 今井
+    to: '1140303'
+    to_name: 川中島
+    time: 4
+    distance: 2.1
+  - from: '1140303'
+    from_name: 川中島
+    to: '1140304'
+    to_name: 安茂里
+    time: 4
+    distance: 2.05
+  - from: '1140304'
+    from_name: 安茂里
+    to: '1140305'
+    to_name: 長野
+    time: 5
+    distance: 2.84

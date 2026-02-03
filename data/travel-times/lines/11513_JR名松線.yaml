@@ -1,0 +1,90 @@
+line_code: '11513'
+line_name: JR名松線
+company: JR東海
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1151008'
+    from_name: 松阪
+    to: '1151302'
+    to_name: 上ノ庄
+    time: 7
+    distance: 4.07
+  - from: '1151302'
+    from_name: 上ノ庄
+    to: '1151303'
+    to_name: 権現前
+    time: 5
+    distance: 2.69
+  - from: '1151303'
+    from_name: 権現前
+    to: '1151304'
+    to_name: 伊勢八太
+    time: 7
+    distance: 4.63
+  - from: '1151304'
+    from_name: 伊勢八太
+    to: '1151305'
+    to_name: 一志
+    time: 2
+    distance: 1.29
+  - from: '1151305'
+    from_name: 一志
+    to: '1151306'
+    to_name: 井関
+    time: 4
+    distance: 2.55
+  - from: '1151306'
+    from_name: 井関
+    to: '1151307'
+    to_name: 伊勢大井
+    time: 4
+    distance: 2.65
+  - from: '1151307'
+    from_name: 伊勢大井
+    to: '1151308'
+    to_name: 伊勢川口
+    time: 4
+    distance: 2.6
+  - from: '1151308'
+    from_name: 伊勢川口
+    to: '1151309'
+    to_name: 関ノ宮
+    time: 3
+    distance: 1.92
+  - from: '1151309'
+    from_name: 関ノ宮
+    to: '1151310'
+    to_name: 家城
+    time: 4
+    distance: 2.29
+  - from: '1151310'
+    from_name: 家城
+    to: '1151311'
+    to_name: 伊勢竹原
+    time: 5
+    distance: 3.04
+  - from: '1151311'
+    from_name: 伊勢竹原
+    to: '1151312'
+    to_name: 伊勢鎌倉
+    time: 7
+    distance: 4.02
+  - from: '1151312'
+    from_name: 伊勢鎌倉
+    to: '1151313'
+    to_name: 伊勢八知
+    time: 4
+    distance: 2.46
+  - from: '1151313'
+    from_name: 伊勢八知
+    to: '1151314'
+    to_name: 比津
+    time: 5
+    distance: 2.67
+  - from: '1151314'
+    from_name: 比津
+    to: '1151315'
+    to_name: 伊勢奥津
+    time: 4
+    distance: 2.41

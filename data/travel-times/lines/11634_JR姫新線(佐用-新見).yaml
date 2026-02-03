@@ -1,0 +1,150 @@
+line_code: '11634'
+line_name: JR姫新線(佐用～新見)
+company: JR西日本
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1163312'
+    from_name: 佐用
+    to: '1163402'
+    to_name: 上月
+    time: 6
+    distance: 3.82
+  - from: '1163402'
+    from_name: 上月
+    to: '1163403'
+    to_name: 美作土居
+    time: 9
+    distance: 5.85
+  - from: '1163403'
+    from_name: 美作土居
+    to: '1163404'
+    to_name: 美作江見
+    time: 7
+    distance: 4.19
+  - from: '1163404'
+    from_name: 美作江見
+    to: '1163405'
+    to_name: 楢原
+    time: 5
+    distance: 2.86
+  - from: '1163405'
+    from_name: 楢原
+    to: '1163406'
+    to_name: 林野
+    time: 6
+    distance: 3.52
+  - from: '1163406'
+    from_name: 林野
+    to: '1163407'
+    to_name: 勝間田
+    time: 6
+    distance: 3.83
+  - from: '1163407'
+    from_name: 勝間田
+    to: '1163408'
+    to_name: 西勝間田
+    time: 5
+    distance: 2.83
+  - from: '1163408'
+    from_name: 西勝間田
+    to: '1163409'
+    to_name: 美作大崎
+    time: 4
+    distance: 2.02
+  - from: '1163409'
+    from_name: 美作大崎
+    to: '1163410'
+    to_name: 東津山
+    time: 6
+    distance: 3.55
+  - from: '1163410'
+    from_name: 東津山
+    to: '1163411'
+    to_name: 津山
+    time: 4
+    distance: 2.62
+  - from: '1163411'
+    from_name: 津山
+    to: '1163412'
+    to_name: 院庄
+    time: 7
+    distance: 4.2
+  - from: '1163412'
+    from_name: 院庄
+    to: '1163413'
+    to_name: 美作千代
+    time: 8
+    distance: 4.68
+  - from: '1163413'
+    from_name: 美作千代
+    to: '1163414'
+    to_name: 坪井
+    time: 4
+    distance: 2.66
+  - from: '1163414'
+    from_name: 坪井
+    to: '1163415'
+    to_name: 美作追分
+    time: 8
+    distance: 5.22
+  - from: '1163415'
+    from_name: 美作追分
+    to: '1163416'
+    to_name: 美作落合
+    time: 11
+    distance: 6.78
+  - from: '1163416'
+    from_name: 美作落合
+    to: '1163417'
+    to_name: 古見
+    time: 5
+    distance: 2.9
+  - from: '1163417'
+    from_name: 古見
+    to: '1163418'
+    to_name: 久世
+    time: 6
+    distance: 3.8
+  - from: '1163418'
+    from_name: 久世
+    to: '1163419'
+    to_name: 中国勝山
+    time: 7
+    distance: 4.59
+  - from: '1163419'
+    from_name: 中国勝山
+    to: '1163420'
+    to_name: 月田
+    time: 7
+    distance: 4.4
+  - from: '1163420'
+    from_name: 月田
+    to: '1163421'
+    to_name: 富原
+    time: 8
+    distance: 5
+  - from: '1163421'
+    from_name: 富原
+    to: '1163422'
+    to_name: 刑部
+    time: 8
+    distance: 4.86
+  - from: '1163422'
+    from_name: 刑部
+    to: '1163423'
+    to_name: 丹治部
+    time: 6
+    distance: 3.51
+  - from: '1163423'
+    from_name: 丹治部
+    to: '1163424'
+    to_name: 岩山
+    time: 7
+    distance: 4.58
+  - from: '1163424'
+    from_name: 岩山
+    to: '1163425'
+    to_name: 新見
+    time: 10
+    distance: 6.44

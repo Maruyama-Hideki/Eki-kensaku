@@ -1,0 +1,222 @@
+line_code: '11913'
+line_name: ゆふ高原線
+company: JR九州
+type: 在来線
+default_speed: 40
+segments:
+  - from: '1190318'
+    from_name: 久留米
+    to: '1191337'
+    to_name: 久留米高校前
+    time: 5
+    distance: 2.79
+  - from: '1191302'
+    from_name: 南久留米
+    to: '1191303'
+    to_name: 久留米大学前
+    time: 3
+    distance: 1.79
+  - from: '1191303'
+    from_name: 久留米大学前
+    to: '1191304'
+    to_name: 御井
+    time: 2
+    distance: 1.27
+  - from: '1191304'
+    from_name: 御井
+    to: '1191305'
+    to_name: 善導寺
+    time: 7
+    distance: 4.4
+  - from: '1191305'
+    from_name: 善導寺
+    to: '1191306'
+    to_name: 筑後草野
+    time: 5
+    distance: 3.1
+  - from: '1191306'
+    from_name: 筑後草野
+    to: '1191307'
+    to_name: 田主丸
+    time: 8
+    distance: 5.03
+  - from: '1191307'
+    from_name: 田主丸
+    to: '1191308'
+    to_name: 筑後吉井
+    time: 9
+    distance: 5.56
+  - from: '1191308'
+    from_name: 筑後吉井
+    to: '1191309'
+    to_name: うきは
+    time: 6
+    distance: 3.49
+  - from: '1191309'
+    from_name: うきは
+    to: '1191310'
+    to_name: 筑後大石
+    time: 5
+    distance: 2.91
+  - from: '1191310'
+    from_name: 筑後大石
+    to: '1191311'
+    to_name: 夜明
+    time: 9
+    distance: 5.52
+  - from: '1191311'
+    from_name: 夜明
+    to: '1191312'
+    to_name: 光岡
+    time: 8
+    distance: 5.07
+  - from: '1191312'
+    from_name: 光岡
+    to: '1191313'
+    to_name: 日田
+    time: 4
+    distance: 2.12
+  - from: '1191313'
+    from_name: 日田
+    to: '1191314'
+    to_name: 豊後三芳
+    time: 3
+    distance: 1.72
+  - from: '1191314'
+    from_name: 豊後三芳
+    to: '1191315'
+    to_name: 豊後中川
+    time: 9
+    distance: 5.57
+  - from: '1191315'
+    from_name: 豊後中川
+    to: '1191316'
+    to_name: 天ケ瀬
+    time: 6
+    distance: 3.71
+  - from: '1191316'
+    from_name: 天ケ瀬
+    to: '1191317'
+    to_name: 杉河内
+    time: 7
+    distance: 4.02
+  - from: '1191317'
+    from_name: 杉河内
+    to: '1191318'
+    to_name: 北山田
+    time: 6
+    distance: 3.83
+  - from: '1191318'
+    from_name: 北山田
+    to: '1191319'
+    to_name: 豊後森
+    time: 8
+    distance: 5.05
+  - from: '1191319'
+    from_name: 豊後森
+    to: '1191320'
+    to_name: 恵良
+    time: 6
+    distance: 3.57
+  - from: '1191320'
+    from_name: 恵良
+    to: '1191321'
+    to_name: 引治
+    time: 5
+    distance: 3.01
+  - from: '1191321'
+    from_name: 引治
+    to: '1191322'
+    to_name: 豊後中村
+    time: 4
+    distance: 2.26
+  - from: '1191322'
+    from_name: 豊後中村
+    to: '1191323'
+    to_name: 野矢
+    time: 7
+    distance: 4.42
+  - from: '1191323'
+    from_name: 野矢
+    to: '1191324'
+    to_name: 由布院
+    time: 15
+    distance: 9.9
+  - from: '1191324'
+    from_name: 由布院
+    to: '1191325'
+    to_name: 南由布
+    time: 5
+    distance: 3.03
+  - from: '1191325'
+    from_name: 南由布
+    to: '1191326'
+    to_name: 湯平
+    time: 9
+    distance: 5.34
+  - from: '1191326'
+    from_name: 湯平
+    to: '1191327'
+    to_name: 庄内
+    time: 7
+    distance: 4.64
+  - from: '1191327'
+    from_name: 庄内
+    to: '1191328'
+    to_name: 天神山
+    time: 6
+    distance: 3.43
+  - from: '1191328'
+    from_name: 天神山
+    to: '1191329'
+    to_name: 小野屋
+    time: 2
+    distance: 1.29
+  - from: '1191329'
+    from_name: 小野屋
+    to: '1191330'
+    to_name: 鬼瀬
+    time: 5
+    distance: 3.29
+  - from: '1191330'
+    from_name: 鬼瀬
+    to: '1191331'
+    to_name: 向之原
+    time: 4
+    distance: 2.65
+  - from: '1191331'
+    from_name: 向之原
+    to: '1191332'
+    to_name: 豊後国分
+    time: 6
+    distance: 3.46
+  - from: '1191332'
+    from_name: 豊後国分
+    to: '1191333'
+    to_name: 賀来
+    time: 4
+    distance: 2.26
+  - from: '1191333'
+    from_name: 賀来
+    to: '1191334'
+    to_name: 南大分
+    time: 4
+    distance: 2.19
+  - from: '1191334'
+    from_name: 南大分
+    to: '1191335'
+    to_name: 古国府
+    time: 4
+    distance: 2.2
+  - from: '1191335'
+    from_name: 古国府
+    to: '1190643'
+    to_name: 大分
+    time: 3
+    distance: 1.35
+  - from: '1191337'
+    from_name: 久留米高校前
+    to: '1191302'
+    to_name: 南久留米
+    time: 3
+    distance: 1.49

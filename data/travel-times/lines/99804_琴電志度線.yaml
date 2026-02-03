@@ -1,0 +1,96 @@
+line_code: '99804'
+line_name: 琴電志度線
+company: 高松琴平電気鉄道
+type: 私鉄
+default_speed: 40
+segments:
+  - from: '9980203'
+    from_name: 瓦町
+    to: '9980402'
+    to_name: 今橋
+    time: 2
+    distance: 0.65
+  - from: '9980402'
+    from_name: 今橋
+    to: '9980403'
+    to_name: 松島二丁目
+    time: 2
+    distance: 0.56
+  - from: '9980403'
+    from_name: 松島二丁目
+    to: '9980404'
+    to_name: 沖松島
+    time: 2
+    distance: 0.71
+  - from: '9980404'
+    from_name: 沖松島
+    to: '9980405'
+    to_name: 春日川
+    time: 2
+    distance: 1.04
+  - from: '9980405'
+    from_name: 春日川
+    to: '9980406'
+    to_name: 潟元
+    time: 3
+    distance: 1.35
+  - from: '9980406'
+    from_name: 潟元
+    to: '9980407'
+    to_name: 琴電屋島
+    time: 2
+    distance: 0.69
+  - from: '9980407'
+    from_name: 琴電屋島
+    to: '9980408'
+    to_name: 古高松
+    time: 2
+    distance: 0.62
+  - from: '9980408'
+    from_name: 古高松
+    to: '9980409'
+    to_name: 八栗
+    time: 2
+    distance: 1.01
+  - from: '9980409'
+    from_name: 八栗
+    to: '9980410'
+    to_name: 六万寺
+    time: 2
+    distance: 1.09
+  - from: '9980410'
+    from_name: 六万寺
+    to: '9980411'
+    to_name: 大町
+    time: 2
+    distance: 0.89
+  - from: '9980411'
+    from_name: 大町
+    to: '1180209'
+    to_name: 讃岐牟礼
+    time: 2
+    distance: 0.58
+  - from: '1180209'
+    from_name: 讃岐牟礼
+    to: '9980413'
+    to_name: 塩屋
+    time: 2
+    distance: 0.7
+  - from: '9980413'
+    from_name: 塩屋
+    to: '9980414'
+    to_name: 房前
+    time: 2
+    distance: 0.47
+  - from: '9980414'
+    from_name: 房前
+    to: '9980415'
+    to_name: 原
+    time: 2
+    distance: 0.81
+  - from: '9980415'
+    from_name: 原
+    to: '1180210'
+    to_name: 志度
+    time: 2
+    distance: 1.03

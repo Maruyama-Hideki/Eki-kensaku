@@ -1,0 +1,96 @@
+line_code: '99907'
+line_name: 福岡市営地下鉄七隈線
+company: 福岡市交通局
+type: 地下鉄
+default_speed: 35
+segments:
+  - from: '9990701'
+    from_name: 橋本
+    to: '9990702'
+    to_name: 次郎丸
+    time: 2
+    distance: 0.84
+  - from: '9990702'
+    from_name: 次郎丸
+    to: '9990703'
+    to_name: 賀茂
+    time: 2
+    distance: 0.8
+  - from: '9990703'
+    from_name: 賀茂
+    to: '9990704'
+    to_name: 野芥
+    time: 2
+    distance: 0.89
+  - from: '9990704'
+    from_name: 野芥
+    to: '9990705'
+    to_name: 梅林
+    time: 2
+    distance: 0.78
+  - from: '9990705'
+    from_name: 梅林
+    to: '9990706'
+    to_name: 福大前
+    time: 2
+    distance: 0.7
+  - from: '9990706'
+    from_name: 福大前
+    to: '9990707'
+    to_name: 七隈
+    time: 2
+    distance: 0.6
+  - from: '9990707'
+    from_name: 七隈
+    to: '9990708'
+    to_name: 金山
+    time: 2
+    distance: 0.73
+  - from: '9990708'
+    from_name: 金山
+    to: '9990709'
+    to_name: 茶山
+    time: 2
+    distance: 0.83
+  - from: '9990709'
+    from_name: 茶山
+    to: '9990710'
+    to_name: 別府
+    time: 2
+    distance: 0.98
+  - from: '9990710'
+    from_name: 別府
+    to: '9990711'
+    to_name: 六本松
+    time: 2
+    distance: 0.81
+  - from: '9990711'
+    from_name: 六本松
+    to: '9990712'
+    to_name: 桜坂
+    time: 2
+    distance: 0.88
+  - from: '9990712'
+    from_name: 桜坂
+    to: '9990713'
+    to_name: 薬院大通
+    time: 2
+    distance: 0.93
+  - from: '9990713'
+    from_name: 薬院大通
+    to: '3600102'
+    to_name: 薬院
+    time: 2
+    distance: 0.54
+  - from: '3600102'
+    from_name: 薬院
+    to: '9990715'
+    to_name: 渡辺通
+    time: 2
+    distance: 0.37
+  - from: '9990715'
+    from_name: 渡辺通
+    to: '9990716'
+    to_name: 天神南
+    time: 2
+    distance: 0.55
