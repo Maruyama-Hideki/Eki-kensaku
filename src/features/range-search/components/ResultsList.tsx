@@ -12,6 +12,8 @@ interface ResultsListProps {
   originStations?: Station[];
   timeMinutes?: number;
   mode?: 'or' | 'and';
+  selectedStationCode?: string | null;
+  onStationClick?: (stationCode: string) => void;
 }
 
 export function ResultsList({
@@ -22,6 +24,8 @@ export function ResultsList({
   originStations = [],
   timeMinutes,
   mode,
+  selectedStationCode,
+  onStationClick,
 }: ResultsListProps) {
   if (isLoading) {
     return (
@@ -107,6 +111,8 @@ export function ResultsList({
                 key={result.station.code}
                 result={result}
                 originCodesMap={originCodesMap}
+                isSelected={selectedStationCode === result.station.code}
+                onStationClick={onStationClick}
               />
             ))}
           </div>
@@ -119,16 +125,31 @@ export function ResultsList({
 interface StationCardProps {
   result: SearchResult;
   originCodesMap: Map<string, string>;
+  isSelected?: boolean;
+  onStationClick?: (stationCode: string) => void;
 }
 
-function StationCard({ result, originCodesMap }: StationCardProps) {
+function StationCard({ result, originCodesMap, isSelected, onStationClick }: StationCardProps) {
   const { station, totalTime, timesFromOrigins } = result;
 
+  const handleClick = () => {
+    onStationClick?.(station.code);
+  };
+
   return (
-    <div className="border rounded-lg p-4 hover:bg-muted/50 transition-colors">
+    <div
+      className={`border rounded-lg p-4 transition-colors cursor-pointer ${
+        isSelected
+          ? 'bg-primary/10 border-primary ring-2 ring-primary/30'
+          : 'hover:bg-muted/50'
+      }`}
+      onClick={handleClick}
+    >
       <div className="flex items-start justify-between">
         <div>
-          <h3 className="font-semibold text-lg">{station.name}</h3>
+          <h3 className={`font-semibold text-lg ${isSelected ? 'text-primary' : ''}`}>
+            {station.name}
+          </h3>
           <div className="flex flex-wrap gap-1 mt-1">
             {station.lines.slice(0, 5).map((line) => (
               <Badge key={line.code} variant="outline" className="text-xs">

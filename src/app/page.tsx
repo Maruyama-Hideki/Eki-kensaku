@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { SearchPanel, ResultsList, useRangeSearch, useStations } from '@/features/range-search';
+import { SearchPanel, ResultsList, StationMapWrapper, useRangeSearch, useStations } from '@/features/range-search';
 import type { Station } from '@/types/station';
 
 export default function Home() {
@@ -12,6 +12,7 @@ export default function Home() {
     timeMinutes: number;
     mode: 'or' | 'and';
   } | null>(null);
+  const [selectedStationCode, setSelectedStationCode] = useState<string | null>(null);
 
   const handleSearch = (origins: string[], timeMinutes: number, mode: 'or' | 'and') => {
     // 選択された起点駅を保存（結果表示用）
@@ -24,7 +25,15 @@ export default function Home() {
     // 検索条件を保存
     setSearchParams({ timeMinutes, mode });
 
+    // 選択駅をリセット
+    setSelectedStationCode(null);
+
     search(origins, timeMinutes, mode);
+  };
+
+  const handleStationClick = (stationCode: string) => {
+    // 同じ駅をクリックしたら選択解除、違う駅なら選択
+    setSelectedStationCode((prev) => (prev === stationCode ? null : stationCode));
   };
 
   return (
@@ -55,9 +64,26 @@ export default function Home() {
               originStations={selectedOrigins}
               timeMinutes={searchParams?.timeMinutes}
               mode={searchParams?.mode}
+              selectedStationCode={selectedStationCode}
+              onStationClick={handleStationClick}
             />
           </div>
         </div>
+
+        {/* 地図表示 */}
+        {results.length > 0 && searchParams && (
+          <div className="mt-6">
+            <h2 className="text-lg font-semibold mb-3">検索結果マップ</h2>
+            <div className="relative">
+              <StationMapWrapper
+                results={results}
+                originStations={selectedOrigins}
+                maxTime={searchParams.timeMinutes}
+                selectedStationCode={selectedStationCode}
+              />
+            </div>
+          </div>
+        )}
       </main>
     </div>
   );
