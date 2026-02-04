@@ -123,7 +123,7 @@ function MapController({
     }
   }, [origins, results, map]);
 
-  // 選択駅が変わったらその駅にパン
+  // 選択駅が変わったら出発点と目的駅が全て収まる範囲にズーム
   useEffect(() => {
     if (!selectedStationCode) return;
 
@@ -131,13 +131,18 @@ function MapController({
       (r) => r.station.code === selectedStationCode
     );
     if (selectedResult) {
-      map.setView(
+      // 出発点と目的駅の座標を集める
+      const points: [number, number][] = [
+        ...origins.map((s) => [s.lat, s.lon] as [number, number]),
         [selectedResult.station.lat, selectedResult.station.lon],
-        14,
-        { animate: true }
-      );
+      ];
+
+      if (points.length > 0) {
+        const bounds = L.latLngBounds(points);
+        map.fitBounds(bounds, { padding: [50, 50], animate: true });
+      }
     }
-  }, [selectedStationCode, results, map]);
+  }, [selectedStationCode, results, origins, map]);
 
   return null;
 }
