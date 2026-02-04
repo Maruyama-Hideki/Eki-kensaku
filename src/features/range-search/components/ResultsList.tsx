@@ -1,13 +1,28 @@
 'use client';
 
-import { useMemo } from 'react';
+import { useMemo, useState, useEffect } from 'react';
 import { ArrowUpDown } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import type { SearchResult, Station } from '@/types/station';
+import type { SearchResult, Station, RouteStep } from '@/types/station';
 
 export type SortOrder = 'asc' | 'desc';
+
+// 結果から最後に乗る路線を取得
+function getLastLine(result: SearchResult): string | null {
+  if (!result.routesFromOrigins) return null;
+
+  // 最短経路の最後の路線を取得
+  const routes = Object.values(result.routesFromOrigins);
+  if (routes.length === 0) return null;
+
+  // 最初の起点からの経路を使用（最短のもの）
+  const firstRoute = routes[0];
+  if (!firstRoute || firstRoute.length === 0) return null;
+
+  return firstRoute[firstRoute.length - 1].line;
+}
 
 interface ResultsListProps {
   results: SearchResult[];
@@ -36,13 +51,50 @@ export function ResultsList({
   sortOrder = 'asc',
   onSortToggle,
 }: ResultsListProps) {
-  // ソート済みの結果
-  const sortedResults = useMemo(() => {
-    if (sortOrder === 'asc') {
-      return [...results].sort((a, b) => a.totalTime - b.totalTime);
+  const [selectedLine, setSelectedLine] = useState<string | null>(null);
+
+  // 検索結果が変わったら路線フィルターをリセット
+  useEffect(() => {
+    setSelectedLine(null);
+  }, [results]);
+
+  // 路線ごとの駅数を集計（降順でソート）
+  const lineStats = useMemo(() => {
+    const lineCounts = new Map<string, number>();
+
+    for (const result of results) {
+      const lastLine = getLastLine(result);
+      if (lastLine) {
+        lineCounts.set(lastLine, (lineCounts.get(lastLine) || 0) + 1);
+      }
     }
-    return [...results].sort((a, b) => b.totalTime - a.totalTime);
-  }, [results, sortOrder]);
+
+    // 駅数の降順でソート
+    return Array.from(lineCounts.entries())
+      .sort((a, b) => b[1] - a[1])
+      .map(([line, count]) => ({ line, count }));
+  }, [results]);
+
+  // フィルタリングとソート
+  const sortedResults = useMemo(() => {
+    let filtered = results;
+
+    // 路線でフィルタリング
+    if (selectedLine) {
+      filtered = results.filter((result) => getLastLine(result) === selectedLine);
+    }
+
+    // 時間でソート
+    if (sortOrder === 'asc') {
+      return [...filtered].sort((a, b) => a.totalTime - b.totalTime);
+    }
+    return [...filtered].sort((a, b) => b.totalTime - a.totalTime);
+  }, [results, sortOrder, selectedLine]);
+
+  // 路線フィルターをリセット
+  const handleLineClick = (line: string) => {
+    setSelectedLine((prev) => (prev === line ? null : line));
+  };
   if (isLoading) {
     return (
       <Card>
@@ -103,7 +155,14 @@ export function ResultsList({
     <Card>
       <CardHeader>
         <div className="flex items-center justify-between">
-          <CardTitle>検索結果 ({count}件)</CardTitle>
+          <CardTitle>
+            検索結果 ({selectedLine ? `${sortedResults.length}/${count}` : count}件)
+            {selectedLine && (
+              <span className="text-sm font-normal text-muted-foreground ml-2">
+                - {selectedLine}
+              </span>
+            )}
+          </CardTitle>
           {results.length > 0 && onSortToggle && (
             <Button
               variant="ghost"
@@ -128,6 +187,35 @@ export function ResultsList({
             <span className="font-medium text-foreground mx-1">{timeMinutes}分</span>
             以内
           </p>
+        )}
+        {/* 路線フィルター */}
+        {lineStats.length > 0 && (
+          <div className="mt-3">
+            <p className="text-xs text-muted-foreground mb-2">到着路線で絞り込み:</p>
+            <div className="flex flex-wrap gap-1">
+              <Button
+                variant={selectedLine === null ? 'default' : 'outline'}
+                size="sm"
+                onClick={() => setSelectedLine(null)}
+                className="text-xs h-7 px-2"
+              >
+                すべて
+                <span className="ml-1 text-muted-foreground">({count})</span>
+              </Button>
+              {lineStats.map(({ line, count: lineCount }) => (
+                <Button
+                  key={line}
+                  variant={selectedLine === line ? 'default' : 'outline'}
+                  size="sm"
+                  onClick={() => handleLineClick(line)}
+                  className="text-xs h-7 px-2"
+                >
+                  {line}
+                  <span className="ml-1 text-muted-foreground">({lineCount})</span>
+                </Button>
+              ))}
+            </div>
+          </div>
         )}
       </CardHeader>
       <CardContent>
