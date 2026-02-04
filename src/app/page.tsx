@@ -3,11 +3,12 @@
 import { useState } from 'react';
 import { SearchPanel, ResultsList, StationMapWrapper, useRangeSearch, useStations } from '@/features/range-search';
 import type { SortOrder } from '@/features/range-search/components/ResultsList';
+import type { OriginGroup } from '@/features/range-search/hooks/useRangeSearch';
 import type { Station } from '@/types/station';
 
 export default function Home() {
   const { data: stationsData } = useStations();
-  const { results, count, isLoading, error, search } = useRangeSearch();
+  const { results, count, isLoading, error, searchWithGroups } = useRangeSearch();
   const [selectedOrigins, setSelectedOrigins] = useState<Station[]>([]);
   const [searchParams, setSearchParams] = useState<{
     timeMinutes: number;
@@ -16,21 +17,23 @@ export default function Home() {
   const [selectedStationCode, setSelectedStationCode] = useState<string | null>(null);
   const [sortOrder, setSortOrder] = useState<SortOrder>('asc');
 
-  const handleSearch = (origins: string[], timeMinutes: number, mode: 'or' | 'and') => {
-    // 選択された起点駅を保存（結果表示用）
+  const handleSearchWithGroups = (groups: OriginGroup[]) => {
+    // 全グループの駅を取得（表示用）
     const stations = stationsData?.stations || [];
-    const originStations = origins
+    const allOriginCodes = groups.flatMap((g) => g.origins);
+    const originStations = allOriginCodes
       .map((code) => stations.find((s) => s.code === code))
       .filter((s): s is Station => s !== undefined);
     setSelectedOrigins(originStations);
 
-    // 検索条件を保存
-    setSearchParams({ timeMinutes, mode });
+    // 検索条件を保存（最大の時間を使用）
+    const maxTime = Math.max(...groups.map((g) => g.timeMinutes));
+    setSearchParams({ timeMinutes: maxTime, mode: groups.length > 1 ? 'and' : 'or' });
 
     // 選択駅をリセット
     setSelectedStationCode(null);
 
-    search(origins, timeMinutes, mode);
+    searchWithGroups(groups);
   };
 
   const handleStationClick = (stationCode: string) => {
@@ -57,7 +60,7 @@ export default function Home() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* 検索パネル */}
           <div className="lg:col-span-1">
-            <SearchPanel onSearch={handleSearch} isLoading={isLoading} />
+            <SearchPanel onSearchWithGroups={handleSearchWithGroups} isLoading={isLoading} />
           </div>
 
           {/* 検索結果 */}

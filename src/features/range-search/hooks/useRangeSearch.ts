@@ -3,6 +3,14 @@
 import { useState, useCallback } from 'react';
 import type { SearchResult, RangeSearchResponse } from '@/types/station';
 
+/**
+ * グループ検索用のパラメータ
+ */
+export interface OriginGroup {
+  origins: string[];
+  timeMinutes: number;
+}
+
 interface UseRangeSearchState {
   results: SearchResult[];
   count: number;
@@ -12,6 +20,7 @@ interface UseRangeSearchState {
 
 interface UseRangeSearchReturn extends UseRangeSearchState {
   search: (origins: string[], timeMinutes: number, mode: 'or' | 'and') => Promise<void>;
+  searchWithGroups: (groups: OriginGroup[]) => Promise<void>;
   reset: () => void;
 }
 
@@ -23,6 +32,7 @@ export function useRangeSearch(): UseRangeSearchReturn {
     error: null,
   });
 
+  // レガシー検索（後方互換性）
   const search = useCallback(
     async (origins: string[], timeMinutes: number, mode: 'or' | 'and') => {
       setState(prev => ({ ...prev, isLoading: true, error: null }));
@@ -57,6 +67,41 @@ export function useRangeSearch(): UseRangeSearchReturn {
     []
   );
 
+  // グループ検索（カード内OR、カード間AND）
+  const searchWithGroups = useCallback(
+    async (groups: OriginGroup[]) => {
+      setState(prev => ({ ...prev, isLoading: true, error: null }));
+
+      try {
+        const response = await fetch('/api/range', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ originGroups: groups }),
+        });
+
+        if (!response.ok) {
+          const errorData = await response.json();
+          throw new Error(errorData.error || '検索に失敗しました');
+        }
+
+        const data: RangeSearchResponse = await response.json();
+        setState({
+          results: data.stations,
+          count: data.count,
+          isLoading: false,
+          error: null,
+        });
+      } catch (err) {
+        setState(prev => ({
+          ...prev,
+          isLoading: false,
+          error: err instanceof Error ? err.message : '不明なエラーが発生しました',
+        }));
+      }
+    },
+    []
+  );
+
   const reset = useCallback(() => {
     setState({
       results: [],
@@ -66,5 +111,5 @@ export function useRangeSearch(): UseRangeSearchReturn {
     });
   }, []);
 
-  return { ...state, search, reset };
+  return { ...state, search, searchWithGroups, reset };
 }

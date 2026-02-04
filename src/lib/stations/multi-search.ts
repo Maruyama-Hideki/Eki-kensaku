@@ -100,6 +100,119 @@ export async function searchMultipleOriginsParallel(
 }
 
 /**
+ * グループ検索パラメータ
+ */
+interface OriginGroup {
+  origins: string[];
+  timeMinutes: number;
+}
+
+/**
+ * グループ検索
+ * 各グループ内はOR検索、グループ間はAND検索
+ *
+ * @param graph グラフ構造
+ * @param stationMap 駅コード -> 駅情報のマップ
+ * @param groups グループごとの検索条件
+ * @returns 検索結果（全グループの条件を満たす駅）
+ */
+export async function searchWithGroups(
+  graph: StationGraph,
+  stationMap: Map<string, Station>,
+  groups: OriginGroup[]
+): Promise<SearchResult[]> {
+  if (groups.length === 0) {
+    return [];
+  }
+
+  // 各グループでOR検索を実行
+  const groupResults: SearchResult[][] = [];
+
+  for (const group of groups) {
+    const results = await searchMultipleOriginsParallel(graph, stationMap, {
+      origins: group.origins,
+      maxTime: group.timeMinutes,
+      mode: 'or',
+    });
+    groupResults.push(results);
+  }
+
+  // グループが1つだけの場合はそのまま返す
+  if (groupResults.length === 1) {
+    return groupResults[0];
+  }
+
+  // 複数グループの結果を交差（AND）
+  // 最初のグループの結果をベースにする
+  const baseResults = groupResults[0];
+  const baseStationCodes = new Set(baseResults.map((r) => r.station.code));
+
+  // 全グループに存在する駅コードを抽出
+  let commonStationCodes = baseStationCodes;
+  for (let i = 1; i < groupResults.length; i++) {
+    const groupStationCodes = new Set(groupResults[i].map((r) => r.station.code));
+    commonStationCodes = new Set(
+      [...commonStationCodes].filter((code) => groupStationCodes.has(code))
+    );
+  }
+
+  // 共通の駅に対して結果をマージ
+  const mergedResults: SearchResult[] = [];
+
+  for (const stationCode of commonStationCodes) {
+    // 各グループからこの駅の結果を取得
+    const resultsForStation: SearchResult[] = [];
+    for (const results of groupResults) {
+      const result = results.find((r) => r.station.code === stationCode);
+      if (result) {
+        resultsForStation.push(result);
+      }
+    }
+
+    if (resultsForStation.length === groupResults.length) {
+      // 全グループから到達可能な駅のみ
+      const station = resultsForStation[0].station;
+
+      // 全グループの時間情報と経路をマージ
+      const mergedTimesFromOrigins: Record<string, number> = {};
+      const mergedRoutesFromOrigins: Record<string, import('@/types/station').RouteStep[]> = {};
+
+      for (const result of resultsForStation) {
+        Object.assign(mergedTimesFromOrigins, result.timesFromOrigins);
+        if (result.routesFromOrigins) {
+          for (const [key, value] of Object.entries(result.routesFromOrigins)) {
+            mergedRoutesFromOrigins[key] = value;
+          }
+        }
+      }
+
+      // 最大時間（全グループの条件を満たすのに必要な時間）
+      const maxTime = Math.max(...resultsForStation.map((r) => r.totalTime));
+
+      mergedResults.push({
+        station,
+        totalTime: maxTime,
+        timesFromOrigins: mergedTimesFromOrigins,
+        routesFromOrigins: Object.keys(mergedRoutesFromOrigins).length > 0
+          ? mergedRoutesFromOrigins
+          : undefined,
+      });
+    }
+  }
+
+  // 全グループの起点駅を除外
+  const allOrigins = new Set(groups.flatMap((g) => g.origins));
+  const filteredResults = mergedResults.filter(
+    (result) => !allOrigins.has(result.station.code)
+  );
+
+  // 所要時間でソート
+  filteredResults.sort((a, b) => a.totalTime - b.totalTime);
+
+  return filteredResults;
+}
+
+/**
  * 検索結果のサマリーを取得
  */
 export function getSearchSummary(results: SearchResult[]): {
