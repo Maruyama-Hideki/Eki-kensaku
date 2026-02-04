@@ -67,11 +67,11 @@ segments:
   - from: '1130207'
     from_name: 代々木
     to: '1131312'
-    to_name: 千駄ケ谷
+    to_name: 千駄ヶ谷
     time: 2
     distance: 0.89
   - from: '1131312'
-    from_name: 千駄ケ谷
+    from_name: 千駄ヶ谷
     to: '1131313'
     to_name: 信濃町
     time: 2
