@@ -64,6 +64,8 @@ export type StationGraph = Map<string, GraphEdge[]>;
  * 経路の1ステップ
  */
 export interface RouteStep {
+  fromCode: string;  // 出発駅コード
+  toCode: string;    // 到着駅コード
   from: string;      // 出発駅名
   to: string;        // 到着駅名
   line: string;      // 路線名

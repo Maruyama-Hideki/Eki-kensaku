@@ -222,6 +222,8 @@ export function searchReachableStations(
 
       if (fromStation && toStation && info.lineCode) {
         route.unshift({
+          fromCode: info.prevStation,
+          toCode: toStationCode,
           from: fromStation.name,
           to: toStation.name,
           line: getLineName(info.lineCode),

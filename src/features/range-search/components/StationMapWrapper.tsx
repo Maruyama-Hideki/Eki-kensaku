@@ -1,7 +1,7 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import type { SearchResult, Station } from '@/types/station';
+import type { SearchResult, Station, RouteStep } from '@/types/station';
 
 // Leafletはクライアントサイドでのみ動作するためdynamic import
 const StationMap = dynamic(
@@ -21,6 +21,7 @@ interface StationMapWrapperProps {
   originStations: Station[];
   maxTime: number;
   selectedStationCode?: string | null;
+  selectedRoutes?: Record<string, RouteStep[]> | null;
 }
 
 export function StationMapWrapper({
@@ -28,6 +29,7 @@ export function StationMapWrapper({
   originStations,
   maxTime,
   selectedStationCode,
+  selectedRoutes,
 }: StationMapWrapperProps) {
   return (
     <StationMap
@@ -35,6 +37,7 @@ export function StationMapWrapper({
       originStations={originStations}
       maxTime={maxTime}
       selectedStationCode={selectedStationCode}
+      selectedRoutes={selectedRoutes}
     />
   );
 }

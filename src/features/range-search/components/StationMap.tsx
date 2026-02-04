@@ -1,10 +1,10 @@
 'use client';
 
-import { useEffect } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
+import { useEffect, useMemo } from 'react';
+import { MapContainer, TileLayer, Marker, Popup, Polyline, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import type { SearchResult, Station } from '@/types/station';
+import type { SearchResult, Station, RouteStep } from '@/types/station';
 
 // デフォルトマーカーアイコンの修正（Leafletのバグ対策）
 delete (L.Icon.Default.prototype as unknown as { _getIconUrl?: unknown })._getIconUrl;
@@ -142,17 +142,80 @@ function MapController({
   return null;
 }
 
+// 起点ごとの経路線の色
+const routeColors = [
+  '#3b82f6', // blue
+  '#10b981', // green
+  '#f59e0b', // amber
+  '#8b5cf6', // purple
+  '#ec4899', // pink
+];
+
 interface StationMapProps {
   results: SearchResult[];
   originStations: Station[];
   maxTime: number;
   selectedStationCode?: string | null;
+  selectedRoutes?: Record<string, RouteStep[]> | null;
 }
 
-export function StationMap({ results, originStations, maxTime, selectedStationCode }: StationMapProps) {
+export function StationMap({ results, originStations, maxTime, selectedStationCode, selectedRoutes }: StationMapProps) {
   // 東京駅をデフォルトの中心に
   const defaultCenter: [number, number] = [35.6812, 139.7671];
   const defaultZoom = 11;
+
+  // 駅コードから座標を取得するマップを作成
+  const stationCoordMap = useMemo(() => {
+    const map = new Map<string, [number, number]>();
+    // 起点駅を追加
+    for (const station of originStations) {
+      map.set(station.code, [station.lat, station.lon]);
+    }
+    // 結果の駅を追加
+    for (const result of results) {
+      map.set(result.station.code, [result.station.lat, result.station.lon]);
+    }
+    return map;
+  }, [originStations, results]);
+
+  // 経路から座標の配列を生成
+  const routePolylines = useMemo(() => {
+    if (!selectedRoutes) return [];
+
+    const polylines: { originCode: string; positions: [number, number][]; color: string }[] = [];
+    const originCodes = Object.keys(selectedRoutes);
+
+    originCodes.forEach((originCode, index) => {
+      const route = selectedRoutes[originCode];
+      if (!route || route.length === 0) return;
+
+      const positions: [number, number][] = [];
+
+      // 最初の駅を追加
+      const firstCoord = stationCoordMap.get(route[0].fromCode);
+      if (firstCoord) {
+        positions.push(firstCoord);
+      }
+
+      // 各ステップの到着駅を追加
+      for (const step of route) {
+        const coord = stationCoordMap.get(step.toCode);
+        if (coord) {
+          positions.push(coord);
+        }
+      }
+
+      if (positions.length >= 2) {
+        polylines.push({
+          originCode,
+          positions,
+          color: routeColors[index % routeColors.length],
+        });
+      }
+    });
+
+    return polylines;
+  }, [selectedRoutes, stationCoordMap]);
 
   return (
     <div className="h-[500px] w-full rounded-lg overflow-hidden border">
@@ -171,6 +234,19 @@ export function StationMap({ results, originStations, maxTime, selectedStationCo
           results={results}
           selectedStationCode={selectedStationCode}
         />
+
+        {/* 選択された駅への経路線 */}
+        {routePolylines.map((polyline) => (
+          <Polyline
+            key={`route-${polyline.originCode}`}
+            positions={polyline.positions}
+            pathOptions={{
+              color: polyline.color,
+              weight: 4,
+              opacity: 0.8,
+            }}
+          />
+        ))}
 
         {/* 到達可能駅のマーカー */}
         {results.map((result) => {

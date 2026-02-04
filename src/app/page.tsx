@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { SearchPanel, ResultsList, StationMapWrapper, useRangeSearch, useStations } from '@/features/range-search';
 import type { Station } from '@/types/station';
 
@@ -35,6 +35,13 @@ export default function Home() {
     // 同じ駅をクリックしたら選択解除、違う駅なら選択
     setSelectedStationCode((prev) => (prev === stationCode ? null : stationCode));
   };
+
+  // 選択された駅の経路情報を取得
+  const selectedRoutes = useMemo(() => {
+    if (!selectedStationCode) return null;
+    const selectedResult = results.find((r) => r.station.code === selectedStationCode);
+    return selectedResult?.routesFromOrigins || null;
+  }, [selectedStationCode, results]);
 
   return (
     <div className="min-h-screen bg-background">
@@ -80,6 +87,7 @@ export default function Home() {
                 originStations={selectedOrigins}
                 maxTime={searchParams.timeMinutes}
                 selectedStationCode={selectedStationCode}
+                selectedRoutes={selectedRoutes}
               />
             </div>
           </div>
