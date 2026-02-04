@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { SearchPanel, ResultsList, StationMapWrapper, useRangeSearch, useStations } from '@/features/range-search';
+import type { SortOrder } from '@/features/range-search/components/ResultsList';
 import type { Station } from '@/types/station';
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
     mode: 'or' | 'and';
   } | null>(null);
   const [selectedStationCode, setSelectedStationCode] = useState<string | null>(null);
+  const [sortOrder, setSortOrder] = useState<SortOrder>('asc');
 
   const handleSearch = (origins: string[], timeMinutes: number, mode: 'or' | 'and') => {
     // 選択された起点駅を保存（結果表示用）
@@ -34,6 +36,10 @@ export default function Home() {
   const handleStationClick = (stationCode: string) => {
     // 同じ駅をクリックしたら選択解除、違う駅なら選択
     setSelectedStationCode((prev) => (prev === stationCode ? null : stationCode));
+  };
+
+  const handleSortToggle = () => {
+    setSortOrder((prev) => (prev === 'asc' ? 'desc' : 'asc'));
   };
 
   return (
@@ -66,6 +72,8 @@ export default function Home() {
               mode={searchParams?.mode}
               selectedStationCode={selectedStationCode}
               onStationClick={handleStationClick}
+              sortOrder={sortOrder}
+              onSortToggle={handleSortToggle}
             />
           </div>
         </div>

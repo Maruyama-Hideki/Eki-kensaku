@@ -1,8 +1,13 @@
 'use client';
 
+import { useMemo } from 'react';
+import { ArrowUpDown } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import type { SearchResult, Station } from '@/types/station';
+
+export type SortOrder = 'asc' | 'desc';
 
 interface ResultsListProps {
   results: SearchResult[];
@@ -14,6 +19,8 @@ interface ResultsListProps {
   mode?: 'or' | 'and';
   selectedStationCode?: string | null;
   onStationClick?: (stationCode: string) => void;
+  sortOrder?: SortOrder;
+  onSortToggle?: () => void;
 }
 
 export function ResultsList({
@@ -26,7 +33,16 @@ export function ResultsList({
   mode,
   selectedStationCode,
   onStationClick,
+  sortOrder = 'asc',
+  onSortToggle,
 }: ResultsListProps) {
+  // ソート済みの結果
+  const sortedResults = useMemo(() => {
+    if (sortOrder === 'asc') {
+      return [...results].sort((a, b) => a.totalTime - b.totalTime);
+    }
+    return [...results].sort((a, b) => b.totalTime - a.totalTime);
+  }, [results, sortOrder]);
   if (isLoading) {
     return (
       <Card>
@@ -86,7 +102,22 @@ export function ResultsList({
   return (
     <Card>
       <CardHeader>
-        <CardTitle>検索結果 ({count}件)</CardTitle>
+        <div className="flex items-center justify-between">
+          <CardTitle>検索結果 ({count}件)</CardTitle>
+          {results.length > 0 && onSortToggle && (
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={onSortToggle}
+              className="flex items-center gap-1 text-muted-foreground hover:text-foreground"
+            >
+              <ArrowUpDown className="h-4 w-4" />
+              <span className="text-xs">
+                {sortOrder === 'asc' ? '早い順' : '遅い順'}
+              </span>
+            </Button>
+          )}
+        </div>
         {originStations.length > 0 && timeMinutes && (
           <p className="text-sm text-muted-foreground mt-1">
             <span className="font-medium text-foreground">{originNames}</span>
@@ -100,13 +131,13 @@ export function ResultsList({
         )}
       </CardHeader>
       <CardContent>
-        {results.length === 0 ? (
+        {sortedResults.length === 0 ? (
           <p className="text-muted-foreground text-center py-4">
             該当する駅が見つかりませんでした
           </p>
         ) : (
           <div className="space-y-3 max-h-[600px] overflow-y-auto">
-            {results.map((result) => (
+            {sortedResults.map((result) => (
               <StationCard
                 key={result.station.code}
                 result={result}
