@@ -1,4 +1,4 @@
-import type { Station, StationGraph, SearchResult } from '@/types/station';
+import type { Station, StationGraph, SearchResult, RouteStep } from '@/types/station';
 import { estimateTransferTime } from './transfer';
 
 /**
@@ -9,6 +9,16 @@ interface QueueEntry {
   stationCode: string;
   lineCode: string | null; // 現在乗っている路線（起点ではnull）
   totalTime: number;
+}
+
+/**
+ * 経路復元用の情報
+ */
+interface PathInfo {
+  prevStation: string | null;
+  prevLine: string | null;
+  lineCode: string | null;
+  time: number; // この区間の所要時間（乗り換え時間含む）
 }
 
 /**
@@ -99,12 +109,23 @@ export function searchReachableStations(
   const stateDistances = new Map<string, number>();
   // 駅ごとの最短時間（結果用）
   const stationDistances = new Map<string, number>();
+  // 経路復元用: 状態 -> 前の状態情報
+  const pathMap = new Map<string, PathInfo>();
+  // 駅ごとの最短経路到達時の状態（どの路線で到達したか）
+  const bestStateForStation = new Map<string, string>();
   const queue = new PriorityQueue();
 
   // 起点を初期化（どの路線にも乗っていない状態）
   const initialState = `${originCode}_null`;
   stateDistances.set(initialState, 0);
   stationDistances.set(originCode, 0);
+  bestStateForStation.set(originCode, initialState);
+  pathMap.set(initialState, {
+    prevStation: null,
+    prevLine: null,
+    lineCode: null,
+    time: 0,
+  });
   queue.push({ stationCode: originCode, lineCode: null, totalTime: 0 });
 
   while (!queue.isEmpty()) {
@@ -126,6 +147,7 @@ export function searchReachableStations(
     const edges = graph.get(current.stationCode) || [];
     for (const edge of edges) {
       let newTime = current.totalTime + edge.time;
+      let segmentTime = edge.time;
 
       // 乗り換えが必要かチェック
       const needsTransfer =
@@ -135,6 +157,7 @@ export function searchReachableStations(
         // 乗り換え時間を加算（現在の駅での乗り換え）
         const transferTime = estimateTransferTime(currentStation);
         newTime += transferTime;
+        segmentTime += transferTime;
       }
 
       // 最大時間を超えるならスキップ
@@ -148,10 +171,19 @@ export function searchReachableStations(
       if (existingStateTime === undefined || newTime < existingStateTime) {
         stateDistances.set(newState, newTime);
 
+        // 経路情報を保存
+        pathMap.set(newState, {
+          prevStation: current.stationCode,
+          prevLine: current.lineCode,
+          lineCode: edge.line,
+          time: segmentTime,
+        });
+
         // 駅ごとの最短時間も更新
         const existingStationTime = stationDistances.get(edge.station);
         if (existingStationTime === undefined || newTime < existingStationTime) {
           stationDistances.set(edge.station, newTime);
+          bestStateForStation.set(edge.station, newState);
         }
 
         queue.push({
@@ -163,15 +195,58 @@ export function searchReachableStations(
     }
   }
 
+  // 路線コードから路線名を取得するヘルパー
+  const getLineName = (lineCode: string): string => {
+    for (const station of stationMap.values()) {
+      const line = station.lines.find((l) => l.code === lineCode);
+      if (line) return line.name;
+    }
+    return lineCode;
+  };
+
+  // 経路を復元する関数
+  const reconstructRoute = (stationCode: string): RouteStep[] => {
+    const route: RouteStep[] = [];
+    const bestState = bestStateForStation.get(stationCode);
+    if (!bestState) return route;
+
+    let currentState = bestState;
+
+    while (currentState) {
+      const info = pathMap.get(currentState);
+      if (!info || info.prevStation === null) break;
+
+      const fromStation = stationMap.get(info.prevStation);
+      const [toStationCode] = currentState.split('_');
+      const toStation = stationMap.get(toStationCode);
+
+      if (fromStation && toStation && info.lineCode) {
+        route.unshift({
+          from: fromStation.name,
+          to: toStation.name,
+          line: getLineName(info.lineCode),
+          time: info.time,
+        });
+      }
+
+      // 前の状態へ
+      currentState = `${info.prevStation}_${info.prevLine}`;
+    }
+
+    return route;
+  };
+
   // 結果を構築
   const results: SearchResult[] = [];
   for (const [stationCode, totalTime] of stationDistances) {
     const station = stationMap.get(stationCode);
     if (station) {
+      const route = reconstructRoute(stationCode);
       results.push({
         station,
         totalTime,
         timesFromOrigins: { [originCode]: totalTime },
+        routesFromOrigins: route.length > 0 ? { [originCode]: route } : undefined,
       });
     }
   }

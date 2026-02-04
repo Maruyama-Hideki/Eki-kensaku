@@ -41,14 +41,24 @@ export async function searchMultipleOriginsParallel(
       if (existing) {
         // 既存の結果に時間情報を追加
         existing.timesFromOrigins[originCode] = result.totalTime;
+        // 経路情報をマージ
+        if (result.routesFromOrigins) {
+          existing.routesFromOrigins = {
+            ...existing.routesFromOrigins,
+            ...result.routesFromOrigins,
+          };
+        }
         // 最短時間を更新
-        existing.totalTime = Math.min(existing.totalTime, result.totalTime);
+        if (result.totalTime < existing.totalTime) {
+          existing.totalTime = result.totalTime;
+        }
       } else {
         // 新規追加
         mergedResults.set(stationCode, {
           station: result.station,
           totalTime: result.totalTime,
           timesFromOrigins: { [originCode]: result.totalTime },
+          routesFromOrigins: result.routesFromOrigins,
         });
       }
     }

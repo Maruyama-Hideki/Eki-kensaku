@@ -61,13 +61,23 @@ export interface GraphEdge {
 export type StationGraph = Map<string, GraphEdge[]>;
 
 /**
+ * 経路の1ステップ
+ */
+export interface RouteStep {
+  from: string;      // 出発駅名
+  to: string;        // 到着駅名
+  line: string;      // 路線名
+  time: number;      // この区間の所要時間
+}
+
+/**
  * 検索結果の駅情報
  */
 export interface SearchResult {
   station: Station;
   totalTime: number;  // 起点からの最短時間（分）
   timesFromOrigins: Record<string, number>;  // 各起点からの時間
-  path?: string[];  // 経路（駅コードの配列）
+  routesFromOrigins?: Record<string, RouteStep[]>;  // 各起点からの経路
 }
 
 /**
