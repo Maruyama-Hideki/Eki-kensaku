@@ -1,10 +1,11 @@
 'use client';
 
 import { useMemo, useState, useEffect } from 'react';
-import { ArrowUpDown } from 'lucide-react';
+import { ArrowUpDown, ChevronDown } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import type { SearchResult, Station, RouteStep } from '@/types/station';
 
 export type SortOrder = 'asc' | 'desc';
@@ -192,7 +193,8 @@ export function ResultsList({
         {lineStats.length > 0 && (
           <div className="mt-3">
             <p className="text-xs text-muted-foreground mb-2">到着路線で絞り込み:</p>
-            <div className="flex flex-wrap gap-1">
+            <div className="flex flex-wrap gap-1 items-center">
+              {/* すべて */}
               <Button
                 variant={selectedLine === null ? 'default' : 'outline'}
                 size="sm"
@@ -202,7 +204,8 @@ export function ResultsList({
                 すべて
                 <span className="ml-1 text-muted-foreground">({count})</span>
               </Button>
-              {lineStats.map(({ line, count: lineCount }) => (
+              {/* 上位3路線 */}
+              {lineStats.slice(0, 3).map(({ line, count: lineCount }) => (
                 <Button
                   key={line}
                   variant={selectedLine === line ? 'default' : 'outline'}
@@ -214,6 +217,39 @@ export function ResultsList({
                   <span className="ml-1 text-muted-foreground">({lineCount})</span>
                 </Button>
               ))}
+              {/* その他の路線（プルダウン） */}
+              {lineStats.length > 3 && (
+                <Popover>
+                  <PopoverTrigger asChild>
+                    <Button
+                      variant={selectedLine && !lineStats.slice(0, 3).some(l => l.line === selectedLine) ? 'default' : 'outline'}
+                      size="sm"
+                      className="text-xs h-7 px-2"
+                    >
+                      {selectedLine && !lineStats.slice(0, 3).some(l => l.line === selectedLine)
+                        ? selectedLine
+                        : 'その他'}
+                      <ChevronDown className="ml-1 h-3 w-3" />
+                    </Button>
+                  </PopoverTrigger>
+                  <PopoverContent className="w-56 p-2" align="start">
+                    <div className="max-h-60 overflow-y-auto space-y-1">
+                      {lineStats.slice(3).map(({ line, count: lineCount }) => (
+                        <Button
+                          key={line}
+                          variant={selectedLine === line ? 'default' : 'ghost'}
+                          size="sm"
+                          onClick={() => handleLineClick(line)}
+                          className="w-full justify-between text-xs h-8"
+                        >
+                          <span className="truncate">{line}</span>
+                          <span className="text-muted-foreground ml-2">({lineCount})</span>
+                        </Button>
+                      ))}
+                    </div>
+                  </PopoverContent>
+                </Popover>
+              )}
             </div>
           </div>
         )}
