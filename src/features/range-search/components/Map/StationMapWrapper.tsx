@@ -5,7 +5,7 @@ import type { SearchResult, Station } from '@/types/station';
 
 // Leafletはクライアントサイドでのみ動作するためdynamic import
 const StationMap = dynamic(
-  () => import('./Map/StationMap').then((mod) => mod.StationMap),
+  () => import('./StationMap').then((mod) => mod.StationMap),
   {
     ssr: false,
     loading: () => (
