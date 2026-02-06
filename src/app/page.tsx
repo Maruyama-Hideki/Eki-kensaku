@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { SearchPanel, ResultsList, StationMapWrapper, useRangeSearch, useStations } from '@/features/range-search';
-import type { SortOrder } from '@/features/range-search/components/ResultsList';
+import type { SortOrder } from '@/features/range-search/components/Result/ResultsList';
 import type { OriginGroup } from '@/features/range-search/hooks/useRangeSearch';
 import type { Station } from '@/types/station';
 
