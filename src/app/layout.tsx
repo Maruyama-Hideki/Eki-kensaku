@@ -14,14 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-<<<<<<< HEAD
-  title: "駅範囲検索アプリ",
-  description: "指定時間内に到達可能な駅を検索",
-  icons: [],
-=======
   title: "中間駅検索",
   description: "みんなの中間がすぐわかる！待ち合わせ、家の候補地を検索！",
->>>>>>> 5ad431f4824383f172cc4368b86c4ea0ef80bd4e
+  icons: [],
 };
 
 export default function RootLayout({
